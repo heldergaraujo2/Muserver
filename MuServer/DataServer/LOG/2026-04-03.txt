@@ -1,0 +1,8 @@
+11:48:29 [ServerManager][0] DelServer (127.0.0.1)
+11:48:44 [ServerManager][0] AddServer (127.0.0.1)
+11:48:44 [ServerManager][0] ServerInfo (Test) (55902) (1)
+15:31:59 EXEC WZ_RenameCharacter 'thecrims2','KS100CHORO','TheCrims'
+15:31:59 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'PK_CustomAttack'. Cannot insert duplicate key in object 'dbo.CustomAttack'. The duplicate key value is (TheCrims).
+15:32:24 INSERT INTO CustomQuest (Name,quest,monstercount,monstercount2,monstercount3,monstercount4,monstercount5) VALUES ('KS100CHORO',17,99999,99999,99999,99999,99999)
+15:32:24 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomQuest_Character". The conflict occurred in database "MuOnline", table "dbo.Character", column 'Name'.
+15:32:24 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated.

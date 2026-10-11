@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Package Box C"		0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	24	0	0	0	1	7	2	// Red Spirit Helm
+8	24	0	0	0	1	7	2	// Red Sprit Armor
+9	24	0	0	0	1	7	2	// Red Spirit Pants
+10	24	0	0	0	1	7	2	// Red Spirit Gloves
+11	24	0	0	0	1	7	2	// Red Spirit Boots
+end

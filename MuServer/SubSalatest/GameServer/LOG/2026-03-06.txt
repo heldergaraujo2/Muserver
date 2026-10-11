@@ -1,0 +1,156 @@
+00:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+05:40:13 [Obj][13001] AddClient (206.168.34.119)
+05:40:18 [Obj][13001] DelClient (206.168.34.119)
+05:40:23 [Obj][13000] AddClient (206.168.34.119)
+05:40:34 [Obj][13000] DelClient (206.168.34.119)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+07:41:27 [ServerInfo] Monster loaded successfully
+07:41:27 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+07:41:27 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+07:41:28 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 58, Y: 7)
+07:41:28 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+07:53:18 [FakeOnline] Loaded successfully
+07:53:18 [ServerInfo] Custom loaded successfully
+08:46:53 [Obj][13002] AddClient (177.200.34.53)
+08:46:54 [Obj][13002] AddAccount (hellder)
+08:46:55 [Obj][13002] LogInCharacter (Saffe)
+08:48:35 [ServerInfo] Map loaded successfully
+08:48:39 [ServerInfo] Move loaded successfully
+08:48:43 [ServerInfo] CashShop loaded successfully
+08:48:43 [ServerInfo] ChaosMix loaded successfully
+08:48:43 [ServerInfo] Character loaded successfully
+08:48:43 [ServerInfo] Command loaded successfully
+08:48:44 [ServerInfo] Common loaded successfully
+08:48:44 [FakeOnline] Loaded successfully
+08:48:44 [ServerInfo] Custom loaded successfully
+08:48:44 [ServerInfo] Discord loaded successfully
+08:48:44 [ServerInfo] Effect loaded successfully
+08:48:44 [ServerInfo] Event loaded successfully
+08:48:44 [ServerInfo] EventItemBag loaded successfully
+08:48:44 [ServerInfo] Hack loaded successfully
+08:48:44 [ServerInfo] Message loaded successfully
+08:48:44 [ServerInfo] Map loaded successfully
+08:48:44 [ServerInfo] Message loaded successfully
+08:48:44 [ServerInfo] Monster loaded successfully
+08:48:44 [ServerInfo] Move loaded successfully
+08:48:44 [ServerInfo] Quest loaded successfully
+08:48:44 [ServerInfo] Shop loaded successfully
+08:48:44 [ServerInfo] Skill loaded successfully
+08:48:44 [ServerInfo] Util loaded successfully
+08:48:44 [ReadBotInfo] BotSystem loaded successfully
+08:49:10 [Obj][13001] AddClient (177.200.34.53)
+08:49:11 [Obj][13002] LogOutCharacter (Saffe)
+08:49:11 [Obj][13002] DelAccount (hellder)
+08:49:11 [Obj][13002] DelClient (177.200.34.53)
+08:49:13 [Obj][13001] AddAccount (hellder)
+08:49:14 [Obj][13001] LogInCharacter (Saffe)
+08:53:23 [Obj][13001] LogOutCharacter (Saffe)
+08:53:23 [Obj][13001] DelAccount (hellder)
+08:53:23 [Obj][13001] DelClient (177.200.34.53)
+09:06:59 [FakeOnline] Loaded successfully
+09:06:59 [ServerInfo] Custom loaded successfully
+13:08:33 [Obj][13000] AddClient (177.200.34.53)
+13:08:39 [Obj][13000] AddAccount (videodv)
+13:08:41 [Obj][13000] LogInCharacter (AdmSaffe)
+13:51:10 [Obj][13000] LogOutCharacter (AdmSaffe)
+13:51:10 [Obj][13000] DelAccount (videodv)
+13:51:10 [Obj][13000] DelClient (177.200.34.53)
+13:51:10 Game response error causes conclusion [13000][][][177.200.34.53]
+13:55:02 [Obj][13002] AddClient (177.200.34.53)
+13:55:03 [Obj][13002] AddAccount (videodv)
+13:55:04 [Obj][13002] LogInCharacter (AdmSaffe)
+16:17:03 [Obj][13002] LogOutCharacter (AdmSaffe)
+16:17:03 [Obj][13002] DelAccount (videodv)
+16:17:03 [Obj][13002] DelClient (177.200.34.53)
+16:17:33 [Obj][13001] AddClient (177.200.34.53)
+16:17:43 [Obj][13001] AddAccount (videodv)
+16:17:43 [Obj][13001] LogInCharacter (AdmSaffe)
+17:55:22 [ServerInfo] EventItemBag loaded successfully
+17:58:20 [Obj][13001] LogOutCharacter (AdmSaffe)
+17:58:20 [Obj][13001] DelAccount (videodv)
+17:58:20 [Obj][13001] DelClient (177.200.34.53)
+17:58:28 [Discord] Connecting to the server...
+17:58:38 [Discord] Connecting to the server...
+17:58:43 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:58:47 [Discord] Connection successfully
+17:58:50 [Obj][13000] AddClient (177.200.34.53)
+17:59:01 [Obj][13000] AddAccount (videodv)
+17:59:01 [Obj][13000] LogInCharacter (AdmSaffe)
+17:59:49 [ServerInfo] EventItemBag loaded successfully
+18:01:33 [ServerInfo] EventItemBag loaded successfully
+18:09:19 [ServerInfo] EventItemBag loaded successfully
+18:10:52 [ServerInfo] Monster loaded successfully
+18:10:52 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+18:10:52 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+18:10:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+18:10:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+18:11:44 [ServerInfo] EventItemBag loaded successfully
+18:15:07 [ServerInfo] EventItemBag loaded successfully
+18:17:40 [ServerInfo] EventItemBag loaded successfully
+18:18:52 [ServerInfo] EventItemBag loaded successfully
+18:19:47 [ServerInfo] EventItemBag loaded successfully
+18:24:47 [ServerInfo] EventItemBag loaded successfully
+18:25:18 [ServerInfo] EventItemBag loaded successfully
+18:25:49 [ServerInfo] EventItemBag loaded successfully
+18:25:52 [ServerInfo] Monster loaded successfully
+18:25:52 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+18:25:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+18:25:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+18:32:03 [ServerInfo] EventItemBag loaded successfully
+18:33:50 [ServerInfo] EventItemBag loaded successfully
+18:34:24 [ServerInfo] EventItemBag loaded successfully
+18:53:58 [ServerInfo] Effect loaded successfully
+18:54:05 [ServerInfo] Item loaded successfully
+18:54:07 [ServerInfo] Monster loaded successfully
+18:54:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 198, Y: 114)
+18:54:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+18:54:14 [ServerInfo] EventItemBag loaded successfully
+18:54:41 [ServerInfo] Monster loaded successfully
+18:54:41 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+18:54:45 [ServerInfo] Event loaded successfully
+18:54:49 [ServerInfo] Monster loaded successfully
+18:54:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+18:54:53 [ServerInfo] CashShop loaded successfully
+18:54:53 [ServerInfo] ChaosMix loaded successfully
+18:54:53 [ServerInfo] Character loaded successfully
+18:54:53 [ServerInfo] Command loaded successfully
+18:54:53 [ServerInfo] Common loaded successfully
+18:54:53 [FakeOnline] Loaded successfully
+18:54:53 [ServerInfo] Custom loaded successfully
+18:54:53 [ServerInfo] Discord loaded successfully
+18:54:53 [ServerInfo] Effect loaded successfully
+18:54:53 [ServerInfo] Event loaded successfully
+18:54:53 [ServerInfo] EventItemBag loaded successfully
+18:54:53 [ServerInfo] Hack loaded successfully
+18:54:53 [ServerInfo] Message loaded successfully
+18:54:53 [ServerInfo] Map loaded successfully
+18:54:53 [ServerInfo] Message loaded successfully
+18:54:54 [ServerInfo] Monster loaded successfully
+18:54:54 [ServerInfo] Move loaded successfully
+18:54:54 [ServerInfo] Quest loaded successfully
+18:54:54 [ServerInfo] Shop loaded successfully
+18:54:54 [ServerInfo] Skill loaded successfully
+18:54:54 [ServerInfo] Util loaded successfully
+18:54:54 [ReadBotInfo] BotSystem loaded successfully
+19:51:37 [Obj][13000] LogOutCharacter (AdmSaffe)
+19:51:37 [Obj][13000] DelAccount (videodv)
+19:51:37 [Obj][13000] DelClient (177.200.34.53)
+20:19:47 [Obj][13002] AddClient (177.200.34.53)
+20:19:56 [Obj][13002] AddAccount (videodv)
+20:19:57 [Obj][13002] LogInCharacter (AdmSaffe)
+20:57:28 [ServerInfo] Monster loaded successfully
+20:57:28 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+21:19:39 [Obj][13001] AddClient (177.200.34.53)
+21:19:42 [Obj][13001] AddAccount (hellder)
+21:19:43 [Obj][13001] LogInCharacter (Saffe)
+21:26:12 [hellder][Saffe] Kill [videodv][AdmSaffe]
+21:26:23 [hellder][Saffe] Kill [videodv][AdmSaffe]
+21:26:34 [hellder][Saffe] Kill [videodv][AdmSaffe]
+21:26:49 [hellder][Saffe] Kill [videodv][AdmSaffe]
+21:27:00 [hellder][Saffe] Kill [videodv][AdmSaffe]
+21:27:48 [Obj][13001] LogOutCharacter (Saffe)
+21:27:48 [Obj][13001] DelAccount (hellder)
+21:27:48 [Obj][13001] DelClient (177.200.34.53)
+21:33:09 [Obj][13002] LogOutCharacter (AdmSaffe)
+21:33:09 [Obj][13002] DelAccount (videodv)
+21:33:09 [Obj][13002] DelClient (177.200.34.53)

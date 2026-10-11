@@ -1,0 +1,55 @@
+19:08:43 [FAKE ONLINE LOG] Start
+19:08:43 [ServerInfo] CashShop loaded successfully
+19:08:43 [ServerInfo] ChaosMix loaded successfully
+19:08:43 [ServerInfo] Character loaded successfully
+19:08:43 [FakeOnline] Loaded successfully
+19:08:43 [ServerInfo] Custom loaded successfully
+19:08:43 [ServerInfo] Command loaded successfully
+19:08:44 [ServerInfo] Common loaded successfully
+19:08:44 [ServerInfo] Discord loaded successfully
+19:08:44 [ServerInfo] Effect loaded successfully
+19:08:44 [ServerInfo] Event loaded successfully
+19:08:44 [ServerInfo] EventItemBag loaded successfully
+19:08:44 [ServerInfo] Hack loaded successfully
+19:08:44 [ServerInfo] Item loaded successfully
+19:08:44 [ServerInfo] Message loaded successfully
+19:08:44 [ServerInfo] Map loaded successfully
+19:08:44 [ServerInfo] Terrain loaded successfully
+19:08:44 [ServerInfo] Monster loaded successfully
+19:08:44 [ServerInfo] Move loaded successfully
+19:08:44 [ServerInfo] Quest loaded successfully
+19:08:44 [ServerInfo] Script loaded successfully
+19:08:44 [ServerInfo] Shop loaded successfully
+19:08:44 [ServerInfo] Skill loaded successfully
+19:08:44 [ServerInfo] Util loaded successfully
+19:08:44 [ReadBotInfo] BotSystem loaded successfully
+19:08:44 [ServerInfo] Custom Attack offline restored successfully
+19:08:44 [ServerInfo] Custom Store offline restored successfully
+19:08:45 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+19:08:55 [Obj][13000] AddClient (177.200.39.232)
+19:08:56 [Obj][13000] AddAccount (hellder)
+19:08:58 [Obj][13000] LogInCharacter (Saffe)
+19:09:31 [ServerInfo] Map loaded successfully
+19:13:05 [Obj][13000] LogOutCharacter (Saffe)
+19:13:05 [Obj][13000] DelAccount (hellder)
+19:13:05 [Obj][13000] DelClient (177.200.39.232)
+19:13:31 [Obj][13000] AddClient (177.200.39.232)
+19:13:36 [Obj][13000] AddAccount (hellder)
+19:13:38 [Obj][13000] LogInCharacter (Saffe)
+19:13:54 [Discord] Connection successfully
+19:17:39 [ServerInfo] Move loaded successfully
+19:18:27 [ServerInfo] Move loaded successfully
+19:24:24 [ServerInfo] Move loaded successfully
+19:38:07 [ServerInfo] Move loaded successfully
+19:40:19 [Obj][13000] LogOutCharacter (Saffe)
+19:40:19 [Obj][13000] DelAccount (hellder)
+19:40:19 [Obj][13000] DelClient (177.200.39.232)
+19:47:09 [Obj][13000] AddClient (177.200.39.232)
+19:47:10 [Obj][13000] AddAccount (hellder)
+19:47:11 [Obj][13000] LogInCharacter (Saffe)
+19:48:15 [ServerInfo] Map loaded successfully
+19:48:50 [ServerInfo] Move loaded successfully
+19:51:51 [ServerInfo] Move loaded successfully
+19:53:24 [Obj][13000] LogOutCharacter (Saffe)
+19:53:24 [Obj][13000] DelAccount (hellder)
+19:53:24 [Obj][13000] DelClient (177.200.39.232)

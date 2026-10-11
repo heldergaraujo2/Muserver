@@ -1,0 +1,7 @@
+00:21:43 [SocketManager] WSARecv() failed with error: 10054
+12:05:26 [Connection] connect() failed with error: 10061
+13:59:38 [SocketManager] Server started at port [55902]
+14:06:05 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+14:14:02 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+16:34:35 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+17:06:06 [SocketManager] Protocol header error (Index: 13000, Header: 22)

@@ -1,0 +1,28 @@
+14:50:59 [SocketManager] Server started at port [55970]
+14:51:02 [ServerManager][0] AddServer (127.0.0.1)
+14:51:02 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+14:51:06 [ServerManager][1] AddServer (127.0.0.1)
+14:51:06 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+15:00:51 [SocketManager] Server started at port [55970]
+15:00:54 [ServerManager][0] AddServer (127.0.0.1)
+15:00:54 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+15:00:57 [ServerManager][1] AddServer (127.0.0.1)
+15:00:57 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+15:26:18 [ServerManager][0] DelServer (127.0.0.1)
+15:27:00 [SocketManager] Server started at port [55970]
+15:27:03 [ServerManager][0] AddServer (127.0.0.1)
+15:27:03 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+15:27:06 [ServerManager][1] AddServer (127.0.0.1)
+15:27:06 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+15:42:59 [SocketManager] Server started at port [55970]
+15:43:02 [ServerManager][0] AddServer (127.0.0.1)
+15:43:02 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+15:43:05 [ServerManager][1] AddServer (127.0.0.1)
+15:43:05 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+17:07:48 Account admin logged with global password!
+17:50:45 Account admin logged with global password!
+17:52:43 Account admin logged with global password!
+17:54:03 Account admin logged with global password!
+18:31:26 Account admin logged with global password!
+18:35:44 Account admin logged with global password!
+20:20:05 [SocketManager] WSAAccept() failed with error: 10061

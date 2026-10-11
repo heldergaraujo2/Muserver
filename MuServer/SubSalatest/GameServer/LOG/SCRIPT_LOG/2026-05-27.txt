@@ -1,0 +1,60 @@
+19:55:52 [MusaffeDungeon1] Script desligado.
+19:55:52 [MusaffeDungeon2] Script desligado.
+19:55:52 [MusaffeDungeon3] Script desligado.
+19:55:52 [MusaffeDungeon4] Script desligado.
+19:56:01 [SCRIPT LOG] Start
+19:56:01 [Loader] Lua Gameserver socket ready!
+19:56:01 [Loader] Load success System\ScriptCore
+19:56:01 [Loader] Load success System\ProtocolCore
+19:56:01 [Loader] Load success Utils\Database
+19:56:01 [Loader] Load success Utils\DatabaseAsync
+19:56:01 [Loader] Load success Utils\Cron
+19:56:01 [Loader] Load success Utils\Functions
+19:56:01 [Loader] Load success Utils\Schedule
+19:56:01 [Loader] Load success Scripts\CalCharacter
+19:56:01 [Loader] Load success Scripts\Musaffe\Config
+19:56:01 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+19:56:01 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+19:56:01 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+19:56:01 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+19:56:01 [Loader] Load success Scripts\Musaffe\Config
+19:56:01 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+19:56:01 [Loader] Load success Scripts\Musaffe\Config
+19:56:01 [Loader] Load folder success Scripts\Musaffe\
+19:56:01 [Loader] Load success Scripts\TransformationRing\Config
+19:56:01 [Loader] Load folder success Scripts\TransformationRing\
+19:56:01 Connected to database
+19:56:01 Connected to Async database
+19:56:01 Teste query: ZZZZZZZZZZ
+19:56:01 [TransformationRing] Script carregado.
+19:56:01 [ServerInfo] Script loaded successfully
+20:47:52 [MusaffeDungeon1] Script desligado.
+20:47:52 [MusaffeDungeon2] Script desligado.
+20:47:52 [MusaffeDungeon3] Script desligado.
+20:47:52 [MusaffeDungeon4] Script desligado.
+20:48:03 [SCRIPT LOG] Start
+20:48:03 [Loader] Lua Gameserver socket ready!
+20:48:03 [Loader] Load success System\ScriptCore
+20:48:03 [Loader] Load success System\ProtocolCore
+20:48:03 [Loader] Load success Utils\Database
+20:48:03 [Loader] Load success Utils\DatabaseAsync
+20:48:03 [Loader] Load success Utils\Cron
+20:48:03 [Loader] Load success Utils\Functions
+20:48:03 [Loader] Load success Utils\Schedule
+20:48:03 [Loader] Load success Scripts\CalCharacter
+20:48:03 [Loader] Load success Scripts\Musaffe\Config
+20:48:03 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+20:48:03 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+20:48:03 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+20:48:03 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+20:48:03 [Loader] Load success Scripts\Musaffe\Config
+20:48:03 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+20:48:03 [Loader] Load success Scripts\Musaffe\Config
+20:48:03 [Loader] Load folder success Scripts\Musaffe\
+20:48:03 [Loader] Load success Scripts\TransformationRing\Config
+20:48:03 [Loader] Load folder success Scripts\TransformationRing\
+20:48:03 Connected to database
+20:48:03 Connected to Async database
+20:48:03 Teste query: ZZZZZZZZZZ
+20:48:03 [TransformationRing] Script carregado.
+20:48:03 [ServerInfo] Script loaded successfully

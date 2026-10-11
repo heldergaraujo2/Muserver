@@ -1,0 +1,14 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"IG Side Boss 4"	0	100		2		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+12	136	0	0	0	0	0	0	// Bundled Jewel of Life
+12	139	0	0	0	0	0	0	// Bundled Gemstone
+12	137	0	0	0	0	0	0	// Bundled Jewel of Creation
+end

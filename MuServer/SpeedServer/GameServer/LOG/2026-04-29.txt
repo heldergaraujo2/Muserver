@@ -1,0 +1,117 @@
+00:54:32 [Obj][13005] LogOutCharacter (Liliquinha)
+00:54:32 [Obj][13005] DelAccount (maiconj5)
+00:54:32 [Obj][13005] DelClient (45.238.137.31)
+01:20:25 [Obj][13013] AddClient (66.132.195.49)
+01:20:28 [Obj][13013] DelClient (66.132.195.49)
+01:20:31 [Obj][13008] AddClient (66.132.195.49)
+01:20:41 [Obj][13008] DelClient (66.132.195.49)
+01:26:23 [Obj][13019] AddClient (45.238.137.31)
+01:26:25 [Obj][13019] AddAccount (maiconj5)
+01:26:28 [Obj][13019] LogInCharacter (Liliquinha)
+01:33:45 [Obj][13003] LogOutCharacter (NAOSEIJOGA)
+03:29:06 [Obj][13001] AddClient (45.191.9.91)
+03:29:12 [Obj][13001] AddAccount (morota25)
+03:29:16 [Obj][13001] LogInCharacter (AzyzzELF)
+03:32:21 [Obj][13001] LogOutCharacter (AzyzzELF)
+03:32:21 [Obj][13001] DelAccount (morota25)
+03:32:21 [Obj][13001] DelClient (45.191.9.91)
+03:37:06 [Obj][13010] AddClient (45.191.9.91)
+03:37:07 [Obj][13010] AddAccount (morota25)
+03:37:11 [Obj][13010] LogInCharacter (AzyzzELF)
+03:38:33 [Obj][13010] LogOutCharacter (AzyzzELF)
+03:38:33 [Obj][13010] DelAccount (morota25)
+03:38:33 [Obj][13010] DelClient (45.191.9.91)
+07:13:33 [BotBuffer] CharName: CoToNeTe -ADD_GREATER_DEFENSE Time: 720
+07:13:33 [BotBuffer] CharName: CoToNeTe - ADD_GREATER_DAMAGE Time: 720
+07:13:35 [BotBuffer] CharName: CoToNeTe - ADD_SKILL_MANA Time: 720
+07:13:38 [BotBuffer] CharName: CoToNeTe - ADD_GREATER_LIFE Time: 720
+07:13:40 [BotBuffer] CharName: CoToNeTe - ADD_CRITICAL_DAMAGE Time: 720
+07:13:43 [BotBuffer] CharName: CoToNeTe - ADD_DAMAGE_REFLECT Time: 720
+07:13:45 [BotBuffer] CharName: CoToNeTe - ADD_FITNESS Time: 720
+08:34:45 [Obj][13003] LogOutCharacter (NAOSEIJOGA)
+08:34:58 [Obj][13003] DelAccount (bruno747)
+08:34:58 [Obj][13003] DelClient (179.116.80.165)
+09:44:39 [Obj][13000] AddClient (79.127.208.26)
+09:44:40 [Obj][13000] AddAccount (lucasf172)
+09:44:42 [Obj][13000] LogInCharacter (Comand0)
+09:44:54 [Obj][13000] LogOutCharacter (Comand0)
+09:45:01 [Obj][13000] LogOutCharacter (Comando)
+09:45:08 [Obj][13000] LogOutCharacter (Comando)
+09:45:12 [Obj][13000] LogInCharacter (Comand0)
+09:45:23 [Obj][13000] LogOutCharacter (Comand0)
+09:45:23 [Obj][13000] DelAccount (lucasf172)
+09:45:23 [Obj][13000] DelClient (79.127.208.26)
+10:06:45 [Obj][13015] LogOutCharacter (CoToNeTe)
+11:08:05 [Obj][13015] LogOutCharacter (CoToNeTe)
+11:08:34 [Obj][13015] DelAccount (vithor)
+11:08:34 [Obj][13015] DelClient (168.196.88.60)
+12:57:08 [Obj][13007] LogOutCharacter (BayBlade)
+12:57:08 [Obj][13007] DelAccount (locotmx30)
+12:57:08 [Obj][13007] DelClient (45.191.9.91)
+12:57:19 [Obj][13017] LogOutCharacter (FuscaPreto)
+12:57:19 [Obj][13017] DelAccount (locotmx25)
+12:57:19 [Obj][13017] DelClient (45.191.9.91)
+12:57:38 [Obj][13012] AddClient (45.191.9.91)
+12:57:48 [Obj][13012] AddAccount (locotmx30)
+12:57:48 [Obj][13012] LogInCharacter (BayBlade)
+12:57:52 [Obj][13002] AddClient (45.191.9.91)
+12:58:02 [Obj][13002] AddAccount (locotmx25)
+12:58:03 [Obj][13002] LogInCharacter (FuscaPreto)
+13:12:53 [Obj][13002] LogOutCharacter (FuscaPreto)
+13:12:53 [Obj][13002] DelAccount (locotmx25)
+13:12:53 [Obj][13002] DelClient (45.191.9.91)
+13:12:57 [Obj][13006] LogOutCharacter (AUR0R4SM)
+13:12:57 [Obj][13006] DelAccount (locotmx)
+13:12:57 [Obj][13006] DelClient (45.191.9.91)
+13:13:21 [Obj][13004] AddClient (45.191.9.91)
+13:13:31 [Obj][13004] AddAccount (locotmx)
+13:13:31 [Obj][13004] LogInCharacter (AUR0R4SM)
+13:14:39 [Obj][13012] LogOutCharacter (BayBlade)
+13:14:39 [Obj][13012] DelAccount (locotmx30)
+13:14:39 [Obj][13012] DelClient (45.191.9.91)
+13:15:04 [Obj][13014] AddClient (45.191.9.91)
+13:15:14 [Obj][13014] AddAccount (locotmx25)
+13:15:14 [Obj][13014] LogInCharacter (FuscaPreto)
+13:15:24 [Obj][13011] AddClient (45.191.9.91)
+13:15:34 [Obj][13011] AddAccount (locotmx30)
+13:15:35 [Obj][13011] LogInCharacter (BayBlade)
+15:34:14 [Obj][13018] AddClient (38.252.84.9)
+15:34:16 [Obj][13018] DelClient (38.252.84.9)
+15:50:24 [Obj][13009] AddClient (208.87.243.191)
+15:50:24 [Obj][13009] DelClient (208.87.243.191)
+16:46:51 [Obj][13005] AddClient (208.87.243.191)
+16:46:51 [Obj][13005] DelClient (208.87.243.191)
+19:30:00 [ CRYWOLF ] SYNC Occupation: 1, State: 1
+19:35:00 [ CRYWOLF ] SYNC Occupation: 2, State: 2
+19:36:00 [ CRYWOLF ] SYNC Occupation: 2, State: 3
+19:38:00 [ CRYWOLF ] SYNC Occupation: 2, State: 4
+19:48:21 [ CRYWOLF ] SYNC Occupation: 0, State: 5
+19:48:36 [ CRYWOLF ] SYNC Occupation: 0, State: 6
+19:48:46 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+20:49:59 [BotBuffer] CharName: FuscaPreto - ADD_FITNESS Time: 720
+20:50:01 [BotBuffer] CharName: FuscaPreto - ADD_CRITICAL_DAMAGE Time: 720
+20:50:03 [BotBuffer] CharName: FuscaPreto - ADD_DAMAGE_REFLECT Time: 720
+20:50:05 [BotBuffer] CharName: FuscaPreto - ADD_GREATER_LIFE Time: 720
+20:50:07 [BotBuffer] CharName: FuscaPreto - ADD_SKILL_MANA Time: 720
+20:50:10 [BotBuffer] CharName: FuscaPreto -ADD_GREATER_DEFENSE Time: 720
+20:50:10 [BotBuffer] CharName: FuscaPreto - ADD_GREATER_DAMAGE Time: 720
+20:50:11 [BotBuffer] CharName: FuscaPreto -ADD_GREATER_DEFENSE Time: 720
+20:50:11 [BotBuffer] CharName: FuscaPreto - ADD_GREATER_DAMAGE Time: 720
+21:07:33 [Obj][13014] LogOutCharacter (FuscaPreto)
+21:07:33 [Obj][13014] DelAccount (locotmx25)
+21:07:33 [Obj][13014] DelClient (45.191.9.91)
+21:13:17 [Obj][13004] LogOutCharacter (AUR0R4SM)
+21:13:17 [Obj][13004] DelAccount (locotmx)
+21:13:17 [Obj][13004] DelClient (45.191.9.91)
+21:13:21 [Obj][13011] LogOutCharacter (BayBlade)
+21:13:21 [Obj][13011] DelAccount (locotmx30)
+21:13:21 [Obj][13011] DelClient (45.191.9.91)
+21:13:28 [Obj][13016] LogOutCharacter (ELcAbOnG)
+21:13:28 [Obj][13016] DelAccount (maiconj3)
+21:13:28 [Obj][13016] DelClient (45.238.137.31)
+21:16:09 [Obj][13013] AddClient (45.191.9.91)
+21:16:12 [Obj][13013] AddAccount (locotmx)
+21:16:16 [Obj][13013] LogInCharacter (AUR0R4SM)
+21:17:04 [Obj][13008] AddClient (45.191.9.91)
+21:17:07 [Obj][13008] AddAccount (locotmx30)
+21:17:16 [Obj][13008] LogInCharacter (BayBlade)

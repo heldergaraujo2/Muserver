@@ -1,0 +1,141 @@
+10:36:46 [ServerInfo] Script loaded successfully
+10:37:54 [Obj][13001] AddClient (177.200.32.187)
+10:37:55 [Obj][13001] AddAccount (hellder)
+10:37:57 [Obj][13001] LogInCharacter (Saffe)
+11:58:35 [Obj][13001] LogOutCharacter (Saffe)
+11:58:35 [Obj][13001] DelAccount (hellder)
+11:58:35 [Obj][13001] DelClient (177.200.32.187)
+11:58:38 [Obj][13002] AddClient (177.200.32.187)
+11:58:43 [Obj][13002] AddAccount (videodv)
+11:59:06 [Obj][13002] LogInCharacter (AdmSaffe)
+12:00:22 [ServerInfo] Skill loaded successfully
+12:00:26 [ServerInfo] Util loaded successfully
+12:01:21 [ServerInfo] Map loaded successfully
+12:01:23 [ServerInfo] CashShop loaded successfully
+12:01:23 [ServerInfo] ChaosMix loaded successfully
+12:01:23 [ServerInfo] Character loaded successfully
+12:01:23 [ServerInfo] Command loaded successfully
+12:01:23 [ServerInfo] Common loaded successfully
+12:01:23 [FakeOnline] Loaded successfully
+12:01:23 [ServerInfo] Custom loaded successfully
+12:01:23 [ServerInfo] Discord loaded successfully
+12:01:23 [ServerInfo] Effect loaded successfully
+12:01:23 [ServerInfo] Event loaded successfully
+12:01:24 [ServerInfo] EventItemBag loaded successfully
+12:01:24 [ServerInfo] Hack loaded successfully
+12:01:24 [ServerInfo] Message loaded successfully
+12:01:24 [ServerInfo] Map loaded successfully
+12:01:24 [ServerInfo] Message loaded successfully
+12:01:24 [ServerInfo] Monster loaded successfully
+12:01:24 [ServerInfo] Move loaded successfully
+12:01:24 [ServerInfo] Quest loaded successfully
+12:01:24 [ServerInfo] Shop loaded successfully
+12:01:24 [ServerInfo] Skill loaded successfully
+12:01:24 [ServerInfo] Util loaded successfully
+12:01:24 [ReadBotInfo] BotSystem loaded successfully
+12:01:49 [Obj][13002] LogOutCharacter (AdmSaffe)
+12:01:51 [Obj][13002] LogInCharacter (AdmSaffe)
+12:03:47 [ServerInfo] Util loaded successfully
+12:10:00 [ServerInfo] Util loaded successfully
+12:12:50 [Obj][13002] LogOutCharacter (AdmSaffe)
+12:12:53 [Obj][13002] LogInCharacter (AdmSaffe)
+12:14:45 [ServerInfo] Util loaded successfully
+12:14:47 [ServerInfo] Map loaded successfully
+12:18:34 [ServerInfo] Util loaded successfully
+12:26:26 [ServerInfo] Map loaded successfully
+12:26:28 [ServerInfo] Move loaded successfully
+12:28:18 [ServerInfo] Map loaded successfully
+12:28:23 [ServerInfo] Monster loaded successfully
+12:28:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+12:28:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 58, Y: 7)
+12:28:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 68, Y: 7)
+12:28:25 [ServerInfo] Move loaded successfully
+12:34:08 [Obj][13002] LogOutCharacter (AdmSaffe)
+12:34:08 [Obj][13002] DelAccount (videodv)
+12:34:08 [Obj][13002] DelClient (177.200.32.187)
+12:34:25 [Obj][13003] AddClient (177.200.32.187)
+12:34:26 [Obj][13003] AddAccount (videodv)
+12:34:27 [Obj][13003] LogInCharacter (AdmSaffe)
+12:34:35 [Obj][13003] LogOutCharacter (AdmSaffe)
+12:34:35 [Obj][13003] DelAccount (videodv)
+12:34:35 [Obj][13003] DelClient (177.200.32.187)
+12:36:04 [Obj][13004] AddClient (177.200.32.187)
+12:36:05 [Obj][13004] AddAccount (videodv)
+12:36:07 [Obj][13004] LogInCharacter (AdmSaffe)
+12:38:50 [ServerInfo] Move loaded successfully
+12:38:53 [ServerInfo] Map loaded successfully
+12:38:56 [ServerInfo] CashShop loaded successfully
+12:38:56 [ServerInfo] ChaosMix loaded successfully
+12:38:56 [ServerInfo] Character loaded successfully
+12:38:56 [ServerInfo] Command loaded successfully
+12:38:56 [ServerInfo] Common loaded successfully
+12:38:56 [FakeOnline] Loaded successfully
+12:38:56 [ServerInfo] Custom loaded successfully
+12:38:56 [ServerInfo] Discord loaded successfully
+12:38:56 [ServerInfo] Effect loaded successfully
+12:38:56 [ServerInfo] Event loaded successfully
+12:38:57 [ServerInfo] EventItemBag loaded successfully
+12:38:57 [ServerInfo] Hack loaded successfully
+12:38:57 [ServerInfo] Message loaded successfully
+12:38:57 [ServerInfo] Map loaded successfully
+12:38:57 [ServerInfo] Message loaded successfully
+12:38:57 [ServerInfo] Monster loaded successfully
+12:38:57 [ServerInfo] Move loaded successfully
+12:38:57 [ServerInfo] Quest loaded successfully
+12:38:57 [ServerInfo] Shop loaded successfully
+12:38:57 [ServerInfo] Skill loaded successfully
+12:38:57 [ServerInfo] Util loaded successfully
+12:38:57 [ReadBotInfo] BotSystem loaded successfully
+12:46:27 [Obj][13004] LogOutCharacter (AdmSaffe)
+12:46:27 [Obj][13004] DelAccount (videodv)
+12:46:27 [Obj][13004] DelClient (177.200.32.187)
+12:46:43 [Obj][13000] AddClient (177.200.32.187)
+12:46:44 [Obj][13000] AddAccount (videodv)
+12:46:46 [Obj][13000] LogInCharacter (AdmSaffe)
+12:47:56 [Obj][13000] LogOutCharacter (AdmSaffe)
+12:47:57 [Obj][13000] DelAccount (videodv)
+12:47:57 [Obj][13000] DelClient (177.200.32.187)
+12:48:24 [Obj][13005] AddClient (177.200.32.187)
+12:48:24 [Obj][13005] AddAccount (videodv)
+12:48:26 [Obj][13005] LogInCharacter (AdmSaffe)
+12:51:33 [Obj][13005] LogOutCharacter (AdmSaffe)
+12:51:33 [Obj][13005] DelAccount (videodv)
+12:51:33 [Obj][13005] DelClient (177.200.32.187)
+12:51:46 [Obj][13006] AddClient (177.200.32.187)
+12:51:47 [Obj][13006] AddAccount (videodv)
+12:51:48 [Obj][13006] LogInCharacter (AdmSaffe)
+13:02:01 [Obj][13006] LogOutCharacter (AdmSaffe)
+13:02:01 [Obj][13006] DelAccount (videodv)
+13:02:01 [Obj][13006] DelClient (177.200.32.187)
+13:02:11 [Obj][13001] AddClient (177.200.32.187)
+13:02:14 [Obj][13001] AddAccount (videodv)
+13:02:16 [Obj][13001] LogInCharacter (AdmSaffe)
+13:03:29 [Obj][13001] LogOutCharacter (AdmSaffe)
+13:03:29 [Obj][13001] DelAccount (videodv)
+13:03:29 [Obj][13001] DelClient (177.200.32.187)
+13:05:12 [Obj][13002] AddClient (177.200.32.187)
+13:05:13 [Obj][13002] AddAccount (videodv)
+13:05:15 [Obj][13002] LogInCharacter (AdmSaffe)
+13:07:26 [Obj][13002] LogOutCharacter (AdmSaffe)
+13:07:26 [Obj][13002] DelAccount (videodv)
+13:07:26 [Obj][13002] DelClient (177.200.32.187)
+13:08:44 [Obj][13003] AddClient (177.200.32.187)
+13:08:45 [Obj][13003] AddAccount (videodv)
+13:08:48 [Obj][13003] LogInCharacter (AdmSaffe)
+13:10:46 [Obj][13003] LogOutCharacter (AdmSaffe)
+13:10:46 [Obj][13003] DelAccount (videodv)
+13:10:46 [Obj][13003] DelClient (177.200.32.187)
+13:14:21 [Obj][13004] AddClient (177.200.32.187)
+13:14:22 [Obj][13004] AddAccount (videodv)
+13:14:24 [Obj][13004] LogInCharacter (AdmSaffe)
+13:14:57 [Obj][13004] LogOutCharacter (AdmSaffe)
+13:15:00 [Obj][13004] LogInCharacter (AdmSaffe)
+13:15:23 [Obj][13004] LogOutCharacter (AdmSaffe)
+13:15:25 [Obj][13004] LogInCharacter (AdmSaffe)
+15:30:13 [ServerInfo] Util loaded successfully
+15:30:37 [ServerInfo] Util loaded successfully
+15:32:09 [ServerInfo] Util loaded successfully
+15:34:42 [ServerInfo] Map loaded successfully
+15:39:04 [ServerInfo] Map loaded successfully
+17:48:59 [ServerInfo] Util loaded successfully
+19:01:50 [ServerInfo] Common loaded successfully

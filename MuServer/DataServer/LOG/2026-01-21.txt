@@ -1,0 +1,8 @@
+15:34:56 EXEC WZ_CustomRanking 5
+15:34:56 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Error severity levels greater than 18 can only be specified by members of the sysadmin role, using the WITH LOG option.
+15:34:58 EXEC WZ_CustomRanking 6
+15:34:58 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Error severity levels greater than 18 can only be specified by members of the sysadmin role, using the WITH LOG option.
+15:34:59 EXEC WZ_CustomRanking 7
+15:34:59 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Error severity levels greater than 18 can only be specified by members of the sysadmin role, using the WITH LOG option.
+15:35:00 EXEC WZ_CustomRanking 8
+15:35:00 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Error severity levels greater than 18 can only be specified by members of the sysadmin role, using the WITH LOG option.

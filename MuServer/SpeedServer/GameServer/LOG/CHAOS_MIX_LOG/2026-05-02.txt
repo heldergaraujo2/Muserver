@@ -1,0 +1,96 @@
+13:19:07 ============================= START MIX ============================= 
+13:19:07 [Slot 01](Name: Giant Sword, Index: 0015, Level: 09, Dur: 74, Serial: 0065094A, Option1: 0, Option2: 1, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:07 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0065095F, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:07 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:19:14 ============================= START MIX ============================= 
+13:19:14 [Slot 01](Name: Giant Sword, Index: 0015, Level: 07, Dur: 70, Serial: 00650941, Option1: 1, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:14 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0063D14E, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:14 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:19:41 ============================= START MIX ============================= 
+13:19:41 [Slot 01](Name: Scale Gloves, Index: 5126, Level: 07, Dur: 50, Serial: 006467C2, Option1: 0, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:41 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0065095D, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:41 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:19:56 ============================= START MIX ============================= 
+13:19:56 [Slot 01](Name: Scale Pants, Index: 4614, Level: 05, Dur: 46, Serial: 0064588B, Option1: 0, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:56 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 006509A9, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:19:56 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:20:24 ============================= START MIX ============================= 
+13:20:24 [Slot 01](Name: Giant Sword, Index: 0015, Level: 08, Dur: 72, Serial: 006509EE, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:20:24 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 006509D2, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:20:24 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:20:53 ============================= START MIX ============================= 
+13:20:53 [Slot 01](Name: Chaos Nature Bow, Index: 2054, Level: 04, Dur: 72, Serial: 00650A01, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:20:53 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650A21, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:20:53 [Wing1Mix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:22:09 ============================= START CUSTOM MIX ============================= 
+13:22:09 [CustomMix][Success][maiconj5][PIRILAMPO] - (Type: 24, ChaosSuccessRate: 90, ChaosMoney: 1000)
+13:23:45 ============================= START MIX ============================= 
+13:23:45 [Slot 01](Name: Light Plate Mask, Index: 3609, Level: 09, Dur: 56, Serial: 00650B76, Option1: 0, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:23:45 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650B82, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:23:45 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:23:53 ============================= START MIX ============================= 
+13:23:53 [Slot 01](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650B83, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:23:53 [Slot 02](Name: Wind Helm, Index: 3596, Level: 08, Dur: 44, Serial: 00650B6F, Option1: 0, Option2: 1, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:23:53 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:24:02 ============================= START MIX ============================= 
+13:24:02 [Slot 01](Name: Heliacal Sword, Index: 0012, Level: 08, Dur: 78, Serial: 00650BA2, Option1: 0, Option2: 1, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:02 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650B84, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:02 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:24:18 ============================= START MIX ============================= 
+13:24:18 [Slot 01](Name: Chaos Dragon Axe, Index: 1030, Level: 04, Dur: 84, Serial: 00650BAF, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:18 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650BBE, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:18 [Wing1Mix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:24:32 ============================= START MIX ============================= 
+13:24:32 [Slot 01](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650BC0, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:32 [Slot 02](Name: Serpent Shield, Index: 3083, Level: 07, Dur: 58, Serial: 00650BE0, Option1: 0, Option2: 1, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:32 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:24:41 ============================= START MIX ============================= 
+13:24:41 [Slot 01](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650BC1, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:41 [Slot 02](Name: Heliacal Sword, Index: 0012, Level: 08, Dur: 78, Serial: 00650BF1, Option1: 0, Option2: 1, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:41 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:24:55 ============================= START MIX ============================= 
+13:24:55 [Slot 01](Name: Plate Boots, Index: 5641, Level: 08, Dur: 62, Serial: 00650C0A, Option1: 0, Option2: 1, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:55 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650BC2, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:24:55 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:25:33 ============================= START MIX ============================= 
+13:25:33 [Slot 01](Name: Chaos Lighting Staff, Index: 2567, Level: 04, Dur: 74, Serial: 00650C1D, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:25:33 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650BC4, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:25:33 [Wing1Mix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:25:40 ============================= START MIX ============================= 
+13:25:40 [Slot 01](Name: Chaos Nature Bow, Index: 2054, Level: 04, Dur: 72, Serial: 00650BFD, Option1: 0, Option2: 0, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:25:40 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650C4C, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:25:40 [Wing1Mix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:26:11 ============================= START CUSTOM MIX ============================= 
+13:26:11 [CustomMix][Failure][maiconj5][PIRILAMPO] - (Type: 7, ChaosSuccessRate: 80, ChaosMoney: 1000)
+13:26:39 ============================= START MIX ============================= 
+13:26:39 [Slot 01](Name: Violent Wind Armor, Index: 4135, Level: 09, Dur: 50, Serial: 00650CBB, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:26:39 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650CE0, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:26:39 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:26:50 ============================= START MIX ============================= 
+13:26:50 [Slot 01](Name: Crescent Axe, Index: 0520, Level: 08, Dur: 77, Serial: 00650CC2, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:26:50 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650CDF, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:26:50 [ChaosItemMix][Success][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+13:27:47 ============================= START MIX ============================= 
+13:27:47 [Slot 01](Name: Chaos Lighting Staff, Index: 2567, Level: 04, Dur: 74, Serial: 00650CEB, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:27:47 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650CDD, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:27:47 [Wing1Mix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:27:55 ============================= START MIX ============================= 
+13:27:55 [Slot 01](Name: Chaos Nature Bow, Index: 2054, Level: 04, Dur: 72, Serial: 00650D01, Option1: 1, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:27:55 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650CDE, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:27:55 [Wing1Mix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 40, ChaosMoney: 400000)
+13:28:03 ============================= START MIX ============================= 
+13:28:03 [Slot 01](Name: Spirit Boots, Index: 5645, Level: 09, Dur: 52, Serial: 00650CCB, Option1: 0, Option2: 0, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:28:03 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00650CDA, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+13:28:03 [ChaosItemMix][Failure][maiconj5][PIRILAMPO] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+14:37:26 ============================= START MIX ============================= 
+14:37:26 [Slot 01](Name: Dragon Slayer Shield, Index: 3077, Level: 09, Dur: 73, Serial: 0063BBFB, Option1: 1, Option2: 1, Option3: 1, NewOpt: 032, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:26 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00652A1B, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:26 [Slot 04](Name: Jewel of Bless, Index: 7181, Level: 00, Dur: 1, Serial: 00652A17, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:26 [Slot 05](Name: Jewel of Soul, Index: 7182, Level: 00, Dur: 1, Serial: 00652A14, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:26 [PlusItemLevelMix][Success][maiconj5][PIRILAMPO] - (Type: 0, ChaosSuccessRate: 95, ChaosMoney: 2000000)
+14:37:53 ============================= START MIX ============================= 
+14:37:53 [Slot 01](Name: Dragon Slayer Shield, Index: 3077, Level: 10, Dur: 76, Serial: 0063BBFB, Option1: 1, Option2: 1, Option3: 1, NewOpt: 032, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:53 [Slot 03](Name: Jewel of Bless, Index: 7181, Level: 00, Dur: 2, Serial: 00652A3A, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:53 [Slot 04](Name: Jewel of Soul, Index: 7182, Level: 00, Dur: 2, Serial: 00652A41, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:53 [Slot 05](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00652A59, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+14:37:53 [PlusItemLevelMix][Failure][maiconj5][PIRILAMPO] - (Type: 1, ChaosSuccessRate: 75, ChaosMoney: 4000000, ChaosAmulet: 0)

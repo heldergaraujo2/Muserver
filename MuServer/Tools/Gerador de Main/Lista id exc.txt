@@ -1,0 +1,31 @@
+0 : No exe options
+1 : Increases acquisition rate of Zen after Hunting monster +40%
+2 : Defence success rate +10%
+4 : Reflect damage +5%
+8 : Damage decrease +4%
+16 : Increase Max mana +4%
+32 : Increase Max HP +4%
+63 : Full options
+
+Ai basta somar exemplo 
+4 : Reflect damage +5%
+8 : Damage decrease +4%
+12 : Reflect damage +5% + Damage decrease +4%
+
+---
+
+MOb kill mana +8  = 1
+MOb kill Life +8  = 2
+Attack Wizard +7 Speed = 4
+Damage +2% = 8
+Damage + level /20 = 16
+Exe damage Rate +10% = 32
+
+----wings
+
+"Ignor Def +5% / HP +125" =    1
+"Return Attack +5% / Mana +125" =    2
+"Life Recovery +5% /Ignor Def +3%" = 4    
+"Mana Recovery +5% / AG +50" =    8
+"--- / Attack(Wiz) Speed+5" =    16    // ?
+"---" = 32  //?

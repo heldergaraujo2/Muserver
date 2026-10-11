@@ -1,0 +1,13 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	        ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Maya Hand Right"	10000000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+//12	    139	      0	      0	      0	     0	      0	     0	// Bundled Jewel of Bless
+
+end

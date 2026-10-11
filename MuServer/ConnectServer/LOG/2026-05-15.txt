@@ -1,0 +1,2 @@
+20:15:11 [SocketManager] WSAAccept() failed with error: 10061
+22:15:19 [ServerList] GameServer offline (GameServerCS) (19)

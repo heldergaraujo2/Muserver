@@ -1,0 +1,5 @@
+15:46:24 [SocketManager] Server started at port [55902]
+19:07:18 [SocketManager] WSAAccept() failed with error: 10061
+19:07:18 [SocketManager] WSAAccept() failed with error: 10061
+19:51:53 [SocketManager] Protocol size error (Index: 13000, Header: c3, Size: 0, Head: 2)
+20:00:38 [SocketManager] WSAAccept() failed with error: 10061

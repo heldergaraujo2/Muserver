@@ -1,0 +1,77 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Nixie"		        1000	100		2		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	138	0	2	1	1	0	3	// Darkangel Knight Helm
+7	139	0	2	1	1	0	3	// Darkangel Wizard Helm
+7	140	0	2	1	1	0	3	// Darkangel Elf Helm
+7	141	0	2	1	1	0	3	// Darkangel Summoner Helm
+7	143	0	2	1	1	0	3	// Darkangel Lord Helm
+7	144	0	2	1	1	0	3	// Darkangel Fighter Helm
+7	138	0	2	0	0	0	2	// Darkangel Knight Helm
+7	139	0	2	0	0	0	2	// Darkangel Wizard Helm
+7	140	0	2	0	0	0	2	// Darkangel Elf Helm
+7	141	0	2	0	0	0	2	// Darkangel Summoner Helm
+7	143	0	2	0	0	0	2	// Darkangel Lord Helm
+7	144	0	2	0	0	0	2	// Darkangel Fighter Helm
+8	138	0	2	1	1	0	3	// Darkangel Knight Armor
+8	139	0	2	1	1	0	3	// Darkangel Wizard Armor
+8	140	0	2	1	1	0	3	// Darkangel Elf Armor
+8	141	0	2	1	1	0	3	// Darkangel Summoner Armor
+8	142	0	2	1	1	0	3	// Darkangel Magic Armor
+8	143	0	2	1	1	0	3	// Darkangel Lord Armor
+8	144	0	2	1	1	0	3	// Darkangel Fighter Armor
+8	138	0	2	0	0	0	2	// Darkangel Knight Armor
+8	139	0	2	0	0	0	2	// Darkangel Wizard Armor
+8	140	0	2	0	0	0	2	// Darkangel Elf Armor
+8	141	0	2	0	0	0	2	// Darkangel Summoner Armor
+8	142	0	2	0	0	0	2	// Darkangel Magic Armor
+8	143	0	2	0	0	0	2	// Darkangel Lord Armor
+8	144	0	2	0	0	0	2	// Darkangel Fighter Armor
+9	138	0	2	1	1	0	3	// Darkangel Knight Pants
+9	139	0	2	1	1	0	3	// Darkangel Wizard Pants
+9	140	0	2	1	1	0	3	// Darkangel Elf Pants
+9	141	0	2	1	1	0	3	// Darkangel Summoner Pants
+9	142	0	2	1	1	0	3	// Darkangel Magic Pants
+9	143	0	2	1	1	0	3	// Darkangel Lord Pants
+9	144	0	2	1	1	0	3	// Darkangel Fighter Pants
+9	138	0	2	0	0	0	2	// Darkangel Knight Pants
+9	139	0	2	0	0	0	2	// Darkangel Wizard Pants
+9	140	0	2	0	0	0	2	// Darkangel Elf Pants
+9	141	0	2	0	0	0	2	// Darkangel Summoner Pants
+9	142	0	2	0	0	0	2	// Darkangel Magic Pants
+9	143	0	2	0	0	0	2	// Darkangel Lord Pants
+9	144	0	2	0	0	0	2	// Darkangel Fighter Pants
+10	138	0	2	1	1	0	3	// Darkangel Knight Gloves
+10	139	0	2	1	1	0	3	// Darkangel Wizard Gloves
+10	140	0	2	1	1	0	3	// Darkangel Elf Gloves
+10	141	0	2	1	1	0	3	// Darkangel Summoner Gloves
+10	142	0	2	1	1	0	3	// Darkangel Magic Gloves
+10	143	0	2	1	1	0	3	// Darkangel Lord Gloves
+10	138	0	2	0	0	0	2	// Darkangel Knight Gloves
+10	139	0	2	0	0	0	2	// Darkangel Wizard Gloves
+10	140	0	2	0	0	0	2	// Darkangel Elf Gloves
+10	141	0	2	0	0	0	2	// Darkangel Summoner Gloves
+10	142	0	2	0	0	0	2	// Darkangel Magic Gloves
+10	143	0	2	0	0	0	2	// Darkangel Lord Gloves
+11	138	0	2	1	1	0	3	// Darkangel Knight Boots
+11	139	0	2	1	1	0	3	// Darkangel Wizard Boots
+11	140	0	2	1	1	0	3	// Darkangel Elf Boots
+11	141	0	2	1	1	0	3	// Darkangel Summoner Boots
+11	142	0	2	1	1	0	3	// Darkangel Magic Boots
+11	143	0	2	1	1	0	3	// Darkangel Lord Boots
+11	144	0	2	1	1	0	3	// Darkangel Fighter Boots
+11	138	0	2	0	0	0	2	// Darkangel Knight Boots
+11	139	0	2	0	0	0	2	// Darkangel Wizard Boots
+11	140	0	2	0	0	0	2	// Darkangel Elf Boots
+11	141	0	2	0	0	0	2	// Darkangel Summoner Boots
+11	142	0	2	0	0	0	2	// Darkangel Magic Boots
+11	143	0	2	0	0	0	2	// Darkangel Lord Boots
+11	144	0	2	0	0	0	2	// Darkangel Fighter Boots
+end

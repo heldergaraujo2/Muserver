@@ -1,0 +1,10 @@
+00:08:04 [SocketManager] Max msg size (Type: 2, Index: 13005, Size: 16423)
+05:10:50 [SocketManager] WSAAccept() failed with error: 10061
+05:15:55 [SocketManager] WSAAccept() failed with error: 10061
+05:22:26 [SocketManager] WSAAccept() failed with error: 10061
+05:25:24 [SocketManager] WSAAccept() failed with error: 10061
+05:25:36 [SocketManager] WSAAccept() failed with error: 10061
+07:13:45 [SocketManager] WSAAccept() failed with error: 10061
+19:25:51 [SocketManager] WSAAccept() failed with error: 10061
+19:34:04 [SocketManager] WSAAccept() failed with error: 10061
+19:35:54 [SocketManager] WSAAccept() failed with error: 10061

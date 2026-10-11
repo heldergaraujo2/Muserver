@@ -1,0 +1,485 @@
+05:02:46 [Obj][13001] AddClient (45.11.105.148)
+05:02:46 [Obj][13001] DelClient (45.11.105.148)
+08:29:27 [Obj][13004] AddClient (177.200.39.147)
+08:29:28 [Obj][13004] AddAccount (ddark)
+08:29:30 [Obj][13004] LogInCharacter (Aredhel)
+08:30:07 [Obj][13004] LogOutCharacter (Aredhel)
+08:30:10 [Obj][13004] LogInCharacter (Aredhel)
+08:30:30 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:30 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:31 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:31 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:34 [CustomAttackSkillDebug] Skill: 235 | Delay: 62 ms | Type: 3
+08:30:34 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:34 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:35 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:35 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:37 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:37 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:37 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:37 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 1687 ms | Type: 3
+08:30:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 62 ms | Type: 3
+08:30:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:43 [CustomAttackSkillDebug] Skill: 235 | Delay: 2969 ms | Type: 3
+08:30:43 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:43 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:43 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:46 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:46 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:46 [CustomAttackSkillDebug] Skill: 235 | Delay: 79 ms | Type: 3
+08:30:46 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:48 [CustomAttackSkillDebug] Skill: 235 | Delay: 1797 ms | Type: 3
+08:30:48 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:48 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:49 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:49 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:51 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:30:51 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:51 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:51 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:30:52 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:52 [CustomAttackSkillDebug] Skill: 235 | Delay: 110 ms | Type: 3
+08:30:54 [CustomAttackSkillDebug] Skill: 235 | Delay: 2360 ms | Type: 3
+08:30:54 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:54 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:55 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:55 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:30:55 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:33:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 62 ms | Type: 3
+08:33:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:33:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:39 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 63 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 79 ms | Type: 3
+08:33:40 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:41 [CustomAttackSkillDebug] Skill: 235 | Delay: 78 ms | Type: 3
+08:33:41 [CustomAttackSkillDebug] Skill: 235 | Delay: 94 ms | Type: 3
+08:33:57 [Obj][13004] LogOutCharacter (Aredhel)
+08:33:57 [Obj][13004] DelAccount (ddark)
+08:33:57 [Obj][13004] DelClient (177.200.39.147)
+09:06:07 [Obj][13003] AddClient (177.200.39.147)
+09:06:21 [Obj][13003] AddAccount (saffe3)
+09:06:23 [Obj][13003] LogInCharacter (Saffe3)
+09:10:07 [ServerInfo] CashShop loaded successfully
+09:11:07 [FAKE ONLINE LOG] Start
+09:11:07 [ServerInfo] CashShop loaded successfully
+09:11:07 [ServerInfo] ChaosMix loaded successfully
+09:11:07 [ServerInfo] Character loaded successfully
+09:11:07 [FakeOnline] Loaded successfully
+09:11:07 [ServerInfo] Custom loaded successfully
+09:11:07 [ServerInfo] Command loaded successfully
+09:11:07 [ServerInfo] Common loaded successfully
+09:11:07 [ServerInfo] Discord loaded successfully
+09:11:07 [ServerInfo] Effect loaded successfully
+09:11:07 [ServerInfo] Event loaded successfully
+09:11:07 [ServerInfo] EventItemBag loaded successfully
+09:11:07 [ServerInfo] Hack loaded successfully
+09:11:07 [ServerInfo] Item loaded successfully
+09:11:07 [ServerInfo] Message loaded successfully
+09:11:07 [ServerInfo] Map loaded successfully
+09:11:07 [ServerInfo] Terrain loaded successfully
+09:11:08 [ServerInfo] Monster loaded successfully
+09:11:08 [ServerInfo] Move loaded successfully
+09:11:08 [ServerInfo] Quest loaded successfully
+09:11:08 [ServerInfo] Script loaded successfully
+09:11:08 [ServerInfo] Shop loaded successfully
+09:11:08 [ServerInfo] Skill loaded successfully
+09:11:08 [ServerInfo] Util loaded successfully
+09:11:08 [ReadBotInfo] BotSystem loaded successfully
+09:11:08 [ServerInfo] Custom Attack offline restored successfully
+09:11:08 [ServerInfo] Custom Store offline restored successfully
+09:11:09 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+09:11:31 [Obj][13000] AddClient (177.200.39.147)
+09:11:41 [Obj][13000] AddAccount (saffe3)
+09:11:41 [Obj][13000] LogInCharacter (Saffe3)
+09:12:30 [Obj][13000] LogOutCharacter (Saffe3)
+09:12:30 [Obj][13000] DelAccount (saffe3)
+09:12:30 [Obj][13000] DelClient (177.200.39.147)
+09:13:00 [Obj][13000] AddClient (177.200.39.147)
+09:13:10 [Obj][13000] DelClient (177.200.39.147)
+09:13:29 [FAKE ONLINE LOG] Start
+09:13:29 [ServerInfo] CashShop loaded successfully
+09:13:29 [ServerInfo] ChaosMix loaded successfully
+09:13:29 [ServerInfo] Character loaded successfully
+09:13:29 [FakeOnline] Loaded successfully
+09:13:29 [ServerInfo] Custom loaded successfully
+09:13:29 [ServerInfo] Command loaded successfully
+09:13:29 [ServerInfo] Common loaded successfully
+09:13:29 [ServerInfo] Discord loaded successfully
+09:13:29 [ServerInfo] Effect loaded successfully
+09:13:29 [ServerInfo] Event loaded successfully
+09:13:29 [ServerInfo] EventItemBag loaded successfully
+09:13:29 [ServerInfo] Hack loaded successfully
+09:13:29 [ServerInfo] Item loaded successfully
+09:13:29 [ServerInfo] Message loaded successfully
+09:13:29 [ServerInfo] Map loaded successfully
+09:13:29 [ServerInfo] Terrain loaded successfully
+09:13:29 [ServerInfo] Monster loaded successfully
+09:13:29 [ServerInfo] Move loaded successfully
+09:13:29 [ServerInfo] Quest loaded successfully
+09:13:29 [ServerInfo] Script loaded successfully
+09:13:29 [ServerInfo] Shop loaded successfully
+09:13:29 [ServerInfo] Skill loaded successfully
+09:13:29 [ServerInfo] Util loaded successfully
+09:13:29 [ReadBotInfo] BotSystem loaded successfully
+09:13:29 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+09:13:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+09:13:30 [ServerInfo] Custom Attack offline restored successfully
+09:13:30 [ServerInfo] Custom Store offline restored successfully
+09:13:30 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+09:13:40 [Obj][13000] AddClient (177.200.39.147)
+09:13:50 [Obj][13000] AddAccount (saffe3)
+09:13:51 [Obj][13000] LogInCharacter (Saffe3)
+09:15:26 [ServerInfo] CashShop loaded successfully
+09:15:28 [ServerInfo] CashShop loaded successfully
+09:15:28 [ServerInfo] ChaosMix loaded successfully
+09:15:29 [ServerInfo] Character loaded successfully
+09:15:29 [ServerInfo] Command loaded successfully
+09:15:29 [ServerInfo] Common loaded successfully
+09:15:29 [FakeOnline] Loaded successfully
+09:15:29 [ServerInfo] Custom loaded successfully
+09:15:29 [ServerInfo] Discord loaded successfully
+09:15:29 [ServerInfo] Effect loaded successfully
+09:15:29 [ServerInfo] Event loaded successfully
+09:15:29 [ServerInfo] EventItemBag loaded successfully
+09:15:29 [ServerInfo] Hack loaded successfully
+09:15:29 [ServerInfo] Message loaded successfully
+09:15:29 [ServerInfo] Map loaded successfully
+09:15:29 [ServerInfo] Message loaded successfully
+09:15:29 [ServerInfo] Monster loaded successfully
+09:15:29 [ServerInfo] Move loaded successfully
+09:15:29 [ServerInfo] Quest loaded successfully
+09:15:29 [ServerInfo] Shop loaded successfully
+09:15:29 [ServerInfo] Skill loaded successfully
+09:15:29 [ServerInfo] Util loaded successfully
+09:15:29 [ReadBotInfo] BotSystem loaded successfully
+09:20:58 [ServerInfo] Item loaded successfully
+09:20:59 [ServerInfo] Monster loaded successfully
+09:21:27 [CustomAttackSkillDebug] Skill: 269 | Delay: 359 ms | Type: 1
+09:21:28 [CustomAttackSkillDebug] Skill: 269 | Delay: 390 ms | Type: 1
+09:21:30 [CustomAttackSkillDebug] Skill: 269 | Delay: 2078 ms | Type: 1
+09:21:32 [CustomAttackSkillDebug] Skill: 269 | Delay: 1672 ms | Type: 1
+09:21:33 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+09:21:34 [CustomAttackSkillDebug] Skill: 269 | Delay: 390 ms | Type: 1
+09:21:34 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+09:21:36 [CustomAttackSkillDebug] Skill: 269 | Delay: 406 ms | Type: 1
+09:21:36 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+09:21:37 [CustomAttackSkillDebug] Skill: 269 | Delay: 313 ms | Type: 1
+09:21:38 [CustomAttackSkillDebug] Skill: 269 | Delay: 391 ms | Type: 1
+09:21:39 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+09:21:40 [CustomAttackSkillDebug] Skill: 269 | Delay: 375 ms | Type: 1
+09:21:41 [CustomAttackSkillDebug] Skill: 269 | Delay: 1187 ms | Type: 1
+09:21:42 [CustomAttackSkillDebug] Skill: 269 | Delay: 312 ms | Type: 1
+09:21:42 [CustomAttackSkillDebug] Skill: 269 | Delay: 391 ms | Type: 1
+09:21:43 [CustomAttackSkillDebug] Skill: 269 | Delay: 266 ms | Type: 1
+09:22:12 [CustomAttackSkillDebug] Skill: 264 | Delay: 8297 ms | Type: 3
+09:22:44 [ServerInfo] Item loaded successfully
+09:22:46 [ServerInfo] Monster loaded successfully
+09:22:56 [CustomAttackSkillDebug] Skill: 264 | Delay: 6515 ms | Type: 3
+09:23:02 [CustomAttackSkillDebug] Skill: 264 | Delay: 6094 ms | Type: 3
+09:23:15 [CustomAttackSkillDebug] Skill: 264 | Delay: 6437 ms | Type: 3
+09:23:31 [CustomAttackSkillDebug] Skill: 264 | Delay: 14109 ms | Type: 3
+09:23:37 [CustomAttackSkillDebug] Skill: 264 | Delay: 312 ms | Type: 3
+09:23:38 [CustomAttackSkillDebug] Skill: 264 | Delay: 1063 ms | Type: 3
+09:23:45 [CustomAttackSkillDebug] Skill: 264 | Delay: 4485 ms | Type: 3
+09:23:51 [CustomAttackSkillDebug] Skill: 264 | Delay: 3953 ms | Type: 3
+09:23:57 [CustomAttackSkillDebug] Skill: 264 | Delay: 4016 ms | Type: 3
+09:24:10 [CustomAttackSkillDebug] Skill: 264 | Delay: 10500 ms | Type: 3
+09:24:15 [CustomAttackSkillDebug] Skill: 264 | Delay: 4406 ms | Type: 3
+09:24:16 [CustomAttackSkillDebug] Skill: 264 | Delay: 703 ms | Type: 3
+09:24:18 [CustomAttackSkillDebug] Skill: 264 | Delay: 1109 ms | Type: 3
+09:24:41 [CustomAttackSkillDebug] Skill: 264 | Delay: 3188 ms | Type: 3
+09:24:46 [CustomAttackSkillDebug] Skill: 264 | Delay: 1485 ms | Type: 3
+09:25:23 [ServerInfo] Item loaded successfully
+09:25:27 [ServerInfo] Monster loaded successfully
+09:25:29 [CustomAttackSkillDebug] Skill: 264 | Delay: 41844 ms | Type: 3
+09:25:34 [CustomAttackSkillDebug] Skill: 264 | Delay: 2250 ms | Type: 3
+09:25:37 [CustomAttackSkillDebug] Skill: 264 | Delay: 1000 ms | Type: 3
+09:25:42 [CustomAttackSkillDebug] Skill: 264 | Delay: 2594 ms | Type: 3
+09:25:47 [CustomAttackSkillDebug] Skill: 264 | Delay: 3781 ms | Type: 3
+09:25:51 [CustomAttackSkillDebug] Skill: 264 | Delay: 1391 ms | Type: 3
+09:25:56 [CustomAttackSkillDebug] Skill: 264 | Delay: 1187 ms | Type: 3
+09:26:01 [CustomAttackSkillDebug] Skill: 264 | Delay: 703 ms | Type: 3
+09:26:17 [ServerInfo] Item loaded successfully
+09:26:21 [ServerInfo] Monster loaded successfully
+09:26:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+09:26:25 [CustomAttackSkillDebug] Skill: 264 | Delay: 2828 ms | Type: 3
+09:26:30 [CustomAttackSkillDebug] Skill: 264 | Delay: 563 ms | Type: 3
+09:26:33 [CustomAttackSkillDebug] Skill: 264 | Delay: 2594 ms | Type: 3
+09:27:06 [ServerInfo] Item loaded successfully
+09:27:08 [ServerInfo] Monster loaded successfully
+09:27:10 [CustomAttackSkillDebug] Skill: 264 | Delay: 33750 ms | Type: 3
+09:27:16 [CustomAttackSkillDebug] Skill: 264 | Delay: 4547 ms | Type: 3
+09:27:21 [CustomAttackSkillDebug] Skill: 264 | Delay: 3453 ms | Type: 3
+09:27:24 [CustomAttackSkillDebug] Skill: 264 | Delay: 734 ms | Type: 3
+09:27:31 [CustomAttackSkillDebug] Skill: 264 | Delay: 3110 ms | Type: 3
+09:27:35 [CustomAttackSkillDebug] Skill: 264 | Delay: 1687 ms | Type: 3
+09:27:40 [CustomAttackSkillDebug] Skill: 264 | Delay: 2610 ms | Type: 3
+09:27:45 [CustomAttackSkillDebug] Skill: 264 | Delay: 1078 ms | Type: 3
+09:27:49 [CustomAttackSkillDebug] Skill: 264 | Delay: 718 ms | Type: 3
+09:27:52 [CustomAttackSkillDebug] Skill: 264 | Delay: 1766 ms | Type: 3
+09:28:45 [ServerInfo] Item loaded successfully
+09:28:48 [ServerInfo] Monster loaded successfully
+09:28:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+09:28:53 [CustomAttackSkillDebug] Skill: 264 | Delay: 2344 ms | Type: 3
+09:28:58 [CustomAttackSkillDebug] Skill: 264 | Delay: 1750 ms | Type: 3
+09:29:04 [CustomAttackSkillDebug] Skill: 264 | Delay: 4844 ms | Type: 3
+09:29:11 [CustomAttackSkillDebug] Skill: 264 | Delay: 4750 ms | Type: 3
+09:29:29 [ServerInfo] Item loaded successfully
+09:29:31 [ServerInfo] Monster loaded successfully
+09:29:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+09:29:33 [CustomAttackSkillDebug] Skill: 264 | Delay: 20953 ms | Type: 3
+09:29:40 [CustomAttackSkillDebug] Skill: 264 | Delay: 3719 ms | Type: 3
+09:29:42 [CustomAttackSkillDebug] Skill: 264 | Delay: 313 ms | Type: 3
+09:29:44 [CustomAttackSkillDebug] Skill: 264 | Delay: 1078 ms | Type: 3
+09:29:48 [CustomAttackSkillDebug] Skill: 264 | Delay: 1500 ms | Type: 3
+09:29:52 [CustomAttackSkillDebug] Skill: 264 | Delay: 2797 ms | Type: 3
+09:30:17 [ServerInfo] Item loaded successfully
+09:30:20 [ServerInfo] Monster loaded successfully
+09:30:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+09:30:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+09:30:33 [CustomAttackSkillDebug] Skill: 264 | Delay: 4328 ms | Type: 3
+09:30:40 [CustomAttackSkillDebug] Skill: 264 | Delay: 5031 ms | Type: 3
+09:30:56 [ServerInfo] Item loaded successfully
+09:30:58 [ServerInfo] Monster loaded successfully
+09:30:59 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+09:31:00 [CustomAttackSkillDebug] Skill: 264 | Delay: 19203 ms | Type: 3
+09:31:08 [CustomAttackSkillDebug] Skill: 264 | Delay: 6422 ms | Type: 3
+09:31:12 [CustomAttackSkillDebug] Skill: 264 | Delay: 953 ms | Type: 3
+09:31:15 [CustomAttackSkillDebug] Skill: 264 | Delay: 1266 ms | Type: 3
+09:31:25 [ServerInfo] Item loaded successfully
+09:31:27 [ServerInfo] Monster loaded successfully
+09:31:29 [CustomAttackSkillDebug] Skill: 264 | Delay: 12594 ms | Type: 3
+09:31:32 [CustomAttackSkillDebug] Skill: 264 | Delay: 734 ms | Type: 3
+09:31:35 [CustomAttackSkillDebug] Skill: 264 | Delay: 2047 ms | Type: 3
+09:31:41 [CustomAttackSkillDebug] Skill: 264 | Delay: 2062 ms | Type: 3
+09:31:45 [CustomAttackSkillDebug] Skill: 264 | Delay: 3062 ms | Type: 3
+09:31:50 [CustomAttackSkillDebug] Skill: 264 | Delay: 719 ms | Type: 3
+09:31:53 [CustomAttackSkillDebug] Skill: 264 | Delay: 891 ms | Type: 3
+09:31:59 [CustomAttackSkillDebug] Skill: 264 | Delay: 1187 ms | Type: 3
+09:32:04 [CustomAttackSkillDebug] Skill: 264 | Delay: 2562 ms | Type: 3
+09:35:29 [Obj][13000] LogOutCharacter (Saffe3)
+09:35:29 [Obj][13000] DelAccount (saffe3)
+09:35:29 [Obj][13000] DelClient (177.200.39.147)
+09:35:33 [Discord] Connecting to the server...
+09:35:43 [Discord] Connecting to the server...
+09:35:53 [Discord] Connecting to the server...
+09:36:02 [Discord] Server offline, reload discord to try again.
+14:11:20 [FAKE ONLINE LOG] Start
+14:11:20 [ServerInfo] CashShop loaded successfully
+14:11:20 [ServerInfo] ChaosMix loaded successfully
+14:11:20 [ServerInfo] Character loaded successfully
+14:11:20 [FakeOnline] Loaded successfully
+14:11:21 [ServerInfo] Custom loaded successfully
+14:11:21 [ServerInfo] Command loaded successfully
+14:11:21 [ServerInfo] Common loaded successfully
+14:11:21 [ServerInfo] Discord loaded successfully
+14:11:21 [ServerInfo] Effect loaded successfully
+14:11:21 [ServerInfo] Event loaded successfully
+14:11:21 [ServerInfo] EventItemBag loaded successfully
+14:11:21 [ServerInfo] Hack loaded successfully
+14:11:21 [ServerInfo] Item loaded successfully
+14:11:21 [ServerInfo] Message loaded successfully
+14:11:21 [ServerInfo] Map loaded successfully
+14:11:21 [ServerInfo] Terrain loaded successfully
+14:11:21 [ServerInfo] Monster loaded successfully
+14:11:21 [ServerInfo] Move loaded successfully
+14:11:21 [ServerInfo] Quest loaded successfully
+14:11:21 [ServerInfo] Script loaded successfully
+14:11:22 [ServerInfo] Shop loaded successfully
+14:11:22 [ServerInfo] Skill loaded successfully
+14:11:22 [ServerInfo] Util loaded successfully
+14:11:22 [ReadBotInfo] BotSystem loaded successfully
+14:11:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+14:11:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+14:11:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 68, Y: 7)
+14:11:22 [ServerInfo] Custom Attack offline restored successfully
+14:11:22 [ServerInfo] Custom Store offline restored successfully
+14:11:22 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+14:11:57 [Obj][13000] AddClient (177.200.39.147)
+14:12:04 [Obj][13000] DelClient (177.200.39.147)
+14:12:33 [ServerInfo] CashShop loaded successfully
+14:12:33 [ServerInfo] ChaosMix loaded successfully
+14:12:33 [ServerInfo] Character loaded successfully
+14:12:33 [ServerInfo] Command loaded successfully
+14:12:33 [ServerInfo] Common loaded successfully
+14:12:33 [FakeOnline] Loaded successfully
+14:12:33 [ServerInfo] Custom loaded successfully
+14:12:33 [ServerInfo] Discord loaded successfully
+14:12:33 [ServerInfo] Effect loaded successfully
+14:12:33 [ServerInfo] Event loaded successfully
+14:12:33 [ServerInfo] EventItemBag loaded successfully
+14:12:33 [ServerInfo] Hack loaded successfully
+14:12:33 [ServerInfo] Message loaded successfully
+14:12:33 [ServerInfo] Map loaded successfully
+14:12:33 [ServerInfo] Message loaded successfully
+14:12:33 [ServerInfo] Monster loaded successfully
+14:12:33 [ServerInfo] Move loaded successfully
+14:12:33 [ServerInfo] Quest loaded successfully
+14:12:33 [ServerInfo] Shop loaded successfully
+14:12:33 [ServerInfo] Skill loaded successfully
+14:12:33 [ServerInfo] Util loaded successfully
+14:12:33 [ReadBotInfo] BotSystem loaded successfully
+14:12:44 [Obj][13000] AddClient (177.200.39.147)
+14:12:44 [Obj][13000] AddAccount (ddarkkkk)
+14:12:46 [Obj][13000] LogInCharacter (ZinaRonald)
+14:13:51 [CommandRename][ddarkkkk][SuporT01] - Sucess (OldName: ZinaRonald)
+14:13:52 [Obj][13000] LogOutCharacter (SuporT01)
+14:13:54 [Obj][13000] LogInCharacter (SuporT01)
+14:14:05 [Obj][13000] LogOutCharacter (SuporT01)
+14:14:13 [Obj][13000] LogInCharacter (sdfds)
+14:16:26 [Obj][13000] LogOutCharacter (sdfds)
+14:16:28 [Obj][13000] LogInCharacter (SuporT01)
+14:18:58 [Discord] Connection successfully
+14:24:43 [Obj][13000] LogOutCharacter (SuporT01)
+14:24:43 [Obj][13000] DelAccount (ddarkkkk)
+14:24:43 [Obj][13000] DelClient (177.200.39.147)
+14:37:35 [Obj][13000] AddClient (177.200.39.147)
+14:37:40 [Obj][13000] AddAccount (saffe3)
+14:37:42 [Obj][13000] LogInCharacter (Saffe3)
+14:39:23 [Obj][13000] LogOutCharacter (Saffe3)
+14:39:23 [Obj][13000] DelAccount (saffe3)
+14:39:23 [Obj][13000] DelClient (177.200.39.147)
+14:41:29 [Obj][13000] AddClient (177.200.39.147)
+14:41:36 [Obj][13000] AddAccount (saffe3)
+14:41:39 [Obj][13000] LogInCharacter (Saffe3)
+15:09:29 [Obj][13000] LogOutCharacter (Saffe3)
+15:09:29 [Obj][13000] DelAccount (saffe3)
+15:09:29 [Obj][13000] DelClient (177.200.39.147)
+15:10:10 [Obj][13000] AddClient (177.200.39.147)
+15:10:12 [Obj][13000] AddAccount (saffe3)
+15:10:13 [Obj][13000] LogInCharacter (Saffe3)
+15:14:29 [Obj][13000] LogOutCharacter (Saffe3)
+15:14:29 [Obj][13000] DelAccount (saffe3)
+15:14:29 [Obj][13000] DelClient (177.200.39.147)
+15:14:49 [Obj][13000] AddClient (177.200.39.147)
+15:14:50 [Obj][13000] AddAccount (saffe3)
+15:14:52 [Obj][13000] LogInCharacter (Saffe3)
+15:16:56 [Obj][13000] LogOutCharacter (Saffe3)
+15:16:56 [Obj][13000] DelAccount (saffe3)
+15:16:56 [Obj][13000] DelClient (177.200.39.147)
+15:20:29 [Obj][13000] AddClient (177.200.39.147)
+15:20:30 [Obj][13000] AddAccount (saffe3)
+15:20:33 [Obj][13000] LogInCharacter (Saffe3)
+15:24:39 [Obj][13000] LogOutCharacter (Saffe3)
+15:24:39 [Obj][13000] DelAccount (saffe3)
+15:24:39 [Obj][13000] DelClient (177.200.39.147)
+15:25:01 [Obj][13000] AddClient (177.200.39.147)
+15:25:02 [Obj][13000] AddAccount (saffe3)
+15:25:04 [Obj][13000] LogInCharacter (Saffe3)
+15:40:58 [Obj][13001] AddClient (177.200.39.147)
+15:41:02 [Obj][13001] AddAccount (hellder)
+15:41:09 [Obj][13001] LogInCharacter (Saffe)
+15:41:32 [Obj][13001] LogOutCharacter (Saffe)
+15:41:32 [Obj][13001] DelAccount (hellder)
+15:41:32 [Obj][13001] DelClient (177.200.39.147)
+15:41:56 [Obj][13001] AddClient (177.200.39.147)
+15:42:00 [Obj][13000] LogOutCharacter (Saffe3)
+15:42:00 [Obj][13000] DelAccount (saffe3)
+15:42:00 [Obj][13000] DelClient (177.200.39.147)
+15:42:01 [Obj][13001] AddAccount (saffe3)
+15:42:02 [Obj][13001] LogInCharacter (Saffe3)
+15:42:31 [Obj][13001] LogOutCharacter (Saffe3)
+15:42:31 [Obj][13001] DelAccount (saffe3)
+15:42:31 [Obj][13001] DelClient (177.200.39.147)
+15:42:33 [Obj][13000] AddClient (177.200.39.147)
+15:42:36 [Obj][13000] AddAccount (hellder)
+15:42:37 [Obj][13000] LogInCharacter (Saffe)
+15:43:36 [Obj][13001] AddClient (177.200.39.147)
+15:43:40 [Obj][13001] AddAccount (saffe3)
+15:43:41 [Obj][13001] LogInCharacter (Saffe3)
+15:45:00 [Obj][13000] LogOutCharacter (Saffe)
+15:45:00 [Obj][13000] DelAccount (hellder)
+15:45:00 [Obj][13000] DelClient (177.200.39.147)
+15:48:54 [Obj][13000] AddClient (177.200.39.147)
+15:48:59 [Obj][13000] AddAccount (hellder)
+15:49:01 [Obj][13000] LogInCharacter (Saffe)
+15:49:38 [Obj][13000] LogOutCharacter (Saffe)
+15:49:38 [Obj][13000] DelAccount (hellder)
+15:49:38 [Obj][13000] DelClient (177.200.39.147)
+15:49:40 [Obj][13002] AddClient (177.200.39.147)
+15:49:45 [Obj][13001] LogOutCharacter (Saffe3)
+15:49:45 [Obj][13001] DelAccount (saffe3)
+15:49:45 [Obj][13001] DelClient (177.200.39.147)
+15:49:47 [Obj][13002] AddAccount (saffe3)
+15:49:49 [Obj][13002] LogInCharacter (Saffe3)
+15:50:39 [ServerInfo] Event loaded successfully
+15:50:41 [ServerInfo] Monster loaded successfully
+15:50:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+15:52:17 [FAKE ONLINE LOG] Start
+15:52:17 [ServerInfo] CashShop loaded successfully
+15:52:17 [ServerInfo] ChaosMix loaded successfully
+15:52:17 [ServerInfo] Character loaded successfully
+15:52:17 [FakeOnline] Loaded successfully
+15:52:17 [ServerInfo] Custom loaded successfully
+15:52:17 [ServerInfo] Command loaded successfully
+15:52:17 [ServerInfo] Common loaded successfully
+15:52:17 [ServerInfo] Discord loaded successfully
+15:52:17 [ServerInfo] Effect loaded successfully
+15:52:17 [ServerInfo] Event loaded successfully
+15:52:17 [ServerInfo] EventItemBag loaded successfully
+15:52:17 [ServerInfo] Hack loaded successfully
+15:52:17 [ServerInfo] Item loaded successfully
+15:52:17 [ServerInfo] Message loaded successfully
+15:52:17 [ServerInfo] Map loaded successfully
+15:52:17 [ServerInfo] Terrain loaded successfully
+15:52:17 [ServerInfo] Monster loaded successfully
+15:52:17 [ServerInfo] Move loaded successfully
+15:52:17 [ServerInfo] Quest loaded successfully
+15:52:17 [ServerInfo] Script loaded successfully
+15:52:17 [ServerInfo] Shop loaded successfully
+15:52:17 [ServerInfo] Skill loaded successfully
+15:52:17 [ServerInfo] Util loaded successfully
+15:52:17 [ReadBotInfo] BotSystem loaded successfully
+15:52:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+15:52:18 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+15:52:18 [ServerInfo] Custom Attack offline restored successfully
+15:52:18 [ServerInfo] Custom Store offline restored successfully
+15:52:18 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+15:52:37 [Obj][13000] AddClient (177.200.39.147)
+15:52:47 [Obj][13000] AddAccount (saffe3)
+15:52:47 [Obj][13000] LogInCharacter (Saffe3)
+16:00:32 [Discord] Connection successfully
+16:31:19 [Obj][13000] LogOutCharacter (Saffe3)
+16:31:19 [Obj][13000] DelAccount (saffe3)
+16:31:19 [Obj][13000] DelClient (177.200.39.147)
+16:35:07 [Obj][13000] AddClient (177.200.39.147)
+16:35:08 [Obj][13000] DelClient (177.200.39.147)
+21:36:24 [Obj][13000] AddClient (177.200.39.147)
+21:36:33 [Obj][13000] AddAccount (hellder)
+21:36:36 [Obj][13000] LogInCharacter (Saffe)
+21:36:52 [CustomAttackSkillDebug] Skill: 56 | Delay: 109 ms | Type: 3
+21:36:52 [CustomAttackSkillDebug] Skill: 56 | Delay: 62 ms | Type: 3
+21:36:52 [CustomAttackSkillDebug] Skill: 56 | Delay: 62 ms | Type: 3
+21:36:52 [CustomAttackSkillDebug] Skill: 56 | Delay: 94 ms | Type: 3
+21:36:52 [CustomAttackSkillDebug] Skill: 56 | Delay: 78 ms | Type: 3
+21:36:53 [CustomAttackSkillDebug] Skill: 56 | Delay: 63 ms | Type: 3
+21:37:05 [CustomAttackSkillDebug] Skill: 56 | Delay: 12000 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 94 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 79 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 78 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 94 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 0 ms | Type: 3
+21:37:06 [CustomAttackSkillDebug] Skill: 56 | Delay: 110 ms | Type: 3
+21:37:07 [CustomAttackSkillDebug] Skill: 56 | Delay: 110 ms | Type: 3
+21:37:07 [CustomAttackSkillDebug] Skill: 56 | Delay: 109 ms | Type: 3
+21:38:07 [Obj][13000] LogOutCharacter (Saffe)
+21:38:07 [Obj][13000] DelAccount (hellder)
+21:38:07 [Obj][13000] DelClient (177.200.39.147)
+23:09:20 [Obj][13000] AddClient (177.200.39.147)
+23:09:24 [Obj][13000] AddAccount (hellder)
+23:09:28 [Obj][13000] LogInCharacter (TijoliN)
+23:10:46 [Obj][13000] LogOutCharacter (TijoliN)
+23:10:49 [Obj][13000] LogInCharacter (Saffe)
+23:36:26 [Obj][13000] LogOutCharacter (Saffe)
+23:36:26 [Obj][13000] DelAccount (hellder)
+23:36:26 [Obj][13000] DelClient (177.200.39.147)
+23:36:31 [Discord] Connecting to the server...
+23:36:41 [Discord] Connecting to the server...
+23:36:51 [Discord] Connecting to the server...
+23:37:00 [Discord] Server offline, reload discord to try again.

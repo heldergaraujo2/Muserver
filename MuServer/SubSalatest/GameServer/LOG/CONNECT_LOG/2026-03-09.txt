@@ -1,0 +1,46 @@
+09:13:02 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+14:24:59 [SocketManager] Protocol header error (Index: 13001, Header: 22)
+14:38:40 [SocketManager] Protocol header error (Index: 13002, Header: 22)
+14:52:48 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+15:07:59 [SocketManager] Protocol header error (Index: 13001, Header: 22)
+15:23:38 [SocketManager] Protocol header error (Index: 13002, Header: 22)
+16:52:33 [SocketManager] Server started at port [55902]
+16:57:20 [SocketManager] Server started at port [55902]
+17:07:14 [SocketManager] Server started at port [55902]
+18:58:47 [Connection] connect() failed with error: 10061
+18:58:48 [Connection] connect() failed with error: 10061
+18:58:49 [Connection] connect() failed with error: 10061
+18:58:57 [Connection] connect() failed with error: 10061
+18:58:58 [Connection] connect() failed with error: 10061
+18:58:59 [Connection] connect() failed with error: 10061
+18:59:07 [Connection] connect() failed with error: 10061
+18:59:08 [Connection] connect() failed with error: 10061
+18:59:09 [Connection] connect() failed with error: 10061
+18:59:17 [Connection] connect() failed with error: 10061
+18:59:18 [Connection] connect() failed with error: 10061
+18:59:27 [Connection] connect() failed with error: 10061
+18:59:28 [Connection] connect() failed with error: 10061
+18:59:37 [Connection] connect() failed with error: 10061
+18:59:38 [Connection] connect() failed with error: 10061
+18:59:47 [Connection] connect() failed with error: 10061
+18:59:48 [Connection] connect() failed with error: 10061
+18:59:57 [Connection] connect() failed with error: 10061
+18:59:58 [Connection] connect() failed with error: 10061
+19:00:07 [Connection] connect() failed with error: 10061
+19:00:08 [Connection] connect() failed with error: 10061
+19:00:17 [Connection] connect() failed with error: 10061
+19:00:18 [Connection] connect() failed with error: 10061
+19:00:27 [Connection] connect() failed with error: 10061
+19:00:28 [Connection] connect() failed with error: 10061
+19:00:37 [Connection] connect() failed with error: 10061
+19:00:38 [Connection] connect() failed with error: 10061
+19:00:47 [Connection] connect() failed with error: 10061
+19:00:48 [Connection] connect() failed with error: 10061
+19:13:07 [SocketManager] Protocol header error (Index: 13001, Header: 22)
+22:24:47 [Connection] connect() failed with error: 10061
+22:35:17 [Connection] connect() failed with error: 10061
+22:35:18 [Connection] connect() failed with error: 10061
+22:35:27 [Connection] connect() failed with error: 10061
+22:35:28 [Connection] connect() failed with error: 10061
+22:35:37 [Connection] connect() failed with error: 10061
+22:35:38 [Connection] connect() failed with error: 10061

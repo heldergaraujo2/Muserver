@@ -1,0 +1,176 @@
+00:11:40 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:26:41 [ MarlonMove ] Map: 3, X: 169 Y: 89
+00:35:00 [CustomQuiz] Start
+00:40:00 [CustomQuiz] Finish
+00:41:42 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:56:43 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:11:44 [ MarlonMove ] Map: 3, X: 169 Y: 89
+01:26:45 [ MarlonMove ] Map: 0, X: 137 Y: 87
+01:35:00 [CustomQuiz] Start
+01:40:00 [CustomQuiz] Finish
+01:41:46 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:56:47 [ MarlonMove ] Map: 3, X: 169 Y: 89
+02:11:48 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+02:26:49 [ MarlonMove ] Map: 2, X: 198 Y: 47
+02:35:00 [CustomQuiz] Start
+02:40:00 [CustomQuiz] Finish
+02:41:50 [ MarlonMove ] Map: 7, X: 17 Y: 25
+02:56:51 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:00:01 [OnlineLoterry] No Winner
+03:11:52 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:26:53 [ MarlonMove ] Map: 2, X: 198 Y: 47
+03:35:00 [CustomQuiz] Start
+03:40:00 [CustomQuiz] Finish
+03:41:54 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:56:55 [ MarlonMove ] Map: 0, X: 137 Y: 87
+04:11:56 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:26:57 [ MarlonMove ] Map: 3, X: 169 Y: 89
+04:35:00 [CustomQuiz] Start
+04:40:00 [CustomQuiz] Finish
+04:41:58 [ MarlonMove ] Map: 7, X: 17 Y: 25
+04:56:59 [ MarlonMove ] Map: 0, X: 137 Y: 87
+05:12:00 [ MarlonMove ] Map: 7, X: 17 Y: 25
+05:27:01 [ MarlonMove ] Map: 0, X: 137 Y: 87
+05:35:00 [CustomQuiz] Start
+05:40:00 [CustomQuiz] Finish
+05:42:02 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:57:03 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:12:04 [ MarlonMove ] Map: 2, X: 198 Y: 47
+06:27:05 [ MarlonMove ] Map: 3, X: 169 Y: 89
+06:35:00 [CustomQuiz] Start
+06:40:00 [CustomQuiz] Finish
+06:42:06 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:57:07 [ MarlonMove ] Map: 2, X: 198 Y: 47
+07:00:01 [OnlineLoterry] No Winner
+07:12:08 [ MarlonMove ] Map: 7, X: 17 Y: 25
+07:27:09 [ MarlonMove ] Map: 3, X: 169 Y: 89
+07:35:00 [CustomQuiz] Start
+07:40:00 [CustomQuiz] Finish
+07:42:10 [ MarlonMove ] Map: 7, X: 17 Y: 25
+07:57:11 [ MarlonMove ] Map: 2, X: 198 Y: 47
+08:12:12 [ MarlonMove ] Map: 0, X: 137 Y: 87
+08:27:13 [ MarlonMove ] Map: 2, X: 198 Y: 47
+08:35:00 [CustomQuiz] Start
+08:40:00 [CustomQuiz] Finish
+08:42:14 [ MarlonMove ] Map: 7, X: 17 Y: 25
+08:57:15 [ MarlonMove ] Map: 0, X: 137 Y: 87
+09:12:16 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+09:27:17 [ MarlonMove ] Map: 7, X: 17 Y: 25
+09:35:00 [CustomQuiz] Start
+09:40:00 [CustomQuiz] Finish
+09:42:18 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:57:19 [ MarlonMove ] Map: 2, X: 198 Y: 47
+10:12:20 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:27:21 [ MarlonMove ] Map: 2, X: 198 Y: 47
+10:35:00 [CustomQuiz] Start
+10:40:00 [CustomQuiz] Finish
+10:42:22 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:57:23 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:00:01 [OnlineLoterry] No Winner
+11:12:24 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:27:25 [ MarlonMove ] Map: 7, X: 17 Y: 25
+11:35:00 [CustomQuiz] Start
+11:40:00 [CustomQuiz] Finish
+11:42:26 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:57:27 [ MarlonMove ] Map: 2, X: 198 Y: 47
+12:12:28 [ MarlonMove ] Map: 7, X: 17 Y: 25
+12:27:29 [ MarlonMove ] Map: 2, X: 198 Y: 47
+12:35:00 [CustomQuiz] Start
+12:40:00 [CustomQuiz] Finish
+12:42:30 [ MarlonMove ] Map: 7, X: 17 Y: 25
+12:54:56 [EVENT LOG] Start
+12:54:58 [Guild Reign] DataLoad Send
+12:54:58 [Guild Reign] DataLoad OK
+12:54:58 [Guild Reign] Map(6) Start Npc Error #2
+12:54:58 [Guild Reign] Map(113) Start Npc Error #2
+13:00:37 [Guild Reign] Map(6) Start Npc Error #2
+13:00:37 [Guild Reign] Map(113) Start Npc Error #2
+13:00:39 [Guild Reign] DataLoad Send
+13:00:39 [Guild Reign] DataLoad OK
+13:00:39 [Guild Reign] Map(6) Start Npc Error #2
+13:00:39 [Guild Reign] Map(113) Start Npc Error #2
+13:03:53 [EVENT LOG] Start
+13:03:55 [Guild Reign] DataLoad Send
+13:03:55 [Guild Reign] DataLoad OK
+13:03:55 [Guild Reign] Map(6) Start Npc Error #2
+13:03:55 [Guild Reign] Map(113) Start Npc Error #2
+13:18:55 [ MarlonMove ] Map: 7, X: 17 Y: 25
+13:33:56 [ MarlonMove ] Map: 3, X: 169 Y: 89
+13:35:00 [CustomQuiz] Start
+13:40:00 [CustomQuiz] Finish
+13:48:57 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:03:58 [ MarlonMove ] Map: 2, X: 198 Y: 47
+14:05:00 [Pandora Event] Started (Map: Noria X: 180, Y: 180)
+14:10:00 [Pandora Event] Finished (No Winner)
+14:18:59 [ MarlonMove ] Map: 3, X: 169 Y: 89
+14:34:00 [ MarlonMove ] Map: 2, X: 198 Y: 47
+14:35:00 [CustomQuiz] Start
+14:40:00 [CustomQuiz] Finish
+14:49:01 [ MarlonMove ] Map: 0, X: 137 Y: 87
+15:00:01 [OnlineLoterry] No Winner
+15:04:02 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:19:03 [ MarlonMove ] Map: 0, X: 137 Y: 87
+15:34:04 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:35:00 [CustomQuiz] Start
+15:40:00 [CustomQuiz] Finish
+15:49:05 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:04:06 [ MarlonMove ] Map: 7, X: 17 Y: 25
+16:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+16:19:07 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:34:08 [ MarlonMove ] Map: 7, X: 17 Y: 25
+16:35:00 [CustomQuiz] Start
+16:40:00 [CustomQuiz] Finish
+16:49:09 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:04:10 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:19:11 [ MarlonMove ] Map: 2, X: 198 Y: 47
+17:34:12 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:35:00 [CustomQuiz] Start
+17:40:00 [CustomQuiz] Finish
+17:49:13 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:04:14 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:19:15 [ MarlonMove ] Map: 7, X: 17 Y: 25
+18:34:16 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:35:00 [CustomQuiz] Start
+18:40:00 [CustomQuiz] Finish
+18:49:17 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:00:01 [OnlineLoterry] No Winner
+19:04:18 [ MarlonMove ] Map: 2, X: 198 Y: 47
+19:19:19 [ MarlonMove ] Map: 7, X: 17 Y: 25
+19:34:20 [ MarlonMove ] Map: 3, X: 169 Y: 89
+19:35:00 [CustomQuiz] Start
+19:40:00 [CustomQuiz] Finish
+19:49:21 [ MarlonMove ] Map: 7, X: 17 Y: 25
+20:04:22 [ MarlonMove ] Map: 3, X: 169 Y: 89
+20:09:17 [Guild Reign] Map(6) Start Npc Error #2
+20:09:17 [Guild Reign] Map(113) Start Npc Error #2
+20:12:36 [Guild Reign] Map(6) Start Npc Error #2
+20:12:36 [Guild Reign] Map(113) Start Npc Error #2
+20:12:44 [Guild Reign] DataLoad Send
+20:12:44 [Guild Reign] DataLoad OK
+20:12:44 [Guild Reign] Map(6) Start Npc Error #2
+20:12:44 [Guild Reign] Map(113) Start Npc Error #2
+20:13:31 [Guild Reign] Map(6) Start Npc Error #2
+20:13:31 [Guild Reign] Map(113) Start Npc Error #2
+20:14:00 [Guild Reign] DataLoad Send
+20:14:00 [Guild Reign] DataLoad OK
+20:14:00 [Guild Reign] Map(6) Start Npc Error #2
+20:14:00 [Guild Reign] Map(113) Start Npc Error #2
+20:19:27 [videodv][AdmSaffe] Add BattlePass Star(Level Up) Value: 1
+20:50:00 [Pandora Event] Started (Map: Tarkan X: 17, Y: 94)
+20:55:00 [Pandora Event] Finished (No Winner)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 0 X: 150 Y: 127)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 23 Y: 17)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 20 Y: 60)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 49 Y: 94)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 103 Y: 51)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 236 Y: 18)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 230 Y: 71)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 83 Y: 143)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 147 Y: 168)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 176 Y: 177)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 124 Y: 206)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 28 Y: 228)
+23:00:01 [OnlineLoterry] No Winner
+23:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225

@@ -1,0 +1,10 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//ItemMinIndex   ItemMaxIndex   ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3    ItemNewOption   Zen   Coin1   Coin2   Coin3    Comment
+//  26	  	 26          	*              *              *             *             *              *               30    7       0       0        //Sword XXX
+end

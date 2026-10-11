@@ -1,0 +1,332 @@
+00:00:20 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:00:24 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:00:26 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:00:28 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:00:30 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:00:32 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:00:32 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:01:41 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:01:43 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:01:45 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:01:47 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:01:49 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:01:51 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:01:51 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:09:56 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:09:56 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:09:58 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:10:00 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:10:02 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:10:03 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:10:05 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:10:40 [Obj][13007] LogOutCharacter (Lutador)
+00:10:40 [Obj][13007] DelAccount (luckask16)
+00:10:40 [Obj][13007] DelClient (45.170.89.78)
+00:10:42 [Obj][13000] AddClient (45.170.89.78)
+00:10:43 [Obj][13000] AddAccount (luckask16)
+00:10:46 [Obj][13000] LogInCharacter (Lutador)
+00:11:31 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:11:31 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:11:37 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:11:39 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:11:41 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:11:43 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:11:45 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:14:50 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:14:50 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:14:55 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:14:57 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:14:59 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:15:01 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:15:03 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:23:29 [Obj][13003] AddClient (143.0.7.239)
+00:23:33 [Obj][13003] AddAccount (diego)
+00:23:41 [Obj][13003] LogOutCharacter (DiegoON)
+00:23:44 [Obj][13003] DelAccount (diego)
+00:23:44 [Obj][13003] DelClient (143.0.7.239)
+00:35:32 [Obj][13000] LogOutCharacter (Lutador)
+00:35:32 [Obj][13000] DelAccount (luckask16)
+00:35:32 [Obj][13000] DelClient (45.170.89.78)
+00:35:35 [Obj][13014] AddClient (45.170.89.78)
+00:35:36 [Obj][13014] AddAccount (luckask16)
+00:35:39 [Obj][13014] LogInCharacter (Lutador)
+00:36:16 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:36:17 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:36:20 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:36:21 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:36:23 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:36:25 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:36:25 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:36:37 [Obj][13014] LogOutCharacter (Lutador)
+00:36:37 [Obj][13014] DelAccount (luckask16)
+00:36:37 [Obj][13014] DelClient (45.170.89.78)
+03:04:54 [Obj][13001] AddClient (45.184.138.139)
+03:04:57 [Obj][13001] DelClient (45.184.138.139)
+03:05:44 [Obj][13008] AddClient (45.184.138.139)
+03:05:46 [Obj][13008] DelClient (45.184.138.139)
+03:06:46 [Obj][13004] AddClient (45.184.138.139)
+03:06:57 [Obj][13004] AddAccount (lipecouto)
+03:07:12 [Obj][13004] DelAccount (lipecouto)
+03:07:12 [Obj][13004] DelClient (45.184.138.139)
+03:07:17 [Obj][13013] AddClient (45.184.138.139)
+03:07:23 [Obj][13013] AddAccount (lipelessa)
+03:07:26 [Obj][13013] LogInCharacter (SaGa)
+03:08:06 [BotBuffer] CharName: SaGa -ADD_GREATER_DEFENSE Time: 720
+03:08:06 [BotBuffer] CharName: SaGa - ADD_GREATER_DAMAGE Time: 720
+03:08:09 [BotBuffer] CharName: SaGa - ADD_SKILL_MANA Time: 720
+03:08:12 [BotBuffer] CharName: SaGa - ADD_GREATER_LIFE Time: 720
+03:08:15 [BotBuffer] CharName: SaGa - ADD_DAMAGE_REFLECT Time: 720
+03:08:17 [BotBuffer] CharName: SaGa - ADD_CRITICAL_DAMAGE Time: 720
+03:08:20 [BotBuffer] CharName: SaGa - ADD_FITNESS Time: 720
+03:20:42 [BotBuffer] CharName: SaGa -ADD_GREATER_DEFENSE Time: 720
+03:20:42 [BotBuffer] CharName: SaGa - ADD_GREATER_DAMAGE Time: 720
+03:20:44 [BotBuffer] CharName: SaGa - ADD_SKILL_MANA Time: 720
+03:20:46 [BotBuffer] CharName: SaGa - ADD_GREATER_LIFE Time: 720
+03:20:48 [BotBuffer] CharName: SaGa - ADD_DAMAGE_REFLECT Time: 720
+03:20:50 [BotBuffer] CharName: SaGa - ADD_CRITICAL_DAMAGE Time: 720
+03:20:51 [BotBuffer] CharName: SaGa - ADD_FITNESS Time: 720
+03:24:09 [Obj][13006] AddClient (45.184.138.139)
+03:24:26 [Obj][13006] AddAccount (lipecouto7)
+03:24:35 [Obj][13006] LogOutCharacter (ViltroN)
+03:28:49 [BotBuffer] CharName: SaGa - ADD_FITNESS Time: 720
+03:28:50 [BotBuffer] CharName: SaGa - ADD_CRITICAL_DAMAGE Time: 720
+03:28:53 [BotBuffer] CharName: SaGa - ADD_DAMAGE_REFLECT Time: 720
+03:28:55 [BotBuffer] CharName: SaGa - ADD_GREATER_LIFE Time: 720
+03:28:57 [BotBuffer] CharName: SaGa - ADD_SKILL_MANA Time: 720
+03:28:59 [BotBuffer] CharName: SaGa -ADD_GREATER_DEFENSE Time: 720
+03:28:59 [BotBuffer] CharName: SaGa - ADD_GREATER_DAMAGE Time: 720
+03:34:50 [Obj][13006] DelAccount (lipecouto7)
+03:34:50 [Obj][13006] DelClient (45.184.138.139)
+03:34:54 [Obj][13012] AddClient (45.184.138.139)
+03:35:17 [Obj][13012] AddAccount (biacouto7)
+03:36:25 [Obj][13012] LogInCharacter (Asheborne)
+03:47:51 [Obj][13013] LogOutCharacter (SaGa)
+03:47:51 [Obj][13013] DelAccount (lipelessa)
+03:47:51 [Obj][13013] DelClient (45.184.138.139)
+03:52:32 [BotBuffer] CharName: Asheborne - ADD_FITNESS Time: 720
+03:52:34 [BotBuffer] CharName: Asheborne - ADD_CRITICAL_DAMAGE Time: 720
+03:52:37 [BotBuffer] CharName: Asheborne - ADD_DAMAGE_REFLECT Time: 720
+03:52:39 [BotBuffer] CharName: Asheborne - ADD_GREATER_LIFE Time: 720
+03:52:41 [BotBuffer] CharName: Asheborne - ADD_SKILL_MANA Time: 720
+03:52:43 [BotBuffer] CharName: Asheborne -ADD_GREATER_DEFENSE Time: 720
+03:52:43 [BotBuffer] CharName: Asheborne - ADD_GREATER_DAMAGE Time: 720
+04:00:21 [Obj][13005] LogOutCharacter (BayBlade)
+04:00:21 [Obj][13005] DelAccount (locotmx30)
+04:00:21 [Obj][13005] DelClient (45.191.9.91)
+04:00:21 [Obj][13002] LogOutCharacter (AUR0R4SM)
+04:00:21 [Obj][13002] DelAccount (locotmx)
+04:00:21 [Obj][13002] DelClient (45.191.9.91)
+04:11:20 [Obj][13009] AddClient (45.191.9.91)
+04:11:21 [Obj][13009] AddAccount (morota25)
+04:11:32 [Obj][13009] LogOutCharacter (AzyzzRF)
+04:11:47 [Obj][13009] DelAccount (morota25)
+04:11:47 [Obj][13009] DelClient (45.191.9.91)
+04:11:50 [Obj][13011] AddClient (45.191.9.91)
+04:11:57 [Obj][13011] AddAccount (locotmx)
+04:12:01 [Obj][13011] LogInCharacter (AUR0R4SM)
+04:12:44 [Obj][13010] AddClient (45.191.9.91)
+04:12:50 [Obj][13010] AddAccount (locotmx30)
+04:12:54 [Obj][13010] LogInCharacter (BayBlade)
+06:38:22 [Obj][13015] AddClient (193.32.209.231)
+06:38:22 [Obj][13015] DelClient (193.32.209.231)
+06:50:25 [Obj][13007] AddClient (194.50.235.143)
+06:50:25 [Obj][13007] DelClient (194.50.235.143)
+06:50:25 [Obj][13003] AddClient (31.14.254.46)
+06:50:25 [Obj][13003] DelClient (31.14.254.46)
+06:50:26 [Obj][13000] AddClient (188.240.59.14)
+06:50:26 [Obj][13000] DelClient (188.240.59.14)
+06:50:26 [Obj][13014] AddClient (213.166.84.38)
+06:50:26 [Obj][13014] DelClient (213.166.84.38)
+06:53:05 [Obj][13001] AddClient (5.226.140.43)
+06:53:08 [Obj][13001] DelClient (5.226.140.43)
+06:53:08 [Obj][13008] AddClient (37.10.113.218)
+06:53:09 [Obj][13008] DelClient (37.10.113.218)
+06:53:09 [Obj][13004] AddClient (188.240.59.15)
+06:53:10 [Obj][13004] DelClient (188.240.59.15)
+06:53:11 [Obj][13006] AddClient (31.14.254.13)
+06:53:13 [Obj][13006] DelClient (31.14.254.13)
+07:22:06 [Obj][13012] LogOutCharacter (Asheborne)
+07:22:06 [Obj][13012] DelAccount (biacouto7)
+07:22:06 [Obj][13012] DelClient (45.184.138.139)
+07:56:55 [Obj][13013] AddClient (79.127.208.26)
+07:56:56 [Obj][13013] DelClient (79.127.208.26)
+10:08:29 [Obj][13002] AddClient (177.200.33.234)
+10:08:38 [Obj][13002] AddAccount (mamm)
+10:08:44 [Obj][13002] LogInCharacter (7777)
+11:42:08 [Obj][13002] LogOutCharacter (7777)
+11:42:08 [Obj][13002] DelAccount (mamm)
+11:42:08 [Obj][13002] DelClient (177.200.33.234)
+11:43:25 [Obj][13005] AddClient (189.40.89.196)
+11:43:27 [Obj][13005] DelClient (189.40.89.196)
+11:43:54 [Obj][13009] AddClient (189.40.89.196)
+11:44:01 [Obj][13009] AddAccount (lucasf17sm)
+11:44:15 [Obj][13009] LogInCharacter (Razer)
+11:47:14 [Obj][13015] AddClient (189.40.89.196)
+11:47:15 [Obj][13009] LogOutCharacter (Razer)
+11:47:15 [Obj][13009] DelAccount (lucasf17sm)
+11:47:15 [Obj][13009] DelClient (189.40.89.196)
+11:47:21 [Obj][13015] AddAccount (lucasf175)
+11:47:28 [Obj][13015] LogOutCharacter (AxOn)
+11:47:36 [Obj][13015] LogInCharacter (cccc)
+11:48:06 [Obj][13007] AddClient (189.40.89.196)
+11:48:20 [Obj][13007] AddAccount (lucasf17sm)
+11:48:22 [Obj][13007] LogInCharacter (Razer)
+11:48:58 [Obj][13007] LogOutCharacter (Razer)
+11:48:58 [Obj][13007] DelAccount (lucasf17sm)
+11:48:58 [Obj][13007] DelClient (189.40.89.196)
+11:49:28 [Obj][13003] AddClient (189.40.89.196)
+11:49:38 [Obj][13003] AddAccount (lucasf17sm)
+11:49:38 [Obj][13003] LogInCharacter (Razer)
+11:50:24 [Obj][13015] LogOutCharacter (cccc)
+11:50:24 [Obj][13015] DelAccount (lucasf175)
+11:50:24 [Obj][13015] DelClient (189.40.89.196)
+12:02:53 [Obj][13000] AddClient (177.200.33.234)
+12:02:55 [Obj][13000] AddAccount (mamm)
+12:02:59 [Obj][13000] LogInCharacter (7777)
+12:21:35 [Obj][13003] LogOutCharacter (Razer)
+12:21:35 [Obj][13003] DelAccount (lucasf17sm)
+12:21:35 [Obj][13003] DelClient (189.40.89.196)
+12:35:47 [Obj][13014] AddClient (179.63.44.169)
+12:35:50 [Obj][13014] AddAccount (gordo3)
+12:35:52 [Obj][13014] LogInCharacter (Pain)
+12:40:08 [Obj][13014] LogOutCharacter (Pain)
+12:40:08 [Obj][13014] DelAccount (gordo3)
+12:40:08 [Obj][13014] DelClient (179.63.44.169)
+12:42:43 [Obj][13001] AddClient (179.63.44.169)
+12:42:43 [Obj][13001] AddAccount (gordo3)
+12:42:43 [Obj][13001] LogInCharacter (Pain)
+14:04:00 [Obj][13008] AddClient (189.40.89.196)
+14:04:02 [Obj][13008] AddAccount (lucasf17sm)
+14:04:04 [Obj][13008] LogInCharacter (Razer)
+14:05:26 [Obj][13004] AddClient (189.40.89.196)
+14:05:28 [Obj][13004] DelClient (189.40.89.196)
+14:05:29 [Obj][13006] AddClient (189.40.89.196)
+14:05:30 [Obj][13006] AddAccount (lucasf174)
+14:05:32 [Obj][13006] LogInCharacter (aaaa)
+14:06:37 [BotBuffer] CharName: Razer -ADD_GREATER_DEFENSE Time: 720
+14:06:37 [BotBuffer] CharName: Razer - ADD_GREATER_DAMAGE Time: 720
+14:06:38 [BotBuffer] CharName: Razer - ADD_SKILL_MANA Time: 720
+14:06:40 [BotBuffer] CharName: Razer - ADD_GREATER_LIFE Time: 720
+14:06:42 [BotBuffer] CharName: Razer - ADD_DAMAGE_REFLECT Time: 720
+14:06:42 [BotBuffer] CharName: Razer - ADD_CRITICAL_DAMAGE Time: 720
+14:06:44 [BotBuffer] CharName: Razer - ADD_FITNESS Time: 720
+14:52:03 [Obj][13006] LogOutCharacter (aaaa)
+14:52:03 [Obj][13006] DelAccount (lucasf174)
+14:52:03 [Obj][13006] DelClient (189.40.89.196)
+15:29:03 [Obj][13000] LogOutCharacter (7777)
+15:29:03 [Obj][13000] DelAccount (mamm)
+15:29:03 [Obj][13000] DelClient (177.200.33.234)
+15:36:25 [Obj][13012] AddClient (66.132.172.105)
+15:36:29 [Obj][13012] DelClient (66.132.172.105)
+15:36:33 [Obj][13013] AddClient (66.132.172.105)
+15:36:41 [Obj][13013] DelClient (66.132.172.105)
+17:33:56 [ServerInfo] Script loaded successfully
+17:54:20 [FAKE ONLINE LOG] Start
+17:54:20 [ServerInfo] CashShop loaded successfully
+17:54:20 [ServerInfo] ChaosMix loaded successfully
+17:54:20 [ServerInfo] Character loaded successfully
+17:54:20 [FakeOnline] Loaded successfully
+17:54:20 [ServerInfo] Custom loaded successfully
+17:54:20 [ServerInfo] Command loaded successfully
+17:54:20 [Obj][13000] AddClient (45.191.9.91)
+17:54:20 [Obj][13001] AddClient (45.191.9.91)
+17:54:20 [ServerInfo] Common loaded successfully
+17:54:20 [ServerInfo] Discord loaded successfully
+17:54:20 [ServerInfo] Effect loaded successfully
+17:54:20 [ServerInfo] Event loaded successfully
+17:54:20 [ServerInfo] EventItemBag loaded successfully
+17:54:20 [ServerInfo] Hack loaded successfully
+17:54:20 [ServerInfo] Item loaded successfully
+17:54:20 [ServerInfo] Message loaded successfully
+17:54:20 [ServerInfo] Map loaded successfully
+17:54:20 [ServerInfo] Terrain loaded successfully
+17:54:20 [ServerInfo] Monster loaded successfully
+17:54:20 [ServerInfo] Move loaded successfully
+17:54:20 [ServerInfo] Quest loaded successfully
+17:54:20 [ServerInfo] Script loaded successfully
+17:54:20 [ServerInfo] Shop loaded successfully
+17:54:20 [Obj][13002] AddClient (179.63.44.169)
+17:54:20 [ServerInfo] Skill loaded successfully
+17:54:20 [ServerInfo] Util loaded successfully
+17:54:20 [ReadBotInfo] BotSystem loaded successfully
+17:54:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+17:54:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+17:54:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+17:54:21 [ServerInfo] Custom Attack offline restored successfully
+17:54:21 [ServerInfo] Custom Store offline restored successfully
+17:54:21 [Discord] Connection successfully
+17:54:21 [Obj][13003] AddClient (189.40.89.196)
+17:54:21 [Obj][13003] AddAccount (lucasf17sm)
+17:54:21 [Obj][13003] LogInCharacter (Razer)
+17:54:21 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:54:30 [Obj][13000] AddAccount (locotmx30)
+17:54:30 [Obj][13001] AddAccount (locotmx)
+17:54:30 [Obj][13000] LogInCharacter (BayBlade)
+17:54:30 [Obj][13001] LogInCharacter (AUR0R4SM)
+17:54:50 [Obj][13004] AddClient (177.200.34.5)
+17:54:50 [Obj][13002] DelClient (179.63.44.169)
+17:54:51 [Obj][13004] DelClient (177.200.34.5)
+18:36:03 [Obj][13003] LogOutCharacter (Razer)
+18:36:03 [Obj][13003] DelAccount (lucasf17sm)
+18:36:03 [Obj][13003] DelClient (189.40.89.196)
+18:40:28 [Obj][13002] AddClient (177.139.81.240)
+18:40:32 [Obj][13002] AddAccount (lucasf17sm)
+18:40:36 [Obj][13002] LogInCharacter (Razer)
+20:02:29 [BotBuffer] CharName: Razer -ADD_GREATER_DEFENSE Time: 720
+20:02:29 [BotBuffer] CharName: Razer - ADD_GREATER_DAMAGE Time: 720
+20:02:30 [BotBuffer] CharName: Razer - ADD_SKILL_MANA Time: 720
+20:02:35 [BotBuffer] CharName: Razer - ADD_GREATER_LIFE Time: 720
+20:02:38 [BotBuffer] CharName: Razer - ADD_DAMAGE_REFLECT Time: 720
+20:02:39 [BotBuffer] CharName: Razer - ADD_CRITICAL_DAMAGE Time: 720
+20:02:42 [BotBuffer] CharName: Razer - ADD_FITNESS Time: 720
+20:15:07 [Obj][13004] AddClient (45.184.138.139)
+20:15:17 [Obj][13004] AddAccount (biacouto7)
+20:15:20 [Obj][13004] LogInCharacter (Asheborne)
+20:34:13 [Obj][13003] AddClient (179.63.44.169)
+20:34:16 [Obj][13003] AddAccount (gordo3)
+20:34:18 [Obj][13003] LogInCharacter (Pain)
+20:41:42 [Obj][13005] AddClient (179.63.44.169)
+20:41:44 [Obj][13005] AddAccount (gordo2)
+20:41:53 [Obj][13005] LogOutCharacter (DakoTa)
+20:42:01 [Obj][13005] DelAccount (gordo2)
+20:42:01 [Obj][13005] DelClient (179.63.44.169)
+20:56:48 [Obj][13002] LogOutCharacter (Razer)
+20:56:48 [Obj][13002] DelAccount (lucasf17sm)
+20:56:48 [Obj][13002] DelClient (177.139.81.240)
+20:58:39 [Obj][13005] AddClient (177.139.81.240)
+20:58:40 [Obj][13005] AddAccount (lucasf17sm)
+20:58:43 [Obj][13005] LogInCharacter (Razer)
+21:24:16 [Obj][13003] LogOutCharacter (Pain)
+21:24:16 [Obj][13003] DelAccount (gordo3)
+21:24:16 [Obj][13003] DelClient (179.63.44.169)
+22:01:12 [Obj][13002] AddClient (104.152.52.230)
+22:01:12 [Obj][13002] DelClient (104.152.52.230)
+22:01:12 [Obj][13003] AddClient (104.152.52.236)
+22:01:12 [Obj][13003] DelClient (104.152.52.236)
+22:01:13 [Obj][13006] AddClient (104.152.52.239)
+22:01:13 [Obj][13006] DelClient (104.152.52.239)
+22:01:13 [Obj][13007] AddClient (104.152.52.231)
+22:01:13 [Obj][13007] DelClient (104.152.52.231)
+22:01:13 [Obj][13008] AddClient (104.152.52.230)
+22:01:13 [Obj][13008] DelClient (104.152.52.230)
+22:01:13 [Obj][13009] AddClient (104.152.52.230)
+22:01:13 [Obj][13009] DelClient (104.152.52.230)
+22:01:14 [Obj][13010] AddClient (104.152.52.243)
+22:01:14 [Obj][13010] DelClient (104.152.52.243)
+22:01:14 [Obj][13011] AddClient (104.152.52.232)
+22:01:14 [Obj][13011] DelClient (104.152.52.232)
+22:01:14 [Obj][13012] AddClient (104.152.52.241)
+22:01:15 [Obj][13012] DelClient (104.152.52.241)
+22:01:15 [Obj][13013] AddClient (104.152.52.237)
+22:01:15 [Obj][13013] DelClient (104.152.52.237)
+22:01:15 [Obj][13014] AddClient (104.152.52.231)
+22:01:15 [Obj][13014] DelClient (104.152.52.231)
+22:01:15 [Obj][13015] AddClient (104.152.52.234)
+22:01:15 [Obj][13015] DelClient (104.152.52.234)
+22:01:16 [Obj][13016] AddClient (104.152.52.239)
+22:01:16 [Obj][13016] DelClient (104.152.52.239)
+22:04:27 [Obj][13004] LogOutCharacter (Asheborne)
+22:04:38 [Obj][13004] DelAccount (biacouto7)
+22:04:38 [Obj][13004] DelClient (45.184.138.139)
+23:38:00 [Obj][13002] AddClient (79.127.208.26)
+23:38:01 [Obj][13002] DelClient (79.127.208.26)

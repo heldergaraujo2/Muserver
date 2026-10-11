@@ -1,0 +1,11 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+
+0
+//Section	Type	Level	Dur	Skill	Luck	Option	ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5	SocketBonus	Duration	Comment
+end

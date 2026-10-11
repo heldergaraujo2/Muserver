@@ -1,0 +1,8 @@
+01:34:51 [SocketManager] Protocol header error (Index: 37, Header: 16)
+11:39:21 [SocketManager] Server started at port [44406]
+11:39:21 [ServerList] ServerList loaded successfully
+11:39:22 [ServerList] GameServer online (GameServer) (1)
+11:39:24 [ServerList] JoinServer online
+11:39:30 [ServerList] GameServer online (GameServer) (0)
+11:39:36 [ServerList] GameServer online (GameServerCS) (19)
+20:08:11 [SocketManager] WSAAccept() failed with error: 10061

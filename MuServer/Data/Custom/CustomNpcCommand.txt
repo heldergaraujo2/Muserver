@@ -1,0 +1,14 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   Npc	NpcMap	NpcX	NpcY	NpcTalk	    Command Text	Comment
+0         601   00      143     145     1           "/quest"
+1         793   92      188     102     1           "/control"          //Tower Arka War Event               
+2         789   00      121     133     1           "/zen 20"   //Zen   
+3         785   00      143     145     1           "/enterarena"   //Zen   
+            
+end

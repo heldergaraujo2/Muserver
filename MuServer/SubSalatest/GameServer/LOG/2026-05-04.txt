@@ -1,0 +1,411 @@
+07:48:12 [Obj][13006] LogOutCharacter (TheCrims)
+07:48:12 [Obj][13006] DelAccount (thecrims2)
+07:48:12 [Obj][13006] DelClient (177.75.52.38)
+07:50:59 [Obj][13005] AddClient (177.75.52.38)
+07:51:00 [Obj][13005] AddAccount (thecrims2)
+07:51:02 [Obj][13005] LogInCharacter (TheCrims)
+11:23:41 [Obj][13007] AddClient (177.200.34.5)
+11:23:42 [Obj][13007] AddAccount (hellder)
+11:23:55 [Obj][13007] LogInCharacter (Saffe)
+11:25:56 [Obj][13006] AddClient (177.200.34.5)
+11:25:59 [Obj][13006] AddAccount (videodv)
+11:26:00 [Obj][13006] LogInCharacter (AdmSaffe)
+11:43:31 [Obj][13007] LogOutCharacter (Saffe)
+11:43:31 [Obj][13007] DelAccount (hellder)
+11:43:31 [Obj][13007] DelClient (177.200.34.5)
+11:44:06 [Obj][13007] AddClient (177.200.34.5)
+11:44:10 [Obj][13007] AddAccount (hellder)
+11:44:11 [Obj][13007] LogInCharacter (Saffe)
+11:57:56 [Obj][13007] LogOutCharacter (Saffe)
+11:57:56 [Obj][13007] DelAccount (hellder)
+11:57:56 [Obj][13007] DelClient (177.200.34.5)
+11:58:00 [Obj][13009] AddClient (177.200.34.5)
+11:58:01 [Obj][13009] AddAccount (hellder)
+11:58:03 [Obj][13009] LogInCharacter (Saffe)
+13:08:01 [Obj][13000] LogOutCharacter (Invocadora)
+13:08:01 [Obj][13000] DelAccount (thecrims)
+13:08:01 [Obj][13000] DelClient (45.238.1.52)
+13:08:59 [Obj][13003] LogOutCharacter (Snuff)
+13:08:59 [Obj][13003] DelAccount (thecrims1)
+13:08:59 [Obj][13003] DelClient (45.238.1.52)
+14:23:12 [Obj][13009] LogOutCharacter (Saffe)
+14:23:12 [Obj][13009] DelAccount (hellder)
+14:23:12 [Obj][13009] DelClient (177.200.34.5)
+14:23:13 [Obj][13006] LogOutCharacter (AdmSaffe)
+14:23:13 [Obj][13006] DelAccount (videodv)
+14:23:13 [Obj][13006] DelClient (177.200.34.5)
+14:57:34 [Obj][13007] AddClient (177.200.34.5)
+14:57:35 [Obj][13007] AddAccount (hellder)
+14:57:36 [Obj][13007] LogInCharacter (Saffe)
+15:06:33 [Obj][13007] LogOutCharacter (Saffe)
+15:06:33 [Obj][13007] DelAccount (hellder)
+15:06:33 [Obj][13007] DelClient (177.200.34.5)
+15:06:58 [Obj][13000] AddClient (177.200.34.5)
+15:06:59 [Obj][13000] AddAccount (hellder)
+15:07:01 [Obj][13000] LogInCharacter (Saffe)
+15:15:08 [Obj][13000] LogOutCharacter (Saffe)
+15:15:08 [Obj][13000] DelAccount (hellder)
+15:15:08 [Obj][13000] DelClient (177.200.34.5)
+15:19:40 [Obj][13003] AddClient (186.233.109.181)
+15:19:41 [Obj][13003] AddAccount (pvp04)
+15:19:44 [Obj][13003] LogInCharacter (PVPSUM01)
+15:20:12 [Obj][13009] AddClient (177.200.34.5)
+15:20:13 [Obj][13009] AddAccount (hellder)
+15:20:17 [Obj][13003] LogOutCharacter (PVPSUM01)
+15:20:17 [Obj][13003] DelAccount (pvp04)
+15:20:17 [Obj][13003] DelClient (186.233.109.181)
+15:20:17 [Obj][13009] LogInCharacter (Saffe)
+15:21:05 [Obj][13006] AddClient (186.233.109.181)
+15:21:06 [Obj][13006] AddAccount (pvp04)
+15:21:08 [Obj][13006] LogInCharacter (PVPSUM01)
+15:22:36 [Obj][13006] LogOutCharacter (PVPSUM01)
+15:22:36 [Obj][13006] DelAccount (pvp04)
+15:22:36 [Obj][13006] DelClient (186.233.109.181)
+15:29:39 [Obj][13007] AddClient (177.200.34.5)
+15:29:43 [Obj][13009] LogOutCharacter (Saffe)
+15:29:43 [Obj][13009] DelAccount (hellder)
+15:29:43 [Obj][13009] DelClient (177.200.34.5)
+15:29:43 [Obj][13007] AddAccount (hellder)
+15:29:45 [Obj][13007] LogInCharacter (Saffe)
+15:31:58 [Obj][13007] LogOutCharacter (Saffe)
+15:31:58 [Obj][13007] DelAccount (hellder)
+15:31:58 [Obj][13007] DelClient (177.200.34.5)
+15:32:13 [Obj][13000] AddClient (177.200.34.5)
+15:32:14 [Obj][13000] AddAccount (hellder)
+15:32:16 [Obj][13000] LogInCharacter (Saffe)
+15:33:01 [Obj][13003] AddClient (186.233.109.181)
+15:33:02 [Obj][13003] AddAccount (pvp04)
+15:33:04 [Obj][13003] LogInCharacter (PVPSUM01)
+15:36:13 [Obj][13003] LogOutCharacter (PVPSUM01)
+15:36:13 [Obj][13003] DelAccount (pvp04)
+15:36:13 [Obj][13003] DelClient (186.233.109.181)
+15:53:54 [ServerInfo] Monster loaded successfully
+15:55:23 [ServerInfo] Monster loaded successfully
+15:55:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+15:55:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 190, Y: 143)
+15:55:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+18:36:30 [Obj][13000] LogOutCharacter (Saffe)
+18:36:30 [Obj][13000] DelAccount (hellder)
+18:36:30 [Obj][13000] DelClient (177.200.34.5)
+18:55:35 [Obj][13004] LogOutCharacter (joker)
+18:55:35 [Obj][13004] DelAccount (joker)
+18:55:35 [Obj][13004] DelClient (45.238.1.52)
+18:59:14 [Obj][13005] LogOutCharacter (TheCrims)
+18:59:14 [Obj][13005] DelAccount (thecrims2)
+18:59:14 [Obj][13005] DelClient (177.75.52.38)
+19:21:15 [Obj][13006] AddClient (177.200.34.5)
+19:21:16 [Obj][13006] AddAccount (hellder)
+19:21:17 [Obj][13006] LogInCharacter (Saffe)
+19:26:29 [Obj][13009] AddClient (177.75.52.38)
+19:26:29 [Obj][13009] AddAccount (thecrims2)
+19:26:31 [Obj][13009] LogInCharacter (TheCrims)
+19:27:16 [Obj][13007] AddClient (177.75.52.38)
+19:27:17 [Obj][13007] AddAccount (thecrims)
+19:27:19 [Obj][13007] LogInCharacter (Invocadora)
+19:27:43 [Obj][13003] AddClient (177.75.52.38)
+19:27:44 [Obj][13003] AddAccount (thecrims1)
+19:27:46 [Obj][13003] LogInCharacter (Snuff)
+19:31:13 [Obj][13009] LogOutCharacter (TheCrims)
+19:31:13 [Obj][13009] DelAccount (thecrims2)
+19:31:13 [Obj][13009] DelClient (177.75.52.38)
+19:31:43 [Obj][13000] AddClient (177.75.52.38)
+19:31:53 [Obj][13000] AddAccount (thecrims2)
+19:31:55 [Obj][13000] LogInCharacter (TheCrims)
+19:51:25 [Obj][13004] AddClient (45.238.1.52)
+19:51:29 [Obj][13004] AddAccount (joker)
+19:51:31 [Obj][13004] LogInCharacter (joker)
+20:06:58 [Obj][13006] LogOutCharacter (Saffe)
+20:06:58 [Obj][13006] DelAccount (hellder)
+20:06:58 [Obj][13006] DelClient (177.200.34.5)
+20:28:17 [Obj][13005] AddClient (45.238.1.52)
+20:28:29 [Obj][13008] LogOutCharacter (Cristal)
+20:28:29 [Obj][13008] DelAccount (jokerr)
+20:28:29 [Obj][13008] DelClient (45.238.1.52)
+20:28:30 [Obj][13005] AddAccount (jokerr)
+20:28:32 [Obj][13005] LogInCharacter (Cristal)
+20:29:17 [Obj][13009] AddClient (45.238.1.52)
+20:29:23 [Obj][13002] LogOutCharacter (LapadDoCao)
+20:29:23 [Obj][13002] DelAccount (jokerrr)
+20:29:23 [Obj][13002] DelClient (45.238.1.52)
+20:29:24 [Obj][13009] AddAccount (jokerrr)
+20:29:26 [Obj][13009] LogInCharacter (LapadDoCao)
+20:30:01 [Obj][13006] AddClient (45.238.1.52)
+20:30:08 [Obj][13001] LogOutCharacter (JokErDL)
+20:30:08 [Obj][13001] DelAccount (jokerrrr)
+20:30:08 [Obj][13001] DelClient (45.238.1.52)
+20:30:09 [Obj][13006] AddAccount (jokerrrr)
+20:30:11 [Obj][13006] LogInCharacter (JokErDL)
+20:32:42 [Obj][13008] AddClient (177.200.34.5)
+20:32:43 [Obj][13008] DelClient (177.200.34.5)
+20:34:40 [Obj][13000] LogOutCharacter (TheCrims)
+20:34:40 [Obj][13000] DelAccount (thecrims2)
+20:34:40 [Obj][13000] DelClient (177.75.52.38)
+20:35:10 [Obj][13002] AddClient (177.75.52.38)
+20:35:20 [Obj][13002] AddAccount (thecrims2)
+20:35:20 [Obj][13002] LogInCharacter (TheCrims)
+20:38:00 [Obj][13002] LogOutCharacter (TheCrims)
+20:38:00 [Obj][13002] DelAccount (thecrims2)
+20:38:00 [Obj][13002] DelClient (177.75.52.38)
+20:38:30 [Obj][13001] AddClient (177.75.52.38)
+20:38:40 [Obj][13001] AddAccount (thecrims2)
+20:38:40 [Obj][13001] LogInCharacter (TheCrims)
+22:07:15 [Obj][13008] AddClient (177.75.52.38)
+22:07:16 [Obj][13001] LogOutCharacter (TheCrims)
+22:07:16 [Obj][13001] DelAccount (thecrims2)
+22:07:16 [Obj][13001] DelClient (177.75.52.38)
+22:07:18 [Obj][13008] AddAccount (thecrims2)
+22:07:19 [Obj][13008] LogInCharacter (TheCrims)
+22:07:51 [Obj][13003] LogOutCharacter (Snuff)
+22:07:51 [Obj][13003] DelAccount (thecrims1)
+22:07:51 [Obj][13003] DelClient (177.75.52.38)
+22:08:30 [Obj][13000] AddClient (177.75.52.38)
+22:08:34 [Obj][13007] LogOutCharacter (Invocadora)
+22:08:34 [Obj][13007] DelAccount (thecrims)
+22:08:34 [Obj][13007] DelClient (177.75.52.38)
+22:08:36 [Obj][13000] AddAccount (thecrims)
+22:08:37 [Obj][13000] LogInCharacter (Invocadora)
+22:08:49 [Obj][13008] LogOutCharacter (TheCrims)
+22:08:49 [Obj][13008] DelAccount (thecrims2)
+22:08:49 [Obj][13008] DelClient (177.75.52.38)
+22:13:11 [Obj][13000] LogOutCharacter (Invocadora)
+22:13:11 [Obj][13000] DelAccount (thecrims)
+22:13:11 [Obj][13000] DelClient (177.75.52.38)
+22:13:11 [Obj][13004] LogOutCharacter (joker)
+22:13:11 [Obj][13004] DelAccount (joker)
+22:13:11 [Obj][13004] DelClient (45.238.1.52)
+22:13:11 [Obj][13005] LogOutCharacter (Cristal)
+22:13:11 [Obj][13005] DelAccount (jokerr)
+22:13:11 [Obj][13005] DelClient (45.238.1.52)
+22:13:11 [Obj][13006] LogOutCharacter (JokErDL)
+22:13:11 [Obj][13006] DelAccount (jokerrrr)
+22:13:11 [Obj][13006] DelClient (45.238.1.52)
+22:13:11 [Obj][13009] LogOutCharacter (LapadDoCao)
+22:13:11 [Obj][13009] DelAccount (jokerrr)
+22:13:11 [Obj][13009] DelClient (45.238.1.52)
+22:13:41 [Obj][13002] AddClient (177.75.52.38)
+22:13:51 [Obj][13002] AddAccount (thecrims)
+22:13:51 [Obj][13002] LogInCharacter (Invocadora)
+22:14:07 [Obj][13002] LogOutCharacter (Invocadora)
+22:14:07 [Obj][13002] DelAccount (thecrims)
+22:14:07 [Obj][13002] DelClient (177.75.52.38)
+22:14:40 [FAKE ONLINE LOG] Start
+22:14:40 [ServerInfo] CashShop loaded successfully
+22:14:40 [ServerInfo] ChaosMix loaded successfully
+22:14:40 [ServerInfo] Character loaded successfully
+22:14:40 [FakeOnline] Loaded successfully
+22:14:40 [ServerInfo] Custom loaded successfully
+22:14:40 [ServerInfo] Command loaded successfully
+22:14:40 [ServerInfo] Common loaded successfully
+22:14:40 [ServerInfo] Discord loaded successfully
+22:14:40 [ServerInfo] Effect loaded successfully
+22:14:40 [ServerInfo] Event loaded successfully
+22:14:40 [ServerInfo] EventItemBag loaded successfully
+22:14:40 [ServerInfo] Hack loaded successfully
+22:14:40 [ServerInfo] Item loaded successfully
+22:14:40 [ServerInfo] Message loaded successfully
+22:14:40 [ServerInfo] Map loaded successfully
+22:14:40 [ServerInfo] Terrain loaded successfully
+22:14:40 [ServerInfo] Monster loaded successfully
+22:14:40 [ServerInfo] Move loaded successfully
+22:14:40 [ServerInfo] Quest loaded successfully
+22:14:40 [ServerInfo] Script loaded successfully
+22:14:40 [ServerInfo] Shop loaded successfully
+22:14:40 [ServerInfo] Skill loaded successfully
+22:14:40 [ServerInfo] Util loaded successfully
+22:14:40 [ReadBotInfo] BotSystem loaded successfully
+22:14:41 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+22:14:41 [ServerInfo] Custom Attack offline restored successfully
+22:14:41 [ServerInfo] Custom Store offline restored successfully
+22:14:41 [Discord] Connection successfully
+22:14:42 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+22:15:10 [Obj][13000] AddClient (177.75.52.38)
+22:15:20 [Obj][13000] DelClient (177.75.52.38)
+22:37:44 [Obj][13000] AddClient (186.194.50.50)
+22:37:46 [Obj][13000] AddAccount (pvp02)
+22:37:55 [Obj][13000] LogInCharacter (PVPRF)
+22:38:44 [Obj][13001] AddClient (177.221.5.77)
+22:38:44 [Obj][13001] DelClient (177.221.5.77)
+22:38:45 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+22:38:45 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:04:30 [Obj][13001] AddClient (186.233.109.181)
+23:04:31 [Obj][13001] AddAccount (pvp04)
+23:04:34 [Obj][13001] LogInCharacter (PVPRF01)
+23:11:25 [ServerInfo] Character loaded successfully
+23:11:59 [ServerInfo] Character loaded successfully
+23:12:57 [pvp04][PVPRF01] Kill [pvp02][PVPRF]
+23:13:55 [pvp04][PVPRF01] Kill [pvp02][PVPRF]
+23:14:39 [Obj][13001] LogOutCharacter (PVPRF01)
+23:14:39 [Obj][13001] DelAccount (pvp04)
+23:14:39 [Obj][13001] DelClient (186.233.109.181)
+23:14:43 [Obj][13002] AddClient (79.127.208.26)
+23:14:44 [Obj][13002] AddAccount (pvp04)
+23:14:46 [Obj][13002] LogInCharacter (PVPRF01)
+23:15:43 [Obj][13001] AddClient (186.233.109.181)
+23:15:43 [Obj][13001] DelClient (186.233.109.181)
+23:15:43 [Obj][13003] AddClient (186.233.109.181)
+23:15:43 [Obj][13003] DelClient (186.233.109.181)
+23:15:43 [AntiFlood] SYN FLOOD attack(186.233.109.181)
+23:16:33 [ServerInfo] Script loaded successfully
+23:16:39 [pvp02][PVPRF] Kill [pvp04][PVPRF01]
+23:17:00 [Obj][13001] AddClient (170.0.222.200)
+23:17:05 [Obj][13001] AddAccount (hellder)
+23:17:06 [Obj][13002] LogOutCharacter (PVPRF01)
+23:17:07 [Obj][13001] LogInCharacter (Saffe)
+23:17:12 [Obj][13000] LogOutCharacter (PVPRF)
+23:17:13 [Obj][13003] AddClient (177.221.5.77)
+23:17:13 [Obj][13003] DelClient (177.221.5.77)
+23:17:13 [Obj][13004] AddClient (177.221.5.77)
+23:17:13 [Obj][13004] DelClient (177.221.5.77)
+23:17:13 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:17:14 [Obj][13002] DelAccount (pvp04)
+23:17:14 [Obj][13002] DelClient (79.127.208.26)
+23:17:14 [Obj][13005] AddClient (186.233.109.181)
+23:17:14 [Obj][13005] DelClient (186.233.109.181)
+23:17:14 [Obj][13006] AddClient (186.233.109.181)
+23:17:14 [Obj][13006] DelClient (186.233.109.181)
+23:17:14 [AntiFlood] SYN FLOOD attack(186.233.109.181)
+23:17:14 [Obj][13007] AddClient (186.194.50.50)
+23:17:17 [Obj][13007] AddAccount (pvp01)
+23:17:18 [Obj][13008] AddClient (79.127.208.26)
+23:17:19 [Obj][13007] LogInCharacter (PVPSM)
+23:17:20 [Obj][13008] AddAccount (pvp03)
+23:17:23 [Obj][13000] DelAccount (pvp02)
+23:17:23 [Obj][13000] DelClient (186.194.50.50)
+23:17:23 [Obj][13008] LogInCharacter (PVPSM01)
+23:17:56 [Obj][13008] LogOutCharacter (PVPSM01)
+23:18:04 [Obj][13007] LogOutCharacter (PVPSM)
+23:18:04 [Obj][13007] DelAccount (pvp01)
+23:18:04 [Obj][13007] DelClient (186.194.50.50)
+23:18:06 [Obj][13003] AddClient (186.194.50.50)
+23:18:09 [Obj][13003] AddAccount (pvp02)
+23:18:10 [Obj][13008] DelAccount (pvp03)
+23:18:10 [Obj][13008] DelClient (79.127.208.26)
+23:18:12 [Obj][13003] LogInCharacter (PVPRF)
+23:19:06 [Obj][13004] AddClient (177.221.5.77)
+23:19:06 [Obj][13004] DelClient (177.221.5.77)
+23:19:06 [Obj][13002] AddClient (177.221.5.77)
+23:19:06 [Obj][13002] DelClient (177.221.5.77)
+23:19:06 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:19:25 [Obj][13005] AddClient (79.127.208.26)
+23:19:27 [Obj][13005] AddAccount (pvp03)
+23:19:30 [Obj][13005] LogInCharacter (PVPBK01)
+23:20:07 [Obj][13005] LogOutCharacter (PVPBK01)
+23:20:07 [Obj][13005] DelAccount (pvp03)
+23:20:07 [Obj][13005] DelClient (79.127.208.26)
+23:20:12 [Obj][13006] AddClient (79.127.208.26)
+23:20:15 [Obj][13006] AddAccount (pvp04)
+23:20:22 [Obj][13006] LogInCharacter (PVPRF01)
+23:20:44 [pvp02][PVPRF] Kill [pvp04][PVPRF01]
+23:21:02 [ServerInfo] Script loaded successfully
+23:21:12 [Obj][13000] AddClient (186.233.109.181)
+23:21:12 [Obj][13000] DelClient (186.233.109.181)
+23:21:12 [Obj][13007] AddClient (186.233.109.181)
+23:21:12 [Obj][13007] DelClient (186.233.109.181)
+23:21:12 [AntiFlood] SYN FLOOD attack(186.233.109.181)
+23:23:04 [ServerInfo] Skill loaded successfully
+23:23:16 [ServerInfo] Skill loaded successfully
+23:24:17 [Obj][13001] LogOutCharacter (Saffe)
+23:24:17 [Obj][13001] DelAccount (hellder)
+23:24:17 [Obj][13001] DelClient (170.0.222.200)
+23:24:33 [pvp02][PVPRF] Kill [pvp04][PVPRF01]
+23:25:08 [Obj][13008] AddClient (170.0.222.200)
+23:25:15 [Obj][13008] AddAccount (hellder)
+23:25:17 [Obj][13008] LogInCharacter (Saffe)
+23:25:27 [Obj][13006] LogOutCharacter (PVPRF01)
+23:25:27 [Obj][13006] DelAccount (pvp04)
+23:25:27 [Obj][13006] DelClient (79.127.208.26)
+23:25:27 [Obj][13004] AddClient (186.233.109.181)
+23:25:27 [Obj][13004] DelClient (186.233.109.181)
+23:25:27 [Obj][13002] AddClient (186.233.109.181)
+23:25:27 [Obj][13002] DelClient (186.233.109.181)
+23:25:27 [AntiFlood] SYN FLOOD attack(186.233.109.181)
+23:25:31 [Obj][13003] LogOutCharacter (PVPRF)
+23:25:31 [Obj][13003] DelAccount (pvp02)
+23:25:31 [Obj][13003] DelClient (186.194.50.50)
+23:25:31 [Obj][13005] AddClient (177.221.5.77)
+23:25:31 [Obj][13005] DelClient (177.221.5.77)
+23:25:31 [Obj][13000] AddClient (177.221.5.77)
+23:25:31 [Obj][13000] DelClient (177.221.5.77)
+23:25:31 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:26:36 [Obj][13007] AddClient (186.194.50.50)
+23:26:38 [Obj][13007] AddAccount (pvp01)
+23:26:40 [Obj][13007] LogInCharacter (PVPSM)
+23:27:05 [Obj][13001] AddClient (79.127.208.26)
+23:27:07 [Obj][13001] AddAccount (pvp03)
+23:27:10 [Obj][13001] LogInCharacter (PVPBK01)
+23:27:16 [Obj][13001] LogOutCharacter (PVPBK01)
+23:27:18 [Obj][13001] LogInCharacter (PVPBK01)
+23:27:36 [Obj][13006] AddClient (177.221.5.77)
+23:27:36 [Obj][13006] DelClient (177.221.5.77)
+23:27:36 [Obj][13004] AddClient (177.221.5.77)
+23:27:36 [Obj][13004] DelClient (177.221.5.77)
+23:27:36 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:28:05 [Obj][13002] AddClient (186.233.109.181)
+23:28:05 [Obj][13002] DelClient (186.233.109.181)
+23:28:05 [Obj][13003] AddClient (186.233.109.181)
+23:28:05 [Obj][13003] DelClient (186.233.109.181)
+23:28:05 [AntiFlood] SYN FLOOD attack(186.233.109.181)
+23:29:08 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:30:10 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:32:51 [ServerInfo] Script loaded successfully
+23:33:10 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:33:47 [ServerInfo] Script loaded successfully
+23:34:15 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:34:36 [ServerInfo] Script loaded successfully
+23:34:58 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:35:18 [ServerInfo] Script loaded successfully
+23:36:09 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:37:20 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:37:52 [ServerInfo] Script loaded successfully
+23:38:16 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:38:39 [ServerInfo] Script loaded successfully
+23:39:00 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:41:45 [ServerInfo] Skill loaded successfully
+23:42:48 [ServerInfo] Common loaded successfully
+23:43:40 [ServerInfo] Skill loaded successfully
+23:44:12 [ServerInfo] Skill loaded successfully
+23:44:13 [ServerInfo] Common loaded successfully
+23:44:18 [ServerInfo] Common loaded successfully
+23:44:20 [ServerInfo] Skill loaded successfully
+23:44:38 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:45:38 [Obj][13007] LogOutCharacter (PVPSM)
+23:45:38 [Obj][13007] DelAccount (pvp01)
+23:45:38 [Obj][13007] DelClient (186.194.50.50)
+23:45:38 [Obj][13005] AddClient (177.221.5.77)
+23:45:38 [Obj][13005] DelClient (177.221.5.77)
+23:45:38 [Obj][13000] AddClient (177.221.5.77)
+23:45:38 [Obj][13000] DelClient (177.221.5.77)
+23:45:38 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:46:45 [Obj][13006] AddClient (186.194.50.50)
+23:46:46 [Obj][13006] AddAccount (pvp01)
+23:46:48 [Obj][13006] LogInCharacter (PVPSM)
+23:47:45 [Obj][13004] AddClient (177.221.5.77)
+23:47:45 [Obj][13004] DelClient (177.221.5.77)
+23:47:45 [Obj][13002] AddClient (177.221.5.77)
+23:47:45 [Obj][13002] DelClient (177.221.5.77)
+23:47:45 [AntiFlood] SYN FLOOD attack(177.221.5.77)
+23:51:05 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:52:52 [ServerInfo] Script loaded successfully
+23:53:46 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:53:54 [ServerInfo] Script loaded successfully
+23:53:55 [ServerInfo] Script loaded successfully
+23:53:57 [ServerInfo] Character loaded successfully
+23:53:58 [ServerInfo] Script loaded successfully
+23:54:18 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:54:44 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:55:12 [ServerInfo] Character loaded successfully
+23:55:24 [Obj][13006] LogOutCharacter (PVPSM)
+23:55:29 [Obj][13006] LogInCharacter (PVPSM)
+23:55:42 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:55:54 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:56:03 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:56:17 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:56:47 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:57:19 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:57:31 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:57:51 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:58:22 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:58:46 [Obj][13001] LogOutCharacter (PVPBK01)
+23:58:50 [Obj][13001] LogInCharacter (PVPSM01)
+23:59:29 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+23:59:46 [pvp01][PVPSM] Kill [pvp03][PVPSM01]

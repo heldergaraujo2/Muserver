@@ -1,0 +1,32 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+//Shop: 010 - Elf Lala
+0
+//Group Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 SocketBonus  Duration   Info
+	14	     1	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Healing Potion
+	14	     2	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Healing Potion
+	14	     3	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Healing Potion
+	14	     4	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Mana Potion
+	14	     5	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Mana Potion
+	14	     6	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	7	     11	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	8	     11	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	9	     11	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	10	     11	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	11	     11	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+14	8	0	100	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Antidote
+14	1	1	10	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Antidote
+4	7	0	255	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Bolt
+4	15	0	255	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Arrow
+12	11	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	8	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	9	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	10	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	17	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	18	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	45	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	46	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	46	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Crystal of Recovery
+end

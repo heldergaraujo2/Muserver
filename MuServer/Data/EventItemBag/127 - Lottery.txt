@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Online Lottery"	1000	100		1		0		0		1		1
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+14	245	0	0	0	0	0	0	// Jewel of Chaos
+14	246	0	0	0	0	0	0	// Jewel of Chaos
+14	247	0	0	0	0	0	0	// Jewel of Chaos
+14	248	0	0	0	0	0	0	// Jewel of Chaos
+14	253	0	0	0	0	0	0	// Jewel of Chaos
+end

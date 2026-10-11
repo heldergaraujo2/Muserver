@@ -1,0 +1,63 @@
+08:57:42 Account hellder logged with global password!
+09:41:24 Account hellder logged with global password!
+09:47:29 Account hellder logged with global password!
+09:50:08 Account hellder logged with global password!
+09:52:25 Account hellder logged with global password!
+09:59:04 Account hellder logged with global password!
+10:11:22 Account hellder logged with global password!
+10:46:26 Account hellder logged with global password!
+11:08:27 Account hellder logged with global password!
+11:23:14 Account hellder logged with global password!
+11:23:59 Account hellder logged with global password!
+11:38:29 Account hellder logged with global password!
+12:18:01 Account hellder logged with global password!
+12:19:10 Account hellder logged with global password!
+12:28:03 Account hellder logged with global password!
+12:29:47 Account hellder logged with global password!
+12:31:03 Account hellder logged with global password!
+13:08:12 Account hellder logged with global password!
+13:18:46 Account hellder logged with global password!
+13:33:31 Account hellder logged with global password!
+13:47:39 Account hellder logged with global password!
+13:52:06 Account hellder logged with global password!
+19:13:23 Account hellder logged with global password!
+19:15:16 Account hellder logged with global password!
+19:20:06 Account hellder logged with global password!
+19:21:25 Account hellder logged with global password!
+19:26:13 Account hellder logged with global password!
+19:28:21 Account hellder logged with global password!
+19:34:32 Account hellder logged with global password!
+19:55:52 [ServerManager][1] DelServer (127.0.0.1)
+19:56:02 [ServerManager][4] AddServer (127.0.0.1)
+19:56:02 [ServerManager][4] ServerInfo (Test) (55903) (2)
+19:56:32 Account hellder logged with global password!
+19:58:09 Account hellder logged with global password!
+19:59:10 Account hellder logged with global password!
+20:14:40 Account hellder logged with global password!
+20:47:52 [ServerManager][4] DelServer (127.0.0.1)
+20:48:04 [ServerManager][1] AddServer (127.0.0.1)
+20:48:04 [ServerManager][1] ServerInfo (Test) (55903) (2)
+21:17:59 Account hellderrrr logged with global password!
+21:26:38 Account hellder logged with global password!
+21:27:08 Account hellderrrr logged with global password!
+21:31:36 [SocketManager] Server started at port [55970]
+21:31:44 [ServerManager][0] AddServer (127.0.0.1)
+21:31:44 [ServerManager][0] ServerInfo (Test) (55903) (2)
+21:31:46 [ServerManager][1] AddServer (127.0.0.1)
+21:31:46 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+21:31:53 [ServerManager][2] AddServer (127.0.0.1)
+21:31:53 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+21:32:03 [ServerManager][3] AddServer (127.0.0.1)
+21:32:03 [ServerManager][3] ServerInfo (Speed) (55902) (1)
+21:39:18 [SocketManager] Server started at port [55970]
+21:39:24 [ServerManager][0] AddServer (127.0.0.1)
+21:39:24 [ServerManager][0] ServerInfo (Test) (55903) (2)
+21:39:26 [ServerManager][1] AddServer (127.0.0.1)
+21:39:26 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+21:39:34 [ServerManager][2] AddServer (127.0.0.1)
+21:39:34 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+21:39:43 [ServerManager][3] AddServer (127.0.0.1)
+21:39:43 [ServerManager][3] ServerInfo (Speed) (55902) (1)
+21:40:10 Account hellder logged with global password!
+21:42:37 Account hellderrrr logged with global password!
+22:03:03 Account hellder logged with global password!

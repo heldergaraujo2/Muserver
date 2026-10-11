@@ -1,0 +1,28 @@
+11:46:14 [ProtocolCore] aIndex: 13009 Name: TimewindowsWindowRequest Head: 246
+11:46:43 [ProtocolCore] aIndex: 13009 Name: TimewindowsWindowRequest Head: 246
+11:46:47 [ProtocolCore] aIndex: 13009 Name: TimewindowsWindowRequest Head: 246
+17:33:56 [Loader] Lua Gameserver socket ready!
+17:33:56 [Loader] Load success System\ScriptCore
+17:33:56 [Loader] Load success System\ProtocolCore
+17:33:56 [Loader] Load success Utils\Database
+17:33:56 [Loader] Load success Utils\DatabaseAsync
+17:33:56 [Loader] Load success Utils\Cron
+17:33:56 [Loader] Load success Utils\Functions
+17:33:56 [Loader] Load success Utils\Schedule
+17:33:56 Connected to database
+17:33:56 Connected to Async database
+17:33:56 Teste query: ZZZZZZZZZZ
+17:33:56 [ServerInfo] Script loaded successfully
+17:54:20 [SCRIPT LOG] Start
+17:54:20 [Loader] Lua Gameserver socket ready!
+17:54:20 [Loader] Load success System\ScriptCore
+17:54:20 [Loader] Load success System\ProtocolCore
+17:54:20 [Loader] Load success Utils\Database
+17:54:20 [Loader] Load success Utils\DatabaseAsync
+17:54:20 [Loader] Load success Utils\Cron
+17:54:20 [Loader] Load success Utils\Functions
+17:54:20 [Loader] Load success Utils\Schedule
+17:54:20 Connected to database
+17:54:20 Connected to Async database
+17:54:20 Teste query: ZZZZZZZZZZ
+17:54:20 [ServerInfo] Script loaded successfully

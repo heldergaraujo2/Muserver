@@ -1,0 +1,29 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Type:
+// 	Winner: 1 
+//	Loser: 2
+// RewardType:
+// 	1: Money
+// 	2: Experience 	 (Value1 = Experience, Value2 = Master Experience)
+// 	3: Item 	 (Value1 = EventItemBagManager Index)
+// 	4: Effect 	 (Value1: Effect index, Value2:Time, Value3: Effect value 1, Value4: Effect value 2)
+// 	5: Coins 	 (WC: Value1, WP: Value2, GP: Value3)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Type	MapNumber	BeginPosX      	BeginPosY      	EndPosX      	EndPosY		RewardType	Value1	Value2	Value3	Value4
+//1	0		*		*		*		*		1		9999	0	0	0
+//1	0		*		*		*		*		2		1111	2222	0	0
+//1	0		*		*		*		*		3		101	0	0	0
+//1	0		*		*		*		*		4		103	3600	20	0
+//1	0		140		129		144		133		5		0	0	10	0
+
+//2	0		*		*		*		*		1		-100	0	0	0
+//2	0		*		*		*		*		4		87	0	0	0
+//2	0		*		*		*		*		5		0	0	-10	0
+end

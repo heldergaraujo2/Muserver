@@ -1,0 +1,325 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//============================================================================================
+//============================================================================================
+// Custom Quest Text by louis
+//
+// - Language Group  
+// 0 - English
+// 1 - Portuguese
+// 2 - Spanish
+//
+// - Type 
+// 0 - Primary Quest
+// 1 - Secundary Quest
+//
+// - Quest = Quest number
+// - Line = Text line (Max 3 lines)
+// - Quest Text = Text of this line
+//============================================================================================
+//============================================================================================
+
+0
+//============================================================================================
+// English
+//============================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"Reset's Quest"
+
+	1	1	0 	"Devias's Quest"
+	1	2	0 	"Dungeon's Quest"
+	1	3	0 	"Atlans's Quest"
+	1	4	0 	"Losttower's Quest"
+	1	5	0 	"Tarkan's Quest"
+	1	6	0 	"Aida's Quest"
+	1	7	0 	"Icarus's Quest"
+	1	8	0 	"Kanturu's Quest"
+	1	9	0 	"Kanturu 2's Quest"
+	1	10	0 	"Raklion's Quest"
+	1	11	0 	"Karutan's Quest"
+	1	12	0 	"Acheron's Quest"
+	1	13	0 	"Kanturu 3's Quest"
+	1	14	0 	"Swamp Peace's Quest"
+	1	15	0 	"Nixies Lake's Quest"
+	1	16	0 	"Ferea's Quest"
+	1	17	0 	"Swamp of Darkness's Quest"
+	1	18	0 	"Nars's Quest"
+	1	19	0 	"Uruk Mountain's Quest"
+	1	20	0 	"Kubera Mine's Quest"
+	1	21	0 	"Deep Deungeon's Quest"
+	1	99	0 	"Final's Quest"
+	1	100	0 	"Chaos Castle Final's Event"
+	1	101	0 	"Muun's Mount Exchanges"
+
+	1	200	0 	"4th's Event"
+	1	201	0 	"5th's Event"
+//====================================================================================================================================
+// LINE TEXT 1 | LINHA DE TEXTO 1
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	2	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	3	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	4	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	5	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	6	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	7	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	8	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	9	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	10	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	11	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	12	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	13	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	14	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	15	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	16	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	17	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	18	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	19	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	20	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	21	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	99	1 	"Entering the game, return to the Npc to continue the Quest."
+	1	100	1 	"Entering the game, return to the Npc to continue the Event."
+	1	101	1 	"Entering the game, return to the Npc to continue the Exchanges."
+
+	1	200	1 	"Entering the game, return to the Npc to continue the Event."
+	1	201	1 	"Entering the game, return to the Npc to continue the Event."
+//====================================================================================================================================
+// LINE TEXT 1 | LINHA DE TEXTO 1
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	2 	"Finish all quests here, next Quest will be on: Dungeon."
+	1	2	2 	"Finish all quests here, next Quest will be on: Atlans."
+	1	3	2 	"Finish all quests here, next Quest will be on: Losttower."
+	1	4	2 	"Finish all quests here, next Quest will be on: Tarkan."
+	1	5	2 	"Finish all quests here, next Quest will be on: Aida."
+	1	6	2 	"Finish all quests here, next Quest will be on: Icarus."
+	1	7	2 	"Finish all quests here, next Quest will be on: Kanturu."
+	1	8	2 	"Finish all quests here, next Quest will be on: Kanturu 2."
+	1	9	2 	"Finish all quests here, next Quest will be on: Raklion."
+	1	10	2 	"Finish all quests here, next Quest will be on: Karutan."
+	1	11	2 	"Finish all quests here, next Quest will be on: Acheron."
+	1	12	2 	"Finish all quests here, next Quest will be on: Kanturu 3."
+	1	13	2 	"Finish all quests here, next Quest will be on: Swamp Peace."
+	1	14	2 	"Finish all quests here, next Quest will be on: Nixies Lake."
+	1	15	2 	"Finish all quests here, next Quest will be on: Ferea."
+	1	16	2 	"Finish all quests here, next Quest will be on: Swamp of Darkness."
+	1	17	2 	"Finish all quests here, next Quest will be on: Nars."
+	1	18	2 	"Finish all quests here, next Quest will be on: Uruk Mountain."
+	1	19	2 	"Finish all quests here, next Quest will be on: Kubera Mine."
+	1	20	2 	"Finish all quests here, next Quest will be on: Deep Dungeon."
+	1	21	2 	"Finish all quests here, next Quest will be on: Lorencia."
+	1	99	2 	"This quest can be repeated every time."
+	1	100	2 	"Enter Chaos Castle 7 to complete the Quest."
+	1	101	2 	"Exchanges Evolution Stone for Muun Energy Converter."
+
+	1	200	2 	"Enter the event to complete the Event."
+	1	201	2 	"Enter the event to complete the Event."
+end
+//============================================================================================
+//============================================================================================
+
+1
+//============================================================================================
+// Portuguese
+//============================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"Reset's Quest"
+
+	1	1	0 	"Devias's Quest"
+	1	2	0 	"Dungeon's Quest"
+	1	3	0 	"Atlans's Quest"
+	1	4	0 	"Losttower's Quest"
+	1	5	0 	"Tarkan's Quest"
+	1	6	0 	"Aida's Quest"
+	1	7	0 	"Icarus's Quest"
+	1	8	0 	"Kanturu's Quest"
+	1	9	0 	"Kanturu 2's Quest"
+	1	10	0 	"Raklion's Quest"
+	1	11	0 	"Karutan's Quest"
+	1	12	0 	"Acheron's Quest"
+	1	13	0 	"Kanturu 3's Quest"
+	1	14	0 	"Swamp Peace's Quest"
+	1	15	0 	"Nixies Lake's Quest"
+	1	16	0 	"Ferea's Quest"
+	1	17	0 	"Swamp of Darkness's Quest"
+	1	18	0 	"Nars's Quest"
+	1	19	0 	"Uruk Mountain's Quest"
+	1	20	0 	"Kubera Mine's Quest"
+	1	21	0 	"Deep Deungeon's Quest"
+	1	99	0 	"Final's Quest"
+	1	100	0 	"Chaos Castle Final's Event"
+	1	101	0 	"Muun's Mount Exchanges"
+
+	1	200	0 	"4th's Event"
+	1	201	0 	"5th's Event"
+//====================================================================================================================================
+// LINE TEXT 1 | LINHA DE TEXTO 1
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	2	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	3	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	4	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	5	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	6	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	7	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	8	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	9	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	10	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	11	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	12	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	13	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	14	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	15	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	16	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	17	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	18	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	19	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	20	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	21	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	99	1 	"Ao entrar no jogo, volte ao Npc para continuar a Quest."
+	1	100	1 	"Ao entrar no jogo, volte ao Npc para continuar a Evento."
+	1	101	1 	"Ao entrar no jogo, volte ao Npc para continuar a Troca."
+
+	1	200	1 	"Ao entrar no evento, volte ao Npc para continuar a missão."
+	1	201	1 	"Ao entrar no evento, volte ao Npc para continuar a missão."
+//====================================================================================================================================
+// LINE TEXT 2| LINHA DE TEXTO 2
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	2 	"Termine todas as quests aqui, próxima Quest será em: Dungeon."
+	1	2	2 	"Termine todas as quests aqui, próxima Quest será em: Atlans."
+	1	3	2 	"Termine todas as quests aqui, próxima Quest será em: Losttower."
+	1	4	2 	"Termine todas as quests aqui, próxima Quest será em: Tarkan."
+	1	5	2 	"Termine todas as quests aqui, próxima Quest será em: Aida."
+	1	6	2 	"Termine todas as quests aqui, próxima Quest será em: Icarus."
+	1	7	2 	"Termine todas as quests aqui, próxima Quest será em: Kanturu."
+	1	8	2 	"Termine todas as quests aqui, próxima Quest será em: Kanturu 2."
+	1	9	2 	"Termine todas as quests aqui, próxima Quest será em: Raklion."
+	1	10	2 	"Termine todas as quests aqui, próxima Quest será em: Karutan."
+	1	11	2 	"Termine todas as quests aqui, próxima Quest será em: Acheron."
+	1	12	2 	"Termine todas as quests aqui, próxima Quest será em: Kanturu 3."
+	1	13	2 	"Termine todas as quests aqui, próxima Quest será em: Swamp Peace."
+	1	14	2 	"Termine todas as quests aqui, próxima Quest será em: Nixies Lake."
+	1	15	2 	"Termine todas as quests aqui, próxima Quest será em: Ferea."
+	1	16	2 	"Termine todas as quests aqui, próxima Quest será em: Swamp of Darkness."
+	1	17	2 	"Termine todas as quests aqui, próxima Quest será em: Nars."
+	1	18	2 	"Termine todas as quests aqui, próxima Quest será em: Uruk Mountain."
+	1	19	2 	"Termine todas as quests aqui, próxima Quest será em: Kubera Mine."
+	1	20	2 	"Termine todas as quests aqui, próxima Quest será em: Deep Dungeon."
+	1	21	2 	"Termine todas as quests aqui, próxima Quest será em: Lorencia."
+	1	99	2 	"Essa Quest pode ser repetida sempre."
+	1	100	2 	"Entre em Chaos Castle 7 para completar o Evento."
+	1	101	2 	"Troque Evolution Stone por Muun Energy Converter."
+
+	1	200	2 	"Entre no evento para completar."
+	1	201	2 	"Entre no evento para completar."
+end
+//============================================================================================
+//============================================================================================
+
+2
+//============================================================================================
+// Spanish
+//============================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"Reset's Quest"
+
+	1	1	0 	"Devias's Quest"
+	1	2	0 	"Dungeon's Quest"
+	1	3	0 	"Atlans's Quest"
+	1	4	0 	"Losttower's Quest"
+	1	5	0 	"Tarkan's Quest"
+	1	6	0 	"Aida's Quest"
+	1	7	0 	"Icarus's Quest"
+	1	8	0 	"Kanturu's Quest"
+	1	9	0 	"Kanturu 2's Quest"
+	1	10	0 	"Raklion's Quest"
+	1	11	0 	"Karutan's Quest"
+	1	12	0 	"Acheron's Quest"
+	1	13	0 	"Kanturu 3's Quest"
+	1	14	0 	"Swamp Peace's Quest"
+	1	15	0 	"Nixies Lake's Quest"
+	1	16	0 	"Ferea's Quest"
+	1	17	0 	"Swamp of Darkness's Quest"
+	1	18	0 	"Nars's Quest"
+	1	19	0 	"Uruk Mountain's Quest"
+	1	20	0 	"Kubera Mine's Quest"
+	1	21	0 	"Deep Deungeon's Quest"
+	1	99	0 	"Final's Quest"
+	1	100	0 	"Chaos Castle Final's Event"
+	1	101	0 	"Muun's Mount Exchanges"
+
+	1	200	0 	"4th's Event"
+	1	201	0 	"5th's Event"
+//====================================================================================================================================
+// LINE TEXT 1 | LINHA DE TEXTO 1
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	2	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	3	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	4	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	5	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	6	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	7	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	8	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	9	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	10	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	11	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	12	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	13	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	14	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	15	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	16	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	17	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	18	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	19	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	20	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	21	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	99	1 	"Al ingresar al juego, regresa al Npc para continuar la  Misión."
+	1	100	1 	"Al ingresar al juego, regresa al Npc para continuar lo  Evento."
+	1	101	1 	"Al ingresar al juego, regresa al Npc para continuar lo  Intercambio."
+
+	1	200	1 	"Al ingresar al juego, regresa al Npc para continuar lo  Evento."
+	1	201	1 	"Al ingresar al juego, regresa al Npc para continuar lo  Evento."
+//====================================================================================================================================
+// LINE TEXT 2 | LINHA DE TEXTO 2
+//====================================================================================================================================
+//	#Type	#Quest	#Line	#Quest Text
+	1	1	2 	"Termina todas las misiones aquí, la próxima misión estará en: Dungeon."
+	1	2	2 	"Termina todas las misiones aquí, la próxima misión estará en: Atlans."
+	1	3	2 	"Termina todas las misiones aquí, la próxima misión estará en: Losttower."
+	1	4	2 	"Termina todas las misiones aquí, la próxima misión estará en: Tarkan."
+	1	5	2 	"Termina todas las misiones aquí, la próxima misión estará en: Aida."
+	1	6	2 	"Termina todas las misiones aquí, la próxima misión estará en: Icarus."
+	1	7	2 	"Termina todas las misiones aquí, la próxima misión estará en: Kanturu."
+	1	8	2 	"Termina todas las misiones aquí, la próxima misión estará en: Kanturu 2."
+	1	9	2 	"Termina todas las misiones aquí, la próxima misión estará en: Raklion."
+	1	10	2 	"Termina todas las misiones aquí, la próxima misión estará en: Karutan."
+	1	11	2 	"Termina todas las misiones aquí, la próxima misión estará en: Acheron."
+	1	12	2 	"Termina todas las misiones aquí, la próxima misión estará en: Kanturu 3."
+	1	13	2 	"Termina todas las misiones aquí, la próxima misión estará en: Swamp Peace."
+	1	14	2 	"Termina todas las misiones aquí, la próxima misión estará en: Nixies Lake."
+	1	15	2 	"Termina todas las misiones aquí, la próxima misión estará en: Ferea."
+	1	16	2 	"Termina todas las misiones aquí, la próxima misión estará en: Swamp of Darkness."
+	1	17	2 	"Termina todas las misiones aquí, la próxima misión estará en: Nars."
+	1	18	2 	"Termina todas las misiones aquí, la próxima misión estará en: Uruk Mountain."
+	1	19	2 	"Termina todas las misiones aquí, la próxima misión estará en: Kubera Mine."
+	1	20	2 	"Termina todas las misiones aquí, la próxima misión estará en: Deep Dungeon."
+	1	21	2 	"Termina todas las misiones aquí, la próxima misión estará en: Lorencia."
+	1	99	2 	"Esta misión se puede repetir siempre."
+	1	100	2 	"Entra en Chaos Castle 7 para completar lo Evento."
+	1	101	2 	"Entra en Chaos Castle 7 para completar lo  Intercambio."
+
+	1	200	2 	"Entra en evento para completar la mission."
+	1	201	2 	"Entra en evento para completar la mission."
+end
+//============================================================================================
+//============================================================================================

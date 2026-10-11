@@ -1,0 +1,18 @@
+15:54:39 [SCRIPT LOG] Start
+15:54:40 [Loader] Lua Gameserver socket ready!
+15:54:40 [Loader] Load success System\ScriptCore
+15:54:40 [Loader] Load success System\ProtocolCore
+15:54:40 [Loader] Load success Utils\Database
+15:54:40 [Loader] Load success Utils\DatabaseAsync
+15:54:40 [Loader] Load success Utils\Cron
+15:54:40 [Loader] Load success Utils\Functions
+15:54:40 [Loader] Load success Utils\Schedule
+15:54:40 [Loader] Load success Scripts\CalCharacter
+15:54:40 [Loader] Load success Scripts\Musaffe\Config
+15:54:40 [Timewindows] Script carregado. Mapa configurado: 84
+15:54:40 [Loader] Load success Scripts\Musaffe\Config
+15:54:40 [Loader] Load folder success Scripts\Musaffe\
+15:54:40 Connected to database
+15:54:40 Connected to Async database
+15:54:40 Teste query: ZZZZZZZZZZ
+15:54:40 [ServerInfo] Script loaded successfully

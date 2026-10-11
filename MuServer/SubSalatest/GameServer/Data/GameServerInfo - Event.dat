@@ -1,0 +1,333 @@
+[GameServerInfo]
+;==================================================
+; Blood Castle Event Settings
+;==================================================
+BloodCastleEvent = 0
+BloodCastleEnterType = 0
+BloodCastleMaxUser = 10
+BloodCastleAllowPk = 1
+BloodCastleAllowSafeZoneBuff = 0
+BloodCastleMaxEntryCount_AL0 = 0
+BloodCastleMaxEntryCount_AL1 = 0
+BloodCastleMaxEntryCount_AL2 = 0
+BloodCastleMaxEntryCount_AL3 = 0
+BloodCastleSaintStatuePosX = 14
+BloodCastleSaintStatuePosY = 95
+BloodCastleGatePosX = 14
+BloodCastleGatePosY = 75
+
+;==================================================
+; Bonus Manager Settings
+;==================================================
+BonusManagerSwitch = 0
+
+;==================================================
+; Castle Deep Event Settings
+;==================================================
+CastleDeepEvent = 0
+CastleDeepEventTime = 30
+
+;==================================================
+; Castle Siege Event Settings
+;==================================================
+CastleSiegeEvent = 0
+CastleSiegeCycleStartYear =2019
+CastleSiegeCycleStartMonth =10
+CastleSiegeCycleStartDay =21
+CastleSiegeSpecificState =1
+CastleSiegeStateStartYear =2019
+CastleSiegeStateStartMonth =10
+CastleSiegeStateStartDay =27
+CastleSiegeStateStartHour =0
+CastleSiegeStateStartMinute =0
+CastleSiegeOffensiveWeaponDamage = 300
+CastleSiegeDefensiveWeaponDamage = 200
+CastleSiegeLowerAccumulatedTimeValue = 0
+CastleSiegeDecayAccumulatedTimeValue = 0
+CastleSiegeResetAccumulatedTimeValue = 0
+CastleSiegeGetCrownUserGuildLevel = 128
+CastleSiegeGetCrownTime = 60
+CastleSiegeSeniorMixUnlimitedUse = 1
+CastleSiegeRankingEnable = 1
+CastleSiegeRankingSaveEnable = 1
+CastleSiegeTestTime = 10
+
+;==================================================
+; Castle Siege Point Settings
+;==================================================
+CastleSiegePointSwitch = 0
+CastleSiegePointKillMaster = 15
+CastleSiegePointKillAssistMaster = 5  ;new line
+CastleSiegePointKillBattleMaster = 5  ;new line
+CastleSiegePointKillOther = 5
+CastleSiegePointCrownRegister = 100
+CastleSiegePointSwitchUse = 1
+CastleSiegePointSwitchUseTime = 4000
+CastleSiegePointDefender = 1
+CastleSiegePointDefenderTime = 4000
+
+;==================================================
+; Chaos Castle Event Settings
+; Enter type: 0 level(default), 1 reset, 2 master reset, 3 no check, 4 level (without check 3th class)
+;==================================================
+ChaosCastleEvent = 0
+ChaosCastleEnterType = 0
+ChaosCastleMinUser = 1
+ChaosCastleBlowUserRate = 50
+ChaosCastleMaxEntryCount_AL0 = 0
+ChaosCastleMaxEntryCount_AL1 = 0
+ChaosCastleMaxEntryCount_AL2 = 0
+ChaosCastleMaxEntryCount_AL3 = 0
+
+;==================================================
+; Crywolf Event Settings
+;==================================================
+CrywolfEvent = 0
+CrywolfBenefitSwitch = 1
+CrywolfBenefitChaosRate = 10
+CrywolfBenefitMonsterLife = 80
+CrywolfPenaltySwitch = 0
+CrywolfPenaltyJewelDrop = 70
+CrywolfPenaltyExperience = 70
+
+;==================================================
+; Devil Square Event Settings
+;==================================================
+DevilSquareEvent = 0
+DevilSquareEnterType = 0
+DevilSquareMaxUser = 15
+DevilSquareMaxEntryCount_AL0 = 0
+DevilSquareMaxEntryCount_AL1 = 0
+DevilSquareMaxEntryCount_AL2 = 0
+DevilSquareMaxEntryCount_AL3 = 0
+
+;==================================================
+; Double Goer Event Settings
+;==================================================
+DoubleGoerEvent = 0
+DoubleGoerDifficultRate = 100
+DoubleGoerMaxEntryCount_AL0 = 1
+DoubleGoerMaxEntryCount_AL1 = 1
+DoubleGoerMaxEntryCount_AL2 = 1
+DoubleGoerMaxEntryCount_AL3 = 1
+
+;==================================================
+; Illusion Temple Event Settings
+;==================================================
+IllusionTempleEvent = 0
+IllusionTempleMinUser = 1
+IllusionTempleRewardFenrirRate = 5
+IllusionTempleMaxEntryCount_AL0 = 1
+IllusionTempleMaxEntryCount_AL1 = 1
+IllusionTempleMaxEntryCount_AL2 = 1
+IllusionTempleMaxEntryCount_AL3 = 1
+
+;==================================================
+; Imperial Guardian Event Settings
+;==================================================
+ImperialGuardianEvent = 0
+ImperialGuardianDifficultRate = 100
+ImperialGuardianBaseExperience = 10000
+ImperialGuardianFinalBossExperience = 15000
+ImperialGuardianMaxEntryCount_AL0 = 1
+ImperialGuardianMaxEntryCount_AL1 = 1
+ImperialGuardianMaxEntryCount_AL2 = 1
+ImperialGuardianMaxEntryCount_AL3 = 1
+
+;==================================================
+; Invasion Manager Settings
+;==================================================
+InvasionManagerSwitch = 1
+
+;==================================================
+; Kanturu Event Settings
+;==================================================
+KanturuEvent = 0
+KanturuEventEnablePvP = 0
+
+;==================================================
+; Moss Merchant Event Settings
+;==================================================
+MossMerchantEvent = 0
+MossMerchantEventTime = 120
+
+;==================================================
+; Raklion Event Settings
+;==================================================
+RaklionEvent = 0
+RaklionBossEnablePvP = 1
+
+;==================================================
+; King of MU Event(Arka War Adapted) Settings
+;==================================================
+ReiDoMUEvent = 1
+ReiDoMUMap = 92
+ReiDoMUCordX = 189
+ReiDoMUCordY = 101
+ReiDoMUGuildMinMembers = 1
+
+;==================================================
+; Quickly Event (Veloz)
+;==================================================
+QuicklyEvent = 0
+QuicklyEventAutoReward1 = 10
+QuicklyEventAutoReward2 = 0
+QuicklyEventAutoReward3 = 0
+
+;==================================================
+; Event Start (Iniciar evento)
+;==================================================
+EventStartSwitch = 0
+EventStartTime   = 30
+
+;==================================================
+; Event Hide and Seek (Esconde-Esconde)
+;==================================================
+EventHideAndSeekSwitch = 0
+EventHideAndSeekMaxTime = 50
+EventHideAndSeekAutoReward1 = 10
+EventHideAndSeekAutoReward2 = 0
+EventHideAndSeekAutoReward3 = 0
+
+;==================================================
+; Event Run And Catch (Pega-Pega)
+;==================================================
+EventRunAndCatchSwitch = 0
+EventRunAndCatchTimeToEnter = 30
+EventRunAndCatchMaxTime= 100
+EventRunAndCatchAutoReward1 = 10
+EventRunAndCatchAutoReward2 = 0
+EventRunAndCatchAutoReward3 = 0
+
+;==================================================
+; Event Russian Roulette (Roleta Russa)
+;==================================================
+EventRussianRouletteSwitch 	= 0
+EventRussianRouletteTimeToEnter	= 10
+EventRussianRouletteMaxTime	= 100
+EventRussianRouletteMaxPlayer = 8
+EventRussianRouletteAutoReward1 = 10
+EventRussianRouletteAutoReward2 = 0
+EventRussianRouletteAutoReward3 = 0
+EventRussianRouletteRemoveRate = 25
+
+;==================================================
+; Event PvP  (1x1)
+;==================================================
+EventPvPSwitch = 0
+EventPvPMaxScore = 3
+EventPvPMaxTime = 30
+EventPvPAutoReward1 = 10
+EventPvPAutoReward2 = 0
+EventPvPAutoReward3 = 0
+
+;==================================================
+; Event Kill All (Mata-Mata Geral)
+;==================================================
+EventKillAllSwitch = 0
+EventKillAllTimeToEnter = 20
+EventKillAllDeadDecrease = 1
+EventKillAllKillIncrease = 2
+EventKillAllMaxScore = 20
+EventKillAllMinPlayers = 2
+EventKillAllMaxPlayers = 20
+EventKillAllMaxTime= 2
+EventKillAllAutoReward1Rank1 = 10
+EventKillAllAutoReward1Rank2 = 5
+EventKillAllAutoReward1Rank3 = 2
+EventKillAllAutoReward2Rank1 = 0
+EventKillAllAutoReward2Rank2 = 0
+EventKillAllAutoReward2Rank3 = 0
+EventKillAllAutoReward3Rank1 = 100
+EventKillAllAutoReward3Rank2 = 50
+EventKillAllAutoReward3Rank3 = 20
+
+;==================================================
+; Event Team vs Team
+;==================================================
+EventTvtSwitch = 0
+EventTvtNpc = 380
+EventTvtNpcMap = 0
+EventTvtNpcX = 130
+EventTvtNpcY = 125
+EventTvtMinUsers = 2
+EventTvtMaxUsers = 20
+
+;==================================================
+; Event Guild vs Guild
+;==================================================
+EventGvGSwitch = 0
+EventGvGNpc = 380
+EventGvGNpcMap = 0
+EventGvGNpcX = 130
+EventGvGNpcY = 129
+EventGvGMinGuild = 2
+EventGvGMaxGuild = 20
+EventGvGMaxGuildMembers = 20
+
+;==================================================
+; Event Battle Royale
+;==================================================
+EventBattleRoyaleSwitch = 0
+EventBattleRoyaleNpc = 380
+EventBattleRoyaleNpcMap = 0
+EventBattleRoyaleNpcX = 130
+EventBattleRoyaleNpcY = 127
+EventBattleRoyaleMinUser = 2
+EventBattleRoyaleMaxUser = 20
+EventBattleRoyaleStartStr = 100
+EventBattleRoyaleStartDex = 100
+EventBattleRoyaleStartVit = 100
+EventBattleRoyaleStartEne = 100
+EventBattleRoyaleStartUpPoint = 5000
+EventBattleRoyaleDropItensWhenDie = 1
+EventBattleRoyaleMap = 82
+EventBattleRoyalePosX = 110
+EventBattleRoyalePosY = 143
+EventBattleRoyaleDropDistance1 = 5
+EventBattleRoyaleDropDistance2 = 10
+
+;==================================================
+; Event Pvp Championship
+;==================================================
+EventPvpChampionshipSwitch = 0
+EventPvpChampionshipNpc = 380
+EventPvpChampionshipNpcMap = 0
+EventPvpChampionshipNpcX = 139
+EventPvpChampionshipNpcY = 147
+EventPvpChampionshipMinUsers = 2
+EventPvpChampionshipMaxUsers = 20
+EventPvpChampionshipMaxScore = 3
+EventPvpChampionshipMaxTime= 3
+EventPvpChampionshipCharacterRefill = 1
+EventPvpChampionshipRoundReward1 = 5
+EventPvpChampionshipRoundReward2 = 0
+EventPvpChampionshipRoundReward3 = 0
+EventPvpChampionshipWinnerReward1 = 10
+EventPvpChampionshipWinnerReward2 = 0
+EventPvpChampionshipWinnerReward3 = 0
+EventPvpChampionshipRoundRemoveBuff = 1
+
+;==================================================
+; Auction Event
+;==================================================
+EventAuctionSwitch = 0
+
+;==================================================
+; Kundun Boss Kalima 7 (Monster 275)
+;==================================================
+KundunOrderOfProtectionRate = 0
+KundunOrderOfProtectionTime = 10
+KundumRefillHPTime = 10
+KundumRefillHPRate = 4000
+
+;==================================================
+; Marathon Event
+;==================================================
+EventMarathonSwitch = 0
+
+;==================================================
+; Pandora Event
+;==================================================
+EventPandoraSwitch = 0
+EventPandoraMaxTime = 5

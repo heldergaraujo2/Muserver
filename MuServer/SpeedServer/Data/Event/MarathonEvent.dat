@@ -1,0 +1,73 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2021 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+//Created and developed by Louis
+//Max 20 index
+0
+	//Index	Year   Month   Day   DoW   Hour   Minute  Second  MaxTime(minutes)
+	0		*      *       *     *     22     5       0	  	  20
+end
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Steps 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// FinalMap = MapNumber: final fixed coordinate
+// FinalMap = -1: final random coordinate on same start map
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+1
+	//Index	Step	Npc		StartMap  StartX  StartY  FinalMap  FinalX  	     FinalY
+	0		1		255		0	  	  150	  127	  7	    	023		     	 017	//5 Jewel of Chaos			
+	0		2		255		7	  	  020	  060	  7	    	049		     	 094 	//5 Jewel of Bless     e Matar 25 Valkyrie
+	0		3		255		7	  	  103	  051	  7	    	236		     	 018 	//5 Jewel of Soul      e Matar 25 Great Bahamut
+	0		4		255		7	  	  230	  071	  7	    	083		     	 143 	//5 Jewel of Creation  e Matar 25 Silver Valkyrie
+	0		5		255		7	  	  147	  168	  7	    	176		     	 177	//Matar 25 Lizard King
+	0		6		255		7	  	  124	  206	  7	    	028		     	 228	//1 Jewel of Chaos
+end
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Character Requirements
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2
+	//Index	Step	Level	Reset	MReset	Zen	Vip	RankUser	DW	DK	ELF	MG	DL	SU	RF
+	0		1		10		0		0		0	0	0			1	1	1	1	1	1	1
+	0		2		10		0		0		0	0	0			1	1	1	1	1	1	1
+	0		3		10		0		0		0	0	0			1	1	1	1	1	1	1
+	0		4		10		0		0		0	0	0			1	1	1	1	1	1	1
+	0		5		10		0		0		0	0	0			1	1	1	1	1	1	1
+	0		6		10		0		0		0	0	0			1	1	1	1	1	1	1
+end
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Require Item
+// O item será removido - The Item will be removed
+//	Luck: 	0 = sem luck, 	1 = com luck, 	* = qualquer
+//	Skill: 	0 = sem skill, 	1 = com skill, 	* = qualquer
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+3
+	//Index	Step	Cat	Item	Level	Luck	Skill	Qtd
+	0		1		12	15		*		*		*		5		//Jewel of Chaos
+	0		2		14	13		*		*		*		5		//Jewel of Bless
+	0		3		14	14		*		*		*		5		//Jewel of Soul
+	0		4		14	22		*		*		*		5		//Jewel of Creation
+	0		6		12	15		*		*		*		1		//Jewel of Chaos
+end
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Require Monster Kill
+// Max 1 monster type per step
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+4
+	//Index	Step  Monster	Qtd
+	0		2     47        100 	//Valkyrie
+	0		3     51        100 	//Great Bahamut
+	0		4     52        100 	//Silver Valkyrie
+	0		5     48        100 	//Lizard King
+end
+

@@ -1,0 +1,31 @@
+09:08:28 [Obj][13001] AddClient (152.233.45.27)
+09:08:29 [Obj][13001] DelClient (152.233.45.27)
+16:26:10 [Obj][13000] AddClient (98.98.13.254)
+16:26:13 [Obj][13000] AddAccount (sarzi2)
+16:26:17 [Obj][13000] LogInCharacter (MagaLu)
+16:27:10 [Obj][13001] AddClient (177.37.183.160)
+16:27:10 [Obj][13001] DelClient (177.37.183.160)
+16:27:10 [Obj][13002] AddClient (177.37.183.160)
+16:27:10 [Obj][13002] DelClient (177.37.183.160)
+16:27:10 [Obj][13003] AddClient (177.37.183.160)
+16:27:10 [Obj][13003] DelClient (177.37.183.160)
+19:16:43 [Obj][13001] AddClient (45.170.89.87)
+19:16:52 [Obj][13001] AddAccount (luckask975)
+19:16:55 [Obj][13001] LogInCharacter (Tales)
+19:30:00 [ CRYWOLF ] SYNC Occupation: 0, State: 1
+19:35:00 [ CRYWOLF ] SYNC Occupation: 2, State: 2
+19:36:00 [ CRYWOLF ] SYNC Occupation: 2, State: 3
+19:38:00 [ CRYWOLF ] SYNC Occupation: 1, State: 5
+19:38:15 [ CRYWOLF ] SYNC Occupation: 1, State: 6
+19:38:26 [ CRYWOLF ] SYNC Occupation: 1, State: 0
+19:46:43 [Obj][13001] LogOutCharacter (Tales)
+19:46:43 [Obj][13001] DelAccount (luckask975)
+19:46:43 [Obj][13001] DelClient (45.170.89.87)
+19:47:50 [Obj][13002] AddClient (45.170.89.87)
+19:47:58 [Obj][13002] AddAccount (luckask975)
+19:48:01 [Obj][13002] LogInCharacter (Tales)
+20:12:52 [Obj][13003] AddClient (98.98.13.254)
+20:12:54 [Obj][13003] DelClient (98.98.13.254)
+22:09:08 [Obj][13002] LogOutCharacter (Tales)
+22:09:08 [Obj][13002] DelAccount (luckask975)
+22:09:08 [Obj][13002] DelClient (45.170.89.87)

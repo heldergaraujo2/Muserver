@@ -1,0 +1,12 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Crywolf"		1000	100		10		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+14	252	0	0	0	0	0	0	// Jewel of Bless
+end

@@ -1,0 +1,155 @@
+09:56:06 [SCRIPT LOG] Start
+09:56:06 [Loader] Lua Gameserver socket ready!
+09:56:06 [Loader] Load success System\ScriptCore
+09:56:06 [Loader] Load success System\ProtocolCore
+09:56:06 [Loader] Load success Utils\Database
+09:56:06 [Loader] Load success Utils\DatabaseAsync
+09:56:06 [Loader] Load success Utils\Cron
+09:56:06 [Loader] Load success Utils\Functions
+09:56:06 [Loader] Load success Utils\Schedule
+09:56:06 [Loader] Could not load:
+09:56:06 [Loader] ax error near '<\208>'
+09:56:06 [Loader] Load success Scripts\CalCharacter
+09:56:06 [Loader] Load success Scripts\Musaffe\Config
+09:56:06 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+09:56:06 [Loader] Load success Scripts\Musaffe\Config
+09:56:06 [Loader] Load folder success Scripts\Musaffe\
+09:56:06 Connected to database
+09:56:06 Connected to Async database
+09:56:06 Teste query: ZZZZZZZZZZ
+09:56:06 [ServerInfo] Script loaded successfully
+10:03:08 [SCRIPT LOG] Start
+10:03:08 [Loader] Lua Gameserver socket ready!
+10:03:08 [Loader] Load success System\ScriptCore
+10:03:08 [Loader] Load success System\ProtocolCore
+10:03:08 [Loader] Load success Utils\Database
+10:03:08 [Loader] Load success Utils\DatabaseAsync
+10:03:08 [Loader] Load success Utils\Cron
+10:03:08 [Loader] Load success Utils\Functions
+10:03:08 [Loader] Load success Utils\Schedule
+10:03:08 [Loader] Could not load:
+10:03:08 [Loader] ax error near '<\208>'
+10:03:08 [Loader] Load success Scripts\CalCharacter
+10:03:08 [Loader] Load success Scripts\Musaffe\Config
+10:03:08 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+10:03:08 [Loader] Load success Scripts\Musaffe\Config
+10:03:08 [Loader] Load folder success Scripts\Musaffe\
+10:03:08 Connected to database
+10:03:08 Connected to Async database
+10:03:08 Teste query: ZZZZZZZZZZ
+10:03:08 [ServerInfo] Script loaded successfully
+10:37:33 [SCRIPT LOG] Start
+10:37:33 [Loader] Lua Gameserver socket ready!
+10:37:33 [Loader] Load success System\ScriptCore
+10:37:33 [Loader] Load success System\ProtocolCore
+10:37:33 [Loader] Load success Utils\Database
+10:37:33 [Loader] Load success Utils\DatabaseAsync
+10:37:33 [Loader] Load success Utils\Cron
+10:37:33 [Loader] Load success Utils\Functions
+10:37:33 [Loader] Load success Utils\Schedule
+10:37:33 [Loader] Could not load:
+10:37:33 [Loader] ax error near '<\208>'
+10:37:33 [Loader] Load success Scripts\CalCharacter
+10:37:33 [Loader] Load success Scripts\Musaffe\Config
+10:37:33 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+10:37:33 [Loader] Load success Scripts\Musaffe\Config
+10:37:33 [Loader] Load folder success Scripts\Musaffe\
+10:37:33 Connected to database
+10:37:33 Connected to Async database
+10:37:33 Teste query: ZZZZZZZZZZ
+10:37:33 [ServerInfo] Script loaded successfully
+18:29:18 [Loader] Lua Gameserver socket ready!
+18:29:18 [Loader] Load success System\ScriptCore
+18:29:18 [Loader] Load success System\ProtocolCore
+18:29:18 [Loader] Load success Utils\Database
+18:29:18 [Loader] Load success Utils\DatabaseAsync
+18:29:18 [Loader] Load success Utils\Cron
+18:29:18 [Loader] Load success Utils\Functions
+18:29:18 [Loader] Load success Utils\Schedule
+18:29:18 [Loader] Load success Scripts\ReaddRequirement
+18:29:18 [Loader] Load success Scripts\CalCharacter
+18:29:18 [Loader] Load success Scripts\Musaffe\Config
+18:29:18 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+18:29:18 [Loader] Load success Scripts\Musaffe\Config
+18:29:18 [Loader] Load folder success Scripts\Musaffe\
+18:29:18 Connected to database
+18:29:18 Connected to Async database
+18:29:18 Teste query: ZZZZZZZZZZ
+18:29:18 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+18:29:18 [ServerInfo] Script loaded successfully
+18:34:09 [Loader] Lua Gameserver socket ready!
+18:34:09 [Loader] Load success System\ScriptCore
+18:34:09 [Loader] Load success System\ProtocolCore
+18:34:09 [Loader] Load success Utils\Database
+18:34:09 [Loader] Load success Utils\DatabaseAsync
+18:34:09 [Loader] Load success Utils\Cron
+18:34:09 [Loader] Load success Utils\Functions
+18:34:09 [Loader] Load success Utils\Schedule
+18:34:09 [Loader] Load success Scripts\ReaddRequirement
+18:34:09 [Loader] Load success Scripts\CalCharacter
+18:34:09 [Loader] Load success Scripts\Musaffe\Config
+18:34:09 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+18:34:09 [Loader] Load success Scripts\Musaffe\Config
+18:34:09 [Loader] Load folder success Scripts\Musaffe\
+18:34:09 Connected to database
+18:34:09 Connected to Async database
+18:34:09 Teste query: ZZZZZZZZZZ
+18:34:09 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+18:34:09 [ServerInfo] Script loaded successfully
+18:40:32 [Loader] Lua Gameserver socket ready!
+18:40:32 [Loader] Load success System\ScriptCore
+18:40:32 [Loader] Load success System\ProtocolCore
+18:40:32 [Loader] Load success Utils\Database
+18:40:32 [Loader] Load success Utils\DatabaseAsync
+18:40:32 [Loader] Load success Utils\Cron
+18:40:32 [Loader] Load success Utils\Functions
+18:40:32 [Loader] Load success Utils\Schedule
+18:40:32 [Loader] Load success Scripts\ReaddRequirement
+18:40:32 [Loader] Load success Scripts\CalCharacter
+18:40:32 [Loader] Load success Scripts\Musaffe\Config
+18:40:32 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+18:40:32 [Loader] Load success Scripts\Musaffe\Config
+18:40:32 [Loader] Load folder success Scripts\Musaffe\
+18:40:32 Connected to database
+18:40:32 Connected to Async database
+18:40:32 Teste query: ZZZZZZZZZZ
+18:40:32 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+18:40:32 [ServerInfo] Script loaded successfully
+18:46:30 [Loader] Lua Gameserver socket ready!
+18:46:30 [Loader] Load success System\ScriptCore
+18:46:30 [Loader] Load success System\ProtocolCore
+18:46:30 [Loader] Load success Utils\Database
+18:46:30 [Loader] Load success Utils\DatabaseAsync
+18:46:30 [Loader] Load success Utils\Cron
+18:46:30 [Loader] Load success Utils\Functions
+18:46:30 [Loader] Load success Utils\Schedule
+18:46:30 [Loader] Load success Scripts\ReaddRequirement
+18:46:30 [Loader] Load success Scripts\CalCharacter
+18:46:30 [Loader] Load success Scripts\Musaffe\Config
+18:46:30 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+18:46:30 [Loader] Load success Scripts\Musaffe\Config
+18:46:30 [Loader] Load folder success Scripts\Musaffe\
+18:46:31 Connected to database
+18:46:31 Connected to Async database
+18:46:31 Teste query: ZZZZZZZZZZ
+18:46:31 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+18:46:31 [ServerInfo] Script loaded successfully
+19:37:26 [Loader] Lua Gameserver socket ready!
+19:37:26 [Loader] Load success System\ScriptCore
+19:37:26 [Loader] Load success System\ProtocolCore
+19:37:26 [Loader] Load success Utils\Database
+19:37:26 [Loader] Load success Utils\DatabaseAsync
+19:37:26 [Loader] Load success Utils\Cron
+19:37:26 [Loader] Load success Utils\Functions
+19:37:26 [Loader] Load success Utils\Schedule
+19:37:26 [Loader] Load success Scripts\CalCharacter
+19:37:26 [Loader] Load success Scripts\Musaffe\Config
+19:37:26 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+19:37:26 [Loader] Load success Scripts\Musaffe\Config
+19:37:26 [Loader] Load folder success Scripts\Musaffe\
+19:37:26 [Loader] Load folder success Scripts\ReaddRequirement\
+19:37:26 Connected to database
+19:37:26 Connected to Async database
+19:37:26 Teste query: ZZZZZZZZZZ
+19:37:26 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+19:37:26 [ServerInfo] Script loaded successfully

@@ -1,0 +1,76 @@
+01:11:57 [SCRIPT LOG] Start
+01:11:58 [Loader] Lua Gameserver socket ready!
+01:11:58 [Loader] Load success System\ScriptCore
+01:11:58 [Loader] Load success System\ProtocolCore
+01:11:58 [Loader] Load success Utils\Database
+01:11:58 [Loader] Load success Utils\DatabaseAsync
+01:11:58 [Loader] Load success Utils\Cron
+01:11:58 [Loader] Load success Utils\Functions
+01:11:58 [Loader] Load success Utils\Schedule
+01:11:58 [Loader] Load success Scripts\CalCharacter
+01:11:58 [Loader] Load success Scripts\Musaffe\Config
+01:11:58 [Timewindows] Script carregado. Mapa configurado: 84
+01:11:58 [Loader] Load success Scripts\Musaffe\Config
+01:11:58 [Loader] Load folder success Scripts\Musaffe\
+01:11:58 Connected to database
+01:11:58 Connected to Async database
+01:11:58 Teste query: ZZZZZZZZZZ
+01:11:58 [ServerInfo] Script loaded successfully
+01:14:40 [Loader] Lua Gameserver socket ready!
+01:14:40 [Loader] Load success System\ScriptCore
+01:14:40 [Loader] Load success System\ProtocolCore
+01:14:40 [Loader] Load success Utils\Database
+01:14:40 [Loader] Load success Utils\DatabaseAsync
+01:14:40 [Loader] Load success Utils\Cron
+01:14:40 [Loader] Load success Utils\Functions
+01:14:40 [Loader] Load success Utils\Schedule
+01:14:40 [Loader] Load success Scripts\Musaffe\Config
+01:14:40 [Timewindows] Script carregado. Mapa configurado: 84
+01:14:40 [Loader] Load success Scripts\Musaffe\Config
+01:14:40 [Loader] Load folder success Scripts\Musaffe\
+01:14:40 Connected to database
+01:14:40 Connected to Async database
+01:14:40 Teste query: ZZZZZZZZZZ
+01:14:40 [ServerInfo] Script loaded successfully
+09:36:13 [SCRIPT LOG] Start
+09:36:14 [Loader] Lua Gameserver socket ready!
+09:36:14 [Loader] Load success System\ScriptCore
+09:36:14 [Loader] Load success System\ProtocolCore
+09:36:14 [Loader] Load success Utils\Database
+09:36:14 [Loader] Load success Utils\DatabaseAsync
+09:36:14 [Loader] Load success Utils\Cron
+09:36:14 [Loader] Load success Utils\Functions
+09:36:14 [Loader] Load success Utils\Schedule
+09:36:14 [Loader] Load success Scripts\Musaffe\Config
+09:36:14 [Timewindows] Script carregado. Mapa configurado: 84
+09:36:14 [Loader] Load success Scripts\Musaffe\Config
+09:36:14 [Loader] Load folder success Scripts\Musaffe\
+09:36:14 Connected to database
+09:36:14 Connected to Async database
+09:36:14 Teste query: ZZZZZZZZZZ
+09:36:14 [ServerInfo] Script loaded successfully
+11:55:56 [SCRIPT LOG] Start
+11:55:57 [Loader] Lua Gameserver socket ready!
+11:55:57 [Loader] Load success System\ScriptCore
+11:55:57 [Loader] Load success System\ProtocolCore
+11:55:57 [Loader] Load success Utils\Database
+11:55:57 [Loader] Load success Utils\DatabaseAsync
+11:55:57 [Loader] Load success Utils\Cron
+11:55:57 [Loader] Load success Utils\Functions
+11:55:57 [Loader] Load success Utils\Schedule
+11:55:57 [Loader] Load success Scripts\Musaffe\Config
+11:55:57 [Timewindows] Script carregado. Mapa configurado: 84
+11:55:57 [Loader] Load success Scripts\Musaffe\Config
+11:55:57 [Loader] Load folder success Scripts\Musaffe\
+11:55:57 Connected to database
+11:55:57 Connected to Async database
+11:55:57 Teste query: ZZZZZZZZZZ
+11:55:57 [ServerInfo] Script loaded successfully
+21:11:53 [ProtocolCore] aIndex: 13003 Name: Teste Head: 1
+21:11:53 Testando
+21:16:10 [ProtocolCore] aIndex: 13003 Name: Teste Head: 1
+21:16:10 Testando
+21:16:26 [ProtocolCore] aIndex: 13003 Name: Teste Head: 1
+21:16:26 Testando
+21:18:32 [ProtocolCore] aIndex: 13003 Name: Teste Head: 1
+21:18:32 Testando

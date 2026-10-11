@@ -1,0 +1,67 @@
+//############################################################
+//# -- Dashboard - GamesWteam
+//# -- EventItemBagAdvanced
+//# -- www.gameswteam.com
+//# -- www.facebook.com/gameswteam
+//# -- © 2017 - 2026 GamesWteam Development
+//# ----------------------------------------------------------
+//# -- File Created by Dashboard GamesWteam.
+//# -- Date Created: 16/04/2026 08:01:20
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0	10000		0
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0	       5	600	      0	      0		1	1	1	1	1	1	1
+0	       6	2500	  0	      0		1	1	1	1	1	1	1
+0	       7	500	      0	      0		1	1	1	1	1	1	1
+0	       8	6400	  0	      0		1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+6909	0	0	0	0	0	0	0	0	0	0		//Pumpkin
+6862	0	0	0	0	0	0	0	0	0	0		//William
+6854	0	0	0	0	0	0	0	0	0	0		//Evolution Stone
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+
+end
+
+6
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+7568	0	0	0	0	0	0	0	0	0	0		//Death King's Bone
+7569	0	0	0	0	0	0	0	0	0	0		//Hell Maine's Leather
+7570	0	0	0	0	0	0	0	0	0	0		//Dark Phoenix Flame
+7571	0	0	0	0	0	0	0	0	0	0		//Death Beam Knight Soul
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+
+end
+
+7
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+7420	0	0	0	0	0	0	0	0	0	0		//Jewel Of full
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+
+end
+
+8
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+7179	12	0	*	0	0	0	0	0	0	0		//Box of Luck
+end

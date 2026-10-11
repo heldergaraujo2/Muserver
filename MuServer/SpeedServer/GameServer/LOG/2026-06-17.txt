@@ -1,0 +1,33 @@
+10:54:05 [Obj][13002] AddClient (177.200.34.75)
+10:54:12 [Obj][13002] AddAccount (mamm)
+10:54:16 [Obj][13002] LogInCharacter (NEON)
+11:26:26 [Obj][13002] LogOutCharacter (NEON)
+11:26:26 [Obj][13002] DelAccount (mamm)
+11:26:26 [Obj][13002] DelClient (177.200.34.75)
+11:26:26 Game response error causes conclusion [13002][][][177.200.34.75]
+11:26:56 [Obj][13005] AddClient (177.200.34.75)
+11:27:06 [Obj][13005] AddAccount (mamm)
+11:27:06 [Obj][13005] LogInCharacter (NEON)
+12:35:38 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:40:58 [Obj][13004] AddClient (177.105.133.1)
+17:41:03 [Obj][13004] DelClient (177.105.133.1)
+17:41:33 [Obj][13001] AddClient (177.105.133.1)
+17:41:44 [Obj][13001] AddAccount (kodark)
+17:42:06 [Obj][13001] LogInCharacter (K0D4RK)
+18:00:44 [Obj][13001] LogOutCharacter (K0D4RK)
+18:00:44 [Obj][13001] DelAccount (kodark)
+18:00:44 [Obj][13001] DelClient (177.105.133.1)
+19:30:00 [ CRYWOLF ] SYNC Occupation: 0, State: 1
+19:35:00 [ CRYWOLF ] SYNC Occupation: 2, State: 2
+19:36:00 [ CRYWOLF ] SYNC Occupation: 2, State: 3
+19:38:00 [ CRYWOLF ] SYNC Occupation: 2, State: 4
+19:38:09 [ CRYWOLF ] SYNC Occupation: 1, State: 5
+19:38:24 [ CRYWOLF ] SYNC Occupation: 1, State: 6
+19:38:34 [ CRYWOLF ] SYNC Occupation: 1, State: 0
+19:38:47 [Obj][13005] LogOutCharacter (NEON)
+19:38:47 [Obj][13005] DelAccount (mamm)
+19:38:47 [Obj][13005] DelClient (177.200.34.75)
+19:38:47 Game response error causes conclusion [13005][][][177.200.34.75]
+19:38:56 [Obj][13000] AddClient (177.200.34.75)
+19:39:06 [Obj][13000] AddAccount (mamm)
+19:39:06 [Obj][13000] LogInCharacter (NEON)

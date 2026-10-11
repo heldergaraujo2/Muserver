@@ -1,0 +1,310 @@
+00:05:38 [Obj][13002] LogOutCharacter (CrazyDoG)
+00:05:38 [Obj][13002] DelAccount (gordo4)
+00:05:38 [Obj][13002] DelClient (179.63.44.169)
+00:10:02 [Obj][13003] LogOutCharacter (Pain)
+00:10:02 [Obj][13003] DelAccount (gordo3)
+00:10:02 [Obj][13003] DelClient (179.63.44.169)
+00:15:31 [Obj][13004] AddClient (179.63.44.169)
+00:15:33 [Obj][13004] AddAccount (gordo3)
+00:15:37 [Obj][13004] LogInCharacter (Pain)
+00:17:36 [Obj][13000] AddClient (45.238.1.52)
+00:17:43 [Obj][13000] AddAccount (boss)
+00:17:45 [Obj][13000] LogInCharacter (cumelao)
+00:20:50 [Obj][13008] AddClient (45.170.89.93)
+00:20:55 [Obj][13008] AddAccount (luckask16)
+00:20:58 [Obj][13008] LogInCharacter (Lutador)
+00:23:14 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:23:14 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:23:16 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:31:54 [BotBuffer] CharName: Lutador - ADD_FITNESS Time: 720
+00:31:56 [BotBuffer] CharName: Lutador - ADD_CRITICAL_DAMAGE Time: 720
+00:31:58 [BotBuffer] CharName: Lutador - ADD_DAMAGE_REFLECT Time: 720
+00:32:00 [BotBuffer] CharName: Lutador - ADD_GREATER_LIFE Time: 720
+00:32:02 [BotBuffer] CharName: Lutador - ADD_SKILL_MANA Time: 720
+00:32:03 [BotBuffer] CharName: Lutador -ADD_GREATER_DEFENSE Time: 720
+00:32:03 [BotBuffer] CharName: Lutador - ADD_GREATER_DAMAGE Time: 720
+00:44:21 [Obj][13009] AddClient (179.63.44.169)
+00:44:24 [Obj][13004] LogOutCharacter (Pain)
+00:44:24 [Obj][13004] DelAccount (gordo3)
+00:44:24 [Obj][13004] DelClient (179.63.44.169)
+00:44:25 [Obj][13009] AddAccount (gordo3)
+00:44:28 [Obj][13009] LogInCharacter (Pain)
+00:44:47 [Obj][13010] AddClient (179.63.44.169)
+00:44:53 [Obj][13010] AddAccount (gordo4)
+00:44:56 [Obj][13010] LogInCharacter (CrazyDoG)
+00:46:56 Flood Packet: Index: 13008 Head: 0XF3 Sub: 0XFC
+00:47:20 Flood Packet: Index: 13008 Head: 0X30 Sub: 0000
+00:47:20 Flood Packet: Index: 13008 Head: 0X30 Sub: 0000
+00:50:05 [Obj][13012] AddClient (45.238.1.52)
+00:50:06 [Obj][13012] AddAccount (joker)
+00:50:13 [Obj][13012] LogOutCharacter (joker)
+00:50:23 [Obj][13012] LogOutCharacter (joker)
+00:50:34 [Obj][13012] DelAccount (joker)
+00:50:34 [Obj][13012] DelClient (45.238.1.52)
+00:53:13 [BotBuffer] CharName: cumelao - ADD_FITNESS Time: 720
+00:53:15 [BotBuffer] CharName: cumelao - ADD_CRITICAL_DAMAGE Time: 720
+00:53:17 [BotBuffer] CharName: cumelao - ADD_DAMAGE_REFLECT Time: 720
+00:53:19 [BotBuffer] CharName: cumelao - ADD_GREATER_LIFE Time: 720
+00:53:21 [BotBuffer] CharName: cumelao - ADD_SKILL_MANA Time: 720
+00:53:22 [BotBuffer] CharName: cumelao -ADD_GREATER_DEFENSE Time: 720
+00:53:22 [BotBuffer] CharName: cumelao - ADD_GREATER_DAMAGE Time: 720
+00:54:17 [Obj][13008] LogOutCharacter (Lutador)
+00:54:17 [Obj][13008] DelAccount (luckask16)
+00:54:17 [Obj][13008] DelClient (45.170.89.93)
+00:54:50 [Obj][13011] AddClient (45.170.89.93)
+00:55:00 [Obj][13011] AddAccount (luckask16)
+00:55:00 [Obj][13011] LogInCharacter (Lutador)
+01:04:06 [Obj][13011] LogOutCharacter (Lutador)
+01:04:06 [Obj][13011] DelAccount (luckask16)
+01:04:06 [Obj][13011] DelClient (45.170.89.93)
+01:04:06 Game response error causes conclusion [13011][][][45.170.89.93]
+01:04:36 [Obj][13007] AddClient (45.170.89.93)
+01:04:51 [Obj][13007] AddAccount (luckask16)
+01:04:51 [Obj][13007] LogInCharacter (Lutador)
+01:06:52 [Obj][13007] LogOutCharacter (Lutador)
+01:06:52 [Obj][13007] DelAccount (luckask16)
+01:06:52 [Obj][13007] DelClient (45.170.89.93)
+01:06:52 Game response error causes conclusion [13007][][][45.170.89.93]
+01:07:22 [Obj][13005] AddClient (45.170.89.93)
+01:07:53 [Obj][13005] DelClient (45.170.89.93)
+01:07:53 Response error after connection causes conclusion [13005][][][45.170.89.93]
+01:24:47 [Obj][13010] LogOutCharacter (CrazyDoG)
+03:40:01 [Obj][13002] AddClient (66.132.172.138)
+03:40:05 [Obj][13002] DelClient (66.132.172.138)
+03:40:08 [Obj][13003] AddClient (66.132.172.138)
+03:40:18 [Obj][13003] DelClient (66.132.172.138)
+07:41:44 [Obj][13000] LogOutCharacter (cumelao)
+07:41:44 [Obj][13000] DelAccount (boss)
+07:41:44 [Obj][13000] DelClient (45.238.1.52)
+07:58:32 [Obj][13010] DelAccount (gordo4)
+07:58:32 [Obj][13010] DelClient (179.63.44.169)
+08:24:56 [Obj][13004] AddClient (45.238.1.52)
+08:25:02 [Obj][13004] AddAccount (boss)
+08:25:04 [Obj][13004] LogInCharacter (cumelao)
+10:27:01 [Obj][13012] AddClient (191.203.104.229)
+10:27:02 [Obj][13012] DelClient (191.203.104.229)
+10:40:16 [Obj][13009] LogOutCharacter (Pain)
+10:40:16 [Obj][13009] DelAccount (gordo3)
+10:40:16 [Obj][13009] DelClient (179.63.44.169)
+12:37:28 [Obj][13008] AddClient (179.63.44.169)
+12:37:30 [Obj][13008] AddAccount (gordo3)
+12:37:34 [Obj][13008] LogInCharacter (Pain)
+12:57:32 [Obj][13011] AddClient (45.238.1.52)
+12:57:33 [Obj][13011] DelClient (45.238.1.52)
+13:16:00 [Obj][13007] AddClient (45.237.100.229)
+13:16:03 [Obj][13007] AddAccount (maiconj5)
+13:16:08 [Obj][13007] LogInCharacter (PIRILAMPO)
+13:28:31 [Obj][13007] LogOutCharacter (PIRILAMPO)
+13:28:31 [Obj][13007] DelAccount (maiconj5)
+13:28:31 [Obj][13007] DelClient (45.237.100.229)
+13:34:49 [Obj][13006] LogOutCharacter (BayBlade)
+13:34:49 [Obj][13006] DelAccount (locotmx30)
+13:34:49 [Obj][13006] DelClient (45.191.9.91)
+13:34:57 [Obj][13001] LogOutCharacter (AUR0R4SM)
+13:34:57 [Obj][13001] DelAccount (locotmx)
+13:34:57 [Obj][13001] DelClient (45.191.9.91)
+13:34:57 [Obj][13008] LogOutCharacter (Pain)
+13:34:57 [Obj][13008] DelAccount (gordo3)
+13:34:57 [Obj][13008] DelClient (179.63.44.169)
+13:34:57 [Obj][13004] LogOutCharacter (cumelao)
+13:34:57 [Obj][13004] DelAccount (boss)
+13:34:57 [Obj][13004] DelClient (45.238.1.52)
+13:36:15 [Obj][13005] AddClient (179.63.44.169)
+13:36:22 [Obj][13002] AddClient (45.191.9.91)
+13:36:23 [Obj][13003] AddClient (45.238.1.52)
+13:36:25 [Obj][13005] AddAccount (gordo3)
+13:36:25 [Obj][13005] LogInCharacter (Pain)
+13:36:26 [Obj][13000] AddClient (45.191.9.91)
+13:36:32 [Obj][13002] AddAccount (locotmx)
+13:36:33 [Obj][13002] LogInCharacter (AUR0R4SM)
+13:36:34 [Obj][13003] AddAccount (boss)
+13:36:34 [Obj][13003] LogInCharacter (cumelao)
+13:36:36 [Obj][13000] AddAccount (locotmx30)
+13:36:36 [Obj][13000] LogInCharacter (BayBlade)
+13:43:06 [Obj][13005] LogOutCharacter (Pain)
+13:43:06 [Obj][13005] DelAccount (gordo3)
+13:43:06 [Obj][13005] DelClient (179.63.44.169)
+13:54:58 [Obj][13010] AddClient (45.237.100.229)
+13:55:00 [Obj][13010] AddAccount (maiconj5)
+13:55:04 [Obj][13010] LogInCharacter (PIRILAMPO)
+14:01:33 [Obj][13012] AddClient (45.237.100.229)
+14:01:36 [Obj][13012] AddAccount (maiconj3)
+14:01:40 [Obj][13012] LogInCharacter (ELcAbOnG)
+14:01:47 [BotBuffer] CharName: ELcAbOnG -ADD_GREATER_DEFENSE Time: 720
+14:01:47 [BotBuffer] CharName: ELcAbOnG - ADD_GREATER_DAMAGE Time: 720
+14:01:49 [BotBuffer] CharName: ELcAbOnG - ADD_SKILL_MANA Time: 720
+14:01:51 [BotBuffer] CharName: ELcAbOnG - ADD_GREATER_LIFE Time: 720
+14:01:54 [BotBuffer] CharName: ELcAbOnG - ADD_DAMAGE_REFLECT Time: 720
+14:01:58 [BotBuffer] CharName: ELcAbOnG - ADD_CRITICAL_DAMAGE Time: 720
+14:02:02 [BotBuffer] CharName: ELcAbOnG - ADD_FITNESS Time: 720
+14:03:13 [Obj][13003] LogOutCharacter (cumelao)
+14:03:13 [Obj][13003] DelAccount (boss)
+14:03:13 [Obj][13003] DelClient (45.238.1.52)
+14:03:23 [Obj][13009] AddClient (45.191.9.91)
+14:03:30 [Obj][13009] AddAccount (morota25)
+14:03:35 [Obj][13009] LogInCharacter (AzyzzELF)
+14:08:34 [Obj][13009] LogOutCharacter (AzyzzELF)
+14:08:34 [Obj][13009] DelAccount (morota25)
+14:08:34 [Obj][13009] DelClient (45.191.9.91)
+14:41:10 [Obj][13011] AddClient (45.184.138.139)
+14:41:15 [Obj][13011] AddAccount (lipecouto)
+14:41:19 [Obj][13011] LogInCharacter (Dranser)
+15:04:55 [Obj][13012] LogOutCharacter (ELcAbOnG)
+15:04:55 [Obj][13012] DelAccount (maiconj3)
+15:04:55 [Obj][13012] DelClient (45.237.100.229)
+15:04:55 [Obj][13010] LogOutCharacter (PIRILAMPO)
+15:04:55 [Obj][13010] DelAccount (maiconj5)
+15:04:55 [Obj][13010] DelClient (45.237.100.229)
+15:06:17 [Obj][13007] AddClient (45.237.100.229)
+15:06:17 [Obj][13006] AddClient (45.237.100.229)
+15:06:47 [Obj][13006] DelClient (45.237.100.229)
+15:06:47 Response error after connection causes conclusion [13006][][][45.237.100.229]
+15:06:47 [Obj][13007] DelClient (45.237.100.229)
+15:06:47 Response error after connection causes conclusion [13007][][][45.237.100.229]
+15:06:52 [Obj][13001] AddClient (45.237.100.229)
+15:06:52 [Obj][13004] AddClient (45.237.100.229)
+15:07:03 [Obj][13001] AddAccount (maiconj5)
+15:07:03 [Obj][13004] AddAccount (maiconj3)
+15:07:03 [Obj][13001] LogInCharacter (PIRILAMPO)
+15:07:03 [Obj][13004] LogInCharacter (ELcAbOnG)
+16:00:18 [Obj][13004] LogOutCharacter (ELcAbOnG)
+16:00:18 [Obj][13004] DelAccount (maiconj3)
+16:00:18 [Obj][13004] DelClient (45.237.100.229)
+16:00:21 [Obj][13001] LogOutCharacter (PIRILAMPO)
+16:00:21 [Obj][13001] DelAccount (maiconj5)
+16:00:21 [Obj][13001] DelClient (45.237.100.229)
+16:02:05 [Obj][13008] AddClient (45.237.100.229)
+16:02:05 [Obj][13005] AddClient (45.237.100.229)
+16:02:15 [Obj][13008] AddAccount (maiconj5)
+16:02:15 [Obj][13008] LogInCharacter (PIRILAMPO)
+16:02:15 [Obj][13005] AddAccount (maiconj3)
+16:02:16 [Obj][13005] LogInCharacter (ELcAbOnG)
+16:27:48 [BotBuffer] CharName: PIRILAMPO - ADD_FITNESS Time: 720
+16:27:56 [BotBuffer] CharName: PIRILAMPO - ADD_CRITICAL_DAMAGE Time: 720
+16:27:58 [BotBuffer] CharName: PIRILAMPO - ADD_DAMAGE_REFLECT Time: 720
+16:28:02 [BotBuffer] CharName: PIRILAMPO - ADD_GREATER_LIFE Time: 720
+16:28:04 [BotBuffer] CharName: PIRILAMPO - ADD_SKILL_MANA Time: 720
+16:28:07 [BotBuffer] CharName: PIRILAMPO -ADD_GREATER_DEFENSE Time: 720
+16:28:07 [BotBuffer] CharName: PIRILAMPO - ADD_GREATER_DAMAGE Time: 720
+16:30:46 Flood Packet: Index: 13008 Head: 0X23 Sub: 0000
+17:55:18 [BotBuffer] CharName: Dranser - ADD_FITNESS Time: 720
+17:55:21 [BotBuffer] CharName: Dranser - ADD_CRITICAL_DAMAGE Time: 720
+17:55:22 [BotBuffer] CharName: Dranser - ADD_DAMAGE_REFLECT Time: 720
+17:55:23 [BotBuffer] CharName: Dranser - ADD_GREATER_LIFE Time: 720
+17:55:25 [BotBuffer] CharName: Dranser - ADD_SKILL_MANA Time: 720
+17:55:28 [BotBuffer] CharName: Dranser -ADD_GREATER_DEFENSE Time: 720
+17:55:28 [BotBuffer] CharName: Dranser - ADD_GREATER_DAMAGE Time: 720
+19:38:36 [Obj][13005] LogOutCharacter (ELcAbOnG)
+19:38:36 [Obj][13005] DelAccount (maiconj3)
+19:38:36 [Obj][13005] DelClient (45.237.100.229)
+19:38:39 [Obj][13008] LogOutCharacter (PIRILAMPO)
+19:38:39 [Obj][13008] DelAccount (maiconj5)
+19:38:39 [Obj][13008] DelClient (45.237.100.229)
+20:00:39 [BotBuffer] CharName: Dranser - ADD_FITNESS Time: 720
+20:00:41 [BotBuffer] CharName: Dranser - ADD_CRITICAL_DAMAGE Time: 720
+20:00:43 [BotBuffer] CharName: Dranser - ADD_DAMAGE_REFLECT Time: 720
+20:00:45 [BotBuffer] CharName: Dranser - ADD_GREATER_LIFE Time: 720
+20:00:47 [BotBuffer] CharName: Dranser - ADD_SKILL_MANA Time: 720
+20:00:49 [BotBuffer] CharName: Dranser -ADD_GREATER_DEFENSE Time: 720
+20:00:49 [BotBuffer] CharName: Dranser - ADD_GREATER_DAMAGE Time: 720
+20:04:27 [Obj][13011] LogOutCharacter (Dranser)
+20:04:27 [Obj][13011] DelAccount (lipecouto)
+20:04:27 [Obj][13011] DelClient (45.184.138.139)
+20:05:23 [Obj][13003] AddClient (45.184.138.139)
+20:05:25 [Obj][13003] AddAccount (lipecouto)
+20:05:28 [Obj][13003] LogInCharacter (Dranser)
+20:14:10 [Obj][13000] LogOutCharacter (BayBlade)
+20:14:10 [Obj][13000] DelAccount (locotmx30)
+20:14:10 [Obj][13000] DelClient (45.191.9.91)
+20:14:10 [Obj][13002] LogOutCharacter (AUR0R4SM)
+20:14:10 [Obj][13002] DelAccount (locotmx)
+20:14:10 [Obj][13002] DelClient (45.191.9.91)
+20:14:10 [Obj][13003] LogOutCharacter (Dranser)
+20:14:10 [Obj][13003] DelAccount (lipecouto)
+20:14:10 [Obj][13003] DelClient (45.184.138.139)
+20:14:13 [Discord] Connecting to the server...
+20:14:22 [Discord] Connecting to the server...
+20:14:31 [Discord] Connection successfully
+20:14:40 [Obj][13009] AddClient (45.191.9.91)
+20:14:40 [Obj][13010] AddClient (45.191.9.91)
+20:14:40 [Obj][13012] AddClient (45.184.138.139)
+20:14:42 [Obj][13009] DelClient (45.191.9.91)
+20:14:42 [Obj][13010] DelClient (45.191.9.91)
+20:14:42 [Obj][13012] DelClient (45.184.138.139)
+20:14:52 [Discord] Connecting to the server...
+20:15:01 [Discord] Server offline, reload discord to try again.
+20:15:12 [Obj][13006] AddClient (45.191.9.91)
+20:15:12 [Obj][13007] AddClient (45.184.138.139)
+20:15:12 [Obj][13004] AddClient (45.191.9.91)
+20:15:22 [Obj][13006] AddAccount (locotmx)
+20:15:22 [Obj][13007] AddAccount (lipecouto)
+20:15:22 [Obj][13004] AddAccount (locotmx30)
+20:15:22 [Obj][13006] LogInCharacter (AUR0R4SM)
+20:15:22 [Obj][13007] LogInCharacter (Dranser)
+20:15:22 [Obj][13004] LogInCharacter (BayBlade)
+20:44:29 [Obj][13001] AddClient (45.170.89.93)
+20:44:30 [Obj][13001] AddAccount (luckask16)
+20:44:33 [Obj][13001] LogInCharacter (Lutador)
+20:45:13 [Obj][13007] LogOutCharacter (Dranser)
+20:45:14 [Obj][13007] DelAccount (lipecouto)
+20:45:14 [Obj][13007] DelClient (45.184.138.139)
+20:45:24 [Obj][13005] AddClient (45.184.138.139)
+20:45:25 [Obj][13005] AddAccount (lipecouto)
+20:45:25 [Obj][13005] LogInCharacter (Dranser)
+20:50:23 [Obj][13008] AddClient (45.237.100.229)
+20:50:25 [Obj][13008] AddAccount (maiconj3)
+20:50:29 [Obj][13008] LogInCharacter (ELcAbOnG)
+20:51:27 [Obj][13011] AddClient (45.184.138.139)
+20:51:35 [Obj][13005] LogOutCharacter (Dranser)
+20:51:35 [Obj][13005] DelAccount (lipecouto)
+20:51:35 [Obj][13005] DelClient (45.184.138.139)
+20:51:37 [Obj][13011] AddAccount (lipecouto)
+20:51:40 [Obj][13011] LogInCharacter (Dranser)
+20:52:29 [Obj][13000] AddClient (45.237.100.229)
+20:52:31 [Obj][13000] AddAccount (maiconj5)
+20:52:35 [Obj][13000] LogInCharacter (PIRILAMPO)
+21:10:50 [Obj][13002] AddClient (45.184.138.139)
+21:10:55 [Obj][13011] LogOutCharacter (Dranser)
+21:10:55 [Obj][13011] DelAccount (lipecouto)
+21:10:55 [Obj][13011] DelClient (45.184.138.139)
+21:10:55 Game response error causes conclusion [13011][][][45.184.138.139]
+21:11:00 [Obj][13002] AddAccount (lipecouto)
+21:11:00 [Obj][13002] LogInCharacter (Dranser)
+21:31:04 [FakeOnline] Loaded successfully
+21:31:04 [ServerInfo] Custom loaded successfully
+21:41:47 [BotBuffer] CharName: Dranser -ADD_GREATER_DEFENSE Time: 720
+21:41:47 [BotBuffer] CharName: Dranser - ADD_GREATER_DAMAGE Time: 720
+21:41:49 [BotBuffer] CharName: Dranser - ADD_SKILL_MANA Time: 720
+21:41:51 [BotBuffer] CharName: Dranser - ADD_GREATER_LIFE Time: 720
+21:41:53 [BotBuffer] CharName: Dranser - ADD_DAMAGE_REFLECT Time: 720
+21:41:56 [BotBuffer] CharName: Dranser - ADD_CRITICAL_DAMAGE Time: 720
+21:42:00 [BotBuffer] CharName: Dranser - ADD_FITNESS Time: 720
+21:59:05 [Obj][13001] LogOutCharacter (Lutador)
+21:59:05 [Obj][13001] DelAccount (luckask16)
+21:59:05 [Obj][13001] DelClient (45.170.89.93)
+22:08:32 [lipecouto][Dranser] Kill [maiconj3][ELcAbOnG]
+23:05:59 [Obj][13003] AddClient (170.0.222.200)
+23:05:59 [Obj][13003] DelClient (170.0.222.200)
+23:14:20 [Obj][13009] AddClient (179.63.44.169)
+23:14:21 [Obj][13009] AddAccount (gordo3)
+23:14:23 [Obj][13009] LogInCharacter (Pain)
+23:16:35 [Obj][13010] AddClient (186.194.50.50)
+23:16:36 [Obj][13010] DelClient (186.194.50.50)
+23:26:49 [Obj][13009] LogOutCharacter (Pain)
+23:26:49 [Obj][13009] DelAccount (gordo3)
+23:26:49 [Obj][13009] DelClient (179.63.44.169)
+23:27:18 [Obj][13012] AddClient (179.63.44.169)
+23:27:18 [Obj][13012] AddAccount (gordo3)
+23:27:18 [Obj][13012] LogInCharacter (Pain)
+23:50:28 [Obj][13012] LogOutCharacter (Pain)
+23:50:28 [Obj][13012] DelAccount (gordo3)
+23:50:28 [Obj][13012] DelClient (179.63.44.169)
+23:55:00 [Obj][13007] AddClient (179.63.44.169)
+23:55:00 [Obj][13007] AddAccount (gordo3)
+23:55:00 [Obj][13007] LogInCharacter (Pain)
+23:55:06 [Obj][13007] LogOutCharacter (Pain)
+23:55:06 [Obj][13007] DelAccount (gordo3)
+23:55:06 [Obj][13007] DelClient (179.63.44.169)
+23:55:47 [Obj][13005] AddClient (179.63.44.169)
+23:55:48 [Obj][13005] AddAccount (gordo3)
+23:55:50 [Obj][13005] LogInCharacter (Pain)

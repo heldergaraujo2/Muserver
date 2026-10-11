@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////////////
+// Custom Monster Top Hit 
+// Shows the monster damage rank in the client-side
+// Max 20 per rank
+///////////////////////////////////////////////////////////////////////////////////////
+// 	#MonsterIndex   #MaxRank
+	//459             5		//Selupan
+	//361             5		//Nightmare
+	//309             5		//Hell Maine
+	//077             5		//Dark Phoenix		
+	//063             5		//Death Beam Knight	
+	//678             5		//Lord of Ferea		

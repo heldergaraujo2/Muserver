@@ -1,0 +1,725 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+0         0             0             0000           2559           *           *              1             *             *             *               //General Weapon
+0         0             0             2580           2589           *           *              *             *             *             *               //General Book
+0         0             0             3072           3583           *           *              1             *             *             *               //General Shield
+0         49            0             6659           6659           *           *              *             *             *             *               //Dinorant
+0         62            0             6660           6660           *           *              *             *             *             *               //Dark Horse
+0         62            0             6856           6856           *           *              *             *             *             *               //
+0         62            0             6957           6957           *           *              *             *             *             *               //
+0         76            0             6872           6873           *           *              *             *             *             *               //
+0         223           0             2620           2620           *           *              *             *             *             *               //
+0         224           0             2621           2621           *           *              *             *             *             *               //
+0         225           0             2622           2622           *           *              *             *             *             *               //
+0         223           0             2623           2623           *           *              *             *             *             *               //
+0         224           0             2624           2624           *           *              *             *             *             *               //
+0         225           0             2627           2627           *           *              *             *             *             *               //
+0         223           0             2632           2632           *           *              *             *             *             *               //
+0         224           0             2635           2635           *           *              *             *             *             *               //
+0         225           0             2638           2638           *           *              *             *             *             *               //
+0         76            0             6693           6693           *           *              *             *             *             *               //Fenrir
+1         84            5             0000           2559           *           *              *             1             *             *               //General Weapon
+1         84            5             2560           2579           *           *              *             1             *             *               //General Staff
+1         84            5             2580           2589           *           *              *             1             *             *               //General Book
+1         84            5             2590           3071           *           *              *             1             *             *               //General Staff
+1         84            5             3072           3583           *           *              *             1             *             *               //General Shield
+1         84            5             3584           6143           *           *              *             1             *             *               //General Armor
+1         84            5             6144           6144           *           *              *             1             *             *               //Wings of Fairy
+1         84            5             6145           6145           *           *              *             1             *             *               //Wings of Angel
+1         84            5             6146           6146           *           *              *             1             *             *               //Wings of Satan
+1         84            5             6147           6147           *           *              *             1             *             *               //Wings of Spirit
+1         84            5             6148           6148           *           *              *             1             *             *               //Wings of Soul
+1         84            5             6149           6149           *           *              *             1             *             *               //Wings of Devil
+1         84            5             6150           6150           *           *              *             1             *             *               //Wings of Darkness
+1         84            5             6180           6180           *           *              *             1             *             *               //Wings of Storm
+1         84            5             6181           6181           *           *              *             1             *             *               //Wings of Space Time
+1         84            5             6182           6182           *           *              *             1             *             *               //Wings of Illusion
+1         84            5             6183           6183           *           *              *             1             *             *               //Wings of Hurricane
+1         84            5             6184           6184           *           *              *             1             *             *               //Mantle of Monarch
+1         84            5             6185           6185           *           *              *             1             *             *               //Wings of Misery
+1         84            5             6186           6186           *           *              *             1             *             *               //Wings of Despair
+1         84            5             6187           6187           *           *              *             1             *             *               //Wings of Violent Wind
+1         84            5             6193           6193           *           *              *             1             *             *               //Cloak of Fighter
+1         84            5             6194           6194           *           *              *             1             *             *               //Mantle of Warrior
+1         84            5             6686           6686           *           *              *             1             *             *               //Cape of Lord
+1         84            5             6406           6406           *           *              *             1             *             *               //Cloak of Death
+2         80            4             0000           2559           *           *              *             *             1             *               //General Weapon
+2         81            4             2560           2579           *           *              *             *             1             *               //General Staff
+2         113           4             2580           2589           *           *              *             *             1             *               //General Book
+2         81            4             2590           3071           *           *              *             *             1             *               //General Staff
+2         82            5             3072           3583           *           *              *             *             1             *               //General Shield
+2         83            4             3584           6143           *           *              *             *             1             *               //General Armor
+2         85            1             6144           6144           *           *              *             *             1             *               //Wings of Fairy
+2         81            4             6145           6145           *           *              *             *             1             *               //Wings of Angel
+2         80            4             6146           6146           *           *              *             *             1             *               //Wings of Satan
+2         80            4             6147           6147           *           *              *             *             1             *               //Wings of Spirit
+2         85            1             6147           6147           *           *              *             *             1             32              //Wings of Spirit
+2         85            1             6148           6148           *           *              *             *             1             *               //Wings of Soul
+2         81            4             6148           6148           *           *              *             *             1             32              //Wings of Soul
+2         85            1             6149           6149           *           *              *             *             1             *               //Wings of Devil
+2         80            4             6149           6149           *           *              *             *             1             32              //Wings of Devil
+2         81            4             6150           6150           *           *              *             *             1             *               //Wings of Darkness
+2         80            4             6150           6150           *           *              *             *             1             32              //Wings of Darkness
+2         85            1             6180           6180           *           *              *             *             1             *               //Wings of Storm
+2         80            4             6180           6180           *           *              *             *             1             16              //Wings of Storm
+2         83            4             6180           6180           *           *              *             *             1             32              //Wings of Storm
+2         85            1             6181           6181           *           *              *             *             1             *               //Wings of Space Time
+2         81            4             6181           6181           *           *              *             *             1             16              //Wings of Space Time
+2         83            4             6181           6181           *           *              *             *             1             32              //Wings of Space Time
+2         85            1             6182           6182           *           *              *             *             1             *               //Wings of Illusion
+2         80            4             6182           6182           *           *              *             *             1             16              //Wings of Illusion
+2         83            4             6182           6182           *           *              *             *             1             32              //Wings of Illusion
+2         85            1             6183           6183           *           *              *             *             1             *               //Wings of Hurricane
+2         80            4             6183           6183           *           *              *             *             1             16              //Wings of Hurricane
+2         81            4             6183           6183           *           *              *             *             1             32              //Wings of Hurricane
+2         85            1             6184           6184           *           *              *             *             1             *               //Mantle of Monarch
+2         80            4             6184           6184           *           *              *             *             1             16              //Mantle of Monarch
+2         83            4             6184           6184           *           *              *             *             1             32              //Mantle of Monarch
+2         81            4             6185           6185           *           *              *             *             1             *               //Wings of Misery
+2         81            4             6186           6186           *           *              *             *             1             *               //Wings of Despair
+2         113           4             6186           6186           *           *              *             *             1             32              //Wings of Despair
+2         85            1             6187           6187           *           *              *             *             1             *               //Wings of Violent Wind
+2         81            4             6187           6187           *           *              *             *             1             16              //Wings of Violent Wind
+2         113           4             6187           6187           *           *              *             *             1             32              //Wings of Violent Wind
+2         80            4             6193           6193           *           *              *             *             1             *               //Cloak of Fighter
+2         85            1             6194           6194           *           *              *             *             1             *               //Mantle of Warrior
+2         80            4             6194           6194           *           *              *             *             1             16              //Mantle of Warrior
+2         83            4             6194           6194           *           *              *             *             1             32              //Mantle of Warrior
+2         85            1             6406           6406           *           *              *             *             1             *               //Cloak of Death
+2         80            4             6406           6406           *           *              *             *             1             16              //Cloak of Death
+2         85            1             6407           6407           *           *              *             *             1             *               //Wings of Chaos
+2         80            4             6407           6407           *           *              *             *             1             16              //Wings of Chaos
+2         113           4             6408           6408           *           *              *             *             1             *               //Wings of Magic
+2         81            4             6408           6408           *           *              *             *             1             16              //Wings of Magic
+2         85            1             6409           6409           *           *              *             *             1             *               //Wings of Life
+2         80            4             6409           6409           *           *              *             *             1             16              //Wings of Life
+2         85            1             6410           6410           *           *              *             *             1             *               //Wings of Conqueror
+2         85            1             6664           6664           *           *              *             *             1             *               //Ring of Ice
+2         85            1             6665           6665           *           *              *             *             1             *               //Ring of Poison
+2         85            1             6677           6677           *           *              *             *             1             *               //Ring of Fire
+2         85            1             6678           6678           *           *              *             *             1             *               //Ring of Earth
+2         85            1             6679           6679           *           *              *             *             1             *               //Ring of Wind
+2         90            1             6680           6680           *           *              *             *             1             *               //Ring of Magic
+2         85            1             6668           6668           *           *              *             *             1             *               //Pendant of Lighting
+2         85            1             6669           6669           *           *              *             *             1             *               //Pendant of Fire
+2         85            1             6681           6681           *           *              *             *             1             *               //Pendant of Ice
+2         85            1             6682           6682           *           *              *             *             1             *               //Pendant of Wind
+2         85            1             6683           6683           *           *              *             *             1             *               //Pendant of Water
+2         104           1             6684           6684           *           *              *             *             1             *               //Pendant of Ability
+2         80            4             6686           6686           *           *              *             *             1             *               //Cape of Lord
+2         85            1             6765           6771           *           *              *             *             1             *               //Cash Shop Jewelry
+3         99            12            0000           2559           *           *              *             *             *             1               //General Weapon
+3         99            12            2560           2579           *           *              *             *             *             1               //General Staff
+3         99            12            2580           2589           *           *              *             *             *             1               //General Book
+3         99            12            2590           3071           *           *              *             *             *             1               //General Staff
+3         86            30            3072           3583           *           *              *             *             *             1               //General Shield
+3         86            30            3584           6143           *           *              *             *             *             1               //General Armor
+3         86            30            6664           6664           *           *              *             *             *             1               //Ring of Ice
+3         86            30            6665           6665           *           *              *             *             *             1               //Ring of Poison
+3         86            30            6677           6677           *           *              *             *             *             1               //Ring of Fire
+3         86            30            6678           6678           *           *              *             *             *             1               //Ring of Earth
+3         86            30            6679           6679           *           *              *             *             *             1               //Ring of Wind
+3         86            30            6680           6680           *           *              *             *             *             1               //Ring of Magic
+3         86            30            6825           6825           *           *              *             *             *             1               //Decoration Ring
+3         86            30            6826           6826           *           *              *             *             *             1               //Blessed Decoration Ring
+3         86            30            6829           6829           *           *              *             *             *             1               //Ring of Ultimatum
+3         86            30            6832           6832           *           *              *             *             *             1               //Protection Ring
+3         99            12            6668           6668           *           *              *             *             *             1               //Pendant of Lighting
+3         99            12            6669           6669           *           *              *             *             *             1               //Pendant of Fire
+3         99            12            6681           6681           *           *              *             *             *             1               //Pendant of Ice
+3         99            12            6682           6682           *           *              *             *             *             1               //Pendant of Wind
+3         99            12            6683           6683           *           *              *             *             *             1               //Pendant of Water
+3         99            12            6684           6684           *           *              *             *             *             1               //Pendant of Ability
+3         99            12            6827           6827           *           *              *             *             *             1               //Necklace of Agony
+3         99            12            6828           6828           *           *              *             *             *             1               //Solid Symbol
+3         100           5             6147           6147           *           *              *             *             *             1               //Wings of Spirit
+3         100           5             6148           6148           *           *              *             *             *             1               //Wings of Soul
+3         100           5             6149           6149           *           *              *             *             *             1               //Wings of Devil
+3         100           5             6150           6150           *           *              *             *             *             1               //Wings of Darkness
+3         100           5             6186           6186           *           *              *             *             *             1               //Wings of Despair
+3         100           5             6193           6193           *           *              *             *             *             1               //Cloak of Fighter
+3         100           5             6686           6686           *           *              *             *             *             1               //Cape of Lord
+3         102           5             6180           6180           *           *              *             *             *             1               //Wings of Storm
+3         102           5             6181           6181           *           *              *             *             *             1               //Wings of Space Time
+3         102           5             6182           6182           *           *              *             *             *             1               //Wings of Illusion
+3         102           5             6183           6183           *           *              *             *             *             1               //Wings of Hurricane
+3         102           5             6184           6184           *           *              *             *             *             1               //Mantle of Monarch
+3         102           5             6187           6187           *           *              *             *             *             1               //Wings of Violent Wind
+3         102           5             6194           6194           *           *              *             *             *             1               //Mantle of Warrior
+3         102           3             6406           6406           *           *              *             *             *             1               //Cloak of Death
+3         102           3             6407           6407           *           *              *             *             *             1               //Wings of Chaos
+3         102           3             6408           6408           *           *              *             *             *             1               //Wings of Magic
+3         102           3             6409           6409           *           *              *             *             *             1               //Wings of Life
+3         102           5             6410           6410           *           *              *             *             *             1               //Wings of Conqueror
+3         116           4             6411           6411           *           *              *             *             *             1               //Wings of Angel and Devil
+3         112           0             6659           6659           *           *              *             *             *             1               //Dinorant
+3         106           0             6693           6693           *           *              *             *             *             1               //Fenrir
+3         90            4             6765           6765           *           *              *             *             *             *               //Ring of Sapphire
+3         91            4             6766           6766           *           *              *             *             *             *               //Ring of Ruby
+3         86            30            6767           6767           *           *              *             *             *             *               //Ring of Topaz
+3         89            4             6768           6768           *           *              *             *             *             *               //Ring of Amethyst
+3         92            10            6769           6769           *           *              *             *             *             *               //Pendant of Ruby
+3         97            7             6770           6770           *           *              *             *             *             *               //Pendant of Emerald
+3         99            12            6771           6771           *           *              *             *             *             *               //Pendant of Sapphire
+4         99            12            0000           2559           *           *              *             *             *             2               //General Weapon
+4         98            12            2560           2579           *           *              *             *             *             2               //General Staff
+4         98            12            2580           2589           *           *              *             *             *             2               //General Book
+4         98            12            2590           3071           *           *              *             *             *             2               //General Staff
+4         87            10            3072           3583           *           *              *             *             *             2               //General Shield
+4         87            10            3584           6143           *           *              *             *             *             2               //General Armor
+4         87            10            6664           6664           *           *              *             *             *             2               //Ring of Ice
+4         87            10            6665           6665           *           *              *             *             *             2               //Ring of Poison
+4         87            10            6677           6677           *           *              *             *             *             2               //Ring of Fire
+4         87            10            6678           6678           *           *              *             *             *             2               //Ring of Earth
+4         87            10            6679           6679           *           *              *             *             *             2               //Ring of Wind
+4         87            10            6680           6680           *           *              *             *             *             2               //Ring of Magic
+4         87            10            6825           6825           *           *              *             *             *             2               //Decoration Ring
+4         87            10            6826           6826           *           *              *             *             *             2               //Blessed Decoration Ring
+4         87            10            6829           6829           *           *              *             *             *             2               //Ring of Ultimatum
+4         87            10            6832           6832           *           *              *             *             *             2               //Protection Ring
+4         98            12            6668           6668           *           *              *             *             *             2               //Pendant of Lighting
+4         98            12            6669           6669           *           *              *             *             *             2               //Pendant of Fire
+4         98            12            6681           6681           *           *              *             *             *             2               //Pendant of Ice
+4         98            12            6682           6682           *           *              *             *             *             2               //Pendant of Wind
+4         98            12            6683           6683           *           *              *             *             *             2               //Pendant of Water
+4         98            12            6684           6684           *           *              *             *             *             2               //Pendant of Ability
+4         98            12            6827           6827           *           *              *             *             *             2               //Necklace of Agony
+4         98            12            6828           6828           *           *              *             *             *             2               //Solid Symbol
+4         101           5             6147           6147           *           *              *             *             *             2               //Wings of Spirit
+4         101           5             6148           6148           *           *              *             *             *             2               //Wings of Soul
+4         101           5             6149           6149           *           *              *             *             *             2               //Wings of Devil
+4         101           5             6150           6150           *           *              *             *             *             2               //Wings of Darkness
+4         101           5             6186           6186           *           *              *             *             *             2               //Wings of Despair
+4         101           5             6193           6193           *           *              *             *             *             2               //Cloak of Fighter
+4         101           5             6686           6686           *           *              *             *             *             2               //Cape of Lord
+4         109           5             6180           6180           *           *              *             *             *             2               //Wings of Storm
+4         109           5             6181           6181           *           *              *             *             *             2               //Wings of Space Time
+4         109           5             6182           6182           *           *              *             *             *             2               //Wings of Illusion
+4         109           5             6183           6183           *           *              *             *             *             2               //Wings of Hurricane
+4         109           5             6184           6184           *           *              *             *             *             2               //Mantle of Monarch
+4         109           5             6187           6187           *           *              *             *             *             2               //Wings of Violent Wind
+4         109           5             6194           6194           *           *              *             *             *             2               //Mantle of Warrior
+4         110           5             6406           6406           *           *              *             *             *             2               //Cloak of Death
+4         110           5             6407           6407           *           *              *             *             *             2               //Wings of Chaos
+4         110           5             6408           6408           *           *              *             *             *             2               //Wings of Magic
+4         110           5             6409           6409           *           *              *             *             *             2               //Wings of Life
+4         109           5             6410           6410           *           *              *             *             *             2               //Wings of Conqueror
+4         102           4             6411           6411           *           *              *             *             *             2               //Wings of Angel and Devil
+4         103           50            6659           6659           *           *              *             *             *             2               //Dinorant
+4         107           0             6693           6693           *           *              *             *             *             2               //Fenrir
+5         97            7             0000           2559           *           *              *             *             *             4               //General Weapon
+5         97            7             2560           2579           *           *              *             *             *             4               //General Staff
+5         97            7             2580           2589           *           *              *             *             *             4               //General Book
+5         97            7             2590           3071           *           *              *             *             *             4               //General Staff
+5         88            5             3072           3583           *           *              *             *             *             4               //General Shield
+5         88            5             3584           6143           *           *              *             *             *             4               //General Armor
+5         88            5             6664           6664           *           *              *             *             *             4               //Ring of Ice
+5         88            5             6665           6665           *           *              *             *             *             4               //Ring of Poison
+5         88            5             6677           6677           *           *              *             *             *             4               //Ring of Fire
+5         88            5             6678           6678           *           *              *             *             *             4               //Ring of Earth
+5         88            5             6679           6679           *           *              *             *             *             4               //Ring of Wind
+5         88            5             6680           6680           *           *              *             *             *             4               //Ring of Magic
+5         88            5             6825           6825           *           *              *             *             *             4               //Decoration Ring
+5         88            5             6826           6826           *           *              *             *             *             4               //Blessed Decoration Ring
+5         88            5             6829           6829           *           *              *             *             *             4               //Ring of Ultimatum
+5         88            5             6832           6832           *           *              *             *             *             4               //Protection Ring
+5         97            7             6668           6668           *           *              *             *             *             4               //Pendant of Lighting
+5         97            7             6669           6669           *           *              *             *             *             4               //Pendant of Fire
+5         97            7             6681           6681           *           *              *             *             *             4               //Pendant of Ice
+5         97            7             6682           6682           *           *              *             *             *             4               //Pendant of Wind
+5         97            7             6683           6683           *           *              *             *             *             4               //Pendant of Water
+5         97            7             6684           6684           *           *              *             *             *             4               //Pendant of Ability
+5         97            7             6827           6827           *           *              *             *             *             4               //Necklace of Agony
+5         97            7             6828           6828           *           *              *             *             *             4               //Solid Symbol
+5         102           3             6147           6147           *           *              *             *             *             4               //Wings of Spirit
+5         102           3             6148           6148           *           *              *             *             *             4               //Wings of Soul
+5         102           3             6149           6149           *           *              *             *             *             4               //Wings of Devil
+5         102           3             6150           6150           *           *              *             *             *             4               //Wings of Darkness
+5         102           3             6186           6186           *           *              *             *             *             4               //Wings of Despair
+5         102           3             6193           6193           *           *              *             *             *             4               //Cloak of Fighter
+5         102           3             6686           6686           *           *              *             *             *             4               //Cape of Lord
+5         110           5             6180           6180           *           *              *             *             *             4               //Wings of Storm
+5         110           5             6181           6181           *           *              *             *             *             4               //Wings of Space Time
+5         110           5             6182           6182           *           *              *             *             *             4               //Wings of Illusion
+5         110           5             6183           6183           *           *              *             *             *             4               //Wings of Hurricane
+5         110           5             6184           6184           *           *              *             *             *             4               //Mantle of Monarch
+5         110           5             6187           6187           *           *              *             *             *             4               //Wings of Violent Wind
+5         110           5             6194           6194           *           *              *             *             *             4               //Mantle of Warrior
+5         110           5             6410           6410           *           *              *             *             *             4               //Wings of Conqueror
+5         110           4             6411           6411           *           *              *             *             *             4               //Wings of Angel and Devil
+5         97            5             6659           6659           *           *              *             *             *             4               //Dinorant
+5         108           0             6693           6693           *           *              *             *             *             4               //Fenrir
+6         94            2             0000           2559           *           *              *             *             *             8               //General Weapon
+6         96            2             2560           2579           *           *              *             *             *             8               //General Staff
+6         115           2             2580           2589           *           *              *             *             *             8               //General Book
+6         96            2             2590           3071           *           *              *             *             *             8               //General Staff
+6         89            4             3072           3583           *           *              *             *             *             8               //General Shield
+6         89            4             3584           6143           *           *              *             *             *             8               //General Armor
+6         89            4             6664           6664           *           *              *             *             *             8               //Ring of Ice
+6         89            4             6665           6665           *           *              *             *             *             8               //Ring of Poison
+6         89            4             6677           6677           *           *              *             *             *             8               //Ring of Fire
+6         89            4             6678           6678           *           *              *             *             *             8               //Ring of Earth
+6         89            4             6679           6679           *           *              *             *             *             8               //Ring of Wind
+6         89            4             6680           6680           *           *              *             *             *             8               //Ring of Magic
+6         89            4             6825           6825           *           *              *             *             *             8               //Decoration Ring
+6         89            4             6826           6826           *           *              *             *             *             8               //Blessed Decoration Ring
+6         89            4             6829           6829           *           *              *             *             *             8               //Ring of Ultimatum
+6         89            4             6832           6832           *           *              *             *             *             8               //Protection Ring
+6         96            2             6668           6668           *           *              *             *             *             8               //Pendant of Lighting
+6         94            2             6669           6669           *           *              *             *             *             8               //Pendant of Fire
+6         96            2             6681           6681           *           *              *             *             *             8               //Pendant of Ice
+6         94            2             6682           6682           *           *              *             *             *             8               //Pendant of Wind
+6         96            2             6683           6683           *           *              *             *             *             8               //Pendant of Water
+6         94            2             6684           6684           *           *              *             *             *             8               //Pendant of Ability
+6         94            2             6827           6827           *           *              *             *             *             8               //Necklace of Agony
+6         94            2             6828           6828           *           *              *             *             *             8               //Solid Symbol
+6         103           50            6147           6147           *           *              *             *             *             8               //Wings of Spirit
+6         103           50            6148           6148           *           *              *             *             *             8               //Wings of Soul
+6         103           50            6149           6149           *           *              *             *             *             8               //Wings of Devil
+6         103           50            6150           6150           *           *              *             *             *             8               //Wings of Darkness
+6         103           50            6186           6186           *           *              *             *             *             8               //Wings of Despair
+6         103           50            6193           6193           *           *              *             *             *             8               //Cloak of Fighter
+6         105           5             6686           6686           *           *              *             *             *             8               //Cape of Lord
+6         111           5             6180           6180           *           *              *             *             *             8               //Wings of Storm
+6         111           5             6181           6181           *           *              *             *             *             8               //Wings of Space Time
+6         111           5             6182           6182           *           *              *             *             *             8               //Wings of Illusion
+6         111           5             6183           6183           *           *              *             *             *             8               //Wings of Hurricane
+6         111           5             6184           6184           *           *              *             *             *             8               //Mantle of Monarch
+6         111           5             6187           6187           *           *              *             *             *             8               //Wings of Violent Wind
+6         111           5             6194           6194           *           *              *             *             *             8               //Mantle of Warrior
+7         93            20            0000           2559           *           *              *             *             *             16              //General Weapon
+7         95            20            2560           2579           *           *              *             *             *             16              //General Staff
+7         114           20            2580           2589           *           *              *             *             *             16              //General Book
+7         95            20            2590           3071           *           *              *             *             *             16              //General Staff
+7         90            4             3072           3583           *           *              *             *             *             16              //General Shield
+7         90            4             3584           6143           *           *              *             *             *             16              //General Armor
+7         90            4             6664           6664           *           *              *             *             *             16              //Ring of Ice
+7         90            4             6665           6665           *           *              *             *             *             16              //Ring of Poison
+7         90            4             6677           6677           *           *              *             *             *             16              //Ring of Fire
+7         90            4             6678           6678           *           *              *             *             *             16              //Ring of Earth
+7         90            4             6679           6679           *           *              *             *             *             16              //Ring of Wind
+7         90            4             6680           6680           *           *              *             *             *             16              //Ring of Magic
+7         90            4             6825           6825           *           *              *             *             *             16              //Decoration Ring
+7         90            4             6826           6826           *           *              *             *             *             16              //Blessed Decoration Ring
+7         90            4             6829           6829           *           *              *             *             *             16              //Ring of Ultimatum
+7         90            4             6832           6832           *           *              *             *             *             16              //Protection Ring
+7         95            20            6668           6668           *           *              *             *             *             16              //Pendant of Lighting
+7         93            20            6669           6669           *           *              *             *             *             16              //Pendant of Fire
+7         95            20            6681           6681           *           *              *             *             *             16              //Pendant of Ice
+7         93            20            6682           6682           *           *              *             *             *             16              //Pendant of Wind
+7         95            20            6683           6683           *           *              *             *             *             16              //Pendant of Water
+7         93            20            6684           6684           *           *              *             *             *             16              //Pendant of Ability
+7         93            20            6827           6827           *           *              *             *             *             16              //Necklace of Agony
+7         93            20            6828           6828           *           *              *             *             *             16              //Solid Symbol
+7         97            5             6147           6147           *           *              *             *             *             16              //Wings of Spirit
+7         97            5             6148           6148           *           *              *             *             *             16              //Wings of Soul
+7         97            5             6149           6149           *           *              *             *             *             16              //Wings of Devil
+7         97            5             6150           6150           *           *              *             *             *             16              //Wings of Darkness
+7         97            5             6186           6186           *           *              *             *             *             16              //Wings of Despair
+7         97            5             6193           6193           *           *              *             *             *             16              //Cloak of Fighter
+8         92            10            0000           2559           *           *              *             *             *             32              //General Weapon
+8         92            10            2560           2579           *           *              *             *             *             32              //General Staff
+8         92            10            2580           2589           *           *              *             *             *             32              //General Book
+8         92            10            2590           3071           *           *              *             *             *             32              //General Staff
+8         91            4             3072           3583           *           *              *             *             *             32              //General Shield
+8         91            4             3584           6143           *           *              *             *             *             32              //General Armor
+8         91            4             6664           6664           *           *              *             *             *             32              //Ring of Ice
+8         91            4             6665           6665           *           *              *             *             *             32              //Ring of Poison
+8         91            4             6677           6677           *           *              *             *             *             32              //Ring of Fire
+8         91            4             6678           6678           *           *              *             *             *             32              //Ring of Earth
+8         91            4             6679           6679           *           *              *             *             *             32              //Ring of Wind
+8         91            4             6680           6680           *           *              *             *             *             32              //Ring of Magic
+8         91            4             6825           6825           *           *              *             *             *             32              //Decoration Ring
+8         91            4             6826           6826           *           *              *             *             *             32              //Blessed Decoration Ring
+8         91            4             6829           6829           *           *              *             *             *             32              //Ring of Ultimatum
+8         91            4             6832           6832           *           *              *             *             *             32              //Protection Ring
+8         92            10            6668           6668           *           *              *             *             *             32              //Pendant of Lighting
+8         92            10            6669           6669           *           *              *             *             *             32              //Pendant of Fire
+8         92            10            6681           6681           *           *              *             *             *             32              //Pendant of Ice
+8         92            10            6682           6682           *           *              *             *             *             32              //Pendant of Wind
+8         92            10            6683           6683           *           *              *             *             *             32              //Pendant of Water
+8         92            10            6684           6684           *           *              *             *             *             32              //Pendant of Ability
+8         92            10            6827           6827           *           *              *             *             *             32              //Necklace of Agony
+8         92            10            6828           6828           *           *              *             *             *             32              //Solid Symbol
+9         119           50            6656           6656           *           *              *             *             *             *               //Angel
+9         125           10            6676           6676           *           *              *             *             *             *               //Wizard Ring
+9         93            12            6693           6693           *           *              *             *             *             4               //Fenrir
+9         127           10            6695           6695           *           *              *             *             *             *               //Elite Transformation Ring
+9         123           20            6697           6697           *           *              *             *             *             *               //Christmas Ring
+9         97            10            6720           6720           *           *              *             *             *             *               //Demon
+9         119           50            6721           6721           *           *              *             *             *             *               //Spirit of Guardian
+9         123           30            6732           6732           *           *              *             *             *             *               //Panda Ring
+9         123           30            6733           6733           *           *              *             *             *             *               //Brown Panda Ring
+9         123           30            6734           6734           *           *              *             *             *             *               //Pink Panda Ring
+9         83            50            6736           6736           *           *              *             *             *             *               //Panda
+9         83            50            6762           6762           *           *              *             *             *             *               //Unicorn
+9         125           15            6763           6763           *           *              *             *             *             *               //Lethal Wizard Ring
+9         123           40            6778           6778           *           *              *             *             *             *               //Skeleton Ring
+9         97            10            6779           6779           *           *              *             *             *             *               //Skeleton
+9         123           30            6819           6819           *           *              *             *             *             *               //Robot Knight Ring
+9         123           30            6820           6820           *           *              *             *             *             *               //Mini Robot Ring
+9         123           40            6821           6821           *           *              *             *             *             *               //Great Heavenly Mage Ring
+9         94            10            6825           6825           *           *              *             *             *             *               //Decoration Ring
+9         94            15            6826           6826           *           *              *             *             *             *               //Blessed Decoration Ring
+10        97            10            6676           6676           *           *              *             *             *             *               //Wizard Ring
+10        95            25            6693           6693           *           *              *             *             *             4               //Fenrir
+10        121           1             6695           6695           *           *              *             *             *             *               //Elite Transformation Ring
+10        86            50            6732           6732           *           *              *             *             *             *               //Panda Ring
+10        86            50            6733           6733           *           *              *             *             *             *               //Brown Panda Ring
+10        86            50            6734           6734           *           *              *             *             *             *               //Pink Panda Ring
+10        117           50            6736           6736           *           *              *             *             *             *               //Panda
+10        86            50            6762           6762           *           *              *             *             *             *               //Unicorn
+10        97            10            6763           6763           *           *              *             *             *             *               //Lethal Wizard Ring
+10        118           30            6778           6778           *           *              *             *             *             *               //Skeleton Ring
+10        117           30            6779           6779           *           *              *             *             *             *               //Skeleton
+10        118           30            6819           6819           *           *              *             *             *             *               //Robot Knight Ring
+10        97            7             6820           6820           *           *              *             *             *             *               //Mini Robot Ring
+10        118           30            6821           6821           *           *              *             *             *             *               //Great Heavenly Mage Ring
+10        96            15            6825           6825           *           *              *             *             *             *               //Decoration Ring
+10        96            15            6826           6826           *           *              *             *             *             *               //Blessed Decoration Ring
+11        114           25            6693           6693           *           *              *             *             *             4               //Fenrir
+11        118           30            6732           6732           *           *              *             *             *             *               //Panda Ring
+11        117           30            6733           6733           *           *              *             *             *             *               //Brown Panda Ring
+11        117           50            6734           6734           *           *              *             *             *             *               //Pink Panda Ring
+11        83            10            6819           6819           *           *              *             *             *             *               //Robot Knight Ring
+11        118           30            6820           6820           *           *              *             *             *             *               //Mini Robot Ring
+11        115           15            6825           6825           *           *              *             *             *             *               //Decoration Ring
+11        115           15            6826           6826           *           *              *             *             *             *               //Blessed Decoration Ring
+12        121           20             6693           6693           *           *              *             *             *             4               //Fenrir
+12        118           30            6733           6733           *           *              *             *             *             *               //Brown Panda Ring
+12        118           30            6734           6734           *           *              *             *             *             *               //Pink Panda Ring
+12        97            10            6825           6825           *           *              *             *             *             *               //Decoration Ring
+12        97            10            6826           6826           *           *              *             *             *             *               //Blessed Decoration Ring
+13        122           2             6693           6693           *           *              *             *             *             4               //Fenrir
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+12        102           5             6412           6412           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6413           6413           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6414           6414           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6415           6415           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6416           6416           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6417           6417           *           *              *             *             *             1               //Wings and Cloack Custom
+12        102           5             6418           6418           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6424           6424           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6425           6425           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6426           6426           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6427           6427           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6428           6428           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6429           6429           *           *              *             *             *             1               //Wings and Cloack Custom
+13        102           5             6430           6430           *           *              *             *             *             1               //Wings and Cloack Custom
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+13        113           1000          2620           2620           *           *              *             *             1             *               //Book Blood
+13        113           2000          2621           2621           *           *              *             *             1             *               //Book Dark
+13        113           3000          2622           2622           *           *              *             *             1             *               //Book Holy
+13        113           4000          2623           2623           *           *              *             *             1             *               //Book Awakening
+13        113           5000          2624           2624           *           *              *             *             1             *               //Book Blue Eye
+13        113           6000          2627           2627           *           *              *             *             1             *               //Book Silver Heart
+13        113           7000          2632           2632           *           *              *             *             1             *               //Book Manticore
+13        113           8000          2635           2635           *           *              *             *             1             *               //Book Brilliant
+13        113           9000          2638           2638           *           *              *             *             1             *               //Book Apocalypse
+13        113           10000         2641           2641           *           *              *             *             1             *               //Book Lightning
+13        113           12000         2644           2644           *           *              *             *             1             *               //Book Temple
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+3         92            5             6860           6860           *           *              *             *             *             *               // Luki
+4         109           5             6860           6860           *           *              *             *             *             *               // Luki
+3         92            10            6861           6861           *           *              *             *             *             *               // Luki lv2
+4         109           10            6861           6861           *           *              *             *             *             *               // Luki lv2
+3         89            5             6862           6862           *           *              *             *             *             *               // William
+4         88            5             6862           6862           *           *              *             *             *             *               // William
+3         89            10            6863           6863           *           *              *             *             *             *               // William lv2
+4         88            10            6863           6863           *           *              *             *             *             *               // William lv2
+3         102           5             6864           6864           *           *              *             *             *             *               // Tibetton
+4         84            5             6864           6864           *           *              *             *             *             *               // Tibetton
+3         102           10            6865           6865           *           *              *             *             *             *               // Tibetton lv2
+4         84            10            6865           6865           *           *              *             *             *             *               // Tibetton lv2
+3         90            5             6866           6866           *           *              *             *             *             *               // Wooparoo
+4         91            5             6866           6866           *           *              *             *             *             *               // Wooparoo
+3         90            10            6867           6867           *           *              *             *             *             *               // Wooparoo lv2
+4         91            10            6867           6867           *           *              *             *             *             *               // Wooparoo lv2
+3         94            10            6868           6868           *           *              *             *             *             *               // Chiron
+4         96            10            6868           6868           *           *              *             *             *             *               // Chiron
+3         94            15            6869           6869           *           *              *             *             *             *               // Chiron lv2
+4         96            15            6869           6869           *           *              *             *             *             *               // Chiron lv2
+3         125           5             6870           6870           *           *              *             *             *             *               // Desmodus
+4         127           5             6870           6870           *           *              *             *             *             *               // Desmodus
+3         125           10            6871           6871           *           *              *             *             *             *               // Desmodus lv2
+4         127           10            6871           6871           *           *              *             *             *             *               // Desmodus lv2
+3         102           13            6872           6872           *           *              *             *             *             *               // Tibetton Mount
+4         84            13            6872           6872           *           *              *             *             *             *               // Tibetton Mount
+3         102           15            6873           6873           *           *              *             *             *             *               // Tibetton Mount lv2
+4         84            15            6873           6873           *           *              *             *             *             *               // Tibetton Mount lv2
+13        102           15            6874           6874           *           *              *             *             *             *               // Rune Wizard
+4         92            15            6874           6874           *           *              *             *             *             *               // Rune Wizard
+3         116           5             6874           6874           *           *              *             *             *             *               // Rune Wizard
+3         128           2             6875           6875           *           *              *             *             *             *               // Gaion Kharein
+13        84            20            6875           6875           *           *              *             *             *             *               // Gaion Kharein
+4         129           17            6875           6875           *           *              *             *             *             *               // Gaion Kharein
+3         125           25            6876           6876           *           *              *             *             *             *               // Prince
+13        110           10            6876           6876           *           *              *             *             *             *               // Prince
+3         91            17            6877           6877           *           *              *             *             *             *               // King Rex Milion
+4         135           20            6877           6877           *           *              *             *             *             *               // King Rex Milion
+3         97            80            6878           6878           *           *              *             *             *             *               // Loggle
+4         85            10            6878           6878           *           *              *             *             *             *               // Loggle
+3         97            110           6879           6879           *           *              *             *             *             *               // Loggle lv2
+4         85            17            6879           6879           *           *              *             *             *             *               // Loggle lv2
+3         97            50            6880           6880           *           *              *             *             *             *               // Repen
+4         116           2             6880           6880           *           *              *             *             *             *               // Repen
+3         97            80            6881           6881           *           *              *             *             *             *               // Repen lv2
+4         116           3             6881           6881           *           *              *             *             *             *               // Repen lv2
+3         97            90            6882           6882           *           *              *             *             *             *               // Repen Mount
+4         116           4             6882           6882           *           *              *             *             *             *               // Repen Mount
+3         97            100           6883           6883           *           *              *             *             *             *               // Repen Mount lv2
+4         116           6             6883           6883           *           *              *             *             *             *               // Repen Mount lv2
+3         80            150           6884           6884           *           *              *             *             *             *               // Balrog
+4         81            150           6884           6884           *           *              *             *             *             *               // Balrog
+3         80            230           6885           6885           *           *              *             *             *             *               // Balrog lv2
+4         81            230           6885           6885           *           *              *             *             *             *               // Balrog lv2
+3         125           15            6886           6886           *           *              *             *             *             *               // Phoenix of Darkness
+4         127           15            6886           6886           *           *              *             *             *             *               // Phoenix of Darkness
+3         125           25            6887           6887           *           *              *             *             *             *               // Phoenix of Darkness lv2
+4         127           25            6887           6887           *           *              *             *             *             *               // Phoenix of Darkness lv2
+3         102           7             6888           6888           *           *              *             *             *             *               // Kundun
+4         130           7             6888           6888           *           *              *             *             *             *               // Kundun
+3         102           10            6889           6889           *           *              *             *             *             *               // Kundun lv2
+4         130           10            6889           6889           *           *              *             *             *             *               // Kundun lv2
+3         110           15            6890           6890           *           *              *             *             *             *               // Nightmare
+4         92            15            6890           6890           *           *              *             *             *             *               // Nightmare
+3         110           18            6891           6891           *           *              *             *             *             *               // Nightmare lv2
+4         92            20            6891           6891           *           *              *             *             *             *               // Nightmare lv2
+3         129           17            6892           6892           *           *              *             *             *             *               // HellMaine
+4         132           25            6892           6892           *           *              *             *             *             *               // HellMaine
+3         129           23            6893           6893           *           *              *             *             *             *               // HellMaine lv2
+4         132           35            6893           6893           *           *              *             *             *             *               // HellMaine lv2
+3         91            22            6894           6894           *           *              *             *             *             *               // Selupan
+4         96            20            6894           6894           *           *              *             *             *             *               // Selupan
+3         91            28            6895           6895           *           *              *             *             *             *               // Selupan lv2
+4         96            27            6895           6895           *           *              *             *             *             *               // Selupan lv2
+3         88            13            6896           6896           *           *              *             *             *             *               // Medusa
+4         109           11            6896           6896           *           *              *             *             *             *               // Medusa
+3         88            18            6897           6897           *           *              *             *             *             *               // Medusa lv2
+4         109           15            6897           6897           *           *              *             *             *             *               // Medusa lv2
+3         125           38            6898           6898           *           *              *             *             *             *               // Lord Silvester
+4         85            20            6898           6898           *           *              *             *             *             *               // Lord Silvester
+3         125           44            6899           6899           *           *              *             *             *             *               // Lord Silvester lv2
+4         85            28            6899           6899           *           *              *             *             *             *               // Lord Silvester lv2
+3         84            18            6900           6900           *           *              *             *             *             *               // Nix
+4         135           19            6900           6900           *           *              *             *             *             *               // Nix
+3         84            24            6901           6901           *           *              *             *             *             *               // Nix lv2
+4         135           26            6901           6901           *           *              *             *             *             *               // Nix lv2
+3         125           27            6904           6904           *           *              *             *             *             *               // Great Wizard Etramu
+4         92            15            6904           6904           *           *              *             *             *             *               // Great Wizard Etramu
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+13        81            404           6412           6412           *           *              *             *             *             *               //Wings SM
+13        80            404           6413           6413           *           *              *             *             *             *               //Wings BK
+13        80            404           6414           6414           *           *              *             *             *             *               //Wings ELF
+0         80            404           6415           6415           *           *              *             *             *             *               //Wings MG
+13        81            404           6415           6415           *           *              *             *             *             *               //Wings MG
+13        80            404           6416           6416           *           *              *             *             *             *               //Wings DL
+13        81            404           6417           6417           *           *              *             *             *             *               //Wings SUM
+13        113           404           6417           6417           *           *              *             *             *             *               //Wings SUM
+13        80            404           6418           6418           *           *              *             *             *             *               //Wings RF
+10        80            300           6430           6430           *           *              *             *             *             *               //Wings POWER
+11        81            300           6430           6430           *           *              *             *             *             *               //Wings POWER
+12        113           300           6430           6430           *           *              *             *             *             *               //Wings POWER
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+3         129           4             6809           6809           *           *              *             *             *             *               //Ring of Ultimatum
+3         133           4             6810           6810           *           *              *             *             *             *               //Protector Protection Ring
+3         132           4             6811           6811           *           *              *             *             *             *               //Protection Ring
+3         130           4             6812           6812           *           *              *             *             *             *               //Necklace Of Agony
+3         131           4             6813           6813           *           *              *             *             *             *               //Solid Symbol
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+10        96            10            6814           6814           *           *              *             *             *             *               //Decoration Ring
+11        94            10            6814           6814           *           *              *             *             *             *               //Decoration Ring
+12        97            10            6814           6814           *           *              *             *             *             *               //Decoration Ring
+10        96            15            6815           6815           *           *              *             *             *             *               //Blessed Decoration Ring
+11        94            15            6815           6815           *           *              *             *             *             *               //Blessed Decoration Ring
+12        97            10            6815           6815           *           *              *             *             *             *               //Blessed Decoration Ring
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+13        102           5             6431           6431           *           *              *             *             *             1               //Wings of Disillusionment
+13        102           5             6432           6432           *           *              *             *             *             1               //Wings of Fate
+13        102           5             6433           6433           *           *              *             *             *             1               //Wings of Silence
+13        102           5             6434           6434           *           *              *             *             *             1               //Wings of Condemnation
+13        102           5             6435           6435           *           *              *             *             *             1               //Cloak of Transcendence
+13        102           5             6436           6436           *           *              *             *             *             1               //Cloak of Transcendence
+13        102           5             6437           6437           *           *              *             *             *             1               //Cloak of Isolation
+13        102           5             6439           6439           *           *              *             *             *             1               //Bloody Wings
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+10        80            300           6432           6432           *           *              *             *             *             *               //Wings of Fate
+11        81            300           6432           6432           *           *              *             *             *             *               //Wings of Fate
+12        113           300           6432           6432           *           *              *             *             *             *               //Wings of Fate
+10        80            300           6434           6434           *           *              *             *             *             *               //Wings of Condemnation
+11        81            300           6434           6434           *           *              *             *             *             *               //Wings of Condemnation
+12        113           300           6434           6434           *           *              *             *             *             *               //Wings of Condemnation
+10        80            300           6437           6437           *           *              *             *             *             *               //Cloak of Isolation
+11        81            300           6437           6437           *           *              *             *             *             *               //Cloak of Isolation
+12        113           300           6437           6437           *           *              *             *             *             *               //Cloak of Isolation
+10        80            300           6439           6439           *           *              *             *             *             *               //Bloody Wings
+11        81            300           6439           6439           *           *              *             *             *             *               //Bloody Wings
+12        113           300           6439           6439           *           *              *             *             *             *               //Bloody Wings
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+3         123           100           6905           6905           *           *              *             *             *             *               // Skull
+3         123           200           6906           6906           *           *              *             *             *             *               // Skull lv2
+3         81            100           6907           6907           *           *              *             *             *             *               // Witch
+3         81            200           6908           6908           *           *              *             *             *             *               // Witch lv2
+3         97            60            6909           6909           *           *              *             *             *             *               // Pumpkin
+3         97            120           6910           6910           *           *              *             *             *             *               // Pumpkin lv2
+3         113           100           6911           6911           *           *              *             *             *             *               // Pumpkin Girl
+3         113           200           6912           6912           *           *              *             *             *             *               // Pumpkin Girl lv2
+3         119           500           6913           6913           *           *              *             *             *             *               // Ghost
+3         119           1000          6914           6914           *           *              *             *             *             *               // Ghost lv2
+3         83            120           6915           6915           *           *              *             *             *             *               // Mummified Boy
+3         83            220           6916           6916           *           *              *             *             *             *               // Mummified Boy lv2
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+3         98            15            6917           6917           *           *              *             *             *             *               // Polar Bear
+3         98            20            6918           6918           *           *              *             *             *             *               // Polar Bear lv2
+3         116           2             6919           6919           *           *              *             *             *             *               // Present
+3         116           4             6920           6920           *           *              *             *             *             *               // Present lv2
+3         127           18            6921           6921           *           *              *             *             *             *               // Rockinghorse
+3         127           24            6922           6922           *           *              *             *             *             *               // Rockinghorse lv2
+3         97            43            6923           6923           *           *              *             *             *             *               // Gigantes
+3         97            97            6924           6924           *           *              *             *             *             *               // Gigantes lv2
+3         86            40            6925           6925           *           *              *             *             *             *               // Christmas Tree
+3         86            60            6926           6926           *           *              *             *             *             *               // Christmas Tree lv2
+3         135           10            6927           6927           *           *              *             *             *             *               // Snowman
+3         135           17            6928           6928           *           *              *             *             *             *               // Snowman lv2
+3         125           35            6929           6929           *           *              *             *             *             *               // Snow Fairy
+3         125           39            6930           6930           *           *              *             *             *             *               // Snow Fairy lv2
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+12        84            10            6931           6931           *           *              *             *             *             *               // Muren
+13        92            10            6931           6931           *           *              *             *             *             *               // Muren
+4         116           10            6931           6931           *           *              *             *             *             *               // Muren
+3         128           3             6931           6931           *           *              *             *             *             *               // Muren
+
+
+
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+4         92            13            6954           6954           *           *              *             *             *             *               //
+3         109           7             6954           6954           *           *              *             *             *             *               //
+
+
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+12        91            20            6955           6955           *           *              *             *             *             *               //
+13        110           7             6955           6955           *           *              *             *             *             *               //
+4         85            10            6955           6955           *           *              *             *             *             *               //
+3         83            300           6955           6955           *           *              *             *             *             *               //
+
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+13        81            2324          6450           6450           *           *              *             *             *             *               //Wings SM
+13        80            2324          6451           6451           *           *              *             *             *             *               //Wings BK
+13        80            2324          6452           6452           *           *              *             *             *             *               //Wings ELF
+0         80            2324          6453           6453           *           *              *             *             *             *               //Wings MG
+13        81            2324          6453           6453           *           *              *             *             *             *               //Wings MG
+13        80            2324          6454           6454           *           *              *             *             *             *               //Wings DL
+13        81            2324          6455           6455           *           *              *             *             *             *               //Wings SUM
+13        113           2324          6455           6455           *           *              *             *             *             *               //Wings SUM
+13        80            2324          6456           6456           *           *              *             *             *             *               //Wings RF
+
+3         153           40            6957           6957           *           *              *             *             *             *               //
+
+3         150           2000          6958           6958           *           *              *             *             *             *               //
+3         150           4000          6959           6959           *           *              *             *             *             *               //
+3         150           7000          6960           6960           *           *              *             *             *             *               //
+
+4         155           2             6958           6958           *           *              *             *             *             *               //
+4         155           3             6959           6959           *           *              *             *             *             *               //
+4         155           4             6960           6960           *           *              *             *             *             *               //
+
+3         84           20            6961           6961           *           *              *             *             *             *               //
+
+10        80           40            7056           7056           *           *              *             *             *             *               //
+11        81           700           7056           7056           *           *              *             *             *             *               //
+12        113          20            7056           7056           *           *              *             *             *             *               //
+9         151          15            7056           7056           *           *              *             *             *             *               //
+
+10        80           600           7057           7057           *           *              *             *             *             *               //
+11        81           40            7057           7057           *           *              *             *             *             *               //
+12        113          40            7057           7057           *           *              *             *             *             *               //
+9         151          25            7057           7057           *           *              *             *             *             *               //
+
+10        80           69            7058           7058           *           *              *             *             *             *               //
+11        81           69            7058           7058           *           *              *             *             *             *               //
+12        113          69            7058           7058           *           *              *             *             *             *               //
+9         151          36            7058           7058           *           *              *             *             *             *               //
+
+10        80           109           7059           7059           *           *              *             *             *             *               //
+11        81           109           7059           7059           *           *              *             *             *             *               //
+12        113          109           7059           7059           *           *              *             *             *             *               //
+9         151          94            7059           7059           *           *              *             *             *             *               //
+
+10        80           135           7060           7060           *           *              *             *             *             *               //
+11        81           135           7060           7060           *           *              *             *             *             *               //
+12        113          135           7060           7060           *           *              *             *             *             *               //
+4         151          102           7060           7060           *           *              *             *             *             *               //
+
+10        80           175           7061           7061           *           *              *             *             *             *               //
+11        81           175           7061           7061           *           *              *             *             *             *               //
+12        113          175           7061           7061           *           *              *             *             *             *               //
+9         151          160           7061           7061           *           *              *             *             *             *               //
+
+10        80           210           7062           7062           *           *              *             *             *             *               //
+11        81           210           7062           7062           *           *              *             *             *             *               //
+12        113          210           7062           7062           *           *              *             *             *             *               //
+9         151          168           7062           7062           *           *              *             *             *             *               //
+
+10        80           241           7063           7063           *           *              *             *             *             *               //
+11        81           241           7063           7063           *           *              *             *             *             *               //
+12        113          241           7063           7063           *           *              *             *             *             *               //
+9         151          226           7063           7063           *           *              *             *             *             *               //
+
+10        80           267           7064           7064           *           *              *             *             *             *               //
+11        81           267           7064           7064           *           *              *             *             *             *               //
+12        113          267           7064           7064           *           *              *             *             *             *               //
+9         151          234           7064           7064           *           *              *             *             *             *               //
+
+10        80           307           7065           7065           *           *              *             *             *             *               //
+11        81           307           7065           7065           *           *              *             *             *             *               //
+12        113          307           7065           7065           *           *              *             *             *             *               //
+9         151          292           7065           7065           *           *              *             *             *             *               //
+
+10        80           333           7066           7066           *           *              *             *             *             *               //
+11        81           333           7066           7066           *           *              *             *             *             *               //
+12        113          333           7066           7066           *           *              *             *             *             *               //
+9         151          300           7066           7066           *           *              *             *             *             *               //
+
+10        80           373           7067           7067           *           *              *             *             *             *               //
+11        81           373           7067           7067           *           *              *             *             *             *               //
+12        113          373           7067           7067           *           *              *             *             *             *               //
+9         151          358           7067           7067           *           *              *             *             *             *               //
+
+10        80           399           7068           7068           *           *              *             *             *             *               //
+11        81           399           7068           7068           *           *              *             *             *             *               //
+12        113          399           7068           7068           *           *              *             *             *             *               //
+9         151          366           7068           7068           *           *              *             *             *             *               //
+
+10        80           439           7069           7069           *           *              *             *             *             *               //
+11        81           439           7069           7069           *           *              *             *             *             *               //
+12        113          439           7069           7069           *           *              *             *             *             *               //
+9         151          424           7069           7069           *           *              *             *             *             *               //
+
+6         94            2             7057           7057           *           *              *             *             *             8               //Pendant of Fire
+8         92            10            7057           7057           *           *              *             *             *             32              //Pendant of Fire
+5         97            7             7057           7057           *           *              *             *             *             4               //
+7         93            20            7057           7057           *           *              *             *             *             16              //Pendant of Fire
+
+5         97            7             7056           7056           *           *              *             *             *             4               //
+8         92            10            7056           7056           *           *              *             *             *             32              //Pendant of Fire
+6         96            2             7056           7056           *           *              *             *             *             8               //Pendant of Ice
+7         95            20            7056           7056           *           *              *             *             *             16              //Pendant of Ice
+
+
+5         97           100            6693           6693           *           *              *             *             *             4               //
+10        80           100            6693           6693           *           *              *             *             *             *               //
+11        81           400            6693           6693           *           *              *             *             *             *               //
+12        113          20             6693           6693           *           *              *             *             *             *               //
+9         151          15             6693           6693           *           *              *             *             *             *               //
+
+
+10        80           88             6472           6472           *           *              *             *             *             *               //
+11        81           118            6472           6472           *           *              *             *             *             *               //
+
+end

@@ -1,0 +1,8 @@
+09:56:21 [ServerManager][0] DelServer (127.0.0.1)
+09:56:28 [SocketManager] Server started at port [55960]
+09:56:36 [ServerManager][0] AddServer (127.0.0.1)
+09:56:36 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+09:56:42 [ServerManager][1] AddServer (127.0.0.1)
+09:56:42 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+10:24:15 [ServerManager][2] AddServer (127.0.0.1)
+10:24:15 [ServerManager][2] ServerInfo (Test) (55903) (2)

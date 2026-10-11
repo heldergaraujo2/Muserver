@@ -1,0 +1,66 @@
+00:14:48 [SocketManager] WSAAccept() failed with error: 10061
+00:14:58 [SocketManager] WSAAccept() failed with error: 10061
+00:21:45 [SocketManager] WSAAccept() failed with error: 10061
+00:21:55 [SocketManager] WSAAccept() failed with error: 10061
+00:21:55 [SocketManager] WSAAccept() failed with error: 10061
+00:22:05 [SocketManager] WSAAccept() failed with error: 10061
+00:22:05 [SocketManager] WSAAccept() failed with error: 10061
+00:22:05 [SocketManager] WSAAccept() failed with error: 10061
+00:22:15 [SocketManager] WSAAccept() failed with error: 10061
+00:22:25 [SocketManager] WSAAccept() failed with error: 10061
+00:22:35 [SocketManager] WSAAccept() failed with error: 10061
+00:22:45 [SocketManager] WSAAccept() failed with error: 10061
+00:22:46 [SocketManager] WSAAccept() failed with error: 10061
+00:22:46 [SocketManager] WSAAccept() failed with error: 10061
+00:22:56 [SocketManager] WSAAccept() failed with error: 10061
+00:22:56 [SocketManager] WSAAccept() failed with error: 10061
+00:22:56 [SocketManager] WSAAccept() failed with error: 10061
+00:23:06 [SocketManager] WSAAccept() failed with error: 10061
+00:23:06 [SocketManager] WSAAccept() failed with error: 10061
+00:23:06 [SocketManager] WSAAccept() failed with error: 10061
+00:23:16 [SocketManager] WSAAccept() failed with error: 10061
+00:23:16 [SocketManager] WSAAccept() failed with error: 10061
+00:23:16 [SocketManager] WSAAccept() failed with error: 10061
+00:23:26 [SocketManager] WSAAccept() failed with error: 10061
+01:15:00 [SocketManager] WSAAccept() failed with error: 10061
+01:15:10 [SocketManager] WSAAccept() failed with error: 10061
+01:15:40 [SocketManager] WSAAccept() failed with error: 10061
+01:34:54 [SocketManager] Protocol header error (Index: 55, Header: 16)
+04:31:29 [SocketManager] Protocol header error (Index: 12, Header: 16)
+04:31:29 [SocketManager] Protocol header error (Index: 45, Header: 47)
+04:31:30 [SocketManager] Protocol header error (Index: 46, Header: 53)
+04:31:31 [SocketManager] Protocol header error (Index: 54, Header: 5)
+04:31:31 [SocketManager] Protocol header error (Index: 70, Header: 4)
+04:31:32 [SocketManager] Protocol header error (Index: 76, Header: 48)
+04:31:33 [SocketManager] Protocol header error (Index: 35, Header: 4f)
+04:31:33 [SocketManager] Protocol header error (Index: 63, Header: 40)
+04:31:34 [SocketManager] Protocol header error (Index: 30, Header: 0)
+05:28:51 [SocketManager] WSAAccept() failed with error: 10061
+05:29:01 [SocketManager] WSAAccept() failed with error: 10061
+05:29:11 [SocketManager] WSAAccept() failed with error: 10061
+05:29:21 [SocketManager] WSAAccept() failed with error: 10061
+05:29:32 [SocketManager] WSAAccept() failed with error: 10061
+05:29:42 [SocketManager] WSAAccept() failed with error: 10061
+05:30:12 [SocketManager] WSAAccept() failed with error: 10061
+06:05:32 [SocketManager] WSAAccept() failed with error: 10061
+06:05:42 [SocketManager] WSAAccept() failed with error: 10061
+06:20:34 [SocketManager] WSAAccept() failed with error: 10061
+06:20:44 [SocketManager] WSAAccept() failed with error: 10061
+06:20:54 [SocketManager] WSAAccept() failed with error: 10061
+06:21:04 [SocketManager] WSAAccept() failed with error: 10061
+08:03:59 [ServerList] GameServer offline (GameServer) (1)
+08:04:30 [ServerList] GameServer online (GameServer) (1)
+11:20:10 [SocketManager] WSAAccept() failed with error: 10061
+11:20:20 [SocketManager] WSAAccept() failed with error: 10061
+11:20:30 [SocketManager] WSAAccept() failed with error: 10061
+11:20:50 [SocketManager] WSAAccept() failed with error: 10061
+11:21:00 [SocketManager] WSAAccept() failed with error: 10061
+11:21:10 [SocketManager] WSAAccept() failed with error: 10061
+11:21:20 [SocketManager] WSAAccept() failed with error: 10061
+11:26:24 [SocketManager] WSAAccept() failed with error: 10061
+11:27:55 [SocketManager] WSAAccept() failed with error: 10061
+15:49:53 [SocketManager] WSAAccept() failed with error: 10061
+15:50:13 [SocketManager] WSAAccept() failed with error: 10061
+15:50:13 [SocketManager] WSAAccept() failed with error: 10061
+21:53:45 [ServerList] GameServer offline (GameServer) (1)
+21:54:04 [ServerList] GameServer online (GameServer) (1)

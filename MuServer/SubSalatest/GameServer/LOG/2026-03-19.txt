@@ -1,0 +1,280 @@
+00:00:23 [joker][joker] Kill [hellderrr][100Desculp]
+00:01:02 [hellderrr][100Desculp] Kill [joker][joker]
+00:01:13 [hellderrr][100Desculp] Kill [joker][joker]
+00:01:40 [hellderrr][100Desculp] Kill [joker][joker]
+00:05:24 [Obj][13000] LogOutCharacter (joker)
+00:05:38 [Obj][13000] LogInCharacter (joker)
+00:05:44 [Obj][13000] LogOutCharacter (joker)
+00:06:19 [Obj][13000] LogInCharacter (joker)
+00:06:26 [joker][joker] Guild Request - Leave : ALIANCA
+00:06:39 [Obj][13000] LogOutCharacter (joker)
+00:06:45 [Obj][13000] LogInCharacter (joker)
+00:06:51 [Obj][13000] LogOutCharacter (joker)
+00:07:08 [Obj][13000] LogInCharacter (joker)
+00:07:56 [Obj][13000] LogOutCharacter (joker)
+00:08:12 [Obj][13000] LogInCharacter (Joker12)
+00:08:32 [Obj][13000] LogOutCharacter (Joker12)
+00:08:36 [Obj][13000] LogInCharacter (joker)
+00:09:15 [Obj][13003] LogOutCharacter (100Desculp)
+00:09:19 [Obj][13003] LogInCharacter (100Desculp)
+00:10:15 [Obj][13002] AddClient (177.200.34.53)
+00:10:17 [Obj][13002] AddAccount (hellder)
+00:10:19 [Obj][13002] LogInCharacter (Saffe3)
+00:11:00 [Obj][13002] LogOutCharacter (Saffe3)
+00:11:02 [Obj][13002] LogInCharacter (Saffe)
+00:13:55 [Obj][13000] LogOutCharacter (joker)
+00:13:58 [Obj][13000] LogInCharacter (joker)
+00:21:41 [ServerInfo] Character loaded successfully
+00:21:54 [hellderrr][100Desculp] Kill [joker][joker]
+00:22:44 [hellderrr][100Desculp] Kill [joker][joker]
+00:24:15 [hellderrr][100Desculp] Kill [joker][joker]
+00:25:13 [hellderrr][100Desculp] Kill [joker][joker]
+00:26:48 [hellderrr][100Desculp] Kill [joker][joker]
+00:28:30 [hellderrr][100Desculp] Kill [joker][joker]
+00:29:53 [hellderrr][100Desculp] Kill [joker][joker]
+00:30:07 [hellderrr][100Desculp] Kill [joker][joker]
+00:36:47 [ServerInfo] Item loaded successfully
+00:37:12 [hellderrr][100Desculp] Kill [joker][joker]
+00:37:28 [hellderrr][100Desculp] Kill [joker][joker]
+00:37:44 [ServerInfo] Item loaded successfully
+00:37:49 [hellderrr][100Desculp] Kill [joker][joker]
+00:38:33 [ServerInfo] Item loaded successfully
+00:39:12 [ServerInfo] Item loaded successfully
+00:39:12 [joker][joker] Kill [hellderrr][100Desculp]
+00:40:21 [ServerInfo] Item loaded successfully
+00:41:03 [ServerInfo] Item loaded successfully
+00:42:25 [ServerInfo] Item loaded successfully
+00:42:42 [hellderrr][100Desculp] Kill [joker][joker]
+00:44:28 [ServerInfo] Item loaded successfully
+00:45:43 [ServerInfo] CashShop loaded successfully
+00:45:43 [ServerInfo] ChaosMix loaded successfully
+00:45:43 [ServerInfo] Character loaded successfully
+00:45:43 [ServerInfo] Command loaded successfully
+00:45:43 [ServerInfo] Common loaded successfully
+00:45:43 [FakeOnline] Loaded successfully
+00:45:43 [ServerInfo] Custom loaded successfully
+00:45:43 [ServerInfo] Discord loaded successfully
+00:45:43 [ServerInfo] Effect loaded successfully
+00:45:43 [ServerInfo] Event loaded successfully
+00:45:43 [ServerInfo] EventItemBag loaded successfully
+00:45:43 [ServerInfo] Hack loaded successfully
+00:45:43 [ServerInfo] Message loaded successfully
+00:45:43 [ServerInfo] Map loaded successfully
+00:45:43 [ServerInfo] Message loaded successfully
+00:45:43 [ServerInfo] Monster loaded successfully
+00:45:43 [ServerInfo] Move loaded successfully
+00:45:43 [ServerInfo] Quest loaded successfully
+00:45:43 [ServerInfo] Shop loaded successfully
+00:45:43 [ServerInfo] Skill loaded successfully
+00:45:43 [ServerInfo] Util loaded successfully
+00:45:43 [ReadBotInfo] BotSystem loaded successfully
+00:46:40 [FAKE ONLINE LOG] Start
+00:46:40 [ServerInfo] CashShop loaded successfully
+00:46:40 [ServerInfo] ChaosMix loaded successfully
+00:46:40 [ServerInfo] Character loaded successfully
+00:46:40 [FakeOnline] Loaded successfully
+00:46:40 [ServerInfo] Custom loaded successfully
+00:46:40 [ServerInfo] Command loaded successfully
+00:46:40 [ServerInfo] Common loaded successfully
+00:46:40 [ServerInfo] Discord loaded successfully
+00:46:40 [ServerInfo] Effect loaded successfully
+00:46:40 [ServerInfo] Event loaded successfully
+00:46:41 [ServerInfo] EventItemBag loaded successfully
+00:46:41 [ServerInfo] Hack loaded successfully
+00:46:41 [ServerInfo] Item loaded successfully
+00:46:41 [ServerInfo] Message loaded successfully
+00:46:41 [ServerInfo] Map loaded successfully
+00:46:41 [ServerInfo] Terrain loaded successfully
+00:46:41 [ServerInfo] Monster loaded successfully
+00:46:41 [ServerInfo] Move loaded successfully
+00:46:41 [ServerInfo] Quest loaded successfully
+00:46:41 [ServerInfo] Shop loaded successfully
+00:46:41 [ServerInfo] Skill loaded successfully
+00:46:41 [ServerInfo] Util loaded successfully
+00:46:41 [ReadBotInfo] BotSystem loaded successfully
+00:46:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+00:46:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+00:46:42 [ServerInfo] Custom Attack offline restored successfully
+00:46:42 [ServerInfo] Custom Store offline restored successfully
+00:46:42 [Discord] Connection successfully
+00:47:00 [Obj][13000] AddClient (177.200.34.53)
+00:47:00 [AntiFlood] SYN FLOOD attack(177.200.34.53)
+00:47:00 [Obj][13001] AddClient (213.156.149.167)
+00:47:10 [Obj][13001] AddAccount (joker)
+00:47:10 [Obj][13000] AddAccount (hellder)
+00:47:11 [Obj][13001] LogInCharacter (joker)
+00:47:11 [Obj][13000] LogInCharacter (Saffe)
+00:47:31 [Obj][13002] AddClient (177.200.34.53)
+00:47:32 [hellder][Saffe] Kill [joker][joker]
+00:47:41 [Obj][13002] AddAccount (hellderrr)
+00:47:41 [Obj][13002] LogInCharacter (100Desculp)
+00:47:43 [hellder][Saffe] Kill [hellderrr][100Desculp]
+00:48:00 [Obj][13003] AddClient (45.238.1.36)
+00:48:00 [Obj][13003] DelClient (45.238.1.36)
+00:48:01 [AntiFlood] SYN FLOOD attack(45.238.1.36)
+00:48:01 [AntiFlood] SYN FLOOD attack(45.238.1.36)
+00:49:04 [Obj][13000] LogOutCharacter (Saffe)
+00:49:04 [Obj][13000] DelAccount (hellder)
+00:49:04 [Obj][13000] DelClient (177.200.34.53)
+00:49:15 [joker][joker] Kill [hellderrr][100Desculp]
+00:49:54 [joker][joker] Kill [hellderrr][100Desculp]
+00:50:45 [ServerInfo] Item loaded successfully
+00:51:16 [joker][joker] Kill [hellderrr][100Desculp]
+00:53:40 [joker][joker] Kill [hellderrr][100Desculp]
+00:53:59 [ServerInfo] Item loaded successfully
+00:54:28 [joker][joker] Kill [hellderrr][100Desculp]
+00:55:20 [joker][joker] Kill [hellderrr][100Desculp]
+01:00:43 [ServerInfo] Item loaded successfully
+01:02:19 [joker][joker] Kill [hellderrr][100Desculp]
+01:02:32 [joker][joker] Kill [hellderrr][100Desculp]
+01:03:34 [hellderrr][100Desculp] Kill [joker][joker]
+01:03:58 [hellderrr][100Desculp] Kill [joker][joker]
+01:04:35 [hellderrr][100Desculp] Kill [joker][joker]
+01:05:43 [hellderrr][100Desculp] Kill [joker][joker]
+01:05:55 [joker][joker] Kill [hellderrr][100Desculp]
+01:06:09 [joker][joker] Kill [hellderrr][100Desculp]
+01:12:17 [Obj][13001] LogOutCharacter (joker)
+01:12:17 [Obj][13001] DelAccount (joker)
+01:12:17 [Obj][13001] DelClient (213.156.149.167)
+01:12:17 [Obj][13003] AddClient (45.238.1.36)
+01:12:17 [Obj][13003] DelClient (45.238.1.36)
+01:12:17 [Obj][13000] AddClient (45.238.1.36)
+01:12:17 [Obj][13000] DelClient (45.238.1.36)
+01:12:17 [AntiFlood] SYN FLOOD attack(45.238.1.36)
+01:12:40 [Obj][13002] LogOutCharacter (100Desculp)
+01:12:40 [Obj][13002] DelAccount (hellderrr)
+01:12:40 [Obj][13002] DelClient (177.200.34.53)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+06:40:03 [Obj][13001] AddClient (167.94.138.207)
+06:40:06 [Obj][13001] DelClient (167.94.138.207)
+06:40:10 [Obj][13003] AddClient (167.94.138.207)
+06:40:21 [Obj][13003] DelClient (167.94.138.207)
+10:00:36 [Obj][13000] AddClient (177.200.34.53)
+10:00:40 [Obj][13000] AddAccount (hellderr)
+10:00:51 [Obj][13000] LogInCharacter (Louco)
+10:01:28 [Obj][13000] LogOutCharacter (Louco)
+10:01:28 [Obj][13000] DelAccount (hellderr)
+10:01:28 [Obj][13000] DelClient (177.200.34.53)
+10:08:29 [Obj][13002] AddClient (177.200.34.53)
+10:08:32 [Obj][13002] AddAccount (hellderr)
+10:09:02 [Obj][13002] LogInCharacter (Louco)
+10:10:03 [Obj][13002] LogOutCharacter (Louco)
+10:10:03 [Obj][13002] DelAccount (hellderr)
+10:10:03 [Obj][13002] DelClient (177.200.34.53)
+10:17:31 [Obj][13001] AddClient (170.0.222.186)
+10:17:32 [Obj][13001] DelClient (170.0.222.186)
+10:51:01 [Obj][13003] AddClient (177.200.34.53)
+10:51:02 [Obj][13003] AddAccount (helllder)
+10:51:05 [Obj][13003] LogInCharacter (Horas)
+10:51:19 [Obj][13000] AddClient (177.200.34.53)
+10:51:23 [Obj][13000] AddAccount (hellder)
+10:51:29 [Obj][13000] LogInCharacter (Saffe)
+10:51:38 [Obj][13002] AddClient (177.200.34.53)
+10:51:52 [Obj][13002] AddAccount (hellderr)
+10:51:54 [Obj][13002] LogInCharacter (Louco)
+10:53:18 [hellderr][Louco] Kill [helllder][Horas]
+10:53:47 [Obj][13001] AddClient (177.200.34.53)
+10:54:04 [Obj][13003] LogOutCharacter (Horas)
+10:54:04 [Obj][13003] DelAccount (helllder)
+10:54:04 [Obj][13003] DelClient (177.200.34.53)
+10:54:05 [Obj][13001] AddAccount (helllder)
+10:54:08 [Obj][13001] LogInCharacter (Horas)
+10:54:49 [Obj][13003] AddClient (177.200.34.53)
+10:54:54 [Obj][13003] AddAccount (hellderrrr)
+10:54:56 [Obj][13003] LogInCharacter (Elysium)
+10:55:04 [hellder][Saffe] Kill [hellderr][Louco]
+10:55:28 [hellderr][Louco] Kill [hellderrrr][Elysium]
+10:55:51 [Obj][13004] AddClient (38.56.81.187)
+10:55:53 [Obj][13004] AddAccount (netocdj3)
+10:55:58 [Obj][13004] LogInCharacter (Italianao)
+10:57:49 [ServerInfo] Util loaded successfully
+11:02:09 [ServerInfo] Skill loaded successfully
+11:02:50 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:03:00 [ServerInfo] Character loaded successfully
+11:03:04 [ServerInfo] Skill loaded successfully
+11:03:06 [ServerInfo] CashShop loaded successfully
+11:03:06 [ServerInfo] ChaosMix loaded successfully
+11:03:07 [ServerInfo] Character loaded successfully
+11:03:07 [ServerInfo] Command loaded successfully
+11:03:07 [ServerInfo] Common loaded successfully
+11:03:07 [FakeOnline] Loaded successfully
+11:03:07 [ServerInfo] Custom loaded successfully
+11:03:07 [ServerInfo] Discord loaded successfully
+11:03:07 [ServerInfo] Effect loaded successfully
+11:03:07 [ServerInfo] Event loaded successfully
+11:03:07 [ServerInfo] EventItemBag loaded successfully
+11:03:07 [ServerInfo] Hack loaded successfully
+11:03:07 [ServerInfo] Message loaded successfully
+11:03:07 [ServerInfo] Map loaded successfully
+11:03:07 [ServerInfo] Message loaded successfully
+11:03:07 [ServerInfo] Monster loaded successfully
+11:03:07 [ServerInfo] Move loaded successfully
+11:03:07 [ServerInfo] Quest loaded successfully
+11:03:07 [ServerInfo] Shop loaded successfully
+11:03:07 [ServerInfo] Skill loaded successfully
+11:03:07 [ServerInfo] Util loaded successfully
+11:03:07 [ReadBotInfo] BotSystem loaded successfully
+11:03:56 [netocdj3][Italianao] Kill [hellderr][Louco]
+11:04:20 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:04:58 [netocdj3][Italianao] Kill [hellderr][Louco]
+11:07:38 [ServerInfo] Character loaded successfully
+11:10:45 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:10:58 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:12:11 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:13:30 [hellder][Saffe] Kill [hellderr][Louco]
+11:13:32 [hellder][Saffe] Kill [netocdj3][Italianao]
+11:13:57 [netocdj3][Italianao] Kill [hellderr][Louco]
+11:14:15 [netocdj3][Italianao] Kill [hellderr][Louco]
+11:14:38 [hellder][Saffe] Kill [netocdj3][Italianao]
+11:16:13 [BotBuffer] CharName: Italianao -ADD_GREATER_DEFENSE Time: 720
+11:16:13 [BotBuffer] CharName: Italianao - ADD_GREATER_DAMAGE Time: 720
+11:16:36 [hellderr][Louco] Kill [netocdj3][Italianao]
+11:16:48 [BotBuffer] CharName: Louco -ADD_GREATER_DEFENSE Time: 720
+11:16:48 [BotBuffer] CharName: Louco - ADD_GREATER_DAMAGE Time: 720
+11:16:48 [BotBuffer] CharName: Italianao -ADD_GREATER_DEFENSE Time: 720
+11:16:48 [BotBuffer] CharName: Italianao - ADD_GREATER_DAMAGE Time: 720
+11:16:50 [BotBuffer] CharName: Italianao - ADD_SKILL_MANA Time: 720
+11:16:50 [BotBuffer] CharName: Italianao -ADD_MAGIC_CIRCLE Time: 720
+11:16:51 [BotBuffer] CharName: Italianao - ADD_GREATER_LIFE Time: 720
+11:16:52 [BotBuffer] CharName: Louco - ADD_SKILL_MANA Time: 720
+11:16:52 [BotBuffer] CharName: Louco -ADD_MAGIC_CIRCLE Time: 720
+11:16:58 [BotBuffer] CharName: Italianao - ADD_DAMAGE_REFLECT Time: 720
+11:17:01 [BotBuffer] CharName: Italianao - ADD_DAMAGE_REFLECT Time: 720
+11:17:01 [BotBuffer] CharName: Louco - ADD_GREATER_LIFE Time: 720
+11:17:03 [BotBuffer] CharName: Italianao - ADD_DAMAGE_REFLECT Time: 720
+11:17:05 [BotBuffer] CharName: Italianao - ADD_CRITICAL_DAMAGE Time: 720
+11:17:06 [BotBuffer] CharName: Louco - ADD_IGNORE_DEFENSE_RATE Time: 720
+11:17:06 [BotBuffer] CharName: Louco - ADD_FITNESS Time: 720
+11:17:07 [BotBuffer] CharName: Italianao - ADD_IGNORE_DEFENSE_RATE Time: 720
+11:17:07 [BotBuffer] CharName: Italianao - ADD_FITNESS Time: 720
+11:17:09 [BotBuffer] CharName: Louco - ADD_CRITICAL_DAMAGE Time: 720
+11:17:13 [BotBuffer] CharName: Louco - ADD_DAMAGE_REFLECT Time: 720
+11:18:32 [Obj][13002] LogOutCharacter (Louco)
+11:18:32 [Obj][13002] DelAccount (hellderr)
+11:18:32 [Obj][13002] DelClient (177.200.34.53)
+11:18:34 [Obj][13003] LogOutCharacter (Elysium)
+11:18:34 [Obj][13003] DelAccount (hellderrrr)
+11:18:34 [Obj][13003] DelClient (177.200.34.53)
+11:18:34 [Obj][13001] LogOutCharacter (Horas)
+11:18:34 [Obj][13001] DelAccount (helllder)
+11:18:34 [Obj][13001] DelClient (177.200.34.53)
+11:18:35 [Obj][13000] LogOutCharacter (Saffe)
+11:18:35 [Obj][13000] DelAccount (hellder)
+11:18:35 [Obj][13000] DelClient (177.200.34.53)
+11:37:39 [Obj][13002] AddClient (177.200.34.53)
+11:37:46 [Obj][13002] AddAccount (hellderr)
+11:37:49 [Obj][13002] LogInCharacter (Louco)
+11:55:29 [Obj][13004] LogOutCharacter (Italianao)
+11:55:29 [Obj][13004] DelAccount (netocdj3)
+11:55:29 [Obj][13004] DelClient (38.56.81.187)
+13:59:18 [Obj][13003] AddClient (187.74.85.240)
+13:59:23 [Obj][13003] DelClient (187.74.85.240)
+14:38:36 [Obj][13002] LogOutCharacter (Louco)
+14:38:36 [Obj][13002] DelAccount (hellderr)
+14:38:36 [Obj][13002] DelClient (177.200.34.53)
+15:00:15 [ServerInfo] Character loaded successfully
+18:38:11 [Obj][13001] AddClient (189.84.176.111)
+18:38:12 [Obj][13001] DelClient (189.84.176.111)
+22:00:47 [Obj][13000] AddClient (45.170.152.64)
+22:00:48 [Obj][13000] DelClient (45.170.152.64)

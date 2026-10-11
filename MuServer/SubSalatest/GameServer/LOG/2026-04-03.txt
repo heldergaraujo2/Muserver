@@ -1,0 +1,370 @@
+00:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+11:42:22 [Obj][13000] AddClient (177.200.35.217)
+11:42:29 [Obj][13000] AddAccount (jaqueline)
+11:42:36 [Obj][13000] LogInCharacter (FacaNoBuxO)
+11:43:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 121 | Count: 4
+11:43:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 121 | Count: 4
+11:43:52 [Obj][13001] AddClient (177.200.35.217)
+11:44:05 [Obj][13001] AddAccount (hellderr)
+11:44:07 [Obj][13001] LogInCharacter (Louco)
+11:46:59 [Obj][13002] AddClient (177.200.35.217)
+11:47:02 [Obj][13002] AddAccount (hellder)
+11:47:04 [Obj][13002] LogInCharacter (Saffe)
+11:48:44 [FAKE ONLINE LOG] Start
+11:48:44 [ServerInfo] CashShop loaded successfully
+11:48:44 [ServerInfo] ChaosMix loaded successfully
+11:48:44 [ServerInfo] Character loaded successfully
+11:48:44 [FakeOnline] Loaded successfully
+11:48:44 [ServerInfo] Custom loaded successfully
+11:48:44 [ServerInfo] Command loaded successfully
+11:48:44 [ServerInfo] Common loaded successfully
+11:48:44 [ServerInfo] Discord loaded successfully
+11:48:44 [ServerInfo] Effect loaded successfully
+11:48:44 [ServerInfo] Event loaded successfully
+11:48:44 [ServerInfo] EventItemBag loaded successfully
+11:48:44 [ServerInfo] Hack loaded successfully
+11:48:44 [ServerInfo] Item loaded successfully
+11:48:44 [ServerInfo] Message loaded successfully
+11:48:44 [ServerInfo] Map loaded successfully
+11:48:44 [ServerInfo] Terrain loaded successfully
+11:48:44 [ServerInfo] Monster loaded successfully
+11:48:44 [ServerInfo] Move loaded successfully
+11:48:44 [ServerInfo] Quest loaded successfully
+11:48:44 [ServerInfo] Shop loaded successfully
+11:48:44 [ServerInfo] Skill loaded successfully
+11:48:44 [ServerInfo] Util loaded successfully
+11:48:44 [ReadBotInfo] BotSystem loaded successfully
+11:48:44 [ServerInfo] Custom Attack offline restored successfully
+11:48:44 [ServerInfo] Custom Store offline restored successfully
+11:48:44 [Discord] Connection successfully
+11:48:45 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+11:48:59 [Obj][13000] AddClient (177.200.35.217)
+11:48:59 [AntiFlood] SYN FLOOD attack(177.200.35.217)
+11:48:59 [AntiFlood] SYN FLOOD attack(177.200.35.217)
+11:49:09 [Obj][13000] AddAccount (hellder)
+11:49:09 [Obj][13000] LogInCharacter (Saffe)
+11:49:29 [Obj][13001] AddClient (177.200.35.217)
+11:49:29 [Obj][13002] AddClient (177.200.35.217)
+11:49:39 [Obj][13002] AddAccount (hellderr)
+11:49:39 [Obj][13001] AddAccount (jaqueline)
+11:49:39 [Obj][13002] LogInCharacter (Louco)
+11:49:39 [Obj][13001] LogInCharacter (FacaNoBuxO)
+11:53:02 [Obj][13003] AddClient (177.200.35.217)
+11:53:05 [Obj][13003] AddAccount (hellderrr)
+11:53:16 [Obj][13003] DelAccount (hellderrr)
+11:53:16 [Obj][13003] DelClient (177.200.35.217)
+11:53:18 [Obj][13004] AddClient (177.200.35.217)
+11:53:49 [Obj][13004] DelClient (177.200.35.217)
+11:53:49 Response error after connection causes conclusion [13004][][][177.200.35.217]
+11:54:14 [Obj][13003] AddClient (177.200.35.217)
+11:54:18 [Obj][13000] LogOutCharacter (Saffe)
+11:54:18 [Obj][13000] DelAccount (hellder)
+11:54:18 [Obj][13000] DelClient (177.200.35.217)
+11:54:21 [Obj][13003] AddAccount (hellder)
+11:54:25 [Obj][13003] LogInCharacter (Saffe)
+11:54:54 [Obj][13004] AddClient (177.200.35.217)
+11:54:55 [Obj][13003] LogOutCharacter (Saffe)
+11:54:55 [Obj][13003] DelAccount (hellder)
+11:54:55 [Obj][13003] DelClient (177.200.35.217)
+11:54:58 [Obj][13004] AddAccount (hellder)
+11:55:01 [Obj][13004] LogInCharacter (Saffe)
+11:55:21 [Obj][13000] AddClient (177.200.35.217)
+11:55:27 [Obj][13000] AddAccount (hellderrrr)
+11:55:37 [Obj][13000] LogInCharacter (Elysium)
+11:59:23 [Obj][13003] AddClient (177.200.35.217)
+11:59:26 [Obj][13003] AddAccount (thecrims)
+11:59:28 [Obj][13003] LogInCharacter (Invocadora)
+12:02:16 [Obj][13005] AddClient (38.56.81.180)
+12:02:17 [Obj][13005] AddAccount (netocdj1)
+12:02:20 [Obj][13005] LogInCharacter (Cenoura)
+12:02:37 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:02:41 [hellderrrr][Elysium] Kill [netocdj1][Cenoura]
+12:03:44 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:04:01 [hellderrrr][Elysium] Kill [netocdj1][Cenoura]
+12:04:22 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:04:37 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:04:48 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:05:03 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:05:19 [hellderrrr][Elysium] Kill [netocdj1][Cenoura]
+12:05:32 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+12:07:02 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:07:23 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:07:38 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:07:55 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:08:13 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:08:28 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:09:21 [ServerInfo] Character loaded successfully
+12:09:42 [ServerInfo] Character loaded successfully
+12:09:52 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:10:49 [ServerInfo] Character loaded successfully
+12:11:01 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:11:01 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+12:11:15 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:11:28 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:11:43 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:11:54 [ServerInfo] Character loaded successfully
+12:11:58 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:12:19 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:12:42 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:13:03 [ServerInfo] Character loaded successfully
+12:13:16 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:13:34 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+12:13:57 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+12:13:59 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+12:14:02 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+12:19:11 [Obj][13004] LogOutCharacter (Saffe)
+12:19:11 [Obj][13004] DelAccount (hellder)
+12:19:11 [Obj][13004] DelClient (177.200.35.217)
+12:33:39 [Obj][13004] AddClient (177.200.35.217)
+12:33:41 [Obj][13004] AddAccount (hellder)
+12:33:43 [Obj][13004] LogInCharacter (Saffe)
+12:34:14 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:35:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:35:18 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:35:35 [ServerInfo] Character loaded successfully
+12:35:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:35:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:35:50 [ServerInfo] Character loaded successfully
+12:35:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:35:53 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:35:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:36:03 [ServerInfo] Character loaded successfully
+12:36:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+12:36:06 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:36:06 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:36:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:36:17 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:36:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:36:35 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:36:35 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:36:50 [ServerInfo] Character loaded successfully
+12:36:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:36:56 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:36:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:37:06 [ServerInfo] Character loaded successfully
+12:37:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+12:37:12 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:37:26 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:37:50 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:38:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:38:04 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:38:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:38:23 [ServerInfo] Character loaded successfully
+12:38:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+12:38:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:38:32 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:38:32 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:38:54 [ServerInfo] Character loaded successfully
+12:38:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+12:38:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:38:57 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:38:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:39:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:39:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:39:35 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:39:35 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:39:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:39:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:39:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:40:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:40:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:40:03 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:40:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:40:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:40:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+12:40:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:40:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:40:19 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:40:19 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:41:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:41:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:41:33 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:41:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:41:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+12:41:51 [jaqueline][FacaNoBuxO] Kill [thecrims][Invocadora]
+12:41:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+12:42:05 [thecrims][Invocadora] Kill [jaqueline][FacaNoBuxO]
+12:50:44 [ServerInfo] Character loaded successfully
+12:50:53 [ServerInfo] Common loaded successfully
+13:07:34 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:07:54 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:08:03 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:08:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 2
+13:08:14 [jaqueline][FacaNoBuxO] Kill [hellderr][Louco]
+13:08:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:08:44 [ServerInfo] Character loaded successfully
+13:08:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+13:08:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:08:56 [jaqueline][FacaNoBuxO] Kill [hellderr][Louco]
+13:16:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+13:16:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:16:18 [jaqueline][FacaNoBuxO] Kill [hellderr][Louco]
+13:16:37 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:16:52 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:17:13 [ServerInfo] Character loaded successfully
+13:17:23 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:17:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 3
+13:17:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+13:17:36 [jaqueline][FacaNoBuxO] Kill [hellderr][Louco]
+13:17:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:17:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 1
+13:17:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:17:48 [jaqueline][FacaNoBuxO] Kill [hellderr][Louco]
+13:17:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 181 | Count: 4
+13:18:08 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:18:22 [ServerInfo] Character loaded successfully
+13:18:51 [hellderrrr][Elysium] Kill [hellderr][Louco]
+13:19:06 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:19:18 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:19:29 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:19:30 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+13:19:40 [ServerInfo] Character loaded successfully
+13:19:45 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:19:56 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:20:10 [hellderr][Louco] Kill [hellderrrr][Elysium]
+13:20:18 [hellderrrr][Elysium] Kill [hellderr][Louco]
+13:20:31 [hellderrrr][Elysium] Kill [hellderr][Louco]
+13:20:46 [ServerInfo] Character loaded successfully
+13:20:54 [hellderrrr][Elysium] Kill [hellderr][Louco]
+13:21:06 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+13:21:14 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+13:21:25 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+13:21:45 [netocdj1][Cenoura] Kill [hellderrrr][Elysium]
+13:21:54 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+13:22:06 Flood Packet: Index: 13005 Head: 0XF3 Sub: 0XFC
+13:22:22 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:22:43 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:23:23 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:23:36 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:25:54 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:26:10 [ServerInfo] Character loaded successfully
+13:26:21 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:26:37 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:26:58 [hellderr][Louco] Kill [jaqueline][FacaNoBuxO]
+13:27:25 [ServerInfo] Character loaded successfully
+13:27:35 [ServerInfo] Character loaded successfully
+13:28:02 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:28:19 [ServerInfo] Character loaded successfully
+13:28:22 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:28:32 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:28:48 [ServerInfo] Character loaded successfully
+13:29:00 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:29:10 [ServerInfo] Character loaded successfully
+13:29:20 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:29:29 [ServerInfo] Character loaded successfully
+13:29:48 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:30:25 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:31:20 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:35:27 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:36:32 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:36:59 [hellderr][Louco] Kill [netocdj1][Cenoura]
+13:37:13 [ServerInfo] Character loaded successfully
+13:37:49 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:38:25 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:38:43 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:39:01 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:39:13 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:39:27 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:39:37 [ServerInfo] Character loaded successfully
+13:39:48 [ServerInfo] Character loaded successfully
+13:39:57 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:40:09 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:40:24 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:40:51 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:41:01 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:41:59 [ServerInfo] Common loaded successfully
+13:42:13 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:42:38 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:43:32 [ServerInfo] Character loaded successfully
+13:43:41 [ServerInfo] Common loaded successfully
+13:43:54 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:44:56 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:45:14 [ServerInfo] Common loaded successfully
+13:45:54 [ServerInfo] Common loaded successfully
+13:46:03 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:46:22 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:46:44 [ServerInfo] Common loaded successfully
+13:46:44 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:47:04 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:47:18 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:47:29 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:47:44 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:47:56 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:48:47 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:49:17 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:49:27 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:49:45 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:50:15 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:50:35 [ServerInfo] Character loaded successfully
+13:50:42 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:50:58 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:51:18 [ServerInfo] Character loaded successfully
+13:51:32 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:51:45 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:52:02 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:52:10 [ServerInfo] Character loaded successfully
+13:52:22 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:52:38 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:52:50 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:53:32 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:54:33 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:54:56 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:54:56 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:55:23 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:55:36 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:55:53 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:56:22 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:56:45 [netocdj1][Cenoura] Kill [thecrims][Invocadora]
+13:57:05 [thecrims][Invocadora] Kill [netocdj1][Cenoura]
+13:57:21 [Obj][13003] LogOutCharacter (Invocadora)
+13:57:21 [Obj][13003] DelAccount (thecrims)
+13:57:21 [Obj][13003] DelClient (177.200.35.217)
+13:57:54 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:58:16 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:59:28 [netocdj1][Cenoura] Kill [hellderr][Louco]
+13:59:46 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:00:07 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:01:01 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:01:22 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:01:37 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:02:26 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:02:40 [ServerInfo] Character loaded successfully
+14:02:56 [hellderr][Louco] Kill [netocdj1][Cenoura]
+14:03:08 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:03:31 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:03:48 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:04:06 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:04:28 [netocdj1][Cenoura] Kill [hellderr][Louco]
+14:05:04 [ServerInfo] Character loaded successfully
+14:08:47 [Obj][13001] LogOutCharacter (FacaNoBuxO)
+14:08:47 [Obj][13001] DelAccount (jaqueline)
+14:08:47 [Obj][13001] DelClient (177.200.35.217)
+14:12:34 [Obj][13002] LogOutCharacter (Louco)
+14:12:34 [Obj][13002] DelAccount (hellderr)
+14:12:34 [Obj][13002] DelClient (177.200.35.217)
+14:16:22 [Obj][13004] LogOutCharacter (Saffe)
+14:16:22 [Obj][13004] DelAccount (hellder)
+14:16:22 [Obj][13004] DelClient (177.200.35.217)
+14:19:56 [Obj][13005] LogOutCharacter (Cenoura)
+14:19:57 [Obj][13005] DelAccount (netocdj1)
+14:19:57 [Obj][13005] DelClient (38.56.81.180)
+15:13:06 [Obj][13003] AddClient (177.200.35.217)
+15:13:09 [Obj][13003] DelClient (177.200.35.217)
+15:13:45 [Obj][13001] AddClient (177.200.35.217)
+15:13:46 [Obj][13001] AddAccount (hellder)
+15:13:47 [Obj][13001] LogInCharacter (Saffe)
+15:14:13 [Obj][13001] LogOutCharacter (Saffe)
+15:14:14 [Obj][13001] DelAccount (hellder)
+15:14:14 [Obj][13001] DelClient (177.200.35.217)
+15:28:10 [ServerInfo] Character loaded successfully
+15:28:27 [ServerInfo] Character loaded successfully
+15:29:12 [ServerInfo] Character loaded successfully
+15:35:45 [Obj][13002] AddClient (45.181.112.109)
+15:36:01 [Obj][13002] DelClient (45.181.112.109)
+15:49:52 [ServerInfo] Character loaded successfully
+17:42:53 [Obj][13004] AddClient (201.159.185.24)
+17:42:57 [Obj][13004] DelClient (201.159.185.24)
+21:18:03 [Obj][13005] AddClient (45.170.89.79)
+21:18:04 [Obj][13005] DelClient (45.170.89.79)
+23:12:22 [Obj][13003] AddClient (201.148.244.77)
+23:12:24 [Obj][13003] DelClient (201.148.244.77)

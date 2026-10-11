@@ -1,0 +1,1480 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Group	  OptionType	OptionValue
+0         119           2000  // HP
+0         128           1     // Triple DMG
+0         89            5     // Damage Reduction
+
+1         119           3000  // HP
+1         128           2     // Triple DMG
+1         89            7     // Damage Reduction
+
+2         119           4000  // HP
+2         128           3     // Triple DMG
+2         89            9     // Damage Reduction
+
+3         119           5000  // HP
+3         128           4     // Triple DMG
+3         89            11    // Damage Reduction
+
+4         119           6000  // HP
+4         128           5     // Triple DMG
+4         89            13    // Damage Reduction
+
+5         119           7000  // HP
+5         128           6     // Triple DMG
+5         89            15    // Damage Reduction
+
+6         119           8000  // HP
+6         128           7     // Triple DMG
+6         89            17    // Damage Reduction
+
+7         119           9000  // HP
+7         128           8     // Triple DMG
+7         89            19    // Damage Reduction
+
+
+
+8         119           2000  // HP
+8         128           1     // Triple DMG
+8         89            5     // Damage Reduction
+
+9         119           3000  // HP
+9         128           2     // Triple DMG
+9         89            7     // Damage Reduction
+
+10        119           4000  // HP
+10        128           3     // Triple DMG
+10        89            9     // Damage Reduction
+
+11        119           5000  // HP
+11        128           4     // Triple DMG
+11        89            11    // Damage Reduction
+
+12        119           6000  // HP
+12        128           5     // Triple DMG
+12        89            13    // Damage Reduction
+
+13        119           7000  // HP
+13        128           6     // Triple DMG
+13        89            15    // Damage Reduction
+
+14        119           8000  // HP
+14        128           7     // Triple DMG
+14        89            17    // Damage Reduction
+
+15        119           9000  // HP
+15        128           8     // Triple DMG
+15        89            19    // Damage Reduction
+
+
+
+16        119           2000  // HP
+16        128           1     // Triple DMG
+16        89            5     // Damage Reduction
+
+17        119           3000  // HP
+17        128           2     // Triple DMG
+17        89            7     // Damage Reduction
+
+18        119           4000  // HP
+18        128           3     // Triple DMG
+18        89            9     // Damage Reduction
+
+19        119           5000  // HP
+19        128           4     // Triple DMG
+19        89            11    // Damage Reduction
+
+20        119           6000  // HP
+20        128           5     // Triple DMG
+20        89            13    // Damage Reduction
+
+21        119           7000  // HP
+21        128           6     // Triple DMG
+21        89            15    // Damage Reduction
+
+22        119           8000  // HP
+22        128           7     // Triple DMG
+22        89            17    // Damage Reduction
+
+23        119           9000  // HP
+23        128           8     // Triple DMG
+23        89            19    // Damage Reduction
+
+
+
+24        119           2000  // HP
+24        128           1     // Triple DMG
+24        89            5     // Damage Reduction
+
+25        119           3000  // HP
+25        128           2     // Triple DMG
+25        89            7     // Damage Reduction
+
+26        119           4000  // HP
+26        128           3     // Triple DMG
+26        89            9     // Damage Reduction
+
+27        119           5000  // HP
+27        128           4     // Triple DMG
+27        89            11    // Damage Reduction
+
+28        119           6000  // HP
+28        128           5     // Triple DMG
+28        89            13    // Damage Reduction
+
+29        119           7000  // HP
+29        128           6     // Triple DMG
+29        89            15    // Damage Reduction
+
+30        119           8000  // HP
+30        128           7     // Triple DMG
+30        89            17    // Damage Reduction
+
+31        119           9000  // HP
+31        128           8     // Triple DMG
+31        89            19    // Damage Reduction
+
+
+
+32        119           2000  // HP
+32        128           1     // Triple DMG
+32        89            5     // Damage Reduction
+
+33        119           3000  // HP
+33        128           2     // Triple DMG
+33        89            7     // Damage Reduction
+
+34        119           4000  // HP
+34        128           3     // Triple DMG
+34        89            9     // Damage Reduction
+
+35        119           5000  // HP
+35        128           4     // Triple DMG
+35        89            11    // Damage Reduction
+
+36        119           6000  // HP
+36        128           5     // Triple DMG
+36        89            13    // Damage Reduction
+
+37        119           7000  // HP
+37        128           6     // Triple DMG
+37        89            15    // Damage Reduction
+
+38        119           8000  // HP
+38        128           7     // Triple DMG
+38        89            17    // Damage Reduction
+
+39        119           9000  // HP
+39        128           8     // Triple DMG
+39        89            19    // Damage Reduction
+
+
+
+40        119           2000  // HP
+40        128           1     // Triple DMG
+40        89            5     // Damage Reduction
+
+41        119           3000  // HP
+41        128           2     // Triple DMG
+41        89            7     // Damage Reduction
+
+42        119           4000  // HP
+42        128           3     // Triple DMG
+42        89            9     // Damage Reduction
+
+43        119           5000  // HP
+43        128           4     // Triple DMG
+43        89            11    // Damage Reduction
+
+44        119           6000  // HP
+44        128           5     // Triple DMG
+44        89            13    // Damage Reduction
+
+45        119           7000  // HP
+15        128           6     // Triple DMG
+45        89            15    // Damage Reduction
+
+46        119           8000  // HP
+46        128           7     // Triple DMG
+46        89            17    // Damage Reduction
+
+47        119           9000  // HP
+47        128           8     // Triple DMG
+47        89            19    // Damage Reduction
+
+
+
+48        119           2000  // HP
+48        128           1     // Triple DMG
+48        89            5     // Damage Reduction
+
+49        119           3000  // HP
+49        128           2     // Triple DMG
+49        89            7     // Damage Reduction
+
+50        119           4000  // HP
+50        128           3     // Triple DMG
+50        89            9     // Damage Reduction
+
+51        119           5000  // HP
+51        128           4     // Triple DMG
+51        89            11    // Damage Reduction
+
+52        119           6000  // HP
+52        128           5     // Triple DMG
+52        89            13    // Damage Reduction
+
+53        119           7000  // HP
+53        128           6     // Triple DMG
+53        89            15    // Damage Reduction
+
+54        119           8000  // HP
+54        128           7     // Triple DMG
+54        89            17    // Damage Reduction
+
+55        119           9000  // HP
+55        128           8     // Triple DMG
+55        89            19    // Damage Reduction
+
+56        119           10000 // HP
+56        128           9     // Triple DMG
+56        89            20    // Damage Reduction
+
+
+57        119           10000 // HP
+57        128           9     // Triple DMG
+57        89            20    // Damage Reduction
+
+
+58        119           10000 // HP
+58        128           9     // Triple DMG
+58        89            20    // Damage Reduction
+
+
+59        119           10000 // HP
+59        128           9     // Triple DMG
+59        89            20    // Damage Reduction
+
+
+60        119           10000 // HP
+60        128           9     // Triple DMG
+60        89            20    // Damage Reduction
+
+
+
+61        119           10000 // HP
+61        128           9     // Triple DMG
+61        89            20    // Damage Reduction
+
+
+
+62        119           10000 // HP
+62        128           9     // Triple DMG
+62        89            20    // Damage Reduction
+
+
+
+
+
+63        119           11000 // HP
+63        128           10    // Triple DMG
+63        89            22    // Damage Reduction
+
+
+64        119           11000 // HP
+64        128           10    // Triple DMG
+64        89            22    // Damage Reduction
+
+
+65        119           11000 // HP
+65        128           10    // Triple DMG
+65        89            22    // Damage Reduction
+
+
+66        119           11000 // HP
+66        128           10    // Triple DMG
+66        89            22    // Damage Reduction
+
+
+67        119           11000 // HP
+67        128           10    // Triple DMG
+67        89            22    // Damage Reduction
+
+
+68        119           11000 // HP
+68        128           10    // Triple DMG
+68        89            22    // Damage Reduction
+
+
+69        119           11000 // HP
+69        128           10    // Triple DMG
+69        89            22    // Damage Reduction
+
+
+
+
+
+70        119           12000 // HP
+70        128           11    // Triple DMG
+70        89            24    // Damage Reduction
+
+
+71        119           12000 // HP
+71        128           11    // Triple DMG
+71        89            24    // Damage Reduction
+
+
+72        119           12000 // HP
+72        128           11    // Triple DMG
+72        89            24    // Damage Reduction
+
+
+73        119           12000 // HP
+73        128           11    // Triple DMG
+73        89            24    // Damage Reduction
+
+
+74        119           12000 // HP
+74        128           11    // Triple DMG
+74        89            24    // Damage Reduction
+
+
+75        119           12000 // HP
+75        128           11    // Triple DMG
+75        89            24    // Damage Reduction
+
+
+76        119           12000 // HP
+76        128           11    // Triple DMG
+76        89            24    // Damage Reduction
+
+
+
+
+
+
+
+
+
+100       125            10    // Damage
+100       102            1     // Ignore Defense
+101       125            13    // Damage
+101       102            2     // Ignore Defense
+102       125            16    // Damage
+102       102            3     // Ignore Defense
+103       125            19    // Damage
+103       102            4     // Ignore Defense
+104       125            22    // Damage
+104       102            5     // Ignore Defense
+105       125            25    // Damage
+105       102            6     // Ignore Defense
+106       125            28    // Damage
+106       102            7     // Ignore Defense
+107       125            31    // Damage
+107       102            8     // Ignore Defense
+
+108       125            10    // Damage
+108       102            1     // Ignore Defense
+109       125            13    // Damage
+109       102            2     // Ignore Defense
+110       125            16    // Damage
+110       102            3     // Ignore Defense
+111       125            19    // Damage
+111       102            4     // Ignore Defense
+112       125            22    // Damage
+112       102            5     // Ignore Defense
+113       125            25    // Damage
+113       102            6     // Ignore Defense
+114       125            28    // Damage
+114       102            7     // Ignore Defense
+115       125            31    // Damage
+115       102            8     // Ignore Defense
+
+116       125            10    // Damage
+116       102            1     // Ignore Defense
+117       125            13    // Damage
+117       102            2     // Ignore Defense
+118       125            16    // Damage
+118       102            3     // Ignore Defense
+119       125            19    // Damage
+119       102            4     // Ignore Defense
+120       125            22    // Damage
+120       102            5     // Ignore Defense
+121       125            25    // Damage
+121       102            6     // Ignore Defense
+122       125            28    // Damage
+122       102            7     // Ignore Defense
+123       125            31    // Damage
+123       102            8     // Ignore Defense
+
+124       125            10    // Damage
+124       102            1     // Ignore Defense
+125       125            13    // Damage
+125       102            2     // Ignore Defense
+126       125            16    // Damage
+126       102            3     // Ignore Defense
+127       125            19    // Damage
+127       102            4     // Ignore Defense
+128       125            22    // Damage
+128       102            5     // Ignore Defense
+129       125            25    // Damage
+129       102            6     // Ignore Defense
+130       125            28    // Damage
+130       102            7     // Ignore Defense
+131       125            31    // Damage
+131       102            8     // Ignore Defense
+
+132       125            10    // Damage
+132       102            1     // Ignore Defense
+133       125            13    // Damage
+133       102            2     // Ignore Defense
+134       125            16    // Damage
+134       102            3     // Ignore Defense
+135       125            19    // Damage
+135       102            4     // Ignore Defense
+136       125            22    // Damage
+136       102            5     // Ignore Defense
+137       125            25    // Damage
+137       102            6     // Ignore Defense
+138       125            28    // Damage
+138       102            7     // Ignore Defense
+139       125            31    // Damage
+139       102            8     // Ignore Defense
+
+140       125            10    // Damage
+140       102            1     // Ignore Defense
+141       125            13    // Damage
+141       102            2     // Ignore Defense
+142       125            16    // Damage
+142       102            3     // Ignore Defense
+143       125            19    // Damage
+143       102            4     // Ignore Defense
+144       125            22    // Damage
+144       102            5     // Ignore Defense
+145       125            25    // Damage
+145       102            6     // Ignore Defense
+146       125            28    // Damage
+146       102            7     // Ignore Defense
+147       125            31    // Damage
+147       102            8     // Ignore Defense
+
+148       125            10    // Damage
+148       102            1     // Ignore Defense
+149       125            13    // Damage
+149       102            2     // Ignore Defense
+150       125            16    // Damage
+150       102            3     // Ignore Defense
+151       125            19    // Damage
+151       102            4     // Ignore Defense
+152       125            22    // Damage
+152       102            5     // Ignore Defense
+153       125            25    // Damage
+153       102            6     // Ignore Defense
+154       125            28    // Damage
+154       102            7     // Ignore Defense
+155       125            31    // Damage
+155       102            8     // Ignore Defense
+
+156       125            10    // Damage
+156       102            1     // Ignore Defense
+157       125            13    // Damage
+157       102            2     // Ignore Defense
+158       125            16    // Damage
+158       102            3     // Ignore Defense
+159       125            19    // Damage
+159       102            4     // Ignore Defense
+160       125            22    // Damage
+160       102            5     // Ignore Defense
+161       125            25    // Damage
+161       102            6     // Ignore Defense
+162       125            28    // Damage
+162       102            7     // Ignore Defense
+163       125            31    // Damage
+163       102            8     // Ignore Defense
+
+164       125            34    // Damage
+164       102            9     // Ignore Defense
+165       125            34    // Damage
+165       102            9     // Ignore Defense
+166       125            34    // Damage
+166       102            9     // Ignore Defense
+167       125            34    // Damage
+167       102            9     // Ignore Defense
+168       125            34    // Damage
+168       102            9     // Ignore Defense
+169       125            34    // Damage
+169       102            9     // Ignore Defense
+170       125            34    // Damage
+170       102            9     // Ignore Defense
+171       125            34    // Damage
+171       102            9     // Ignore Defense
+
+
+
+172       125            37    // Damage
+172       102            10    // Ignore Defense
+173       125            37    // Damage
+173       102            10    // Ignore Defense
+174       125            37    // Damage
+174       102            10    // Ignore Defense
+175       125            37    // Damage
+175       102            10    // Ignore Defense
+176       125            37    // Damage
+176       102            10    // Ignore Defense
+177       125            37    // Damage
+177       102            10    // Ignore Defense
+178       125            37    // Damage
+178       102            10    // Ignore Defense
+179       125            37    // Damage
+179       102            10    // Ignore Defense
+
+
+
+180       125            40    // Damage
+180       102            11    // Ignore Defense
+181       125            40    // Damage
+181       102            11    // Ignore Defense
+182       125            40    // Damage
+182       102            11    // Ignore Defense
+183       125            40    // Damage
+183       102            11    // Ignore Defense
+184       125            40    // Damage
+184       102            11    // Ignore Defense
+185       125            40    // Damage
+185       102            11    // Ignore Defense
+186       125            40    // Damage
+186       102            11    // Ignore Defense
+187       125            40    // Damage
+187       102            11    // Ignore Defense
+
+
+
+
+
+300       109            1    // Full Damage Reflect
+300       127            5    // Defense
+
+301       109            2    // Full Damage Reflect
+301       127            7    // Defense
+
+302       109            3    // Full Damage Reflect
+302       127            9    // Defense
+
+303       109            4    // Full Damage Reflect
+303       127            11   // Defense
+
+304       109            5    // Full Damage Reflect
+304       127            13   // Defense
+
+305       109            6    // Full Damage Reflect
+305       127            15   // Defense
+
+306       109            7    // Full Damage Reflect
+306       127            17   // Defense
+
+307       109            8    // Full Damage Reflect
+307       127            19   // Defense
+
+308       109            9    // Full Damage Reflect
+308       127            21   // Defense
+
+309       109            10   // Full Damage Reflect
+309       127            23   // Defense
+
+310       109            11   // Full Damage Reflect
+310       127            25   // Defense
+
+
+
+
+400       125            10    // Damage
+401       125            20    // Damage
+402       125            30    // Damage
+403       102            5    // Damage
+404       102            5    // Damage
+
+
+
+500       102            2    // Ignore Enemy Defense
+500       155            2    // Ignore Enemy Elemental Defense
+
+501       102            3    // Ignore Enemy Defense
+501       155            3    // Ignore Enemy Elemental Defense
+
+502       102            4    // Ignore Enemy Defense
+502       155            4    // Ignore Enemy Elemental Defense
+
+503       102            5    // Ignore Enemy Defense
+503       155            5    // Ignore Enemy Elemental Defense
+503       125            5    // Ignore Enemy Elemental Defense
+
+504       102            6    // Ignore Enemy Defense
+504       155            6    // Ignore Enemy Elemental Defense
+504       125            6    // Ignore Enemy Elemental Defense
+
+505       102            7    // Ignore Enemy Defense
+505       155            7    // Ignore Enemy Elemental Defense
+505       125            7    // Ignore Enemy Elemental Defense
+
+506       102            8    // Ignore Enemy Defense
+506       155            8    // Ignore Enemy Elemental Defense
+506       125            8    // Ignore Enemy Elemental Defense
+
+507       97             267    // Ignore Enemy Elemental Defense
+
+
+
+//==================================================================================================================================
+//Set+Weapon
+//==================================================================================================================================
+
+700       84            5    // Critical
+700       92            5    // Excellent
+700       128           3    // Triple DMG
+700       125           4    // Damage
+
+701       84            5    // Critical
+701       92            5    // Excellent
+701       128           3    // Triple DMG
+701       125           4    // Damage
+
+702       84            5    // Critical
+702       92            5    // Excellent
+702       128           3    // Triple DMG
+702       125           4    // Damage
+
+703       84            5    // Critical
+703       92            5    // Excellent
+703       128           3    // Triple DMG
+703       125           4    // Damage
+
+704       84            5    // Critical
+704       92            5    // Excellent
+704       128           3    // Triple DMG
+704       125           4    // Damage
+
+705       84            5    // Critical
+705       92            5    // Excellent
+705       128           3    // Triple DMG
+705       125           4    // Damage
+
+706       84            5    // Critical
+706       92            5    // Excellent
+706       128           3    // Triple DMG
+706       125           4    // Damage
+
+707       84            5    // Critical
+707       92            5    // Excellent
+707       128           3    // Triple DMG
+707       125           4    // Damage
+
+
+708       84            5    // Critical
+708       92            5    // Excellent
+708       128           3    // Triple DMG
+708       125           4    // Damage
+
+
+
+
+
+end
+
+1
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+0         3682           3682            15             15             *             *             *             *             //Bloodangel
+0         4194           4194            15             15             *             *             *             *             //Bloodangel
+0         4706           4706            15             15             *             *             *             *             //Bloodangel
+0         5218           5218            15             15             *             *             *             *             //Bloodangel
+0         5730           5730            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+1         3722           3722            15             15             *             *             *             *             //Darkangel
+1         4234           4234            15             15             *             *             *             *             //Darkangel
+1         4746           4746            15             15             *             *             *             *             //Darkangel
+1         5258           5258            15             15             *             *             *             *             //Darkangel
+1         5770           5770            15             15             *             *             *             *             //Darkangel
+//==================================================================================================================================
+2         3729           3729            15             15             *             *             *             *             //Holyangel
+2         4241           4241            15             15             *             *             *             *             //Holyangel
+2         4753           4753            15             15             *             *             *             *             //Holyangel
+2         5265           5265            15             15             *             *             *             *             //Holyangel
+2         5777           5777            15             15             *             *             *             *             //Holyangel
+//==================================================================================================================================
+3         3736           3736            15             15             *             *             *             *             //Awakening
+3         4248           4248            15             15             *             *             *             *             //Awakening
+3         4760           4760            15             15             *             *             *             *             //Awakening
+3         5272           5272            15             15             *             *             *             *             //Awakening
+3         5784           5784            15             15             *             *             *             *             //Awakening
+//==================================================================================================================================
+4         3743           3743            15             15             *             *             *             *             //BlueEye
+4         4255           4255            15             15             *             *             *             *             //BlueEye
+4         4767           4767            15             15             *             *             *             *             //BlueEye
+4         5279           5279            15             15             *             *             *             *             //BlueEye
+4         5791           5791            15             15             *             *             *             *             //BlueEye
+//==================================================================================================================================
+5         3752           3752            15             15             *             *             *             *             //Silver
+5         4264           4264            15             15             *             *             *             *             //Silver
+5         4776           4776            15             15             *             *             *             *             //Silver
+5         5288           5288            15             15             *             *             *             *             //Silver
+5         5800           5800            15             15             *             *             *             *             //Silver
+//==================================================================================================================================
+6         3759           3759            15             15             *             *             *             *             //Manticore
+6         4271           4271            15             15             *             *             *             *             //Manticore
+6         4783           4783            15             15             *             *             *             *             //Manticore
+6         5295           5295            15             15             *             *             *             *             //Manticore
+6         5807           5807            15             15             *             *             *             *             //Manticore
+//==================================================================================================================================
+7         3774           3774            15             15             *             *             *             *             //Brilliant
+7         4286           4286            15             15             *             *             *             *             //Brilliant
+7         4798           4798            15             15             *             *             *             *             //Brilliant
+7         5310           5310            15             15             *             *             *             *             //Brilliant
+7         5822           5822            15             15             *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+8         3683           3683            15             15             *             *             *             *             //Bloodangel
+8         4195           4195            15             15             *             *             *             *             //Bloodangel
+8         4707           4707            15             15             *             *             *             *             //Bloodangel
+8         5219           5219            15             15             *             *             *             *             //Bloodangel
+8         5731           5731            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+9         3723           3723            *              *              *             *             *             *             //Darkangel
+9         4235           4235            *              *              *             *             *             *             //Darkangel
+9         4747           4747            *              *              *             *             *             *             //Darkangel
+9         5259           5259            *              *              *             *             *             *             //Darkangel
+9         5771           5771            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+10        3730           3730            *              *              *             *             *             *             //Holyangel
+10        4242           4242            *              *              *             *             *             *             //Holyangel
+10        4754           4754            *              *              *             *             *             *             //Holyangel
+10        5266           5266            *              *              *             *             *             *             //Holyangel
+10        5778           5778            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+11        3737           3737            *              *              *             *             *             *             //Awakening
+11        4249           4249            *              *              *             *             *             *             //Awakening
+11        4761           4761            *              *              *             *             *             *             //Awakening
+11        5273           5273            *              *              *             *             *             *             //Awakening
+11        5785           5785            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+12        3744           3744            *              *              *             *             *             *             //BlueEye
+12        4256           4256            *              *              *             *             *             *             //BlueEye
+12        4768           4768            *              *              *             *             *             *             //BlueEye
+12        5280           5280            *              *              *             *             *             *             //BlueEye
+12        5792           5792            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+13        3753           3753            *              *              *             *             *             *             //Silver
+13        4265           4265            *              *              *             *             *             *             //Silver
+13        4777           4777            *              *              *             *             *             *             //Silver
+13        5289           5289            *              *              *             *             *             *             //Silver
+13        5801           5801            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+14        3760           3760            *              *              *             *             *             *             //Manticore
+14        4272           4272            *              *              *             *             *             *             //Manticore
+14        4784           4784            *              *              *             *             *             *             //Manticore
+14        5296           5296            *              *              *             *             *             *             //Manticore
+14        5808           5808            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+15        3775           3775            *              *              *             *             *             *             //Brilliant
+15        4287           4287            *              *              *             *             *             *             //Brilliant
+15        4799           4799            *              *              *             *             *             *             //Brilliant
+15        5311           5311            *              *              *             *             *             *             //Brilliant
+15        5823           5823            *              *              *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+16        3684           3684            15             15             *             *             *             *             //Bloodangel
+16        4196           4196            15             15             *             *             *             *             //Bloodangel
+16        4708           4708            15             15             *             *             *             *             //Bloodangel
+16        5220           5220            15             15             *             *             *             *             //Bloodangel
+16        5732           5732            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+17        3724           3724            *              *              *             *             *             *             //Darkangel
+17        4236           4236            *              *              *             *             *             *             //Darkangel
+17        4748           4748            *              *              *             *             *             *             //Darkangel
+17        5260           5260            *              *              *             *             *             *             //Darkangel
+17        5772           5772            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+18        3731           3731            *              *              *             *             *             *             //Holyangel
+18        4243           4243            *              *              *             *             *             *             //Holyangel
+18        4755           4755            *              *              *             *             *             *             //Holyangel
+18        5267           5267            *              *              *             *             *             *             //Holyangel
+18        5779           5779            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+19        3738           3738            *              *              *             *             *             *             //Awakening
+19        4250           4250            *              *              *             *             *             *             //Awakening
+19        4762           4762            *              *              *             *             *             *             //Awakening
+19        5274           5274            *              *              *             *             *             *             //Awakening
+19        5786           5786            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+20        3745           3745            *              *              *             *             *             *             //BlueEye
+20        4257           4257            *              *              *             *             *             *             //BlueEye
+20        4769           4769            *              *              *             *             *             *             //BlueEye
+20        5281           5281            *              *              *             *             *             *             //BlueEye
+20        5793           5793            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+21        3754           3754            *              *              *             *             *             *             //Silver
+21        4266           4266            *              *              *             *             *             *             //Silver
+21        4778           4778            *              *              *             *             *             *             //Silver
+21        5290           5290            *              *              *             *             *             *             //Silver
+21        5802           5802            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+22        3761           3761            *              *              *             *             *             *             //Manticore
+22        4273           4273            *              *              *             *             *             *             //Manticore
+22        4785           4785            *              *              *             *             *             *             //Manticore
+22        5297           5297            *              *              *             *             *             *             //Manticore
+22        5809           5809            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+23        3776           3776            *              *              *             *             *             *             //Brilliant
+23        4288           4288            *              *              *             *             *             *             //Brilliant
+23        4800           4800            *              *              *             *             *             *             //Brilliant
+23        5312           5312            *              *              *             *             *             *             //Brilliant
+23        5824           5824            *              *              *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+24        3685           3685            15             15             *             *             *             *             //Bloodangel
+24        4197           4197            15             15             *             *             *             *             //Bloodangel
+24        4709           4709            15             15             *             *             *             *             //Bloodangel
+24        5221           5221            15             15             *             *             *             *             //Bloodangel
+24        5733           5733            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+25        3725           3725            *              *              *             *             *             *             //Darkangel
+25        4237           4237            *              *              *             *             *             *             //Darkangel
+25        4749           4749            *              *              *             *             *             *             //Darkangel
+25        5261           5261            *              *              *             *             *             *             //Darkangel
+25        5773           5773            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+26        3732           3732            *              *              *             *             *             *             //Holyangel
+26        4244           4244            *              *              *             *             *             *             //Holyangel
+26        4756           4756            *              *              *             *             *             *             //Holyangel
+26        5268           5268            *              *              *             *             *             *             //Holyangel
+26        5780           5780            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+27        3739           3739            *              *              *             *             *             *             //Awakening
+27        4251           4251            *              *              *             *             *             *             //Awakening
+27        4763           4763            *              *              *             *             *             *             //Awakening
+27        5275           5275            *              *              *             *             *             *             //Awakening
+27        5787           5787            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+28        3746           3746            *              *              *             *             *             *             //BlueEye
+28        4258           4258            *              *              *             *             *             *             //BlueEye
+28        4770           4770            *              *              *             *             *             *             //BlueEye
+28        5282           5282            *              *              *             *             *             *             //BlueEye
+28        5794           5794            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+29        3755           3755            *              *              *             *             *             *             //Silver
+29        4267           4267            *              *              *             *             *             *             //Silver
+29        4779           4779            *              *              *             *             *             *             //Silver
+29        5291           5291            *              *              *             *             *             *             //Silver
+29        5803           5803            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+30        3762           3762            *              *              *             *             *             *             //Manticore
+30        4274           4274            *              *              *             *             *             *             //Manticore
+30        4786           4786            *              *              *             *             *             *             //Manticore
+30        5298           5298            *              *              *             *             *             *             //Manticore
+30        5810           5810            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+31        3777           3777            *              *              *             *             *             *             //Brilliant
+31        4289           4289            *              *              *             *             *             *             //Brilliant
+31        4801           4801            *              *              *             *             *             *             //Brilliant
+31        5313           5313            *              *              *             *             *             *             //Brilliant
+31        5825           5825            *              *              *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+32        4198           4198            15             15             *             *             *             *             //Bloodangel
+32        4710           4710            15             15             *             *             *             *             //Bloodangel
+32        5222           5222            15             15             *             *             *             *             //Bloodangel
+32        5734           5734            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+33        4238           4238            *              *              *             *             *             *             //Darkangel
+33        4750           4750            *              *              *             *             *             *             //Darkangel
+33        5262           5262            *              *              *             *             *             *             //Darkangel
+33        5774           5774            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+34        4245           4245            *              *              *             *             *             *             //Holyangel
+34        4757           4757            *              *              *             *             *             *             //Holyangel
+34        5269           5269            *              *              *             *             *             *             //Holyangel
+34        5781           5781            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+35        4252           4252            *              *              *             *             *             *             //Awakening
+35        4764           4764            *              *              *             *             *             *             //Awakening
+35        5276           5276            *              *              *             *             *             *             //Awakening
+35        5788           5788            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+36        4259           4259            *              *              *             *             *             *             //BlueEye
+36        4771           4771            *              *              *             *             *             *             //BlueEye
+36        5283           5283            *              *              *             *             *             *             //BlueEye
+36        5795           5795            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+37        4268           4268            *              *              *             *             *             *             //Silver
+37        4780           4780            *              *              *             *             *             *             //Silver
+37        5292           5292            *              *              *             *             *             *             //Silver
+37        5804           5804            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+38        4275           4275            *              *              *             *             *             *             //Manticore
+38        4787           4787            *              *              *             *             *             *             //Manticore
+38        5299           5299            *              *              *             *             *             *             //Manticore
+38        5811           5811            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+39        4290           4290            *              *              *             *             *             *             //Brilliant
+39        4802           4802            *              *              *             *             *             *             //Brilliant
+39        5314           5314            *              *              *             *             *             *             //Brilliant
+39        5826           5826            *              *              *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+40        3687           3687            15             15             *             *             *             *             //Bloodangel
+40        4199           4199            15             15             *             *             *             *             //Bloodangel
+40        4711           4711            15             15             *             *             *             *             //Bloodangel
+40        5223           5223            15             15             *             *             *             *             //Bloodangel
+40        5735           5735            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+41        3727           3727            *              *              *             *             *             *             //Darkangel
+41        4239           4239            *              *              *             *             *             *             //Darkangel
+41        4751           4751            *              *              *             *             *             *             //Darkangel
+41        5263           5263            *              *              *             *             *             *             //Darkangel
+41        5775           5775            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+42        3734           3734            *              *              *             *             *             *             //Holyangel
+42        4246           4246            *              *              *             *             *             *             //Holyangel
+42        4758           4758            *              *              *             *             *             *             //Holyangel
+42        5270           5270            *              *              *             *             *             *             //Holyangel
+42        5782           5782            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+43        3741           3741            *              *              *             *             *             *             //Awakening
+43        4253           4253            *              *              *             *             *             *             //Awakening
+43        4765           4765            *              *              *             *             *             *             //Awakening
+43        5277           5277            *              *              *             *             *             *             //Awakening
+43        5789           5789            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+44        3748           3748            *              *              *             *             *             *             //BlueEye
+44        4260           4260            *              *              *             *             *             *             //BlueEye
+44        4772           4772            *              *              *             *             *             *             //BlueEye
+44        5284           5284            *              *              *             *             *             *             //BlueEye
+44        5796           5796            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+45        3757           3757            *              *              *             *             *             *             //Silver
+45        4269           4269            *              *              *             *             *             *             //Silver
+45        4781           4781            *              *              *             *             *             *             //Silver
+45        5293           5293            *              *              *             *             *             *             //Silver
+45        5805           5805            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+46        3764           3764            *              *              *             *             *             *             //Manticore
+46        4276           4276            *              *              *             *             *             *             //Manticore
+46        4788           4788            *              *              *             *             *             *             //Manticore
+46        5300           5300            *              *              *             *             *             *             //Manticore
+46        5812           5812            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+47        3779           3779            *              *              *             *             *             *             //Brilliant
+47        4291           4291            *              *              *             *             *             *             //Brilliant
+47        4803           4803            *              *              *             *             *             *             //Brilliant
+47        5315           5315            *              *              *             *             *             *             //Brilliant
+47        5827           5827            *              *              *             *             *             *             //Brilliant
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+48        3688           3688            15             15             *             *             *             *             //Bloodangel
+48        4200           4200            15             15             *             *             *             *             //Bloodangel
+48        4712           4712            15             15             *             *             *             *             //Bloodangel
+48        5736           5736            15             15             *             *             *             *             //Bloodangel
+//==================================================================================================================================
+49        3728           3728            *              *              *             *             *             *             //Darkangel
+49        4240           4240            *              *              *             *             *             *             //Darkangel
+49        4752           4752            *              *              *             *             *             *             //Darkangel
+49        5776           5776            *              *              *             *             *             *             //Darkangel
+//==================================================================================================================================
+50        3735           3735            *              *              *             *             *             *             //Holyangel
+50        4247           4247            *              *              *             *             *             *             //Holyangel
+50        4759           4759            *              *              *             *             *             *             //Holyangel
+50        5783           5783            *              *              *             *             *             *             //Holyangel
+//==================================================================================================================================
+51        3742           3742            *              *              *             *             *             *             //Awakening
+51        4254           4254            *              *              *             *             *             *             //Awakening
+51        4766           4766            *              *              *             *             *             *             //Awakening
+51        5790           5790            *              *              *             *             *             *             //Awakening
+//==================================================================================================================================
+52        3749           3749            *              *              *             *             *             *             //BlueEye
+52        4261           4261            *              *              *             *             *             *             //BlueEye
+52        4773           4773            *              *              *             *             *             *             //BlueEye
+52        5797           5797            *              *              *             *             *             *             //BlueEye
+//==================================================================================================================================
+53        3758           3758            *              *              *             *             *             *             //Silver
+53        4270           4270            *              *              *             *             *             *             //Silver
+53        4782           4782            *              *              *             *             *             *             //Silver
+53        5806           5806            *              *              *             *             *             *             //Silver
+//==================================================================================================================================
+54        3765           3765            *              *              *             *             *             *             //Manticore
+54        4277           4277            *              *              *             *             *             *             //Manticore
+54        4789           4789            *              *              *             *             *             *             //Manticore
+54        5813           5813            *              *              *             *             *             *             //Manticore
+//==================================================================================================================================
+55        3780           3780            *              *              *             *             *             *             //Brilliant
+55        4292           4292            *              *              *             *             *             *             //Brilliant
+55        4804           4804            *              *              *             *             *             *             //Brilliant
+55        5828           5828            *              *              *             *             *             *             //Brilliant
+
+
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+56        3794           3794            *              *              *             *             *             *             //
+56        4306           4306            *              *              *             *             *             *             //
+56        4818           4818            *              *              *             *             *             *             //
+56        5330           5330            *              *              *             *             *             *             //
+56        5842           5842            *              *              *             *             *             *             //
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+57        3795           3795            *              *              *             *             *             *             //
+57        4307           4307            *              *              *             *             *             *             //
+57        4819           4819            *              *              *             *             *             *             //
+57        5331           5331            *              *              *             *             *             *             //
+57        5843           5843            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+58        3796           3796            *              *              *             *             *             *             //
+58        4308           4308            *              *              *             *             *             *             //
+58        4820           4820            *              *              *             *             *             *             //
+58        5332           5332            *              *              *             *             *             *             //
+58        5844           5844            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+59        3797           3797            *              *              *             *             *             *             //
+59        4309           4309            *              *              *             *             *             *             //
+59        4821           4821            *              *              *             *             *             *             //
+59        5333           5333            *              *              *             *             *             *             //
+59        5845           5845            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+60        4310           4310            *              *              *             *             *             *             //
+60        4822           4822            *              *              *             *             *             *             //
+60        5334           5334            *              *              *             *             *             *             //
+60        5846           5846            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+61        3799           3799            *              *              *             *             *             *             //
+61        4311           4311            *              *              *             *             *             *             //
+61        4823           4823            *              *              *             *             *             *             //
+61        5335           5335            *              *              *             *             *             *             //
+61        5847           5847            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+62        3800           3800            *              *              *             *             *             *             //
+62        4312           4312            *              *              *             *             *             *             //
+62        4824           4824            *              *              *             *             *             *             //
+62        5848           5848            *              *              *             *             *             *             //
+
+
+
+
+
+
+
+
+
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+63        3801           3801            *              *              *             *             *             *             //
+63        4313           4313            *              *              *             *             *             *             //
+63        4825           4825            *              *              *             *             *             *             //
+63        5337           5337            *              *              *             *             *             *             //
+63        5849           5849            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+64        3802           3802            *              *              *             *             *             *             //
+64        4314           4314            *              *              *             *             *             *             //
+64        4826           4826            *              *              *             *             *             *             //
+64        5338           5338            *              *              *             *             *             *             //
+64        5850           5850            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+65        3803           3803            *              *              *             *             *             *             //
+65        4315           4315            *              *              *             *             *             *             //
+65        4827           4827            *              *              *             *             *             *             //
+65        5339           5339            *              *              *             *             *             *             //
+65        5851           5851            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+66        3804           3804            *              *              *             *             *             *             //
+66        4316           4316            *              *              *             *             *             *             //
+66        4828           4828            *              *              *             *             *             *             //
+66        5340           5340            *              *              *             *             *             *             //
+66        5852           5852            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+67        4317           4317            *              *              *             *             *             *             //
+67        4829           4829            *              *              *             *             *             *             //
+67        5341           5341            *              *              *             *             *             *             //
+67        5853           5853            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+68        3806           3806            *              *              *             *             *             *             //
+68        4318           4318            *              *              *             *             *             *             //
+68        4830           4830            *              *              *             *             *             *             //
+68        5342           5342            *              *              *             *             *             *             //
+68        5854           5854            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+69        3807           3807            *              *              *             *             *             *             //
+69        4319           4319            *              *              *             *             *             *             //
+69        4831           4831            *              *              *             *             *             *             //
+69        5855           5855            *              *              *             *             *             *             //
+
+
+
+
+
+
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+70        3808           3808            *              *              *             *             *             *             //
+70        4320           4320            *              *              *             *             *             *             //
+70        4832           4832            *              *              *             *             *             *             //
+70        5344           5344            *              *              *             *             *             *             //
+70        5856           5856            *              *              *             *             *             *             //
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+71        3809           3809            *              *              *             *             *             *             //
+71        4321           4321            *              *              *             *             *             *             //
+71        4833           4833            *              *              *             *             *             *             //
+71        5345           5345            *              *              *             *             *             *             //
+71        5857           5857            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+72        3810           3810            *              *              *             *             *             *             //
+72        4322           4322            *              *              *             *             *             *             //
+72        4834           4834            *              *              *             *             *             *             //
+72        5346           5356            *              *              *             *             *             *             //
+72        5858           5858            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+73        3811           3811            *              *              *             *             *             *             //
+73        4323           4323            *              *              *             *             *             *             //
+73        4835           4835            *              *              *             *             *             *             //
+73        5347           5347            *              *              *             *             *             *             //
+73        5859           5859            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+74        4324           4324            *              *              *             *             *             *             //
+74        4836           4836            *              *              *             *             *             *             //
+74        5348           5348            *              *              *             *             *             *             //
+74        5860           5860            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+75        3813           3813            *              *              *             *             *             *             //
+75        4325           4325            *              *              *             *             *             *             //
+75        4837           4837            *              *              *             *             *             *             //
+75        5349           5349            *              *              *             *             *             *             //
+75        5861           5861            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+76        3814           3814            *              *              *             *             *             *             //
+76        4326           4326            *              *              *             *             *             *             //
+76        4838           4838            *              *              *             *             *             *             //
+76        5862           5862            *              *              *             *             *             *             //
+
+
+
+
+
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+100       42             42              *              *              *             *             *             *             //Bloodangel
+101       52             52              *              *              *             *             *             *             //Darkangel
+102       55             55              *              *              *             *             *             *             //Holyangel
+103       58             58              *              *              *             *             *             *             //Awakening
+104       69             69              *              *              *             *             *             *             //BlueEye
+105       71             71              *              *              *             *             *             *             //Silver
+106       90             90              *              *              *             *             *             *             //Manticore
+107       92             92              *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+108       44             44              *              *              *             *             *             *             //Bloodangel
+109       53             53              *              *              *             *             *             *             //Darkangel
+110       56             56              *              *              *             *             *             *             //Holyangel
+111       59             59              *              *              *             *             *             *             //Awakening
+112       70             70              *              *              *             *             *             *             //BlueEye
+113       72             72              *              *              *             *             *             *             //Silver
+114       91             91              *              *              *             *             *             *             //Manticore
+115       93             93              *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+116       120            120             *              *              *             *             *             *             //Bloodangel
+117       121            121             *              *              *             *             *             *             //Darkangel
+118       122            122             *              *              *             *             *             *             //Holyangel
+119       123            123             *              *              *             *             *             *             //Awakening
+120       124            124             *              *              *             *             *             *             //BlueEye
+121       125            125             *              *              *             *             *             *             //Silver
+122       126            126             *              *              *             *             *             *             //Manticore
+123       127            127             *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+124       100            100             *              *              *             *             *             *             //Bloodangel
+125       102            102             *              *              *             *             *             *             //Darkangel
+126       103            103             *              *              *             *             *             *             //Holyangel
+127       104            104             *              *              *             *             *             *             //Awakening
+128       109            109             *              *              *             *             *             *             //BlueEye
+129       110            110             *              *              *             *             *             *             //Silver
+130       111            111             *              *              *             *             *             *             //Manticore
+131       112            112             *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+132       1046           1046            *              *              *             *             *             *             //Bloodangel
+133       1050           1050            *              *              *             *             *             *             //Darkangel
+134       1051           1051            *              *              *             *             *             *             //Holyangel
+135       1052           1052            *              *              *             *             *             *             //Awakening
+136       1053           1053            *              *              *             *             *             *             //BlueEye
+137       1054           1054            *              *              *             *             *             *             //Silver
+138       1055           1055            *              *              *             *             *             *             //Manticore
+139       1056           1056            *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+140       2076           2076            *              *              *             *             *             *             //Bloodangel
+141       2079           2079            *              *              *             *             *             *             //Darkangel
+142       2080           2080            *              *              *             *             *             *             //Holyangel
+143       2081           2081            *              *              *             *             *             *             //Awakening
+144       2082           2082            *              *              *             *             *             *             //BlueEye
+145       2083           2083            *              *              *             *             *             *             //Silver
+146       2087           2087            *              *              *             *             *             *             //Manticore
+147       2088           2088            *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+148       2601           2601            *              *              *             *             *             *             //Bloodangel
+149       2611           2611            *              *              *             *             *             *             //Darkangel
+150       2612           2612            *              *              *             *             *             *             //Holyangel
+151       2615           2615            *              *              *             *             *             *             //Awakening
+152       2617           2617            *              *              *             *             *             *             //BlueEye
+153       2625           2625            *              *              *             *             *             *             //Silver
+154       2630           2630            *              *              *             *             *             *             //Manticore
+155       2633           2633            *              *              *             *             *             *             //Brilliant
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+156       2603           2603            *              *              *             *             *             *             //Bloodangel
+157       2613           2613            *              *              *             *             *             *             //Darkangel
+158       2614           2614            *              *              *             *             *             *             //Holyangel
+159       2616           2616            *              *              *             *             *             *             //Awakening
+160       2618           2618            *              *              *             *             *             *             //BlueEye
+161       2626           2626            *              *              *             *             *             *             //Silver
+162       2631           2631            *              *              *             *             *             *             //Manticore
+163       2634           2634            *              *              *             *             *             *             //Brilliant
+
+
+
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+164       94             94              *              *              *             *             *             *             //
+165       95             95              *              *              *             *             *             *             //
+166       113            113             *              *              *             *             *             *             //
+167       128            128             *              *              *             *             *             *             //
+168       1057           1057            *              *              *             *             *             *             //
+169       2089           2089            *              *              *             *             *             *             //
+170       2636           2636            *              *              *             *             *             *             //
+171       2637           2637            *              *              *             *             *             *             //
+
+
+
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+172       96             96              *              *              *             *             *             *             //
+173       97             97              *              *              *             *             *             *             //
+174       114            114             *              *              *             *             *             *             //
+175       129            129             *              *              *             *             *             *             //
+176       1058           1058            *              *              *             *             *             *             //
+177       2090           2090            *              *              *             *             *             *             //
+178       2639           2639            *              *              *             *             *             *             //
+179       2640           2640            *              *              *             *             *             *             //
+
+
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+180       98             98              *              *              *             *             *             *             //
+181       99             99              *              *              *             *             *             *             //
+182       115            115             *              *              *             *             *             *             //
+183       130            130             *              *              *             *             *             *             //
+184       1059           1059            *              *              *             *             *             *             //
+185       2091           2091            *              *              *             *             *             *             //
+186       2642           2642            *              *              *             *             *             *             //
+187       2643           2643            *              *              *             *             *             *             //
+
+
+
+//==================================================================================================================================
+//Set+Weapon
+//==================================================================================================================================
+//BK
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+700       3808           3808            *              *              *             *             *             *             //
+700       4320           4320            *              *              *             *             *             *             //
+700       4832           4832            *              *              *             *             *             *             //
+700       5344           5344            *              *              *             *             *             *             //
+700       5856           5856            *              *              *             *             *             *             //
+700       98             98              *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//SM
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+701       3809           3809            *              *              *             *             *             *             //
+701       4321           4321            *              *              *             *             *             *             //
+701       4833           4833            *              *              *             *             *             *             //
+701       5345           5345            *              *              *             *             *             *             //
+701       5857           5857            *              *              *             *             *             *             //
+701       2642           2642            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//ELF
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+702       3810           3810            *              *              *             *             *             *             //
+702       4322           4322            *              *              *             *             *             *             //
+702       4834           4834            *              *              *             *             *             *             //
+702       5346           5356            *              *              *             *             *             *             //
+702       5858           5858            *              *              *             *             *             *             //
+702       2091           2091            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//SUM
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+703       3811           3811            *              *              *             *             *             *             //
+703       4323           4323            *              *              *             *             *             *             //
+703       4835           4835            *              *              *             *             *             *             //
+703       5347           5347            *              *              *             *             *             *             //
+703       5859           5859            *              *              *             *             *             *             //
+703       2643           2643            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//MG
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+704       4324           4324            *              *              *             *             *             *             //
+704       4836           4836            *              *              *             *             *             *             //
+704       5348           5348            *              *              *             *             *             *             //
+704       5860           5860            *              *              *             *             *             *             //
+704       99             99              *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//DL
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+705       3813           3813            *              *              *             *             *             *             //
+705       4325           4325            *              *              *             *             *             *             //
+705       4837           4837            *              *              *             *             *             *             //
+705       5349           5349            *              *              *             *             *             *             //
+705       5861           5861            *              *              *             *             *             *             //
+705       1059           1059            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//RF
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+706       3814           3814            *              *              *             *             *             *             //
+706       4326           4326            *              *              *             *             *             *             //
+706       4838           4838            *              *              *             *             *             *             //
+706       5862           5862            *              *              *             *             *             *             //
+706       115            115             *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//MG TWO HAND
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+707       4324           4324            *              *              *             *             *             *             //
+707       4836           4836            *              *              *             *             *             *             //
+707       5348           5348            *              *              *             *             *             *             //
+707       5860           5860            *              *              *             *             *             *             //
+707       130            130             *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//MG STAFF
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+708       4324           4324            *              *              *             *             *             *             //
+708       4836           4836            *              *              *             *             *             *             //
+708       5348           5348            *              *              *             *             *             *             //
+708       5860           5860            *              *              *             *             *             *             //
+708       2642           2642            *              *              *             *             *             *             //
+
+//==================================================================================================================================
+//==================================================================================================================================
+
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+300       3102           3102            *              *              *             *             *             *             //Bloodangel
+301       3103           3103            *              *              *             *             *             *             //Darkangel
+302       3104           3104            *              *              *             *             *             *             //Holyangel
+303       3105           3105            *              *              *             *             *             *             //Awakening
+304       3106           3106            *              *              *             *             *             *             //BlueEye
+305       3107           3107            *              *              *             *             *             *             //Silver
+306       3113           3113            *              *              *             *             *             *             //Manticore
+307       3114           3114            *              *              *             *             *             *             //Brilliant
+308       3115           3115            *              *              *             *             *             *             //
+309       3116           3116            *              *              *             *             *             *             //
+310       3117           3117            *              *              *             *             *             *             //
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+400       6450           6456           5               5              *             *             *             *		//Wings +5
+401       6450           6456           10              10             *             *             *             *		//Wings +10
+402       6450           6456           15              15             *             *             *             *		//Wings +15
+403       6471           6471           15              15             *             *             *             *		//Wings +15
+404       6472           6472           15              15             *             *             *             *		//Wings +15
+
+
+//==================================================================================================================================
+//Group	  ItemMinIndex   ItemMaxIndex    ItemMinLevel   ItemMaxLevel   ItemOption1   ItemOption2   ItemOption3   ItemNewOption
+500       7056           7056            *              *              *             *             *             *             //
+500       7057           7057            *              *              *             *             *             *             //
+501       7058           7058            *              *              *             *             *             *             //
+501       7059           7059            *              *              *             *             *             *             //
+502       7060           7060            *              *              *             *             *             *             //
+502       7061           7061            *              *              *             *             *             *             //
+503       7062           7062            *              *              *             *             *             *             //
+503       7063           7063            *              *              *             *             *             *             //
+504       7064           7064            *              *              *             *             *             *             //
+504       7065           7065            *              *              *             *             *             *             //
+505       7066           7066            *              *              *             *             *             *             //
+505       7067           7067            *              *              *             *             *             *             //
+506       7068           7068            *              *              *             *             *             *             //
+506       7069           7069            *              *              *             *             *             *             //
+
+end

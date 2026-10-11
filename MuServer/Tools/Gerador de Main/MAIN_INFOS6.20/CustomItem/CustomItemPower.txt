@@ -1,0 +1,186 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+3808             3814           0           0            605         0                       0
+4320             4326           0           0            628         0                       0
+4832             4838           0           0            618         0                       0
+5344             5349           0           0            596         0                       0
+5856             5862           0           0            604         0                       0
+6918             6918           0           0            50          0                       0
+//2579             2579           80              88              0               0                       0
+
+
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  37             37             163             216             0               0                       0
+  42             42             252             263             0               0                       0
+  44             44             246             257             0               0                       112
+  51             51             265             275             0               0                       0
+  52             52             302             313             0               0                       0
+  53             53             300             311             0               0                       118
+  55             55             365             376             0               0                       0
+  56             56             364             375             0               0                       125
+  58             58             428             439             0               0                       0
+  59             59             427             438             0               0                       133
+  60             60             265             275             0               0                       50
+  61             61             265             275             0               0                       50
+
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  100            100            147             157             0               0                       0
+  101            101            248             267             0               0                       0
+  102            102            214             224             0               0                       0
+  103            103            277             287             0               0                       0 
+  104            104            340             350             0               0                       0    
+  105            105            121             130             0               0                       0
+  106            106            277             287             0               0                       0
+  107            107            26              34              0               0                       0
+  108            108            35              46              0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  69             69             492             502             0               0                       0
+  70             70             491             501             0               0                       140
+  109            109            404             414             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  71             71             556             567             0               0                       0
+  72             72             555             565             0               0                       149
+  110            110            468             480             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  90             90             620             632             0               0                       0
+  91             91             619             629             0               0                       158
+  111            111            532             546             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  92             92             684             697             0               0                       0
+  93             93             683             693             0               0                       167
+  112            112            596             612             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  94             94             748             762             0               0                       0
+  95             95             747             757             0               0                       182
+  113            113            660             678             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  96             96             812             827             0               0                       0
+  97             97             812             822             0               0                       197
+  114            114            725             745             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  98             98             946             961             0               0                       0
+  99             99             946             956             0               0                       212
+  115            115            852             872             0               0                       0
+  116            116            277             287             0               0                       0
+  117            117            277             287             0               0                       0
+  118            118            277             287             0               0                       0
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  120            120            296             325             0               0                       112
+  121            121            351             382             0               0                       118
+  122            122            425             463             0               0                       125
+  123            123            499             542             0               0                       133
+  124            124            606             656             0               0                       140
+  125            125            711             761             0               0                       149
+  126            126            816             866             0               0                       158
+  127            127            921             971             0               0                       167
+  128            128            1026            1076            0               0                       182
+  129            129            1224            1274            0               0                       197
+  130            130            1290            1340            0               0                       212
+  133            133            1590            1640            0               0                       2012
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  526            526            127             154             0               0                       76      
+  1043           1043           127             154             0               0                       76      
+  1044           1044           177             206             0               0                       0
+  1046           1046           188             200             0               0                       104
+  1049           1049           331             341             0               0                       175   
+  1050           1050           223             233             0               0                       114  
+  1051           1051           318             330             0               0                       134  
+  1052           1052           403             416             0               0                       154  
+  1053           1053           490             504             0               0                       169  
+  1054           1054           577             593             0               0                       185  
+  1055           1055           664             682             0               0                       201  
+  1056           1056           751             771             0               0                       217  
+  1057           1057           838             860             0               0                       233
+  1058           1058           924             948             0               0                       249
+  1059           1059           1067            1091            0               0                       265
+  1063           1063           200             223             0               0                       138
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2073           2073           179             202             0               0                       0
+  2074           2074           167             218             0               0                       0
+  2076           2076           290             310             0               0                       0
+  2077           2077           345             380             0               0                       0
+  2078           2078           345             380             0               0                       0
+  2079           2079           320             340             0               0                       0
+  2080           2080           375             392             0               0                       0
+  2081           2081           501             518             0               0                       0
+  2082           2082           628             646             0               0                       0
+  2083           2083           755             778             0               0                       0
+  2087           2087           882             910             0               0                       0
+  2088           2088           1009            1042            0               0                       0
+  2089           2089           1136            1174            0               0                       0
+  2090           2090           1263            1306            0               0                       0
+  2091           2091           1432            1475            0               0                       0
+  2092           2092           345             380             0               0                       0
+
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2095           2095           67              69              0               0                       130 
+  2096           2096           153             165             0               0                       146
+  2097           2097           69              71              0               0                       136
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2601           2601           90              96              0               0                       155
+  2603           2603           81              87              0               0                       150
+
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2607           2607           153             165             0               0                       189
+  2608           2608           153             165             0               0                       189
+  2609           2609           153             165             0               0                       189
+  2610           2610           153             165             0               0                       184
+  2611           2611           120             126             0               0                       173
+  2612           2612           135             148             0               0                       196
+  2613           2613           111             117             0               0                       169
+  2614           2614           127             135             0               0                       196
+  2615           2615           157             170             0               0                       219
+  2616           2616           145             153             0               0                       223
+  2617           2617           179             193             0               0                       240
+  2618           2618           164             172             0               0                       244
+  2620           2620           0               0               0               0                       149
+  2621           2621           0               0               0               0                       140
+  2622           2622           0               0               0               0                       192
+  2623           2623           0               0               0               0                       215
+  2624           2624           0               0               0               0                       238
+  2645           2645           153             165             0               0                       189
+
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2625           2625           199             212             0               0                       264
+  2626           2626           183             194             0               0                       265
+  2627           2627           0               0               0               0                       258
+//ItemMinIndex   ItemMaxIndex	DamageMin	DamageMax	Defense		MagicDefense		MagicPower
+  2630           2630           219             231             0               0                       288
+  2631           2631           202             216             0               0                       280
+  2632           2632           0               0               0               0                       274
+//ItemMinIndex   ItemMaxIndex	DamageMin       DamageMax	Defense		MagicDefense		MagicPower
+  2633           2633           239             250             0               0                       312
+  2634           2634           221             238             0               0                       295
+  2635           2635           0               0               0               0                       285
+//ItemMinIndex   ItemMaxIndex	DamageMin       DamageMax	Defense		MagicDefense		MagicPower
+  2636           2636           259             269             0               0                       376
+  2637           2637           240             260             0               0                       362
+  2638           2638           0               0               0               0                       294
+//ItemMinIndex   ItemMaxIndex	DamageMin       DamageMax	Defense		MagicDefense		MagicPower
+  2639           2639           279             288             0               0                       440
+  2640           2640           240             260             0               0                       429
+  2641           2641           0               0               0               0                       303
+//ItemMinIndex   ItemMaxIndex	DamageMin       DamageMax	Defense		MagicDefense		MagicPower
+  2642           2642           339             347             0               0                       504
+  2643           2643           317             343             0               0                       496
+  2644           2644           0               0               0               0                       312
+  
+  2148			 2148           239             266             0               0                       312   // Bloodangel Quiver"       
+  2149			 2149           291             316             0               0                       312   // Darkangel Quiver"        
+  2150			 2150           345             369             0               0                       312   // Holyangel Quiver"        
+  2151			 2151           398             422             0               0                       312   // Soul Quiver"             
+  2152			 2152           451             475             0               0                       312   // Blue Eye Quiver"         
+  2153			 2153           504             527             0               0                       312   // Silver Heart Quiver"     
+  2154			 2154           557             579             0               0                       312   // Manticore Quiver"        
+  2155			 2155           610             631             0               0                       312   // Brilliant Quiver"        
+  2156			 2156           663             638             0               0                       312   // Apocalypse Quiver"       
+  2157			 2157           717             736             0               0                       312   // Lightning Quiver"        
+  2158			 2158           750             786             0               0                       312   // Temple Guardian Quiver"  
+  
+end

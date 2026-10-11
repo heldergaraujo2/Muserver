@@ -1,0 +1,30 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2022 Bruno3D Development
+//# Type: Notice type, (0) global message, (1) system message, (2) slide message.
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+//Message                                                            														Type   Count   Opacity   Delay  Red   Green   Blue   Speed   RepeatTime
+//"[ ! ] MuSaffe - Season 6.20 - A New Concept in Mu Online!"                                                           	    0      0       0         0      0     0       0      0       91
+//"[ ! ] Conquer all your items by playing! Without depositing money!"                                 		   	 			0      0       0         0      0     0       0      0       121
+//"[ ! ] Doubts? Open a ticket or use our Forum!" 	                                    				 					0      0       0         0      0     0       0      0       240
+////"[ ! ] Like and share our page on Facebook and win free gifts!"                                              		 		0      0       0         0      0     0       0      0       240
+//"[ ! ] Patent System with Awards in WC and GP!" 		                                                         			0      0       0         0      0     0       0      0       240
+//"[ ! ] Quest System with Coin Prizes and Special Box!"                                                        		 		0      0       0         0      0     0       0      0       240
+//"[ ! ] Attention Muzeiros, Sleeping not from XP!"                                                                        	0      0       0         0      0     0       0      0       161
+//"[ ! ] Go online and receive Coins to earn your Full items!" 	                                                         	0      0       0         0      0     0       0      0       240
+//"[ ! ] STAFF is not responsible for lost items!"                                                    		 	 			0      0       0         0      0     0       0      0       240
+//"[ ! ] With the new dueling system, you can now bet for items"      	                          			 				0      0       0         0      0     0       0      0       240
+//"[ ! ] Mini-Boss and Boss with best Server Drop!"	                                                         	 			0      0       0         0      0     0       0      0       240
+//"[ ! ] ALWAYS RUN LAUNCHER AS ADMINISTRATOR!"                                                                  		 		0      0       0         0      0     0       0      0       240
+////"[ ! ] Check out our Referral System and get your benefits!"	                                                         	0      0       0         0      0     0       0      0       240
+//"[ ! ] MuSaffe - The Best Mu Season 6 Server Online!"	                                                                    0      0       0         0      0     0       0      0       181
+//"[ ! ] Keep an eye on the Changelog on the forum and stay updated."                                		 					0      0       0         0      0     0       0      0       190
+////"[ ! ] DROP - Selupan Set 400."                                		 							    						0      0       0         0      0     0       0      0       210
+////"[ ! ] DROP - Nightmare Weapon 380."                                		 							    				0      0       0         0      0     0       0      0       230
+////"[ ! ] DROP - Medusa Anel e Pendat."                                		 							   					0      0       0         0      0     0       0      0       250
+////"[ ! ] DROP - MiniBoss 380 e TCA~TCL."                                  		 							   				0      0       0         0      0     0       0      0       260
+end

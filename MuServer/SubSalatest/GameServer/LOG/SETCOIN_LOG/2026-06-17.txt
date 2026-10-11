@@ -1,0 +1,4 @@
+00:06:37 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 10
+00:46:38 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+23:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+23:07:43 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

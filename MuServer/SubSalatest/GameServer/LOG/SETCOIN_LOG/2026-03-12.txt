@@ -1,0 +1,30 @@
+08:36:22 [hellder][Saffe] WZ_SetCoin(CommonShopSell) Val1: 0, Val2: 1, Val3: 0
+08:37:08 [hellder][Saffe] WZ_SetCoin(CommonShopSell) Val1: 0, Val2: 18, Val3: 0
+08:46:47 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+09:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+09:01:59 [SETCOIN LOG] Start
+09:16:39 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+10:00:05 [SETCOIN LOG] Start
+10:26:29 [hellder][Saffe] WZ_SetCoin(CommonShopSell) Val1: 0, Val2: 10, Val3: 0
+10:29:09 [hellder][Saffe] WZ_SetCoin(EventAuction) Val1: 0, Val2: -10, Val3: 0
+10:48:16 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+11:50:46 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:50:59 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+14:06:35 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+14:38:57 [hellderr][SimSalabim] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+14:57:07 [thecrims1][Snuff] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:00:01 [hellderr][LapadaSeca] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+15:07:47 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:38:11 [thecrims1][Snuff] WZ_SetCoin(CustomQuiz) Val1: 5, Val2: 0, Val3: 0
+15:47:20 [hellderr][LapadaSeca] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+15:57:09 [thecrims1][ExitLag] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:07:47 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:47:23 [hellderr][Admin] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+16:55:21 [hellderr][Admin] WZ_SetCoin(CommonShopSell) Val1: 0, Val2: 1, Val3: 0
+16:57:09 [thecrims1][ExitLag] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+17:00:38 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+17:07:47 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+17:50:42 [hellderr][LapadaSeca] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+17:59:39 [thecrims1][ExitLag] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+18:00:01 [hellderr][LapadaSeca] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+18:35:11 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5

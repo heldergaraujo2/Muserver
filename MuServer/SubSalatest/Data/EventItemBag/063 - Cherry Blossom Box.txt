@@ -1,0 +1,17 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Cherry Blossom Box"	1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+14	85	0	0	0	0	0	0	// Cherry Blossom Wine
+14	86	0	0	0	0	0	0	// Cherry Blossom Rice Cake
+14	87	0	0	0	0	0	0	// Cherry Blossom Flower Petal
+14	88	0	0	0	0	0	0	// White Cherry Blossom Branch
+14	89	0	0	0	0	0	0	// Red Cherry Blossom Branch
+14	90	0	0	0	0	0	0	// Golden Cherry Blossom Branch
+end

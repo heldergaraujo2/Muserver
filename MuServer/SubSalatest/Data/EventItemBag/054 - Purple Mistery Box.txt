@@ -1,0 +1,98 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Purple Mistery Box"	5000000	40		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+0	16	0	9	1	1	1	1	// Sword of Destruction
+0	17	0	9	1	1	1	1	// Dark Breaker
+4	16	0	9	1	1	1	1	// Saint Crossbow
+5	6	0	9	1	1	1	1	// Staff of Resurrection
+5	8	0	9	1	1	1	1	// Staff of Destruction
+5	17	0	9	1	1	1	1	// Ancient Stick
+0	18	0	9	1	1	1	1	// Thunder Blade
+2	10	0	9	1	1	1	1	// Great Scepter
+7	18	0	9	0	1	1	1	// Grand Soul Helm
+8	18	0	9	0	1	1	1	// Grand Soul Armor
+9	18	0	9	0	1	1	1	// Grand Soul Pants
+10	18	0	9	0	1	1	1	// Grand Soul Gloves
+11	18	0	9	0	1	1	1	// Grand Soul Boots
+8	20	0	9	0	1	1	1	// Thunder Hawk Armor
+9	20	0	9	0	1	1	1	// Thunder Hawk Pants
+10	20	0	9	0	1	1	1	// Thunder Hawk Gloves
+11	20	0	9	0	1	1	1	// Thunder Hawk Boots
+7	17	0	9	0	1	1	1	// Dark Phoenix Helm
+8	17	0	9	0	1	1	1	// Dark Phoenix Armor
+9	17	0	9	0	1	1	1	// Dark Phoenix Pants
+10	17	0	9	0	1	1	1	// Dark Phoenix Gloves
+11	17	0	9	0	1	1	1	// Dark Phoenix Boots
+7	19	0	9	0	1	1	1	// Divine Helm
+8	19	0	9	0	1	1	1	// Divine Armor
+9	19	0	9	0	1	1	1	// Divine Pants
+10	19	0	9	0	1	1	1	// Divine Gloves
+11	19	0	9	0	1	1	1	// Divine Boots
+7	38	0	9	0	1	1	1	// Glorious Mask
+8	38	0	9	0	1	1	1	// Glorious Armor
+9	38	0	9	0	1	1	1	// Glorious Pants
+10	38	0	9	0	1	1	1	// Glorious Gloves
+11	38	0	9	0	1	1	1	// Glorious Boots
+7	41	0	9	0	1	1	1	// Ancient Helm
+8	41	0	9	0	1	1	1	// Ancient Armor
+9	41	0	9	0	1	1	1	// Ancient Pants
+10	41	0	9	0	1	1	1	// Ancient Gloves
+11	41	0	9	0	1	1	1	// Ancient Boots
+6	15	0	9	0	1	1	1	// Grand Soul Shield
+6	16	0	9	0	1	1	1	// Elemental Shield
+5	5	0	9	0	1	1	1	// Legendary Staff
+3	9	0	9	0	1	1	1	// Bill of Balrog
+4	5	0	9	0	1	1	1	// Silver Bow
+0	14	0	9	0	1	1	1	// Lighting Sword
+2	5	0	9	0	1	1	1	// Crystal Sword
+2	9	0	9	0	1	1	1	// Master Scepter
+4	13	0	9	0	1	1	1	// Bluewing Crossbow
+5	15	0	9	0	1	1	1	// Violent Wind Stick
+7	34	0	9	0	1	1	1	// Ashcrow Helm
+8	34	0	9	0	1	1	1	// Ashcrow Armor
+9	34	0	9	0	1	1	1	// Ashcrow Pants
+10	34	0	9	0	1	1	1	// Ashcrow Gloves
+11	34	0	9	0	1	1	1	// Ashcrow Boots
+7	36	0	9	0	1	1	1	// Iris Helm
+8	36	0	9	0	1	1	1	// Iris Armor
+9	36	0	9	0	1	1	1	// Iris Pants
+10	36	0	9	0	1	1	1	// Iris Gloves
+11	36	0	9	0	1	1	1	// Iris Boots
+7	35	0	9	0	1	1	1	// Eclipse Helm
+8	35	0	9	0	1	1	1	// Eclipse Armor
+9	35	0	9	0	1	1	1	// Eclipse Pants
+10	35	0	9	0	1	1	1	// Eclipse Gloves
+11	35	0	9	0	1	1	1	// Eclipse Boots
+7	26	0	9	0	1	1	1	// Adamantine Mask
+8	26	0	9	0	1	1	1	// Adamantine Armor
+9	26	0	9	0	1	1	1	// Adamantine Pants
+10	26	0	9	0	1	1	1	// Adamantine Gloves
+11	26	0	9	0	1	1	1	// Adamantine Boots
+7	41	0	9	0	1	1	1	// Ancient Helm
+8	41	0	9	0	1	1	1	// Ancient Armor
+9	41	0	9	0	1	1	1	// Ancient Pants
+10	41	0	9	0	1	1	1	// Ancient Gloves
+11	41	0	9	0	1	1	1	// Ancient Boots
+8	15	0	9	0	1	1	1	// Storm Crow Armor
+9	15	0	9	0	1	1	1	// Storm Crow Pants
+10	15	0	9	0	1	1	1	// Storm Crow Gloves
+11	15	0	9	0	1	1	1	// Storm Crow Boots
+6	13	0	9	0	1	1	1	// Dragon Shield
+6	14	0	9	0	1	1	1	// Legendary Shield
+14	13	0	0	0	0	0	0	// Jewel of Bless
+14	14	0	0	0	0	0	0	// Jewel of Soul
+14	22	0	0	0	0	0	0	// Jewel of Creation
+14	42	0	0	0	0	0	0	// Jewel of Harmony
+14	16	0	0	0	0	0	0	// Jewel of Life
+14	19	5	7	0	0	0	0	// Devil's Invitation
+13	18	6	8	0	0	0	0	// Invisibility Cloak
+14	28	7	7	0	0	0	0	// Lost Map
+13	51	3	5	0	0	0	0	// Scroll of Blood
+end

@@ -1,0 +1,78 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Blue Heart"		1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	5	7	8	0	0	0	0	// Leather Helm
+8	5	7	8	0	0	0	0	// Leather Armor
+9	5	7	8	0	0	0	0	// Leather Pants
+10	5	7	8	0	0	0	0	// Leather Gloves
+11	5	7	8	0	0	0	0	// Leather Boots
+7	0	7	8	0	0	0	0	// Bronze Helm
+8	0	7	8	0	0	0	0	// Bronze Armor
+9	0	7	8	0	0	0	0	// Bronze Pants
+10	0	7	8	0	0	0	0	// Bronze Gloves
+11	0	7	8	0	0	0	0	// Bronze Boots
+7	6	7	8	0	0	0	0	// Scale Helm
+8	6	7	8	0	0	0	0	// Scale Armor
+9	6	7	8	0	0	0	0	// Scale Pants
+10	6	7	8	0	0	0	0	// Scale Gloves
+11	6	7	8	0	0	0	0	// Scale Boots
+7	8	7	8	0	0	0	0	// Brass Helm
+8	8	7	8	0	0	0	0	// Brass Armor
+9	8	7	8	0	0	0	0	// Brass Pants
+10	8	7	8	0	0	0	0	// Brass Gloves
+11	8	7	8	0	0	0	0	// Brass Boots
+0	3	5	6	0	0	0	0	// Katana
+0	5	5	6	0	0	0	0	// Blade
+0	15	5	6	0	0	0	0	// Giant Sword
+7	2	7	8	0	0	0	0	// Pad Helm
+8	2	7	8	0	0	0	0	// Pad Armor
+9	2	7	8	0	0	0	0	// Pad Pants
+10	2	7	8	0	0	0	0	// Pad Gloves
+11	2	7	8	0	0	0	0	// Pad Boots
+7	4	7	8	0	0	0	0	// Bone Helm
+8	4	7	8	0	0	0	0	// Bone Armor
+9	4	7	8	0	0	0	0	// Bone Pants
+10	4	7	8	0	0	0	0	// Bone Gloves
+11	4	7	8	0	0	0	0	// Bone Boots
+7	7	7	8	0	0	0	0	// Sphinx Mask
+8	7	7	8	0	0	0	0	// Sphinx Armor
+9	7	7	8	0	0	0	0	// Sphinx Pants
+10	7	7	8	0	0	0	0	// Sphinx Gloves
+11	7	7	8	0	0	0	0	// Sphinx Boots
+5	0	5	6	0	0	0	0	// Skull Staff
+5	1	5	6	0	0	0	0	// Angelic Staff
+5	2	5	6	0	0	0	0	// Serpent Staff
+5	3	5	6	0	0	0	0	// Thunder Staff
+7	10	7	8	0	0	0	0	// Vine Helm
+8	10	7	8	0	0	0	0	// Vine Armor
+9	10	7	8	0	0	0	0	// Vine Pants
+10	10	7	8	0	0	0	0	// Vine Gloves
+11	10	7	8	0	0	0	0	// Vine Boots
+7	11	7	8	0	0	0	0	// Silk Helm
+8	11	7	8	0	0	0	0	// Silk Armor
+9	11	7	8	0	0	0	0	// Silk Pants
+10	11	7	8	0	0	0	0	// Silk Gloves
+11	11	7	8	0	0	0	0	// Silk Boots
+7	12	7	8	0	0	0	0	// Wind Helm
+8	12	7	8	0	0	0	0	// Wind Armor
+9	12	7	8	0	0	0	0	// Wind Pants
+10	12	7	8	0	0	0	0	// Wind Gloves
+11	12	7	8	0	0	0	0	// Wind Boots
+4	2	5	6	0	0	0	0	// Elven Bow
+4	3	5	6	0	0	0	0	// Battle Bow
+4	4	5	6	0	0	0	0	// Tiger Bow
+4	5	5	6	0	0	0	0	// Silver Bow
+7	25	7	8	0	0	0	0	// Light Plate Mask
+8	25	7	8	0	0	0	0	// Light Plate Armor
+9	25	7	8	0	0	0	0	// Light Plate Pants
+10	25	7	8	0	0	0	0	// Light Plate Gloves
+11	25	7	8	0	0	0	0	// Light Plate Boots
+2	8	5	6	0	0	0	0	// Battle Scepter
+end

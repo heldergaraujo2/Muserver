@@ -1,0 +1,53 @@
+17:18:27 ============================= START MIX ============================= 
+17:18:27 [Slot 01](Name: Bone Blade, Index: 0022, Level: 15, Dur: 157, Serial: 0028BEA8, Option1: 1, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+17:18:27 [Slot 02](Name: Jewel of Guardian, Index: 7199, Level: 00, Dur: 1, Serial: 0028BDC0, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+17:18:27 [Slot 03](Name: Jewel of Harmony, Index: 7210, Level: 00, Dur: 1, Serial: 0028BDC1, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+17:18:27 [Item380Mix][Failure][hellder][Saffe] - (ChaosSuccessRate: 70, ChaosMoney: 10000000)
+19:10:48 ============================= START CUSTOM MIX ============================= 
+19:10:48 [Slot 07](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028D956, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:10:48 [Slot 01](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028D961, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:10:48 [Slot 05](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028D96A, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:10:48 [Slot 06](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028D96E, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:10:48 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:11:26 ============================= START CUSTOM MIX ============================= 
+19:11:26 [Slot 07](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DD08, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:11:26 [Slot 03](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DCFD, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:11:26 [Slot 02](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DD26, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:11:26 [Slot 01](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DD27, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:11:26 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:12:36 ============================= START CUSTOM MIX ============================= 
+19:12:36 [Slot 07](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DD5A, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:12:36 [Slot 03](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DD59, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:12:36 [Slot 01](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DD60, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:12:36 [Slot 02](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DD61, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:12:36 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:14:47 ============================= START CUSTOM MIX ============================= 
+19:14:47 [Slot 06](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DE38, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:14:47 [Slot 02](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DE3E, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:14:47 [Slot 01](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DE41, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:14:47 [Slot 07](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DE42, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:14:47 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:15:17 ============================= START CUSTOM MIX ============================= 
+19:15:17 [Slot 05](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DE52, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:17 [Slot 01](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DE61, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:17 [Slot 06](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DE5A, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:17 [Slot 07](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DE5F, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:17 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:15:25 ============================= START CUSTOM MIX ============================= 
+19:15:25 [Slot 06](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DE63, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:25 [Slot 01](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DE51, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:25 [Slot 07](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DE5C, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:25 [Slot 05](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DE5E, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:25 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:15:38 ============================= START CUSTOM MIX ============================= 
+19:15:38 [Slot 05](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DE7F, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:38 [Slot 01](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DE7D, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:38 [Slot 06](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DE5B, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:38 [Slot 07](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DE5D, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:38 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)
+19:15:56 ============================= START CUSTOM MIX ============================= 
+19:15:56 [Slot 07](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 0028DE94, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:56 [Slot 01](Name: Wings of Darkness, Index: 6150, Level: 15, Dur: 247, Serial: 0028DE91, Option1: 0, Option2: 1, Option3: 7, NewOpt: 044, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:56 [Slot 05](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 0028DE96, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:56 [Slot 06](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 0028DE98, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+19:15:56 [CustomMix][Success][hellder][Saffe] - (Type: 182, ChaosSuccessRate: 100, ChaosMoney: 100000000)

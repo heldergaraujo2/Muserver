@@ -1,0 +1,17 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//ServerCode   ServerName         ServerAddress      ServerPort       ServerType
+0              "GameServer"       "104.234.224.148"      55901            "SHOW"
+1              "GameServer"       "104.234.224.148"      55902            "SHOW"
+2              "GameServer"       "104.234.224.148"      55903            "SHOW"
+19             "GameServerCS"     "104.234.224.148"      55919            "HIDE"
+//Speed
+23             "GameServer"       "104.234.224.148"      55905            "SHOW"
+24             "GameServer"       "104.234.224.148"      55906            "SHOW"
+29             "GameServerCS"     "104.234.224.148"      55929            "HIDE"
+end

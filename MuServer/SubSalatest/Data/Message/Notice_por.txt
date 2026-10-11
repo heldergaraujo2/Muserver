@@ -1,0 +1,31 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2022 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+//Message                                                            														Type   Count   Opacity   Delay  Red   Green   Blue   Speed   RepeatTime
+//"[ ! ] MuSaffe - Season 6.20 - Um Novo Conceito em Mu Online!"                                                  	 	    0      0       0         0      0     0       0      0       90
+//"[ ! ] Conquiste todos seus itens Jogando! Sem depositar Dinheiro!"                                 		   	 			0      0       0         0      0     0       0      0       120
+//"[ ! ] Dúvidas? Abra um ticket ou utilize nosso Fórum!"                                     				 				0      0       0         0      0     0       0      0       240
+////"[ ! ] Curta e compartilhe a nossa página no Facebook e ganhe brindes!"                                                  	0      0       0         0      0     0       0      0       240
+////"[ ! ] Sistema de Patente com Premiações em WC e GP!" 		                                                         		0      0       0         0      0     0       0      0       240
+//"[ ! ] Sistema de Quest com Premiações Especiais!"                                                        	0      0       0         0      0     0       0      0       240
+//"[ ! ] Seja VIP e ajude a mantermos o nosso Servidor Online!"                                                     	 		0      0       0         0      0     0       0      0       240
+//"[ ! ] Atenção Muzeiros, Dormir não da XP!"                                                                              	0      0       0         0      0     0       0      0       160
+//"[ ! ] Fique online e receba Moedas para conquistar seus itens!"                                                    	0      0       0         0      0     0       0      0       240
+//"[ ! ] STAFF não se responsabiliza em perda de itens!"                                                    		 			0      0       0         0      0     0       0      0       240
+//"[ ! ] Com o novo sistema de duelos, agora você pode apostar valendo itens"                          			 			0      0       0         0      0     0       0      0       240
+//"[ ! ] Mini-Boss e Boss com melhores Drop do Servidor!"	                                                        	 		0      0       0         0      0     0       0      0       240
+//"[ ! ] SEMPRE EXECUTE O LAUNCHER COMO ADMINISTRADOR !"                                                                   	0      0       0         0      0     0       0      0       240
+////"[ ! ] Confira nosso Sistema de Indicação e ganhe seus beneficios!"	                                                 		0      0       0         0      0     0       0      0       240
+//"[ ! ] MuSaffe - O Melhor Servidor Season 6 de Mu Online!"	                                                		 	    0      0       0         0      0     0       0      0       180
+//"[ ! ] Fique de olho no Changelog no forum e fique atualizado sempre"                                		 				0      0       0         0      0     0       0      0       190
+////"[ ! ] DROP - Selupan Set 400."                                		 							    						0      0       0         0      0     0       0      0       210
+////"[ ! ] DROP - Nightmare Weapon 380."                                		 							    				0      0       0         0      0     0       0      0       230
+////"[ ! ] DROP - Medusa Anel e Pendat."                                		 							   					0      0       0         0      0     0       0      0       250
+////"[ ! ] DROP - MiniBoss 380 e TCA~TCL."                                   		 							   				0      0       0         0      0     0       0      0       260
+end

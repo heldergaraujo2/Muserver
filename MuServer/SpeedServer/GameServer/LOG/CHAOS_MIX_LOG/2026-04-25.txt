@@ -1,0 +1,11 @@
+18:33:03 ============================= START MIX ============================= 
+18:33:03 [Slot 01](Name: Sacred Glove, Index: 0032, Level: 06, Dur: 286, Serial: 005852D4, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:33:03 [Slot 02](Name: Sacred Glove, Index: 0032, Level: 06, Dur: 286, Serial: 005852D2, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:33:03 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 005852FD, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:33:03 [ChaosItemMix][Failure][isilva2][Suporte] - (ChaosSuccessRate: 50, ChaosMoney: 500000)
+18:34:44 ============================= START MIX ============================= 
+18:34:44 [Slot 01](Name: Sacred Glove, Index: 0032, Level: 06, Dur: 286, Serial: 00585333, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:34:44 [Slot 02](Name: Sacred Glove, Index: 0032, Level: 06, Dur: 286, Serial: 00585331, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:34:44 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00585396, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:34:44 [Slot 04](Name: Sacred Glove, Index: 0032, Level: 06, Dur: 286, Serial: 0058532F, Option1: 1, Option2: 0, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+18:34:44 [ChaosItemMix][Success][isilva2][Suporte] - (ChaosSuccessRate: 50, ChaosMoney: 500000)

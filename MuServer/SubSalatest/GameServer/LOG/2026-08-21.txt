@@ -1,0 +1,80 @@
+15:30:52 [Obj][13000] AddClient (177.200.39.147)
+15:30:55 [Obj][13000] AddAccount (saffe3)
+15:31:00 [Obj][13000] LogInCharacter (Saffe3)
+15:46:33 [ServerInfo] EventItemBag loaded successfully
+15:47:16 [ServerInfo] EventItemBag loaded successfully
+15:48:10 [ServerInfo] EventItemBag loaded successfully
+15:52:13 [ServerInfo] EventItemBag loaded successfully
+15:52:58 [ServerInfo] EventItemBag loaded successfully
+15:56:50 [Obj][13000] LogOutCharacter (Saffe3)
+15:56:50 [Obj][13000] DelAccount (saffe3)
+15:56:50 [Obj][13000] DelClient (177.200.39.147)
+16:06:11 [ServerInfo] EventItemBag loaded successfully
+16:06:21 [Obj][13001] AddClient (177.200.39.147)
+16:06:22 [Obj][13001] AddAccount (saffe3)
+16:06:24 [Obj][13001] LogInCharacter (Saffe3)
+16:06:59 [ServerInfo] EventItemBag loaded successfully
+16:08:18 [ServerInfo] EventItemBag loaded successfully
+16:08:42 [ServerInfo] EventItemBag loaded successfully
+16:09:15 [ServerInfo] EventItemBag loaded successfully
+16:09:47 [ServerInfo] EventItemBag loaded successfully
+16:10:36 [ServerInfo] Item loaded successfully
+16:11:06 [ServerInfo] EventItemBag loaded successfully
+16:15:29 [ServerInfo] EventItemBag loaded successfully
+16:15:43 [ServerInfo] EventItemBag loaded successfully
+16:16:47 [ServerInfo] EventItemBag loaded successfully
+16:28:51 [ServerInfo] Hack loaded successfully
+16:28:55 [ServerInfo] EventItemBag loaded successfully
+16:29:21 [ServerInfo] EventItemBag loaded successfully
+16:29:43 [ServerInfo] EventItemBag loaded successfully
+16:29:56 [ServerInfo] EventItemBag loaded successfully
+16:36:58 [Obj][13001] LogOutCharacter (Saffe3)
+16:36:58 [Obj][13001] DelAccount (saffe3)
+16:36:58 [Obj][13001] DelClient (177.200.39.147)
+16:44:05 [Obj][13004] AddClient (177.200.39.147)
+16:44:06 [Obj][13004] AddAccount (saffe3)
+16:44:08 [Obj][13004] LogInCharacter (Saffe3)
+16:45:25 [ServerInfo] CashShop loaded successfully
+16:45:25 [ServerInfo] ChaosMix loaded successfully
+16:45:25 [ServerInfo] Character loaded successfully
+16:45:25 [ServerInfo] Command loaded successfully
+16:45:26 [ServerInfo] Common loaded successfully
+16:45:26 [FakeOnline] Loaded successfully
+16:45:26 [ServerInfo] Custom loaded successfully
+16:45:26 [ServerInfo] Discord loaded successfully
+16:45:26 [ServerInfo] Effect loaded successfully
+16:45:26 [ServerInfo] Event loaded successfully
+16:45:26 [ServerInfo] EventItemBag loaded successfully
+16:45:26 [ServerInfo] Hack loaded successfully
+16:45:26 [ServerInfo] Message loaded successfully
+16:45:26 [ServerInfo] Map loaded successfully
+16:45:26 [ServerInfo] Message loaded successfully
+16:45:26 [ServerInfo] Monster loaded successfully
+16:45:26 [ServerInfo] Move loaded successfully
+16:45:26 [ServerInfo] Quest loaded successfully
+16:45:26 [ServerInfo] Shop loaded successfully
+16:45:26 [ServerInfo] Skill loaded successfully
+16:45:26 [ServerInfo] Util loaded successfully
+16:45:26 [ReadBotInfo] BotSystem loaded successfully
+16:53:53 [CustomAttackSkillDebug] Skill: 269 | Delay: 375 ms | Type: 1
+17:04:23 [CustomAttackSkillDebug] Skill: 269 | Delay: 614000 ms | Type: 1
+17:14:06 [CustomAttackSkillDebug] Skill: 269 | Delay: 100547 ms | Type: 1
+17:16:04 [CustomAttackSkillDebug] Skill: 269 | Delay: 116922 ms | Type: 1
+19:02:22 [Obj][13004] LogOutCharacter (Saffe3)
+19:02:22 [Obj][13004] DelAccount (saffe3)
+19:02:22 [Obj][13004] DelClient (177.200.39.147)
+19:02:52 [Obj][13003] AddClient (177.200.39.147)
+19:03:02 [Obj][13003] AddAccount (saffe3)
+19:03:02 [Obj][13003] LogInCharacter (Saffe3)
+21:21:14 [CustomAttackSkillDebug] Skill: 269 | Delay: 14710235 ms | Type: 1
+21:21:33 [Obj][13003] LogOutCharacter (Saffe3)
+21:21:33 [Obj][13003] DelAccount (saffe3)
+21:21:33 [Obj][13003] DelClient (177.200.39.147)
+22:29:44 [Obj][13002] AddClient (177.200.39.147)
+22:29:45 [Obj][13002] AddAccount (ddark)
+22:29:47 [Obj][13002] LogInCharacter (Aredhel)
+22:30:24 [Obj][13002] LogOutCharacter (Aredhel)
+22:30:24 [Obj][13002] DelAccount (ddark)
+22:30:24 [Obj][13002] DelClient (177.200.39.147)
+23:26:21 [Obj][13000] AddClient (45.11.105.148)
+23:26:25 [Obj][13000] DelClient (45.11.105.148)

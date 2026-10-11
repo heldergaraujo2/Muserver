@@ -1,0 +1,309 @@
+[GameServerInfo]
+;==================================================
+; Post Command Settings
+;==================================================
+CommandPostType = 1
+CommandPostItemType = 7
+CommandPostShowServerName = 0
+
+;==================================================
+; Add Point Command Settings
+;==================================================
+CommandAddPointAutoEnable_AL0 = 0
+CommandAddPointAutoEnable_AL1 = 0
+CommandAddPointAutoEnable_AL2 = 0
+CommandAddPointAutoEnable_AL3 = 0
+
+;==================================================
+; Change Command Settings
+;==================================================
+CommandChangeLimit_AL0 = 3
+CommandChangeLimit_AL1 = 3
+CommandChangeLimit_AL2 = 3
+CommandChangeLimit_AL3 = 3
+
+;==================================================
+; Ware Command Settings
+;==================================================
+CommandWareNumber_AL0 = 3
+CommandWareNumber_AL1 = 5
+CommandWareNumber_AL2 = 8
+CommandWareNumber_AL3 = 10
+CommandWareBuyEnable_AL0 = 1
+CommandWareBuyEnable_AL1 = 1
+CommandWareBuyEnable_AL2 = 1
+CommandWareBuyEnable_AL3 = 1
+CommandWareBuyMax_AL0 = 20
+CommandWareBuyMax_AL1 = 20
+CommandWareBuyMax_AL2 = 20
+CommandWareBuyMax_AL3 = 22
+CommandWareBuyCoin1 = 1000
+CommandWareBuyCoin2 = 0
+CommandWareBuyCoin3 = 0
+CommandWareBuyItemIndex = 7182
+CommandWareBuyItemAmount = 5
+;==================================================
+; Reset Command Settings
+;==================================================				
+CommandResetType = 0
+CommandResetAutoEnable_AL0 = 0
+CommandResetAutoEnable_AL1 = 0
+CommandResetAutoEnable_AL2 = 0
+CommandResetAutoEnable_AL3 = 0
+CommandResetCheckItem_AL0 = 0
+CommandResetCheckItem_AL1 = 0
+CommandResetCheckItem_AL2 = 0
+CommandResetCheckItem_AL3 = 0
+CommandResetMove_AL0 = 0
+CommandResetMove_AL1 = 0
+CommandResetMove_AL2 = 0
+CommandResetMove_AL3 = 0
+CommandResetQuest_AL0 = 0
+CommandResetQuest_AL1 = 0
+CommandResetQuest_AL2 = 0
+CommandResetQuest_AL3 = 0
+CommandResetSkill_AL0 = 0
+CommandResetSkill_AL1 = 0
+CommandResetSkill_AL2 = 0
+CommandResetSkill_AL3 = 0
+CommandResetLevel_AL0 = 400
+CommandResetLevel_AL1 = 360
+CommandResetLevel_AL2 = 350
+CommandResetLevel_AL3 = 340
+CommandResetMoney_AL0 = 15000000
+CommandResetMoney_AL1 = 10000000
+CommandResetMoney_AL2 = 10000000
+CommandResetMoney_AL3 = 10000000
+CommandResetCount_AL0 = 0
+CommandResetCount_AL1 = 0
+CommandResetCount_AL2 = 0
+CommandResetCount_AL3 = 0	
+CommandResetLimit_AL0 = 0
+CommandResetLimit_AL1 = 0
+CommandResetLimit_AL2 = 0
+CommandResetLimit_AL3 = 0
+CommandResetLimitDay_AL0 = 0
+CommandResetLimitDay_AL1 = 0
+CommandResetLimitDay_AL2 = 0
+CommandResetLimitDay_AL3 = 0
+CommandResetLimitWek_AL0 = 0
+CommandResetLimitWek_AL1 = 0
+CommandResetLimitWek_AL2 = 0
+CommandResetLimitWek_AL3 = 0
+CommandResetLimitMon_AL0 = 0
+CommandResetLimitMon_AL1 = 0
+CommandResetLimitMon_AL2 = 0
+CommandResetLimitMon_AL3 = 0
+CommandResetStartLevel_AL0 = 1
+CommandResetStartLevel_AL1 = 1
+CommandResetStartLevel_AL2 = 1
+CommandResetStartLevel_AL3 = 1
+CommandResetPoint_AL0 = 500
+CommandResetPoint_AL1 = 600
+CommandResetPoint_AL2 = 700
+CommandResetPoint_AL3 = 800
+CommandResetPointRateDW = 100
+CommandResetPointRateDK = 100
+CommandResetPointRateFE = 100
+CommandResetPointRateMG = 100
+CommandResetPointRateDL = 100
+CommandResetPointRateSU = 100
+CommandResetPointRateRF = 100
+CommandResetKeepDLCommandPoint_AL0 = 0
+CommandResetKeepDLCommandPoint_AL1 = 0
+CommandResetKeepDLCommandPoint_AL2 = 0
+CommandResetKeepDLCommandPoint_AL3 = 0
+
+CommandResetRewardCoin1Value_AL0 = 0
+CommandResetRewardCoin1Value_AL1 = 0
+CommandResetRewardCoin1Value_AL2 = 0
+CommandResetRewardCoin1Value_AL3 = 0
+
+CommandResetRewardCoin2Value_AL0 = 0
+CommandResetRewardCoin2Value_AL1 = 0
+CommandResetRewardCoin2Value_AL2 = 0
+CommandResetRewardCoin2Value_AL3 = 0
+
+CommandResetRewardCoin3Value_AL0 = 0
+CommandResetRewardCoin3Value_AL1 = 0
+CommandResetRewardCoin3Value_AL2 = 0
+CommandResetRewardCoin3Value_AL3 = 0
+
+;==================================================
+; Master Reset Command Settings
+;==================================================
+CommandMasterResetType = 0
+CommandMasterResetCheckItem_AL0 = 0
+CommandMasterResetCheckItem_AL1 = 0
+CommandMasterResetCheckItem_AL2 = 0
+CommandMasterResetCheckItem_AL3 = 0
+CommandMasterResetMove_AL0 = 1
+CommandMasterResetMove_AL1 = 1
+CommandMasterResetMove_AL2 = 1
+CommandMasterResetMove_AL3 = 1
+CommandMasterResetQuest_AL0 = 0
+CommandMasterResetQuest_AL1 = 0
+CommandMasterResetQuest_AL2 = 0
+CommandMasterResetQuest_AL3 = 0
+CommandMasterResetSkill_AL0 = 0
+CommandMasterResetSkill_AL1 = 0
+CommandMasterResetSkill_AL2 = 0
+CommandMasterResetSkill_AL3 = 0
+CommandMasterResetLevel_AL0 = 400
+CommandMasterResetLevel_AL1 = 400
+CommandMasterResetLevel_AL2 = 400
+CommandMasterResetLevel_AL3 = 400
+CommandMasterResetReset_AL0 = 500
+CommandMasterResetReset_AL1 = 500
+CommandMasterResetReset_AL2 = 500
+CommandMasterResetReset_AL3 = 500
+CommandMasterResetMoney_AL0 = 0
+CommandMasterResetMoney_AL1 = 0
+CommandMasterResetMoney_AL2 = 0
+CommandMasterResetMoney_AL3 = 0
+CommandMasterResetCount_AL0 = 1					
+CommandMasterResetCount_AL1 = 1	
+CommandMasterResetCount_AL2 = 1	
+CommandMasterResetCount_AL3 = 1
+CommandMasterResetLimit_AL0 = 0
+CommandMasterResetLimit_AL1 = 0
+CommandMasterResetLimit_AL2 = 0
+CommandMasterResetLimit_AL3 = 0
+CommandMasterResetLimitDay_AL0 = 0
+CommandMasterResetLimitDay_AL1 = 0
+CommandMasterResetLimitDay_AL2 = 0
+CommandMasterResetLimitDay_AL3 = 0
+CommandMasterResetLimitWek_AL0 = 0
+CommandMasterResetLimitWek_AL1 = 0
+CommandMasterResetLimitWek_AL2 = 0
+CommandMasterResetLimitWek_AL3 = 0
+CommandMasterResetLimitMon_AL0 = 0
+CommandMasterResetLimitMon_AL1 = 0
+CommandMasterResetLimitMon_AL2 = 0
+CommandMasterResetLimitMon_AL3 = 0
+CommandMasterResetStartLevel_AL0 = 1
+CommandMasterResetStartLevel_AL1 = 1
+CommandMasterResetStartLevel_AL2 = 1
+CommandMasterResetStartLevel_AL3 = 1
+CommandMasterResetStartReset_AL0 = 0
+CommandMasterResetStartReset_AL1 = 0
+CommandMasterResetStartReset_AL2 = 0
+CommandMasterResetStartReset_AL3 = 0
+CommandMasterResetPoint_AL0 = 500
+CommandMasterResetPoint_AL1 = 500
+CommandMasterResetPoint_AL2 = 500
+CommandMasterResetPoint_AL3 = 500
+CommandMasterResetPointRateDW = 10
+CommandMasterResetPointRateDK = 10
+CommandMasterResetPointRateFE = 10
+CommandMasterResetPointRateMG = 10
+CommandMasterResetPointRateDL = 10
+CommandMasterResetPointRateSU = 10
+CommandMasterResetPointRateRF = 10
+CommandMasterResetRemoveReset_AL0 = 500
+CommandMasterResetRemoveReset_AL1 = 500
+CommandMasterResetRemoveReset_AL2 = 500
+CommandMasterResetRemoveReset_AL3 = 500
+CommandMasterResetRewardCoin1Value_AL0 = 30
+CommandMasterResetRewardCoin1Value_AL1 = 30
+CommandMasterResetRewardCoin1Value_AL2 = 30
+CommandMasterResetRewardCoin1Value_AL3 = 100
+CommandMasterResetRewardCoin2Value_AL0 = 0
+CommandMasterResetRewardCoin2Value_AL1 = 0
+CommandMasterResetRewardCoin2Value_AL2 = 0
+CommandMasterResetRewardCoin2Value_AL3 = 0
+CommandMasterResetRewardCoin3Value_AL0 = 0
+CommandMasterResetRewardCoin3Value_AL1 = 0
+CommandMasterResetRewardCoin3Value_AL2 = 0
+CommandMasterResetRewardCoin3Value_AL3 = 0
+CommandMasterResetRequiredStr = 0
+CommandMasterResetRequiredAgi = 0
+CommandMasterResetRequiredVit = 0
+CommandMasterResetRequiredEne = 0
+CommandMasterResetRequiredCom = 0
+
+;==================================================
+; Marry Command Settings
+;==================================================
+CommandMarryLevel = 150
+CommandMarryCost = 350
+CommandMarryNoticeDelay = 60
+CommandMarryMinTime = 604800
+CommandMarryOnlyGM = 0
+CommandMarryPkMove = 0
+
+;==================================================
+; Command Open WareHouse 
+;==================================================
+CommandOpenWareOnlySafeZone = 1
+
+;==================================================
+; Command Change Class 
+;==================================================
+CommandChangeClassToDW =  0
+CommandChangeClassToDK =  0
+CommandChangeClassToELF = 0
+CommandChangeClassToMG =  0
+CommandChangeClassToDL =  0
+CommandChangeClassToSU =  0
+CommandChangeClassToRF =  0
+
+;==================================================
+; Reward Command Settings
+;==================================================
+CommandRewardMaxType = 3
+CommandRewardMaxValue = 9999
+CommandRewardType1Text = [%s] %s foi prêmiado com %d WCoin(s)!
+CommandRewardType2Text = [%s] %s foi prêmiado com %d Hunt Point(s)!
+CommandRewardType3Text = [%s] %s foi prêmiado com %d Goblin Point(s)!
+
+;==================================================
+; RewardAll Command Settings
+;==================================================
+CommandRewardAllMaxType = 3
+CommandRewardAllMaxValue = 100
+CommandRewardAllType1Text = [%s] Adicionado %d WCoin(s) para todos!
+CommandRewardAllType2Text = [%s] Adicionado %d Hunt Point(s) para todos!
+CommandRewardAllType3Text = [%s] Adicionado %d Goblin Point(s) para todos!
+
+;==================================================
+; Command Rename (Premium)
+;==================================================
+CommandRenameDelay_AL0 = 60
+CommandRenameDelay_AL1 = 60
+CommandRenameDelay_AL2 = 60
+CommandRenameDelay_AL3 = 60
+CommandRenameNeedTicket = 0
+CommandRenameShowMessage = 1
+
+;==================================================
+; Gift Command Settings (/presente) 
+; Dropa um item da EventItemBag Gift!
+;==================================================
+CommandGiftLimit = 0
+
+;==================================================
+; Command Help (/ajuda)
+; Recommended Max 5 monsters
+;==================================================
+CommandHelpMonsterIndex = 97
+CommandHelpMonsterAmount = 1
+
+;==================================================
+; Command Bloc
+;==================================================
+CommandBlocAccShowMessage = 1
+CommandBlocCharShowMessage = 1
+
+;==================================================
+; Command Jewel Pack Settings 
+; Max Size	16
+; Default Value 3
+;==================================================
+CommandJewelPackMaxSize = 3
+
+;==================================================
+; Command TakeOver (seconds)
+;==================================================
+CommandTakeOverTime = 30
+CommandTakeOverMessageBox = 1

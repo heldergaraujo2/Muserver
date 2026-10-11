@@ -1,0 +1,33 @@
+21:30:59 [EVENT LOG] Start
+21:31:01 [Guild Reign] DataLoad Send
+21:31:01 [Guild Reign] DataLoad OK
+21:31:01 [Guild Reign] Map(6) Start Npc Error #2
+21:31:01 [Guild Reign] Map(113) Start Npc Error #2
+21:35:01 [CustomQuiz] Start
+21:35:19 [CustomQuiz] Winner: PVPMG
+21:35:20 [CustomQuiz] Finish
+21:46:01 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:01:02 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 0 X: 150 Y: 127)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 23 Y: 17)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 20 Y: 60)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 49 Y: 94)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 103 Y: 51)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 236 Y: 18)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 230 Y: 71)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 83 Y: 143)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 147 Y: 168)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 176 Y: 177)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 124 Y: 206)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 28 Y: 228)
+22:16:03 [ MarlonMove ] Map: 0, X: 137 Y: 87
+22:31:04 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:35:00 [CustomQuiz] Start
+22:35:16 [CustomQuiz] Winner: PVPBK
+22:35:16 [CustomQuiz] Finish
+22:46:05 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:58:42 [Guild Reign] DataLoad Send
+22:58:42 [Guild Reign] DataLoad OK
+22:58:42 [Guild Reign] Map(6) Start Npc Error #2
+22:58:42 [Guild Reign] Map(113) Start Npc Error #2
+23:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225

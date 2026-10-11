@@ -1,0 +1,11 @@
+20:13:23 [SocketManager] WSAAccept() failed with error: 10061
+20:59:50 Account hellder logged with global password!
+21:00:21 Account hellder logged with global password!
+21:02:01 Account videodv logged with global password!
+22:00:38 [ServerManager][0] DelServer (127.0.0.1)
+22:00:38 [ServerManager][1] DelServer (127.0.0.1)
+22:01:36 [ServerManager][3] AddServer (127.0.0.1)
+22:01:36 [ServerManager][3] ServerInfo (Geral) (55901) (0)
+22:01:42 [ServerManager][0] AddServer (127.0.0.1)
+22:01:42 [ServerManager][0] ServerInfo (Geral) (55919) (19)
+22:12:24 Account hellder logged with global password!

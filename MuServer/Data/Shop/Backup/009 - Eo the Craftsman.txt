@@ -1,0 +1,23 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+//Shop: 009 - Eo the Craftsman
+0
+//Group Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 SocketBonus  Duration   Info
+4	17	9	86	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Celestial Bow
+4	2	9	38	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Elven Bow
+4	5	9	58	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Silver Bow
+4	2	9	38	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Elven Bow
+4	30	9	50	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Light Crossbow
+4	43	9	38	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Elven Bow
+4	109	0	255	15	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Arrow
+end
+
+//4	2	9	38	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Elven Bow
+//4	5	9	58	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Silver Bow
+//4	11	9	50	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Light Crossbow
+//4	12	9	55	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Serpent Crossbow
+//4	13	9	66	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Bluewing Crossbow
+//4	14	9	70	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Aquagold Crossbow
+//4	16	9	82	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Saint Crossbow
+//4	3	9	46	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Battle Bow
+//4	18	9	210	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Divine Crossbow
+//4	10	9	41	1	1	1	32	0	0	0	255	255	255	255	255	255	     0          //Arquebus

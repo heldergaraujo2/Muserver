@@ -1,0 +1,362 @@
+10:37:15 [ServerInfo] CashShop loaded successfully
+10:37:16 [ServerInfo] ChaosMix loaded successfully
+10:37:16 [ServerInfo] Character loaded successfully
+10:37:16 [ServerInfo] Command loaded successfully
+10:37:16 [ServerInfo] Common loaded successfully
+10:37:16 [FakeOnline] Loaded successfully
+10:37:16 [ServerInfo] Custom loaded successfully
+10:37:16 [ServerInfo] Discord loaded successfully
+10:37:16 [ServerInfo] Effect loaded successfully
+10:37:16 [ServerInfo] Event loaded successfully
+10:37:16 [ServerInfo] EventItemBag loaded successfully
+10:37:16 [ServerInfo] Hack loaded successfully
+10:37:16 [ServerInfo] Message loaded successfully
+10:37:16 [ServerInfo] Map loaded successfully
+10:37:16 [ServerInfo] Message loaded successfully
+10:37:16 [ServerInfo] Monster loaded successfully
+10:37:16 [ServerInfo] Move loaded successfully
+10:37:16 [ServerInfo] Quest loaded successfully
+10:37:16 [ServerInfo] Shop loaded successfully
+10:37:16 [ServerInfo] Skill loaded successfully
+10:37:16 [ServerInfo] Util loaded successfully
+10:37:16 [ReadBotInfo] BotSystem loaded successfully
+10:37:26 [Discord] Connection successfully
+10:37:27 [Obj][13000] AddClient (201.77.168.50)
+10:37:31 [Obj][13000] AddAccount (gnomio)
+10:37:33 [Obj][13000] LogInCharacter (FuryBK)
+10:38:38 [Obj][13001] AddClient (177.200.39.9)
+10:38:41 [Obj][13001] AddAccount (hellder)
+10:38:50 [Obj][13001] LogInCharacter (Saffe)
+10:39:35 [Obj][13000] LogOutCharacter (FuryBK)
+10:39:35 [Obj][13000] DelAccount (gnomio)
+10:39:35 [Obj][13000] DelClient (201.77.168.50)
+10:40:13 [Obj][13000] AddClient (201.77.168.50)
+10:40:26 [Obj][13000] AddAccount (pvp03)
+10:40:30 [Obj][13000] LogInCharacter (PVPELF01)
+10:46:23 [pvp03][PVPELF01] Kill [hellder][Saffe]
+11:40:50 [Obj][13000] LogOutCharacter (PVPELF01)
+11:40:53 [Obj][13000] LogInCharacter (PVPMG01)
+11:44:37 [Obj][13000] LogOutCharacter (PVPMG01)
+11:44:37 [Obj][13000] DelAccount (pvp03)
+11:44:37 [Obj][13000] DelClient (201.77.168.50)
+11:45:09 [Obj][13000] AddClient (201.77.168.50)
+11:45:10 [Obj][13000] AddAccount (pvp03)
+11:45:12 [Obj][13000] LogInCharacter (PVPMG01)
+11:45:26 [Obj][13000] LogOutCharacter (PVPMG01)
+11:45:26 [Obj][13000] DelAccount (pvp03)
+11:45:26 [Obj][13000] DelClient (201.77.168.50)
+11:45:49 [Obj][13000] AddClient (201.77.168.50)
+11:45:50 [Obj][13000] AddAccount (pvp03)
+11:45:53 [Obj][13000] LogInCharacter (PVPMG01)
+12:09:13 [ServerInfo] Item loaded successfully
+12:25:57 [ServerInfo] Item loaded successfully
+12:29:44 [ServerInfo] Item loaded successfully
+12:36:45 [Obj][13001] LogOutCharacter (Saffe)
+12:36:45 [Obj][13001] DelAccount (hellder)
+12:36:45 [Obj][13001] DelClient (177.200.39.9)
+12:37:06 [Obj][13001] AddClient (177.200.39.9)
+12:37:11 [Obj][13001] AddAccount (hellder)
+12:37:17 [Obj][13001] DelAccount (hellder)
+12:37:17 [Obj][13001] DelClient (177.200.39.9)
+12:37:19 [Obj][13002] AddClient (177.200.39.9)
+12:37:26 [Obj][13002] AddAccount (hellder)
+12:37:27 [Obj][13002] LogInCharacter (Saffe)
+12:45:25 [Obj][13002] LogOutCharacter (Saffe)
+12:45:25 [Obj][13002] DelAccount (hellder)
+12:45:25 [Obj][13002] DelClient (177.200.39.9)
+12:47:04 [ServerInfo] ChaosMix loaded successfully
+12:47:45 [Obj][13001] AddClient (177.200.39.9)
+12:47:46 [Obj][13001] AddAccount (hellder)
+12:47:48 [Obj][13001] LogInCharacter (Saffe)
+12:54:06 [Obj][13000] LogOutCharacter (PVPMG01)
+12:54:09 [Obj][13000] LogInCharacter (PVPBK01)
+12:57:59 [Obj][13000] LogOutCharacter (PVPBK01)
+12:57:59 [Obj][13000] DelAccount (pvp03)
+12:57:59 [Obj][13000] DelClient (201.77.168.50)
+12:58:04 [Obj][13002] AddClient (201.77.168.50)
+12:58:07 [Obj][13002] AddAccount (gnomio)
+12:58:09 [Obj][13002] LogInCharacter (FuryBK)
+12:58:27 [Obj][13001] LogOutCharacter (Saffe)
+12:58:27 [Obj][13001] DelAccount (hellder)
+12:58:27 [Obj][13001] DelClient (177.200.39.9)
+12:58:29 [Obj][13000] AddClient (177.200.39.9)
+12:58:32 [Obj][13000] AddAccount (videodv)
+12:58:34 [Obj][13000] LogInCharacter (AdmSaffe)
+13:03:03 [gnomio][FuryBK] Kill [videodv][AdmSaffe]
+13:04:12 [videodv][AdmSaffe] Kill [gnomio][FuryBK]
+13:04:31 [Obj][13000] LogOutCharacter (AdmSaffe)
+13:04:31 [Obj][13000] DelAccount (videodv)
+13:04:31 [Obj][13000] DelClient (177.200.39.9)
+13:04:33 [Obj][13001] AddClient (177.200.39.9)
+13:04:37 [Obj][13001] AddAccount (pvp02)
+13:04:43 [Obj][13001] DelAccount (pvp02)
+13:04:43 [Obj][13001] DelClient (177.200.39.9)
+13:04:45 [Obj][13000] AddClient (177.200.39.9)
+13:04:49 [Obj][13000] AddAccount (pvp01)
+13:05:01 [Obj][13000] LogInCharacter (PVPBK)
+13:05:43 [ServerInfo] Monster loaded successfully
+13:05:43 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+13:06:54 [FakeOnline] Loaded successfully
+13:06:54 [ServerInfo] Custom loaded successfully
+13:07:33 [FAKE ONLINE LOG] Start
+13:07:33 [ServerInfo] CashShop loaded successfully
+13:07:33 [ServerInfo] ChaosMix loaded successfully
+13:07:33 [ServerInfo] Character loaded successfully
+13:07:33 [FakeOnline] Loaded successfully
+13:07:33 [ServerInfo] Custom loaded successfully
+13:07:33 [ServerInfo] Command loaded successfully
+13:07:33 [ServerInfo] Common loaded successfully
+13:07:33 [ServerInfo] Discord loaded successfully
+13:07:33 [ServerInfo] Effect loaded successfully
+13:07:33 [ServerInfo] Event loaded successfully
+13:07:33 [ServerInfo] EventItemBag loaded successfully
+13:07:33 [ServerInfo] Hack loaded successfully
+13:07:33 [ServerInfo] Item loaded successfully
+13:07:33 [ServerInfo] Message loaded successfully
+13:07:33 [ServerInfo] Map loaded successfully
+13:07:33 [ServerInfo] Terrain loaded successfully
+13:07:33 [ServerInfo] Monster loaded successfully
+13:07:33 [ServerInfo] Move loaded successfully
+13:07:33 [ServerInfo] Quest loaded successfully
+13:07:33 [ServerInfo] Script loaded successfully
+13:07:33 [ServerInfo] Shop loaded successfully
+13:07:33 [ServerInfo] Skill loaded successfully
+13:07:33 [ServerInfo] Util loaded successfully
+13:07:33 [ReadBotInfo] BotSystem loaded successfully
+13:07:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 198, Y: 114)
+13:07:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 144)
+13:07:34 [ServerInfo] Custom Attack offline restored successfully
+13:07:34 [ServerInfo] Custom Store offline restored successfully
+13:07:34 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+13:07:35 [Discord] Connection successfully
+13:07:45 [Obj][13000] AddClient (201.77.168.50)
+13:07:45 [Obj][13001] AddClient (177.200.39.9)
+13:07:55 [Obj][13000] AddAccount (gnomio)
+13:07:55 [Obj][13001] AddAccount (pvp01)
+13:07:55 [Obj][13001] LogInCharacter (PVPBK)
+13:07:55 [Obj][13000] LogInCharacter (FuryBK)
+13:08:18 [BotBuffer] CharName: FuryBK - ADD_GREATER_LIFE Time: 720
+13:08:28 [BotBuffer] CharName: FuryBK - ADD_SKILL_MANA Time: 720
+13:08:55 [Obj][13002] AddClient (177.200.39.9)
+13:09:14 [Obj][13002] DelClient (177.200.39.9)
+13:09:15 [Obj][13003] AddClient (177.200.39.9)
+13:09:18 [Obj][13003] DelClient (177.200.39.9)
+13:10:01 [FAKE ONLINE LOG] Start
+13:10:01 [ServerInfo] CashShop loaded successfully
+13:10:01 [ServerInfo] ChaosMix loaded successfully
+13:10:01 [ServerInfo] Character loaded successfully
+13:10:01 [FakeOnline] Loaded successfully
+13:10:01 [ServerInfo] Custom loaded successfully
+13:10:01 [ServerInfo] Command loaded successfully
+13:10:01 [ServerInfo] Common loaded successfully
+13:10:01 [ServerInfo] Discord loaded successfully
+13:10:01 [ServerInfo] Effect loaded successfully
+13:10:01 [ServerInfo] Event loaded successfully
+13:10:01 [ServerInfo] EventItemBag loaded successfully
+13:10:01 [ServerInfo] Hack loaded successfully
+13:10:01 [ServerInfo] Item loaded successfully
+13:10:01 [ServerInfo] Message loaded successfully
+13:10:01 [ServerInfo] Map loaded successfully
+13:10:01 [ServerInfo] Terrain loaded successfully
+13:10:01 [ServerInfo] Monster loaded successfully
+13:10:01 [ServerInfo] Move loaded successfully
+13:10:01 [ServerInfo] Quest loaded successfully
+13:10:01 [ServerInfo] Script loaded successfully
+13:10:01 [ServerInfo] Shop loaded successfully
+13:10:01 [ServerInfo] Skill loaded successfully
+13:10:01 [ServerInfo] Util loaded successfully
+13:10:01 [ReadBotInfo] BotSystem loaded successfully
+13:10:02 [ServerInfo] Custom Attack offline restored successfully
+13:10:02 [ServerInfo] Custom Store offline restored successfully
+13:10:02 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+13:10:27 [Obj][13000] AddClient (201.77.168.50)
+13:10:28 [Obj][13001] AddClient (177.200.39.9)
+13:10:37 [Obj][13000] AddAccount (gnomio)
+13:10:38 [Obj][13001] AddAccount (pvp01)
+13:10:38 [Obj][13000] LogInCharacter (FuryBK)
+13:10:38 [Obj][13001] LogInCharacter (PVPBK)
+13:11:04 [Discord] Connection successfully
+13:11:08 [Obj][13002] AddClient (177.200.39.9)
+13:11:09 [Obj][13002] AddAccount (hellder)
+13:11:11 [Obj][13002] LogInCharacter (Saffe)
+13:14:28 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:14:28 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:14:30 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:14:32 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:14:35 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:14:37 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:14:40 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:14:43 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:16:44 Flood Packet: Index: 13001 Head: 0XF3 Sub: 0XD0
+13:19:10 [gnomio][FuryBK] Kill [pvp01][PVPBK]
+13:19:22 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:19:22 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:19:24 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:19:26 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:19:31 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:19:38 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:19:43 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:21:14 [gnomio][FuryBK] Kill [pvp01][PVPBK]
+13:21:29 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:21:29 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:21:32 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:21:34 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:21:38 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:21:40 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:21:45 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:23:03 [ServerInfo] Effect loaded successfully
+13:25:08 [BotBuffer] CharName: FuryBK -ADD_GREATER_DEFENSE Time: 720
+13:25:08 [BotBuffer] CharName: FuryBK - ADD_GREATER_DAMAGE Time: 720
+13:25:10 [BotBuffer] CharName: FuryBK - ADD_SKILL_MANA Time: 720
+13:25:12 [BotBuffer] CharName: FuryBK - ADD_GREATER_LIFE Time: 720
+13:25:15 [BotBuffer] CharName: FuryBK - ADD_DAMAGE_REFLECT Time: 720
+13:25:22 [BotBuffer] CharName: FuryBK - ADD_CRITICAL_DAMAGE Time: 720
+13:25:25 [BotBuffer] CharName: FuryBK - ADD_FITNESS Time: 720
+13:26:16 [hellder][Saffe] Kill [gnomio][FuryBK]
+13:26:30 [pvp01][PVPBK] Kill [hellder][Saffe]
+13:27:39 [hellder][Saffe] Kill [gnomio][FuryBK]
+13:27:48 [BotBuffer] CharName: FuryBK - ADD_CRITICAL_DAMAGE Time: 720
+13:27:52 [BotBuffer] CharName: FuryBK - ADD_FITNESS Time: 720
+13:31:56 [gnomio][FuryBK] Kill [pvp01][PVPBK]
+13:32:25 [hellder][Saffe] Kill [gnomio][FuryBK]
+13:33:45 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:33:45 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:33:47 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:33:49 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:33:53 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:33:55 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:33:57 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:34:40 [ServerInfo] Effect loaded successfully
+13:35:09 [gnomio][FuryBK] Kill [pvp01][PVPBK]
+13:35:45 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:35:45 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:35:46 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:35:48 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:35:52 [BotBuffer] CharName: PVPBK - ADD_GREATER_LIFE Time: 720
+13:35:56 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:35:59 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:36:01 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:36:31 [gnomio][FuryBK] Kill [pvp01][PVPBK]
+13:36:49 [BotBuffer] CharName: PVPBK -ADD_GREATER_DEFENSE Time: 720
+13:36:49 [BotBuffer] CharName: PVPBK - ADD_GREATER_DAMAGE Time: 720
+13:36:51 [BotBuffer] CharName: PVPBK - ADD_SKILL_MANA Time: 720
+13:36:54 [BotBuffer] CharName: PVPBK - ADD_DAMAGE_REFLECT Time: 720
+13:36:56 [BotBuffer] CharName: PVPBK - ADD_CRITICAL_DAMAGE Time: 720
+13:37:04 [BotBuffer] CharName: PVPBK - ADD_FITNESS Time: 720
+13:44:17 [Obj][13000] LogOutCharacter (FuryBK)
+13:44:17 [Obj][13000] DelAccount (gnomio)
+13:44:17 [Obj][13000] DelClient (201.77.168.50)
+13:44:47 [Obj][13000] AddClient (201.77.168.50)
+13:44:49 [Obj][13000] AddAccount (gnomio)
+13:44:52 [Obj][13000] LogInCharacter (FuryBK)
+13:58:05 [Obj][13000] LogOutCharacter (FuryBK)
+13:58:05 [Obj][13000] DelAccount (gnomio)
+13:58:05 [Obj][13000] DelClient (201.77.168.50)
+13:59:50 [Obj][13000] AddClient (200.25.57.15)
+13:59:51 [Obj][13000] AddAccount (gnomio)
+13:59:53 [Obj][13000] LogInCharacter (FuryBK)
+14:00:35 [Obj][13000] LogOutCharacter (FuryBK)
+14:00:35 [Obj][13000] DelAccount (gnomio)
+14:00:35 [Obj][13000] DelClient (200.25.57.15)
+14:00:55 [Obj][13000] AddClient (200.25.57.15)
+14:00:56 [Obj][13000] AddAccount (gnomio)
+14:01:00 [Obj][13000] LogInCharacter (FuryBK)
+14:01:55 [Obj][13003] AddClient (201.77.168.50)
+14:01:55 [Obj][13003] DelClient (201.77.168.50)
+14:01:55 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+14:01:55 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+15:26:34 [Obj][13002] LogOutCharacter (Saffe)
+15:26:34 [Obj][13002] DelAccount (hellder)
+15:26:34 [Obj][13002] DelClient (177.200.39.9)
+15:26:35 [Obj][13001] LogOutCharacter (PVPBK)
+15:26:35 [Obj][13001] DelAccount (pvp01)
+15:26:35 [Obj][13001] DelClient (177.200.39.9)
+16:52:49 [Obj][13000] LogOutCharacter (FuryBK)
+16:52:49 [Obj][13000] DelAccount (gnomio)
+16:52:49 [Obj][13000] DelClient (200.25.57.15)
+16:52:56 [Obj][13003] AddClient (200.25.57.15)
+16:53:26 [Obj][13003] DelClient (200.25.57.15)
+16:53:26 Response error after connection causes conclusion [13003][][][200.25.57.15]
+16:53:56 [Obj][13002] AddClient (200.25.57.15)
+16:54:06 [Obj][13002] AddAccount (gnomio)
+16:54:06 [Obj][13002] LogInCharacter (FuryBK)
+16:54:56 [Obj][13001] AddClient (201.77.168.50)
+16:54:56 [Obj][13001] DelClient (201.77.168.50)
+16:54:56 [Obj][13000] AddClient (201.77.168.50)
+16:54:56 [Obj][13000] DelClient (201.77.168.50)
+16:54:56 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:19:05 [Obj][13002] LogOutCharacter (FuryBK)
+18:19:05 [Obj][13002] DelAccount (gnomio)
+18:19:05 [Obj][13002] DelClient (200.25.57.15)
+18:19:12 [Obj][13003] AddClient (200.25.57.15)
+18:19:43 [Obj][13003] DelClient (200.25.57.15)
+18:19:43 Response error after connection causes conclusion [13003][][][200.25.57.15]
+18:20:13 [Obj][13001] AddClient (200.25.57.15)
+18:20:23 [Obj][13001] AddAccount (gnomio)
+18:20:23 [Obj][13001] LogInCharacter (FuryBK)
+18:21:13 [Obj][13000] AddClient (201.77.168.50)
+18:21:13 [Obj][13000] DelClient (201.77.168.50)
+18:21:13 [Obj][13002] AddClient (201.77.168.50)
+18:21:13 [Obj][13002] DelClient (201.77.168.50)
+18:21:13 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:22:56 [Obj][13001] LogOutCharacter (FuryBK)
+18:22:56 [Obj][13001] DelAccount (gnomio)
+18:22:56 [Obj][13001] DelClient (200.25.57.15)
+18:23:03 [Obj][13003] AddClient (200.25.57.15)
+18:23:34 [Obj][13003] DelClient (200.25.57.15)
+18:23:34 Response error after connection causes conclusion [13003][][][200.25.57.15]
+18:23:34 [Obj][13000] AddClient (201.77.168.50)
+18:23:34 [Obj][13000] DelClient (201.77.168.50)
+18:23:34 [Obj][13002] AddClient (201.77.168.50)
+18:23:34 [Obj][13002] DelClient (201.77.168.50)
+18:23:34 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:24:04 [Obj][13001] AddClient (200.25.57.15)
+18:24:14 [Obj][13001] AddAccount (gnomio)
+18:24:14 [Obj][13001] LogInCharacter (FuryBK)
+18:25:04 [Obj][13003] AddClient (201.77.168.50)
+18:25:04 [Obj][13003] DelClient (201.77.168.50)
+18:25:04 [Obj][13000] AddClient (201.77.168.50)
+18:25:04 [Obj][13000] DelClient (201.77.168.50)
+18:25:04 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:39:42 [Obj][13002] AddClient (200.25.57.15)
+18:39:49 [Obj][13002] AddAccount (pvp03)
+18:39:53 [Obj][13002] LogInCharacter (PVPDL01)
+18:40:42 [Obj][13003] AddClient (201.77.168.50)
+18:40:42 [Obj][13003] DelClient (201.77.168.50)
+18:40:42 [Obj][13000] AddClient (201.77.168.50)
+18:40:42 [Obj][13000] DelClient (201.77.168.50)
+18:40:42 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:41:34 [Obj][13002] LogOutCharacter (PVPDL01)
+18:41:38 [Obj][13002] LogInCharacter (PVPDL01)
+18:42:47 [Obj][13002] LogOutCharacter (PVPDL01)
+18:42:47 [Obj][13002] DelAccount (pvp03)
+18:42:47 [Obj][13002] DelClient (200.25.57.15)
+18:42:47 [Obj][13003] AddClient (201.77.168.50)
+18:42:47 [Obj][13003] DelClient (201.77.168.50)
+18:42:47 [Obj][13000] AddClient (201.77.168.50)
+18:42:47 [Obj][13000] DelClient (201.77.168.50)
+18:42:47 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:42:49 [Obj][13004] AddClient (200.25.57.15)
+18:42:50 [Obj][13004] AddAccount (pvp03)
+18:42:52 [Obj][13004] LogInCharacter (PVPDL01)
+18:43:49 [Obj][13002] AddClient (201.77.168.50)
+18:43:49 [Obj][13002] DelClient (201.77.168.50)
+18:43:49 [Obj][13003] AddClient (201.77.168.50)
+18:43:49 [Obj][13003] DelClient (201.77.168.50)
+18:43:49 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:44:10 [Obj][13004] LogOutCharacter (PVPDL01)
+18:44:10 [Obj][13004] DelAccount (pvp03)
+18:44:10 [Obj][13004] DelClient (200.25.57.15)
+18:44:10 [Obj][13000] AddClient (201.77.168.50)
+18:44:10 [Obj][13000] DelClient (201.77.168.50)
+18:44:10 [Obj][13002] AddClient (201.77.168.50)
+18:44:10 [Obj][13002] DelClient (201.77.168.50)
+18:44:10 [AntiFlood] SYN FLOOD attack(201.77.168.50)
+18:44:51 [Obj][13001] LogOutCharacter (FuryBK)
+18:44:51 [Obj][13001] DelAccount (gnomio)
+18:44:51 [Obj][13001] DelClient (200.25.57.15)
+18:44:51 [Obj][13003] AddClient (201.77.168.50)
+18:44:51 [Obj][13003] DelClient (201.77.168.50)
+18:44:51 [Obj][13004] AddClient (201.77.168.50)
+18:44:51 [Obj][13004] DelClient (201.77.168.50)
+18:44:51 [AntiFlood] SYN FLOOD attack(201.77.168.50)

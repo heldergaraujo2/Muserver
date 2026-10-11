@@ -1,0 +1,35 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// - ItemType
+//	0: Cloak without Strip
+//	1: Cloak with Strip
+// PS: Add the Cloak in the CustomWing.txt before (Model Type 1)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	#Index		#ItemIndex	#ItemType	#CloakName			#StripName
+        0               6424            1               "KF_Death_clka.tga" 	        "KF_Death_clkb.tga"
+        1               6416            1               "KF_darklordwing4de.tga"        "KF_darklordwing4dd.tga"
+        2               6418            0               "ragefighterwing4db.tga"        "ragefighterwing4da.tga"
+        3               6429            0               "US_AdmangtoCloak_02.tga"       ""
+        4               6435            0               "CloakoflimiteNH02.tga"         ""
+        5               6436            0               "WingGL3NG001.tga"              ""
+        6               6437            0               "US_growlancerwing4db.tga"      ""
+        7               6442            0               "kundun_purewhite2.tga"         ""
+        8               6443            0               "kundun_innocence2.tga"         ""
+        9               6444            0               "kundun_sparkle3.tga"           ""
+        10              6445            0               "kundun_resplendent_5.tga"      ""
+        11              6446            0               "Ironcloak2.tga"                ""
+        12              6447            0               "BlackCloak_3.tga"              ""
+        13              6448            0               "Desperatecloak3.tga"           ""
+        14              6449            0               "Hatredcloak_3.tga"             ""
+        15              6454            0               "Fifth_Darklord_cape_03.tga"    ""
+        16              6456            0               "Fifth_Rage_Cape_02.tga"        ""
+        17              6466            0               "capesnowlucasnuut02.tga"        ""
+        18              6467            1               "CkPDMKRD260855.tga"        "CkPDMKRD260855.tga"
+        19              6469            0               "MtLghHalkDcMaker.tga"        ""
+end

@@ -1,0 +1,26 @@
+19:48:40 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+19:49:12 [CommandMake][hellder][Saffe] Section: 13, Type: 23, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:49:17 [CommandMake][hellder][Saffe] Section: 13, Type: 13, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:50:17 [CommandMake][hellder][Saffe] Section: 13, Type: 24, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:51:02 [Command Clear Iventory] Use for:[hellder][Saffe]
+19:51:04 [CommandMake][hellder][Saffe] Section: 13, Type: 24, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:53:21 [CommandMake][hellder][Saffe] Section: 13, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:55:25 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+21:53:32 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 1)
+22:38:11 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 1)
+22:38:27 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+22:46:54 [CommandReAdd][pvp01][PVPMG] - OK
+22:47:04 [CommandAddPoint][pvp01][PVPMG] - (Type: 3, Amount: 485)
+22:47:09 [CommandAddPoint][pvp01][PVPMG] - (Type: 2, Amount: 9985)
+22:47:14 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 26985)
+22:47:19 [CommandAddPoint][pvp01][PVPMG] - (Type: 1, Amount: 12589)
+22:48:34 [CommandReAdd][pvp01][PVPMG] - OK
+22:48:38 [CommandAddPoint][pvp01][PVPMG] - (Type: 3, Amount: 485)
+22:48:42 [CommandAddPoint][pvp01][PVPMG] - (Type: 2, Amount: 9985)
+22:48:50 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 25985)
+22:48:54 [CommandAddPoint][pvp01][PVPMG] - (Type: 1, Amount: 13589)
+22:53:14 [CommandReAdd][pvp01][PVPMG] - OK
+22:53:19 [CommandAddPoint][pvp01][PVPMG] - (Type: 3, Amount: 485)
+22:53:25 [CommandAddPoint][pvp01][PVPMG] - (Type: 2, Amount: 9985)
+22:53:34 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 24985)
+22:53:38 [CommandAddPoint][pvp01][PVPMG] - (Type: 1, Amount: 14589)

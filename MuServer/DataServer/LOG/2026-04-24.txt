@@ -1,0 +1,16 @@
+07:36:39 [ServerManager][0] AddServer (127.0.0.1)
+07:36:39 [ServerManager][0] ServerInfo (Speed) (55902) (1)
+23:38:14 [SocketManager] WSAAccept() failed with error: 10061
+23:38:16 [SocketManager] WSAAccept() failed with error: 10061
+23:38:44 [SocketManager] WSAAccept() failed with error: 10061
+23:39:17 [SocketManager] WSAAccept() failed with error: 10061
+23:39:18 [SocketManager] WSAAccept() failed with error: 10061
+23:39:22 [SocketManager] WSAAccept() failed with error: 10061
+23:39:28 [SocketManager] WSAAccept() failed with error: 10061
+23:39:30 [SocketManager] WSAAccept() failed with error: 10061
+23:39:36 [SocketManager] WSAAccept() failed with error: 10061
+23:39:39 [SocketManager] WSAAccept() failed with error: 10061
+23:39:39 [SocketManager] WSAAccept() failed with error: 10061
+23:39:41 [SocketManager] WSAAccept() failed with error: 10061
+23:39:44 [SocketManager] WSAAccept() failed with error: 10061
+23:39:45 [SocketManager] WSAAccept() failed with error: 10061

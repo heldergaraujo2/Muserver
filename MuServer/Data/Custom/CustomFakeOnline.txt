@@ -1,0 +1,36 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// ResetAuto
+//  0: Disable automatic reset system
+//  1: Enable automatic reset system
+//
+// GateNumber: 
+//  Gate where the player should go if moved to another map.(example lorencia main gate)
+//
+// ReturnTime:
+//  Time in minutes to return to start coordenaties. 
+//
+// PickItem:
+//  Pick Excellent/Ancient/Jewels items. 
+//
+// PartyMode 
+//  0: Disabled 
+//  1: Accept Party
+//  2: Request party
+//  3: Request party to fake players only
+// 
+//Account   Password   CharacterName   Skill   Buff1   Buff2   Buff3   ResetAuto  GateNumber  MapPosX   MapPosY   AttackRange   MoveRange   ReturnTime   PickItem   PvpMode   PartyMode   DeathMessage
+"2020"  	"021464"     "Cavaleiro"	17     16      -1      -1      0          554        120       33       0              5           1            0          1         1           0
+"2021"  	"021464"    "Taurus"        17     16      -1      -1      0          554        120       33       0              5           1            0          1         1           1
+"2023"  	"021464"      "SEMPAI"      17     16      -1      -1      0          554        120       33       0              5           1            0          1         1           4
+"2024"  	"021464"    "SKILL"         17     16      -1      -1      0          554        120       33       0              5           1            0          1         1           5
+"2025"  	"021464"    "ONLINE"	    17     77      -1      -1      0          554        120       33       0              5           1            0          1         1           6
+"2026"  	"021464"    "DOIDO"	        17     77      -1      -1      0          554        120       33       0              5           1            0          1         1           7
+"2027"  	"021464"    "MALUCO"	    17     77      -1      -1      0          554        120       33       0              5           1            0          1         1           8
+"2028"  	"021464"      "TIMAO"       17     -1      -1      -1      0          554        120       33       0              5           1            0          1         1           9
+"2029"  	"021464"    "BRUNO"         17     -1      -1      -1      0          554        120       33       0              5           1            0          1         1           10

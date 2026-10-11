@@ -1,0 +1,250 @@
+11:53:05 [ServerInfo] Item loaded successfully
+11:53:56 [Obj][13001] AddClient (177.200.36.221)
+11:53:57 [Obj][13001] AddAccount (hellder)
+11:54:03 [Obj][13001] LogInCharacter (Saffe)
+11:55:00 [Obj][13003] AddClient (177.200.36.221)
+11:55:03 [Obj][13003] AddAccount (pvp02)
+11:55:05 [Obj][13003] LogInCharacter (PVPRF)
+12:00:20 [Obj][13001] LogOutCharacter (Saffe)
+12:00:20 [Obj][13001] DelAccount (hellder)
+12:00:20 [Obj][13001] DelClient (177.200.36.221)
+12:00:23 [Obj][13003] LogOutCharacter (PVPRF)
+12:00:23 [Obj][13003] DelAccount (pvp02)
+12:00:23 [Obj][13003] DelClient (177.200.36.221)
+12:08:20 [Obj][13000] AddClient (177.200.36.221)
+12:08:22 [Obj][13000] AddAccount (pvp02)
+12:08:25 [Obj][13000] LogInCharacter (PVPRF)
+12:10:04 [Obj][13000] LogOutCharacter (PVPRF)
+12:10:04 [Obj][13000] DelAccount (pvp02)
+12:10:04 [Obj][13000] DelClient (177.200.36.221)
+12:10:24 [Obj][13002] AddClient (177.200.36.221)
+12:10:25 [Obj][13002] AddAccount (pvp02)
+12:10:30 [Obj][13002] LogInCharacter (PVPRF)
+12:10:48 [Obj][13002] LogOutCharacter (PVPRF)
+12:10:48 [Obj][13002] DelAccount (pvp02)
+12:10:48 [Obj][13002] DelClient (177.200.36.221)
+12:12:32 [Obj][13001] AddClient (177.200.36.221)
+12:12:33 [Obj][13001] AddAccount (pvp02)
+12:12:36 [Obj][13001] LogInCharacter (PVPRF)
+12:13:20 [ServerInfo] Item loaded successfully
+12:14:38 [FAKE ONLINE LOG] Start
+12:14:38 [ServerInfo] CashShop loaded successfully
+12:14:38 [ServerInfo] ChaosMix loaded successfully
+12:14:38 [ServerInfo] Character loaded successfully
+12:14:38 [FakeOnline] Loaded successfully
+12:14:38 [ServerInfo] Custom loaded successfully
+12:14:38 [ServerInfo] Command loaded successfully
+12:14:39 [ServerInfo] Common loaded successfully
+12:14:39 [ServerInfo] Discord loaded successfully
+12:14:39 [ServerInfo] Effect loaded successfully
+12:14:39 [ServerInfo] Event loaded successfully
+12:14:39 [ServerInfo] EventItemBag loaded successfully
+12:14:39 [ServerInfo] Hack loaded successfully
+12:14:39 [ServerInfo] Item loaded successfully
+12:14:39 [ServerInfo] Message loaded successfully
+12:14:39 [ServerInfo] Map loaded successfully
+12:14:39 [ServerInfo] Terrain loaded successfully
+12:14:39 [ServerInfo] Monster loaded successfully
+12:14:39 [ServerInfo] Move loaded successfully
+12:14:39 [ServerInfo] Quest loaded successfully
+12:14:39 [ServerInfo] Script loaded successfully
+12:14:39 [ServerInfo] Shop loaded successfully
+12:14:39 [ServerInfo] Skill loaded successfully
+12:14:39 [ServerInfo] Util loaded successfully
+12:14:39 [ReadBotInfo] BotSystem loaded successfully
+12:14:39 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 199, Y: 114)
+12:14:39 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 211, Y: 246)
+12:14:39 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+12:14:39 [ServerInfo] Custom Attack offline restored successfully
+12:14:39 [ServerInfo] Custom Store offline restored successfully
+12:14:39 [Discord] Connection successfully
+12:14:40 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+12:15:00 [Obj][13000] AddClient (177.200.36.221)
+12:15:10 [Obj][13000] AddAccount (pvp02)
+12:15:10 [Obj][13000] LogInCharacter (PVPRF)
+12:19:16 [ServerInfo] Item loaded successfully
+12:19:51 [Obj][13000] LogOutCharacter (PVPRF)
+12:19:51 [Obj][13000] DelAccount (pvp02)
+12:19:51 [Obj][13000] DelClient (177.200.36.221)
+12:20:14 [Obj][13000] AddClient (177.200.36.221)
+12:20:15 [Obj][13000] AddAccount (pvp02)
+12:20:18 [Obj][13000] LogInCharacter (PVPRF)
+12:20:48 [Obj][13001] AddClient (177.200.36.221)
+12:20:51 [Obj][13001] AddAccount (hellder)
+12:20:52 [Obj][13001] LogInCharacter (Saffe)
+12:29:11 [Obj][13000] LogOutCharacter (PVPRF)
+12:29:11 [Obj][13000] DelAccount (pvp02)
+12:29:11 [Obj][13000] DelClient (177.200.36.221)
+12:29:14 [Obj][13001] LogOutCharacter (Saffe)
+12:29:14 [Obj][13001] DelAccount (hellder)
+12:29:14 [Obj][13001] DelClient (177.200.36.221)
+12:29:31 [Obj][13000] AddClient (177.200.36.221)
+12:29:33 [Obj][13000] AddAccount (hellder)
+12:29:35 [Obj][13000] LogInCharacter (Saffe)
+12:30:47 [FakeOnline] Loaded successfully
+12:30:47 [ServerInfo] Custom loaded successfully
+12:32:38 [FakeOnline] Loaded successfully
+12:32:38 [ServerInfo] Custom loaded successfully
+12:39:18 [ServerInfo] Item loaded successfully
+12:42:10 [ServerInfo] Item loaded successfully
+12:42:27 [Obj][13000] LogOutCharacter (Saffe)
+12:42:27 [Obj][13000] DelAccount (hellder)
+12:42:27 [Obj][13000] DelClient (177.200.36.221)
+12:45:58 [Obj][13001] AddClient (177.200.36.221)
+12:45:59 [Obj][13001] AddAccount (hellder)
+12:46:00 [Obj][13001] LogInCharacter (Saffe)
+12:48:04 [Obj][13000] AddClient (177.200.36.221)
+12:48:07 [Obj][13000] AddAccount (hellderrrr)
+12:48:09 [Obj][13000] LogInCharacter (Suavera)
+12:48:19 [Obj][13000] LogOutCharacter (Suavera)
+12:48:19 [Obj][13000] DelAccount (hellderrrr)
+12:48:19 [Obj][13000] DelClient (177.200.36.221)
+12:48:21 [Obj][13002] AddClient (177.200.36.221)
+12:48:24 [Obj][13002] AddAccount (pvp02)
+12:48:26 [Obj][13002] LogInCharacter (PVPRF)
+12:51:25 [Obj][13002] LogOutCharacter (PVPRF)
+12:51:25 [Obj][13002] DelAccount (pvp02)
+12:51:25 [Obj][13002] DelClient (177.200.36.221)
+12:51:26 [Obj][13001] LogOutCharacter (Saffe)
+12:51:26 [Obj][13001] DelAccount (hellder)
+12:51:26 [Obj][13001] DelClient (177.200.36.221)
+12:51:56 [Obj][13000] AddClient (177.200.36.221)
+12:51:57 [Obj][13000] AddAccount (pvp02)
+12:52:01 [Obj][13000] LogInCharacter (PVPRF)
+12:55:57 [Obj][13000] LogOutCharacter (PVPRF)
+12:55:57 [Obj][13000] DelAccount (pvp02)
+12:55:57 [Obj][13000] DelClient (177.200.36.221)
+13:01:49 [Obj][13002] AddClient (177.200.36.221)
+13:01:50 [Obj][13002] AddAccount (pvp02)
+13:01:53 [Obj][13002] LogInCharacter (PVPRF)
+13:02:10 [Obj][13002] LogOutCharacter (PVPRF)
+13:02:10 [Obj][13002] DelAccount (pvp02)
+13:02:10 [Obj][13002] DelClient (177.200.36.221)
+13:03:43 [ServerInfo] Item loaded successfully
+13:05:58 [ServerInfo] Item loaded successfully
+13:09:39 [Obj][13001] AddClient (177.200.36.221)
+13:09:41 [Obj][13001] AddAccount (pvp02)
+13:09:43 [Obj][13001] LogInCharacter (PVPRF)
+13:12:39 [ServerInfo] Item loaded successfully
+13:15:07 [Obj][13001] LogOutCharacter (PVPRF)
+13:15:07 [Obj][13001] DelAccount (pvp02)
+13:15:07 [Obj][13001] DelClient (177.200.36.221)
+13:17:06 [Obj][13000] AddClient (177.200.36.221)
+13:17:07 [Obj][13000] AddAccount (pvp02)
+13:17:10 [Obj][13000] LogInCharacter (PVPRF)
+13:17:48 [Obj][13002] AddClient (177.200.36.221)
+13:17:51 [Obj][13002] AddAccount (hellder)
+13:17:54 [Obj][13002] LogInCharacter (Saffe)
+13:18:28 [Obj][13002] LogOutCharacter (Saffe)
+13:18:28 [Obj][13002] DelAccount (hellder)
+13:18:28 [Obj][13002] DelClient (177.200.36.221)
+13:19:19 [ServerInfo] Item loaded successfully
+13:20:08 [Obj][13000] LogOutCharacter (PVPRF)
+13:20:08 [Obj][13000] DelAccount (pvp02)
+13:20:08 [Obj][13000] DelClient (177.200.36.221)
+13:24:35 [Obj][13001] AddClient (177.200.36.221)
+13:24:36 [Obj][13001] AddAccount (hellder)
+13:24:38 [Obj][13001] LogInCharacter (Saffe)
+13:25:05 [Obj][13001] LogOutCharacter (Saffe)
+13:25:05 [Obj][13001] DelAccount (hellder)
+13:25:05 [Obj][13001] DelClient (177.200.36.221)
+13:27:18 [ServerInfo] Item loaded successfully
+13:27:20 [FakeOnline] Loaded successfully
+13:27:20 [ServerInfo] Custom loaded successfully
+13:27:22 [ServerInfo] CashShop loaded successfully
+13:27:22 [ServerInfo] ChaosMix loaded successfully
+13:27:22 [ServerInfo] Character loaded successfully
+13:27:22 [ServerInfo] Command loaded successfully
+13:27:22 [ServerInfo] Common loaded successfully
+13:27:22 [FakeOnline] Loaded successfully
+13:27:22 [ServerInfo] Custom loaded successfully
+13:27:22 [ServerInfo] Discord loaded successfully
+13:27:22 [ServerInfo] Effect loaded successfully
+13:27:22 [ServerInfo] Event loaded successfully
+13:27:22 [ServerInfo] EventItemBag loaded successfully
+13:27:22 [ServerInfo] Hack loaded successfully
+13:27:22 [ServerInfo] Message loaded successfully
+13:27:22 [ServerInfo] Map loaded successfully
+13:27:22 [ServerInfo] Message loaded successfully
+13:27:22 [ServerInfo] Monster loaded successfully
+13:27:22 [ServerInfo] Move loaded successfully
+13:27:22 [ServerInfo] Quest loaded successfully
+13:27:22 [ServerInfo] Shop loaded successfully
+13:27:22 [ServerInfo] Skill loaded successfully
+13:27:22 [ServerInfo] Util loaded successfully
+13:27:22 [ReadBotInfo] BotSystem loaded successfully
+13:28:01 [Obj][13002] AddClient (177.200.36.221)
+13:28:02 [Obj][13002] AddAccount (hellder)
+13:28:12 [Obj][13002] LogInCharacter (Saffe)
+13:28:24 [Obj][13002] LogOutCharacter (Saffe)
+13:28:24 [Obj][13002] DelAccount (hellder)
+13:28:24 [Obj][13002] DelClient (177.200.36.221)
+13:29:28 [Obj][13000] AddClient (177.200.36.221)
+13:29:29 [Obj][13000] AddAccount (hellder)
+13:29:31 [Obj][13000] LogInCharacter (Saffe)
+13:47:08 [Obj][13000] LogOutCharacter (Saffe)
+13:47:08 [Obj][13000] DelAccount (hellder)
+13:47:08 [Obj][13000] DelClient (177.200.36.221)
+13:47:50 [Obj][13001] AddClient (177.200.36.221)
+13:47:51 [Obj][13001] AddAccount (hellder)
+13:47:54 [Obj][13001] LogInCharacter (Saffe)
+13:47:58 [Obj][13001] LogOutCharacter (Saffe)
+13:47:58 [Obj][13001] DelAccount (hellder)
+13:47:58 [Obj][13001] DelClient (177.200.36.221)
+14:39:04 [Obj][13002] AddClient (177.200.36.221)
+14:39:05 [Obj][13002] AddAccount (hellder)
+14:39:07 [Obj][13002] LogInCharacter (Saffe)
+14:40:06 [Obj][13000] AddClient (177.200.36.221)
+14:40:14 [Obj][13000] AddAccount (videodv)
+14:40:15 [Obj][13000] LogInCharacter (AdmSaffe)
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 31 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 78 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 78 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 31 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 78 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 78 ms | Type: 3
+14:40:49 [CustomAttackSkillDebug] Skill: 39 | Delay: 78 ms | Type: 3
+14:40:50 [CustomAttackSkillDebug] Skill: 39 | Delay: 62 ms | Type: 3
+14:40:50 [CustomAttackSkillDebug] Skill: 39 | Delay: 63 ms | Type: 3
+14:40:50 [CustomAttackSkillDebug] Skill: 39 | Delay: 63 ms | Type: 3
+14:40:50 [CustomAttackSkillDebug] Skill: 39 | Delay: 79 ms | Type: 3
+14:40:50 [CustomAttackSkillDebug] Skill: 39 | Delay: 62 ms | Type: 3
+14:41:01 [Obj][13000] LogOutCharacter (AdmSaffe)
+14:41:01 [Obj][13000] DelAccount (videodv)
+14:41:01 [Obj][13000] DelClient (177.200.36.221)
+14:44:22 [Obj][13001] AddClient (177.200.36.221)
+14:44:24 [Obj][13001] AddAccount (videodv)
+14:44:25 [Obj][13001] LogInCharacter (AdmSaffe)
+14:58:54 [Obj][13001] LogOutCharacter (AdmSaffe)
+14:58:54 [Obj][13001] DelAccount (videodv)
+14:58:54 [Obj][13001] DelClient (177.200.36.221)
+15:00:03 [Obj][13000] AddClient (177.200.36.221)
+15:00:04 [Obj][13000] AddAccount (videodv)
+15:00:05 [Obj][13000] LogInCharacter (AdmSaffe)
+15:00:12 [Obj][13000] LogOutCharacter (AdmSaffe)
+15:00:12 [Obj][13000] DelAccount (videodv)
+15:00:12 [Obj][13000] DelClient (177.200.36.221)
+15:02:17 [Obj][13001] AddClient (177.200.36.221)
+15:02:18 [Obj][13001] AddAccount (videodv)
+15:02:21 [Obj][13001] LogInCharacter (AdmSaffe)
+15:04:32 [Obj][13001] LogOutCharacter (AdmSaffe)
+15:04:32 [Obj][13001] DelAccount (videodv)
+15:04:32 [Obj][13001] DelClient (177.200.36.221)
+15:04:41 [Obj][13000] AddClient (177.200.36.221)
+15:04:43 [Obj][13000] AddAccount (videodv)
+15:04:45 [Obj][13000] LogInCharacter (AdmSaffe)
+15:07:19 [Obj][13000] LogOutCharacter (AdmSaffe)
+15:07:19 [Obj][13000] DelAccount (videodv)
+15:07:19 [Obj][13000] DelClient (177.200.36.221)
+15:07:23 [Obj][13002] LogOutCharacter (Saffe)
+15:07:23 [Obj][13002] DelAccount (hellder)
+15:07:23 [Obj][13002] DelClient (177.200.36.221)
+15:18:18 [ServerInfo] Item loaded successfully
+15:19:22 [Obj][13001] AddClient (177.200.36.221)
+15:19:23 [Obj][13001] AddAccount (videodv)
+15:19:25 [Obj][13001] LogInCharacter (AdmSaffe)
+15:38:16 [Obj][13001] LogOutCharacter (AdmSaffe)
+15:38:16 [Obj][13001] DelAccount (videodv)
+15:38:16 [Obj][13001] DelClient (177.200.36.221)
+18:51:32 [Obj][13000] AddClient (177.200.36.221)
+18:51:33 [Obj][13000] DelClient (177.200.36.221)

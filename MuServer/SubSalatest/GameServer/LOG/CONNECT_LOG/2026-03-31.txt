@@ -1,0 +1,4 @@
+00:25:55 [SocketManager] Protocol header error (Index: 13001, Header: 22)
+22:00:47 [Connection] connect() failed with error: 10061
+22:00:57 [Connection] connect() failed with error: 10061
+22:01:07 [Connection] connect() failed with error: 10061

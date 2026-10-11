@@ -1,0 +1,882 @@
+00:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 200 Y: 175)
+00:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 92 Y: 31)
+00:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 59 Y: 37)
+00:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 215 Y: 162)
+00:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 217 Y: 33)
+00:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+00:02:59 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:03:13 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:03:13 [slink][Slink] Add BattlePass Star(Custom Quest 1) Value: 5
+00:03:13 [slink][Slink] Add BattlePass Star(Custom Quest 2) Value: 1
+00:03:13 [CustomQuest][slink][Slink] - (Quest 11: Completed)
+00:08:29 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:09:43 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:10:56 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:12:12 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:12:41 [ MarlonMove ] Map: 7, X: 17 Y: 25
+00:12:57 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+00:13:28 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:14:57 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:16:29 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:18:09 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:19:46 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:21:29 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:23:14 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 97 Y: 117)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 17 Y: 83)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 92 Y: 57)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 95 Y: 34)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 84 Y: 64)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 42 Y: 85)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 45 Y: 33)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 142 Y: 35)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 186 Y: 158)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 109 Y: 45)
+00:27:42 [ MarlonMove ] Map: 2, X: 198 Y: 47
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 145 Y: 57)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 105 Y: 197)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 139 Y: 198)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 129 Y: 157)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 209 Y: 31)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 124 Y: 89)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 118 Y: 142)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 82 Y: 56)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 95 Y: 53)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 159 Y: 69)
+00:34:59 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:35:00 [CustomQuiz] Start
+00:35:39 [CustomQuiz] Winner: Slink
+00:35:39 [CustomQuiz] Finish
+00:36:06 [DailyReward][slink][Slink] - Got the prize (Month 6 Day 8 )
+00:36:55 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:38:51 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:40:38 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:42:43 [ MarlonMove ] Map: 7, X: 17 Y: 25
+00:42:48 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:44:57 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:47:11 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 23 Y: 229)
+00:48:16 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+00:49:32 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:51:57 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:54:33 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:57:08 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+00:57:44 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:59:52 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:00:01 [OnlineLoterry] No Winner
+01:02:38 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:05:30 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:08:41 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:11:56 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:12:45 [ MarlonMove ] Map: 3, X: 169 Y: 89
+01:15:28 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:24:44 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+01:24:53 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:27:46 [ MarlonMove ] Map: 0, X: 137 Y: 87
+01:32:32 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:33:03 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:33:03 [slink][Slink] Add BattlePass Star(Custom Quest 1) Value: 5
+01:33:03 [slink][Slink] Add BattlePass Star(Custom Quest 2) Value: 1
+01:33:03 [CustomQuest][slink][Slink] - (Quest 12: Completed)
+01:35:00 [CustomQuiz] Start
+01:35:28 [CustomQuiz] Winner: Slink
+01:35:29 [CustomQuiz] Finish
+01:39:55 [slink][Slink] Add BattlePass Star(Level Up) Value: 1
+01:42:47 [ MarlonMove ] Map: 3, X: 169 Y: 89
+01:57:48 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:00:01 [OnlineLoterry] No Winner
+02:00:49 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+02:12:49 [ MarlonMove ] Map: 2, X: 198 Y: 47
+02:27:50 [ MarlonMove ] Map: 7, X: 17 Y: 25
+02:35:00 [CustomQuiz] Start
+02:38:08 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+02:40:00 [CustomQuiz] Finish
+02:42:51 [ MarlonMove ] Map: 2, X: 198 Y: 47
+02:57:52 [ MarlonMove ] Map: 0, X: 137 Y: 87
+03:00:01 [OnlineLoterry] No Winner
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 84 Y: 166)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 226 Y: 106)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 169 Y: 211)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 139 Y: 45)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 166 Y: 231)
+03:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 125 Y: 198)
+03:10:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+03:12:53 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:16:16 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+03:20:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 39 Y: 229)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 141 Y: 94)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 155 Y: 225)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 134 Y: 111)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 81 Y: 129)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 223 Y: 101)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 173 Y: 178)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 84 Y: 180)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 160 Y: 193)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 209 Y: 41)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 22 Y: 186)
+03:27:54 [ MarlonMove ] Map: 2, X: 198 Y: 47
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 203 Y: 198)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 109 Y: 105)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 117 Y: 231)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 65 Y: 145)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 129 Y: 150)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 12 Y: 176)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 112 Y: 77)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 54 Y: 48)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 18 Y: 203)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 165 Y: 153)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 66 Y: 161)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 108 Y: 36)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 95 Y: 160)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 122 Y: 22)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 121 Y: 145)
+03:35:00 [CustomQuiz] Start
+03:40:00 [CustomQuiz] Finish
+03:40:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+03:42:55 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 55 Y: 140)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 69 Y: 152)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 228 Y: 138)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 123 Y: 43)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 121 Y: 233)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 135 Y: 94)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 187 Y: 37)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 102 Y: 184)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 95 Y: 68)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 120 Y: 170)
+03:54:48 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+03:57:56 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 179 Y: 112)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 100 Y: 16)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 188 Y: 175)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 215 Y: 235)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 81 Y: 80)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 47 Y: 86)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 33 Y: 194)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 84 Y: 131)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 187 Y: 123)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 67 Y: 91)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 146 Y: 15)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 72 Y: 20)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 111 Y: 66)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 140 Y: 82)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 64 Y: 96)
+04:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+04:00:01 [OnlineLoterry] No Winner
+04:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 135 Y: 191)
+04:12:57 [ MarlonMove ] Map: 0, X: 137 Y: 87
+04:27:58 [ MarlonMove ] Map: 3, X: 169 Y: 89
+04:35:00 [CustomQuiz] Start
+04:40:00 [CustomQuiz] Finish
+04:42:59 [ MarlonMove ] Map: 0, X: 137 Y: 87
+04:58:00 [ MarlonMove ] Map: 7, X: 17 Y: 25
+05:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 135 Y: 170)
+05:00:01 [OnlineLoterry] No Winner
+05:13:01 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:28:02 [ MarlonMove ] Map: 7, X: 17 Y: 25
+05:35:00 [CustomQuiz] Start
+05:40:00 [CustomQuiz] Finish
+05:43:03 [ MarlonMove ] Map: 2, X: 198 Y: 47
+05:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 24 Y: 229)
+05:58:04 [ MarlonMove ] Map: 3, X: 169 Y: 89
+06:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+06:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+06:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 133 Y: 102)
+06:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 185 Y: 176)
+06:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 222 Y: 148)
+06:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 104 Y: 154)
+06:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 233 Y: 129)
+06:13:05 [ MarlonMove ] Map: 2, X: 198 Y: 47
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 26 Y: 71)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 236 Y: 199)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 227 Y: 164)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 59 Y: 25)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 169 Y: 48)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 118 Y: 13)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 105 Y: 175)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 216 Y: 122)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 46 Y: 225)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 126 Y: 233)
+06:28:06 [ MarlonMove ] Map: 3, X: 169 Y: 89
+06:34:23 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+06:34:23 [davidh][Zureia] Add BattlePass Star(Custom Quest 1) Value: 5
+06:34:23 [davidh][Zureia] Add BattlePass Star(Custom Quest 2) Value: 1
+06:34:23 [CustomQuest][davidh][Zureia] - (Quest 14: Completed)
+06:35:00 [CustomQuiz] Start
+06:40:00 [CustomQuiz] Finish
+06:43:07 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:58:08 [ MarlonMove ] Map: 3, X: 169 Y: 89
+07:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 43 Y: 217)
+07:00:01 [OnlineLoterry] No Winner
+07:00:01 [OnlineLoterry] No Winner
+07:13:09 [ MarlonMove ] Map: 0, X: 137 Y: 87
+07:28:10 [ MarlonMove ] Map: 2, X: 198 Y: 47
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 118 Y: 17)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 176 Y: 97)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 175 Y: 186)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 175 Y: 105)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 74 Y: 177)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 49 Y: 229)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 113 Y: 141)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 133 Y: 188)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 63 Y: 166)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 69 Y: 144)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 58 Y: 214)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 85 Y: 143)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 25 Y: 95)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 185 Y: 222)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 72 Y: 150)
+07:35:00 [CustomQuiz] Start
+07:40:00 [CustomQuiz] Finish
+07:43:11 [ MarlonMove ] Map: 3, X: 169 Y: 89
+07:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+07:49:03 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+07:58:12 [ MarlonMove ] Map: 2, X: 198 Y: 47
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 135 Y: 135)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 138 Y: 152)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 93 Y: 57)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 146 Y: 148)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 222 Y: 45)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 65 Y: 69)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 114 Y: 198)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 94 Y: 52)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 161 Y: 171)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 100 Y: 55)
+08:00:01 [OnlineLoterry] No Winner
+08:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 133 Y: 195)
+08:13:13 [ MarlonMove ] Map: 3, X: 169 Y: 89
+08:28:14 [ MarlonMove ] Map: 7, X: 17 Y: 25
+08:35:00 [CustomQuiz] Start
+08:40:00 [CustomQuiz] Finish
+08:43:15 [ MarlonMove ] Map: 0, X: 137 Y: 87
+08:58:16 [ MarlonMove ] Map: 3, X: 169 Y: 89
+08:58:22 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+09:13:17 [ MarlonMove ] Map: 7, X: 17 Y: 25
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 137 Y: 183)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 164 Y: 32)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 60 Y: 11)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 204 Y: 173)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 239 Y: 220)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 44 Y: 206)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 61 Y: 118)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 60 Y: 46)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 59 Y: 147)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 122 Y: 30)
+09:28:18 [ MarlonMove ] Map: 2, X: 198 Y: 47
+09:35:00 [CustomQuiz] Start
+09:40:00 [CustomQuiz] Finish
+09:43:19 [ MarlonMove ] Map: 7, X: 17 Y: 25
+09:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 36 Y: 229)
+09:58:20 [ MarlonMove ] Map: 3, X: 169 Y: 89
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 114 Y: 93)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 122 Y: 172)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 93 Y: 155)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 42 Y: 73)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 191 Y: 179)
+10:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+10:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+10:00:01 [OnlineLoterry] No Winner
+10:09:11 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+10:13:21 [ MarlonMove ] Map: 2, X: 198 Y: 47
+10:28:22 [ MarlonMove ] Map: 7, X: 17 Y: 25
+10:35:00 [CustomQuiz] Start
+10:40:00 [CustomQuiz] Finish
+10:43:23 [ MarlonMove ] Map: 3, X: 169 Y: 89
+10:58:24 [ MarlonMove ] Map: 7, X: 17 Y: 25
+11:00:01 [OnlineLoterry] No Winner
+11:00:01 [OnlineLoterry] No Winner
+11:13:25 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:28:26 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 222 Y: 185)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 164 Y: 28)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 142 Y: 221)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 113 Y: 34)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 133 Y: 123)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 84 Y: 73)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 27 Y: 111)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 147 Y: 196)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 131 Y: 207)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 116 Y: 21)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 107 Y: 104)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 109 Y: 93)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 49 Y: 25)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 188 Y: 106)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 204 Y: 207)
+11:35:00 [CustomQuiz] Start
+11:40:00 [CustomQuiz] Finish
+11:43:27 [ MarlonMove ] Map: 2, X: 198 Y: 47
+11:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+11:58:28 [ MarlonMove ] Map: 0, X: 137 Y: 87
+12:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 117 Y: 141)
+12:13:29 [ MarlonMove ] Map: 3, X: 169 Y: 89
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 106 Y: 233)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 88 Y: 151)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 123 Y: 105)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 233 Y: 47)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 85 Y: 229)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 128 Y: 54)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 112 Y: 97)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 27 Y: 184)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 233 Y: 68)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 170 Y: 179)
+12:28:30 [ MarlonMove ] Map: 7, X: 17 Y: 25
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 190 Y: 36)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 35 Y: 155)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 127 Y: 117)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 194 Y: 136)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 155 Y: 94)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 175 Y: 99)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 95 Y: 31)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 72 Y: 29)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 135 Y: 34)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 218 Y: 60)
+12:35:00 [CustomQuiz] Start
+12:40:00 [CustomQuiz] Finish
+12:43:31 [ MarlonMove ] Map: 0, X: 137 Y: 87
+12:58:32 [ MarlonMove ] Map: 2, X: 198 Y: 47
+13:00:01 [OnlineLoterry] No Winner
+13:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 129 Y: 190)
+13:13:33 [ MarlonMove ] Map: 0, X: 137 Y: 87
+13:28:34 [ MarlonMove ] Map: 7, X: 17 Y: 25
+13:35:00 [CustomQuiz] Start
+13:40:00 [CustomQuiz] Finish
+13:43:35 [ MarlonMove ] Map: 2, X: 198 Y: 47
+13:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 37 Y: 229)
+13:58:36 [ MarlonMove ] Map: 3, X: 169 Y: 89
+14:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 41 Y: 232)
+14:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 236 Y: 137)
+14:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 76 Y: 53)
+14:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 68 Y: 63)
+14:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 98 Y: 137)
+14:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+14:00:01 [OnlineLoterry] No Winner
+14:13:37 [ MarlonMove ] Map: 7, X: 17 Y: 25
+14:28:38 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:35:00 [CustomQuiz] Start
+14:40:00 [CustomQuiz] Finish
+14:43:39 [ MarlonMove ] Map: 2, X: 198 Y: 47
+14:58:40 [ MarlonMove ] Map: 0, X: 137 Y: 87
+15:00:01 [OnlineLoterry] No Winner
+15:13:41 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 167 Y: 195)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 123 Y: 50)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 231 Y: 64)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 88 Y: 104)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 89 Y: 238)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 56 Y: 10)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 30 Y: 108)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 55 Y: 174)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 17 Y: 192)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 185 Y: 196)
+15:28:42 [ MarlonMove ] Map: 3, X: 169 Y: 89
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 73 Y: 133)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 116 Y: 217)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 157 Y: 19)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 223 Y: 127)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 121 Y: 214)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 99 Y: 54)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 128 Y: 123)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 47 Y: 187)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 148 Y: 99)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 55 Y: 118)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 39 Y: 36)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 197 Y: 137)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 162 Y: 164)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 110 Y: 215)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 108 Y: 138)
+15:35:00 [CustomQuiz] Start
+15:40:00 [CustomQuiz] Finish
+15:43:43 [ MarlonMove ] Map: 0, X: 137 Y: 87
+15:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+15:58:44 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+16:00:01 [OnlineLoterry] No Winner
+16:13:45 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:28:46 [ MarlonMove ] Map: 0, X: 137 Y: 87
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 196 Y: 139)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 201 Y: 30)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 120 Y: 109)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 120 Y: 179)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 129 Y: 139)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 194 Y: 79)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 100 Y: 187)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 126 Y: 165)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 95 Y: 199)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 157 Y: 154)
+16:35:00 [CustomQuiz] Start
+16:40:00 [CustomQuiz] Finish
+16:43:47 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:47:41 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:47:43 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:47:55 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:48:53 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:23 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:31 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:33 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:36 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:49:53 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:17 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:25 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:50:52 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:51:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:51:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:51:42 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:52:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:52:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:53:06 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:53:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:53:51 [DailyReward][beruze][beru] - Got the prize (Month 6 Day 8 )
+16:54:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:54:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:55:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:55:36 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:56:02 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:56:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:57:01 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:57:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+16:58:48 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:00:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 21 Y: 229)
+17:00:01 [OnlineLoterry] No Winner
+17:00:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:10:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:10:47 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:11:52 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:12:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:13:49 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:13:55 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:14:39 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:16:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:18:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:19:02 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:19:51 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:20:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:20:22 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+17:20:22 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+17:20:22 [CustomQuest][beruze][beru] - (Quest 1: Completed)
+17:21:19 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:28:50 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:29:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:29:36 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:29:56 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:30:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:30:29 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:31:01 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:31:33 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:31:41 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:31:49 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:17 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:32:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:33:58 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:34:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:34:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:34:41 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:34:56 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:35:00 [CustomQuiz] Start
+17:35:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:35:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:35:42 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:35:58 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:36:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:36:29 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:36:57 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:37:17 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:25 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:35 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:39:51 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:00 [CustomQuiz] Finish
+17:40:05 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:11 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:16 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:20 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:24 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:29 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:41 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:50 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:40:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:05 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:16 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:35 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:42 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:49 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:41:58 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:04 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:20 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:51 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:42:58 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:06 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:17 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:25 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:45 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:43:51 [ MarlonMove ] Map: 2, X: 198 Y: 47
+17:43:56 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:44:10 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:44:21 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:44:35 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:44:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:44:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:45:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:45:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:45:39 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:45:50 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:02 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:39 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:46:39 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+17:46:39 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+17:46:39 [CustomQuest][beruze][beru] - (Quest 2: Completed)
+17:46:53 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:47:04 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:15 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:50:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:51:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:51:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:51:54 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:52:01 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:52:54 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:53:23 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:54:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:54:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:54:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:54:54 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:55:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:55:22 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:55:36 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:55:48 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:56:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:05 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:10 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:19 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:28 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:57:52 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:02 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:23 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:33 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:40 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:51 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:58:52 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:59:02 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:59:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:59:24 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:59:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+17:59:49 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+18:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 135 Y: 150)
+18:00:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:00:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:00:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:00:44 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:00:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:01:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:01:15 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:01:15 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+18:01:15 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+18:01:15 [CustomQuest][beruze][beru] - (Quest 3: Completed)
+18:01:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:01:39 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:01:51 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:02:04 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:02:16 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:02:30 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:02:43 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:02:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:03:55 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:05:20 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 136 Y: 194)
+18:06:43 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:08:11 [beruze][beru] Add BattlePass Star(Rank User) Value: 1
+18:08:11 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:09:10 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:09:10 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+18:09:10 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+18:09:10 [CustomQuest][beruze][beru] - (Quest 4: Completed)
+18:09:35 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+18:11:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:12:06 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:13:16 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:13:53 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:14:15 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:17:08 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:18:18 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:19:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:20:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:20:45 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:21:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:22:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:23:53 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:24:10 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:24:10 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+18:24:10 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+18:24:10 [CustomQuest][beruze][beru] - (Quest 5: Completed)
+18:24:50 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 198 Y: 199)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 147 Y: 183)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 128 Y: 67)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 46 Y: 224)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 171 Y: 96)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 25 Y: 52)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 76 Y: 140)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 11 Y: 109)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 39 Y: 239)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 127 Y: 47)
+18:25:30 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:27:01 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:28:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:28:54 [ MarlonMove ] Map: 0, X: 137 Y: 87
+18:28:58 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:29:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:29:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:30:32 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:30:57 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:31:21 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:31:47 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:32:26 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:32:56 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:33:30 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:34:06 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:34:45 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:35:00 [CustomQuiz] Start
+18:35:15 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:35:52 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:36:34 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:37:11 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:37:49 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:37:49 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+18:37:49 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+18:37:49 [CustomQuest][beruze][beru] - (Quest 6: Completed)
+18:38:25 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:39:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:40:00 [CustomQuiz] Finish
+18:40:01 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:40:35 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:41:11 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:42:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:43:55 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:43:59 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+18:45:07 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:46:21 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:47:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:49:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:50:29 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:51:52 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:53:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:54:29 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:56:36 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:58:27 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+18:58:56 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+19:00:01 [OnlineLoterry] Add Member (Aladin)
+19:00:01 [OnlineLoterry] Winner (Aladin)
+19:00:01 [OnlineLoterry] No Winner
+19:00:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:00:46 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:00:46 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+19:00:46 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+19:00:46 [CustomQuest][beruze][beru] - (Quest 7: Completed)
+19:02:02 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+19:05:24 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:11:07 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:13:57 [ MarlonMove ] Map: 2, X: 198 Y: 47
+19:15:37 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:20:00 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:24:58 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+19:25:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:28:58 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 51 Y: 61)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 212 Y: 112)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 205 Y: 119)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 68 Y: 237)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 102 Y: 192)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 118 Y: 196)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 28 Y: 59)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 123 Y: 166)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 151 Y: 212)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 51 Y: 154)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 209 Y: 123)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 148 Y: 200)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 191 Y: 111)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 99 Y: 47)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 144 Y: 25)
+19:30:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:33:48 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+19:33:48 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+19:33:48 [CustomQuest][paloschi96][N3NOX] - (Quest 1: Completed)
+19:34:13 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:35:00 [CustomQuiz] Start
+19:37:46 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+19:39:56 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:40:00 [CustomQuiz] Finish
+19:43:59 [ MarlonMove ] Map: 3, X: 169 Y: 89
+19:44:37 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+19:45:12 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:51:03 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:55:10 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+19:59:00 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:59:33 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 148 Y: 212)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 226 Y: 63)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 80 Y: 55)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 238 Y: 84)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 189 Y: 97)
+20:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 184 Y: 77)
+20:00:01 [OnlineLoterry] No Winner
+20:00:28 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+20:05:04 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:09:03 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:10:23 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:14:01 [ MarlonMove ] Map: 7, X: 17 Y: 25
+20:16:14 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:16:27 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:21:43 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:23:50 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:27:35 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:29:02 [ MarlonMove ] Map: 2, X: 198 Y: 47
+20:29:09 [beruze][beru] Add BattlePass Star(Level Up) Value: 1
+20:29:09 [beruze][beru] Add BattlePass Star(Custom Quest 1) Value: 5
+20:29:09 [beruze][beru] Add BattlePass Star(Custom Quest 2) Value: 1
+20:29:09 [CustomQuest][beruze][beru] - (Quest 8: Completed)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 171 Y: 95)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 107 Y: 144)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 61 Y: 71)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 200 Y: 154)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 31 Y: 162)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 184 Y: 97)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 172 Y: 28)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 174 Y: 170)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 74 Y: 27)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 216 Y: 146)
+20:32:37 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:35:00 [CustomQuiz] Start
+20:40:00 [CustomQuiz] Finish
+20:41:45 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:44:03 [ MarlonMove ] Map: 0, X: 137 Y: 87
+20:50:47 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+20:54:31 [hellderrr][100Desculp] Add BattlePass Star(Level Up) Value: 1
+20:59:04 [ MarlonMove ] Map: 3, X: 169 Y: 89
+21:00:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 25 Y: 229)
+21:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+21:00:37 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:14:05 [ MarlonMove ] Map: 0, X: 137 Y: 87
+21:16:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+21:16:37 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 230 Y: 16)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 98 Y: 97)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 194 Y: 192)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 56 Y: 58)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 203 Y: 27)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 35 Y: 66)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 93 Y: 126)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 30 Y: 74)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 45 Y: 126)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 118 Y: 34)
+21:29:06 [ MarlonMove ] Map: 7, X: 17 Y: 25
+21:30:01 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:35:00 [CustomQuiz] Start
+21:37:27 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:37:27 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+21:37:27 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+21:37:27 [CustomQuest][paloschi96][N3NOX] - (Quest 2: Completed)
+21:40:00 [CustomQuiz] Finish
+21:44:07 [ MarlonMove ] Map: 2, X: 198 Y: 47
+21:44:28 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:44:28 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+21:44:28 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+21:44:28 [CustomQuest][paloschi96][N3NOX] - (Quest 3: Completed)
+21:46:11 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+21:51:42 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+21:51:42 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+21:51:42 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+21:51:42 [CustomQuest][paloschi96][N3NOX] - (Quest 4: Completed)
+21:57:56 [DailyReward][paloschi96][N3NOX] - Got the prize (Month 6 Day 8 )
+21:59:08 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+22:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 160 Y: 205)
+22:00:01 [OnlineLoterry] No Winner
+22:01:15 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+22:01:15 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+22:01:15 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+22:01:15 [CustomQuest][paloschi96][N3NOX] - (Quest 5: Completed)
+22:09:22 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+22:09:22 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 1) Value: 5
+22:09:22 [paloschi96][N3NOX] Add BattlePass Star(Custom Quest 2) Value: 1
+22:09:22 [CustomQuest][paloschi96][N3NOX] - (Quest 6: Completed)
+22:14:09 [ MarlonMove ] Map: 0, X: 137 Y: 87
+22:17:26 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+22:21:59 [paloschi96][N3NOX] Add BattlePass Star(Level Up) Value: 1
+22:29:10 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:30:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+22:35:00 [CustomQuiz] Start
+22:40:00 [CustomQuiz] Finish
+22:44:11 [ MarlonMove ] Map: 7, X: 17 Y: 25
+22:49:14 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+22:59:12 [ MarlonMove ] Map: 3, X: 169 Y: 89
+23:00:01 [OnlineLoterry] No Winner
+23:00:01 [OnlineLoterry] No Winner
+23:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 127 Y: 194)
+23:14:13 [ MarlonMove ] Map: 0, X: 137 Y: 87
+23:29:14 [ MarlonMove ] Map: 2, X: 198 Y: 47
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 46 Y: 21)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 237 Y: 124)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 121 Y: 182)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 60 Y: 65)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 35 Y: 154)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 109 Y: 78)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 54 Y: 113)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 119 Y: 189)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 98 Y: 170)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 160 Y: 92)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 100 Y: 187)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 39 Y: 38)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 140 Y: 150)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 19 Y: 95)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 147 Y: 176)
+23:35:00 [CustomQuiz] Start
+23:40:00 [CustomQuiz] Finish
+23:40:58 [davidh][Zureia] Add BattlePass Star(Level Up) Value: 1
+23:44:15 [ MarlonMove ] Map: 3, X: 169 Y: 89
+23:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+23:59:16 [ MarlonMove ] Map: 7, X: 17 Y: 25

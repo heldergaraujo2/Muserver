@@ -1,0 +1,30 @@
+09:50:05 [FAKE ONLINE LOG] Start
+09:50:05 [ServerInfo] CashShop loaded successfully
+09:50:05 [ServerInfo] ChaosMix loaded successfully
+09:50:05 [ServerInfo] Character loaded successfully
+09:50:05 [FakeOnline] Loaded successfully
+09:50:05 [ServerInfo] Custom loaded successfully
+09:50:05 [ServerInfo] Command loaded successfully
+09:50:05 [ServerInfo] Common loaded successfully
+09:50:05 [ServerInfo] Discord loaded successfully
+09:50:05 [ServerInfo] Effect loaded successfully
+09:50:05 [ServerInfo] Event loaded successfully
+09:50:05 [ServerInfo] EventItemBag loaded successfully
+09:50:05 [ServerInfo] Hack loaded successfully
+09:50:05 [ServerInfo] Item loaded successfully
+09:50:05 [ServerInfo] Message loaded successfully
+09:50:05 [ServerInfo] Map loaded successfully
+09:50:05 [ServerInfo] Terrain loaded successfully
+09:50:05 [ServerInfo] Monster loaded successfully
+09:50:05 [ServerInfo] Move loaded successfully
+09:50:05 [ServerInfo] Quest loaded successfully
+09:50:05 [ServerInfo] Script loaded successfully
+09:50:05 [ServerInfo] Shop loaded successfully
+09:50:05 [ServerInfo] Skill loaded successfully
+09:50:05 [ServerInfo] Util loaded successfully
+09:50:05 [ReadBotInfo] BotSystem loaded successfully
+09:50:06 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 165)
+09:50:06 [ServerInfo] Custom Attack offline restored successfully
+09:50:06 [ServerInfo] Custom Store offline restored successfully
+09:50:06 [Discord] Connection successfully
+09:50:07 [ CRYWOLF ] SYNC Occupation: 0, State: 0

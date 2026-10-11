@@ -1,0 +1,51 @@
+14:08:48 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+14:09:23 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+14:09:27 [CustomMove][hellder][Saffe] - (MoveIndex: 121)
+14:09:30 [CustomMove][hellder][Saffe] - (MoveIndex: 122)
+14:09:33 [CustomMove][hellder][Saffe] - (MoveIndex: 123)
+14:09:41 [CustomMove][hellder][Saffe] - (MoveIndex: 124)
+14:09:48 [CustomMove][hellder][Saffe] - (MoveIndex: 125)
+14:09:57 [CustomMove][hellder][Saffe] - (MoveIndex: 125)
+14:10:54 [CustomMove][hellder][Saffe] - (MoveIndex: 125)
+14:15:06 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 401)
+14:18:31 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 401)
+14:18:50 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 401)
+14:22:39 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 255)
+14:22:54 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 254)
+14:26:15 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 400)
+14:29:30 [CommandTrace][hellder][Saffe] - (Name: AdmSaffe)
+14:36:47 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 399)
+14:38:34 [CommandTrace][hellder][Saffe] - (Name: AdmSaffe)
+14:40:38 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 402)
+14:52:02 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+14:52:10 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 398)
+17:23:21 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 2000, Dex: 5000, Vit: 1000, Ene: 3000, Com: 0)
+17:23:58 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 500, Dex: 6000, Vit: 1000, Ene: 2000, Com: 0)
+17:24:14 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 500, Dex: 3000, Vit: 1000, Ene: 2000, Com: 0)
+17:27:02 [CommandTrace][hellder][Saffe] - (Name: AdmSaffe)
+17:28:01 [CommandTrack][hellder][Saffe] - (Name: AdmSaffe)
+17:50:43 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 402)
+18:53:37 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 402)
+19:37:22 [CommandMake][hellder][Saffe] Section: 8, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:37:29 [CommandMake][hellder][Saffe] Section: 14, Type: 246, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:37:33 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:37:37 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:39:19 [Command Clear Iventory] Use for:[hellder][Saffe]
+19:39:22 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:39:24 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:39:27 [CommandMake][hellder][Saffe] Section: 14, Type: 246, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:39:31 [CommandMake][hellder][Saffe] Section: 8, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:59:22 [Command Clear Iventory] Use for:[hellder][Saffe]
+19:59:24 [CommandMake][hellder][Saffe] Section: 8, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:59:26 [CommandMake][hellder][Saffe] Section: 14, Type: 246, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:59:28 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+19:59:31 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+20:01:09 [Command Clear Iventory] Use for:[hellder][Saffe]
+20:01:10 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+20:01:12 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+20:01:14 [CommandMake][hellder][Saffe] Section: 14, Type: 246, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 5]
+20:01:17 [CommandMake][hellder][Saffe] Section: 8, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:16:06 [Command Clear Iventory] Use for:[hellder][Saffe]
+21:16:27 [CommandTrack][hellder][Saffe] - (Name: AdmSaffe)
+21:17:05 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 401)
+21:17:14 [CommandSetLevel][hellder][Saffe] - (Player: AdmSaffe,Level: 401)

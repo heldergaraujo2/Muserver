@@ -1,0 +1,28 @@
+20:29:48 [MusaffeDungeon1] Script desligado.
+20:29:48 [MusaffeDungeon2] Script desligado.
+20:29:48 [MusaffeDungeon3] Script desligado.
+20:29:48 [MusaffeDungeon4] Script desligado.
+20:29:48 [Loader] Lua Gameserver socket ready!
+20:29:48 [Loader] Load success System\ScriptCore
+20:29:48 [Loader] Load success System\ProtocolCore
+20:29:48 [Loader] Load success Utils\Database
+20:29:48 [Loader] Load success Utils\DatabaseAsync
+20:29:48 [Loader] Load success Utils\Cron
+20:29:48 [Loader] Load success Utils\Functions
+20:29:48 [Loader] Load success Utils\Schedule
+20:29:48 [Loader] Could not load:
+20:29:48 [Loader] x error near '<\208>'
+20:29:48 [Loader] Load success Scripts\CalCharacter
+20:29:48 [Loader] Load success Scripts\Musaffe\Config
+20:29:48 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+20:29:48 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+20:29:48 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+20:29:48 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+20:29:48 [Loader] Load success Scripts\Musaffe\Config
+20:29:48 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+20:29:48 [Loader] Load success Scripts\Musaffe\Config
+20:29:48 [Loader] Load folder success Scripts\Musaffe\
+20:29:48 Connected to database
+20:29:48 Connected to Async database
+20:29:48 Teste query: ZZZZZZZZZZ
+20:29:48 [ServerInfo] Script loaded successfully

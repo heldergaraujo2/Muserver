@@ -1,0 +1,288 @@
+01:20:52 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:20:56 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:00 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:04 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:08 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:12 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+01:21:16 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+09:45:12 [Loader] Lua Gameserver socket ready!
+09:45:12 [Loader] Load success System\ScriptCore
+09:45:12 [Loader] Load success System\ProtocolCore
+09:45:12 [Loader] Load success Utils\Database
+09:45:12 [Loader] Load success Utils\DatabaseAsync
+09:45:12 [Loader] Load success Utils\Cron
+09:45:12 [Loader] Load success Utils\Functions
+09:45:12 [Loader] Load success Utils\Schedule
+09:45:12 [Loader] Load success Scripts\CalCharacter
+09:45:12 [Loader] Load success Scripts\Musaffe\Config
+09:45:12 [Timewindows] Script carregado. Mapa configurado: 84
+09:45:12 [Loader] Load success Scripts\Musaffe\Config
+09:45:12 [Loader] Load folder success Scripts\Musaffe\
+09:45:12 Connected to database
+09:45:12 Connected to Async database
+09:45:12 Teste query: ZZZZZZZZZZ
+09:45:12 [ServerInfo] Script loaded successfully
+09:46:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+09:46:23 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+09:46:24 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+09:46:24 [TimewindowsWindow] Player Saffe movido para mapa 84 (176, 127)
+09:46:50 [Loader] Lua Gameserver socket ready!
+09:46:50 [Loader] Load success System\ScriptCore
+09:46:50 [Loader] Load success System\ProtocolCore
+09:46:50 [Loader] Load success Utils\Database
+09:46:50 [Loader] Load success Utils\DatabaseAsync
+09:46:50 [Loader] Load success Utils\Cron
+09:46:50 [Loader] Load success Utils\Functions
+09:46:50 [Loader] Load success Utils\Schedule
+09:46:50 [Loader] Load success Scripts\CalCharacter
+09:46:50 [Loader] Load success Scripts\Musaffe\Config
+09:46:50 [Timewindows] Script carregado. Mapa configurado: 6
+09:46:50 [Loader] Load success Scripts\Musaffe\Config
+09:46:50 [Loader] Load folder success Scripts\Musaffe\
+09:46:50 Connected to database
+09:46:50 Connected to Async database
+09:46:50 Teste query: ZZZZZZZZZZ
+09:46:50 [ServerInfo] Script loaded successfully
+09:47:30 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+09:47:33 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+09:47:33 [TimewindowsWindow] Player Saffe movido para mapa 6 (176, 127)
+09:51:21 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 6
+09:51:43 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+09:51:45 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+09:51:45 [TimewindowsWindow] Player Saffe movido para mapa 6 (176, 127)
+10:04:35 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 6
+10:05:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+10:05:23 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+10:05:25 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+10:05:25 [TimewindowsWindow] Player Saffe movido para mapa 6 (176, 127)
+10:46:17 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 6
+10:52:47 [Timewindows] Tempo deletado do account videodv | Motivo: tempo expirado
+10:52:47 [Timewindows] Tempo expirado. Player AdmSaffe movido para mapa 0 (125, 125)
+11:02:38 [Timewindows] Tempo deletado do account videodv | Motivo: tempo expirado
+11:02:38 [Timewindows] Tempo expirado. Player AdmSaffe movido para mapa 0 (125, 125)
+11:13:20 [Timewindows] Tempo deletado do account videodv | Motivo: tempo expirado
+11:13:20 [Timewindows] Tempo expirado. Player AdmSaffe movido para mapa 0 (125, 125)
+11:14:49 [Timewindows] Tempo deletado do account videodv | Motivo: tempo expirado
+11:14:49 [Timewindows] Tempo expirado. Player AdmSaffe movido para mapa 0 (125, 125)
+11:16:19 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+11:16:23 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+11:16:25 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+11:16:25 [TimewindowsWindow] Player AdmSaffe movido para mapa 6 (176, 127)
+11:16:39 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+11:16:43 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+11:16:44 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+11:16:44 [TimewindowsWindow] Player Saffe movido para mapa 6 (176, 127)
+12:18:32 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 6
+12:44:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+20:41:35 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+20:41:38 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+20:41:43 [ProtocolCore] aIndex: 13000 Name: TimewindowsWindowRequest Head: 246
+20:43:43 [Loader] Lua Gameserver socket ready!
+20:43:43 [Loader] Load success System\ScriptCore
+20:43:43 [Loader] Load success System\ProtocolCore
+20:43:43 [Loader] Load success Utils\Database
+20:43:43 [Loader] Load success Utils\DatabaseAsync
+20:43:43 [Loader] Load success Utils\Cron
+20:43:43 [Loader] Load success Utils\Functions
+20:43:43 [Loader] Load success Utils\Schedule
+20:43:43 [Loader] Load success Scripts\CalCharacter
+20:43:43 [Loader] Load success Scripts\Musaffe\Config
+20:43:43 [Timewindows] Script carregado. Mapa configurado: 6
+20:43:43 [Loader] Load success Scripts\Musaffe\Config
+20:43:43 [Loader] Load folder success Scripts\Musaffe\
+20:43:43 Connected to database
+20:43:43 Connected to Async database
+20:43:43 Teste query: ZZZZZZZZZZ
+20:43:43 [ServerInfo] Script loaded successfully
+20:43:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+21:01:39 [Loader] Lua Gameserver socket ready!
+21:01:39 [Loader] Load success System\ScriptCore
+21:01:39 [Loader] Load success System\ProtocolCore
+21:01:39 [Loader] Load success Utils\Database
+21:01:39 [Loader] Load success Utils\DatabaseAsync
+21:01:39 [Loader] Load success Utils\Cron
+21:01:39 [Loader] Load success Utils\Functions
+21:01:39 [Loader] Load success Utils\Schedule
+21:01:39 [Loader] Load success Scripts\CalCharacter
+21:01:39 [Loader] Load success Scripts\Musaffe\Config
+21:01:39 [Timewindows] Script carregado. Mapa configurado: 6
+21:01:39 [Loader] Load success Scripts\Musaffe\Config
+21:01:39 [Loader] Load folder success Scripts\Musaffe\
+21:01:39 Connected to database
+21:01:39 Connected to Async database
+21:01:39 Teste query: ZZZZZZZZZZ
+21:01:39 [ServerInfo] Script loaded successfully
+21:04:32 [Loader] Lua Gameserver socket ready!
+21:04:32 [Loader] Load success System\ScriptCore
+21:04:32 [Loader] Load success System\ProtocolCore
+21:04:32 [Loader] Load success Utils\Database
+21:04:32 [Loader] Load success Utils\DatabaseAsync
+21:04:32 [Loader] Load success Utils\Cron
+21:04:32 [Loader] Load success Utils\Functions
+21:04:32 [Loader] Load success Utils\Schedule
+21:04:32 [Loader] Load success Scripts\CalCharacter
+21:04:32 [Loader] Load success Scripts\Musaffe\Config
+21:04:32 [Timewindows] Script carregado. Mapa configurado: 6
+21:04:32 [Loader] Load success Scripts\Musaffe\Config
+21:04:32 [Loader] Load folder success Scripts\Musaffe\
+21:04:32 Connected to database
+21:04:32 Connected to Async database
+21:04:32 Teste query: ZZZZZZZZZZ
+21:04:32 [ServerInfo] Script loaded successfully
+21:12:12 [Loader] Lua Gameserver socket ready!
+21:12:12 [Loader] Load success System\ScriptCore
+21:12:12 [Loader] Load success System\ProtocolCore
+21:12:12 [Loader] Load success Utils\Database
+21:12:12 [Loader] Load success Utils\DatabaseAsync
+21:12:12 [Loader] Load success Utils\Cron
+21:12:12 [Loader] Load success Utils\Functions
+21:12:12 [Loader] Load success Utils\Schedule
+21:12:12 [Loader] Load success Scripts\CalCharacter
+21:12:12 [Loader] Load success Scripts\Musaffe\Config
+21:12:12 [Timewindows] Script carregado. Mapa configurado: 6
+21:12:12 [Loader] Load success Scripts\Musaffe\Config
+21:12:12 [Loader] Load folder success Scripts\Musaffe\
+21:12:12 Connected to database
+21:12:12 Connected to Async database
+21:12:12 Teste query: ZZZZZZZZZZ
+21:12:12 [ServerInfo] Script loaded successfully
+21:13:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+21:14:48 [Loader] Lua Gameserver socket ready!
+21:14:48 [Loader] Load success System\ScriptCore
+21:14:48 [Loader] Load success System\ProtocolCore
+21:14:48 [Loader] Load success Utils\Database
+21:14:48 [Loader] Load success Utils\DatabaseAsync
+21:14:48 [Loader] Load success Utils\Cron
+21:14:48 [Loader] Load success Utils\Functions
+21:14:48 [Loader] Load success Utils\Schedule
+21:14:48 [Loader] Load success Scripts\CalCharacter
+21:14:48 [Loader] Load success Scripts\Musaffe\Config
+21:14:48 [Timewindows] Script carregado. Mapa configurado: 6
+21:14:48 [Loader] Load success Scripts\Musaffe\Config
+21:14:48 [Loader] Load folder success Scripts\Musaffe\
+21:14:48 Connected to database
+21:14:48 Connected to Async database
+21:14:48 Teste query: ZZZZZZZZZZ
+21:14:48 [ServerInfo] Script loaded successfully
+21:14:50 [Loader] Lua Gameserver socket ready!
+21:14:50 [Loader] Load success System\ScriptCore
+21:14:50 [Loader] Load success System\ProtocolCore
+21:14:50 [Loader] Load success Utils\Database
+21:14:50 [Loader] Load success Utils\DatabaseAsync
+21:14:50 [Loader] Load success Utils\Cron
+21:14:50 [Loader] Load success Utils\Functions
+21:14:50 [Loader] Load success Utils\Schedule
+21:14:50 [Loader] Load success Scripts\CalCharacter
+21:14:50 [Loader] Load success Scripts\Musaffe\Config
+21:14:50 [Timewindows] Script carregado. Mapa configurado: 6
+21:14:50 [Loader] Load success Scripts\Musaffe\Config
+21:14:50 [Loader] Load folder success Scripts\Musaffe\
+21:14:50 Connected to database
+21:14:50 Connected to Async database
+21:14:50 Teste query: ZZZZZZZZZZ
+21:14:50 [ServerInfo] Script loaded successfully
+21:16:00 [Loader] Lua Gameserver socket ready!
+21:16:00 [Loader] Load success System\ScriptCore
+21:16:00 [Loader] Load success System\ProtocolCore
+21:16:00 [Loader] Load success Utils\Database
+21:16:00 [Loader] Load success Utils\DatabaseAsync
+21:16:00 [Loader] Load success Utils\Cron
+21:16:00 [Loader] Load success Utils\Functions
+21:16:00 [Loader] Load success Utils\Schedule
+21:16:00 [Loader] Load success Scripts\CalCharacter
+21:16:00 [Loader] Load success Scripts\Musaffe\Config
+21:16:00 [Timewindows] Script carregado. Mapa configurado: 6
+21:16:00 [Loader] Load success Scripts\Musaffe\Config
+21:16:00 [Loader] Load folder success Scripts\Musaffe\
+21:16:00 Connected to database
+21:16:00 Connected to Async database
+21:16:00 Teste query: ZZZZZZZZZZ
+21:16:00 [ServerInfo] Script loaded successfully
+21:19:32 [Loader] Lua Gameserver socket ready!
+21:19:32 [Loader] Load success System\ScriptCore
+21:19:32 [Loader] Load success System\ProtocolCore
+21:19:32 [Loader] Load success Utils\Database
+21:19:32 [Loader] Load success Utils\DatabaseAsync
+21:19:32 [Loader] Load success Utils\Cron
+21:19:32 [Loader] Load success Utils\Functions
+21:19:32 [Loader] Load success Utils\Schedule
+21:19:32 [Loader] Load success Scripts\CalCharacter
+21:19:32 [Loader] Load success Scripts\Musaffe\Config
+21:19:32 [Timewindows] Script carregado. Mapa configurado: 6
+21:19:32 [Loader] Load success Scripts\Musaffe\Config
+21:19:32 [Loader] Load folder success Scripts\Musaffe\
+21:19:32 Connected to database
+21:19:32 Connected to Async database
+21:19:32 Teste query: ZZZZZZZZZZ
+21:19:32 [ServerInfo] Script loaded successfully
+21:27:48 [Loader] Lua Gameserver socket ready!
+21:27:48 [Loader] Load success System\ScriptCore
+21:27:48 [Loader] Load success System\ProtocolCore
+21:27:48 [Loader] Load success Utils\Database
+21:27:48 [Loader] Load success Utils\DatabaseAsync
+21:27:48 [Loader] Load success Utils\Cron
+21:27:48 [Loader] Load success Utils\Functions
+21:27:48 [Loader] Load success Utils\Schedule
+21:27:48 [Loader] Load success Scripts\CalCharacter
+21:27:48 [Loader] Load success Scripts\Musaffe\Config
+21:27:48 [Timewindows] Script carregado. Mapa configurado: 6
+21:27:48 [Loader] Load success Scripts\Musaffe\Config
+21:27:48 [Loader] Load folder success Scripts\Musaffe\
+21:27:48 Connected to database
+21:27:48 Connected to Async database
+21:27:48 Teste query: ZZZZZZZZZZ
+21:27:48 [ServerInfo] Script loaded successfully
+21:34:21 [Loader] Lua Gameserver socket ready!
+21:34:21 [Loader] Load success System\ScriptCore
+21:34:21 [Loader] Load success System\ProtocolCore
+21:34:21 [Loader] Load success Utils\Database
+21:34:21 [Loader] Load success Utils\DatabaseAsync
+21:34:21 [Loader] Load success Utils\Cron
+21:34:21 [Loader] Load success Utils\Functions
+21:34:21 [Loader] Load success Utils\Schedule
+21:34:21 [Loader] Load success Scripts\CalCharacter
+21:34:21 [Loader] Load success Scripts\Musaffe\Config
+21:34:21 [Timewindows] Script carregado. Mapa configurado: 6
+21:34:21 [Loader] Load success Scripts\Musaffe\Config
+21:34:21 [Loader] Load folder success Scripts\Musaffe\
+21:34:21 Connected to database
+21:34:21 Connected to Async database
+21:34:21 Teste query: ZZZZZZZZZZ
+21:34:21 [ServerInfo] Script loaded successfully
+21:35:24 [Loader] Lua Gameserver socket ready!
+21:35:24 [Loader] Load success System\ScriptCore
+21:35:24 [Loader] Load success System\ProtocolCore
+21:35:24 [Loader] Load success Utils\Database
+21:35:24 [Loader] Load success Utils\DatabaseAsync
+21:35:24 [Loader] Load success Utils\Cron
+21:35:24 [Loader] Load success Utils\Functions
+21:35:24 [Loader] Load success Utils\Schedule
+21:35:24 [Loader] Load success Scripts\CalCharacter
+21:35:24 [Loader] Load success Scripts\Musaffe\Config
+21:35:24 [Timewindows] Script carregado. Mapa configurado: 6
+21:35:24 [Loader] Load success Scripts\Musaffe\Config
+21:35:24 [Loader] Load folder success Scripts\Musaffe\
+21:35:24 Connected to database
+21:35:24 Connected to Async database
+21:35:24 Teste query: ZZZZZZZZZZ
+21:35:24 [ServerInfo] Script loaded successfully
+21:37:41 [Loader] Lua Gameserver socket ready!
+21:37:41 [Loader] Load success System\ScriptCore
+21:37:41 [Loader] Load success System\ProtocolCore
+21:37:41 [Loader] Load success Utils\Database
+21:37:41 [Loader] Load success Utils\DatabaseAsync
+21:37:41 [Loader] Load success Utils\Cron
+21:37:41 [Loader] Load success Utils\Functions
+21:37:41 [Loader] Load success Utils\Schedule
+21:37:41 [Loader] Load success Scripts\CalCharacter
+21:37:41 [Loader] Load success Scripts\Musaffe\Config
+21:37:41 [Timewindows] Script carregado. Mapa configurado: 6
+21:37:41 [Loader] Load success Scripts\Musaffe\Config
+21:37:41 [Loader] Load folder success Scripts\Musaffe\
+21:37:41 Connected to database
+21:37:41 Connected to Async database
+21:37:41 Teste query: ZZZZZZZZZZ
+21:37:41 [ServerInfo] Script loaded successfully
+22:58:43 [Timewindows] Tempo deletado do account videodv | Motivo: tempo expirado
+22:58:43 [Timewindows] Tempo expirado. Player AdmSaffe movido para mapa 0 (125, 125)

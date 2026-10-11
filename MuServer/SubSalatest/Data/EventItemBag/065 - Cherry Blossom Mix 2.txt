@@ -1,0 +1,15 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Cherry Blossom Mix 2"	1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+14	19	1	7	0	0	0	0	// Devil's Invitation
+13	18	1	8	0	0	0	0	// Invisibility Cloak
+14	28	1	7	0	0	0	0	// Lost Map
+13	51	1	6	0	0	0	0	// Scroll of Blood
+end

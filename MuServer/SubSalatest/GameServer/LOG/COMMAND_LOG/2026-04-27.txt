@@ -1,0 +1,66 @@
+06:43:10 [CommandAddPoint][mamm][ElMarcolaa] - (Type: 3, Amount: 490)
+10:21:23 [CustomMove][mamm][ElMarcolaa] - (MoveIndex: 2)
+10:21:41 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+10:21:41 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+10:21:53 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+10:21:53 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+10:22:15 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+10:22:16 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+11:19:29 [CommandDisablePvP][videodv][AdmSaffe] - Used
+11:21:54 [CommandDisablePvP][videodv][AdmSaffe] - Used
+11:26:55 [CommandDisablePvP][videodv][AdmSaffe] - Used
+11:30:49 [CommandDisablePvP][videodv][AdmSaffe] - Used
+13:22:22 [CommandMoney][mamm][ElMarcolaa] - (Money: 20)
+20:46:45 [CustomMove][mamm][ElMarcolaa] - (MoveIndex: 2)
+20:47:35 [CustomMove][mamm][ElMarcolaa] - (MoveIndex: 2)
+22:22:49 [CommandReAdd][pvp03][PVPMG01] - OK
+22:22:55 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 25000)
+22:22:57 [CommandAddPoint][pvp03][PVPMG01] - (Type: 2, Amount: 10000)
+22:23:02 [CommandAddPoint][pvp03][PVPMG01] - (Type: 3, Amount: 1000)
+22:23:10 [CommandAddPoint][pvp03][PVPMG01] - (Type: 1, Amount: 10000)
+22:23:27 [CommandAddPoint][pvp03][PVPMG01] - (Type: 1, Amount: 4044)
+22:32:50 [CommandAddPoint][pvp01][PVPMG] - (Type: 3, Amount: 420)
+22:33:00 [CommandAddPoint][pvp01][PVPMG] - (Type: 2, Amount: 9974)
+22:33:22 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 21920)
+22:33:27 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 1000)
+22:33:45 [CommandAddPoint][pvp01][PVPMG] - (Type: 1, Amount: 12578)
+22:34:24 [CustomMove][pvp03][PVPMG01] - (MoveIndex: 2)
+22:35:42 [CustomMove][pvp03][PVPMG01] - (MoveIndex: 2)
+22:52:57 [CommandReAdd][pvp03][PVPMG01] - OK
+22:53:08 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 700)
+22:53:14 [CommandAddPoint][pvp03][PVPMG01] - (Type: 1, Amount: 10000)
+22:53:17 [CommandAddPoint][pvp03][PVPMG01] - (Type: 2, Amount: 10000)
+22:53:22 [CommandAddPoint][pvp03][PVPMG01] - (Type: 3, Amount: 28000)
+22:53:30 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 300)
+22:54:01 [CommandAddPoint][pvp03][PVPMG01] - (Type: 3, Amount: 1044)
+23:04:01 [CommandReAdd][pvp03][PVPMG01] - OK
+23:04:11 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 998)
+23:04:16 [CommandAddPoint][pvp03][PVPMG01] - (Type: 1, Amount: 10000)
+23:04:20 [CommandAddPoint][pvp03][PVPMG01] - (Type: 2, Amount: 10000)
+23:04:24 [CommandAddPoint][pvp03][PVPMG01] - (Type: 3, Amount: 29046)
+23:04:34 [CommandReMaster][pvp03][PVPMG01] - Used
+23:05:00 [CommandReMaster][pvp03][PVPMG01] - Used
+23:18:16 [CustomMove][pvp01][PVPMG] - (MoveIndex: 2)
+23:27:20 [CommandReAdd][pvp01][PVPELF] - OK
+23:27:28 [CommandAddPoint][pvp01][PVPELF] - (Type: 3, Amount: 631)
+23:27:44 [CommandAddPoint][pvp01][PVPELF] - (Type: 1, Amount: 24985)
+23:27:50 [CommandAddPoint][pvp01][PVPELF] - (Type: 0, Amount: 301)
+23:28:00 [CommandAddPoint][pvp01][PVPELF] - (Type: 2, Amount: 9985)
+23:28:19 [CommandAddPoint][pvp01][PVPELF] - (Type: 1, Amount: 5000)
+23:28:22 [CommandAddPoint][pvp01][PVPELF] - (Type: 3, Amount: 9120)
+23:28:39 [CommandChange][pvp01][PVPELF] - (ChangeUp: 2)
+23:45:29 [CommandReAdd][pvp03][PVPELF01] - OK
+23:48:13 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 1000)
+23:48:25 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 10000)
+23:48:58 [CommandReAdd][pvp03][PVPELF01] - OK
+23:49:05 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 1000)
+23:49:11 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 20000)
+23:49:17 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+23:49:37 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 9985)
+23:50:10 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 9307)
+23:50:20 [CommandReAdd][pvp03][PVPELF01] - OK
+23:50:26 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 29985)
+23:50:31 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 985)
+23:50:35 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+23:50:42 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 9322)
+23:54:01 [CommandReMaster][pvp01][PVPELF] - Used

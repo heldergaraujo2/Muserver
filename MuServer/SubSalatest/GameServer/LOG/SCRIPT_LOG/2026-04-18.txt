@@ -1,0 +1,17 @@
+18:15:18 [SCRIPT LOG] Start
+18:16:20 [SCRIPT LOG] Start
+18:17:04 [SCRIPT LOG] Start
+18:18:48 [SCRIPT LOG] Start
+18:18:48 [Loader] Lua Gameserver socket ready!
+18:18:48 [Loader] Load success System\ScriptCore
+18:18:48 [Loader] Load success System\ProtocolCore
+18:18:48 [Loader] Load success Scripts\CalCharacter
+18:18:48 [Loader] Load success Utils\Database
+18:18:48 [Loader] Load success Utils\DatabaseAsync
+18:18:48 [Loader] Load success Utils\Cron
+18:18:48 [Loader] Load success Utils\Functions
+18:18:48 [Loader] Load success Utils\Schedule
+18:18:48 Connected to database
+18:18:48 Connected to Async database
+18:18:48 Teste query: ZZZZZZZZZZ
+18:18:48 [ServerInfo] Script loaded successfully

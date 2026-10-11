@@ -1,0 +1,45 @@
+11:23:33 [GREMORY LOG] Start
+12:31:48 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7668, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:31:49 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7668, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:01 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 5187, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723121
+12:32:04 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 4163, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723124
+12:32:05 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 4675, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 2, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723125
+12:32:07 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 5699, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 2, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723127
+12:32:09 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 3651, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 2, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723129
+12:32:10 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 6732, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1779723130
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:41 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:32:47 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:48 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:49 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:51 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:52 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:32:53 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case](hellder)(Saffe) ADDITEM ItemIndex: 7260, Level: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOpt: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 0
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:35 [Gremory Case] (hellder)(Saffe) ADD ITEM OK
+12:40:39 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:40 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:41 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:42 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:43 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0
+12:40:44 [Gremory Case](hellder)(Saffe) GETITEM ItemIndex: 7260, Lvl: 0, Opt1: 0, Opt2: 0, Opt3: 0, NewOption: 0, SetOpt: 0, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 0

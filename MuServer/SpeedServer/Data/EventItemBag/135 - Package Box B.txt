@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Package Box B"		0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	22	0	0	0	1	7	2	// Dark Soul Helm
+8	22	0	0	0	1	7	2	// Dark Soul Armor
+9	22	0	0	0	1	7	2	// Dark Soul Pants
+10	22	0	0	0	1	7	2	// Dark Soul Gloves
+11	22	0	0	0	1	7	2	// Dark Soul Boots
+end

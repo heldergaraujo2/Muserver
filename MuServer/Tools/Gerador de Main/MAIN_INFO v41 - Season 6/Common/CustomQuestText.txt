@@ -1,0 +1,36 @@
+//////////////////////////////////////////////////////////////////////////////
+// Custom Quest Text by louis
+//
+// - Language Group  
+// 0 - English
+// 1 - Portuguese
+// 2 - Spanish
+//
+// - Type 
+// 0 - Primary Quest
+// 1 - Secundary Quest
+//
+// - Quest = Quest number
+// - Line = Text line (Max 3 lines)
+// - Quest Text = Text of this line
+/////////////////////////////////////////////////////////////////////////////
+
+0
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"In the webzen world there are monsters who wish"
+	0	1	1 	"to destroy everything,"
+	0	1	2 	"find them and finish them off!"
+	1	1	0 	"Lorencia's quest"
+end
+
+1
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"No mundo webzen existem monstros que desejam"
+	0	1	1 	"destruir tudo, encontre-os e acabe com eles!"
+end
+
+2
+//	#Type	#Quest	#Line	#Quest Text
+	0	1	0 	"No mundo webzen existem monstros que desejam"
+	0	1	1 	"destruir tudo, encontre-os e acabe com eles!"
+end

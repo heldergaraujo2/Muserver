@@ -1,0 +1,4 @@
+22:10:02 [SETCOIN LOG] Start
+22:18:23 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+23:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+23:20:11 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

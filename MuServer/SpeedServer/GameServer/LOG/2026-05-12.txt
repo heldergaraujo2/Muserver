@@ -1,0 +1,135 @@
+07:55:04 [Obj][13000] AddClient (200.25.57.14)
+07:55:05 [Obj][13000] DelClient (200.25.57.14)
+08:40:45 [Obj][13000] AddClient (200.25.57.14)
+08:40:46 [Obj][13000] DelClient (200.25.57.14)
+11:21:09 [Obj][13000] AddClient (66.132.186.166)
+11:21:13 [Obj][13000] DelClient (66.132.186.166)
+11:21:19 [Obj][13001] AddClient (66.132.186.166)
+11:21:30 [Obj][13001] DelClient (66.132.186.166)
+14:38:48 [FAKE ONLINE LOG] Start
+14:38:48 [ServerInfo] CashShop loaded successfully
+14:38:48 [ServerInfo] ChaosMix loaded successfully
+14:38:48 [ServerInfo] Character loaded successfully
+14:38:48 [FakeOnline] Loaded successfully
+14:38:48 [ServerInfo] Custom loaded successfully
+14:38:48 [ServerInfo] Command loaded successfully
+14:38:48 [ServerInfo] Common loaded successfully
+14:38:48 [ServerInfo] Discord loaded successfully
+14:38:48 [ServerInfo] Effect loaded successfully
+14:38:48 [ServerInfo] Event loaded successfully
+14:38:48 [ServerInfo] EventItemBag loaded successfully
+14:38:48 [ServerInfo] Hack loaded successfully
+14:38:48 [ServerInfo] Item loaded successfully
+14:38:48 [ServerInfo] Message loaded successfully
+14:38:48 [ServerInfo] Map loaded successfully
+14:38:48 [ServerInfo] Terrain loaded successfully
+14:38:48 [ServerInfo] Monster loaded successfully
+14:38:48 [ServerInfo] Move loaded successfully
+14:38:48 [ServerInfo] Quest loaded successfully
+14:38:48 [ServerInfo] Script loaded successfully
+14:38:49 [ServerInfo] Shop loaded successfully
+14:38:49 [ServerInfo] Skill loaded successfully
+14:38:49 [ServerInfo] Util loaded successfully
+14:38:49 [ReadBotInfo] BotSystem loaded successfully
+14:38:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+14:38:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+14:38:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 59, Y: 7)
+14:38:49 [ServerInfo] Custom Attack offline restored successfully
+14:38:49 [ServerInfo] Custom Store offline restored successfully
+14:38:49 [Discord] Connection successfully
+14:38:49 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+14:44:09 [FAKE ONLINE LOG] Start
+14:44:09 [ServerInfo] CashShop loaded successfully
+14:44:09 [ServerInfo] ChaosMix loaded successfully
+14:44:09 [ServerInfo] Character loaded successfully
+14:44:09 [FakeOnline] Loaded successfully
+14:44:09 [ServerInfo] Custom loaded successfully
+14:44:09 [ServerInfo] Command loaded successfully
+14:44:09 [ServerInfo] Common loaded successfully
+14:44:09 [ServerInfo] Discord loaded successfully
+14:44:09 [ServerInfo] Effect loaded successfully
+14:44:09 [ServerInfo] Event loaded successfully
+14:44:09 [ServerInfo] EventItemBag loaded successfully
+14:44:09 [ServerInfo] Hack loaded successfully
+14:44:09 [ServerInfo] Item loaded successfully
+14:44:09 [ServerInfo] Message loaded successfully
+14:44:09 [ServerInfo] Map loaded successfully
+14:44:09 [ServerInfo] Terrain loaded successfully
+14:44:09 [ServerInfo] Monster loaded successfully
+14:44:09 [ServerInfo] Move loaded successfully
+14:44:09 [ServerInfo] Quest loaded successfully
+14:44:09 [ServerInfo] Script loaded successfully
+14:44:09 [ServerInfo] Shop loaded successfully
+14:44:09 [ServerInfo] Skill loaded successfully
+14:44:09 [ServerInfo] Util loaded successfully
+14:44:09 [ReadBotInfo] BotSystem loaded successfully
+14:44:09 [ServerInfo] Custom Attack offline restored successfully
+14:44:09 [ServerInfo] Custom Store offline restored successfully
+14:44:09 [Discord] Connection successfully
+14:44:21 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+15:48:07 [FAKE ONLINE LOG] Start
+15:48:07 [ServerInfo] CashShop loaded successfully
+15:48:07 [ServerInfo] ChaosMix loaded successfully
+15:48:07 [ServerInfo] Character loaded successfully
+15:48:07 [FakeOnline] Loaded successfully
+15:48:07 [ServerInfo] Custom loaded successfully
+15:48:07 [ServerInfo] Command loaded successfully
+15:48:07 [ServerInfo] Common loaded successfully
+15:48:07 [ServerInfo] Discord loaded successfully
+15:48:07 [ServerInfo] Effect loaded successfully
+15:48:07 [ServerInfo] Event loaded successfully
+15:48:07 [ServerInfo] EventItemBag loaded successfully
+15:48:07 [ServerInfo] Hack loaded successfully
+15:48:07 [ServerInfo] Item loaded successfully
+15:48:07 [ServerInfo] Message loaded successfully
+15:48:07 [ServerInfo] Map loaded successfully
+15:48:07 [ServerInfo] Terrain loaded successfully
+15:48:07 [ServerInfo] Monster loaded successfully
+15:48:07 [ServerInfo] Move loaded successfully
+15:48:07 [ServerInfo] Quest loaded successfully
+15:48:07 [ServerInfo] Script loaded successfully
+15:48:07 [ServerInfo] Shop loaded successfully
+15:48:07 [ServerInfo] Skill loaded successfully
+15:48:07 [ServerInfo] Util loaded successfully
+15:48:07 [ReadBotInfo] BotSystem loaded successfully
+15:48:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+15:48:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 203, Y: 132)
+15:48:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+15:48:07 [ServerInfo] Custom Attack offline restored successfully
+15:48:07 [ServerInfo] Custom Store offline restored successfully
+15:48:07 [Discord] Connection successfully
+15:48:08 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+15:57:51 [Obj][13000] AddClient (152.233.45.27)
+15:57:53 [Obj][13000] AddAccount (boxer)
+15:58:00 [Obj][13000] LogOutCharacter (Varda)
+15:58:07 [Obj][13000] LogOutCharacter (Varda)
+15:58:26 [Obj][13000] DelAccount (boxer)
+15:58:26 [Obj][13000] DelClient (152.233.45.27)
+18:33:27 [Obj][13000] AddClient (181.220.28.235)
+18:33:33 [Obj][13000] AddAccount (maiconj4)
+18:33:41 [Obj][13000] LogInCharacter (XalingO)
+18:35:12 [Obj][13001] AddClient (181.220.28.235)
+18:35:14 [Obj][13001] AddAccount (maiconj5)
+18:35:25 [Obj][13001] LogInCharacter (PIRILAMPO)
+18:35:42 Flood Packet: Index: 13000 Head: 0X30 Sub: 0000
+18:46:00 [Obj][13000] LogOutCharacter (XalingO)
+18:46:01 [Obj][13000] DelAccount (maiconj4)
+18:46:01 [Obj][13000] DelClient (181.220.28.235)
+18:46:09 [Obj][13001] LogOutCharacter (PIRILAMPO)
+18:46:09 [Obj][13001] DelAccount (maiconj5)
+18:46:09 [Obj][13001] DelClient (181.220.28.235)
+18:46:30 [Obj][13000] AddClient (181.220.28.235)
+18:46:36 [Obj][13000] AddAccount (maiconj5)
+18:46:42 [Obj][13000] LogInCharacter (PIRILAMPO)
+18:47:46 [Obj][13001] AddClient (181.220.28.235)
+18:47:49 [Obj][13001] AddAccount (maiconj4)
+18:47:54 [Obj][13001] LogInCharacter (XalingO)
+18:48:04 [Obj][13001] LogOutCharacter (XalingO)
+18:48:04 [Obj][13001] DelAccount (maiconj4)
+18:48:04 [Obj][13001] DelClient (181.220.28.235)
+19:52:55 [ServerInfo] Script loaded successfully
+21:51:39 [Obj][13000] LogOutCharacter (PIRILAMPO)
+21:51:39 [Obj][13000] DelAccount (maiconj5)
+21:51:39 [Obj][13000] DelClient (181.220.28.235)
+23:32:08 [ServerInfo] Skill loaded successfully
+23:33:24 [ServerInfo] Script loaded successfully

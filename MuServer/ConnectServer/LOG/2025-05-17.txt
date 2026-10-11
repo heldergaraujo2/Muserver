@@ -1,0 +1,9 @@
+07:34:46 [SocketManager] Protocol header error (Index: 0, Header: 16)
+07:34:46 [SocketManager] Protocol header error (Index: 6, Header: 47)
+07:34:47 [SocketManager] Protocol header error (Index: 23, Header: 53)
+20:06:41 [ServerList] GameServer offline (GameServer) (1)
+20:07:43 [ServerList] GameServer online (GameServer) (1)
+20:09:25 [ServerList] GameServer offline (GameServer) (1)
+20:09:50 [ServerList] GameServer online (GameServer) (1)
+22:54:07 [AntiFlood] SYN FLOOD attack(191.197.198.173)
+22:54:07 [SocketManager] WSAAccept() failed with error: 10061

@@ -1,0 +1,11 @@
+10:15:42 [SocketManager] WSARecv() failed with error: 10053
+10:32:14 [ServerList] GameServer offline (GameServer) (0)
+10:32:16 [SocketManager] Server started at port [44406]
+10:32:16 [ServerList] ServerList loaded successfully
+10:32:19 [ServerList] GameServer online (GameServer) (2)
+10:32:19 [ServerList] JoinServer online
+10:32:26 [ServerList] GameServer online (GameServer) (0)
+10:32:32 [ServerList] GameServer online (GameServerCS) (19)
+12:22:19 [SocketManager] Protocol header error (Index: 28, Header: 47)
+12:22:19 [SocketManager] Protocol header error (Index: 7, Header: 16)
+18:34:49 [SocketManager] Protocol header error (Index: 33, Header: 47)

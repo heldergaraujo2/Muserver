@@ -1,0 +1,23 @@
+09:49:46 ============================= START MIX ============================= 
+09:49:46 [Slot 01](Name: Spirit, Index: 6687, Level: 00, Dur: 0, Serial: 00AE83A5, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+09:49:46 [Slot 02](Name: Jewel of Soul, Index: 7182, Level: 00, Dur: 5, Serial: 00AE8ABB, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+09:49:46 [Slot 03](Name: Jewel of Bless, Index: 7181, Level: 00, Dur: 5, Serial: 00AE8AB1, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+09:49:46 [Slot 04](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 00AE8ABD, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+09:49:46 [Slot 05](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00AE8AB6, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+09:49:46 [PetMix][Success][xxothonxx][BaianoDL] - (Type: 0, ChaosSuccessRate: 80, ChaosMoney: 5000000)
+12:59:49 ============================= START MIX ============================= 
+12:59:49 [Slot 01](Name: Sealed Silver Box, Index: 7290, Level: 00, Dur: 1, Serial: 00AEB8F9, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:59:49 [Slot 02](Name: Silver Key, Index: 7280, Level: 00, Dur: 1, Serial: 00AEB90F, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:59:49 [ChestMix][Success][xxothonxx][BaianoDL] - (ChaosSuccessRate: 0, ChaosMoney: 0)
+20:42:09 ============================= START MIX ============================= 
+20:42:09 [Slot 01](Name: Brass Helm, Index: 3592, Level: 05, Dur: 50, Serial: 00AF1480, Option1: 0, Option2: 1, Option3: 2, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:42:09 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00AF2882, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:42:09 [ChaosItemMix][Failure][bolico1][Bolico] - (ChaosSuccessRate: 60, ChaosMoney: 600000)
+20:42:19 ============================= START MIX ============================= 
+20:42:19 [Slot 01](Name: Brass Boots, Index: 5640, Level: 06, Dur: 52, Serial: 00AF164A, Option1: 0, Option2: 1, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:42:19 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00AF2894, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:42:19 [ChaosItemMix][Success][bolico1][Bolico] - (ChaosSuccessRate: 60, ChaosMoney: 600000)
+20:43:10 ============================= START MIX ============================= 
+20:43:10 [Slot 01](Name: Chaos Lighting Staff, Index: 2567, Level: 04, Dur: 74, Serial: 00AF2897, Option1: 0, Option2: 0, Option3: 1, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:43:10 [Slot 03](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 00AF28CB, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:43:10 [Wing1Mix][Failure][bolico1][Bolico] - (ChaosSuccessRate: 60, ChaosMoney: 600000)

@@ -1,0 +1,18 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   Npc	     NpcMap		NpcX	NpcY	MoveMap	   MoveX		MoveY	MinLv	MaxLv	MinReset	MaxReset	MinMReset	MaxMReset	AccountLevel	PKMove	Comment
+0         791        0          114     132     92         61           201     250     *       *               *               *               *               *               *       // Sir Lesnar Arka War
+1         723        84         112     105     84         21           235     250     *       *               *               *               *               *               *       // The Nixie's Spirit
+2         805        3          195     113     89         61           201     250     *       *               *               *               *               *               *       // Captain Slough
+3         818        0          131     138     99         128          109     400     *       *               *               *               *               *               *      
+4         771        0          131     146     102        147          029     400     *       *               *               *               *               *               *      
+5         842        2          193     012     102        147          029     1200    *       *               *               *               *               *               *      
+6         847        87         224     116     107        160          067     *       *       *               *               *               *               *               *      
+7         857        0          113     135     113        044          048     *       *       50              *               *               *               *               *         // Guild Reuning    
+8         857        6          084     003     006        128          239     *       *       300             *               *               *               *               *         // Guild Reuning    
+end

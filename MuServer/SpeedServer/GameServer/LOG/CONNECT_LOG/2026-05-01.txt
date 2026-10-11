@@ -1,0 +1,6 @@
+18:16:40 [SocketManager] Server started at port [55902]
+22:58:13 [SocketManager] Protocol header error (Index: 13004, Header: 35)
+22:58:14 [SocketManager] Protocol header error (Index: 13008, Header: 66)
+22:58:14 [SocketManager] Protocol header error (Index: 13009, Header: 72)
+22:58:15 [SocketManager] Protocol header error (Index: 13011, Header: 28)
+22:58:15 [SocketManager] Protocol header error (Index: 13012, Header: 27)

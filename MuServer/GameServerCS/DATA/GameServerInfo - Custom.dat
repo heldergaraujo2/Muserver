@@ -1,0 +1,428 @@
+[GameServerInfo]
+;==================================================
+; Announce Chaos Mix Settings
+; 0: Disabled
+; 1: Global message
+; 2: Global message to all servers
+;==================================================
+AnnounceChaosMix10 = 2
+AnnounceChaosMix11 = 2
+AnnounceChaosMix12 = 2
+AnnounceChaosMix13 = 2
+AnnounceChaosMix14 = 2
+AnnounceChaosMix15 = 2
+
+;==================================================
+; Custom Arena Settings
+;==================================================
+CustomArenaSwitch = 1
+CustomArenaVictimScoreDecrease = 1
+CustomArenaKillerScoreIncrease = 1
+
+;==================================================
+; Custom Event Drop Settings
+;==================================================
+CustomEventDropSwitch = 1
+
+;==================================================
+; Custom Store Settings
+;==================================================
+CustomStoreTime_AL0 = 0
+CustomStoreTime_AL1 = 0
+CustomStoreTime_AL2 = 0
+CustomStoreTime_AL3 = 0
+CustomStoreCommandJoBSyntax = bless
+CustomStoreCommandJoSSyntax = soul
+CustomStoreCommandJoCSyntax = chaos
+CustomStoreCommandWCCSyntax = wc
+CustomStoreCommandWCPSyntax = hp
+CustomStoreCommandWCGSyntax = gp
+CustomStoreJoBName = BLESS STORE
+CustomStoreJoSName = SOUL STORE
+CustomStoreJoCName = CHAOS STORE
+CustomStoreWCCName = WC STORE
+CustomStoreWCPName = HP STORE
+CustomStoreWCGName = GP(Ruud) STORE
+CustomStoreAutoResume_AL0 = 1
+CustomStoreAutoResume_AL1 = 1
+CustomStoreAutoResume_AL2 = 1
+CustomStoreAutoResume_AL3 = 1
+CustomStoreOffAutoResumeEnable = 1
+CustomStoreOffAutoResume_AL0 = 1
+CustomStoreOffAutoResume_AL1 = 1
+CustomStoreOffAutoResume_AL2 = 1
+CustomStoreOffAutoResume_AL3 = 1
+
+;==================================================
+; Custom Attack Settings
+;==================================================
+CustomAttackTime_AL0 = 1440
+CustomAttackTime_AL1 = 1440
+CustomAttackTime_AL2 = 1440
+CustomAttackTime_AL3 = 2880
+CustomAttackDelay = 1000
+CustomAttackAutoPotionDelay = 0
+CustomAttackAutoBuff_AL0 = 1
+CustomAttackAutoBuff_AL1 = 1
+CustomAttackAutoBuff_AL2 = 1
+CustomAttackAutoBuff_AL3 = 1
+CustomAttackAutoBuffDelay = 10000
+CustomAttackAutoResume_AL0 = 1
+CustomAttackAutoResume_AL1 = 1
+CustomAttackAutoResume_AL2 = 1
+CustomAttackAutoResume_AL3 = 1
+CustomAttackAutoRepair_AL0 = 1
+CustomAttackAutoRepair_AL1 = 1
+CustomAttackAutoRepair_AL2 = 1
+CustomAttackAutoRepair_AL3 = 1
+CustomAttackAutoRepairDelay = 2000
+CustomAttackCanMove = 1
+
+;==================================================
+; Off Attack Settings (Custom Attack or OffHelper)
+;==================================================
+CustomAttackOffAutoResumeEnable = 1
+CustomAttackOffAutoResume_AL0 = 1
+CustomAttackOffAutoResume_AL1 = 1
+CustomAttackOffAutoResume_AL2 = 1
+CustomAttackOffAutoResume_AL3 = 1
+
+;==================================================
+; Custom Item Vip
+;==================================================
+CustomItemVipSwitch = 0
+
+;==================================================
+; Custom Online Lottery Settings
+;==================================================
+CustomOnlineLotterySwitch = 0
+CustomOnlineLotteryNoOff = 0
+
+;==================================================
+; Custom Quest Settings
+;==================================================
+CustomQuestSwitch = 0
+CustomQuestMonsterCountParty = 0
+
+;==================================================
+; Custom RankUser Settings (CustomRankUser.txt)
+; Type Reset = 0, Type Master Reset = 1, Type Level = 2 , Type Quest = 3
+;==================================================
+CustomRankUserSwitch = 0
+CustomRankUserType = 0
+CustomRankUserRewardSwitch = 1
+CustomRankUserNoticeToAll = 1
+CustomRankUserNoticeToUser = 1
+CustomRankUserLevelMasterLevel = 1
+CustomRankUserSwitchCharacter = 0
+
+;==================================================
+; Custom Death Message
+;==================================================
+CustomDeathMessageSwitch = 1
+
+;==================================================
+; Custom Quiz
+;==================================================
+CustomQuizSwitch = 0
+
+;==================================================
+; Custom NpcCollector Settings (CustomNpcCollector.txt)
+;==================================================
+CustomNpcCollectorSwitch = 1
+
+;==================================================
+; Custom Pick Command (CustomPick.txt) 
+;==================================================
+CustomPickSwitch = 0
+CustomPickEnable_AL0 = 1
+CustomPickEnable_AL1 = 1
+CustomPickEnable_AL2 = 1
+CustomPickEnable_AL3 = 1
+CustomPickRequireLevel_AL0 = 0
+CustomPickRequireLevel_AL1 = 0
+CustomPickRequireLevel_AL2 = 0
+CustomPickRequireLevel_AL3 = 0
+CustomPickRequireReset_AL0 = 0
+CustomPickRequireReset_AL1 = 0
+CustomPickRequireReset_AL2 = 0
+CustomPickRequireReset_AL3 = 0
+CustomPickRequireMoney_AL0 = 0
+CustomPickRequireMoney_AL1 = 0
+CustomPickRequireMoney_AL2 = 0
+CustomPickRequireMoney_AL3 = 0
+
+;==================================================
+; Custom Pick Message 
+;==================================================
+PickMessageSwitch = 0
+PickMessageColor = 1
+PickMessageExcellentItem = 1
+PickMessageSetItem = 1
+PickMessageSocketItem = 1
+
+;==================================================
+; Custom Ranking Settings (CustomRanking.txt) F8 in game
+;==================================================
+CustomRankingSwitch = 1
+
+;==================================================
+; Custom EventTime Settings H in game
+;==================================================
+CustomEventTimeSwitch = 1
+
+;==================================================
+; Custom Guild Warehouse
+; Member Status to use: 
+; 0 All Members
+; 32 Battle Master+
+; 64 Guild Assistente+ 
+; 128 Guild Master+
+;==================================================
+GuildWarehouseEnable = 0
+GuildWarehouseStatus = 0
+GuildWarehouseUseMessage = 1
+GuildWarehouseItemMessage = 1
+
+;==================================================
+; Custom Add Status System
+; 0: Disabled
+; 1: Normal method
+; 2: Add points at exact value
+; 3: Add points at exact value (allow negative numbers)
+;==================================================
+CustomAddStatusType_AL0 = 3
+CustomAddStatusType_AL1 = 3
+CustomAddStatusType_AL2 = 3
+CustomAddStatusType_AL3 = 3
+
+;==================================================
+; Custom Shop MessageBox
+;==================================================
+; Types:
+; 0: Disabled
+; 1: Only for coins
+; 2: All purchases
+;==================================================
+CustomShopMessageBox = 1
+
+;==================================================
+; Custom Quest Settings (CustomNpcQuest.txt)
+;==================================================
+CustomNpcQuestSwitch = 0
+CustomNpcQuestMonsterCountParty = 1
+
+;==================================================
+; Custom Monster Info Tooltip (Alt+MouseOver)
+;==================================================
+CustomMonsterInfoSwitch = 1
+
+;==================================================
+; Custom OffHelper
+;==================================================
+CustomOffHelperSwitch = 1
+CustomOffHelperEnable_AL0 = 1
+CustomOffHelperEnable_AL1 = 1
+CustomOffHelperEnable_AL2 = 1
+CustomOffHelperEnable_AL3 = 1
+CustomOffHelperBuffDelay = 100
+CustomOffHelperHealDelay = 1000
+CustomOffHelperPotionDelay = 1000
+CustomOffHelperRepairDelay = 1000
+CustomOffHelperTime_AL0 = 480 //8 hora
+CustomOffHelperTime_AL1 = 480 //8 hora
+CustomOffHelperTime_AL2 = 480 //8 hora
+CustomOffHelperTime_AL3 = 720 //12 hora
+CustomOffHelperPickEnable_AL0 = 1
+CustomOffHelperPickEnable_AL1 = 1
+CustomOffHelperPickEnable_AL2 = 1
+CustomOffHelperPickEnable_AL3 = 1
+CustomOffHelperCanMove = 1
+
+;==================================================
+; Custom Flag System
+;==================================================
+CustomFlagSwitch = 1
+
+;==================================================
+; Party Search
+;==================================================
+PartySearchEnable_AL0 = 1
+PartySearchEnable_AL1 = 1
+PartySearchEnable_AL2 = 1
+PartySearchEnable_AL3 = 1
+PartySearchNoticeToAll = 1
+PartySearchLogoutReset = 0
+
+;==================================================
+; Gremory Case System
+;==================================================
+GremoryCaseEnable = 1
+GremoryCaseExpireDays = 30
+
+;==================================================
+; Custom Invasion Information(Client)
+;==================================================
+CustomInvasionInfoSwitch = 1
+
+;==================================================
+; Custom Skin System
+;==================================================
+CustomSkinSwitch = 1
+
+//=================================================
+//-- Custom Jewel Bank (J)
+//-- 1 Jewel Bank classic
+//-- 2 New Item Bank System
+//=================================================
+CustomJewelBankSwitch = 2
+CustomJewelBankAutoDeposit_AL0 = 0 ;New line
+CustomJewelBankAutoDeposit_AL1 = 0 ;New line
+CustomJewelBankAutoDeposit_AL2 = 0 ;New line
+CustomJewelBankAutoDeposit_AL3 = 0 ;New line
+
+;==================================================
+; Custom Reset Button
+;==================================================
+CustomResetButtonSwitch = 1
+CustomMasterResetButtonSwitch = 1
+
+;==================================================
+; Custom Lucky Wheel
+;==================================================
+CustomLuckyWheelSwitch = 0
+
+;==================================================
+; Custom Fake Online players
+;==================================================
+CustomFakeOnlineSwitch = 1
+CustomFakeOnlineMessage = 0
+
+;==================================================
+; Custom Battle Pass
+;==================================================
+CustomBattlePassSwitch = 0
+CustomBattlePassStarCustomQuestCount = 0
+CustomBattlePassStarCustomNpcQuestCount = 0
+CustomBattlePassStarLevelCount = 0
+CustomBattlePassStarResetCount = 0
+CustomBattlePassStarMasterResetCount = 0
+CustomBattlePassStarRankUserCount = 0
+CustomBattlePassStarEventCount = 3
+
+;==================================================
+; Custom Daily Reward
+;==================================================
+CustomDailyRewardSwitch	= 0
+CustomDailyRewardEnable_AL0 = 0
+CustomDailyRewardEnable_AL1 = 1
+CustomDailyRewardEnable_AL2 = 1
+CustomDailyRewardEnable_AL3 = 1
+CustomDailyRewardLevel = 0
+CustomDailyRewardReset = 0
+CustomDailyRewardMasterReset = 0
+
+;==================================================
+; Custom Exclusive Glow
+;==================================================
+CustomExclusiveGlowSwitch = 0
+CustomExclusiveGlowEnable_AL0 = 1
+CustomExclusiveGlowEnable_AL1 = 1
+CustomExclusiveGlowEnable_AL2 = 1
+CustomExclusiveGlowEnable_AL3 = 1
+CustomExclusiveGlowCoin1_AL0 = 100
+CustomExclusiveGlowCoin1_AL1 = 0
+CustomExclusiveGlowCoin1_AL2 = 0
+CustomExclusiveGlowCoin1_AL3 = 0
+CustomExclusiveGlowCoin2_AL0 = 0
+CustomExclusiveGlowCoin2_AL1 = 0
+CustomExclusiveGlowCoin2_AL2 = 0
+CustomExclusiveGlowCoin2_AL3 = 0
+CustomExclusiveGlowCoin3_AL0 = 0
+CustomExclusiveGlowCoin3_AL1 = 0
+CustomExclusiveGlowCoin3_AL2 = 0
+CustomExclusiveGlowCoin3_AL3 = 0
+
+;==================================================
+; Hack Dupe auto ban
+;==================================================
+CheckHackDupeAutoBan = 0
+
+
+;==================================================
+; Custom Guild Reign
+;==================================================
+CustomGuildReign = 0
+CustomGuildReignAllowAllianceGate = 1
+CustomGuildReignUserGuildLevel = 0   ;new line
+
+;==================================================
+; Custom Black Smith Item
+;==================================================
+CustomSmithItem = 0
+CustomSmithItemEnable_AL0 = 1
+CustomSmithItemEnable_AL1 = 1
+CustomSmithItemEnable_AL2 = 1
+CustomSmithItemEnable_AL3 = 1
+CustomSmithItemDiscount_AL0 = 0
+CustomSmithItemDiscount_AL1 = 0
+CustomSmithItemDiscount_AL2 = 0
+CustomSmithItemDiscount_AL3 = 0
+
+;==================================================
+; Custom Gift Code
+;==================================================
+CustomGiftCodeSwitch = 0
+
+;==================================================
+; Custom Character Details
+;==================================================
+CustomCharacterDetailsSwitch = 1
+CustomCharacterDetailsEnable_AL0 = 1
+CustomCharacterDetailsEnable_AL1 = 1
+CustomCharacterDetailsEnable_AL2 = 1
+CustomCharacterDetailsEnable_AL3 = 1
+
+;==================================================
+; Custom Market Place
+;==================================================
+CustomMarketPlaceSwitch = 0
+CustomMarketPlaceEnable_AL0 = 1
+CustomMarketPlaceEnable_AL1 = 1
+CustomMarketPlaceEnable_AL2 = 1
+CustomMarketPlaceEnable_AL3 = 1
+CustomMarketPlaceNpcMap = 0
+CustomMarketPlaceNpcPosX = 151
+CustomMarketPlaceNpcPosY = 144
+CustomMarketPlaceCommonCoin1	= 1
+CustomMarketPlaceCommonCoin2	= 0
+CustomMarketPlaceCommonCoin3	= 0
+CustomMarketPlaceSponsoredCoin1	= 0
+CustomMarketPlaceSponsoredCoin2	= 5
+CustomMarketPlaceSponsoredCoin3	= 0
+CustomMarketPlaceBuyCoin1 = 2
+CustomMarketPlaceBuyCoin2 = 0
+CustomMarketPlaceBuyCoin3 = 0
+CustomMarketPlaceSellCoin1 = 0
+CustomMarketPlaceSellCoin2 = 0
+CustomMarketPlaceSellCoin3 = 0
+CustomMarketPlaceItemExpireDays = 7
+
+;==================================================
+; Custom Achievements
+;==================================================
+CustomAchievementsSwitch = 0
+CustomAchievementsIncCountRate = 100
+CustomAchievementsRebuild_AL0 = 1  ;new line
+CustomAchievementsRebuild_AL1 = 1  ;new line
+CustomAchievementsRebuild_AL2 = 1  ;new line
+CustomAchievementsRebuild_AL3 = 1  ;new line
+
+;==================================================
+; Custom Inventory Visual
+;==================================================
+CustomInventoryVisualSwitch = 1
+CustomInventoryVisualEnable_AL0 = 1
+CustomInventoryVisualEnable_AL1 = 1
+CustomInventoryVisualEnable_AL2 = 1
+CustomInventoryVisualEnable_AL3 = 1

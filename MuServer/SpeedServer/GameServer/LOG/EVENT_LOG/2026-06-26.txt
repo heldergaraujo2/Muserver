@@ -1,0 +1,481 @@
+00:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+00:05:04 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:20:05 [ MarlonMove ] Map: 2, X: 198 Y: 47
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 78 Y: 140)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 187 Y: 155)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 51 Y: 128)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 239 Y: 109)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 19 Y: 52)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 155 Y: 65)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 192 Y: 32)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 89 Y: 32)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 225 Y: 211)
+00:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 211 Y: 132)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 208 Y: 123)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 199 Y: 142)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 122 Y: 176)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 113 Y: 94)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 157 Y: 50)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 125 Y: 23)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 56 Y: 138)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 191 Y: 139)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 174 Y: 168)
+00:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 29 Y: 157)
+00:35:00 [CustomQuiz] Start
+00:35:06 [ MarlonMove ] Map: 3, X: 169 Y: 89
+00:40:00 [CustomQuiz] Finish
+00:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 37 Y: 229)
+00:50:07 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:00:01 [OnlineLoterry] No Winner
+01:05:08 [ MarlonMove ] Map: 7, X: 17 Y: 25
+01:20:09 [ MarlonMove ] Map: 0, X: 137 Y: 87
+01:35:00 [CustomQuiz] Start
+01:35:10 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:40:00 [CustomQuiz] Finish
+01:50:11 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:00:01 [OnlineLoterry] No Winner
+02:05:12 [ MarlonMove ] Map: 3, X: 169 Y: 89
+02:20:13 [ MarlonMove ] Map: 2, X: 198 Y: 47
+02:35:00 [CustomQuiz] Start
+02:35:14 [ MarlonMove ] Map: 3, X: 169 Y: 89
+02:40:00 [CustomQuiz] Finish
+02:50:15 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:00:01 [OnlineLoterry] No Winner
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 58 Y: 86)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 154 Y: 205)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 189 Y: 99)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 199 Y: 180)
+03:01:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 66 Y: 169)
+03:05:16 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 137 Y: 195)
+03:10:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+03:20:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 25 Y: 229)
+03:20:17 [ MarlonMove ] Map: 0, X: 137 Y: 87
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 139 Y: 67)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 23 Y: 86)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 73 Y: 13)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 140 Y: 35)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 224 Y: 180)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 32 Y: 120)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 46 Y: 137)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 62 Y: 174)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 228 Y: 193)
+03:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 56 Y: 137)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 37 Y: 58)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 31 Y: 183)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 192 Y: 109)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 106 Y: 232)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 34 Y: 24)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 36 Y: 11)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 155 Y: 102)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 75 Y: 130)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 107 Y: 12)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 95 Y: 108)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 190 Y: 113)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 142 Y: 83)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 27 Y: 100)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 169 Y: 128)
+03:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 15 Y: 57)
+03:35:00 [CustomQuiz] Start
+03:35:18 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:40:00 [CustomQuiz] Finish
+03:40:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 174 Y: 74)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 116 Y: 149)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 135 Y: 101)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 24 Y: 149)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 81 Y: 88)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 121 Y: 46)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 221 Y: 85)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 78 Y: 167)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 137 Y: 134)
+03:50:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 132 Y: 113)
+03:50:19 [ MarlonMove ] Map: 0, X: 137 Y: 87
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 112 Y: 200)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 201 Y: 112)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 74 Y: 80)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 137 Y: 20)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 22 Y: 79)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 141 Y: 170)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 219 Y: 219)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 88 Y: 75)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 187 Y: 147)
+04:00:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 215 Y: 13)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 162 Y: 226)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 71 Y: 24)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 127 Y: 101)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 169 Y: 116)
+04:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 71 Y: 236)
+04:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+04:00:01 [OnlineLoterry] No Winner
+04:05:20 [ MarlonMove ] Map: 3, X: 169 Y: 89
+04:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 128 Y: 202)
+04:20:21 [ MarlonMove ] Map: 0, X: 137 Y: 87
+04:35:00 [CustomQuiz] Start
+04:35:22 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:40:00 [CustomQuiz] Finish
+04:50:23 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 162 Y: 176)
+05:00:01 [OnlineLoterry] No Winner
+05:05:24 [ MarlonMove ] Map: 0, X: 137 Y: 87
+05:20:25 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:35:00 [CustomQuiz] Start
+05:35:26 [ MarlonMove ] Map: 7, X: 17 Y: 25
+05:40:00 [CustomQuiz] Finish
+05:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 24 Y: 229)
+05:50:27 [ MarlonMove ] Map: 2, X: 198 Y: 47
+06:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+06:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+06:05:28 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:20:29 [ MarlonMove ] Map: 2, X: 198 Y: 47
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 62 Y: 27)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 188 Y: 79)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 142 Y: 43)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 140 Y: 45)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 172 Y: 54)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 122 Y: 146)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 138 Y: 157)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 42 Y: 89)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 150 Y: 90)
+06:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 200 Y: 164)
+06:35:00 [CustomQuiz] Start
+06:35:30 [ MarlonMove ] Map: 3, X: 169 Y: 89
+06:40:00 [CustomQuiz] Finish
+06:50:31 [ MarlonMove ] Map: 7, X: 17 Y: 25
+07:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 159 Y: 228)
+07:00:01 [OnlineLoterry] No Winner
+07:00:01 [OnlineLoterry] No Winner
+07:05:32 [ MarlonMove ] Map: 0, X: 137 Y: 87
+07:20:33 [ MarlonMove ] Map: 2, X: 198 Y: 47
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 138 Y: 109)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 43 Y: 56)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 22 Y: 62)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 102 Y: 106)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 134 Y: 24)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 107 Y: 167)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 204 Y: 200)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 11 Y: 74)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 69 Y: 127)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 171 Y: 200)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 193 Y: 160)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 49 Y: 226)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 221 Y: 155)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 173 Y: 191)
+07:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 142 Y: 209)
+07:35:00 [CustomQuiz] Start
+07:35:34 [ MarlonMove ] Map: 7, X: 17 Y: 25
+07:40:00 [CustomQuiz] Finish
+07:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+07:50:35 [ MarlonMove ] Map: 0, X: 137 Y: 87
+08:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 209 Y: 156)
+08:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 169 Y: 196)
+08:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 226 Y: 87)
+08:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 181 Y: 88)
+08:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 202 Y: 42)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 173 Y: 64)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 164 Y: 123)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 131 Y: 201)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 23 Y: 143)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 213 Y: 153)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 48 Y: 154)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 226 Y: 73)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 224 Y: 73)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 173 Y: 57)
+08:00:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 136 Y: 213)
+08:00:01 [OnlineLoterry] No Winner
+08:05:36 [ MarlonMove ] Map: 3, X: 169 Y: 89
+08:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 136 Y: 190)
+08:20:37 [ MarlonMove ] Map: 0, X: 137 Y: 87
+08:35:00 [CustomQuiz] Start
+08:35:38 [ MarlonMove ] Map: 2, X: 198 Y: 47
+08:40:00 [CustomQuiz] Finish
+08:50:39 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:05:40 [ MarlonMove ] Map: 0, X: 137 Y: 87
+09:20:41 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 166 Y: 106)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 90 Y: 197)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 20 Y: 70)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 61 Y: 68)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 156 Y: 113)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 119 Y: 179)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 75 Y: 73)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 123 Y: 153)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 28 Y: 197)
+09:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 109 Y: 72)
+09:35:00 [CustomQuiz] Start
+09:35:42 [ MarlonMove ] Map: 7, X: 17 Y: 25
+09:40:00 [CustomQuiz] Finish
+09:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 22 Y: 229)
+09:50:43 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 223 Y: 149)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 182 Y: 160)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 148 Y: 86)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 97 Y: 236)
+10:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 71 Y: 29)
+10:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+10:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+10:00:01 [OnlineLoterry] No Winner
+10:05:44 [ MarlonMove ] Map: 3, X: 169 Y: 89
+10:20:45 [ MarlonMove ] Map: 7, X: 17 Y: 25
+10:35:00 [CustomQuiz] Start
+10:35:46 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:40:00 [CustomQuiz] Finish
+10:50:47 [ MarlonMove ] Map: 2, X: 198 Y: 47
+11:00:01 [OnlineLoterry] No Winner
+11:00:01 [OnlineLoterry] No Winner
+11:05:48 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:20:49 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 82 Y: 142)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 221 Y: 200)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 222 Y: 79)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 170 Y: 103)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 169 Y: 135)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 69 Y: 126)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 149 Y: 181)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 15 Y: 150)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 106 Y: 110)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 47 Y: 43)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 19 Y: 65)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 86 Y: 184)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 50 Y: 204)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 135 Y: 152)
+11:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 165 Y: 93)
+11:35:00 [CustomQuiz] Start
+11:35:50 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:40:00 [CustomQuiz] Finish
+11:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+11:50:51 [ MarlonMove ] Map: 3, X: 169 Y: 89
+12:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 51 Y: 138)
+12:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 146 Y: 155)
+12:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 72 Y: 155)
+12:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 38 Y: 45)
+12:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 72 Y: 167)
+12:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 135 Y: 68)
+12:05:52 [ MarlonMove ] Map: 0, X: 137 Y: 87
+12:20:53 [ MarlonMove ] Map: 3, X: 169 Y: 89
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 80 Y: 205)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 84 Y: 153)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 145 Y: 199)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 32 Y: 143)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 212 Y: 52)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 223 Y: 212)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 26 Y: 64)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 141 Y: 213)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 228 Y: 231)
+12:25:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 199 Y: 239)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 208 Y: 152)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 217 Y: 57)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 111 Y: 90)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 103 Y: 51)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 77 Y: 164)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 147 Y: 61)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 185 Y: 42)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 123 Y: 53)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 224 Y: 56)
+12:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 119 Y: 105)
+12:35:00 [CustomQuiz] Start
+12:35:54 [ MarlonMove ] Map: 0, X: 137 Y: 87
+12:40:00 [CustomQuiz] Finish
+12:50:55 [ MarlonMove ] Map: 7, X: 17 Y: 25
+13:00:01 [OnlineLoterry] No Winner
+13:05:56 [ MarlonMove ] Map: 0, X: 137 Y: 87
+13:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 133 Y: 199)
+13:20:57 [ MarlonMove ] Map: 7, X: 17 Y: 25
+13:35:00 [CustomQuiz] Start
+13:35:58 [ MarlonMove ] Map: 0, X: 137 Y: 87
+13:40:00 [CustomQuiz] Finish
+13:48:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 37 Y: 229)
+13:50:59 [ MarlonMove ] Map: 3, X: 169 Y: 89
+14:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+14:00:01 [OnlineLoterry] No Winner
+14:06:00 [ MarlonMove ] Map: 2, X: 198 Y: 47
+14:21:01 [ MarlonMove ] Map: 7, X: 17 Y: 25
+14:35:00 [CustomQuiz] Start
+14:36:02 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:40:00 [CustomQuiz] Finish
+14:51:03 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:00:01 [OnlineLoterry] No Winner
+15:06:04 [ MarlonMove ] Map: 3, X: 169 Y: 89
+15:21:05 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 72 Y: 37)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 203 Y: 25)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 40 Y: 39)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 172 Y: 196)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 201 Y: 54)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 235 Y: 78)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 32 Y: 176)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 137 Y: 198)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 209 Y: 113)
+15:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 37 Y: 33)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 64 Y: 195)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 115 Y: 235)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 137 Y: 152)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 114 Y: 20)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 28 Y: 93)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 45 Y: 57)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 121 Y: 132)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 26 Y: 124)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 60 Y: 159)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 62 Y: 224)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 124 Y: 194)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 78 Y: 71)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 28 Y: 77)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 132 Y: 179)
+15:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 155 Y: 217)
+15:35:00 [CustomQuiz] Start
+15:36:06 [ MarlonMove ] Map: 2, X: 198 Y: 47
+15:40:00 [CustomQuiz] Finish
+15:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+15:51:07 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+16:00:01 [OnlineLoterry] No Winner
+16:06:08 [ MarlonMove ] Map: 0, X: 137 Y: 87
+16:21:09 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 133 Y: 25)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 71 Y: 60)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 156 Y: 70)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 86 Y: 21)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 115 Y: 203)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 207 Y: 16)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 118 Y: 54)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 47 Y: 150)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 88 Y: 101)
+16:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 153 Y: 141)
+16:35:00 [CustomQuiz] Start
+16:36:10 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:40:00 [CustomQuiz] Finish
+16:51:11 [ MarlonMove ] Map: 7, X: 17 Y: 25
+17:00:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 25 Y: 229)
+17:00:01 [OnlineLoterry] No Winner
+17:06:12 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:21:13 [ MarlonMove ] Map: 7, X: 17 Y: 25
+17:35:00 [CustomQuiz] Start
+17:36:14 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:40:00 [CustomQuiz] Finish
+17:51:15 [ MarlonMove ] Map: 0, X: 137 Y: 87
+18:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+18:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 130 Y: 98)
+18:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 139 Y: 194)
+18:06:16 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:21:17 [ MarlonMove ] Map: 0, X: 137 Y: 87
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 194 Y: 115)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 114 Y: 176)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 97 Y: 163)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 81 Y: 130)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 171 Y: 10)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 193 Y: 160)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 205 Y: 160)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 10 Y: 183)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 84 Y: 153)
+18:25:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 109 Y: 229)
+18:35:00 [CustomQuiz] Start
+18:36:18 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:40:00 [CustomQuiz] Finish
+18:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+18:51:19 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+19:00:01 [OnlineLoterry] No Winner
+19:00:01 [OnlineLoterry] No Winner
+19:06:20 [ MarlonMove ] Map: 2, X: 198 Y: 47
+19:21:21 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 222 Y: 197)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 135 Y: 101)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 147 Y: 208)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 200 Y: 145)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 12 Y: 239)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 93 Y: 174)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 124 Y: 41)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 51 Y: 43)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 136 Y: 191)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 126 Y: 155)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 24 Y: 13)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 138 Y: 172)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 176 Y: 189)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 56 Y: 151)
+19:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 129 Y: 109)
+19:35:00 [CustomQuiz] Start
+19:36:22 [ MarlonMove ] Map: 7, X: 17 Y: 25
+19:40:00 [CustomQuiz] Finish
+19:51:23 [ MarlonMove ] Map: 2, X: 198 Y: 47
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 214 Y: 123)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 175 Y: 106)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 195 Y: 39)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 114 Y: 142)
+20:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 101 Y: 132)
+20:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 125 Y: 55)
+20:00:01 [OnlineLoterry] No Winner
+20:06:24 [ MarlonMove ] Map: 3, X: 169 Y: 89
+20:21:25 [ MarlonMove ] Map: 2, X: 198 Y: 47
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 64 Y: 89)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 109 Y: 162)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 62 Y: 58)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 144 Y: 69)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 136 Y: 91)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 174 Y: 62)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 208 Y: 28)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 57 Y: 134)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 228 Y: 112)
+20:30:00 [Invasion Manager] Index(5) Boss Position (Map: 51 X: 104 Y: 25)
+20:35:00 [CustomQuiz] Start
+20:36:26 [ MarlonMove ] Map: 0, X: 137 Y: 87
+20:40:00 [CustomQuiz] Finish
+20:51:27 [ MarlonMove ] Map: 3, X: 169 Y: 89
+21:00:00 [Invasion Manager] Index(14) Boss Position (Map: 4 X: 35 Y: 229)
+21:00:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+21:06:28 [ MarlonMove ] Map: 7, X: 17 Y: 25
+21:16:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+21:21:29 [ MarlonMove ] Map: 0, X: 137 Y: 87
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 116 Y: 198)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 63 Y: 113)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 182 Y: 39)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 195 Y: 55)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 233 Y: 139)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 18 Y: 209)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 39 Y: 17)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 141 Y: 169)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 142 Y: 173)
+21:25:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 13 Y: 221)
+21:35:00 [CustomQuiz] Start
+21:36:30 [ MarlonMove ] Map: 7, X: 17 Y: 25
+21:40:00 [CustomQuiz] Finish
+21:51:31 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 164 Y: 108)
+22:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 106 Y: 139)
+22:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 177 Y: 148)
+22:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 77 Y: 50)
+22:00:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 95 Y: 128)
+22:00:00 [Invasion Manager] Index(11) Boss Position (Map: 99 X: 122 Y: 148)
+22:00:00 [Invasion Manager] Index(34) Boss Position (Map: 2 X: 121 Y: 205)
+22:00:01 [OnlineLoterry] No Winner
+22:06:32 [ MarlonMove ] Map: 0, X: 137 Y: 87
+22:21:33 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:30:00 [Invasion Manager] Index(35) Boss Position (Map: 4 X: 19 Y: 101)
+22:35:00 [CustomQuiz] Start
+22:36:34 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:40:00 [CustomQuiz] Finish
+22:51:35 [ MarlonMove ] Map: 0, X: 137 Y: 87
+23:00:01 [OnlineLoterry] No Winner
+23:00:01 [OnlineLoterry] No Winner
+23:06:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 134 Y: 196)
+23:06:36 [ MarlonMove ] Map: 3, X: 169 Y: 89
+23:21:37 [ MarlonMove ] Map: 2, X: 198 Y: 47
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 234 Y: 196)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 26 Y: 218)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 88 Y: 144)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 76 Y: 102)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 61 Y: 143)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 168 Y: 108)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 141 Y: 214)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 110 Y: 52)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 176 Y: 181)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 40 Y: 238)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 78 Y: 170)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 199 Y: 230)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 17 Y: 218)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 164 Y: 176)
+23:30:00 [Invasion Manager] Index(4) Boss Position (Map: 2 X: 26 Y: 12)
+23:35:00 [CustomQuiz] Start
+23:36:38 [ MarlonMove ] Map: 0, X: 137 Y: 87
+23:40:00 [CustomQuiz] Finish
+23:45:00 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+23:51:39 [ MarlonMove ] Map: 7, X: 17 Y: 25

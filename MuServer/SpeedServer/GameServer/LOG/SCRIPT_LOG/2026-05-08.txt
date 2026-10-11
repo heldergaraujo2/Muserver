@@ -1,0 +1,49 @@
+05:36:30 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:36:31 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:04 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:08 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:09 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:13 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:18 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:22 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:23 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:37:25 [ProtocolCore] aIndex: 13012 Name: TimewindowsWindowRequest Head: 246
+05:49:58 [SCRIPT LOG] Start
+05:49:59 [Loader] Lua Gameserver socket ready!
+05:49:59 [Loader] Load success System\ScriptCore
+05:49:59 [Loader] Load success System\ProtocolCore
+05:49:59 [Loader] Load success Utils\Database
+05:49:59 [Loader] Load success Utils\DatabaseAsync
+05:49:59 [Loader] Load success Utils\Cron
+05:49:59 [Loader] Load success Utils\Functions
+05:49:59 [Loader] Load success Utils\Schedule
+05:49:59 Connected to database
+05:49:59 Connected to Async database
+05:49:59 Teste query: ZZZZZZZZZZ
+05:49:59 [ServerInfo] Script loaded successfully
+18:15:03 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:06 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:07 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:11 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:20 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:21 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:24 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:54 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:15:58 [ProtocolCore] aIndex: 13003 Name: TimewindowsWindowRequest Head: 246
+18:16:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+18:16:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+22:42:17 [SCRIPT LOG] Start
+22:42:18 [Loader] Lua Gameserver socket ready!
+22:42:18 [Loader] Load success System\ScriptCore
+22:42:18 [Loader] Load success System\ProtocolCore
+22:42:18 [Loader] Load success Utils\Database
+22:42:18 [Loader] Load success Utils\DatabaseAsync
+22:42:18 [Loader] Load success Utils\Cron
+22:42:18 [Loader] Load success Utils\Functions
+22:42:18 [Loader] Load success Utils\Schedule
+22:42:18 Connected to database
+22:42:18 Connected to Async database
+22:42:18 Teste query: ZZZZZZZZZZ
+22:42:18 [ServerInfo] Script loaded successfully
+23:30:29 [ProtocolCore] aIndex: 13000 Name: MusaffeWindowRequest Head: 250
+23:30:35 [ProtocolCore] aIndex: 13000 Name: MusaffeWindowRequest Head: 250

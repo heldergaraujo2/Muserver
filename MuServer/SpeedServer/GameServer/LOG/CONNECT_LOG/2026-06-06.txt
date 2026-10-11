@@ -1,0 +1,23 @@
+16:55:31 [SocketManager] Server started at port [55902]
+16:56:54 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:57:26 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:57:56 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:58:20 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+16:58:26 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:58:51 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+16:58:57 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:59:21 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+16:59:27 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+16:59:52 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+16:59:57 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+17:00:22 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+17:00:28 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+17:00:52 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+17:00:58 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+17:01:29 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+17:01:59 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+17:27:41 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+18:38:54 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+19:12:04 [SocketManager] Protocol header error (Index: 13001, Header: c0)
+19:40:46 [SocketManager] Server started at port [55902]
+19:56:40 [SocketManager] WSAAccept() failed with error: 10061

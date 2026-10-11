@@ -1,0 +1,7 @@
+00:00:53 [kabum][Dohko] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 10
+00:13:34 [successful][000000] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+00:15:08 [successful][000000] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+22:00:33 [rudy][MoutrixX] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+22:48:11 [rudy][MoutrixX] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+23:00:01 [rudy][MoutrixX] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+23:00:33 [rudy][MoutrixX] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

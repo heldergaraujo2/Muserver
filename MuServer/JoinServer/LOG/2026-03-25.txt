@@ -1,0 +1,58 @@
+04:10:11 [SocketManager] WSAAccept() failed with error: 10061
+17:55:36 Account thecrims logged with global password!
+17:57:15 Account thecrims logged with global password!
+18:02:52 Account thecrims logged with global password!
+18:07:05 Account thecrims logged with global password!
+18:18:21 Account hellder logged with global password!
+18:46:15 Account thecrims1 logged with global password!
+18:46:32 [SocketManager] Server started at port [55970]
+18:46:37 [ServerManager][0] AddServer (127.0.0.1)
+18:46:37 [ServerManager][0] ServerInfo (Test) (55902) (1)
+18:46:39 [ServerManager][1] AddServer (127.0.0.1)
+18:46:39 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+18:46:46 [ServerManager][2] AddServer (127.0.0.1)
+18:46:46 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+18:47:07 Account thecrims1 logged with global password!
+18:47:37 Account hellder logged with global password!
+18:51:31 [SocketManager] Server started at port [55970]
+18:51:37 [ServerManager][0] AddServer (127.0.0.1)
+18:51:37 [ServerManager][0] ServerInfo (Test) (55902) (1)
+18:51:38 [ServerManager][1] AddServer (127.0.0.1)
+18:51:38 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+18:51:47 [ServerManager][2] AddServer (127.0.0.1)
+18:51:47 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+18:52:13 Account thecrims1 logged with global password!
+18:53:30 Account thecrims logged with global password!
+18:54:17 Account thecrims2 logged with global password!
+18:55:02 Account thecrims2 logged with global password!
+18:55:29 Account netocdj logged with global password!
+18:57:35 Account thecrims logged with global password!
+19:00:53 Account thecrims logged with global password!
+19:02:58 Account thecrims1 logged with global password!
+19:03:27 Account hellder logged with global password!
+21:11:17 Account hellder logged with global password!
+21:11:18 Account hellder logged with global password!
+21:15:11 Account hellder logged with global password!
+21:15:25 [ServerManager][0] DelServer (127.0.0.1)
+21:15:46 [ServerManager][0] AddServer (127.0.0.1)
+21:15:46 [ServerManager][0] ServerInfo (Test) (55902) (1)
+21:16:36 Account hellder logged with global password!
+21:22:35 Account hellder logged with global password!
+21:28:16 Account hellder logged with global password!
+21:28:36 [ServerManager][0] DelServer (127.0.0.1)
+21:28:45 [ServerManager][3] AddServer (127.0.0.1)
+21:28:45 [ServerManager][3] ServerInfo (Test) (55902) (1)
+21:29:15 Account hellder logged with global password!
+21:53:54 Account hellder logged with global password!
+21:53:55 Account hellder logged with global password!
+22:19:41 Account hellder logged with global password!
+22:21:39 Account hellder logged with global password!
+22:21:40 Account hellder logged with global password!
+22:27:03 Account thecrims1 logged with global password!
+22:27:15 Account thecrims logged with global password!
+22:43:05 Account thecrims1 logged with global password!
+22:43:20 Account thecrims2 logged with global password!
+22:43:47 Account thecrims2 logged with global password!
+22:43:49 Account thecrims2 logged with global password!
+22:43:56 Account hellderrr logged with global password!
+22:43:59 Account hellderrrr logged with global password!

@@ -1,0 +1,1007 @@
+05:21:01 [Obj][13003] AddClient (79.127.208.26)
+05:21:02 [Obj][13003] DelClient (79.127.208.26)
+05:21:05 [Obj][13004] AddClient (66.132.172.188)
+05:21:09 [Obj][13004] DelClient (66.132.172.188)
+05:21:12 [Obj][13005] AddClient (66.132.172.188)
+05:21:22 [Obj][13005] DelClient (66.132.172.188)
+05:38:43 [Obj][13003] AddClient (66.132.172.204)
+05:38:47 [Obj][13003] DelClient (66.132.172.204)
+05:38:52 [Obj][13004] AddClient (66.132.172.204)
+05:39:02 [Obj][13004] DelClient (66.132.172.204)
+07:07:27 [Obj][13005] AddClient (79.127.208.26)
+07:07:28 [Obj][13005] DelClient (79.127.208.26)
+08:50:33 [Obj][13001] LogOutCharacter (Saffe)
+08:50:33 [Obj][13001] DelAccount (hellder)
+08:50:33 [Obj][13001] DelClient (177.200.33.82)
+08:51:06 [Obj][13003] AddClient (177.200.33.82)
+08:51:07 [Obj][13003] AddAccount (hellder)
+08:51:09 [Obj][13003] LogInCharacter (Saffe)
+08:59:22 [Obj][13003] LogOutCharacter (Saffe)
+08:59:22 [Obj][13003] DelAccount (hellder)
+08:59:22 [Obj][13003] DelClient (177.200.33.82)
+12:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+12:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+12:06:04 [Obj][13004] AddClient (194.165.16.165)
+12:06:04 [Obj][13004] DelClient (194.165.16.165)
+13:07:25 [ServerInfo] Character loaded successfully
+13:07:30 [ServerInfo] Effect loaded successfully
+13:07:32 [ServerInfo] Skill loaded successfully
+13:07:42 [ServerInfo] CashShop loaded successfully
+13:07:42 [ServerInfo] ChaosMix loaded successfully
+13:07:42 [ServerInfo] Character loaded successfully
+13:07:42 [ServerInfo] Command loaded successfully
+13:07:42 [ServerInfo] Common loaded successfully
+13:07:42 [FakeOnline] Loaded successfully
+13:07:42 [ServerInfo] Custom loaded successfully
+13:07:42 [ServerInfo] Discord loaded successfully
+13:07:42 [ServerInfo] Effect loaded successfully
+13:07:42 [ServerInfo] Event loaded successfully
+13:07:42 [ServerInfo] EventItemBag loaded successfully
+13:07:42 [ServerInfo] Hack loaded successfully
+13:07:42 [ServerInfo] Message loaded successfully
+13:07:42 [ServerInfo] Map loaded successfully
+13:07:42 [ServerInfo] Message loaded successfully
+13:07:42 [ServerInfo] Monster loaded successfully
+13:07:42 [ServerInfo] Move loaded successfully
+13:07:42 [ServerInfo] Quest loaded successfully
+13:07:42 [ServerInfo] Shop loaded successfully
+13:07:42 [ServerInfo] Skill loaded successfully
+13:07:42 [ServerInfo] Util loaded successfully
+13:07:42 [ReadBotInfo] BotSystem loaded successfully
+13:08:02 [Obj][13005] AddClient (177.200.33.82)
+13:08:04 [Obj][13005] AddAccount (hellder)
+13:08:04 [Obj][13001] AddClient (152.248.6.7)
+13:08:08 [Obj][13005] LogInCharacter (Saffe)
+13:08:09 [Obj][13001] AddAccount (marcio123)
+13:08:11 [Obj][13001] LogInCharacter (SUSANA)
+13:08:43 [Obj][13002] LogOutCharacter (Invocadora)
+13:08:43 [Obj][13002] DelAccount (thecrims)
+13:08:43 [Obj][13002] DelClient (177.200.33.82)
+13:08:55 [Obj][13000] LogOutCharacter (Snuff)
+13:08:55 [Obj][13000] DelAccount (thecrims1)
+13:08:55 [Obj][13000] DelClient (177.200.33.82)
+13:10:00 [Obj][13003] AddClient (152.248.6.7)
+13:10:05 [Obj][13003] AddAccount (marcio300)
+13:10:16 [Obj][13003] LogInCharacter (ZAKUM)
+13:11:31 [Obj][13004] AddClient (177.200.33.82)
+13:11:40 [Obj][13004] AddAccount (videodv)
+13:11:42 [Obj][13004] LogInCharacter (AdmSaffe)
+13:12:25 [Obj][13005] LogOutCharacter (Saffe)
+13:12:27 [Obj][13005] LogInCharacter (TIMORDI)
+13:12:54 [Obj][13003] LogOutCharacter (ZAKUM)
+13:12:57 [Obj][13003] LogInCharacter (JUSTICE)
+13:13:12 [Obj][13003] LogOutCharacter (JUSTICE)
+13:13:14 [Obj][13003] LogInCharacter (ZAKUM)
+13:14:50 [ServerInfo] Shop loaded successfully
+13:16:01 [ServerInfo] Shop loaded successfully
+13:16:41 [hellder][TIMORDI] Kill [marcio300][ZAKUM]
+13:20:15 [Obj][13003] LogOutCharacter (ZAKUM)
+13:20:17 [Obj][13003] LogInCharacter (JUSTICE)
+13:21:31 [marcio300][JUSTICE] Kill [hellder][TIMORDI]
+13:22:51 [Obj][13003] LogOutCharacter (JUSTICE)
+13:22:54 [Obj][13003] LogInCharacter (ZAKUM)
+13:23:36 [ServerInfo] CashShop loaded successfully
+13:23:59 [marcio300][ZAKUM] Kill [hellder][TIMORDI]
+13:26:01 [marcio300][ZAKUM] Kill [hellder][TIMORDI]
+13:26:34 [marcio300][ZAKUM] Kill [hellder][TIMORDI]
+13:27:02 [Obj][13003] LogOutCharacter (ZAKUM)
+13:27:05 [Obj][13003] LogInCharacter (JUSTICE)
+13:27:35 [Obj][13003] LogOutCharacter (JUSTICE)
+13:27:37 [Obj][13003] LogInCharacter (ZAKUM)
+13:28:17 [marcio300][ZAKUM] Kill [hellder][TIMORDI]
+13:28:59 [marcio300][ZAKUM] Kill [hellder][TIMORDI]
+13:29:32 [Obj][13004] LogOutCharacter (AdmSaffe)
+13:29:34 [Obj][13004] LogInCharacter (AdmSaffe)
+13:30:00 [ServerInfo] CashShop loaded successfully
+13:30:00 [ServerInfo] ChaosMix loaded successfully
+13:30:00 [ServerInfo] Character loaded successfully
+13:30:00 [ServerInfo] Command loaded successfully
+13:30:00 [ServerInfo] Common loaded successfully
+13:30:00 [FakeOnline] Loaded successfully
+13:30:00 [ServerInfo] Custom loaded successfully
+13:30:00 [ServerInfo] Discord loaded successfully
+13:30:00 [ServerInfo] Effect loaded successfully
+13:30:00 [ServerInfo] Event loaded successfully
+13:30:01 [ServerInfo] EventItemBag loaded successfully
+13:30:01 [ServerInfo] Hack loaded successfully
+13:30:01 [ServerInfo] Message loaded successfully
+13:30:01 [ServerInfo] Map loaded successfully
+13:30:01 [ServerInfo] Message loaded successfully
+13:30:01 [ServerInfo] Monster loaded successfully
+13:30:01 [ServerInfo] Move loaded successfully
+13:30:01 [ServerInfo] Quest loaded successfully
+13:30:01 [ServerInfo] Shop loaded successfully
+13:30:01 [ServerInfo] Skill loaded successfully
+13:30:01 [ServerInfo] Util loaded successfully
+13:30:01 [ReadBotInfo] BotSystem loaded successfully
+13:30:34 [Obj][13002] AddClient (177.200.33.82)
+13:30:43 [Obj][13002] AddAccount (hellderr)
+13:30:52 [Obj][13002] DelAccount (hellderr)
+13:30:52 [Obj][13002] DelClient (177.200.33.82)
+13:30:56 [Obj][13000] AddClient (177.200.33.82)
+13:31:00 [Obj][13000] AddAccount (hellderrr)
+13:31:08 [Obj][13000] DelAccount (hellderrr)
+13:31:08 [Obj][13000] DelClient (177.200.33.82)
+13:31:10 [Obj][13002] AddClient (177.200.33.82)
+13:31:15 [Obj][13002] AddAccount (hellderrrr)
+13:31:19 [Obj][13002] LogInCharacter (Suavera)
+13:32:57 [Obj][13004] LogOutCharacter (AdmSaffe)
+13:32:57 [Obj][13004] DelAccount (videodv)
+13:32:57 [Obj][13004] DelClient (177.200.33.82)
+13:32:59 [Obj][13002] LogOutCharacter (Suavera)
+13:32:59 [Obj][13002] DelAccount (hellderrrr)
+13:32:59 [Obj][13002] DelClient (177.200.33.82)
+13:33:00 [Obj][13005] LogOutCharacter (TIMORDI)
+13:33:00 [Obj][13005] DelAccount (hellder)
+13:33:00 [Obj][13005] DelClient (177.200.33.82)
+13:33:01 [Obj][13001] LogOutCharacter (SUSANA)
+13:33:01 [Obj][13001] DelAccount (marcio123)
+13:33:01 [Obj][13001] DelClient (152.248.6.7)
+13:33:01 [Obj][13003] LogOutCharacter (ZAKUM)
+13:33:01 [Obj][13003] DelAccount (marcio300)
+13:33:01 [Obj][13003] DelClient (152.248.6.7)
+13:33:25 [Obj][13000] AddClient (152.248.6.7)
+13:33:27 [Obj][13004] AddClient (177.200.33.82)
+13:33:29 [Obj][13002] AddClient (152.248.6.7)
+13:33:29 [Obj][13005] AddClient (177.200.33.82)
+13:33:30 [Obj][13001] AddClient (177.200.33.82)
+13:33:35 [Obj][13000] AddAccount (marcio123)
+13:33:35 [Obj][13000] LogInCharacter (SUSANA)
+13:33:37 [Obj][13004] AddAccount (videodv)
+13:33:37 [Obj][13004] LogInCharacter (AdmSaffe)
+13:33:39 [Obj][13002] AddAccount (marcio300)
+13:33:39 [Obj][13002] LogInCharacter (ZAKUM)
+13:33:39 [Obj][13005] AddAccount (hellderrrr)
+13:33:39 [Obj][13005] LogInCharacter (Suavera)
+13:33:40 [Obj][13001] AddAccount (hellder)
+13:33:40 [Obj][13001] LogInCharacter (TIMORDI)
+13:34:03 SetGuildType() error-L2 : Index 13002
+13:34:05 [Obj][13002] LogOutCharacter (ZAKUM)
+13:34:08 [Obj][13002] LogInCharacter (JUSTICE)
+13:34:38 [hellderrrr][Suavera] Kill [hellder][TIMORDI]
+13:35:47 [Obj][13004] LogOutCharacter (AdmSaffe)
+13:35:47 [Obj][13004] DelAccount (videodv)
+13:35:47 [Obj][13004] DelClient (177.200.33.82)
+13:35:49 [Obj][13003] AddClient (177.200.33.82)
+13:35:56 [Obj][13001] LogOutCharacter (TIMORDI)
+13:35:56 [Obj][13001] DelAccount (hellder)
+13:35:56 [Obj][13001] DelClient (177.200.33.82)
+13:35:58 [Obj][13003] AddAccount (hellder)
+13:36:01 [Obj][13003] LogInCharacter (TIMORDI)
+13:37:17 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:37:31 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:37:57 [Obj][13003] LogOutCharacter (TIMORDI)
+13:37:57 [Obj][13003] DelAccount (hellder)
+13:37:57 [Obj][13003] DelClient (177.200.33.82)
+13:38:01 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:38:52 [Obj][13004] AddClient (177.200.33.82)
+13:38:53 [Obj][13004] AddAccount (hellder)
+13:39:00 [Obj][13004] LogInCharacter (Saffe)
+13:40:29 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:42:40 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:43:24 [ServerInfo] Character loaded successfully
+13:43:51 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:44:09 [ServerInfo] Character loaded successfully
+13:44:18 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:44:32 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:47:06 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:47:15 [Obj][13004] LogOutCharacter (Saffe)
+13:47:15 [Obj][13004] DelAccount (hellder)
+13:47:15 [Obj][13004] DelClient (177.200.33.82)
+13:47:46 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:50:17 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:50:35 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:53:50 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:54:02 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:54:34 [ServerInfo] Character loaded successfully
+13:54:38 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:54:54 [ServerInfo] Character loaded successfully
+13:55:00 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:55:12 [ServerInfo] Character loaded successfully
+13:55:13 [Obj][13000] LogOutCharacter (SUSANA)
+13:55:13 [Obj][13000] DelAccount (marcio123)
+13:55:13 [Obj][13000] DelClient (152.248.6.7)
+13:55:17 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:55:30 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:55:48 [ServerInfo] Character loaded successfully
+13:55:57 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:56:08 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:57:05 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:57:05 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:57:15 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:57:24 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+13:57:34 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:57:45 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:58:52 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:59:05 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+13:59:28 [ServerInfo] Character loaded successfully
+13:59:42 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:00:01 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:00:29 [Obj][13001] AddClient (177.200.33.82)
+14:00:30 [Obj][13001] AddAccount (hellder)
+14:00:33 [Obj][13001] LogInCharacter (TIMORDI)
+14:01:01 [Obj][13001] LogOutCharacter (TIMORDI)
+14:01:01 [Obj][13001] DelAccount (hellder)
+14:01:01 [Obj][13001] DelClient (177.200.33.82)
+14:01:09 [Obj][13003] AddClient (177.200.33.82)
+14:01:10 [Obj][13003] AddAccount (hellder)
+14:01:11 [Obj][13003] LogInCharacter (TIMORDI)
+14:01:36 [Obj][13003] LogOutCharacter (TIMORDI)
+14:01:36 [Obj][13003] DelAccount (hellder)
+14:01:36 [Obj][13003] DelClient (177.200.33.82)
+14:01:52 [Obj][13004] AddClient (177.200.33.82)
+14:01:54 [Obj][13004] AddAccount (hellder)
+14:01:57 [Obj][13004] LogInCharacter (Saffe)
+14:02:09 [Obj][13004] LogOutCharacter (Saffe)
+14:02:09 [Obj][13004] DelAccount (hellder)
+14:02:09 [Obj][13004] DelClient (177.200.33.82)
+14:06:00 [Obj][13005] LogOutCharacter (Suavera)
+14:06:00 [Obj][13005] DelAccount (hellderrrr)
+14:06:00 [Obj][13005] DelClient (177.200.33.82)
+14:06:26 [Obj][13002] LogOutCharacter (JUSTICE)
+14:06:26 [Obj][13002] DelAccount (marcio300)
+14:06:26 [Obj][13002] DelClient (152.248.6.7)
+14:14:53 [Obj][13000] AddClient (177.200.33.82)
+14:15:00 [Obj][13000] AddAccount (hellder)
+14:15:04 [Obj][13000] LogInCharacter (Saffe)
+14:15:24 [Obj][13001] AddClient (152.248.6.7)
+14:15:27 [Obj][13001] AddAccount (marcio300)
+14:15:30 [Obj][13001] LogInCharacter (JUSTICE)
+14:15:35 [Obj][13003] AddClient (177.200.33.82)
+14:15:38 [Obj][13003] AddAccount (hellderrrr)
+14:15:42 [Obj][13003] LogInCharacter (Elysium)
+14:16:14 [Obj][13004] AddClient (177.200.33.82)
+14:16:16 [Obj][13004] AddAccount (hellderrr)
+14:16:27 [Obj][13004] DelAccount (hellderrr)
+14:16:27 [Obj][13004] DelClient (177.200.33.82)
+14:16:29 [Obj][13005] AddClient (177.200.33.82)
+14:16:31 [Obj][13005] AddAccount (hellderr)
+14:16:31 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+14:16:38 [Obj][13005] LogInCharacter (Louco)
+14:16:46 [Obj][13003] LogOutCharacter (Elysium)
+14:16:48 [Obj][13003] LogInCharacter (Suavera)
+14:17:12 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:22:15 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:22:47 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:22:59 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:23:12 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:23:41 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:24:10 [ServerInfo] Character loaded successfully
+14:24:20 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:24:39 [ServerInfo] Character loaded successfully
+14:24:54 [ServerInfo] Character loaded successfully
+14:25:05 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:25:26 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:25:47 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:26:52 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:27:16 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:27:47 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:34:52 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:36:06 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:36:19 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:36:32 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:36:53 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:36:55 [ServerInfo] Character loaded successfully
+14:36:58 [ServerInfo] Skill loaded successfully
+14:37:55 [ServerInfo] Character loaded successfully
+14:37:57 [ServerInfo] Skill loaded successfully
+14:38:18 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:38:51 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:40:25 [ServerInfo] Skill loaded successfully
+14:40:27 [ServerInfo] CashShop loaded successfully
+14:40:27 [ServerInfo] ChaosMix loaded successfully
+14:40:27 [ServerInfo] Character loaded successfully
+14:40:27 [ServerInfo] Command loaded successfully
+14:40:27 [ServerInfo] Common loaded successfully
+14:40:27 [FakeOnline] Loaded successfully
+14:40:27 [ServerInfo] Custom loaded successfully
+14:40:27 [ServerInfo] Discord loaded successfully
+14:40:27 [ServerInfo] Effect loaded successfully
+14:40:27 [ServerInfo] Event loaded successfully
+14:40:27 [ServerInfo] EventItemBag loaded successfully
+14:40:27 [ServerInfo] Hack loaded successfully
+14:40:27 [ServerInfo] Message loaded successfully
+14:40:27 [ServerInfo] Map loaded successfully
+14:40:27 [ServerInfo] Message loaded successfully
+14:40:27 [ServerInfo] Monster loaded successfully
+14:40:27 [ServerInfo] Move loaded successfully
+14:40:27 [ServerInfo] Quest loaded successfully
+14:40:27 [ServerInfo] Shop loaded successfully
+14:40:27 [ServerInfo] Skill loaded successfully
+14:40:27 [ServerInfo] Util loaded successfully
+14:40:27 [ReadBotInfo] BotSystem loaded successfully
+14:40:33 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:42:11 [ServerInfo] Character loaded successfully
+14:42:22 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:42:50 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:43:01 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:43:14 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:44:17 [ServerInfo] Skill loaded successfully
+14:44:42 [ServerInfo] Skill loaded successfully
+14:44:49 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:45:14 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:45:36 [ServerInfo] Skill loaded successfully
+14:46:00 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:46:14 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:46:27 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:46:38 [ServerInfo] Skill loaded successfully
+14:46:45 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:46:55 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:47:04 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:47:15 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:47:27 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:47:42 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:48:14 [Obj][13000] LogOutCharacter (Saffe)
+14:48:14 [Obj][13000] DelAccount (hellder)
+14:48:14 [Obj][13000] DelClient (177.200.33.82)
+14:48:14 [Obj][13003] LogOutCharacter (Suavera)
+14:48:14 [Obj][13003] DelAccount (hellderrrr)
+14:48:14 [Obj][13003] DelClient (177.200.33.82)
+14:48:14 [Obj][13001] LogOutCharacter (JUSTICE)
+14:48:14 [Obj][13001] DelAccount (marcio300)
+14:48:14 [Obj][13001] DelClient (152.248.6.7)
+14:48:21 [Obj][13005] LogOutCharacter (Louco)
+14:48:21 [Obj][13005] DelAccount (hellderr)
+14:48:21 [Obj][13005] DelClient (177.200.33.82)
+14:48:44 [Obj][13002] AddClient (177.200.33.82)
+14:48:45 [Obj][13004] AddClient (152.248.6.7)
+14:48:45 [Obj][13000] AddClient (177.200.33.82)
+14:48:51 [Obj][13003] AddClient (177.200.33.82)
+14:48:54 [Obj][13002] AddAccount (hellder)
+14:48:55 [Obj][13004] AddAccount (marcio300)
+14:48:55 [Obj][13002] LogInCharacter (Saffe)
+14:48:55 [Obj][13000] AddAccount (hellderrrr)
+14:48:55 [Obj][13004] LogInCharacter (JUSTICE)
+14:48:55 [Obj][13000] LogInCharacter (Suavera)
+14:49:01 [Obj][13003] AddAccount (hellderr)
+14:49:01 [Obj][13003] LogInCharacter (Louco)
+14:49:19 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:49:47 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:49:58 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:50:08 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:50:18 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:50:30 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:50:41 [ServerInfo] Skill loaded successfully
+14:50:45 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:50:58 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:51:13 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:51:27 [ServerInfo] Skill loaded successfully
+14:51:39 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:51:49 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:52:00 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:52:11 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:52:13 [ServerInfo] Character loaded successfully
+14:52:15 [ServerInfo] Skill loaded successfully
+14:52:23 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:52:45 [ServerInfo] Skill loaded successfully
+14:52:52 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+14:53:02 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+14:53:42 [Obj][13000] LogOutCharacter (Suavera)
+14:53:46 [Obj][13000] LogInCharacter (Elysium)
+14:54:10 [Obj][13003] LogOutCharacter (Louco)
+14:54:10 [Obj][13003] DelAccount (hellderr)
+14:54:10 [Obj][13003] DelClient (177.200.33.82)
+14:59:09 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+14:59:18 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+14:59:47 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:02:34 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:03:03 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:03:22 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:04:05 [ServerInfo] Skill loaded successfully
+15:04:31 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:06:14 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:06:27 [hellderrrr][Elysium] Kill [marcio300][JUSTICE]
+15:06:41 [ServerInfo] Skill loaded successfully
+15:06:46 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:06:56 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:07:19 [ServerInfo] Util loaded successfully
+15:07:21 [ServerInfo] Skill loaded successfully
+15:07:30 [marcio300][JUSTICE] Kill [hellderrrr][Elysium]
+15:07:43 [Obj][13000] LogOutCharacter (Elysium)
+15:07:45 [Obj][13000] LogInCharacter (Elysium)
+15:07:51 [Obj][13000] LogOutCharacter (Elysium)
+15:07:53 [Obj][13000] LogInCharacter (Suavera)
+15:08:09 [hellderrrr][Suavera] Kill [marcio300][JUSTICE]
+15:08:20 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+15:08:32 [marcio300][JUSTICE] Kill [hellderrrr][Suavera]
+15:08:50 [Obj][13002] LogOutCharacter (Saffe)
+15:08:50 [Obj][13002] DelAccount (hellder)
+15:08:50 [Obj][13002] DelClient (177.200.33.82)
+15:09:14 [Obj][13004] LogOutCharacter (JUSTICE)
+15:09:14 [Obj][13004] DelAccount (marcio300)
+15:09:14 [Obj][13004] DelClient (152.248.6.7)
+15:09:14 Game response error causes conclusion [13004][][][152.248.6.7]
+15:09:20 [Obj][13001] AddClient (177.200.33.82)
+15:09:21 [Obj][13005] AddClient (177.200.33.82)
+15:09:23 [Obj][13003] AddClient (152.248.6.7)
+15:09:23 [Obj][13000] LogOutCharacter (Suavera)
+15:09:23 [Obj][13000] DelAccount (hellderrrr)
+15:09:23 [Obj][13000] DelClient (177.200.33.82)
+15:09:23 Game response error causes conclusion [13000][][][177.200.33.82]
+15:09:30 [Obj][13001] AddAccount (hellder)
+15:09:30 [Obj][13001] LogInCharacter (Saffe)
+15:09:31 [Obj][13005] AddAccount (hellderrrr)
+15:09:31 [Obj][13005] LogInCharacter (Suavera)
+15:09:33 [Obj][13003] AddAccount (marcio300)
+15:09:33 [Obj][13003] LogInCharacter (JUSTICE)
+15:10:39 [Obj][13003] LogOutCharacter (JUSTICE)
+15:10:39 [Obj][13003] DelAccount (marcio300)
+15:10:39 [Obj][13003] DelClient (152.248.6.7)
+15:10:41 [Obj][13002] AddClient (152.248.6.7)
+15:10:52 [Obj][13002] AddAccount (marcio123)
+15:10:55 [Obj][13002] LogInCharacter (SUSANA)
+15:11:44 [Obj][13002] LogOutCharacter (SUSANA)
+15:11:44 [Obj][13002] DelAccount (marcio123)
+15:11:44 [Obj][13002] DelClient (152.248.6.7)
+15:14:17 [Obj][13004] AddClient (177.200.33.82)
+15:14:21 [Obj][13004] AddAccount (thecrims1)
+15:14:27 [Obj][13004] DelAccount (thecrims1)
+15:14:27 [Obj][13004] DelClient (177.200.33.82)
+15:14:29 [Obj][13000] AddClient (177.200.33.82)
+15:14:37 [Obj][13000] AddAccount (thecrims)
+15:14:39 [Obj][13000] LogInCharacter (Invocadora)
+15:17:02 [ServerInfo] Character loaded successfully
+15:17:09 [thecrims][Invocadora] Kill [hellderrrr][Suavera]
+15:17:19 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:17:41 [ServerInfo] Character loaded successfully
+15:17:44 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:17:58 [thecrims][Invocadora] Kill [hellderrrr][Suavera]
+15:18:11 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:18:34 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:18:48 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:19:03 [ServerInfo] Character loaded successfully
+15:19:13 [hellderrrr][Suavera] Kill [thecrims][Invocadora]
+15:19:32 [thecrims][Invocadora] Kill [hellderrrr][Suavera]
+15:20:00 [thecrims][Invocadora] Kill [hellderrrr][Suavera]
+15:20:19 [thecrims][Invocadora] Kill [hellderrrr][Suavera]
+15:25:13 [FakeOnline] Loaded successfully
+15:25:13 [ServerInfo] Custom loaded successfully
+15:29:33 [Obj][13005] LogOutCharacter (Suavera)
+15:29:33 [Obj][13005] DelAccount (hellderrrr)
+15:29:33 [Obj][13005] DelClient (177.200.33.82)
+15:29:40 [Obj][13000] LogOutCharacter (Invocadora)
+15:29:40 [Obj][13000] DelAccount (thecrims)
+15:29:40 [Obj][13000] DelClient (177.200.33.82)
+15:30:03 [Obj][13003] AddClient (177.200.33.82)
+15:30:10 [Obj][13002] AddClient (177.200.33.82)
+15:30:13 [Obj][13003] AddAccount (hellderrrr)
+15:30:13 [Obj][13003] LogInCharacter (Suavera)
+15:30:20 [Obj][13002] AddAccount (thecrims)
+15:30:20 [Obj][13002] LogInCharacter (Invocadora)
+15:43:48 [FakeOnline] Loaded successfully
+15:43:48 [ServerInfo] Custom loaded successfully
+15:44:34 [Obj][13002] LogOutCharacter (Invocadora)
+15:44:34 [Obj][13002] DelAccount (thecrims)
+15:44:34 [Obj][13002] DelClient (177.200.33.82)
+15:49:38 [Obj][13003] LogOutCharacter (Suavera)
+15:49:38 [Obj][13003] DelAccount (hellderrrr)
+15:49:38 [Obj][13003] DelClient (177.200.33.82)
+15:50:10 [Obj][13001] LogOutCharacter (Saffe)
+15:50:10 [Obj][13001] DelAccount (hellder)
+15:50:10 [Obj][13001] DelClient (177.200.33.82)
+16:10:04 [Obj][13004] AddClient (179.224.29.107)
+16:10:08 [Obj][13004] AddAccount (marcio123)
+16:10:11 [Obj][13004] LogInCharacter (SUSANA)
+16:10:40 [Obj][13004] LogOutCharacter (SUSANA)
+16:10:40 [Obj][13004] DelAccount (marcio123)
+16:10:40 [Obj][13004] DelClient (179.224.29.107)
+16:10:43 [Obj][13005] AddClient (179.224.29.107)
+16:10:49 [Obj][13005] DelClient (179.224.29.107)
+16:13:07 [Obj][13000] AddClient (177.200.33.82)
+16:13:11 [Obj][13000] AddAccount (hellderrrr)
+16:13:15 [Obj][13000] LogInCharacter (Suavera)
+16:14:37 [Obj][13002] AddClient (177.200.33.82)
+16:14:40 [Obj][13002] AddAccount (hellder)
+16:14:42 [Obj][13002] LogInCharacter (Saffe)
+16:16:02 [Obj][13003] AddClient (179.224.29.107)
+16:16:08 [Obj][13003] AddAccount (marcio123)
+16:16:12 [Obj][13003] LogInCharacter (SUSANA)
+16:18:03 [Obj][13002] LogOutCharacter (Saffe)
+16:18:03 [Obj][13002] DelAccount (hellder)
+16:18:03 [Obj][13002] DelClient (177.200.33.82)
+16:19:27 [Obj][13001] AddClient (177.200.33.82)
+16:19:28 [Obj][13001] AddAccount (hellder)
+16:19:29 [Obj][13001] LogInCharacter (Saffe)
+16:31:41 [Obj][13001] LogOutCharacter (Saffe)
+16:31:41 [Obj][13001] DelAccount (hellder)
+16:31:41 [Obj][13001] DelClient (177.200.33.82)
+16:32:53 Flood Packet: Index: 13003 Head: 0XF3 Sub: 0XD0
+16:32:53 Flood Packet: Index: 13003 Head: 0XF3 Sub: 0XD0
+16:32:55 [Obj][13004] AddClient (177.200.33.82)
+16:32:55 Flood Packet: Index: 13003 Head: 0XF3 Sub: 0XD0
+16:32:58 [Obj][13004] AddAccount (hellder)
+16:33:02 [Obj][13004] LogInCharacter (Saffe)
+16:33:06 Flood Packet: Index: 13003 Head: 0XF3 Sub: 0XD0
+16:34:49 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:34:59 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:35:09 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:35:18 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:35:28 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:36:11 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:36:36 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:37:04 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:38:41 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+16:39:02 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:39:35 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:39:43 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:39:51 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:39:59 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:40:05 [ServerInfo] Character loaded successfully
+16:40:15 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:40:25 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+16:40:34 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+16:40:45 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:40:55 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:41:03 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:41:22 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+16:41:35 [Obj][13000] LogOutCharacter (Suavera)
+16:41:40 [Obj][13000] LogInCharacter (Elysium)
+16:41:52 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:42:00 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:42:21 [ServerInfo] Character loaded successfully
+16:42:28 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:42:38 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:42:49 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:42:49 [hellderrrr][Elysium] Kill [marcio123][SUSANA]
+16:43:00 [hellderrrr][Elysium] Kill [marcio123][SUSANA]
+16:43:14 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:43:24 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:43:38 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:43:52 [BotBuffer] CharName: SUSANA -ADD_GREATER_DEFENSE Time: 720
+16:43:52 [BotBuffer] CharName: SUSANA - ADD_GREATER_DAMAGE Time: 720
+16:43:54 [BotBuffer] CharName: SUSANA - ADD_SKILL_MANA Time: 720
+16:43:54 [BotBuffer] CharName: SUSANA -ADD_MAGIC_CIRCLE Time: 720
+16:43:55 [BotBuffer] CharName: Elysium -ADD_GREATER_DEFENSE Time: 720
+16:43:55 [BotBuffer] CharName: Elysium - ADD_GREATER_DAMAGE Time: 720
+16:43:57 [BotBuffer] CharName: SUSANA - ADD_GREATER_LIFE Time: 720
+16:43:59 [BotBuffer] CharName: Elysium - ADD_SKILL_MANA Time: 720
+16:43:59 [BotBuffer] CharName: Elysium -ADD_MAGIC_CIRCLE Time: 720
+16:43:59 [BotBuffer] CharName: SUSANA - ADD_DAMAGE_REFLECT Time: 720
+16:44:01 [BotBuffer] CharName: SUSANA - ADD_CRITICAL_DAMAGE Time: 720
+16:44:07 [BotBuffer] CharName: Elysium - ADD_GREATER_LIFE Time: 720
+16:44:10 [BotBuffer] CharName: Elysium - ADD_DAMAGE_REFLECT Time: 720
+16:44:14 [BotBuffer] CharName: Elysium - ADD_CRITICAL_DAMAGE Time: 720
+16:44:16 [BotBuffer] CharName: Elysium - ADD_IGNORE_DEFENSE_RATE Time: 720
+16:44:16 [BotBuffer] CharName: Elysium - ADD_FITNESS Time: 720
+16:44:28 [hellderrrr][Elysium] Kill [marcio123][SUSANA]
+16:44:42 [BotBuffer] CharName: SUSANA -ADD_GREATER_DEFENSE Time: 720
+16:44:42 [BotBuffer] CharName: SUSANA - ADD_GREATER_DAMAGE Time: 720
+16:44:44 [BotBuffer] CharName: SUSANA - ADD_SKILL_MANA Time: 720
+16:44:44 [BotBuffer] CharName: SUSANA -ADD_MAGIC_CIRCLE Time: 720
+16:44:45 [BotBuffer] CharName: SUSANA - ADD_GREATER_LIFE Time: 720
+16:44:47 [BotBuffer] CharName: SUSANA - ADD_DAMAGE_REFLECT Time: 720
+16:44:51 [BotBuffer] CharName: SUSANA - ADD_CRITICAL_DAMAGE Time: 720
+16:44:53 [BotBuffer] CharName: SUSANA - ADD_IGNORE_DEFENSE_RATE Time: 720
+16:44:53 [BotBuffer] CharName: SUSANA - ADD_FITNESS Time: 720
+16:45:08 [hellderrrr][Elysium] Kill [marcio123][SUSANA]
+16:45:45 [BotBuffer] CharName: SUSANA -ADD_GREATER_DEFENSE Time: 720
+16:45:45 [BotBuffer] CharName: SUSANA - ADD_GREATER_DAMAGE Time: 720
+16:45:46 [BotBuffer] CharName: SUSANA - ADD_SKILL_MANA Time: 720
+16:45:46 [BotBuffer] CharName: SUSANA -ADD_MAGIC_CIRCLE Time: 720
+16:45:49 [BotBuffer] CharName: SUSANA - ADD_GREATER_LIFE Time: 720
+16:45:53 [BotBuffer] CharName: SUSANA - ADD_DAMAGE_REFLECT Time: 720
+16:45:55 [BotBuffer] CharName: SUSANA - ADD_CRITICAL_DAMAGE Time: 720
+16:45:59 [BotBuffer] CharName: SUSANA - ADD_IGNORE_DEFENSE_RATE Time: 720
+16:45:59 [BotBuffer] CharName: SUSANA - ADD_FITNESS Time: 720
+16:46:26 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:46:35 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:46:38 [Obj][13004] LogOutCharacter (Saffe)
+16:46:38 [Obj][13004] DelAccount (hellder)
+16:46:38 [Obj][13004] DelClient (177.200.33.82)
+16:46:56 [marcio123][SUSANA] Kill [hellderrrr][Elysium]
+16:50:34 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:51:30 [Obj][13005] AddClient (177.200.33.82)
+16:51:37 [Obj][13005] AddAccount (hellder)
+16:51:39 [Obj][13005] LogInCharacter (Saffe)
+17:02:23 [FakeOnline] Loaded successfully
+17:02:23 [ServerInfo] Custom loaded successfully
+17:06:31 [ServerInfo] Character loaded successfully
+17:07:22 [ServerInfo] Character loaded successfully
+17:07:54 [ServerInfo] Character loaded successfully
+17:08:13 [hellder][Saffe] Kill [marcio123][SUSANA]
+17:08:13 [marcio123][SUSANA] Kill [hellder][Saffe]
+17:09:05 [FakeOnline] Loaded successfully
+17:09:05 [ServerInfo] Custom loaded successfully
+17:09:39 [FakeOnline] Loaded successfully
+17:09:39 [ServerInfo] Custom loaded successfully
+17:09:59 [hellder][Saffe] Kill [marcio123][SUSANA]
+17:10:51 [Obj][13003] LogOutCharacter (SUSANA)
+17:10:51 [Obj][13003] DelAccount (marcio123)
+17:10:51 [Obj][13003] DelClient (179.224.29.107)
+17:10:52 [Obj][13005] LogOutCharacter (Saffe)
+17:10:52 [Obj][13005] DelAccount (hellder)
+17:10:52 [Obj][13005] DelClient (177.200.33.82)
+17:11:21 [Obj][13002] AddClient (179.224.29.107)
+17:11:31 [Obj][13002] AddAccount (marcio123)
+17:11:31 [Obj][13002] LogInCharacter (SUSANA)
+17:11:54 [Obj][13001] AddClient (177.200.33.82)
+17:12:04 [Obj][13001] AddAccount (hellder)
+17:12:04 [Obj][13001] LogInCharacter (Saffe)
+17:13:00 [ServerInfo] Character loaded successfully
+17:13:02 [FakeOnline] Loaded successfully
+17:13:02 [ServerInfo] Custom loaded successfully
+17:13:30 [BotBuffer] CharName: SUSANA -ADD_GREATER_DEFENSE Time: 720
+17:13:30 [BotBuffer] CharName: SUSANA - ADD_GREATER_DAMAGE Time: 720
+17:13:31 [Obj][13000] LogOutCharacter (Elysium)
+17:13:31 [BotBuffer] CharName: SUSANA - ADD_SKILL_MANA Time: 720
+17:13:31 [BotBuffer] CharName: SUSANA -ADD_MAGIC_CIRCLE Time: 720
+17:13:35 [Obj][13000] LogInCharacter (Elysium)
+17:13:37 [BotBuffer] CharName: SUSANA - ADD_GREATER_LIFE Time: 720
+17:13:38 [BotBuffer] CharName: SUSANA - ADD_DAMAGE_REFLECT Time: 720
+17:13:40 [BotBuffer] CharName: SUSANA - ADD_CRITICAL_DAMAGE Time: 720
+17:13:42 [BotBuffer] CharName: SUSANA - ADD_IGNORE_DEFENSE_RATE Time: 720
+17:13:42 [BotBuffer] CharName: SUSANA - ADD_FITNESS Time: 720
+17:13:46 [Obj][13000] LogOutCharacter (Elysium)
+17:13:48 [Obj][13000] LogInCharacter (Suavera)
+17:13:57 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:14:42 [BotBuffer] CharName: Suavera -ADD_GREATER_DEFENSE Time: 720
+17:14:42 [BotBuffer] CharName: Suavera - ADD_GREATER_DAMAGE Time: 720
+17:14:44 [BotBuffer] CharName: Suavera - ADD_SKILL_MANA Time: 720
+17:14:44 [BotBuffer] CharName: Suavera -ADD_MAGIC_CIRCLE Time: 720
+17:14:47 [BotBuffer] CharName: Suavera - ADD_GREATER_LIFE Time: 720
+17:14:50 [BotBuffer] CharName: Suavera - ADD_DAMAGE_REFLECT Time: 720
+17:14:52 [BotBuffer] CharName: Suavera - ADD_CRITICAL_DAMAGE Time: 720
+17:14:54 [BotBuffer] CharName: Suavera - ADD_IGNORE_DEFENSE_RATE Time: 720
+17:14:54 [BotBuffer] CharName: Suavera - ADD_FITNESS Time: 720
+17:15:27 [Obj][13000] LogOutCharacter (Suavera)
+17:15:27 [Obj][13000] DelAccount (hellderrrr)
+17:15:27 [Obj][13000] DelClient (177.200.33.82)
+17:15:58 [Obj][13004] AddClient (177.200.33.82)
+17:16:08 [Obj][13004] AddAccount (hellderrrr)
+17:16:09 [Obj][13004] LogInCharacter (Suavera)
+17:17:00 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:17:10 [hellder][Saffe] Kill [hellderrrr][Suavera]
+17:17:22 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:17:36 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:17:48 [ServerInfo] Character loaded successfully
+17:17:57 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:18:11 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:18:22 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:18:31 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:19:14 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:19:32 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:19:50 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:20:05 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:20:17 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:20:25 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:20:44 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:21:19 [Obj][13001] LogOutCharacter (Saffe)
+17:21:19 [Obj][13001] DelAccount (hellder)
+17:21:19 [Obj][13001] DelClient (177.200.33.82)
+17:21:52 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:22:01 [ServerInfo] Character loaded successfully
+17:22:04 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:22:27 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:22:42 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:23:03 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:23:15 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:23:27 [hellderrrr][Suavera] Kill [marcio123][SUSANA]
+17:23:45 [marcio123][SUSANA] Kill [hellderrrr][Suavera]
+17:36:06 [Obj][13004] LogOutCharacter (Suavera)
+17:36:06 [Obj][13004] DelAccount (hellderrrr)
+17:36:06 [Obj][13004] DelClient (177.200.33.82)
+17:36:18 [Obj][13002] LogOutCharacter (SUSANA)
+17:36:18 [Obj][13002] DelAccount (marcio123)
+17:36:18 [Obj][13002] DelClient (179.224.29.107)
+17:36:35 [Obj][13003] AddClient (179.224.29.107)
+17:36:36 [Obj][13005] AddClient (177.200.33.82)
+17:36:45 [Obj][13003] AddAccount (marcio123)
+17:36:45 [Obj][13003] LogInCharacter (SUSANA)
+17:36:47 [Obj][13005] AddAccount (hellderrrr)
+17:36:47 [Obj][13005] LogInCharacter (Suavera)
+17:44:04 [BotBuffer] CharName: Suavera - ADD_GREATER_LIFE Time: 720
+17:46:14 [Obj][13003] LogOutCharacter (SUSANA)
+17:46:14 [Obj][13003] DelAccount (marcio123)
+17:46:14 [Obj][13003] DelClient (179.224.29.107)
+17:46:46 [Obj][13005] LogOutCharacter (Suavera)
+17:46:46 [Obj][13005] DelAccount (hellderrrr)
+17:46:46 [Obj][13005] DelClient (177.200.33.82)
+18:16:06 [ServerInfo] CashShop loaded successfully
+18:16:06 [ServerInfo] ChaosMix loaded successfully
+18:16:06 [ServerInfo] Character loaded successfully
+18:16:06 [ServerInfo] Command loaded successfully
+18:16:06 [ServerInfo] Common loaded successfully
+18:16:06 [FakeOnline] Loaded successfully
+18:16:06 [ServerInfo] Custom loaded successfully
+18:16:06 [ServerInfo] Discord loaded successfully
+18:16:06 [ServerInfo] Effect loaded successfully
+18:16:06 [ServerInfo] Event loaded successfully
+18:16:06 [ServerInfo] EventItemBag loaded successfully
+18:16:06 [ServerInfo] Hack loaded successfully
+18:16:06 [ServerInfo] Message loaded successfully
+18:16:06 [ServerInfo] Map loaded successfully
+18:16:06 [ServerInfo] Message loaded successfully
+18:16:06 [ServerInfo] Monster loaded successfully
+18:16:06 [ServerInfo] Move loaded successfully
+18:16:06 [ServerInfo] Quest loaded successfully
+18:16:06 [ServerInfo] Shop loaded successfully
+18:16:06 [ServerInfo] Skill loaded successfully
+18:16:06 [ServerInfo] Util loaded successfully
+18:16:06 [ReadBotInfo] BotSystem loaded successfully
+21:16:32 [Obj][13000] AddClient (200.25.53.10)
+21:16:34 [Obj][13000] DelClient (200.25.53.10)
+21:42:11 [Obj][13001] AddClient (200.25.57.15)
+21:42:12 [Obj][13001] DelClient (200.25.57.15)
+23:08:53 [Obj][13004] AddClient (177.200.33.82)
+23:08:57 [Obj][13004] AddAccount (hellder)
+23:09:01 [Obj][13004] LogInCharacter (TIMORDI)
+23:10:29 [ServerInfo] Hack loaded successfully
+23:11:33 [Obj][13002] AddClient (177.200.33.82)
+23:11:36 [Obj][13002] AddAccount (videodv)
+23:11:38 [Obj][13002] LogInCharacter (AdmSaffe)
+23:13:38 [ServerInfo] Hack loaded successfully
+23:13:51 [ServerInfo] CashShop loaded successfully
+23:13:51 [ServerInfo] ChaosMix loaded successfully
+23:13:51 [ServerInfo] Character loaded successfully
+23:13:51 [ServerInfo] Command loaded successfully
+23:13:51 [ServerInfo] Common loaded successfully
+23:13:51 [FakeOnline] Loaded successfully
+23:13:51 [ServerInfo] Custom loaded successfully
+23:13:51 [ServerInfo] Discord loaded successfully
+23:13:51 [ServerInfo] Effect loaded successfully
+23:13:51 [ServerInfo] Event loaded successfully
+23:13:52 [ServerInfo] EventItemBag loaded successfully
+23:13:52 [ServerInfo] Hack loaded successfully
+23:13:52 [ServerInfo] Message loaded successfully
+23:13:52 [ServerInfo] Map loaded successfully
+23:13:52 [ServerInfo] Message loaded successfully
+23:13:52 [ServerInfo] Monster loaded successfully
+23:13:52 [ServerInfo] Move loaded successfully
+23:13:52 [ServerInfo] Quest loaded successfully
+23:13:52 [ServerInfo] Shop loaded successfully
+23:13:52 [ServerInfo] Skill loaded successfully
+23:13:52 [ServerInfo] Util loaded successfully
+23:13:52 [ReadBotInfo] BotSystem loaded successfully
+23:13:59 [hellder][TIMORDI] Kill [videodv][AdmSaffe]
+23:14:11 [Obj][13004] LogOutCharacter (TIMORDI)
+23:14:11 [Obj][13004] DelAccount (hellder)
+23:14:11 [Obj][13004] DelClient (177.200.33.82)
+23:14:40 [Obj][13003] AddClient (177.200.33.82)
+23:14:45 [Obj][13003] AddAccount (hellder)
+23:14:48 [Obj][13003] LogInCharacter (TIMORDI)
+23:14:49 [Obj][13003] LogOutCharacter (TIMORDI)
+23:14:49 [Obj][13003] DelAccount (hellder)
+23:14:49 [Obj][13003] DelClient (177.200.33.82)
+23:15:39 [Obj][13005] AddClient (177.200.33.82)
+23:15:40 [Obj][13005] AddAccount (hellder)
+23:15:43 [Obj][13005] LogInCharacter (Saffe)
+23:15:49 [Obj][13005] LogOutCharacter (Saffe)
+23:15:49 [Obj][13005] DelAccount (hellder)
+23:15:49 [Obj][13005] DelClient (177.200.33.82)
+23:17:27 [Obj][13000] AddClient (177.200.33.82)
+23:17:28 [Obj][13000] AddAccount (hellder)
+23:17:30 [Obj][13000] LogInCharacter (Saffe)
+23:17:36 [Obj][13000] LogOutCharacter (Saffe)
+23:17:36 [Obj][13000] DelAccount (hellder)
+23:17:36 [Obj][13000] DelClient (177.200.33.82)
+23:18:24 [ServerInfo] Hack loaded successfully
+23:18:51 [Obj][13001] AddClient (177.200.33.82)
+23:18:52 [Obj][13001] AddAccount (hellder)
+23:18:54 [Obj][13001] LogInCharacter (TIMORDI)
+23:19:01 [Obj][13001] LogOutCharacter (TIMORDI)
+23:19:01 [Obj][13001] DelAccount (hellder)
+23:19:01 [Obj][13001] DelClient (177.200.33.82)
+23:22:16 [ServerInfo] Hack loaded successfully
+23:23:35 [ServerInfo] Common loaded successfully
+23:24:00 [Obj][13004] AddClient (177.200.33.82)
+23:24:01 [Obj][13004] AddAccount (hellder)
+23:24:03 [Obj][13004] LogInCharacter (TIMORDI)
+23:24:09 [Obj][13004] LogOutCharacter (TIMORDI)
+23:24:09 [Obj][13004] DelAccount (hellder)
+23:24:09 [Obj][13004] DelClient (177.200.33.82)
+23:27:24 [Obj][13003] AddClient (177.200.33.82)
+23:27:24 [Obj][13003] AddAccount (hellder)
+23:27:27 [Obj][13003] LogInCharacter (TIMORDI)
+23:27:29 [Obj][13003] LogOutCharacter (TIMORDI)
+23:27:29 [Obj][13003] DelAccount (hellder)
+23:27:29 [Obj][13003] DelClient (177.200.33.82)
+23:36:13 [FAKE ONLINE LOG] Start
+23:36:13 [ServerInfo] CashShop loaded successfully
+23:36:13 [ServerInfo] ChaosMix loaded successfully
+23:36:13 [ServerInfo] Character loaded successfully
+23:36:13 [FakeOnline] Loaded successfully
+23:36:13 [ServerInfo] Custom loaded successfully
+23:36:13 [ServerInfo] Command loaded successfully
+23:36:13 [ServerInfo] Common loaded successfully
+23:36:13 [ServerInfo] Discord loaded successfully
+23:36:13 [ServerInfo] Effect loaded successfully
+23:36:13 [ServerInfo] Event loaded successfully
+23:36:13 [ServerInfo] EventItemBag loaded successfully
+23:36:13 [ServerInfo] Hack loaded successfully
+23:36:14 [ServerInfo] Item loaded successfully
+23:36:14 [ServerInfo] Message loaded successfully
+23:36:14 [ServerInfo] Map loaded successfully
+23:36:14 [ServerInfo] Terrain loaded successfully
+23:36:14 [ServerInfo] Monster loaded successfully
+23:36:14 [ServerInfo] Move loaded successfully
+23:36:14 [ServerInfo] Quest loaded successfully
+23:36:14 [ServerInfo] Shop loaded successfully
+23:36:14 [ServerInfo] Skill loaded successfully
+23:36:14 [ServerInfo] Util loaded successfully
+23:36:14 [ReadBotInfo] BotSystem loaded successfully
+23:36:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 144)
+23:36:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+23:36:15 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 68, Y: 7)
+23:36:15 [ServerInfo] Custom Attack offline restored successfully
+23:36:15 [ServerInfo] Custom Store offline restored successfully
+23:36:15 [Discord] Connection successfully
+23:36:16 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+23:36:34 [Obj][13000] AddClient (177.200.33.82)
+23:36:44 [Obj][13000] AddAccount (videodv)
+23:36:44 [Obj][13000] LogInCharacter (AdmSaffe)
+23:37:21 [Obj][13001] AddClient (177.200.33.82)
+23:37:22 [Obj][13001] AddAccount (hellder)
+23:37:24 [Obj][13001] LogInCharacter (TIMORDI)
+23:37:28 [Obj][13001] LogOutCharacter (TIMORDI)
+23:37:28 [Obj][13001] DelAccount (hellder)
+23:37:28 [Obj][13001] DelClient (177.200.33.82)
+23:37:40 [ServerInfo] Hack loaded successfully
+23:39:33 [ServerInfo] Hack loaded successfully
+23:40:12 [ServerInfo] Hack loaded successfully
+23:40:40 [Obj][13001] AddClient (177.200.33.82)
+23:40:41 [Obj][13001] AddAccount (hellder)
+23:40:43 [Obj][13001] LogInCharacter (TIMORDI)
+23:40:50 [Obj][13001] LogOutCharacter (TIMORDI)
+23:40:50 [Obj][13001] DelAccount (hellder)
+23:40:50 [Obj][13001] DelClient (177.200.33.82)
+23:41:14 [ServerInfo] Common loaded successfully
+23:41:16 [ServerInfo] Hack loaded successfully
+23:41:36 [Obj][13001] AddClient (177.200.33.82)
+23:41:37 [Obj][13001] AddAccount (hellder)
+23:41:39 [Obj][13001] LogInCharacter (TIMORDI)
+23:43:13 [ServerInfo] Hack loaded successfully
+23:43:17 [ServerInfo] Common loaded successfully
+23:43:25 [Obj][13001] LogOutCharacter (TIMORDI)
+23:43:25 [Obj][13001] DelAccount (hellder)
+23:43:25 [Obj][13001] DelClient (177.200.33.82)
+23:46:46 [ServerInfo] Common loaded successfully
+23:46:48 [ServerInfo] Hack loaded successfully
+23:47:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 5
+23:47:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 5
+23:47:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 5
+23:47:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 5
+23:47:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 1
+23:47:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:47:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 1
+23:47:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 4
+23:47:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 5
+23:47:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 250 | Count: 6
+23:49:59 [Obj][13001] AddClient (177.200.33.82)
+23:50:00 [Obj][13001] AddAccount (hellder)
+23:50:09 [Obj][13001] LogInCharacter (TIMORDI)
+23:50:29 [Obj][13001] LogOutCharacter (TIMORDI)
+23:50:29 [Obj][13001] DelAccount (hellder)
+23:50:29 [Obj][13001] DelClient (177.200.33.82)
+23:52:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 6
+23:52:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 1
+23:52:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 8
+23:52:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 500 | Count: 9
+23:52:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 3
+23:52:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:52:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:52:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:52:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 3
+23:52:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:52:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:52:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 3
+23:52:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:52:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:52:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 12
+23:52:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:52:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:52:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 12
+23:52:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:52:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1000 | Count: 13
+23:53:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 6
+23:53:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 12
+23:53:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 14
+23:53:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 12
+23:53:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 12
+23:53:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 2
+23:53:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 12
+23:53:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1250 | Count: 13
+23:53:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 3
+23:53:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 24
+23:53:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 21
+23:53:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 24
+23:53:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 23
+23:53:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 26
+23:53:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 22
+23:53:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 26
+23:53:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 24
+23:53:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 23
+23:53:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 1500 | Count: 26
+23:54:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 21
+23:54:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:54:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 11
+23:54:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:54:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:54:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:54:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 6
+23:54:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 6
+23:55:24 [ServerInfo] Hack loaded successfully
+23:55:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 30
+23:55:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 2
+23:55:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 11
+23:55:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:55:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:55:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:56:29 [Obj][13001] AddClient (177.200.33.82)
+23:56:31 [Obj][13001] AddAccount (hellder)
+23:56:34 [Obj][13001] LogInCharacter (TIMORDI)
+23:56:37 [Obj][13001] LogOutCharacter (TIMORDI)
+23:56:37 [Obj][13001] DelAccount (hellder)
+23:56:37 [Obj][13001] DelClient (177.200.33.82)
+23:56:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 4
+23:56:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:56:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:08 [ServerInfo] Hack loaded successfully
+23:57:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 8
+23:57:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 11
+23:57:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:57:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 11
+23:57:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 1
+23:57:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:57:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13
+23:57:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 12
+23:57:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 750 | Count: 13

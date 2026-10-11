@@ -1,0 +1,13 @@
+21:32:02 [SocketManager] Server started at port [55902]
+21:33:27 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:34:08 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:34:38 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:35:09 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:35:39 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:36:10 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:36:40 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:37:11 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:37:41 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:38:22 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:39:03 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+21:39:43 [SocketManager] Server started at port [55902]

@@ -1,0 +1,84 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// Tormenta Island
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         10             10             240          240          -1             0           //
+840            106            30         10             10             240          240          -1             0           //
+841            106            30         10             10             240          240          -1             0           //
+end
+
+
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         178            100            178          100          -1             2            //
+840            106            30         178            100            178          100          -1             2            //
+841            106            30         178            100            178          100          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         177            120            177          120          -1             2            //
+840            106            30         177            120            177          120          -1             2            //
+841            106            30         177            120            177          120          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         141            063            141          063          -1             2            //
+840            106            30         141            063            141          063          -1             2            //
+841            106            30         141            063            141          063          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         171            083            171          083          -1             2            //
+840            106            30         171            083            171          083          -1             2            //
+841            106            30         171            083            171          083          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         100            106            100          106          -1             2            //
+840            106            30         100            106            100          106          -1             2            //
+841            106            30         100            106            100          106          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         106            078            106          078          -1             2            //
+840            106            30         106            078            106          078          -1             2            //
+841            106            30         106            078            106          078          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         167            158            167          158          -1             2            //
+840            106            30         167            158            167          158          -1             2            //
+841            106            30         167            158            167          158          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         150            172            150          172          -1             2            //
+840            106            30         150            172            150          172          -1             2            //
+841            106            30         150            172            150          172          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         106            167            106          167          -1             2            //
+840            106            30         106            167            106          167          -1             2            //
+841            106            30         106            167            106          167          -1             2            //
+end
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+839            106            30         081            138            081          138          -1             2            //
+840            106            30         081            138            081          138          -1             2            //
+841            106            30         081            138            081          138          -1             2            //
+end
+
+
+
+
+
+

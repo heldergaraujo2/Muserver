@@ -1,0 +1,31 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2022 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0		10000		1
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0		5	    9000	0		0			1	1	1	1	1	1	1
+0		6	    1000	0		0			1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6174	0	0	0	0	0	0	0	0	0	0		// Bundled Jewel of Bless
+6175	0	0	0	0	0	0	0	0	0	0		// Bundled Jewel of Soul
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6721	0	0	*	10	11	11	0	0	0	0		// Spirit of Guardian
+7264	0	0	1	0	0	0	0	0	0	0		// Talisman of Chaos Assembly
+end

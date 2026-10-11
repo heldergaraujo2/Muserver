@@ -1,0 +1,11 @@
+08:40:59 [ServerList] ServerList loaded successfully
+08:40:59 [ServerList] GameServer online (GameServer) (0)
+08:40:59 [ServerList] GameServer online (GameServerCS) (19)
+08:40:59 [ServerList] GameServer online (GameServer) (1)
+20:49:53 [SocketManager] WSAAccept() failed with error: 10061
+20:50:01 [SocketManager] WSAAccept() failed with error: 10061
+20:50:03 [SocketManager] WSAAccept() failed with error: 10061
+20:50:11 [SocketManager] WSAAccept() failed with error: 10061
+22:25:21 [SocketManager] WSARecv() failed with error: 10053
+22:52:02 [SocketManager] Protocol header error (Index: 37, Header: 3)
+22:52:03 [SocketManager] Protocol header error (Index: 34, Header: 3)

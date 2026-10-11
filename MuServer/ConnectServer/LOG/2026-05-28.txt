@@ -1,0 +1,5 @@
+06:19:55 [SocketManager] Protocol header error (Index: 15, Header: 47)
+06:20:55 [SocketManager] Protocol header error (Index: 26, Header: 16)
+06:20:55 [SocketManager] Protocol header error (Index: 29, Header: 16)
+06:20:56 [SocketManager] Protocol header error (Index: 1, Header: 80)
+06:20:58 [SocketManager] Protocol header error (Index: 21, Header: 16)

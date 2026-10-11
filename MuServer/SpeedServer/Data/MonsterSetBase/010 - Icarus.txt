@@ -1,0 +1,35 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+600            10             00        010             017            03             //QUEST ICARUS
+end
+
+//=========================================================================================================================================
+// [SPOTS] ICARUS
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+069            10             4          017            031            017          031          -1             6             //Aquamos
+071            10             4          046            034            046          034          -1             6             //Mega Crust
+070            10             4          088            044            088          044          -1             6             //Queen Rainier
+073            10             4          073            075            073          075          -1             6             //Drakan
+073            10             4          51             133            51           133          -1             6             //Drakan
+073            10             4          59             158            59           158          -1             6             //Drakan
+074            10             4          035            072            035          072          -1             6             //alpha Crust
+072            10             4          036            106            036          106          -1             6             //Phantom Knight
+072            10             4          047            148            047          148          -1             6             //Phantom Knight
+072            10             4          34             34             35           35          -1             20             //Phantom Knight
+072            10             4          61             27             61           27          -1             20             //Phantom Knight
+072            10             4          85             37             85           37          -1             20             //Phantom Knight
+072            10             4          90             66             90           66          -1             20             //Phantom Knight
+072            10             4          46             194            46           194          -1             20             //Phantom Knight
+072            10             4          85             84             85           84           -1             20             //Phantom Knight
+839            10             30         45             127             50          140          -1             1             //Great Drakan
+839            10             30         54             168             44          209          -1             1             //Great Drakan
+839            10             30         36             235             43          239          -1             1             //Great Drakan
+839            10             30         93             51             93           65          -1             1             //Great Drakan
+839            10             30         39             80              60          73           -1             1             //Great Drakan
+839            10             30         78             36              19          32           -1             1             //Great Drakan
+839            10             30         36             34              55          36           -1             1             //Great Drakan
+075            10             4          052            174            052          174          -1             6             //Great Drakan
+077          10             15         034            223            043          221          -1             1             //Dark Phoenix
+end

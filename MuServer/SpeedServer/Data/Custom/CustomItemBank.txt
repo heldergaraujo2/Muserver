@@ -1,0 +1,57 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+///////////////////////////////////////////////////////////////////////////////////////
+// ItemPos = Positve/Negative
+// ItemSize = 1 to 10 (1 is bigger)
+///////////////////////////////////////////////////////////////////////////////////////
+// 	#ItemIndex  #ItemLevel   #ItemPos   #ItemSize	#Description
+	7222        0		 -9	    11		//card
+	7208        0		 -9	    11		//card
+	7205        0		 -9	    11		//card
+	6159        0		 -9	    6		//Jewel of Chaos
+	7181        0		 0	    9		//Jewel of Bless
+	7182        0		 0	    9		//Jewel of Soul
+	7184        0		 -1	    9		//Jewel of Life
+	7190        0		 0	    9		//Jewel of Creation
+	7199        0		 -9	    9		//Jewel of Guardian
+	7209        0		 0	    11		//Gemstone
+	7210        0		 0	    10		//Jewel of Harmony
+	7211        0		 0	    9		//Lower refining stone
+	7212        0		 0 	    10		//Higher refining stone
+
+
+
+	7179        8		 -2 	    11		//Box of Kundun +1
+	7179        9		 -2 	    11		//Box of Kundun +2
+	7179        10		 -2 	    11		//Box of Kundun +3
+	7179        11		 -2 	    11		//Box of Kundun +4
+	7179        12		 -2 	    11		//Box of Kundun +5
+	7264        0		 -2 	    11		//Talisman of Chaos Assembly
+	7221        0		 -2 	    11		//Talisman of Luck
+	7575        0		 -2 	    11		//Golden Sentence
+	7605        0		 -2 	    11		//Uriel Feather
+
+	7413        0		 -2 	    11		//Jewel of Skill
+	7414        0		 -2 	    11		//Jewel of Luck
+	7415        0		 -2 	    11		//Jewel of Adicional
+	7416        0		 -2 	    11		//Jewel of Excellent
+	7417        0		 -2 	    11		//Jewel of Socket
+	7418        0		 -2 	    11		//Jewel of Ancient 1
+	//7419        0		 -2 	    11		//Jewel of Ancient 2
+	//7420        0		 -2 	    11		//Jewel of Full
+	7421        0		 -2 	    11		//Jewel of Level
+        7290        0		 -2 	    11		//BOX SILVER SELADA
+        7280        0		 -2 	    11		//Silver Key
+        7281       0		 -2 	    11		
+        7289        0		 -2 	    11		
+        
+
+
+end
+
+

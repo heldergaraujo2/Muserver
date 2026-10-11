@@ -1,0 +1,70 @@
+[GameServerInfo]
+;==================================================
+; AntiFlood Settings
+; Recommended configuration
+; Don't change without knowledge
+;==================================================
+AntiFloodActive = 0
+AntiFloodResetTime = 1000
+AntiFloodMaxCount = 3
+AntiFloodCheckTime = 50
+AntiFloodBlocTime = 60
+
+;==================================================
+; Hack Settings
+;==================================================
+CheckSpeedHack = 1
+CheckSpeedHackTolerance = 1000
+CheckLatencyHack = 0
+CheckLatencyHackTolerance = 300
+CheckAutoPotionHack = 1
+CheckAutoPotionHackTolerance = 250
+CheckAutoComboHack = 1
+CheckAutoComboHackTolerance = 450
+CheckHackPacketSerial = 0
+
+;==================================================
+; Hack Speed Skill Settings (HackSkillCheck.txt)
+; Types:
+; 0: Show message in log only
+; 1: Disconnect User
+; 2: Disable Attack
+; 3: Disable attack by x miliseconds
+; 4: Disconnect User & bloc account
+; 5: Ignore over hits
+;==================================================
+SpeedHackSkillEnable = 1
+SpeedHackSkillType = 0
+SpeedHackSkillPenalty = 60000
+SpeedHackSkillDialog = 0
+SpeedHackSkillMaxOverHits = 50
+SpeedHackSkillMaxOverHitsType = 3
+
+;==================================================
+; Hack Movement Settings
+; Types:
+; 0: Show message in log only
+; 1: Disconnect User
+; 2: Disconnect User & bloc account
+; 3: Order of Restraint Buff
+;==================================================
+SpeedHackMovementEnable = 1
+SpeedHackMovementType = 1
+SpeedHackMovementDistanceNormal = 2 ;new line
+SpeedHackMovementDistanceFenrir = 3 ;new line
+SpeedHackMovementDistanceHorse = 3 ;new line
+SpeedHackMovementDistanceWing = 3 ;new line
+SpeedHackMovementMaxBlockDays = 1
+SpeedHackMovementTolerance = 3
+SpeedHackMovementToleranceTime = 4000
+SpeedHackMovementBuffTime = 10
+
+;==================================================
+; Hack Skill double Settings
+;==================================================
+CheckHackSkillDoubleEnable = 1
+
+;==================================================
+; Hack Dupe auto ban
+;==================================================
+CheckHackDupeAutoBan = 0

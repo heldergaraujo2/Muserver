@@ -1,0 +1,379 @@
+00:00:01 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+07:35:51 [Obj][13001] AddClient (167.94.138.173)
+07:35:55 [Obj][13001] DelClient (167.94.138.173)
+07:36:00 [Obj][13002] AddClient (167.94.138.173)
+07:36:10 [Obj][13002] DelClient (167.94.138.173)
+09:13:02 [Obj][13000] AddClient (80.94.95.221)
+09:13:02 [Obj][13000] DelClient (80.94.95.221)
+12:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+14:24:59 [Obj][13001] AddClient (80.94.95.221)
+14:24:59 [Obj][13001] DelClient (80.94.95.221)
+14:38:40 [Obj][13002] AddClient (80.94.95.221)
+14:38:40 [Obj][13002] DelClient (80.94.95.221)
+14:52:48 [Obj][13000] AddClient (80.94.95.221)
+14:52:48 [Obj][13000] DelClient (80.94.95.221)
+15:07:59 [Obj][13001] AddClient (80.94.95.221)
+15:07:59 [Obj][13001] DelClient (80.94.95.221)
+15:23:38 [Obj][13002] AddClient (80.94.95.221)
+15:23:38 [Obj][13002] DelClient (80.94.95.221)
+16:27:28 [Obj][13000] AddClient (177.200.34.53)
+16:27:29 [Obj][13000] AddAccount (hellder)
+16:27:31 [Obj][13000] LogInCharacter (Saffe)
+16:27:39 [FakeOnline] Loaded successfully
+16:27:39 [ServerInfo] Custom loaded successfully
+16:27:47 [ServerInfo] Monster loaded successfully
+16:27:48 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+16:29:23 [ServerInfo] Monster loaded successfully
+16:29:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 203, Y: 132)
+16:33:41 [Obj][13000] LogOutCharacter (Saffe)
+16:33:41 [Obj][13000] DelAccount (hellder)
+16:33:41 [Obj][13000] DelClient (177.200.34.53)
+16:34:23 [Obj][13001] AddClient (177.200.34.53)
+16:34:23 [Obj][13001] AddAccount (hellder)
+16:34:25 [Obj][13001] LogInCharacter (Saffe)
+16:37:57 [ServerInfo] Monster loaded successfully
+16:37:57 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+16:39:28 [FakeOnline] Loaded successfully
+16:39:28 [ServerInfo] Custom loaded successfully
+16:45:58 [ServerInfo] Monster loaded successfully
+16:45:58 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+16:45:58 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+16:46:10 [FakeOnline] Loaded successfully
+16:46:10 [ServerInfo] Custom loaded successfully
+16:46:13 [ServerInfo] Monster loaded successfully
+16:46:13 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+16:46:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+16:46:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 58, Y: 7)
+16:47:50 [FakeOnline] Loaded successfully
+16:47:50 [ServerInfo] Custom loaded successfully
+16:47:52 [ServerInfo] Monster loaded successfully
+16:47:52 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+16:47:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 68, Y: 7)
+16:48:54 [FakeOnline] Loaded successfully
+16:48:54 [ServerInfo] Custom loaded successfully
+16:48:59 [ServerInfo] Quest loaded successfully
+16:49:01 [ServerInfo] Monster loaded successfully
+16:49:01 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 144)
+16:49:02 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 203, Y: 132)
+16:49:02 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+16:52:33 [FAKE ONLINE LOG] Start
+16:52:33 [ServerInfo] CashShop loaded successfully
+16:52:33 [ServerInfo] ChaosMix loaded successfully
+16:52:33 [ServerInfo] Character loaded successfully
+16:52:33 [FakeOnline] Loaded successfully
+16:52:33 [ServerInfo] Custom loaded successfully
+16:52:33 [ServerInfo] Command loaded successfully
+16:52:33 [ServerInfo] Common loaded successfully
+16:52:33 [ServerInfo] Discord loaded successfully
+16:52:33 [ServerInfo] Effect loaded successfully
+16:52:33 [ServerInfo] Event loaded successfully
+16:52:33 [ServerInfo] EventItemBag loaded successfully
+16:52:33 [ServerInfo] Hack loaded successfully
+16:52:33 [ServerInfo] Item loaded successfully
+16:52:33 [ServerInfo] Message loaded successfully
+16:52:33 [ServerInfo] Map loaded successfully
+16:52:33 [ServerInfo] Terrain loaded successfully
+16:52:33 [ServerInfo] Monster loaded successfully
+16:52:33 [ServerInfo] Move loaded successfully
+16:52:33 [ServerInfo] Quest loaded successfully
+16:52:33 [ServerInfo] Shop loaded successfully
+16:52:33 [ServerInfo] Skill loaded successfully
+16:52:33 [ServerInfo] Util loaded successfully
+16:52:33 [ReadBotInfo] BotSystem loaded successfully
+16:52:34 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+16:52:34 [ServerInfo] Custom Attack offline restored successfully
+16:52:34 [ServerInfo] Custom Store offline restored successfully
+16:52:34 [Discord] Connection successfully
+16:52:35 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:52:54 [Obj][13000] AddClient (177.200.34.53)
+16:53:04 [Obj][13000] AddAccount (hellder)
+16:53:04 [Obj][13000] LogInCharacter (Saffe)
+16:55:33 [ServerInfo] Monster loaded successfully
+16:55:36 [ServerInfo] Shop loaded successfully
+16:55:40 [ServerInfo] Map loaded successfully
+16:55:42 [ServerInfo] CashShop loaded successfully
+16:55:42 [ServerInfo] ChaosMix loaded successfully
+16:55:42 [ServerInfo] Character loaded successfully
+16:55:42 [ServerInfo] Command loaded successfully
+16:55:43 [ServerInfo] Common loaded successfully
+16:55:43 [FakeOnline] Loaded successfully
+16:55:43 [ServerInfo] Custom loaded successfully
+16:55:43 [ServerInfo] Discord loaded successfully
+16:55:43 [ServerInfo] Effect loaded successfully
+16:55:43 [ServerInfo] Event loaded successfully
+16:55:43 [ServerInfo] EventItemBag loaded successfully
+16:55:43 [ServerInfo] Hack loaded successfully
+16:55:43 [ServerInfo] Message loaded successfully
+16:55:43 [ServerInfo] Map loaded successfully
+16:55:43 [ServerInfo] Message loaded successfully
+16:55:43 [ServerInfo] Monster loaded successfully
+16:55:43 [ServerInfo] Move loaded successfully
+16:55:43 [ServerInfo] Quest loaded successfully
+16:55:43 [ServerInfo] Shop loaded successfully
+16:55:43 [ServerInfo] Skill loaded successfully
+16:55:43 [ServerInfo] Util loaded successfully
+16:55:43 [ReadBotInfo] BotSystem loaded successfully
+16:57:20 [FAKE ONLINE LOG] Start
+16:57:20 [ServerInfo] CashShop loaded successfully
+16:57:20 [ServerInfo] ChaosMix loaded successfully
+16:57:20 [ServerInfo] Character loaded successfully
+16:57:20 [FakeOnline] Loaded successfully
+16:57:20 [ServerInfo] Custom loaded successfully
+16:57:20 [ServerInfo] Command loaded successfully
+16:57:20 [ServerInfo] Common loaded successfully
+16:57:20 [ServerInfo] Discord loaded successfully
+16:57:20 [ServerInfo] Effect loaded successfully
+16:57:20 [ServerInfo] Event loaded successfully
+16:57:20 [ServerInfo] EventItemBag loaded successfully
+16:57:20 [ServerInfo] Hack loaded successfully
+16:57:20 [ServerInfo] Item loaded successfully
+16:57:20 [ServerInfo] Message loaded successfully
+16:57:20 [ServerInfo] Map loaded successfully
+16:57:20 [ServerInfo] Terrain loaded successfully
+16:57:20 [ServerInfo] Monster loaded successfully
+16:57:20 [ServerInfo] Move loaded successfully
+16:57:20 [ServerInfo] Quest loaded successfully
+16:57:20 [ServerInfo] Shop loaded successfully
+16:57:20 [ServerInfo] Skill loaded successfully
+16:57:20 [ServerInfo] Util loaded successfully
+16:57:20 [ReadBotInfo] BotSystem loaded successfully
+16:57:21 [ServerInfo] Custom Attack offline restored successfully
+16:57:21 [ServerInfo] Custom Store offline restored successfully
+16:57:21 [Discord] Connection successfully
+16:57:21 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:57:38 [Obj][13000] AddClient (177.200.34.53)
+16:57:48 [Obj][13000] AddAccount (hellder)
+16:57:49 [Obj][13000] LogInCharacter (Saffe)
+16:58:34 [ServerInfo] Monster loaded successfully
+16:58:35 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+17:00:13 [Obj][13000] LogOutCharacter (Saffe)
+17:00:16 [Obj][13000] LogInCharacter (Saffe)
+17:05:07 [ServerInfo] Monster loaded successfully
+17:05:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+17:05:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:05:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+17:05:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+17:05:16 [ServerInfo] Monster loaded successfully
+17:05:16 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:05:16 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+17:05:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 59, Y: 7)
+17:05:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+17:05:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+17:05:23 [FakeOnline] Loaded successfully
+17:05:23 [ServerInfo] Custom loaded successfully
+17:05:26 [ServerInfo] Map loaded successfully
+17:05:29 [ServerInfo] Monster loaded successfully
+17:05:29 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 190, Y: 143)
+17:05:29 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:05:29 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+17:05:29 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+17:06:51 [FakeOnline] Loaded successfully
+17:06:51 [ServerInfo] Custom loaded successfully
+17:06:53 [ServerInfo] Quest loaded successfully
+17:07:14 [FAKE ONLINE LOG] Start
+17:07:14 [ServerInfo] CashShop loaded successfully
+17:07:14 [ServerInfo] ChaosMix loaded successfully
+17:07:14 [ServerInfo] Character loaded successfully
+17:07:14 [FakeOnline] Loaded successfully
+17:07:14 [ServerInfo] Custom loaded successfully
+17:07:14 [ServerInfo] Command loaded successfully
+17:07:14 [ServerInfo] Common loaded successfully
+17:07:14 [ServerInfo] Discord loaded successfully
+17:07:14 [ServerInfo] Effect loaded successfully
+17:07:14 [ServerInfo] Event loaded successfully
+17:07:15 [ServerInfo] EventItemBag loaded successfully
+17:07:15 [ServerInfo] Hack loaded successfully
+17:07:15 [ServerInfo] Item loaded successfully
+17:07:15 [ServerInfo] Message loaded successfully
+17:07:15 [ServerInfo] Map loaded successfully
+17:07:15 [ServerInfo] Terrain loaded successfully
+17:07:15 [ServerInfo] Monster loaded successfully
+17:07:15 [ServerInfo] Move loaded successfully
+17:07:15 [ServerInfo] Quest loaded successfully
+17:07:15 [ServerInfo] Shop loaded successfully
+17:07:15 [ServerInfo] Skill loaded successfully
+17:07:15 [ServerInfo] Util loaded successfully
+17:07:15 [ReadBotInfo] BotSystem loaded successfully
+17:07:15 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 198, Y: 114)
+17:07:15 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:07:16 [ServerInfo] Custom Attack offline restored successfully
+17:07:16 [ServerInfo] Custom Store offline restored successfully
+17:07:16 [Discord] Connection successfully
+17:07:16 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:07:35 [Obj][13000] AddClient (177.200.34.53)
+17:07:45 [Obj][13000] AddAccount (hellder)
+17:07:45 [Obj][13000] LogInCharacter (Saffe)
+17:09:59 [FakeOnline] Loaded successfully
+17:09:59 [ServerInfo] Custom loaded successfully
+17:10:02 [ServerInfo] Monster loaded successfully
+17:10:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:12:27 [Obj][13000] LogOutCharacter (Saffe)
+17:12:34 [Obj][13000] LogInCharacter (Carabina)
+17:12:42 [Obj][13000] LogOutCharacter (Carabina)
+17:12:45 [Obj][13000] LogInCharacter (Saffe)
+17:13:01 [ServerInfo] Quest loaded successfully
+17:13:07 [ServerInfo] Shop loaded successfully
+17:13:09 [ServerInfo] Map loaded successfully
+17:13:12 [ServerInfo] CashShop loaded successfully
+17:13:12 [ServerInfo] ChaosMix loaded successfully
+17:13:12 [ServerInfo] Character loaded successfully
+17:13:12 [ServerInfo] Command loaded successfully
+17:13:12 [ServerInfo] Common loaded successfully
+17:13:12 [FakeOnline] Loaded successfully
+17:13:12 [ServerInfo] Custom loaded successfully
+17:13:12 [ServerInfo] Discord loaded successfully
+17:13:12 [ServerInfo] Effect loaded successfully
+17:13:12 [ServerInfo] Event loaded successfully
+17:13:12 [ServerInfo] EventItemBag loaded successfully
+17:13:12 [ServerInfo] Hack loaded successfully
+17:13:12 [ServerInfo] Message loaded successfully
+17:13:12 [ServerInfo] Map loaded successfully
+17:13:12 [ServerInfo] Message loaded successfully
+17:13:12 [ServerInfo] Monster loaded successfully
+17:13:12 [ServerInfo] Move loaded successfully
+17:13:12 [ServerInfo] Quest loaded successfully
+17:13:12 [ServerInfo] Shop loaded successfully
+17:13:12 [ServerInfo] Skill loaded successfully
+17:13:12 [ServerInfo] Util loaded successfully
+17:13:12 [ReadBotInfo] BotSystem loaded successfully
+17:13:29 [Obj][13000] LogOutCharacter (Saffe)
+17:13:29 [Obj][13000] DelAccount (hellder)
+17:13:29 [Obj][13000] DelClient (177.200.34.53)
+17:13:31 [Obj][13001] AddClient (177.200.34.53)
+17:13:33 [Obj][13001] AddAccount (videodv)
+17:13:36 [Obj][13001] LogInCharacter (AdmSaffe)
+17:18:17 [FakeOnline] Loaded successfully
+17:18:17 [ServerInfo] Custom loaded successfully
+17:18:20 [ServerInfo] Monster loaded successfully
+17:18:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:18:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 59, Y: 7)
+17:18:30 [Obj][13001] LogOutCharacter (AdmSaffe)
+17:18:31 [Obj][13001] LogInCharacter (AdmSaffe)
+17:23:53 [ServerInfo] Monster loaded successfully
+17:23:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+17:23:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:23:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+17:23:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+17:24:00 [FakeOnline] Loaded successfully
+17:24:00 [ServerInfo] Custom loaded successfully
+17:26:19 [ServerInfo] Monster loaded successfully
+17:26:19 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:26:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+17:27:14 [ServerInfo] Monster loaded successfully
+17:27:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:27:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+17:27:15 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 60, Y: 7)
+17:27:15 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+17:28:21 [ServerInfo] Monster loaded successfully
+17:28:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 199, Y: 114)
+17:28:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+17:28:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:28:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+17:28:34 [ServerInfo] Monster loaded successfully
+17:28:35 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:28:35 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+17:28:49 [ServerInfo] Monster loaded successfully
+17:28:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 199, Y: 114)
+17:28:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:28:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+17:29:10 [ServerInfo] Monster loaded successfully
+17:29:10 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:29:11 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 68, Y: 7)
+17:29:29 [ServerInfo] Monster loaded successfully
+17:29:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:29:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 60, Y: 7)
+17:29:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+17:30:07 [ServerInfo] Monster loaded successfully
+17:30:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:30:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+17:30:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+17:30:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+17:30:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+17:30:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+17:32:49 [ServerInfo] Monster loaded successfully
+17:32:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+17:32:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:32:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+17:33:50 [ServerInfo] Monster loaded successfully
+17:33:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:33:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+17:33:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+17:34:33 [ServerInfo] Monster loaded successfully
+17:34:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 201, Y: 114)
+17:34:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 211, Y: 246)
+17:34:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:34:33 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+17:34:34 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+17:35:21 [ServerInfo] Monster loaded successfully
+17:35:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 211, Y: 246)
+17:35:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:35:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+17:35:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+17:36:22 [ServerInfo] Monster loaded successfully
+17:36:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:36:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 59, Y: 7)
+17:36:23 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 58, Y: 7)
+17:39:34 [ServerInfo] Monster loaded successfully
+17:39:34 [MonsterSetBase] Incorrect Monster Position: (Monster: 830, Map: 38, X: 126~126, Y: 181~98)
+17:39:42 [Obj][13001] LogOutCharacter (AdmSaffe)
+17:39:42 [Obj][13001] DelAccount (videodv)
+17:39:42 [Obj][13001] DelClient (177.200.34.53)
+17:47:10 [Obj][13000] AddClient (186.235.249.172)
+17:47:13 [Obj][13000] DelClient (186.235.249.172)
+18:30:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 757, Map: 87, X: 10~240, Y: 10~240)
+18:58:49 [Discord] Connecting to the server...
+18:58:59 [Discord] Connecting to the server...
+18:59:09 [Discord] Connecting to the server...
+18:59:18 [Discord] Server offline, reload discord to try again.
+19:04:18 [FakeOnline] Loaded successfully
+19:04:18 [ServerInfo] Custom loaded successfully
+19:04:20 [ServerInfo] Quest loaded successfully
+19:13:07 [Obj][13001] AddClient (80.94.95.221)
+19:13:07 [Obj][13001] DelClient (80.94.95.221)
+21:43:19 [ServerInfo] EventItemBag loaded successfully
+21:46:58 [ServerInfo] EventItemBag loaded successfully
+21:50:23 [ServerInfo] EventItemBag loaded successfully
+22:00:31 [ServerInfo] EventItemBag loaded successfully
+22:14:47 [ServerInfo] EventItemBag loaded successfully
+22:17:38 [ServerInfo] EventItemBag loaded successfully
+22:18:15 [ServerInfo] EventItemBag loaded successfully
+22:20:19 [ServerInfo] Item loaded successfully
+22:20:22 [ServerInfo] EventItemBag loaded successfully
+22:22:31 [ServerInfo] EventItemBag loaded successfully
+22:23:06 [ServerInfo] EventItemBag loaded successfully
+22:36:46 [Obj][13000] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2020 Name: Cavaleiro)
+22:36:46 [Obj][13001] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2021 Name: Taurus)
+22:36:46 [Obj][13002] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2023 Name: SEMPAI)
+22:36:46 [Obj][13003] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2024 Name: SKILL)
+22:36:46 [Obj][13004] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2025 Name: ONLINE)
+22:36:46 [Obj][13005] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2026 Name: DOIDO)
+22:36:46 [Obj][13006] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2027 Name: MALUCO)
+22:36:46 [Obj][13007] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2028 Name: TIMAO)
+22:36:46 [Obj][13008] AddClient (127.0.0.1)
+22:36:46 [FakeOnline] Connecting account (Account: 2029 Name: BRUNO)
+22:37:17 [Obj][13000] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13000][][][127.0.0.1]
+22:37:17 [Obj][13001] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13001][][][127.0.0.1]
+22:37:17 [Obj][13002] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13002][][][127.0.0.1]
+22:37:17 [Obj][13003] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13003][][][127.0.0.1]
+22:37:17 [Obj][13004] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13004][][][127.0.0.1]
+22:37:17 [Obj][13005] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13005][][][127.0.0.1]
+22:37:17 [Obj][13006] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13006][][][127.0.0.1]
+22:37:17 [Obj][13007] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13007][][][127.0.0.1]
+22:37:17 [Obj][13008] DelClient (127.0.0.1)
+22:37:17 Response error after connection causes conclusion [13008][][][127.0.0.1]

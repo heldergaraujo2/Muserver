@@ -1,0 +1,3 @@
+12:34:23 [SocketManager] Protocol header error (Index: 41, Header: 16)
+13:36:57 [SocketManager] Protocol header error (Index: 14, Header: 16)
+14:32:34 [SocketManager] WSAAccept() failed with error: 10061

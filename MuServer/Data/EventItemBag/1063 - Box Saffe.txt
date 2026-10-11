@@ -1,0 +1,58 @@
+//############################################################
+//# -- Dashboard - GamesWteam
+//# -- EventItemBagAdvanced
+//# -- www.gameswteam.com
+//# -- www.facebook.com/gameswteam
+//# -- © 2017 - 2026 GamesWteam Development
+//# ----------------------------------------------------------
+//# -- File Created by Dashboard GamesWteam.
+//# -- Date Created: 16/04/2026 08:01:20
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0	10000		0
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0	       5	8600	      0	      0		1	1	1	1	1	1	1
+0	       6	1000          0	      0		1	1	1	1	1	1	1
+0	       7	400 	      0	      0		1	1	1	1	1	1	1
+//0	       8	180      	  0	      0		1	1	1	1	1	1	1
+//0	       9	20      	  0	      0		1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+3818      0       0       0       0       0      0        0   0       0       0           // 
+4330      0       0       0       0       0      0        0   0       0       0           // 
+4842      0       0       0       0       0      0        0   0       0       0           // 
+5354      0       0       0       0       0      0        0   0       0       0           // 
+5866      0       0       0       0       0      0        0   0       0       0           // 
+3819      0       0       0       0       0      0        0   0       0       0           // 
+4331      0       0       0       0       0      0        0   0       0       0           // 
+4843      0       0       0       0       0      0        0   0       0       0           // 
+5355      0       0       0       0       0      0        0   0       0       0           // 
+5867      0       0       0       0       0      0        0   0       0       0           // 
+
+end
+
+6
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+143       0       0       0       0       0      0        0   0       0       0           // 
+144       0       0       0       0       0      0        0   0       0       0           // 
+527       0       0       0       0       0      0        0   0       0       0           // 
+1065      0       0       0       0       0      0        0   0       0       0           // 
+2159      0       0       0       0       0      0        0   0       0       0           // 
+2646      0       0       0       0       0      0        0   0       0       0           // 
+3121      0       0       0       0       0      0        0   0       0       0           // 
+
+end
+
+7
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+6473       0       0       0       0       0      0        0   0       0       0           // 
+6474       0       0       0       0       0      0        0   0       0       0           // 
+
+end

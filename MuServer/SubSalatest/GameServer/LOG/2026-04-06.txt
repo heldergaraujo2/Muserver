@@ -1,0 +1,238 @@
+12:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+13:27:14 [Discord] Connecting to the server...
+13:27:23 [Discord] Server offline, reload discord to try again.
+17:14:44 [FAKE ONLINE LOG] Start
+17:14:44 [ServerInfo] CashShop loaded successfully
+17:14:44 [ServerInfo] ChaosMix loaded successfully
+17:14:44 [ServerInfo] Character loaded successfully
+17:14:44 [FakeOnline] Loaded successfully
+17:14:44 [ServerInfo] Custom loaded successfully
+17:14:44 [ServerInfo] Command loaded successfully
+17:14:44 [ServerInfo] Common loaded successfully
+17:14:44 [ServerInfo] Discord loaded successfully
+17:14:44 [ServerInfo] Effect loaded successfully
+17:14:44 [ServerInfo] Event loaded successfully
+17:14:44 [ServerInfo] EventItemBag loaded successfully
+17:14:44 [ServerInfo] Hack loaded successfully
+17:14:44 [ServerInfo] Item loaded successfully
+17:14:44 [ServerInfo] Message loaded successfully
+17:14:44 [ServerInfo] Map loaded successfully
+17:14:44 [ServerInfo] Terrain loaded successfully
+17:14:44 [ServerInfo] Monster loaded successfully
+17:14:44 [ServerInfo] Move loaded successfully
+17:14:44 [ServerInfo] Quest loaded successfully
+17:14:44 [ServerInfo] Shop loaded successfully
+17:14:44 [ServerInfo] Skill loaded successfully
+17:14:44 [ServerInfo] Util loaded successfully
+17:14:44 [ReadBotInfo] BotSystem loaded successfully
+17:14:44 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 165)
+17:14:45 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+17:14:45 [ServerInfo] Custom Attack offline restored successfully
+17:14:45 [ServerInfo] Custom Store offline restored successfully
+17:14:45 [Discord] Connection successfully
+17:14:45 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:14:58 [Obj][13000] AddClient (177.200.33.42)
+17:15:02 [Obj][13000] AddAccount (hellder)
+17:15:03 [Obj][13000] LogInCharacter (Saffe)
+17:35:27 [Obj][13000] LogOutCharacter (Saffe)
+17:35:27 [Obj][13000] DelAccount (hellder)
+17:35:27 [Obj][13000] DelClient (177.200.33.42)
+17:35:47 [Obj][13000] AddClient (177.200.33.42)
+17:35:49 [Obj][13000] AddAccount (hellder)
+17:35:51 [Obj][13000] LogInCharacter (Saffe)
+17:36:20 [ServerInfo] Item loaded successfully
+17:37:08 [ServerInfo] Item loaded successfully
+17:46:48 [Obj][13000] LogOutCharacter (Saffe)
+17:46:48 [Obj][13000] DelAccount (hellder)
+17:46:48 [Obj][13000] DelClient (177.200.33.42)
+18:05:45 [Obj][13000] AddClient (177.200.33.42)
+18:05:46 [Obj][13000] AddAccount (hellder)
+18:05:50 [Obj][13000] LogInCharacter (Saffe)
+18:06:45 [ServerInfo] EventItemBag loaded successfully
+18:08:52 [ServerInfo] EventItemBag loaded successfully
+18:09:44 [ServerInfo] EventItemBag loaded successfully
+18:10:24 [ServerInfo] EventItemBag loaded successfully
+18:13:48 [ServerInfo] EventItemBag loaded successfully
+18:16:21 [FAKE ONLINE LOG] Start
+18:16:21 [ServerInfo] CashShop loaded successfully
+18:16:21 [ServerInfo] ChaosMix loaded successfully
+18:16:22 [ServerInfo] Character loaded successfully
+18:16:22 [FakeOnline] Loaded successfully
+18:16:22 [ServerInfo] Custom loaded successfully
+18:16:22 [ServerInfo] Command loaded successfully
+18:16:22 [ServerInfo] Common loaded successfully
+18:16:22 [ServerInfo] Discord loaded successfully
+18:16:22 [ServerInfo] Effect loaded successfully
+18:16:22 [ServerInfo] Event loaded successfully
+18:16:22 [ServerInfo] EventItemBag loaded successfully
+18:16:22 [ServerInfo] Hack loaded successfully
+18:16:22 [ServerInfo] Item loaded successfully
+18:16:22 [ServerInfo] Message loaded successfully
+18:16:22 [ServerInfo] Map loaded successfully
+18:16:22 [ServerInfo] Terrain loaded successfully
+18:16:22 [ServerInfo] Monster loaded successfully
+18:16:22 [ServerInfo] Move loaded successfully
+18:16:22 [ServerInfo] Quest loaded successfully
+18:16:22 [ServerInfo] Shop loaded successfully
+18:16:22 [ServerInfo] Skill loaded successfully
+18:16:22 [ServerInfo] Util loaded successfully
+18:16:22 [ReadBotInfo] BotSystem loaded successfully
+18:16:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+18:16:22 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 58, Y: 7)
+18:16:22 [ServerInfo] Custom Attack offline restored successfully
+18:16:22 [ServerInfo] Custom Store offline restored successfully
+18:16:22 [Discord] Connection successfully
+18:16:22 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:16:44 [Obj][13000] AddClient (177.200.33.42)
+18:16:54 [Obj][13000] AddAccount (hellder)
+18:16:54 [Obj][13000] LogInCharacter (Saffe)
+18:26:43 [FAKE ONLINE LOG] Start
+18:26:43 [ServerInfo] CashShop loaded successfully
+18:26:43 [ServerInfo] ChaosMix loaded successfully
+18:26:43 [ServerInfo] Character loaded successfully
+18:26:44 [FakeOnline] Loaded successfully
+18:26:44 [ServerInfo] Custom loaded successfully
+18:26:44 [ServerInfo] Command loaded successfully
+18:26:44 [ServerInfo] Common loaded successfully
+18:26:44 [ServerInfo] Discord loaded successfully
+18:26:44 [ServerInfo] Effect loaded successfully
+18:26:44 [ServerInfo] Event loaded successfully
+18:27:15 [FAKE ONLINE LOG] Start
+18:27:16 [ServerInfo] CashShop loaded successfully
+18:27:16 [ServerInfo] ChaosMix loaded successfully
+18:27:16 [ServerInfo] Character loaded successfully
+18:27:16 [FakeOnline] Loaded successfully
+18:27:16 [ServerInfo] Custom loaded successfully
+18:27:16 [ServerInfo] Command loaded successfully
+18:27:16 [ServerInfo] Common loaded successfully
+18:27:16 [ServerInfo] Discord loaded successfully
+18:27:16 [ServerInfo] Effect loaded successfully
+18:27:16 [ServerInfo] Event loaded successfully
+18:30:20 [FAKE ONLINE LOG] Start
+18:30:20 [ServerInfo] CashShop loaded successfully
+18:30:20 [ServerInfo] ChaosMix loaded successfully
+18:30:20 [ServerInfo] Character loaded successfully
+18:30:20 [FakeOnline] Loaded successfully
+18:30:20 [ServerInfo] Custom loaded successfully
+18:30:20 [ServerInfo] Command loaded successfully
+18:30:20 [ServerInfo] Common loaded successfully
+18:30:20 [ServerInfo] Discord loaded successfully
+18:30:20 [ServerInfo] Effect loaded successfully
+18:30:20 [ServerInfo] Event loaded successfully
+18:31:11 [FAKE ONLINE LOG] Start
+18:31:11 [ServerInfo] CashShop loaded successfully
+18:31:11 [ServerInfo] ChaosMix loaded successfully
+18:31:11 [ServerInfo] Character loaded successfully
+18:31:11 [FakeOnline] Loaded successfully
+18:31:11 [ServerInfo] Custom loaded successfully
+18:31:11 [ServerInfo] Command loaded successfully
+18:31:11 [ServerInfo] Common loaded successfully
+18:31:11 [ServerInfo] Discord loaded successfully
+18:31:11 [ServerInfo] Effect loaded successfully
+18:31:11 [ServerInfo] Event loaded successfully
+18:31:11 [ServerInfo] EventItemBag loaded successfully
+18:31:11 [ServerInfo] Hack loaded successfully
+18:31:11 [ServerInfo] Item loaded successfully
+18:31:11 [ServerInfo] Message loaded successfully
+18:31:11 [ServerInfo] Map loaded successfully
+18:31:11 [ServerInfo] Terrain loaded successfully
+18:31:11 [ServerInfo] Monster loaded successfully
+18:31:11 [ServerInfo] Move loaded successfully
+18:31:11 [ServerInfo] Quest loaded successfully
+18:31:12 [ServerInfo] Shop loaded successfully
+18:31:12 [ServerInfo] Skill loaded successfully
+18:31:12 [ServerInfo] Util loaded successfully
+18:31:12 [ReadBotInfo] BotSystem loaded successfully
+18:31:12 [ServerInfo] Custom Attack offline restored successfully
+18:31:12 [ServerInfo] Custom Store offline restored successfully
+18:31:12 [Discord] Connection successfully
+18:31:12 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:31:38 [Obj][13000] AddClient (177.200.33.42)
+18:31:48 [Obj][13000] AddAccount (hellder)
+18:31:49 [Obj][13000] LogInCharacter (Saffe)
+18:33:03 [ServerInfo] EventItemBag loaded successfully
+18:35:01 [ServerInfo] EventItemBag loaded successfully
+18:35:35 [ServerInfo] EventItemBag loaded successfully
+18:36:38 [ServerInfo] EventItemBag loaded successfully
+18:41:31 [ServerInfo] EventItemBag loaded successfully
+18:50:11 [Obj][13000] LogOutCharacter (Saffe)
+18:50:11 [Obj][13000] DelAccount (hellder)
+18:50:11 [Obj][13000] DelClient (177.200.33.42)
+18:51:34 [Obj][13000] AddClient (177.200.33.42)
+18:51:36 [Obj][13000] AddAccount (hellder)
+18:51:37 [Obj][13000] LogInCharacter (Saffe)
+18:53:48 [ServerInfo] EventItemBag loaded successfully
+18:58:00 [ServerInfo] EventItemBag loaded successfully
+19:07:09 [Obj][13000] LogOutCharacter (Saffe)
+19:07:15 [Obj][13000] DelAccount (hellder)
+19:07:15 [Obj][13000] DelClient (177.200.33.42)
+19:09:07 [Obj][13000] AddClient (177.200.33.42)
+19:09:08 [Obj][13000] AddAccount (hellder)
+19:09:09 [Obj][13000] LogInCharacter (Saffe)
+19:10:34 [FakeOnline] Loaded successfully
+19:10:34 [ServerInfo] Custom loaded successfully
+19:26:23 [ServerInfo] EventItemBag loaded successfully
+19:26:31 [Obj][13000] LogOutCharacter (Saffe)
+19:26:33 [Obj][13000] LogInCharacter (Saffe)
+19:33:09 [Obj][13001] AddClient (143.0.7.239)
+19:33:10 [Obj][13001] DelClient (143.0.7.239)
+20:27:08 [ServerInfo] Character loaded successfully
+21:44:22 [Obj][13000] LogOutCharacter (Saffe)
+21:44:22 [Obj][13000] DelAccount (hellder)
+21:44:22 [Obj][13000] DelClient (177.200.33.42)
+22:25:09 [Obj][13001] AddClient (177.200.33.42)
+22:25:10 [Obj][13001] AddAccount (hellder)
+22:25:11 [Obj][13001] LogInCharacter (Saffe)
+22:25:22 [Obj][13001] LogOutCharacter (Saffe)
+22:25:28 [Obj][13001] LogInCharacter (qwqw)
+22:25:53 [Obj][13001] LogOutCharacter (qwqw)
+22:25:59 [Obj][13001] DelAccount (hellder)
+22:25:59 [Obj][13001] DelClient (177.200.33.42)
+22:30:42 [Obj][13000] AddClient (177.200.33.42)
+22:30:43 [Obj][13000] AddAccount (hellder)
+22:30:45 [Obj][13000] LogInCharacter (Saffe)
+22:31:05 [Obj][13000] LogOutCharacter (Saffe)
+22:31:05 [Obj][13000] DelAccount (hellder)
+22:31:05 [Obj][13000] DelClient (177.200.33.42)
+23:35:55 [Discord] Connecting to the server...
+23:36:05 [Discord] Connecting to the server...
+23:36:13 [Discord] Connecting to the server...
+23:36:22 [Discord] Server offline, reload discord to try again.
+23:40:58 [FakeOnline] Loaded successfully
+23:40:58 [ServerInfo] Custom loaded successfully
+23:50:01 [Obj][13001] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2020 Name: Cavaleiro)
+23:50:01 [Obj][13000] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2021 Name: Taurus)
+23:50:01 [Obj][13002] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2023 Name: SEMPAI)
+23:50:01 [Obj][13003] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2024 Name: SKILL)
+23:50:01 [Obj][13004] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2025 Name: ONLINE)
+23:50:01 [Obj][13005] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2026 Name: DOIDO)
+23:50:01 [Obj][13006] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2027 Name: MALUCO)
+23:50:01 [Obj][13007] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2028 Name: TIMAO)
+23:50:01 [Obj][13008] AddClient (127.0.0.1)
+23:50:01 [FakeOnline] Connecting account (Account: 2029 Name: BRUNO)
+23:50:31 [Obj][13000] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13000][][][127.0.0.1]
+23:50:31 [Obj][13001] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13001][][][127.0.0.1]
+23:50:31 [Obj][13002] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13002][][][127.0.0.1]
+23:50:31 [Obj][13003] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13003][][][127.0.0.1]
+23:50:31 [Obj][13004] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13004][][][127.0.0.1]
+23:50:31 [Obj][13005] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13005][][][127.0.0.1]
+23:50:31 [Obj][13006] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13006][][][127.0.0.1]
+23:50:31 [Obj][13007] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13007][][][127.0.0.1]
+23:50:31 [Obj][13008] DelClient (127.0.0.1)
+23:50:31 Response error after connection causes conclusion [13008][][][127.0.0.1]

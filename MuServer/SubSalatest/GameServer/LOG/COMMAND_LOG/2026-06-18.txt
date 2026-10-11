@@ -1,0 +1,15 @@
+00:03:14 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:11:00 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:17:08 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:21:30 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:25:48 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:31:56 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:48:01 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+00:52:17 [CommandSpot][hellder][Saffe] - (Monster: 860, Qtd: 5)
+18:50:38 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 20]
+18:52:25 [CommandMake][hellder][Saffe] Section: 0, Type: 22, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+18:53:45 [Command Clear Iventory] Use for:[hellder][Saffe]
+18:56:49 [CommandMake][hellder][Saffe] Section: 0, Type: 22, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+18:56:52 [CommandMake][hellder][Saffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 20]
+18:58:45 [Command Clear Iventory] Use for:[hellder][Saffe]
+18:59:18 [CommandMake][hellder][Saffe] Section: 0, Type: 118, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

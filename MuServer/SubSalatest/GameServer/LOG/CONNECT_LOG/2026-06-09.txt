@@ -1,0 +1,20 @@
+00:02:05 [SocketManager] Server started at port [55903]
+00:08:31 [SocketManager] Server started at port [55903]
+00:09:57 [SocketManager] Protocol size error (Index: 13000, Header: c2, Size: 8859, Head: 71)
+00:10:32 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:11:03 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:11:25 [SocketManager] Server started at port [55903]
+00:12:50 [SocketManager] Server started at port [55903]
+00:17:39 [SocketManager] Server started at port [55903]
+00:23:28 [SocketManager] Server started at port [55903]
+00:30:45 [SocketManager] Server started at port [55903]
+00:32:12 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:32:42 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:33:13 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:33:43 [SocketManager] Protocol header error (Index: 13000, Header: c0)
+00:34:12 [SocketManager] Server started at port [55903]
+00:36:31 [SocketManager] Server started at port [55903]
+17:36:47 [SocketManager] Server started at port [55903]
+17:37:07 [SocketManager] WSAAccept() failed with error: 10061
+17:38:59 [SocketManager] Server started at port [55903]
+17:39:22 [SocketManager] WSAAccept() failed with error: 10061

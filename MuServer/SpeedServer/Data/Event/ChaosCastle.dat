@@ -1,0 +1,69 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+5               1            10          4         
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+*        *       *     *     2      0        0
+*        *       *     *     6      0        0
+*        *       *     *     10     0        0
+*        *       *     *     14     0        0
+*        *       *     *     18     0        0
+*        *       *     *     22     0        0
+end
+
+2
+//Level   ExperienceTable1   ExperienceTable2
+0         1000               500
+1         1500               100
+2         2000               1500
+3         2500               2000
+4         3000               2500
+5         3500               3000
+6         4000               3500
+end
+
+//Reward 
+3
+//Level   	WC	HP	GP 
+0			25	0	300	
+1			25	0	300
+2			25	0	300
+3			25	0	300
+4			25	0	300
+5			25	0	300
+6			25	0	300
+end
+
+//CC enter level/reset/mreset(Change the type in the GameServerInfo - Event.dat)
+//Normal:  DW,DK,ELF,SU
+//Special: MG,DL,RF
+4
+//Level   NormalMin  NormalMax  SpecialMin SpecialMax
+0         10         49         10         29
+1         50         119        30         99
+2         120        179        100        159
+3         180        239        160        219
+4         240        299        220        279
+5         300        10000      280        10000
+end
+
+//CC Zen to enter
+5
+//Level   Zen
+0         25000
+1         80000
+2         150000
+3         400000
+4         650000
+5         1000000
+6         2000000
+end

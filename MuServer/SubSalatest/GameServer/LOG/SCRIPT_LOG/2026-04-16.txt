@@ -1,0 +1,444 @@
+08:04:28 [SCRIPT LOG] Start
+08:04:28 [Loader] Lua Gameserver socket ready!
+08:04:28 [Loader] Load success System\ScriptCore
+08:04:28 [Loader] Load success System\ProtocolCore
+08:04:28 [Loader] Load success Scripts\CalCharacter
+08:04:28 [Loader] Load success Utils\Database
+08:04:28 [Loader] Load success Utils\DatabaseAsync
+08:04:28 [Loader] Load success Utils\Cron
+08:04:28 [Loader] Load success Utils\Functions
+08:04:28 [Loader] Load success Utils\Schedule
+08:04:28 Connected to database
+08:04:28 Connected to Async database
+08:04:28 Teste query: ZZZZZZZZZZ
+08:04:28 [ServerInfo] Script loaded successfully
+21:54:02 [SCRIPT LOG] Start
+21:54:03 [Loader] Lua Gameserver socket ready!
+21:54:03 [Loader] Load success System\ScriptCore
+21:54:03 [Loader] Load success System\ProtocolCore
+21:54:03 [Loader] Load success Scripts\CalCharacter
+21:54:03 [Loader] Load success Utils\Database
+21:54:03 [Loader] Load success Utils\DatabaseAsync
+21:54:03 [Loader] Load success Utils\Cron
+21:54:03 [Loader] Load success Utils\Functions
+21:54:03 [Loader] Load success Utils\Schedule
+21:54:03 Connected to database
+21:54:03 Connected to Async database
+21:54:03 Teste query: ZZZZZZZZZZ
+21:54:03 [ServerInfo] Script loaded successfully
+22:32:50 [Loader] Lua Gameserver socket ready!
+22:32:50 [Loader] Load success System\ScriptCore
+22:32:50 [Loader] Load success System\ProtocolCore
+22:32:50 [Loader] Load success Scripts\CalCharacter
+22:32:50 [Loader] Load success Utils\Database
+22:32:50 [Loader] Load success Utils\DatabaseAsync
+22:32:50 [Loader] Load success Utils\Cron
+22:32:50 [Loader] Load success Utils\Functions
+22:32:50 [Loader] Load success Utils\Schedule
+22:32:50 Connected to database
+22:32:50 Connected to Async database
+22:32:50 Teste query: ZZZZZZZZZZ
+22:32:50 [ServerInfo] Script loaded successfully
+22:40:53 [Loader] Lua Gameserver socket ready!
+22:40:53 [Loader] Load success System\ScriptCore
+22:40:53 [Loader] Load success System\ProtocolCore
+22:40:53 [Loader] Load success Scripts\CalCharacter
+22:40:53 [Loader] Load success Utils\Database
+22:40:53 [Loader] Load success Utils\DatabaseAsync
+22:40:53 [Loader] Load success Utils\Cron
+22:40:53 [Loader] Load success Utils\Functions
+22:40:53 [Loader] Load success Utils\Schedule
+22:40:53 Connected to database
+22:40:53 Connected to Async database
+22:40:53 Teste query: ZZZZZZZZZZ
+22:40:53 [ServerInfo] Script loaded successfully
+22:48:17 [Loader] Lua Gameserver socket ready!
+22:48:17 [Loader] Load success System\ScriptCore
+22:48:17 [Loader] Load success System\ProtocolCore
+22:48:17 [Loader] Load success Scripts\CalCharacter
+22:48:17 [Loader] Load success Utils\Database
+22:48:17 [Loader] Load success Utils\DatabaseAsync
+22:48:17 [Loader] Load success Utils\Cron
+22:48:17 [Loader] Load success Utils\Functions
+22:48:17 [Loader] Load success Utils\Schedule
+22:48:17 Connected to database
+22:48:17 Connected to Async database
+22:48:17 Teste query: ZZZZZZZZZZ
+22:48:17 [ServerInfo] Script loaded successfully
+22:50:29 [Loader] Lua Gameserver socket ready!
+22:50:29 [Loader] Load success System\ScriptCore
+22:50:29 [Loader] Load success System\ProtocolCore
+22:50:29 [Loader] Load success Scripts\CalCharacter
+22:50:29 [Loader] Load success Utils\Database
+22:50:29 [Loader] Load success Utils\DatabaseAsync
+22:50:29 [Loader] Load success Utils\Cron
+22:50:29 [Loader] Load success Utils\Functions
+22:50:29 [Loader] Load success Utils\Schedule
+22:50:29 Connected to database
+22:50:29 Connected to Async database
+22:50:29 Teste query: ZZZZZZZZZZ
+22:50:29 [ServerInfo] Script loaded successfully
+22:53:44 [Loader] Lua Gameserver socket ready!
+22:53:44 [Loader] Load success System\ScriptCore
+22:53:44 [Loader] Load success System\ProtocolCore
+22:53:44 [Loader] Load success Scripts\CalCharacter
+22:53:44 [Loader] Load success Utils\Database
+22:53:44 [Loader] Load success Utils\DatabaseAsync
+22:53:44 [Loader] Load success Utils\Cron
+22:53:44 [Loader] Load success Utils\Functions
+22:53:44 [Loader] Load success Utils\Schedule
+22:53:44 Connected to database
+22:53:44 Connected to Async database
+22:53:44 Teste query: ZZZZZZZZZZ
+22:53:44 [ServerInfo] Script loaded successfully
+22:54:26 [Loader] Lua Gameserver socket ready!
+22:54:26 [Loader] Load success System\ScriptCore
+22:54:26 [Loader] Load success System\ProtocolCore
+22:54:26 [Loader] Load success Scripts\CalCharacter
+22:54:26 [Loader] Load success Utils\Database
+22:54:26 [Loader] Load success Utils\DatabaseAsync
+22:54:26 [Loader] Load success Utils\Cron
+22:54:26 [Loader] Load success Utils\Functions
+22:54:26 [Loader] Load success Utils\Schedule
+22:54:26 Connected to database
+22:54:26 Connected to Async database
+22:54:26 Teste query: ZZZZZZZZZZ
+22:54:26 [ServerInfo] Script loaded successfully
+22:56:38 [Loader] Lua Gameserver socket ready!
+22:56:38 [Loader] Load success System\ScriptCore
+22:56:38 [Loader] Load success System\ProtocolCore
+22:56:38 [Loader] Load success Scripts\CalCharacter
+22:56:38 [Loader] Load success Utils\Database
+22:56:38 [Loader] Load success Utils\DatabaseAsync
+22:56:38 [Loader] Load success Utils\Cron
+22:56:38 [Loader] Load success Utils\Functions
+22:56:38 [Loader] Load success Utils\Schedule
+22:56:38 Connected to database
+22:56:38 Connected to Async database
+22:56:38 Teste query: ZZZZZZZZZZ
+22:56:38 [ServerInfo] Script loaded successfully
+22:58:21 [Loader] Lua Gameserver socket ready!
+22:58:21 [Loader] Load success System\ScriptCore
+22:58:21 [Loader] Load success System\ProtocolCore
+22:58:21 [Loader] Load success Scripts\CalCharacter
+22:58:21 [Loader] Load success Utils\Database
+22:58:21 [Loader] Load success Utils\DatabaseAsync
+22:58:21 [Loader] Load success Utils\Cron
+22:58:21 [Loader] Load success Utils\Functions
+22:58:21 [Loader] Load success Utils\Schedule
+22:58:21 Connected to database
+22:58:21 Connected to Async database
+22:58:21 Teste query: ZZZZZZZZZZ
+22:58:21 [ServerInfo] Script loaded successfully
+22:58:23 [Loader] Lua Gameserver socket ready!
+22:58:23 [Loader] Load success System\ScriptCore
+22:58:23 [Loader] Load success System\ProtocolCore
+22:58:23 [Loader] Load success Scripts\CalCharacter
+22:58:23 [Loader] Load success Utils\Database
+22:58:23 [Loader] Load success Utils\DatabaseAsync
+22:58:23 [Loader] Load success Utils\Cron
+22:58:23 [Loader] Load success Utils\Functions
+22:58:23 [Loader] Load success Utils\Schedule
+22:58:23 Connected to database
+22:58:23 Connected to Async database
+22:58:23 Teste query: ZZZZZZZZZZ
+22:58:23 [ServerInfo] Script loaded successfully
+23:00:22 [Loader] Lua Gameserver socket ready!
+23:00:22 [Loader] Load success System\ScriptCore
+23:00:22 [Loader] Load success System\ProtocolCore
+23:00:22 [Loader] Load success Scripts\CalCharacter
+23:00:22 [Loader] Load success Utils\Database
+23:00:22 [Loader] Load success Utils\DatabaseAsync
+23:00:22 [Loader] Load success Utils\Cron
+23:00:22 [Loader] Load success Utils\Functions
+23:00:22 [Loader] Load success Utils\Schedule
+23:00:22 Connected to database
+23:00:22 Connected to Async database
+23:00:22 Teste query: ZZZZZZZZZZ
+23:00:22 [ServerInfo] Script loaded successfully
+23:01:21 [Loader] Lua Gameserver socket ready!
+23:01:21 [Loader] Load success System\ScriptCore
+23:01:21 [Loader] Load success System\ProtocolCore
+23:01:21 [Loader] Load success Scripts\CalCharacter
+23:01:21 [Loader] Load success Utils\Database
+23:01:21 [Loader] Load success Utils\DatabaseAsync
+23:01:21 [Loader] Load success Utils\Cron
+23:01:21 [Loader] Load success Utils\Functions
+23:01:21 [Loader] Load success Utils\Schedule
+23:01:21 Connected to database
+23:01:21 Connected to Async database
+23:01:21 Teste query: ZZZZZZZZZZ
+23:01:21 [ServerInfo] Script loaded successfully
+23:01:40 [Loader] Lua Gameserver socket ready!
+23:01:40 [Loader] Load success System\ScriptCore
+23:01:40 [Loader] Load success System\ProtocolCore
+23:01:40 [Loader] Load success Scripts\CalCharacter
+23:01:40 [Loader] Load success Utils\Database
+23:01:40 [Loader] Load success Utils\DatabaseAsync
+23:01:40 [Loader] Load success Utils\Cron
+23:01:40 [Loader] Load success Utils\Functions
+23:01:40 [Loader] Load success Utils\Schedule
+23:01:40 Connected to database
+23:01:40 Connected to Async database
+23:01:40 Teste query: ZZZZZZZZZZ
+23:01:40 [ServerInfo] Script loaded successfully
+23:01:41 [Loader] Lua Gameserver socket ready!
+23:01:41 [Loader] Load success System\ScriptCore
+23:01:41 [Loader] Load success System\ProtocolCore
+23:01:41 [Loader] Load success Scripts\CalCharacter
+23:01:41 [Loader] Load success Utils\Database
+23:01:41 [Loader] Load success Utils\DatabaseAsync
+23:01:41 [Loader] Load success Utils\Cron
+23:01:41 [Loader] Load success Utils\Functions
+23:01:41 [Loader] Load success Utils\Schedule
+23:01:41 Connected to database
+23:01:41 Connected to Async database
+23:01:41 Teste query: ZZZZZZZZZZ
+23:01:41 [ServerInfo] Script loaded successfully
+23:03:16 [Loader] Lua Gameserver socket ready!
+23:03:16 [Loader] Load success System\ScriptCore
+23:03:16 [Loader] Load success System\ProtocolCore
+23:03:16 [Loader] Load success Scripts\CalCharacter
+23:03:16 [Loader] Load success Utils\Database
+23:03:16 [Loader] Load success Utils\DatabaseAsync
+23:03:16 [Loader] Load success Utils\Cron
+23:03:16 [Loader] Load success Utils\Functions
+23:03:16 [Loader] Load success Utils\Schedule
+23:03:16 Connected to database
+23:03:16 Connected to Async database
+23:03:16 Teste query: ZZZZZZZZZZ
+23:03:16 [ServerInfo] Script loaded successfully
+23:03:18 [Loader] Lua Gameserver socket ready!
+23:03:18 [Loader] Load success System\ScriptCore
+23:03:18 [Loader] Load success System\ProtocolCore
+23:03:18 [Loader] Load success Scripts\CalCharacter
+23:03:18 [Loader] Load success Utils\Database
+23:03:18 [Loader] Load success Utils\DatabaseAsync
+23:03:18 [Loader] Load success Utils\Cron
+23:03:18 [Loader] Load success Utils\Functions
+23:03:18 [Loader] Load success Utils\Schedule
+23:03:18 Connected to database
+23:03:18 Connected to Async database
+23:03:18 Teste query: ZZZZZZZZZZ
+23:03:18 [ServerInfo] Script loaded successfully
+23:05:12 [Loader] Lua Gameserver socket ready!
+23:05:12 [Loader] Load success System\ScriptCore
+23:05:12 [Loader] Load success System\ProtocolCore
+23:05:12 [Loader] Load success Scripts\CalCharacter
+23:05:12 [Loader] Load success Utils\Database
+23:05:12 [Loader] Load success Utils\DatabaseAsync
+23:05:12 [Loader] Load success Utils\Cron
+23:05:12 [Loader] Load success Utils\Functions
+23:05:12 [Loader] Load success Utils\Schedule
+23:05:12 Connected to database
+23:05:12 Connected to Async database
+23:05:12 Teste query: ZZZZZZZZZZ
+23:05:12 [ServerInfo] Script loaded successfully
+23:06:59 [Loader] Lua Gameserver socket ready!
+23:06:59 [Loader] Load success System\ScriptCore
+23:06:59 [Loader] Load success System\ProtocolCore
+23:06:59 [Loader] Load success Scripts\CalCharacter
+23:06:59 [Loader] Load success Utils\Database
+23:06:59 [Loader] Load success Utils\DatabaseAsync
+23:06:59 [Loader] Load success Utils\Cron
+23:06:59 [Loader] Load success Utils\Functions
+23:06:59 [Loader] Load success Utils\Schedule
+23:06:59 Connected to database
+23:06:59 Connected to Async database
+23:06:59 Teste query: ZZZZZZZZZZ
+23:06:59 [ServerInfo] Script loaded successfully
+23:07:00 [Loader] Lua Gameserver socket ready!
+23:07:00 [Loader] Load success System\ScriptCore
+23:07:00 [Loader] Load success System\ProtocolCore
+23:07:00 [Loader] Load success Scripts\CalCharacter
+23:07:00 [Loader] Load success Utils\Database
+23:07:00 [Loader] Load success Utils\DatabaseAsync
+23:07:00 [Loader] Load success Utils\Cron
+23:07:00 [Loader] Load success Utils\Functions
+23:07:00 [Loader] Load success Utils\Schedule
+23:07:00 Connected to database
+23:07:00 Connected to Async database
+23:07:00 Teste query: ZZZZZZZZZZ
+23:07:00 [ServerInfo] Script loaded successfully
+23:11:55 [Loader] Lua Gameserver socket ready!
+23:11:55 [Loader] Load success System\ScriptCore
+23:11:55 [Loader] Load success System\ProtocolCore
+23:11:55 [Loader] Load success Scripts\CalCharacter
+23:11:55 [Loader] Load success Utils\Database
+23:11:55 [Loader] Load success Utils\DatabaseAsync
+23:11:55 [Loader] Load success Utils\Cron
+23:11:55 [Loader] Load success Utils\Functions
+23:11:55 [Loader] Load success Utils\Schedule
+23:11:55 Connected to database
+23:11:55 Connected to Async database
+23:11:55 Teste query: ZZZZZZZZZZ
+23:11:55 [ServerInfo] Script loaded successfully
+23:16:01 [Loader] Lua Gameserver socket ready!
+23:16:01 [Loader] Load success System\ScriptCore
+23:16:01 [Loader] Load success System\ProtocolCore
+23:16:01 [Loader] Load success Scripts\CalCharacter
+23:16:01 [Loader] Load success Utils\Database
+23:16:01 [Loader] Load success Utils\DatabaseAsync
+23:16:01 [Loader] Load success Utils\Cron
+23:16:01 [Loader] Load success Utils\Functions
+23:16:01 [Loader] Load success Utils\Schedule
+23:16:01 Connected to database
+23:16:01 Connected to Async database
+23:16:01 Teste query: ZZZZZZZZZZ
+23:16:01 [ServerInfo] Script loaded successfully
+23:17:54 [Loader] Lua Gameserver socket ready!
+23:17:54 [Loader] Load success System\ScriptCore
+23:17:54 [Loader] Load success System\ProtocolCore
+23:17:54 [Loader] Load success Scripts\CalCharacter
+23:17:54 [Loader] Load success Utils\Database
+23:17:54 [Loader] Load success Utils\DatabaseAsync
+23:17:54 [Loader] Load success Utils\Cron
+23:17:54 [Loader] Load success Utils\Functions
+23:17:54 [Loader] Load success Utils\Schedule
+23:17:54 Connected to database
+23:17:54 Connected to Async database
+23:17:54 Teste query: ZZZZZZZZZZ
+23:17:54 [ServerInfo] Script loaded successfully
+23:17:56 [Loader] Lua Gameserver socket ready!
+23:17:56 [Loader] Load success System\ScriptCore
+23:17:56 [Loader] Load success System\ProtocolCore
+23:17:56 [Loader] Load success Scripts\CalCharacter
+23:17:56 [Loader] Load success Utils\Database
+23:17:56 [Loader] Load success Utils\DatabaseAsync
+23:17:56 [Loader] Load success Utils\Cron
+23:17:56 [Loader] Load success Utils\Functions
+23:17:56 [Loader] Load success Utils\Schedule
+23:17:56 Connected to database
+23:17:56 Connected to Async database
+23:17:56 Teste query: ZZZZZZZZZZ
+23:17:56 [ServerInfo] Script loaded successfully
+23:21:35 [Loader] Lua Gameserver socket ready!
+23:21:35 [Loader] Load success System\ScriptCore
+23:21:35 [Loader] Load success System\ProtocolCore
+23:21:35 [Loader] Load success Scripts\CalCharacter
+23:21:35 [Loader] Load success Utils\Database
+23:21:35 [Loader] Load success Utils\DatabaseAsync
+23:21:35 [Loader] Load success Utils\Cron
+23:21:35 [Loader] Load success Utils\Functions
+23:21:35 [Loader] Load success Utils\Schedule
+23:21:35 Connected to database
+23:21:35 Connected to Async database
+23:21:35 Teste query: ZZZZZZZZZZ
+23:21:35 [ServerInfo] Script loaded successfully
+23:22:54 [Loader] Lua Gameserver socket ready!
+23:22:54 [Loader] Load success System\ScriptCore
+23:22:54 [Loader] Load success System\ProtocolCore
+23:22:54 [Loader] Load success Scripts\CalCharacter
+23:22:54 [Loader] Load success Utils\Database
+23:22:54 [Loader] Load success Utils\DatabaseAsync
+23:22:54 [Loader] Load success Utils\Cron
+23:22:54 [Loader] Load success Utils\Functions
+23:22:54 [Loader] Load success Utils\Schedule
+23:22:54 Connected to database
+23:22:54 Connected to Async database
+23:22:54 Teste query: ZZZZZZZZZZ
+23:22:54 [ServerInfo] Script loaded successfully
+23:23:58 [Loader] Lua Gameserver socket ready!
+23:23:58 [Loader] Load success System\ScriptCore
+23:23:58 [Loader] Load success System\ProtocolCore
+23:23:58 [Loader] Load success Scripts\CalCharacter
+23:23:58 [Loader] Load success Utils\Database
+23:23:58 [Loader] Load success Utils\DatabaseAsync
+23:23:58 [Loader] Load success Utils\Cron
+23:23:58 [Loader] Load success Utils\Functions
+23:23:58 [Loader] Load success Utils\Schedule
+23:23:58 Connected to database
+23:23:58 Connected to Async database
+23:23:58 Teste query: ZZZZZZZZZZ
+23:23:58 [ServerInfo] Script loaded successfully
+23:24:15 [Loader] Lua Gameserver socket ready!
+23:24:15 [Loader] Load success System\ScriptCore
+23:24:15 [Loader] Load success System\ProtocolCore
+23:24:15 [Loader] Load success Scripts\CalCharacter
+23:24:15 [Loader] Load success Utils\Database
+23:24:15 [Loader] Load success Utils\DatabaseAsync
+23:24:15 [Loader] Load success Utils\Cron
+23:24:15 [Loader] Load success Utils\Functions
+23:24:15 [Loader] Load success Utils\Schedule
+23:24:15 Connected to database
+23:24:15 Connected to Async database
+23:24:15 Teste query: ZZZZZZZZZZ
+23:24:15 [ServerInfo] Script loaded successfully
+23:29:54 [Loader] Lua Gameserver socket ready!
+23:29:54 [Loader] Load success System\ScriptCore
+23:29:54 [Loader] Load success System\ProtocolCore
+23:29:54 [Loader] Load success Scripts\CalCharacter
+23:29:54 [Loader] Load success Utils\Database
+23:29:54 [Loader] Load success Utils\DatabaseAsync
+23:29:54 [Loader] Load success Utils\Cron
+23:29:54 [Loader] Load success Utils\Functions
+23:29:54 [Loader] Load success Utils\Schedule
+23:29:54 Connected to database
+23:29:54 Connected to Async database
+23:29:54 Teste query: ZZZZZZZZZZ
+23:29:54 [ServerInfo] Script loaded successfully
+23:31:48 [Loader] Lua Gameserver socket ready!
+23:31:48 [Loader] Load success System\ScriptCore
+23:31:48 [Loader] Load success System\ProtocolCore
+23:31:48 [Loader] Load success Scripts\CalCharacter
+23:31:48 [Loader] Load success Utils\Database
+23:31:48 [Loader] Load success Utils\DatabaseAsync
+23:31:48 [Loader] Load success Utils\Cron
+23:31:48 [Loader] Load success Utils\Functions
+23:31:48 [Loader] Load success Utils\Schedule
+23:31:48 Connected to database
+23:31:48 Connected to Async database
+23:31:48 Teste query: ZZZZZZZZZZ
+23:31:48 [ServerInfo] Script loaded successfully
+23:36:31 [Loader] Lua Gameserver socket ready!
+23:36:31 [Loader] Load success System\ScriptCore
+23:36:31 [Loader] Load success System\ProtocolCore
+23:36:31 [Loader] Load success Scripts\CalCharacter
+23:36:31 [Loader] Load success Utils\Database
+23:36:31 [Loader] Load success Utils\DatabaseAsync
+23:36:31 [Loader] Load success Utils\Cron
+23:36:31 [Loader] Load success Utils\Functions
+23:36:31 [Loader] Load success Utils\Schedule
+23:36:31 Connected to database
+23:36:31 Connected to Async database
+23:36:31 Teste query: ZZZZZZZZZZ
+23:36:31 [ServerInfo] Script loaded successfully
+23:36:32 [Loader] Lua Gameserver socket ready!
+23:36:32 [Loader] Load success System\ScriptCore
+23:36:32 [Loader] Load success System\ProtocolCore
+23:36:32 [Loader] Load success Scripts\CalCharacter
+23:36:32 [Loader] Load success Utils\Database
+23:36:32 [Loader] Load success Utils\DatabaseAsync
+23:36:32 [Loader] Load success Utils\Cron
+23:36:32 [Loader] Load success Utils\Functions
+23:36:32 [Loader] Load success Utils\Schedule
+23:36:32 Connected to database
+23:36:32 Connected to Async database
+23:36:32 Teste query: ZZZZZZZZZZ
+23:36:32 [ServerInfo] Script loaded successfully
+23:46:40 [Loader] Lua Gameserver socket ready!
+23:46:40 [Loader] Load success System\ScriptCore
+23:46:40 [Loader] Load success System\ProtocolCore
+23:46:40 [Loader] Load success Scripts\CalCharacter
+23:46:40 [Loader] Load success Utils\Database
+23:46:40 [Loader] Load success Utils\DatabaseAsync
+23:46:40 [Loader] Load success Utils\Cron
+23:46:40 [Loader] Load success Utils\Functions
+23:46:40 [Loader] Load success Utils\Schedule
+23:46:40 Connected to database
+23:46:40 Connected to Async database
+23:46:40 Teste query: ZZZZZZZZZZ
+23:46:40 [ServerInfo] Script loaded successfully
+23:53:28 [Loader] Lua Gameserver socket ready!
+23:53:28 [Loader] Load success System\ScriptCore
+23:53:28 [Loader] Load success System\ProtocolCore
+23:53:28 [Loader] Load success Scripts\CalCharacter
+23:53:28 [Loader] Load success Utils\Database
+23:53:28 [Loader] Load success Utils\DatabaseAsync
+23:53:28 [Loader] Load success Utils\Cron
+23:53:28 [Loader] Load success Utils\Functions
+23:53:28 [Loader] Load success Utils\Schedule
+23:53:28 Connected to database
+23:53:28 Connected to Async database
+23:53:28 Teste query: ZZZZZZZZZZ
+23:53:28 [ServerInfo] Script loaded successfully

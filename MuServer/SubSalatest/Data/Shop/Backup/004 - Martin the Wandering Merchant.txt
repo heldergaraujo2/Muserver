@@ -1,0 +1,47 @@
+0
+7	222	9	71	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Temple Guard Lord Helm
+7	26	9	85	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Adamantine Mask
+7	27	9	99	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Steel Mask
+7	28	9	107	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Master Mask
+8	222	9	71	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Temple Guard Lord Armor
+8	26	9	85	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Adamantine Armor
+8	27	9	99	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Steel Armor
+8	28	9	107	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Master Armor
+9	222	9	71	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Temple Guard Lord Pants
+9	26	9	85	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Adamantine Pants
+9	27	9	99	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Steel Pants
+9	28	9	107	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Master Pants
+10	222	9	71	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Temple Guard Lord Gloves
+10	26	9	85	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Adamantine Gloves
+10	27	9	99	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Steel Gloves
+10	28	9	107	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Master Gloves
+11	222	9	71	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Temple Guard Lord Boots
+11	26	9	85	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Adamantine Boots
+11	27	9	99	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Steel Boots
+11	28	9	107	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Dark Master Boots
+12     21     0     255     0     0     0     8     0  	0	0	255	255	255	255	255      255          0 //FireBrust Spell
+12     23     0     255     0     0     0     8     0  	0	0	255	255	255	255	255      255          0 //Critical Damage Spell
+12     24     0     255     0     0     0     8     0  	0	0	255	255	255	255	255      255          0  //Electric Spark Spell
+12     22     0     255     0     0     0     8     0  	0	0	255	255	255	255	255      255          0  //Summon Spell
+12     35     0     255     0     0     0     8     0  	0	0	255	255	255	255	255      255          0   //Scroll of Fire Scream
+12     48     0     255     0       0   0     8     0  	0	0	255	255	255	255	255      255          0  //Scroll Of Birds
+13    302     9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Fire Divine Spirit"
+13    303     9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Ice Divine Spirit"
+13    304     9     255     1     1     1     8     0  	0	0	255	255	255	255	255      255          0 //"Holy Divine Spirit"
+13	  200     0	     0	0	1	  1	    0	  0	    0	0	255	255	255	255	255	255	     0	        //"Ghost Horse"
+13	  301     0	     0	0	1	  1	    0	  0	    0	0	255	255	255	255	255	255	     0	        //"Divine Horse"
+end
+
+1
+//Section   Type   Level   Dur   Skill   Luck   Option   Excellent 
+2     10      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //Great Lord 
+2     12      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //Great Lord Scepter
+2     13      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Divine Scepter of Archangel" 
+2     14      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Soleil Sceptor"
+2     19      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Thunderbolt" 
+2     26      9     255     1     1     1     32    0  	0	0	255	255	255	255	255      255          0 //"Darkangel Scepter"
+2     34      9     255     1     1     1     8    0  	0	0	255	255	255	255	255      255          0 //"Lightning Scepter"
+
+
+end
+

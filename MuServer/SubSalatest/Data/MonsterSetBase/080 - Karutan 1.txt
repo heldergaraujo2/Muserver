@@ -1,0 +1,70 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// [NPCS] KARUTAN
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+577            80             00         121            102            03             //Leina the General Goods Merchan
+578            80             00         118            127            03             //Weapons Merchant Bolo
+240            80             00         123            132            02             //Safety Guardian
+240            80             00         122            096            03             //Safety Guardian
+240            80             00         157            127            01             //Safety Guardian
+end
+
+//=========================================================================================================================================
+// [QUESTS] CIDADES HUNTS MOBS
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+600            80             00        119             122            03             //QUEST KARUTAN
+end
+
+//=========================================================================================================================================
+// [SPOTS] KARUTAN
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+569            80             03         129            064            133          063          -1             10             //Venomous Chain Scorpion
+569            80             03         120            043            122          048          -1             10             //Venomous Chain Scorpion
+569            80             03         161            045            163          048          -1             10            //Venomous Chain Scorpion
+569            80             03         176            035            179          037          -1             10             //Venomous Chain Scorpion
+569            80             03         209            017            214          020          -1             10             //Venomous Chain Scorpion
+569            80             03         212            045            216          042          -1             10             //Venomous Chain Scorpion
+570            80             03         198            055            197          060          -1             10             //Venomous Chain Scorpion
+570            80             03         184            074            180          080          -1             10             //Venomous Chain Scorpion
+570            80             03         164            104            163          097          -1             10             //Venomous Chain Scorpion
+570            80             03         215            087            213          091          -1             10             //Venomous Chain Scorpion
+570            80             03         228            093            229          098          -1             10             //Venomous Chain Scorpion
+570            80             03         228            114            221          110          -1             10             //Venomous Chain Scorpion
+570            80             3         181            121            182          117          -1             10            //Venomous Chain Scorpion
+571            80             3         221            153            226          157          -1             10             //Venomous Chain Scorpion
+571            80             3         130            160            130          160          -1             10             //Venomous Chain Scorpion
+571            80             3         133            160            133          160          -1             10             //Venomous Chain Scorpion
+571            80             3         226            177            221          172          -1             10            //Venomous Chain Scorpion
+571            80             3         216            192            210          192          -1             10             //Venomous Chain Scorpion
+571            80             3         193            174            195          180          -1             10             //Venomous Chain Scorpion
+571            80             3         174            164            174          157          -1             10             //Venomous Chain Scorpion
+571            80             3         161            181            156          177          -1             10             //Venomous Chain Scorpion
+571            80             3         145            148            142          153          -1             10             //Venomous Chain Scorpion
+571            80             3         106            198            101          191          -1             10            //Venomous Chain Scorpion
+571            80             3         091            162            098          167          -1             10            //Venomous Chain Scorpion
+573            80             3         037            185            041          180          -1             10             //Venomous Chain Scorpion
+573            80             3         046            160            051          158          -1             10             //Venomous Chain Scorpion
+573            80             3         028            138            027          146          -1             10             //Venomous Chain Scorpion
+573            80             3         047            107            041          104          -1             10             //Venomous Chain Scorpion
+573            80             3         120            170            120          170          -1             10             //Venomous Chain Scorpion
+573            80             3         120            170            120          170          -1             10             //Venomous Chain Scorpion
+574            80             3         033            094            036          087          -1             10             //Venomous Chain Scorpion
+574            80             3         029            064            035          066          -1             10             //Venomous Chain Scorpion
+574            80             3         052            059            045          059          -1             10             //Venomous Chain Scorpion
+574            80             3         096            073            089          069          -1             10             //Venomous Chain Scorpion
+574            80             3         061            121            065          127          -1             10             //Venomous Chain Scorpion
+574            80             3         092            110            100          111          -1             10            //Venomous Chain Scorpion
+574            80             3         105            127            096          125          -1             10             //Venomous Chain Scorpion
+end

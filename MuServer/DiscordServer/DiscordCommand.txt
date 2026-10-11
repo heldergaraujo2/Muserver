@@ -1,0 +1,36 @@
+///////////////////////////////////////////////////////////////
+// Command Type
+//  0: Online count
+//
+// Color:
+//  0: ini
+//  1: yaml
+//  2: prolog
+//  3: md
+//  4: fix
+//  5: tex
+//  6: arm
+//  7: diff
+//  8: css
+//  9: autohotkey
+// 10: gray
+// 11: special
+//
+// Query Argument Type
+//  0: None
+//  1: Integer
+//  2: String 
+//
+// Reply Argument Type
+//  0: None
+//  1: Integer
+//  2: String 
+//
+//////////////////////////////////////////////////////////////
+// #Index   #Color   #Command     #Description                                         #QArgument1   #QArgument2   #QArgument3   #QArgument4  #Query                                                                          							#RArgument1  #RArgument2  #RArgument3  #RArgument4  #Reply		            
+   0        2        "online"     "Verifica quantas pessoas tem online no servidor!"   0             0             0             0            "SELECT count(*) as value1 FROM MEMB_STAT where connectstat = 1"                							1            0            0            0            "Total online:# %d players!"
+   1        2        "resetcount" "Ver quantos resets tem um personagem!"              2             0             0             0            "SELECT name as value1, resetcount as value2 from character where name=?"       							2            1            0            0            "%s: %d reset(s)!"
+   2        2        "comandos"   "Ver comandos!"             			       0             0             0             0            "SELECT 1"                                                                      							0            0            0            0            "/online     - Ver quantos players tem online #/resetcount - Ver quantos resets tem um personagem"
+   3        2        "setreset"   "Define a quantidade de resets do personagem!"       1             2             0             0            "Update character set ResetCount=? where name = ?"                              							0            0            0            0            "Atualizado com sucesso!"
+   4        2        "infochar"   "Monster informações do personagem!"                 2             0             0             0            "SELECT name as value1, resetcount as value2, masterresetcount as value3, clevel as value4 from character where name=?"           2            1            1            1            "Personagem %s: # %d reset(s) # %d master reset(s) # %d level!"
+   5        2        "infoconta"  "Verifica total de contas do servidor!"              0             0             0             0            "SELECT count(*) as value1 FROM MEMB_INFO"                							                1            0            0            0            "Total de contas:# %d cadastradas!"

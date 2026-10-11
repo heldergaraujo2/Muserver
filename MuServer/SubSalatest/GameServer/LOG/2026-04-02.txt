@@ -1,0 +1,438 @@
+17:21:49 [FAKE ONLINE LOG] Start
+17:21:49 [ServerInfo] CashShop loaded successfully
+17:21:49 [ServerInfo] ChaosMix loaded successfully
+17:21:49 [ServerInfo] Character loaded successfully
+17:21:49 [FakeOnline] Loaded successfully
+17:21:49 [ServerInfo] Custom loaded successfully
+17:21:49 [ServerInfo] Command loaded successfully
+17:21:49 [ServerInfo] Common loaded successfully
+17:21:49 [ServerInfo] Discord loaded successfully
+17:21:49 [ServerInfo] Effect loaded successfully
+17:21:49 [ServerInfo] Event loaded successfully
+17:21:49 [ServerInfo] EventItemBag loaded successfully
+17:21:49 [ServerInfo] Hack loaded successfully
+17:21:49 [ServerInfo] Item loaded successfully
+17:21:49 [ServerInfo] Message loaded successfully
+17:21:49 [ServerInfo] Map loaded successfully
+17:21:49 [ServerInfo] Terrain loaded successfully
+17:21:49 [ServerInfo] Monster loaded successfully
+17:21:49 [ServerInfo] Move loaded successfully
+17:21:49 [ServerInfo] Quest loaded successfully
+17:21:49 [ServerInfo] Shop loaded successfully
+17:21:49 [ServerInfo] Skill loaded successfully
+17:21:50 [ServerInfo] Util loaded successfully
+17:21:50 [ReadBotInfo] BotSystem loaded successfully
+17:21:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 60, Y: 7)
+17:21:50 [ServerInfo] Custom Attack offline restored successfully
+17:21:50 [ServerInfo] Custom Store offline restored successfully
+17:21:50 [Discord] Connection successfully
+17:22:08 [Obj][13000] AddClient (177.200.35.217)
+17:22:09 [Obj][13000] AddAccount (hellder)
+17:22:11 [Obj][13000] LogInCharacter (Saffe)
+17:32:19 [ServerInfo] Common loaded successfully
+17:37:13 [ServerInfo] Common loaded successfully
+17:37:14 [ServerInfo] Util loaded successfully
+17:38:53 [ServerInfo] Common loaded successfully
+17:39:20 [ServerInfo] Util loaded successfully
+17:40:53 [ServerInfo] Util loaded successfully
+17:41:17 [ServerInfo] Util loaded successfully
+17:43:55 [Obj][13001] AddClient (177.200.35.217)
+17:43:58 [Obj][13001] AddAccount (videodv)
+17:44:02 [Obj][13001] LogInCharacter (AdmSaffe)
+17:44:08 [Obj][13001] LogOutCharacter (AdmSaffe)
+17:44:08 [Obj][13001] DelAccount (videodv)
+17:44:08 [Obj][13001] DelClient (177.200.35.217)
+17:46:33 [Obj][13001] AddClient (177.200.35.217)
+17:46:34 [Obj][13001] AddAccount (videodv)
+17:46:35 [Obj][13001] LogInCharacter (AdmSaffe)
+17:49:47 [ServerInfo] Hack loaded successfully
+17:51:15 [Obj][13001] LogOutCharacter (AdmSaffe)
+17:51:15 [Obj][13001] DelAccount (videodv)
+17:51:15 [Obj][13001] DelClient (177.200.35.217)
+17:53:00 [FAKE ONLINE LOG] Start
+17:53:00 [ServerInfo] CashShop loaded successfully
+17:53:00 [ServerInfo] ChaosMix loaded successfully
+17:53:00 [ServerInfo] Character loaded successfully
+17:53:00 [FakeOnline] Loaded successfully
+17:53:00 [ServerInfo] Custom loaded successfully
+17:53:00 [ServerInfo] Command loaded successfully
+17:53:00 [ServerInfo] Common loaded successfully
+17:53:00 [ServerInfo] Discord loaded successfully
+17:53:00 [ServerInfo] Effect loaded successfully
+17:53:00 [ServerInfo] Event loaded successfully
+17:53:00 [ServerInfo] EventItemBag loaded successfully
+17:53:00 [ServerInfo] Hack loaded successfully
+17:53:00 [ServerInfo] Item loaded successfully
+17:53:00 [ServerInfo] Message loaded successfully
+17:53:00 [ServerInfo] Map loaded successfully
+17:53:00 [ServerInfo] Terrain loaded successfully
+17:53:00 [ServerInfo] Monster loaded successfully
+17:53:00 [ServerInfo] Move loaded successfully
+17:53:00 [ServerInfo] Quest loaded successfully
+17:53:00 [ServerInfo] Shop loaded successfully
+17:53:00 [ServerInfo] Skill loaded successfully
+17:53:00 [ServerInfo] Util loaded successfully
+17:53:00 [ReadBotInfo] BotSystem loaded successfully
+17:53:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+17:53:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 68, Y: 7)
+17:53:00 [ServerInfo] Custom Attack offline restored successfully
+17:53:00 [ServerInfo] Custom Store offline restored successfully
+17:53:00 [Discord] Connection successfully
+17:53:21 [Obj][13000] AddClient (177.200.35.217)
+17:53:31 [Obj][13000] AddAccount (hellder)
+17:53:31 [Obj][13000] LogInCharacter (Saffe)
+17:54:24 [Obj][13001] AddClient (177.200.35.217)
+17:54:25 [Obj][13001] AddAccount (videodv)
+17:54:34 [Obj][13001] LogInCharacter (AdmSaffe)
+17:55:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:55:19 Gameserver - ExperienceList.txt created!
+17:55:23 [ServerInfo] Util loaded successfully
+17:55:26 [ServerInfo] Monster loaded successfully
+17:55:26 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+17:55:28 [ServerInfo] CashShop loaded successfully
+17:55:28 [ServerInfo] ChaosMix loaded successfully
+17:55:28 [ServerInfo] Character loaded successfully
+17:55:28 [ServerInfo] Command loaded successfully
+17:55:28 [ServerInfo] Common loaded successfully
+17:55:28 [FakeOnline] Loaded successfully
+17:55:28 [ServerInfo] Custom loaded successfully
+17:55:28 [ServerInfo] Discord loaded successfully
+17:55:28 [ServerInfo] Effect loaded successfully
+17:55:28 [ServerInfo] Event loaded successfully
+17:55:28 [ServerInfo] EventItemBag loaded successfully
+17:55:28 [ServerInfo] Hack loaded successfully
+17:55:28 [ServerInfo] Message loaded successfully
+17:55:28 [ServerInfo] Map loaded successfully
+17:55:28 [ServerInfo] Message loaded successfully
+17:55:28 [ServerInfo] Monster loaded successfully
+17:55:28 [ServerInfo] Move loaded successfully
+17:55:28 [ServerInfo] Quest loaded successfully
+17:55:28 [ServerInfo] Shop loaded successfully
+17:55:28 [ServerInfo] Skill loaded successfully
+17:55:28 [ServerInfo] Util loaded successfully
+17:55:28 [ReadBotInfo] BotSystem loaded successfully
+17:55:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+17:56:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+17:56:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 4
+17:56:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 12
+17:56:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:56:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+17:56:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:57:20 [ServerInfo] Util loaded successfully
+17:57:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+17:57:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:57:32 Gameserver - ExperienceList.txt created!
+17:57:35 [ServerInfo] Util loaded successfully
+17:57:36 [ServerInfo] CashShop loaded successfully
+17:57:36 [ServerInfo] ChaosMix loaded successfully
+17:57:36 [ServerInfo] Character loaded successfully
+17:57:36 [ServerInfo] Command loaded successfully
+17:57:36 [ServerInfo] Common loaded successfully
+17:57:36 [FakeOnline] Loaded successfully
+17:57:36 [ServerInfo] Custom loaded successfully
+17:57:36 [ServerInfo] Discord loaded successfully
+17:57:36 [ServerInfo] Effect loaded successfully
+17:57:36 [ServerInfo] Event loaded successfully
+17:57:36 [ServerInfo] EventItemBag loaded successfully
+17:57:36 [ServerInfo] Hack loaded successfully
+17:57:36 [ServerInfo] Message loaded successfully
+17:57:36 [ServerInfo] Map loaded successfully
+17:57:36 [ServerInfo] Message loaded successfully
+17:57:36 [ServerInfo] Monster loaded successfully
+17:57:36 [ServerInfo] Move loaded successfully
+17:57:36 [ServerInfo] Quest loaded successfully
+17:57:36 [ServerInfo] Shop loaded successfully
+17:57:36 [ServerInfo] Skill loaded successfully
+17:57:36 [ServerInfo] Util loaded successfully
+17:57:36 [ReadBotInfo] BotSystem loaded successfully
+17:57:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+17:57:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:57:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:57:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:57:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:58:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 10
+17:58:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+17:58:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+17:58:18 [ServerInfo] Character loaded successfully
+17:58:21 [ServerInfo] Common loaded successfully
+17:58:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 12
+17:58:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:58:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 10
+17:58:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:58:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 11
+17:58:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 16
+17:58:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:58:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:24 [ServerInfo] Util loaded successfully
+17:59:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 10
+17:59:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+17:59:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+17:59:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+17:59:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+17:59:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:18 [ServerInfo] Util loaded successfully
+18:00:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:00:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:00:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:00:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+18:00:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:00:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+18:01:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:01:29 [ServerInfo] Util loaded successfully
+18:01:38 [ServerInfo] Util loaded successfully
+18:01:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+18:01:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:01:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:01:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:01:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 10
+18:02:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:02:33 [ServerInfo] Util loaded successfully
+18:02:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 2
+18:02:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:02:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:03:25 [ServerInfo] Util loaded successfully
+18:03:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 11
+18:03:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:03:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+18:03:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:03:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 14
+18:03:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:03:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 7
+18:04:15 [ServerInfo] Util loaded successfully
+18:04:20 Gameserver - ExperienceList.txt created!
+18:04:22 [ServerInfo] Util loaded successfully
+18:04:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+18:04:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:04:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 11
+18:04:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:09:41 [Obj][13000] LogOutCharacter (Saffe)
+18:09:41 [Obj][13000] DelAccount (hellder)
+18:09:41 [Obj][13000] DelClient (177.200.35.217)
+18:09:42 [Obj][13001] LogOutCharacter (AdmSaffe)
+18:09:42 [Obj][13001] DelAccount (videodv)
+18:09:42 [Obj][13001] DelClient (177.200.35.217)
+18:10:13 [Obj][13000] AddClient (177.200.35.217)
+18:10:14 [Obj][13000] AddAccount (videodv)
+18:10:15 [Obj][13000] LogInCharacter (AdmSaffe)
+18:10:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+18:10:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 11
+18:11:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 1
+18:11:53 [ServerInfo] Util loaded successfully
+18:11:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+18:11:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:11:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:12:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:12:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+18:12:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 9
+18:13:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 7
+18:13:52 [ServerInfo] Util loaded successfully
+18:13:56 [ServerInfo] Common loaded successfully
+18:14:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:14:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 11
+18:14:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:14:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 13
+18:18:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+18:18:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 8
+18:22:29 [ServerInfo] Common loaded successfully
+18:22:50 [ServerInfo] Util loaded successfully
+18:22:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 10
+18:22:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 2
+18:23:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+18:23:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:23:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+18:23:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:23:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:23:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:23:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:23:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 4
+18:23:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 4
+18:24:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 4
+18:24:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:24:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:24:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 5
+18:24:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+18:24:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 6
+18:24:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 3
+18:24:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 787 | Count: 7
+18:26:17 [ServerInfo] Util loaded successfully
+18:26:21 Gameserver - ExperienceList.txt created!
+18:27:09 [Obj][13001] AddClient (177.200.35.217)
+18:27:12 [Obj][13001] AddAccount (hellder)
+18:27:14 [Obj][13001] LogInCharacter (Saffe)
+18:27:41 [Obj][13001] LogOutCharacter (Saffe)
+18:27:43 [Obj][13001] LogInCharacter (Saffe)
+18:28:41 [Obj][13001] LogOutCharacter (Saffe)
+18:28:43 [Obj][13001] LogInCharacter (qwqw)
+18:29:06 [Obj][13001] LogOutCharacter (qwqw)
+18:29:08 [Obj][13001] LogInCharacter (Saffe)
+18:29:44 [Obj][13001] LogOutCharacter (Saffe)
+18:29:46 [Obj][13001] LogInCharacter (qwqw)
+18:30:10 [Obj][13001] LogOutCharacter (qwqw)
+18:30:13 [Obj][13001] LogInCharacter (Saffe)
+18:31:04 [Obj][13002] AddClient (52.67.110.115)
+18:31:06 [Obj][13002] DelClient (52.67.110.115)
+18:35:19 [ServerInfo] Util loaded successfully
+18:41:34 [Obj][13001] LogOutCharacter (Saffe)
+18:42:03 [Obj][13001] LogInCharacter (Saffe)
+18:43:00 [Obj][13001] LogOutCharacter (Saffe)
+18:43:14 [Obj][13001] LogInCharacter (qwqw)
+18:44:02 [Obj][13001] LogOutCharacter (qwqw)
+18:44:06 [Obj][13001] LogInCharacter (Saffe)
+18:45:37 [ServerInfo] Util loaded successfully
+18:45:59 [Obj][13001] LogOutCharacter (Saffe)
+18:46:03 [Obj][13001] LogInCharacter (Saffe)
+18:47:28 [Obj][13001] LogOutCharacter (Saffe)
+18:47:31 [Obj][13001] LogInCharacter (Saffe)
+18:52:43 [Obj][13000] LogOutCharacter (AdmSaffe)
+18:52:44 [Obj][13000] DelAccount (videodv)
+18:52:44 [Obj][13000] DelClient (177.200.35.217)
+18:52:50 [Obj][13001] LogOutCharacter (Saffe)
+18:52:50 [Obj][13001] DelAccount (hellder)
+18:52:50 [Obj][13001] DelClient (177.200.35.217)
+19:28:32 [Discord] Connecting to the server...
+19:28:41 [Discord] Connecting to the server...
+19:28:46 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+19:28:50 [Discord] Connection successfully
+19:29:03 [Discord] Connecting to the server...
+19:29:10 [Discord] Server offline, reload discord to try again.
+19:33:33 [ServerInfo] Character loaded successfully
+19:35:58 [Obj][13002] AddClient (179.224.29.232)
+19:36:00 [Obj][13002] DelClient (179.224.29.232)

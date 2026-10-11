@@ -1,0 +1,2 @@
+07:36:38 [SocketManager] Server started at port [55902]
+22:27:40 [SocketManager] WSASend() failed with error: 10054

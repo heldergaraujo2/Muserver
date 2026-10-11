@@ -1,0 +1,56 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Senior Mix"		1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+0	20	5	0	1	1	0	1	// Knight Blade
+0	21	5	0	1	1	0	1	// Dark Reign Blade
+3	12	5	0	1	1	0	1	// Magmus Peer
+4	20	5	0	1	1	0	1	// Arrow Viper Bow
+0	16	45	0	1	1	0	1	// Sword of Destruction
+0	31	45	0	1	1	0	1	// Rune Blade
+2	11	45	0	1	1	0	1	// Lord Scepter
+3	10	45	0	1	1	0	1	// Dragon Spear
+4	19	45	0	1	1	0	1	// Great Reign Crossbow
+5	6	45	0	1	1	0	1	// Staff of Resurrection
+5	9	45	0	1	1	0	1	// Dragon Soul Staff
+5	11	50	0	1	1	0	0	// Staff of Kundun
+0	20	50	0	1	1	0	0	// Knight Blade
+0	21	50	0	1	1	0	0	// Dark Reign Blade
+3	12	50	0	1	1	0	0	// Magmus Peer
+4	20	50	0	1	1	0	0	// Arrow Viper Bow
+7	21	45	0	0	1	0	1	// Great Dragon Helm
+8	21	45	0	0	1	0	1	// Great Dragon Armor
+9	21	45	0	0	1	0	1	// Great Dragon Pants
+10	21	45	0	0	1	0	1	// Great Dragon Gloves
+11	21	45	0	0	1	0	1	// Great Dragon Boots
+7	24	45	0	0	1	0	1	// Red Spirit Helm
+8	24	45	0	0	1	0	1	// Red Sprit Armor
+9	24	45	0	0	1	0	1	// Red Spirit Pants
+10	24	45	0	0	1	0	1	// Red Spirit Gloves
+11	24	45	0	0	1	0	1	// Red Spirit Boots
+7	22	45	0	0	1	0	1	// Dark Soul Helm
+8	22	45	0	0	1	0	1	// Dark Soul Armor
+9	22	45	0	0	1	0	1	// Dark Soul Pants
+10	22	45	0	0	1	0	1	// Dark Soul Gloves
+11	22	45	0	0	1	0	1	// Dark Soul Boots
+7	28	45	0	0	1	0	1	// Dark Master Mask
+8	28	45	0	0	1	0	1	// Dark Master Armor
+9	28	45	0	0	1	0	1	// Dark Master Pants
+10	28	45	0	0	1	0	1	// Dark Master Gloves
+11	28	45	0	0	1	0	1	// Dark Master Boots
+8	23	45	0	0	1	0	1	// Hurricane Armor
+9	23	45	0	0	1	0	1	// Hurricane Pants
+10	23	45	0	0	1	0	1	// Hurricane Gloves
+11	23	45	0	0	1	0	1	// Hurricane Boots
+8	21	50	0	0	1	0	0	// Great Dragon Armor
+8	24	50	0	0	1	0	0	// Red Sprit Armor
+8	22	50	0	0	1	0	0	// Dark Soul Armor
+8	28	50	0	0	1	0	0	// Dark Master Armor
+8	23	50	0	0	1	0	0	// Hurricane Armor
+end

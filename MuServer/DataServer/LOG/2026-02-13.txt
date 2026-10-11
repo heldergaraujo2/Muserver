@@ -1,0 +1,23 @@
+11:50:07 [SocketManager] WSAAccept() failed with error: 10061
+12:00:08 [SocketManager] WSAAccept() failed with error: 10061
+12:09:51 [SocketManager] WSAAccept() failed with error: 10061
+12:18:08 [SocketManager] WSAAccept() failed with error: 10061
+12:25:46 [SocketManager] WSAAccept() failed with error: 10061
+12:33:01 [SocketManager] WSAAccept() failed with error: 10061
+12:40:04 [SocketManager] WSAAccept() failed with error: 10061
+12:54:23 [SocketManager] WSAAccept() failed with error: 10061
+18:05:21 [SocketManager] Server started at port [55960]
+18:05:24 [ServerManager][0] AddServer (127.0.0.1)
+18:05:24 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+18:05:28 [ServerManager][1] AddServer (127.0.0.1)
+18:05:28 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:53:03 [SocketManager] Server started at port [55960]
+21:53:07 [ServerManager][0] AddServer (127.0.0.1)
+21:53:07 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:53:10 [ServerManager][1] AddServer (127.0.0.1)
+21:53:10 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:56:41 [SocketManager] Server started at port [55960]
+21:56:45 [ServerManager][0] AddServer (127.0.0.1)
+21:56:45 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:56:48 [ServerManager][1] AddServer (127.0.0.1)
+21:56:48 [ServerManager][1] ServerInfo (Geral) (55919) (19)

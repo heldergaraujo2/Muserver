@@ -1,0 +1,31 @@
+01:54:05 [SocketManager] Protocol header error (Index: 13003, Header: 35)
+01:54:05 [SocketManager] Protocol header error (Index: 13000, Header: 66)
+01:54:05 [SocketManager] Protocol header error (Index: 13015, Header: 72)
+01:54:06 [SocketManager] Protocol header error (Index: 13017, Header: 28)
+01:54:06 [SocketManager] Protocol header error (Index: 13002, Header: 27)
+01:54:07 [SocketManager] Protocol header error (Index: 13018, Header: 5b)
+01:54:07 [SocketManager] Protocol header error (Index: 13009, Header: 5e)
+01:54:08 [SocketManager] Protocol header error (Index: 13005, Header: 63)
+01:54:09 [SocketManager] Protocol header error (Index: 13014, Header: 23)
+05:05:33 [SocketManager] WSAAccept() failed with error: 10061
+06:11:35 [SocketManager] WSASend() failed with error: 10038
+06:11:35 [SocketManager] WSASend() failed with error: 10038
+06:11:35 [SocketManager] WSASend() failed with error: 10038
+06:11:35 [SocketManager] WSASend() failed with error: 10038
+06:12:43 [SocketManager] WSASend() failed with error: 10038
+06:12:43 [SocketManager] WSASend() failed with error: 10038
+06:12:43 [SocketManager] WSASend() failed with error: 10038
+06:12:43 [SocketManager] WSASend() failed with error: 10038
+06:14:08 [SocketManager] WSASend() failed with error: 10038
+06:14:08 [SocketManager] WSASend() failed with error: 10053
+06:14:08 [SocketManager] WSASend() failed with error: 10038
+06:14:08 [SocketManager] WSASend() failed with error: 10053
+06:23:09 [SocketManager] WSASend() failed with error: 10038
+06:23:09 [SocketManager] WSASend() failed with error: 10038
+06:23:09 [SocketManager] WSASend() failed with error: 10038
+06:24:39 [SocketManager] WSAAccept() failed with error: 10061
+06:25:21 [SocketManager] WSAAccept() failed with error: 10061
+06:29:17 [SocketManager] WSASend() failed with error: 10038
+06:29:17 [SocketManager] WSASend() failed with error: 10038
+06:29:17 [SocketManager] WSASend() failed with error: 10038
+06:31:09 [SocketManager] WSAAccept() failed with error: 10061

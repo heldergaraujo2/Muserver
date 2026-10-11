@@ -1,0 +1,116 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   MaxStack   CreateIndex   Comment
+2055      255        *             //Bolt
+2063      255        *             //Arrow
+6688      20         *             //Splinter of Armor
+6689      20         *             //Bless of Guardian
+6690      10         *             //Claw of Beast
+6288      5          6292          //Mithril Fragment
+6290      5          6293          //Elixir Fragment
+6801      5          6802          //Spirit Map Fragment
+6803      10         *             //Trophies of Battle
+7168      255        *             //Apple
+7169      255        *             //Small Healing Potion
+7170      255        *             //Healing Potion
+7171      255        *             //Large Healing Potion
+7172      255        *             //Small Mana Potion
+7173      255        *             //Mana Potion
+7174      255        *             //Large Mana Potion
+7175      255        *             //Siege Potion
+7176      255        *             //Antidote
+7189      255        *             //Rena
+7197      5          7196          //Symbol of Kundun
+7203      255        *             //Small SD Potion
+7204      255        *             //SD Potion
+7205      255        *             //Large SD Potion
+7206      255        *             //Small Complex Potion
+7207      255        *             //Complex Potion
+7208      255        *             //Large Complex Potion
+7214      3          *             //Jack O'Lantern Blessings
+7215      3          *             //Jack O'Lantern Wrath
+7216      3          *             //Jack O'Lantern Cry
+7217      3          *             //Jack O'Lantern Food
+7218      3          *             //Jack O'Lantern Drink
+7238      255        *             //Elite Healing Potion
+7239      255        *             //Elite Mana Potion
+7253      3          *             //Cherry Blossom Wine
+7254      3          *             //Cherry Blossom Rice Cake
+7255      3          *             //Cherry Blossom Flower Petal
+7256      10         *             //White Cherry Blossom Branch
+7257      30         *             //Red Cherry Blossom Branch
+7258      255        *             //Golden Cherry Blossom Branch
+7268      255        *             //Lucky Coin
+7269      5          7270          //Suspicious Scrap of Paper
+7278      5          7279          //Sign of Dimensions
+7301      50         *             //Elite SD Potion
+7383      24         7384          //Card Piece
+6159      255        *             //Jewel of Chaos
+7181      255        *             //Jewel of Bless
+7182      255        *             //Jewel of Soul
+7184      255        *             //Jewel of Life
+7190      255        *             //Jewel of Creation
+7199      255        *             //Jewel of Guardian
+7209      255        *             //Gemstone
+7210      255        *             //Jewel of Harmony
+7211      255        *             //Lower refining stone
+7212      255        *             //Higher refining stone
+7413      255        *             //Jewel of Skill
+7414      255        *             //Jewel of Luck
+7415      255        *             //Jewel of Adicional
+7416      255        *             //Jewel of Excellent
+7417      255        *             //Jewel of Socket
+7418      255        *             //Jewel of Ancient 1
+7419      255        *             //Jewel of Ancient 2
+7420      255        *             //Jewel of Full
+7421      255        *             //Jewel of Level
+7377      5          *             //Upgrade Note
+7572      255        *             //Greater Spirit Stone
+7575      255        *             //Golden Sentence
+7599      10         * 
+7179      255        * 
+7280      255        *
+7281      255        *
+7289      255        *
+7290      255        *   
+6176      255        *
+6177      255        *
+6178      255        *
+7179      255        *
+7231      255        *
+7200      255        *
+7201      255        *
+7202      255        *
+7213      255        *
+7179      255        *
+6722      255        *
+7325      255        *
+7326      255        *
+7327      255        *
+7338      255        *
+7339      255        *
+7340      255        *
+7423      255        *
+7425      255        *
+7426      255        *
+7427      255        *
+7428      255        *
+7429      255        *
+7340      255        *
+7270      255        *
+7599      255        *
+7605      255        *
+7590      10         *
+7433      5          *    
+7316      255        *    
+7312      255        *    
+7309      255        * 
+7264      255        * 
+7221      255        * 
+   
+end

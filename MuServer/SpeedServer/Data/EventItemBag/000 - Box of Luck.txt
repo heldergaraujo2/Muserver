@@ -1,0 +1,50 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2022 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Box of Luck"		1000000	10		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	1	3	9	0	1	1	0	// Dragon Helm
+8	1	3	9	0	1	1	0	// Dragon Armor
+9	1	3	9	0	1	1	0	// Dragon Pants
+10	1	3	9	0	1	1	0	// Dragon Gloves
+11	1	3	9	0	1	1	0	// Dragon Boots
+7	3	3	9	0	1	1	0	// Legendary Helm
+8	3	3	9	0	1	1	0	// Legendary Armor
+9	3	3	9	0	1	1	0	// Legendary Pants
+10	3	3	9	0	1	1	0	// Legendary Gloves
+11	3	3	9	0	1	1	0	// Legendary Boots
+7	14	3	9	0	1	1	0	// Guardian Helm
+8	14	3	9	0	1	1	0	// Guardian Armor
+9	14	3	9	0	1	1	0	// Guardian Pants
+10	14	3	9	0	1	1	0	// Guardian Gloves
+11	14	3	9	0	1	1	0	// Guardian Boots
+8	15	3	9	0	1	1	0	// Storm Crow Armor
+9	15	3	9	0	1	1	0	// Storm Crow Pants
+10	15	3	9	0	1	1	0	// Storm Crow Gloves
+11	15	3	9	0	1	1	0	// Storm Crow Boots
+7	26	3	9	0	1	1	0	// Adamantine Mask
+8	26	3	9	0	1	1	0	// Adamantine Armor
+9	26	3	9	0	1	1	0	// Adamantine Pants
+10	26	3	9	0	1	1	0	// Adamantine Gloves
+11	26	3	9	0	1	1	0	// Adamantine Boots
+7	59	3	9	0	1	1	0	// Sacred Helm
+8	59	3	9	0	1	1	0	// Sacred Armor
+9	59	3	9	0	1	1	0	// Sacred Pants
+0	32	3	9	0	1	1	0	// Sacred Glove
+11	59	3	9	0	1	1	0	// Sacred Boots
+7	40	3	9	0	1	1	0	// Red Wing Helm
+8	40	3	9	0	1	1	0	// Red Wing Armor
+9	40	3	9	0	1	1	0	// Red Wing Pants
+10	40	3	9	0	1	1	0	// Red Wing Gloves
+11	40	3	9	0	1	1	0	// Red Wing Boots
+end

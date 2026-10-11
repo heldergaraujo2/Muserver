@@ -1,0 +1,19 @@
+06:41:54 [SocketManager] Protocol header error (Index: 3, Header: 47)
+06:43:05 [SocketManager] Protocol header error (Index: 0, Header: 16)
+20:43:39 [ServerList] GameServer offline (GameServer) (0)
+20:43:52 [SocketManager] Server started at port [44406]
+20:43:52 [ServerList] ServerList loaded successfully
+20:43:55 [ServerList] JoinServer online
+20:44:02 [ServerList] GameServer online (GameServer) (0)
+20:44:08 [ServerList] GameServer online (GameServerCS) (19)
+23:26:50 [ServerList] GameServer offline (GameServer) (0)
+23:26:53 [SocketManager] Server started at port [44406]
+23:26:53 [ServerList] ServerList loaded successfully
+23:26:56 [ServerList] JoinServer online
+23:27:03 [ServerList] GameServer online (GameServer) (0)
+23:27:09 [ServerList] GameServer online (GameServerCS) (19)
+23:51:09 [SocketManager] Server started at port [44406]
+23:51:09 [ServerList] ServerList loaded successfully
+23:51:12 [ServerList] JoinServer online
+23:51:19 [ServerList] GameServer online (GameServer) (0)
+23:51:25 [ServerList] GameServer online (GameServerCS) (19)

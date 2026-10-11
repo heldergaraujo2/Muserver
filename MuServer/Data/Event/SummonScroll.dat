@@ -1,0 +1,66 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Index   ItemIndex   Comment
+0         7423        //Titan's Anger
+1         7424        //Tantalose's Punishment
+2         7425        //Erohim's Nightmare
+3         7426        //Hell Maine's Insanity
+4         7427        //Kundun's Greed
+5         7428        //Special Evomon
+6         7429        //Summon Scroll Lv1
+7         7430        //Summon Scroll Lv2
+8         7431        //Summon Scroll Lv3
+9         7432        //Summon Scroll Lv4
+end
+
+1
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+0         0       796            10000        0				//Golden Titan
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+1         0       797            10000        0				//Golden Tantalose
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+2         0       798            10000        0				//Golden Erohim
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+3         0       799            10000        0				//Golden Hell Maine
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+4         0       800            10000        0				//Golden Kundun
+4         1       797            10000        0				//Golden Tantalose
+4         2       797            10000        0				//Golden Tantalose
+4         3       797            10000        0				//Golden Tantalose
+4         4       797            10000        0				//Golden Tantalose
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+5         0       737            10000        0				//Special Evomon
+
+
+//Index   Group   MonsterClass   CreateRate   GlobalMessage   Comment
+6         0       801            10000        0				// Green Snake Lv1
+7         0       802            10000        0				// Yellow Snake Lv2
+8         0       803            10000        0				// Purple Snake Lv3
+9         0       804            10000        0				// Red Snake Lv4
+end
+
+// Map to use (Set -1 to all allow maps)
+2
+//Index   Map
+0         -1
+1         -1
+2         -1
+3         -1
+4         -1
+5         -1
+6         -1
+7         -1
+8         -1
+9         -1
+end

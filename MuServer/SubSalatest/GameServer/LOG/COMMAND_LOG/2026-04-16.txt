@@ -1,0 +1,207 @@
+07:34:07 [CommandMake][hellder][Saffe] Section: 12, Type: 325, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+07:38:49 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:05:22 [Command Clear Iventory] Use for:[hellder][Saffe]
+08:05:26 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:08:00 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+08:11:58 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+08:13:53 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 20000)
+08:16:42 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:18:45 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:19:54 [CommandSpot][hellder][Saffe] - (Monster: 413, Qtd: 1)
+08:21:27 [CommandSpot][hellder][Saffe] - (Monster: 413, Qtd: 1)
+08:23:34 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:31:58 [Command Clear Iventory] Use for:[hellder][Saffe]
+08:32:01 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:32:52 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:33:28 [Command Clear Iventory] Use for:[hellder][Saffe]
+08:34:06 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:34:11 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:34:32 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:34:37 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:34:40 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:34:46 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:36:02 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:36:06 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:36:29 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:38:12 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:42:13 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 4)
+08:42:17 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+08:43:47 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 324, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:44:13 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 323, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:51:17 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:54:03 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+08:54:05 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+08:57:38 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+08:57:51 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+09:03:50 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+09:03:52 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 11, Level: 8, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+11:17:10 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+11:18:27 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 4)
+11:18:39 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+11:25:17 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+11:25:19 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 4)
+11:27:33 [CustomMove][pvp02][PVPSUM] - (MoveIndex: 4)
+11:28:07 [CustomMove][pvp03][PVPELF01] - (MoveIndex: 1)
+11:28:11 [CustomMove][pvp03][PVPELF01] - (MoveIndex: 4)
+11:29:33 [CustomMove][pvp04][PVPRF01] - (MoveIndex: 4)
+11:30:00 [CustomMove][pvp01][PVPBK] - (MoveIndex: 4)
+11:44:50 [CustomMove][pvp04][PVPRF01] - (MoveIndex: 4)
+11:45:03 [CustomMove][hellder][Saffe] - (MoveIndex: 4)
+11:45:13 [CustomMove][pvp01][PVPBK] - (MoveIndex: 4)
+11:45:19 [CustomMove][pvp02][PVPSUM] - (MoveIndex: 4)
+11:45:23 [CustomMove][pvp03][PVPELF01] - (MoveIndex: 4)
+11:45:33 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 4)
+16:24:54 [Command Clear Iventory] Use for:[pvp01][PVPBK]
+16:25:14 [Command Clear Iventory] Use for:[pvp01][PVPBK]
+17:07:09 [Command Clear Iventory] Use for:[pvp02][PVPSUM]
+17:08:20 [CommandAddPoint][pvp02][PVPSUM] - (Type: 0, Amount: 5000)
+17:08:22 [CommandAddPoint][pvp02][PVPSUM] - (Type: 1, Amount: 5000)
+17:08:25 [CommandAddPoint][pvp02][PVPSUM] - (Type: 3, Amount: 5000)
+17:17:23 [Command Clear Iventory] Use for:[pvp02][PVPRF]
+17:17:58 [CommandAddPoint][pvp02][PVPRF] - (Type: 0, Amount: 5000)
+17:18:00 [CommandAddPoint][pvp02][PVPRF] - (Type: 1, Amount: 5000)
+17:18:02 [CommandAddPoint][pvp02][PVPRF] - (Type: 3, Amount: 5000)
+17:18:06 [CommandAddPoint][pvp02][PVPRF] - (Type: 2, Amount: 5000)
+17:20:38 [Command Clear Iventory] Use for:[pvp03][PVPSM01]
+17:20:42 [Command Clear Iventory] Use for:[pvp03][PVPSM01]
+17:22:34 [Command Clear Iventory] Use for:[pvp03][PVPELF01]
+17:24:28 [Command Clear Iventory] Use for:[pvp03][PVPMG01]
+17:26:04 [Command Clear Iventory] Use for:[pvp03][PVPDL01]
+17:27:22 [Command Clear Iventory] Use for:[pvp04][PVPSUM01]
+17:29:01 [Command Clear Iventory] Use for:[pvp04][PVPRF01]
+17:31:53 [Command Clear Iventory] Use for:[pvp01][PVPELF]
+17:32:59 [Command Clear Iventory] Use for:[pvp01][PVPMG]
+17:33:15 [CommandMoney][pvp01][PVPMG] - (Money: 999999999)
+17:34:12 [Command Clear Iventory] Use for:[pvp01][PVPDL]
+21:38:42 [CommandWare][pvp01][PVPSM] - (Number: 8)
+21:41:34 [CommandChange][pvp03][PVPSM01] - (ChangeUp: 2)
+21:42:02 [CustomMove][pvp03][PVPSM01] - (MoveIndex: 2)
+21:46:14 [CommandReAdd][pvp01][PVPSM] - OK
+21:46:16 [CommandReAdd][pvp03][PVPSM01] - OK
+21:46:19 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 85)
+21:46:24 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29900)
+21:46:25 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 29985)
+21:46:31 [CommandAddPoint][pvp03][PVPSM01] - (Type: 2, Amount: 10000)
+21:46:31 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 350)
+21:46:35 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 9000)
+21:46:42 [CommandAddPoint][pvp03][PVPSM01] - (Type: 0, Amount: 325)
+21:46:44 [CommandReAdd][pvp01][PVPSM] - OK
+21:46:47 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 85)
+21:46:50 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29900)
+21:46:51 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 981)
+21:46:56 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+21:47:01 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 10000)
+21:47:06 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 9964)
+21:50:50 [CommandReAdd][pvp03][PVPSM01] - OK
+21:50:57 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 985)
+21:51:15 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 10000)
+21:51:22 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 9000)
+21:51:29 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 10000)
+21:51:51 [CommandAddPoint][pvp03][PVPSM01] - (Type: 0, Amount: 325)
+21:51:58 [CommandAddPoint][pvp03][PVPSM01] - (Type: 0, Amount: 89)
+21:52:01 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 89)
+21:52:31 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 10000)
+21:52:43 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 9800)
+21:54:36 [CommandAddPoint][pvp03][PVPSM01] - (Type: 0, Amount: 325)
+21:54:36 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 85)
+21:54:37 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 89)
+21:54:38 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29900)
+21:54:41 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+21:54:43 [CommandAddPoint][pvp03][PVPSM01] - (Type: 2, Amount: 10000)
+21:54:46 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 10000)
+21:54:52 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 5000)
+21:54:54 [CommandAddPoint][pvp03][PVPSM01] - (Type: 3, Amount: 29985)
+21:55:11 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 2000)
+21:55:14 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 2964)
+21:55:27 [CommandAddPoint][pvp03][PVPSM01] - (Type: 1, Amount: 9892)
+22:02:03 [CustomMove][pvp03][PVPSM01] - (MoveIndex: 2)
+22:20:23 [CommandAddPoint][pvp03][PVPBK01] - (Type: 3, Amount: 85)
+22:20:39 [CommandAddPoint][pvp03][PVPBK01] - (Type: 0, Amount: 4208)
+22:22:00 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 90)
+22:22:16 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 72)
+22:22:21 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 900)
+22:22:29 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 8)
+22:22:35 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 9900)
+22:22:40 [CommandReAdd][pvp01][PVPBK] - OK
+22:22:48 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 18)
+22:22:50 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 9900)
+22:22:54 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 85)
+22:22:57 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 9900)
+22:23:00 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 85)
+22:23:04 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 85)
+22:23:08 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 9900)
+22:23:17 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 10000)
+22:23:30 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 9000)
+22:23:42 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 1000)
+22:23:45 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 320)
+22:28:41 [CommandReAdd][pvp03][PVPBK01] - OK
+22:28:52 [CommandAddPoint][pvp03][PVPBK01] - (Type: 2, Amount: 10000)
+22:28:54 [CommandAddPoint][pvp03][PVPBK01] - (Type: 3, Amount: 500)
+22:28:57 [CommandAddPoint][pvp03][PVPBK01] - (Type: 0, Amount: 10000)
+22:29:01 [CommandAddPoint][pvp03][PVPBK01] - (Type: 1, Amount: 20000)
+22:29:36 [CommandAddPoint][pvp03][PVPBK01] - (Type: 1, Amount: 9000)
+22:31:04 [CommandReAdd][pvp01][PVPBK] - OK
+22:31:06 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 10000)
+22:31:15 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 28985)
+22:31:20 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 300)
+22:31:25 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 10000)
+22:31:32 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 500)
+22:31:34 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 200)
+22:31:37 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 308)
+22:33:00 [CommandReAdd][pvp03][PVPBK01] - OK
+22:33:02 [CommandAddPoint][pvp03][PVPBK01] - (Type: 0, Amount: 20000)
+22:33:06 [CommandAddPoint][pvp03][PVPBK01] - (Type: 1, Amount: 10000)
+22:33:09 [CommandAddPoint][pvp03][PVPBK01] - (Type: 2, Amount: 10000)
+22:33:11 [CommandAddPoint][pvp03][PVPBK01] - (Type: 3, Amount: 500)
+22:34:04 [CommandAddPoint][pvp03][PVPBK01] - (Type: 1, Amount: 2000)
+22:34:08 [CommandAddPoint][pvp03][PVPBK01] - (Type: 0, Amount: 7793)
+22:43:02 [CommandReAdd][pvp01][PVPBK] - OK
+22:43:09 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 25000)
+22:43:12 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 15000)
+22:43:17 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 9000)
+22:43:26 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 485)
+22:43:29 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 808)
+22:55:03 [CustomMove][pvp01][PVPBK] - (MoveIndex: 2)
+23:08:14 [CommandReAdd][pvp01][PVPBK] - OK
+23:08:18 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 20000)
+23:08:20 [CommandAddPoint][pvp01][PVPBK] - (Type: 1, Amount: 15000)
+23:08:26 [CommandAddPoint][pvp01][PVPBK] - (Type: 3, Amount: 485)
+23:08:30 [CommandAddPoint][pvp01][PVPBK] - (Type: 2, Amount: 14800)
+23:08:34 [CommandAddPoint][pvp01][PVPBK] - (Type: 0, Amount: 8)
+23:16:33 [CommandReAdd][pvp01][PVPSM] - OK
+23:16:39 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 9985)
+23:16:44 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 10000)
+23:16:49 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29985)
+23:16:54 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 321)
+23:16:57 [CommandReAdd][pvp01][PVPSM] - OK
+23:17:01 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+23:17:09 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 10000)
+23:17:14 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 10000)
+23:17:17 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29949)
+23:42:37 [CommandReAdd][pvp01][PVPSM] - OK
+23:42:42 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29000)
+23:42:45 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 10000)
+23:42:47 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+23:42:51 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 1000)
+23:42:56 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 5000)
+23:43:01 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 1000)
+23:43:04 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 1000)
+23:43:06 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 1000)
+23:43:11 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 1000)
+23:43:18 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 949)
+23:46:24 [CommandReAdd][pvp01][PVPSM] - OK
+23:46:26 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 9000)
+23:46:30 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29900)
+23:46:35 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+23:46:49 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 85)
+23:46:52 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 10964)
+23:48:33 [CommandReAdd][pvp01][PVPSM] - OK
+23:48:40 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29000)
+23:48:44 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 15000)
+23:48:47 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+23:48:51 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 5949)
+23:50:27 [CommandReAdd][pvp01][PVPSM] - OK
+23:50:32 [CommandAddPoint][pvp01][PVPSM] - (Type: 0, Amount: 342)
+23:50:38 [CommandAddPoint][pvp01][PVPSM] - (Type: 1, Amount: 10985)
+23:50:44 [CommandAddPoint][pvp01][PVPSM] - (Type: 3, Amount: 29985)
+23:50:50 [CommandAddPoint][pvp01][PVPSM] - (Type: 2, Amount: 8979)

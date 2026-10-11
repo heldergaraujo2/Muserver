@@ -1,0 +1,83 @@
+20:15:06 [SCRIPT LOG] Start
+20:15:07 [Loader] Lua Gameserver socket ready!
+20:15:07 [Loader] Load success System\ScriptCore
+20:15:07 [Loader] Load success System\ProtocolCore
+20:15:07 [Loader] Load success Utils\Database
+20:15:07 [Loader] Load success Utils\DatabaseAsync
+20:15:07 [Loader] Load success Utils\Cron
+20:15:07 [Loader] Load success Utils\Functions
+20:15:07 [Loader] Load success Utils\Schedule
+20:15:07 [Loader] Could not load:
+20:15:07 [Loader] ata\\Script\Scripts\ReaddRequirement.lua: No such file or directory
+20:15:07 [Loader] Load success Scripts\CalCharacter
+20:15:07 [Loader] Load success Scripts\Musaffe\Config
+20:15:07 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+20:15:07 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+20:15:07 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+20:15:07 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+20:15:07 [Loader] Load success Scripts\Musaffe\Config
+20:15:07 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+20:15:07 [Loader] Load success Scripts\Musaffe\Config
+20:15:07 [Loader] Load folder success Scripts\Musaffe\
+20:15:07 Connected to database
+20:15:07 Connected to Async database
+20:15:07 Teste query: ZZZZZZZZZZ
+20:15:07 [ServerInfo] Script loaded successfully
+20:20:57 [MusaffeDungeon1] Script desligado.
+20:20:57 [MusaffeDungeon2] Script desligado.
+20:20:57 [MusaffeDungeon3] Script desligado.
+20:20:57 [MusaffeDungeon4] Script desligado.
+20:21:11 [SCRIPT LOG] Start
+20:21:11 [Loader] Lua Gameserver socket ready!
+20:21:11 [Loader] Load success System\ScriptCore
+20:21:11 [Loader] Load success System\ProtocolCore
+20:21:11 [Loader] Load success Utils\Database
+20:21:11 [Loader] Load success Utils\DatabaseAsync
+20:21:11 [Loader] Load success Utils\Cron
+20:21:11 [Loader] Load success Utils\Functions
+20:21:11 [Loader] Load success Utils\Schedule
+20:21:11 [Loader] Could not load:
+20:21:11 [Loader] ata\\Script\Scripts\ReaddRequirement.lua: No such file or directory
+20:21:11 [Loader] Load success Scripts\CalCharacter
+20:21:11 [Loader] Load success Scripts\Musaffe\Config
+20:21:11 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+20:21:11 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+20:21:11 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+20:21:11 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+20:21:11 [Loader] Load success Scripts\Musaffe\Config
+20:21:11 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+20:21:11 [Loader] Load success Scripts\Musaffe\Config
+20:21:11 [Loader] Load folder success Scripts\Musaffe\
+20:21:11 Connected to database
+20:21:11 Connected to Async database
+20:21:11 Teste query: ZZZZZZZZZZ
+20:21:11 [ServerInfo] Script loaded successfully
+20:50:14 [MusaffeDungeon1] Script desligado.
+20:50:14 [MusaffeDungeon2] Script desligado.
+20:50:14 [MusaffeDungeon3] Script desligado.
+20:50:14 [MusaffeDungeon4] Script desligado.
+20:50:37 [SCRIPT LOG] Start
+20:50:37 [Loader] Lua Gameserver socket ready!
+20:50:37 [Loader] Load success System\ScriptCore
+20:50:37 [Loader] Load success System\ProtocolCore
+20:50:37 [Loader] Load success Utils\Database
+20:50:37 [Loader] Load success Utils\DatabaseAsync
+20:50:37 [Loader] Load success Utils\Cron
+20:50:37 [Loader] Load success Utils\Functions
+20:50:37 [Loader] Load success Utils\Schedule
+20:50:37 [Loader] Could not load:
+20:50:37 [Loader] ata\\Script\Scripts\ReaddRequirement.lua: No such file or directory
+20:50:37 [Loader] Load success Scripts\CalCharacter
+20:50:37 [Loader] Load success Scripts\Musaffe\Config
+20:50:37 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+20:50:37 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+20:50:37 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+20:50:37 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+20:50:37 [Loader] Load success Scripts\Musaffe\Config
+20:50:37 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+20:50:37 [Loader] Load success Scripts\Musaffe\Config
+20:50:37 [Loader] Load folder success Scripts\Musaffe\
+20:50:37 Connected to database
+20:50:37 Connected to Async database
+20:50:37 Teste query: ZZZZZZZZZZ
+20:50:37 [ServerInfo] Script loaded successfully

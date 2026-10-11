@@ -1,0 +1,17 @@
+19:31:13 [SocketManager] Max msg size (Type: 2, Index: 13009, Size: 16402)
+20:34:40 [SocketManager] Max msg size (Type: 2, Index: 13000, Size: 16419)
+20:38:00 [SocketManager] Max msg size (Type: 2, Index: 13002, Size: 16483)
+22:14:40 [SocketManager] Server started at port [55903]
+22:38:45 [SocketManager] WSAAccept() failed with error: 10061
+22:38:45 [SocketManager] WSAAccept() failed with error: 10061
+23:15:43 [SocketManager] WSAAccept() failed with error: 10061
+23:17:13 [SocketManager] WSAAccept() failed with error: 10061
+23:17:14 [SocketManager] WSAAccept() failed with error: 10061
+23:19:06 [SocketManager] WSAAccept() failed with error: 10061
+23:21:12 [SocketManager] WSAAccept() failed with error: 10061
+23:25:27 [SocketManager] WSAAccept() failed with error: 10061
+23:25:31 [SocketManager] WSAAccept() failed with error: 10061
+23:27:36 [SocketManager] WSAAccept() failed with error: 10061
+23:28:05 [SocketManager] WSAAccept() failed with error: 10061
+23:45:38 [SocketManager] WSAAccept() failed with error: 10061
+23:47:45 [SocketManager] WSAAccept() failed with error: 10061

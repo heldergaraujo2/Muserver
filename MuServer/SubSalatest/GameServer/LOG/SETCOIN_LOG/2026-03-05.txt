@@ -1,0 +1,20 @@
+10:35:10 [SETCOIN LOG] Start
+10:35:24 [SETCOIN LOG] Start
+10:53:40 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+11:52:38 [hellder][Saffe] WZ_SetCoin(SmithItem) Val1: -670, Val2: 0, Val3: 0
+11:53:40 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+12:03:25 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:53:40 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+13:04:18 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+13:53:40 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+14:04:58 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+14:54:20 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:00:01 [videodv][AdmSaffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+15:04:58 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:54:59 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:54:59 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+17:54:59 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+18:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+18:36:40 [hellder][Saffe] WZ_SetCoin(CustomMonster) Val1: 15, Val2: 0, Val3: 0
+18:39:17 [mathiasb][MAXXIMUS] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

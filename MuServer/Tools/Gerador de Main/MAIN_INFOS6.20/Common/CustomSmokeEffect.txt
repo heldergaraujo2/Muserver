@@ -1,0 +1,106 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// ----------------------------------------------------------------------------------
+//	ItemIndex	Red	Green	Blue    By NH SERVERS
+// ----------------------------------------------------------------------------------
+        29            	1.1	0.8    	0.4     // Dragon Knight
+        30            	0.6	0.3    	1.0     // Venom Mist
+        31            	0.4	0.6    	0.4     // Sylphid Ray
+        32            	1.0	0.3    	0.8     // Volcano 
+        33            	0.7	0.8    	0.4     // Sunlight 
+
+//        53		0.4	0.0	0.1	//Succubus
+//        54		0.3	0.3	0.3	//Lazy Wind
+//        55		0.4	0.1	0.0	//Dark Devil
+//        56		0.1	0.4	0.2	//Sticky
+//        57		0.3	0.3	0.3	//Hell Night
+//        58		0.1	0.2	0.5	//Ambition
+//        77		0.5	0.4	0.3	//Bloody Dragon
+
+//        166		0.1	0.2	0.5	//Tigris Armor
+//        167		0.5	0.4	0.3	//Crimson Skull Armor
+
+//        98		0.4	0.3	0.3	//Bloodangel Knight
+//        99		0.4	0.3	0.3	//Bloodangel Wizard
+//        100		0.4	0.3	0.3	//Bloodangel Elf
+//        101		0.4	0.3	0.3	//Bloodangel Summoner
+//        102		0.4	0.3	0.3	//Bloodangel Magic
+//        103		0.4	0.3	0.3	//Bloodangel Lord
+//        104		0.4	0.3	0.3	//Bloodangel Fighter
+
+//        138		0.2	0.2	0.4	//Darkangel Knight
+//        139		0.2	0.2	0.4	//Darkangel Wizard
+//        140		0.2	0.2	0.4	//Darkangel Elf
+//        141		0.2	0.2	0.4	//Darkangel Summoner
+//        142		0.2	0.2	0.4	//Darkangel Magic
+//       143		0.2	0.2	0.4	//Darkangel Lord
+//        144		0.2	0.2	0.4	//Darkangel Fighter
+
+//        150		0.2	0.4	0.3	//Holyangel Knight
+//        151		0.2	0.4	0.3	//Holyangel Wizard
+//        152		0.2	0.4	0.3	//Holyangel Elf
+//        153		0.2	0.4	0.3	//Holyangel Summoner
+//        154		0.2	0.4	0.3	//Holyangel Magic
+//        155		0.2	0.4	0.3	//Holyangel Lord
+//        156		0.2	0.4	0.3	//Holyangel Fighter
+
+//        152		0.4	0.2	0.3	//Awakening Soul Knight
+//        153		0.4	0.2	0.3	//Awakening Soul Wizard
+//        154		0.4	0.2	0.3	//Awakening Soul Elf (Agi)
+//        155		0.4	0.2	0.3	//Awakening Soul Summoner
+//        156		0.4	0.2	0.3	//Awakening Soul Magic (Str)
+//        157		0.4	0.2	0.3	//Awakening Soul Lord
+//        158		0.4	0.2	0.3	//Awakening Soul Fighter
+
+//        159		0.1	0.3	0.4	//Blue Eye Knight
+//        160		0.1	0.3	0.4	//Blue Eye Wizard
+//        161		0.1	0.3	0.4	//Blue Eye Elf (Agi)
+//        162		0.1	0.3	0.4	//Blue Eye Summoner
+//        163		0.1	0.3	0.4	//Blue Eye Magic (Str)
+//        164		0.1	0.3	0.4	//Blue Eye Lord
+//        165		0.1	0.3	0.4	//Blue Eye Fighter
+
+
+//        168		0.4	0.2	0.4	//Silver Heart Knight
+//        169		0.4	0.2	0.4	//Silver Heart Wizard
+//        170		0.4	0.2	0.4	//Silver Heart Elf (Agi)
+//        171		0.4	0.2	0.4	//Silver Heart Summoner
+//        172		0.4	0.2	0.4	//Silver Heart Magic (Str)
+//        173		0.4	0.2	0.4	//Silver Heart Lord
+//        174		0.4	0.2	0.4	//Silver Heart Fighter
+
+
+//        175		0.2	0.4	0.3	//Manticore Knight
+//        176		0.2	0.4	0.3	//Manticore Wizard
+//        177		0.2	0.4	0.3	//Manticore Elf (Agi)
+//        178		0.2	0.4	0.3	//Manticore Summoner
+//        179		0.2	0.4	0.3	//Manticore Magic (Str)
+//        180		0.2	0.4	0.3	//Manticore Lord
+//        181		0.2	0.4	0.3	//Manticore Fighter
+
+
+//        190		0.15     0.23     0.33
+//        191		0.15     0.23     0.33
+//        192		0.15     0.23     0.33
+//        193		0.15     0.23     0.33
+//        194		0.15     0.23     0.33
+//        195		0.15     0.23     0.33
+//        196		0.15     0.23     0.33
+
+
+
+//        210		0.6	0.2	0.3
+//        211		0.6	0.2	0.3
+//        212		0.6	0.2	0.3
+//        213		0.6	0.2	0.3
+//        214		0.6	0.2	0.3
+//        215		0.6	0.2	0.3
+//        216		0.6	0.2	0.3
+
+
+end

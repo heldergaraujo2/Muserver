@@ -1,0 +1,61 @@
+11:47:40 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:47:53 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 1, Exc: 7, Set: 44, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:49:18 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 1, Exc: 7, Set: 44, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:49:21 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:49:31 [CommandMake][hellder][Saffe] Section: 8, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:49:35 [CommandMake][hellder][Saffe] Section: 9, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:49:47 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:50:27 [CommandMake][hellder][Saffe] Section: 0, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:50:30 [CommandMake][hellder][Saffe] Section: 0, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:21 [CommandMake][hellder][Saffe] Section: 12, Type: 283, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:25 [CommandMake][hellder][Saffe] Section: 12, Type: 281, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:29 [CommandMake][hellder][Saffe] Section: 12, Type: 280, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:38 [CommandMake][hellder][Saffe] Section: 12, Type: 280, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:44 [Command Clear Iventory] Use for:[hellder][Saffe]
+11:51:50 [CommandMake][hellder][Saffe] Section: 12, Type: 280, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:59 [CommandMake][hellder][Saffe] Section: 12, Type: 280, Level: 15, Skill: 1, Luck: 1, Option: 0, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:05 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:12 [CommandMake][hellder][Saffe] Section: 14, Type: 247, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+11:52:21 [CommandMake][hellder][Saffe] Section: 12, Type: 280, Level: 15, Skill: 1, Luck: 1, Option: 0, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:56:19 [CommandMake][hellder][Saffe] Section: 12, Type: 283, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:56:27 [CommandMake][hellder][Saffe] Section: 12, Type: 282, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:56:32 [CommandMake][hellder][Saffe] Section: 12, Type: 283, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:56:53 [CommandMake][hellder][Saffe] Section: 12, Type: 281, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+12:14:26 [CommandMoney][netocdj1][Cenoura] - (Money: 0)
+12:15:50 [CommandReAdd][thecrims][Invocadora] - OK
+12:15:53 [CommandAddPoint][thecrims][Invocadora] - (Type: 0, Amount: 344)
+12:16:00 [CommandAddPoint][thecrims][Invocadora] - (Type: 1, Amount: 2515)
+12:16:10 [CommandAddPoint][thecrims][Invocadora] - (Type: 2, Amount: 1500)
+12:34:08 [CommandAddPoint][thecrims][Invocadora] - (Type: 3, Amount: 2939)
+12:42:32 [CommandReAdd][hellderr][Louco] - OK
+13:07:06 [CommandReAdd][hellderr][Louco] - OK
+13:07:12 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 400)
+13:07:16 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 4000)
+13:07:21 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 1000)
+13:07:29 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 4000)
+13:28:49 [CommandChange][netocdj1][Cenoura] - (ChangeUp: 1)
+13:32:10 [Command Clear Iventory] Use for:[hellder][Saffe]
+13:32:15 [CommandMake][hellder][Saffe] Section: 12, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:32:36 [CommandMake][hellder][Saffe] Section: 12, Type: 40, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:33:06 [CommandMake][hellder][Saffe] Section: 12, Type: 49, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:33:09 [CommandMake][hellder][Saffe] Section: 12, Type: 50, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:33:58 [CommandChange][hellderr][Louco] - (ChangeUp: 1)
+13:38:23 [CommandPost][netocdj1][Cenoura] - (Message: COMPRE PARTS SUNLIGHT)
+13:54:09 [CommandPKClear][netocdj1][Cenoura] - (PKLevel: 3)
+13:58:34 [CommandReAdd][hellderr][Louco] - OK
+13:58:36 [CommandAddPoint][netocdj1][Cenoura] - (Type: 3, Amount: 70)
+13:58:46 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 2000)
+13:58:51 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 450)
+13:58:55 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 4000)
+13:59:13 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 1800)
+14:00:23 [CommandReAdd][hellderr][Louco] - OK
+14:00:25 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 3500)
+14:00:29 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 1000)
+14:00:34 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 1500)
+14:00:36 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 500)
+14:00:47 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 2500)
+14:01:47 [CommandReAdd][hellderr][Louco] - OK
+14:01:56 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 3000)
+14:01:58 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 1000)
+14:02:02 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 500)
+14:02:10 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 4000)

@@ -1,0 +1,45 @@
+00:07:15 [SocketManager] WSAAccept() failed with error: 10061
+00:09:19 [SocketManager] WSAAccept() failed with error: 10061
+00:11:11 [SocketManager] WSAAccept() failed with error: 10061
+00:13:27 [SocketManager] WSAAccept() failed with error: 10061
+00:13:29 [SocketManager] WSAAccept() failed with error: 10061
+00:13:36 [SocketManager] WSAAccept() failed with error: 10061
+00:14:37 [SocketManager] WSAAccept() failed with error: 10061
+00:14:41 [SocketManager] WSAAccept() failed with error: 10061
+00:33:36 [SocketManager] WSAAccept() failed with error: 10061
+00:34:38 [SocketManager] WSAAccept() failed with error: 10061
+00:34:53 [SocketManager] WSAAccept() failed with error: 10061
+00:35:56 [SocketManager] WSAAccept() failed with error: 10061
+00:41:48 [SocketManager] WSAAccept() failed with error: 10061
+00:43:32 [SocketManager] WSAAccept() failed with error: 10061
+00:48:39 [SocketManager] WSAAccept() failed with error: 10061
+00:50:40 [SocketManager] WSAAccept() failed with error: 10061
+10:02:46 [SocketManager] Protocol size error (Index: 13011, Header: c3, Size: 0, Head: 0)
+13:34:47 [SocketManager] WSASend() failed with error: 10053
+16:21:05 [SocketManager] Server started at port [55903]
+16:21:29 [SocketManager] WSAAccept() failed with error: 10061
+16:21:29 [SocketManager] WSAAccept() failed with error: 10061
+16:21:29 [SocketManager] WSAAccept() failed with error: 10061
+16:21:59 [SocketManager] WSAAccept() failed with error: 10061
+17:21:28 [SocketManager] Server started at port [55903]
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:21:31 [SocketManager] WSAAccept() failed with error: 10061
+17:22:01 [SocketManager] WSAAccept() failed with error: 10061
+17:22:01 [SocketManager] WSAAccept() failed with error: 10061
+20:14:10 [SocketManager] WSARecv() failed with error: 10038
+20:14:10 [SocketManager] WSASend() failed with error: 10038
+20:14:10 [SocketManager] WSASend() failed with error: 10038
+20:14:10 [SocketManager] WSASend() failed with error: 10038
+20:14:19 [Connection] connect() failed with error: 10061
+20:14:29 [Connection] connect() failed with error: 10061
+20:14:40 [SocketManager] WSAAccept() failed with error: 10061
+20:14:40 [SocketManager] WSAAccept() failed with error: 10061
+20:14:49 [Connection] connect() failed with error: 10061
+21:06:32 [SocketManager] Max msg size (Type: 2, Index: 13001, Size: 16400)
+21:23:25 [SocketManager] Max msg size (Type: 2, Index: 13007, Size: 16386)
+22:30:53 [SocketManager] Protocol size error (Index: 13002, Header: c3, Size: 0, Head: 0)
+22:54:16 [SocketManager] Max msg size (Type: 2, Index: 13008, Size: 16447)

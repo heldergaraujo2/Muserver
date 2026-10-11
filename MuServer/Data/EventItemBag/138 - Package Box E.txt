@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Package Box E"		0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	28	0	0	0	1	7	2	// Dark Master Mask
+8	28	0	0	0	1	7	2	// Dark Master Armor
+9	28	0	0	0	1	7	2	// Dark Master Pants
+10	28	0	0	0	1	7	2	// Dark Master Gloves
+11	28	0	0	0	1	7	2	// Dark Master Boots
+end

@@ -1,0 +1,16 @@
+17:43:21 [CommandChange][hellder][Saffe] - (ChangeUp: 2)
+17:47:56 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 285, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:48:06 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 286, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:48:41 [CommandTrack][videodv][AdmSaffe] - (Name: Saffe)
+17:54:46 [CommandTrack][videodv][AdmSaffe] - (Name: Saffe)
+17:55:46 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+17:56:05 [CommandAddPoint][videodv][AdmSaffe] - (Type: 3, Amount: 40000)
+18:27:28 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 400)
+18:27:35 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 399)
+18:29:10 [CommandChange][hellder][Saffe] - (ChangeUp: 1)
+18:41:29 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 399)
+18:45:55 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 399)
+18:47:24 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 254)
+18:52:18 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+18:52:22 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+18:52:32 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 248, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]

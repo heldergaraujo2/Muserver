@@ -1,0 +1,17 @@
+17:53:23 [Connection] connect() failed with error: 10061
+17:53:24 [Connection] connect() failed with error: 10061
+17:53:25 [Connection] connect() failed with error: 10061
+17:53:33 [Connection] connect() failed with error: 10061
+17:53:34 [Connection] connect() failed with error: 10061
+17:53:35 [Connection] connect() failed with error: 10061
+17:53:43 [Connection] connect() failed with error: 10061
+17:53:44 [Connection] connect() failed with error: 10061
+17:53:45 [Connection] connect() failed with error: 10061
+17:53:53 [Connection] connect() failed with error: 10061
+17:53:54 [Connection] connect() failed with error: 10061
+21:47:13 [SocketManager] WSAAccept() failed with error: 10061
+21:47:59 [SocketManager] WSAAccept() failed with error: 10061
+22:11:37 [SocketManager] WSAAccept() failed with error: 10061
+22:13:03 [SocketManager] WSAAccept() failed with error: 10061
+23:28:59 [SocketManager] WSAAccept() failed with error: 10061
+23:30:17 [SocketManager] WSAAccept() failed with error: 10061

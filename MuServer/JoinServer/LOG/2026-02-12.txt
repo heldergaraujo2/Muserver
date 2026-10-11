@@ -1,0 +1,10 @@
+08:42:48 [SocketManager] Server started at port [55970]
+08:42:50 [ServerManager][0] AddServer (127.0.0.1)
+08:42:50 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+08:42:54 [ServerManager][1] AddServer (127.0.0.1)
+08:42:54 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+08:47:32 [SocketManager] Server started at port [55970]
+08:47:34 [ServerManager][0] AddServer (127.0.0.1)
+08:47:34 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+08:47:38 [ServerManager][1] AddServer (127.0.0.1)
+08:47:38 [ServerManager][1] ServerInfo (Geral) (55919) (19)

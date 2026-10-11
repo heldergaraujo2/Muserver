@@ -1,0 +1,22 @@
+0
+//Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  SocketBonus  Duration
+	14	     1	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Small Healing Potion
+	14	     2	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Healing Potion
+	14	     3	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Large Healing Potion
+	14	     4	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Small Mana Potion
+	14	     5	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Mana Potion
+	14	     6	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Large Mana Potion
+	13	     29	     0	   255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     431	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     23 	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     23 	 1	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     24 	 1	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     24 	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     25 	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     26 	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	14	     68 	 0	   0	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	//14	     40	     0     255	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	//14	     11	     12    1	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+	//14	     11	     8     1	  0	      0	      0	       0	  0	     0	 0	  255	  255	  255	  255	  255	    255	      0  	//Armor of Guardsman
+
+end

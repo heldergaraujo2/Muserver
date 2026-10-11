@@ -1,0 +1,57 @@
+//############################################################
+//# -- Dashboard - GamesWteam
+//# -- EventItemBagAdvanced
+//# -- www.gameswteam.com
+//# -- www.facebook.com/gameswteam
+//# -- © 2017 - 2026 GamesWteam Development
+//# ----------------------------------------------------------
+//# -- File Created by Dashboard GamesWteam.
+//# -- Date Created: 16/04/2026 08:01:20
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0	10000		1
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0	       5	3500	  0	      0		1	1	1	1	1	1	1
+0	       6	3000	  0	      4		1	1	1	1	1	1	1
+0	       7	2500      0	      0		1	1	1	1	1	1	1
+0	       8	1000	  0	      0		1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+7416	  0	      10	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+
+end
+
+6
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+6688      0       0       0       0       0      0        0   0       0       0           // 
+6689      0       0       0       0       0      0        0   0       0       0           // 
+6690      0       0       0       0       0      0        0   0       0       0           //
+
+
+
+end
+
+7
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+6864	  0	      0	      0	      0	      0	      0	 0	   0	  0	       259200		//Pumpkin
+6868	  0	      0	      0	      0	      0	      0	 0	   0	  0	       259200		//Pumpkin
+7056	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+7057	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+end
+
+8
+//Index	Level	Grade	Level	Skill	Luck	Life	Exe	Ancient	Socket	Duration	Comment
+7056	  7	      0	      7	      0	      0	      0	 15	   0	  0	       0		//Pumpkin
+7057	  7	      0	      7	      0	      0	      0	 15	   0	  0	       0		//Pumpkin
+6692	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+6854	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+6864	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+6868	  0	      0	      0	      0	      0	      0	 0	   0	  0	       0		//Pumpkin
+end

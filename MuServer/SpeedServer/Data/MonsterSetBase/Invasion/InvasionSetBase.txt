@@ -1,0 +1,438 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// [EVENTS] NOVOS BOSSES
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+710            85             30         024            123            024          123          -1             01            0          //[Crystal Orb] Lord of Ferea
+708            85             30         026            127            026          127          -1             02            0          //Ferea General
+687            84             30         031            218            031          218          -1             01            0          //Nix
+694            99             30         122            148            122          148          -1             01            0          //God of Darkness
+693            83             30         175            027            175          027          -1             01            0          //Water Monster(sub-boss)
+692            83             30         175            027            175          027          -1             01            0          //Swamp Monster(sub-boss)
+683            86             30         147            141            147          141          -1             01            0          //Core Magriffy
+682            88             30         127            115            127          115          -1             01            0          //Lord Silvester
+
+
+819            99             30         122            148            122          148          -1             01            0          //
+844            99             30         122            148            122          148          -1             01            0          //
+820            99             30         124            150            124          150          -1             01            0          //
+
+
+821            99             30         122            148            122          148          -1             01            0          //
+822            99             30         122            148            122          148          -1             01            0          //
+
+
+823            99             30         122            148            122          148          -1             01            0          //
+824            99             30         122            148            122          148          -1             01            0          //
+end
+
+
+//=========================================================================================================================================
+// [EVENTS] MERCHANT ZYRO QUEST
+//=========================================================================================================================================
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+568            00             00         132            138            02             0          //Merchant Zyero Lorencia
+568            02             00         226            052            02             1          //Merchant Zyero Devias
+568            51             00         055            199            02             2          //Merchant Zyero Elbeland
+end
+
+//=========================================================================================================================================
+// [EVENTS] CHICKEN
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+776            0              15         196            106            210          106          02             15            0          //Chicken Lorencia
+776            3              15         156            147            171          147          02             15            0          //Chicken Noria
+end
+
+//=========================================================================================================================================
+// [EVENTS] ARKA WAR
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+793            92             00         188            102            188          102          3              1             0          //The Tower
+end
+
+//=========================================================================================================================================
+// [EVENTS] PROTECTOR OF ACHERON
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+784            89             00         189            102            189          102          3              1             0          //Cursed Tower Ubaid
+713            89             04         189            105            189          105          3              10            0          
+715            89             04         189            099            189          099          3              10            0          
+
+784            89             00         090            037            090          037          3              1             1          //Cursed Tower Alkmar
+713            89             04         090            040            090          040          3              10            1          
+715            89             04         090            034            090          034          3              10            1   
+
+784            90             00         158            051            158          051          3              1             2          //Cursed Tower Debenter
+713            90             04         158            054            158          054          3              10            2          
+715            90             04         158            048            158          048          3              10            2   
+end
+
+//=========================================================================================================================================
+// [INVASION] DEMONS INVOCATION
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+795	       08	      30	 001	        001	       250	    250	         -1	        05            0          //Golden Goblin
+795	       33	      30	 001	        001	       250	    250	         -1	        05            0          //Golden Goblin
+795	       37	      30	 001	        001	       250	    250	         -1	        05            0          //Golden Goblin
+795	       80	      30	 001	        001	       250	    250	         -1	        05            0          //Golden Goblin
+795	       81	      30	 001	        001	       250	    250	         -1	        05            0          //Golden Goblin
+end
+
+//=========================================================================================================================================
+// [EVENTS] EVOMON
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+734            08              30        10             10             240          240          -1             10            0          //Evomon Lv1
+end
+
+//=========================================================================================================================================
+// [INVASION] DEATH KING
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+055            00             30         125            190            140          203          -1             01            0          //Death King
+056            00             30         125            190            140          203          -1             10            0          //Death Bone
+055            03             30         195            070            205          086          -1             01            0          //Death King
+056            03             30         195            070            205          086          -1             10            0          //Death Bone
+end
+
+//=========================================================================================================================================
+// [INVASION] RED DRAGON
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+042            00             30         010            010            240          240          -1             10            0          //Red Dragon
+042            02             30         010            010            240          240          -1             10            0          //Red Dragon
+042            03             30         010            010            240          240          -1             10            0          //Red Dragon
+end
+
+//=========================================================================================================================================
+// [INVASION] GOLDS
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+043            00             30         010            010            240          240          -1             20            0          //Golden Budge Dragon
+078            03             30         010            010            240          240          -1             20            0          //Golden Goblin
+053            02             30         010            010            240          240          -1             10            0          //Golden Titan
+054            02             30         010            010            240          240          -1             10            0          //Golden Soldier
+079            00             30         010            010            240          240          -1             10            0          //Golden Derkon
+079            02             30         010            010            240          240          -1             10            0          //Golden Derkon
+079            03             30         010            010            240          240          -1             10            0          //Golden Derkon
+079            51             30         010            010            240          240          -1             10            0          //Golden Derkon
+080            07             30         010            010            240          240          -1             10            0          //Golden Lizard King
+081            07             30         010            010            240          240          -1             10            0          //Golden Vepar
+082            08             30         010            010            240          240          -1             10            0          //Golden Tantalos
+083            08             30         010            010            240          240          -1             10            0          //Golden Wheel
+493            01             30         002            052            043          125          -1             10            0          //Golden Dark Knight
+494            04             30         010            010            240          240          -1             10            0          //Golden Devil
+495            33             30         010            010            240          240          -1             10            0          //Golden Stone Golem
+496            10             30         010            010            240          240          -1             10            0          //Golden Crust
+497            37             30         010            010            240          240          -1             10            0          //Golden Satyros
+498            38             30         010            010            240          240          -1             10            0          //Golden Twin Tail
+499            57             30         010            010            240          240          -1             10            0          //Golden Iron Knight
+500            56             30         010            010            240          240          -1             10            0          //Golden Napin
+501            37             30         010            010            240          240          -1             05            0          //Great Golden Dragon
+502            51             30         010            010            240          240          -1             10            0          //Golden Rabbit
+end
+
+//=========================================================================================================================================
+// [INVASION] WHITE WIZARD
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+135            00             30         148            047            164          065          -1             01            0          //White wizard
+136            00             30         148            047            164          065          -1             10            0          //Destructive ogre soldier
+137            00             30         148            047            164          065          -1             10            0          //Destructive ogre archer
+135            02             30         158            012            167          024          -1             01            0          //White wizard
+136            02             30         158            012            167          024          -1             10            0          //Destructive ogre soldier
+137            02             30         158            012            167          024          -1             10            0          //Destructive ogre archer
+135            03             30         194            070            204          086          -1             01            0          //White wizard
+136            03             30         194            070            204          086          -1             10            0          //Destructive ogre soldier
+137            03             30         194            070            204          086          -1             10            0          //Destructive ogre archer
+end
+
+//=========================================================================================================================================
+// [INVASION] POUCH OF BLESSING
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+365            02             30         010            010            240          240          -1             15            0          //Pouch of Blessing
+
+end
+
+//=========================================================================================================================================
+// [INVASION] LUNAR RABBIT
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+413            51             30         010            010            240          240          -1             10            0          //Lunar Rabbit
+end
+
+//=========================================================================================================================================
+// [INVASION] FIRE FLAME GHOST
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+463            04             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+463            07             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+463            08             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+463            33             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+463            37             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+463            57             30         010            010            240          240          -1             10            0          //Fire Flame Ghost
+end
+
+//=========================================================================================================================================
+// [INVASION] CHRISTMAS (NATAL)
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+466            00             30         148            047            164          065          -1             10            0          //Cursed Goblin
+476            00             30         148            047            164          065          -1             01            0          //Cursed Santa
+466            02             30         158            012            167          024          -1             10            0          //Cursed Goblin
+476            02             30         158            012            167          024          -1             01            0          //Cursed Santa
+466            03             30         194            070            204          086          -1             10            0          //Cursed Goblin
+476            03             30         194            070            204          086          -1             01            0          //Cursed Santa
+end
+
+//=========================================================================================================================================
+// [INVASION] MEDUSA
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+560            56             30         050            103            057          114          -1             07            0          //Sapi Queen
+560            56             30         127            162            136          171          -1             07            1          //Sapi Queen
+560            56             30         149            010            162          019          -1             07            2          //Sapi Queen
+560            56             30         178            114            184          129          -1             07            3          //Sapi Queen
+561            56             30         050            103            057          114          -1             01            0          //Medusa
+561            56             30         127            162            136          171          -1             01            1          //Medusa
+561            56             30         149            010            162          019          -1             01            2          //Medusa
+561            56             30         178            114            184          129          -1             01            3          //Medusa
+end
+
+
+
+
+
+//=========================================================================================================================================
+// [INVASION]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+750            00             30         10             10             240          240          -1             5             0          //
+751            00             30         10             10             240          240          -1             5             0          //
+752            00             30         10             10             240          240          -1             5             0          //
+753            00             30         10             10             240          240          -1             5             0          //
+end
+
+
+//=========================================================================================================================================
+// [INVASION] Horse Lorencia
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+750            00             30         10             10             240          240          -1             5             0          //
+751            00             30         10             10             240          240          -1             5             0          //
+752            00             30         10             10             240          240          -1             5             0          //
+753            00             30         10             10             240          240          -1             5             0          //
+end
+
+//=========================================================================================================================================
+// [INVASION] Goat Kubera
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+754            87             30         10             10             240          240          -1             5             0          //
+755            87             30         10             10             240          240          -1             5             0          //
+756            87             30         10             10             240          240          -1             5             0          //
+757            87             30         10             10             240          240          -1             5             0          //
+end
+
+
+//=========================================================================================================================================
+// [INVASION] Monkey Temple of Arnil
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+758            96             30         10             10             240          240          -1             5             0          //
+759            96             30         10             10             240          240          -1             5             0          //
+760            96             30         10             10             240          240          -1             5             0          //
+761            96             30         10             10             240          240          -1             5             0          //
+end
+
+
+//=========================================================================================================================================
+// [INVASION] Goblin Ignis Vulcanus
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+762            101            30         10             10             240          240          -1             5             0          //
+763            101            30         10             10             240          240          -1             5             0          //
+764            101            30         10             10             240          240          -1             5             0          //
+765            101            30         10             10             240          240          -1             5             0          //
+end
+
+
+
+//=========================================================================================================================================
+// [INVASION] Elite 
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+828            100            30         10             10             240          240          -1             10            0          //
+829            100            30         10             10             240          240          -1             10            0          //
+830            100            30         10             10             240          240          -1             10            0          //
+end
+
+
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+771            00             00         131            146            03             0          //Cent move
+end
+
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+771            102            00         145            031            02             0          //Cent quest
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+773            102            30         142            027            152          031          -1             5             0          // mobs 
+774            102            30         142            027            152          031          -1             5             0          // mobs
+775            102            30         142            027            152          031          -1             5             0          // mobs
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+772            102            30         142            027            152          031          -1             1             0          // cent boss
+end
+
+
+
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+842            02             00         193            012            03             0          //Eunice move
+end
+
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+842            102            00         145            031            02             0          //Eunice quest
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+815            102            30         142            027            152          031          -1             7             0          // mobs 
+816            102            30         142            027            152          031          -1             7             0          // mobs
+817            102            30         142            027            152          031          -1             7             0          // mobs
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+843            102            30         142            027            152          031          -1             1             0          // Eunice  boss
+end
+
+5
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      Direction      Value      Comment
+847            87             00         224            116            03             0          //
+end
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+845	       107	      0	         001	        001	       250	    250	         -1	        30            0          //Mine1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+846	       107	      0	         001	        001	       250	    250	         -1	        30            0          //Mine2
+end
+
+
+
+//=========================================================================================================================================
+// [MINIBOSS]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+049            7              15         019            232            047          202          -1             01            0          //Hydra
+end
+
+//=========================================================================================================================================
+// [MINIBOSS]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+025            2              30         006            184            080          244          -1             01            0          //Ice Queen
+end
+
+//=========================================================================================================================================
+// [MINIBOSS]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+059            8              15         006            243            052          202          -1             01            0          //Boss Zaikan
+end
+
+//=========================================================================================================================================
+// [MINIBOSS]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+018            1              15         25             69             25           69           -1             01            0          //Boss Gorgon
+end
+
+//=========================================================================================================================================
+// [MINIBOSS]
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+038            4              15         021            229            040          198           -1             01            0          //Boss Balrog
+end
+
+
+//=========================================================================================================================================
+// [Invasion] Hell Maine
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+309            33             15         121            108            119          102           -1             01            0          //[Invasion] Hell Maine
+end
+
+//=========================================================================================================================================
+// [Invasion] Death Beam Knight
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPohsX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+063            08             15         10            10            240          240           -1             01            0          //[Invasion] Death Beam Knight
+end
+
+//=========================================================================================================================================
+// [Invasion] Dark Phoenix
+//=========================================================================================================================================
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+077            10             15         44            226            44          226           -1             01            0          //[Invasion] Dark Phoenix
+end
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+275            36             15             26            76            26          76           -1             01            0          //
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+
+865             02             30             10            10            240          240           -1             1            0          //
+end
+
+3
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
+
+866             04             30             19            101            19          101           -1             1            0          //
+end

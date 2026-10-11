@@ -1,0 +1,258 @@
+03:49:19 [Obj][13004] AddClient (66.132.172.137)
+03:49:23 [Obj][13004] DelClient (66.132.172.137)
+03:49:28 [Obj][13003] AddClient (66.132.172.137)
+03:49:39 [Obj][13003] DelClient (66.132.172.137)
+05:42:31 [Obj][13002] AddClient (79.127.208.26)
+05:42:32 [Obj][13002] DelClient (79.127.208.26)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+06:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+19:43:01 [Obj][13001] AddClient (177.200.34.53)
+19:43:11 [Obj][13001] AddAccount (hellder)
+19:43:12 [Obj][13001] LogInCharacter (Saffe)
+19:50:49 [FakeOnline] Loaded successfully
+19:50:49 [ServerInfo] Custom loaded successfully
+19:52:16 [FakeOnline] Loaded successfully
+19:52:16 [ServerInfo] Custom loaded successfully
+19:52:57 [FakeOnline] Loaded successfully
+19:52:57 [ServerInfo] Custom loaded successfully
+19:53:46 [Obj][13001] LogOutCharacter (Saffe)
+19:53:46 [Obj][13001] DelAccount (hellder)
+19:53:46 [Obj][13001] DelClient (177.200.34.53)
+20:05:24 [Obj][13000] AddClient (177.200.34.53)
+20:05:25 [Obj][13000] AddAccount (hellder)
+20:05:26 [Obj][13000] LogInCharacter (Saffe)
+20:07:06 [ServerInfo] Shop loaded successfully
+20:07:25 [ServerInfo] Shop loaded successfully
+20:08:42 [Obj][13004] AddClient (177.200.34.53)
+20:08:55 [Obj][13004] DelClient (177.200.34.53)
+20:09:33 [ServerInfo] CashShop loaded successfully
+20:09:33 [ServerInfo] ChaosMix loaded successfully
+20:09:33 [ServerInfo] Character loaded successfully
+20:09:33 [ServerInfo] Command loaded successfully
+20:09:33 [ServerInfo] Common loaded successfully
+20:09:33 [FakeOnline] Loaded successfully
+20:09:33 [ServerInfo] Custom loaded successfully
+20:09:33 [ServerInfo] Discord loaded successfully
+20:09:33 [ServerInfo] Effect loaded successfully
+20:09:33 [ServerInfo] Event loaded successfully
+20:09:33 [ServerInfo] EventItemBag loaded successfully
+20:09:33 [ServerInfo] Hack loaded successfully
+20:09:33 [ServerInfo] Message loaded successfully
+20:09:33 [ServerInfo] Map loaded successfully
+20:09:33 [ServerInfo] Message loaded successfully
+20:09:34 [ServerInfo] Monster loaded successfully
+20:09:34 [ServerInfo] Move loaded successfully
+20:09:34 [ServerInfo] Quest loaded successfully
+20:09:34 [ServerInfo] Shop loaded successfully
+20:09:34 [ServerInfo] Skill loaded successfully
+20:09:34 [ServerInfo] Util loaded successfully
+20:09:34 [ReadBotInfo] BotSystem loaded successfully
+20:09:46 [Obj][13003] AddClient (177.200.34.53)
+20:09:48 [Obj][13003] AddAccount (jaqueline)
+20:09:49 [Obj][13003] LogInCharacter (PatckHorla)
+20:18:09 [hellder][Saffe] Kill [jaqueline][PatckHorla]
+20:18:16 [ServerInfo] Map loaded successfully
+20:18:20 [ServerInfo] Move loaded successfully
+20:18:22 [ServerInfo] CashShop loaded successfully
+20:18:22 [ServerInfo] ChaosMix loaded successfully
+20:18:22 [ServerInfo] Character loaded successfully
+20:18:22 [ServerInfo] Command loaded successfully
+20:18:22 [ServerInfo] Common loaded successfully
+20:18:22 [FakeOnline] Loaded successfully
+20:18:22 [ServerInfo] Custom loaded successfully
+20:18:22 [ServerInfo] Discord loaded successfully
+20:18:22 [ServerInfo] Effect loaded successfully
+20:18:22 [ServerInfo] Event loaded successfully
+20:18:22 [ServerInfo] EventItemBag loaded successfully
+20:18:22 [ServerInfo] Hack loaded successfully
+20:18:22 [ServerInfo] Message loaded successfully
+20:18:22 [ServerInfo] Map loaded successfully
+20:18:22 [ServerInfo] Message loaded successfully
+20:18:22 [ServerInfo] Monster loaded successfully
+20:18:22 [ServerInfo] Move loaded successfully
+20:18:22 [ServerInfo] Quest loaded successfully
+20:18:22 [ServerInfo] Shop loaded successfully
+20:18:22 [ServerInfo] Skill loaded successfully
+20:18:22 [ServerInfo] Util loaded successfully
+20:18:22 [ReadBotInfo] BotSystem loaded successfully
+20:19:13 [ServerInfo] Map loaded successfully
+20:19:16 [ServerInfo] CashShop loaded successfully
+20:19:16 [ServerInfo] ChaosMix loaded successfully
+20:19:16 [ServerInfo] Character loaded successfully
+20:19:16 [ServerInfo] Command loaded successfully
+20:19:16 [ServerInfo] Common loaded successfully
+20:19:16 [FakeOnline] Loaded successfully
+20:19:16 [ServerInfo] Custom loaded successfully
+20:19:16 [ServerInfo] Discord loaded successfully
+20:19:16 [ServerInfo] Effect loaded successfully
+20:19:16 [ServerInfo] Event loaded successfully
+20:19:16 [ServerInfo] EventItemBag loaded successfully
+20:19:16 [ServerInfo] Hack loaded successfully
+20:19:16 [ServerInfo] Message loaded successfully
+20:19:16 [ServerInfo] Map loaded successfully
+20:19:16 [ServerInfo] Message loaded successfully
+20:19:17 [ServerInfo] Monster loaded successfully
+20:19:17 [ServerInfo] Move loaded successfully
+20:19:17 [ServerInfo] Quest loaded successfully
+20:19:17 [ServerInfo] Shop loaded successfully
+20:19:17 [ServerInfo] Skill loaded successfully
+20:19:17 [ServerInfo] Util loaded successfully
+20:19:17 [ReadBotInfo] BotSystem loaded successfully
+20:21:11 [ServerInfo] Monster loaded successfully
+20:23:23 [ServerInfo] Event loaded successfully
+20:33:44 [ServerInfo] Monster loaded successfully
+20:33:44 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+20:35:08 [ServerInfo] Event loaded successfully
+20:39:46 [ServerInfo] Event loaded successfully
+20:40:55 [ServerInfo] Event loaded successfully
+20:48:30 [ServerInfo] EventItemBag loaded successfully
+20:48:56 [ServerInfo] EventItemBag loaded successfully
+20:49:09 [ServerInfo] Event loaded successfully
+20:50:05 [Obj][13003] LogOutCharacter (PatckHorla)
+20:50:05 [Obj][13003] DelAccount (jaqueline)
+20:50:05 [Obj][13003] DelClient (177.200.34.53)
+20:51:35 [ServerInfo] Character loaded successfully
+20:52:27 [ServerInfo] Character loaded successfully
+20:54:03 [ServerInfo] Character loaded successfully
+21:18:08 [Obj][13000] LogOutCharacter (Saffe)
+21:18:08 [Obj][13000] DelAccount (hellder)
+21:18:08 [Obj][13000] DelClient (177.200.34.53)
+22:56:38 [ServerInfo] EventItemBag loaded successfully
+22:56:53 [Obj][13002] AddClient (177.200.34.53)
+22:57:00 [Obj][13002] AddAccount (hellder)
+22:57:01 [Obj][13002] LogInCharacter (Saffe)
+22:58:39 [ServerInfo] EventItemBag loaded successfully
+22:59:02 [ServerInfo] Event loaded successfully
+22:59:05 [ServerInfo] CashShop loaded successfully
+22:59:05 [ServerInfo] ChaosMix loaded successfully
+22:59:05 [ServerInfo] Character loaded successfully
+22:59:05 [ServerInfo] Command loaded successfully
+22:59:05 [ServerInfo] Common loaded successfully
+22:59:05 [FakeOnline] Loaded successfully
+22:59:05 [ServerInfo] Custom loaded successfully
+22:59:05 [ServerInfo] Discord loaded successfully
+22:59:05 [ServerInfo] Effect loaded successfully
+22:59:05 [ServerInfo] Event loaded successfully
+22:59:06 [ServerInfo] EventItemBag loaded successfully
+22:59:06 [ServerInfo] Hack loaded successfully
+22:59:06 [ServerInfo] Message loaded successfully
+22:59:06 [ServerInfo] Map loaded successfully
+22:59:06 [ServerInfo] Message loaded successfully
+22:59:06 [ServerInfo] Monster loaded successfully
+22:59:06 [ServerInfo] Move loaded successfully
+22:59:06 [ServerInfo] Quest loaded successfully
+22:59:06 [ServerInfo] Shop loaded successfully
+22:59:06 [ServerInfo] Skill loaded successfully
+22:59:06 [ServerInfo] Util loaded successfully
+22:59:06 [ReadBotInfo] BotSystem loaded successfully
+23:00:54 [ServerInfo] EventItemBag loaded successfully
+23:01:48 [ServerInfo] EventItemBag loaded successfully
+23:01:50 [ServerInfo] Monster loaded successfully
+23:01:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+23:01:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+23:01:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+23:01:53 [ServerInfo] CashShop loaded successfully
+23:01:53 [ServerInfo] ChaosMix loaded successfully
+23:01:53 [ServerInfo] Character loaded successfully
+23:01:53 [ServerInfo] Command loaded successfully
+23:01:53 [ServerInfo] Common loaded successfully
+23:01:53 [FakeOnline] Loaded successfully
+23:01:53 [ServerInfo] Custom loaded successfully
+23:01:53 [ServerInfo] Discord loaded successfully
+23:01:53 [ServerInfo] Effect loaded successfully
+23:01:53 [ServerInfo] Event loaded successfully
+23:01:53 [ServerInfo] EventItemBag loaded successfully
+23:01:53 [ServerInfo] Hack loaded successfully
+23:01:53 [ServerInfo] Message loaded successfully
+23:01:53 [ServerInfo] Map loaded successfully
+23:01:53 [ServerInfo] Message loaded successfully
+23:01:53 [ServerInfo] Monster loaded successfully
+23:01:53 [ServerInfo] Move loaded successfully
+23:01:53 [ServerInfo] Quest loaded successfully
+23:01:53 [ServerInfo] Shop loaded successfully
+23:01:53 [ServerInfo] Skill loaded successfully
+23:01:53 [ServerInfo] Util loaded successfully
+23:01:53 [ReadBotInfo] BotSystem loaded successfully
+23:03:56 [ServerInfo] EventItemBag loaded successfully
+23:06:10 [ServerInfo] EventItemBag loaded successfully
+23:06:17 [ServerInfo] Event loaded successfully
+23:06:19 [ServerInfo] Monster loaded successfully
+23:06:19 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 144)
+23:06:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+23:06:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+23:06:23 [ServerInfo] Util loaded successfully
+23:06:25 [ServerInfo] CashShop loaded successfully
+23:06:25 [ServerInfo] ChaosMix loaded successfully
+23:06:25 [ServerInfo] Character loaded successfully
+23:06:25 [ServerInfo] Command loaded successfully
+23:06:25 [ServerInfo] Common loaded successfully
+23:06:25 [FakeOnline] Loaded successfully
+23:06:25 [ServerInfo] Custom loaded successfully
+23:06:25 [ServerInfo] Discord loaded successfully
+23:06:25 [ServerInfo] Effect loaded successfully
+23:06:25 [ServerInfo] Event loaded successfully
+23:06:25 [ServerInfo] EventItemBag loaded successfully
+23:06:25 [ServerInfo] Hack loaded successfully
+23:06:25 [ServerInfo] Message loaded successfully
+23:06:25 [ServerInfo] Map loaded successfully
+23:06:25 [ServerInfo] Message loaded successfully
+23:06:25 [ServerInfo] Monster loaded successfully
+23:06:25 [ServerInfo] Move loaded successfully
+23:06:25 [ServerInfo] Quest loaded successfully
+23:06:26 [ServerInfo] Shop loaded successfully
+23:06:26 [ServerInfo] Skill loaded successfully
+23:06:26 [ServerInfo] Util loaded successfully
+23:06:26 [ReadBotInfo] BotSystem loaded successfully
+23:11:26 [ServerInfo] EventItemBag loaded successfully
+23:13:08 [ServerInfo] Event loaded successfully
+23:15:27 [ServerInfo] Event loaded successfully
+23:18:07 [ServerInfo] Event loaded successfully
+23:18:09 [ServerInfo] Monster loaded successfully
+23:18:09 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+23:18:09 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+23:18:10 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+23:18:35 [ServerInfo] Event loaded successfully
+23:23:28 [ServerInfo] Event loaded successfully
+23:23:32 [ServerInfo] Monster loaded successfully
+23:23:32 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+23:23:34 [ServerInfo] CashShop loaded successfully
+23:23:34 [ServerInfo] ChaosMix loaded successfully
+23:23:34 [ServerInfo] Character loaded successfully
+23:23:34 [ServerInfo] Command loaded successfully
+23:23:34 [ServerInfo] Common loaded successfully
+23:23:34 [FakeOnline] Loaded successfully
+23:23:34 [ServerInfo] Custom loaded successfully
+23:23:34 [ServerInfo] Discord loaded successfully
+23:23:34 [ServerInfo] Effect loaded successfully
+23:23:34 [ServerInfo] Event loaded successfully
+23:23:35 [ServerInfo] EventItemBag loaded successfully
+23:23:35 [ServerInfo] Hack loaded successfully
+23:23:35 [ServerInfo] Message loaded successfully
+23:23:35 [ServerInfo] Map loaded successfully
+23:23:35 [ServerInfo] Message loaded successfully
+23:23:35 [ServerInfo] Monster loaded successfully
+23:23:35 [ServerInfo] Move loaded successfully
+23:23:35 [ServerInfo] Quest loaded successfully
+23:23:35 [ServerInfo] Shop loaded successfully
+23:23:35 [ServerInfo] Skill loaded successfully
+23:23:35 [ServerInfo] Util loaded successfully
+23:23:35 [ReadBotInfo] BotSystem loaded successfully
+23:25:39 [Obj][13001] AddClient (177.200.34.53)
+23:25:49 [Obj][13001] AddAccount (hellderr)
+23:25:50 [Obj][13001] LogInCharacter (Louco)
+23:27:43 [ServerInfo] Event loaded successfully
+23:27:45 [ServerInfo] Monster loaded successfully
+23:27:45 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+23:29:48 [ServerInfo] Monster loaded successfully
+23:29:58 [ServerInfo] Event loaded successfully
+23:31:27 [ServerInfo] Monster loaded successfully
+23:31:27 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+23:31:27 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+23:31:30 [ServerInfo] Event loaded successfully
+23:33:07 [ServerInfo] Monster loaded successfully
+23:33:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+23:33:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+23:33:07 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+23:33:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 59, Y: 7)
+23:33:10 [ServerInfo] Event loaded successfully

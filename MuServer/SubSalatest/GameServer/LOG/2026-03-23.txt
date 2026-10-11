@@ -1,0 +1,371 @@
+00:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+00:36:38 [Obj][13003] AddClient (152.248.6.7)
+00:36:47 [Obj][13003] DelClient (152.248.6.7)
+00:36:57 [Obj][13000] AddClient (152.248.6.7)
+00:36:59 [Obj][13000] DelClient (152.248.6.7)
+00:37:02 [Obj][13001] AddClient (152.248.6.7)
+00:37:08 [Obj][13001] DelClient (152.248.6.7)
+00:37:09 [Obj][13002] AddClient (152.248.6.7)
+00:37:11 [Obj][13002] DelClient (152.248.6.7)
+00:37:48 [Obj][13004] AddClient (152.248.6.7)
+00:38:10 [Obj][13004] DelClient (152.248.6.7)
+00:38:11 [Obj][13003] AddClient (152.248.6.7)
+00:38:15 [Obj][13003] DelClient (152.248.6.7)
+00:38:16 [Obj][13000] AddClient (152.248.6.7)
+00:38:19 [Obj][13000] DelClient (152.248.6.7)
+00:38:44 [ServerInfo] CashShop loaded successfully
+00:38:44 [ServerInfo] ChaosMix loaded successfully
+00:38:44 [ServerInfo] Character loaded successfully
+00:38:44 [ServerInfo] Command loaded successfully
+00:38:44 [ServerInfo] Common loaded successfully
+00:38:44 [FakeOnline] Loaded successfully
+00:38:44 [ServerInfo] Custom loaded successfully
+00:38:44 [ServerInfo] Discord loaded successfully
+00:38:44 [ServerInfo] Effect loaded successfully
+00:38:44 [ServerInfo] Event loaded successfully
+00:38:45 [ServerInfo] EventItemBag loaded successfully
+00:38:45 [ServerInfo] Hack loaded successfully
+00:38:45 [ServerInfo] Message loaded successfully
+00:38:45 [ServerInfo] Map loaded successfully
+00:38:45 [ServerInfo] Message loaded successfully
+00:38:45 [ServerInfo] Monster loaded successfully
+00:38:45 [ServerInfo] Move loaded successfully
+00:38:45 [ServerInfo] Quest loaded successfully
+00:38:45 [ServerInfo] Shop loaded successfully
+00:38:45 [ServerInfo] Skill loaded successfully
+00:38:45 [ServerInfo] Util loaded successfully
+00:38:45 [ReadBotInfo] BotSystem loaded successfully
+00:39:07 [Obj][13001] AddClient (177.200.34.53)
+00:39:09 [Obj][13001] AddAccount (hellderr)
+00:39:10 [Obj][13001] LogInCharacter (Louco)
+00:39:16 [Obj][13002] AddClient (152.248.6.7)
+00:39:20 [Obj][13002] AddAccount (marcio300)
+00:39:22 [Obj][13002] LogInCharacter (ZAKUM)
+00:40:58 [marcio300][ZAKUM] Kill [hellderr][Louco]
+00:41:57 [ServerInfo] Item loaded successfully
+00:42:24 [ServerInfo] Item loaded successfully
+00:42:26 [ServerInfo] CashShop loaded successfully
+00:42:26 [ServerInfo] ChaosMix loaded successfully
+00:42:26 [ServerInfo] Character loaded successfully
+00:42:26 [ServerInfo] Command loaded successfully
+00:42:26 [ServerInfo] Common loaded successfully
+00:42:26 [FakeOnline] Loaded successfully
+00:42:26 [ServerInfo] Custom loaded successfully
+00:42:26 [ServerInfo] Discord loaded successfully
+00:42:26 [ServerInfo] Effect loaded successfully
+00:42:26 [ServerInfo] Event loaded successfully
+00:42:26 [ServerInfo] EventItemBag loaded successfully
+00:42:26 [ServerInfo] Hack loaded successfully
+00:42:26 [ServerInfo] Message loaded successfully
+00:42:26 [ServerInfo] Map loaded successfully
+00:42:26 [ServerInfo] Message loaded successfully
+00:42:26 [ServerInfo] Monster loaded successfully
+00:42:26 [ServerInfo] Move loaded successfully
+00:42:26 [ServerInfo] Quest loaded successfully
+00:42:26 [ServerInfo] Shop loaded successfully
+00:42:26 [ServerInfo] Skill loaded successfully
+00:42:26 [ServerInfo] Util loaded successfully
+00:42:26 [ReadBotInfo] BotSystem loaded successfully
+00:44:00 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:45:59 [Obj][13004] AddClient (177.200.34.53)
+00:46:03 [Obj][13004] AddAccount (hellder)
+00:46:05 [Obj][13004] LogInCharacter (Saffe)
+00:51:45 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:52:46 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:53:40 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:53:59 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:54:35 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:54:53 [marcio300][ZAKUM] Kill [hellderr][Louco]
+00:56:05 [hellderr][Louco] Kill [marcio300][ZAKUM]
+00:57:12 [Obj][13004] LogOutCharacter (Saffe)
+00:57:35 [Obj][13004] DelAccount (hellder)
+00:57:35 [Obj][13004] DelClient (177.200.34.53)
+00:57:43 [Obj][13003] AddClient (177.200.34.53)
+00:57:48 [Obj][13003] AddAccount (hellderrr)
+00:57:58 [Obj][13003] DelAccount (hellderrr)
+00:57:58 [Obj][13003] DelClient (177.200.34.53)
+00:58:39 [Obj][13000] AddClient (177.200.34.53)
+00:58:44 [Obj][13000] AddAccount (hellderrrr)
+00:58:47 [Obj][13000] LogInCharacter (Suavera)
+00:59:41 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:00:07 [ServerInfo] Item loaded successfully
+01:03:12 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:03:52 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:04:13 [ServerInfo] Character loaded successfully
+01:05:22 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:05:32 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:05:41 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:06:26 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:06:35 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:06:46 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:06:56 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:07:14 [ServerInfo] Character loaded successfully
+01:07:22 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:08:06 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:08:35 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:10:28 [ServerInfo] Character loaded successfully
+01:12:47 [ServerInfo] Character loaded successfully
+01:14:59 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:16:05 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:16:29 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:18:00 [ServerInfo] Character loaded successfully
+01:19:11 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:19:28 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:20:09 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:20:33 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:21:43 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:21:53 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:22:01 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:22:11 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:23:09 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:23:14 [ServerInfo] Skill loaded successfully
+01:23:21 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:23:32 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:24:04 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:24:22 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:24:54 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:25:53 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:26:06 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:26:17 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:26:29 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:26:46 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:27:42 [hellderrrr][Suavera] Kill [hellderr][Louco]
+01:28:03 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:28:17 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:28:26 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:28:35 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:29:10 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:29:25 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:29:43 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:30:14 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:30:26 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:30:26 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:31:09 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:31:33 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:31:45 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:31:57 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:32:14 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:32:32 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:32:53 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:33:23 [hellderrrr][Suavera] Kill [marcio300][ZAKUM]
+01:33:36 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:35:16 [ServerInfo] Shop loaded successfully
+01:35:19 [BotBuffer] CharName: ZAKUM - ADD_CRITICAL_DAMAGE Time: 720
+01:35:25 [BotBuffer] CharName: ZAKUM - ADD_DAMAGE_REFLECT Time: 720
+01:35:30 [BotBuffer] CharName: ZAKUM - ADD_GREATER_LIFE Time: 720
+01:35:35 [ServerInfo] Shop loaded successfully
+01:35:35 [BotBuffer] CharName: ZAKUM - ADD_SKILL_MANA Time: 720
+01:35:35 [BotBuffer] CharName: ZAKUM -ADD_MAGIC_CIRCLE Time: 720
+01:35:40 [BotBuffer] CharName: ZAKUM -ADD_GREATER_DEFENSE Time: 720
+01:35:40 [BotBuffer] CharName: ZAKUM - ADD_GREATER_DAMAGE Time: 720
+01:35:51 [hellderrrr][Suavera] Kill [hellderr][Louco]
+01:36:13 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:36:45 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:37:09 [BotBuffer] CharName: Suavera -ADD_GREATER_DEFENSE Time: 720
+01:37:09 [BotBuffer] CharName: Suavera - ADD_GREATER_DAMAGE Time: 720
+01:37:11 [BotBuffer] CharName: Suavera - ADD_SKILL_MANA Time: 720
+01:37:11 [BotBuffer] CharName: Suavera -ADD_MAGIC_CIRCLE Time: 720
+01:37:13 [BotBuffer] CharName: Suavera - ADD_GREATER_LIFE Time: 720
+01:37:15 [BotBuffer] CharName: Suavera - ADD_DAMAGE_REFLECT Time: 720
+01:37:17 [BotBuffer] CharName: Suavera - ADD_CRITICAL_DAMAGE Time: 720
+01:37:18 [BotBuffer] CharName: Suavera - ADD_IGNORE_DEFENSE_RATE Time: 720
+01:37:18 [BotBuffer] CharName: Suavera - ADD_FITNESS Time: 720
+01:38:31 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:39:22 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:41:18 [marcio300][ZAKUM] Kill [hellderrrr][Suavera]
+01:42:06 [ServerInfo] Shop loaded successfully
+01:42:21 [Obj][13002] LogOutCharacter (ZAKUM)
+01:42:21 [Obj][13002] DelAccount (marcio300)
+01:42:21 [Obj][13002] DelClient (152.248.6.7)
+01:42:26 [Obj][13000] LogOutCharacter (Suavera)
+01:42:26 [Obj][13000] DelAccount (hellderrrr)
+01:42:26 [Obj][13000] DelClient (177.200.34.53)
+01:54:59 [ServerInfo] CashShop loaded successfully
+01:54:59 [ServerInfo] ChaosMix loaded successfully
+01:54:59 [ServerInfo] Character loaded successfully
+01:54:59 [ServerInfo] Command loaded successfully
+01:54:59 [ServerInfo] Common loaded successfully
+01:54:59 [FakeOnline] Loaded successfully
+01:54:59 [ServerInfo] Custom loaded successfully
+01:54:59 [ServerInfo] Discord loaded successfully
+01:54:59 [ServerInfo] Effect loaded successfully
+01:54:59 [ServerInfo] Event loaded successfully
+01:54:59 [ServerInfo] EventItemBag loaded successfully
+01:54:59 [ServerInfo] Hack loaded successfully
+01:54:59 [ServerInfo] Message loaded successfully
+01:54:59 [ServerInfo] Map loaded successfully
+01:54:59 [ServerInfo] Message loaded successfully
+01:54:59 [ServerInfo] Monster loaded successfully
+01:54:59 [ServerInfo] Move loaded successfully
+01:54:59 [ServerInfo] Quest loaded successfully
+01:54:59 [ServerInfo] Shop loaded successfully
+01:54:59 [ServerInfo] Skill loaded successfully
+01:54:59 [ServerInfo] Util loaded successfully
+01:54:59 [ReadBotInfo] BotSystem loaded successfully
+01:55:43 [ServerInfo] CashShop loaded successfully
+01:55:43 [ServerInfo] ChaosMix loaded successfully
+01:55:43 [ServerInfo] Character loaded successfully
+01:55:43 [ServerInfo] Command loaded successfully
+01:55:43 [ServerInfo] Common loaded successfully
+01:55:43 [FakeOnline] Loaded successfully
+01:55:43 [ServerInfo] Custom loaded successfully
+01:55:43 [ServerInfo] Discord loaded successfully
+01:55:43 [ServerInfo] Effect loaded successfully
+01:55:44 [ServerInfo] Event loaded successfully
+01:55:44 [ServerInfo] EventItemBag loaded successfully
+01:55:44 [ServerInfo] Hack loaded successfully
+01:55:44 [ServerInfo] Message loaded successfully
+01:55:44 [ServerInfo] Map loaded successfully
+01:55:44 [ServerInfo] Message loaded successfully
+01:55:44 [ServerInfo] Monster loaded successfully
+01:55:44 [ServerInfo] Move loaded successfully
+01:55:44 [ServerInfo] Quest loaded successfully
+01:55:44 [ServerInfo] Shop loaded successfully
+01:55:44 [ServerInfo] Skill loaded successfully
+01:55:44 [ServerInfo] Util loaded successfully
+01:55:44 [ReadBotInfo] BotSystem loaded successfully
+01:56:07 [ServerInfo] CashShop loaded successfully
+01:56:07 [ServerInfo] ChaosMix loaded successfully
+01:56:07 [ServerInfo] Character loaded successfully
+01:56:07 [ServerInfo] Command loaded successfully
+01:56:07 [ServerInfo] Common loaded successfully
+01:56:07 [FakeOnline] Loaded successfully
+01:56:07 [ServerInfo] Custom loaded successfully
+01:56:07 [ServerInfo] Discord loaded successfully
+01:56:07 [ServerInfo] Effect loaded successfully
+01:56:07 [ServerInfo] Event loaded successfully
+01:56:07 [ServerInfo] EventItemBag loaded successfully
+01:56:07 [ServerInfo] Hack loaded successfully
+01:56:07 [ServerInfo] Message loaded successfully
+01:56:07 [ServerInfo] Map loaded successfully
+01:56:07 [ServerInfo] Message loaded successfully
+01:56:07 [ServerInfo] Monster loaded successfully
+01:56:07 [ServerInfo] Move loaded successfully
+01:56:07 [ServerInfo] Quest loaded successfully
+01:56:07 [ServerInfo] Shop loaded successfully
+01:56:07 [ServerInfo] Skill loaded successfully
+01:56:07 [ServerInfo] Util loaded successfully
+01:56:07 [ReadBotInfo] BotSystem loaded successfully
+03:32:59 [Obj][13004] AddClient (162.142.125.47)
+03:33:03 [Obj][13004] DelClient (162.142.125.47)
+03:33:07 [Obj][13003] AddClient (162.142.125.47)
+03:33:17 [Obj][13003] DelClient (162.142.125.47)
+04:05:43 [Obj][13002] AddClient (66.132.172.198)
+04:05:46 [Obj][13002] DelClient (66.132.172.198)
+04:05:50 [Obj][13000] AddClient (66.132.172.198)
+04:06:00 [Obj][13000] DelClient (66.132.172.198)
+16:27:34 [Obj][13004] AddClient (177.200.34.53)
+16:27:40 [Obj][13004] AddAccount (videodv)
+16:27:43 [Obj][13004] LogInCharacter (AdmSaffe)
+18:50:49 [FakeOnline] Loaded successfully
+18:50:49 [ServerInfo] Custom loaded successfully
+19:10:41 [FakeOnline] Loaded successfully
+19:10:41 [ServerInfo] Custom loaded successfully
+19:14:07 [FakeOnline] Loaded successfully
+19:14:07 [ServerInfo] Custom loaded successfully
+19:16:51 [FakeOnline] Loaded successfully
+19:16:51 [ServerInfo] Custom loaded successfully
+19:20:34 [FakeOnline] Loaded successfully
+19:20:34 [ServerInfo] Custom loaded successfully
+19:20:38 [ServerInfo] Event loaded successfully
+19:40:51 [Obj][13004] LogOutCharacter (AdmSaffe)
+19:40:51 [Obj][13004] DelAccount (videodv)
+19:40:51 [Obj][13004] DelClient (177.200.34.53)
+19:41:14 [Obj][13003] AddClient (177.200.34.53)
+19:41:21 [Obj][13003] AddAccount (videodv)
+19:41:22 [Obj][13003] LogInCharacter (AdmSaffe)
+19:41:54 [Obj][13003] LogOutCharacter (AdmSaffe)
+19:41:54 [Obj][13003] DelAccount (videodv)
+19:41:54 [Obj][13003] DelClient (177.200.34.53)
+19:42:11 [Obj][13002] AddClient (177.200.34.53)
+19:42:12 [Obj][13002] AddAccount (videodv)
+19:42:14 [Obj][13002] LogInCharacter (AdmSaffe)
+19:43:26 [Obj][13002] LogOutCharacter (AdmSaffe)
+19:43:26 [Obj][13002] DelAccount (videodv)
+19:43:26 [Obj][13002] DelClient (177.200.34.53)
+19:43:42 [Obj][13000] AddClient (177.200.34.53)
+19:43:43 [Obj][13000] AddAccount (videodv)
+19:43:44 [Obj][13000] LogInCharacter (AdmSaffe)
+19:43:52 [Obj][13000] LogOutCharacter (AdmSaffe)
+19:43:52 [Obj][13000] DelAccount (videodv)
+19:43:52 [Obj][13000] DelClient (177.200.34.53)
+19:44:25 [ServerInfo] CashShop loaded successfully
+19:44:25 [ServerInfo] ChaosMix loaded successfully
+19:44:25 [ServerInfo] Character loaded successfully
+19:44:25 [ServerInfo] Command loaded successfully
+19:44:26 [ServerInfo] Common loaded successfully
+19:44:26 [FakeOnline] Loaded successfully
+19:44:26 [ServerInfo] Custom loaded successfully
+19:44:26 [ServerInfo] Discord loaded successfully
+19:44:26 [ServerInfo] Effect loaded successfully
+19:44:26 [ServerInfo] Event loaded successfully
+19:44:26 [ServerInfo] EventItemBag loaded successfully
+19:44:26 [ServerInfo] Hack loaded successfully
+19:44:26 [ServerInfo] Message loaded successfully
+19:44:26 [ServerInfo] Map loaded successfully
+19:44:26 [ServerInfo] Message loaded successfully
+19:44:26 [ServerInfo] Monster loaded successfully
+19:44:26 [ServerInfo] Move loaded successfully
+19:44:26 [ServerInfo] Quest loaded successfully
+19:44:26 [ServerInfo] Shop loaded successfully
+19:44:26 [ServerInfo] Skill loaded successfully
+19:44:26 [ServerInfo] Util loaded successfully
+19:44:26 [ReadBotInfo] BotSystem loaded successfully
+19:44:52 [Obj][13004] AddClient (177.200.34.53)
+19:44:53 [Obj][13004] AddAccount (videodv)
+19:44:55 [Obj][13004] LogInCharacter (AdmSaffe)
+19:47:35 [Obj][13004] LogOutCharacter (AdmSaffe)
+19:47:35 [Obj][13004] DelAccount (videodv)
+19:47:35 [Obj][13004] DelClient (177.200.34.53)
+19:47:51 [Obj][13003] AddClient (177.200.34.53)
+19:47:52 [Obj][13003] AddAccount (videodv)
+19:47:54 [Obj][13003] LogInCharacter (AdmSaffe)
+19:57:06 [Obj][13003] LogOutCharacter (AdmSaffe)
+19:57:06 [Obj][13003] DelAccount (videodv)
+19:57:06 [Obj][13003] DelClient (177.200.34.53)
+19:57:22 [Obj][13002] AddClient (177.200.34.53)
+19:57:26 [Obj][13002] AddAccount (videodv)
+19:57:28 [Obj][13002] LogInCharacter (AdmSaffe)
+19:58:36 [Obj][13002] LogOutCharacter (AdmSaffe)
+19:58:36 [Obj][13002] DelAccount (videodv)
+19:58:36 [Obj][13002] DelClient (177.200.34.53)
+19:58:52 [Obj][13000] AddClient (177.200.34.53)
+19:58:53 [Obj][13000] AddAccount (videodv)
+19:58:55 [Obj][13000] LogInCharacter (AdmSaffe)
+19:58:59 [Obj][13000] LogOutCharacter (AdmSaffe)
+19:58:59 [Obj][13000] DelAccount (videodv)
+19:58:59 [Obj][13000] DelClient (177.200.34.53)
+19:59:55 [Obj][13004] AddClient (177.200.34.53)
+19:59:56 [Obj][13004] AddAccount (videodv)
+19:59:58 [Obj][13004] LogInCharacter (AdmSaffe)
+20:00:06 [Obj][13004] LogOutCharacter (AdmSaffe)
+20:00:06 [Obj][13004] DelAccount (videodv)
+20:00:06 [Obj][13004] DelClient (177.200.34.53)
+20:01:39 [Obj][13003] AddClient (177.200.34.53)
+20:01:39 [Obj][13003] AddAccount (videodv)
+20:01:41 [Obj][13003] LogInCharacter (AdmSaffe)
+20:01:51 [Obj][13003] LogOutCharacter (AdmSaffe)
+20:01:51 [Obj][13003] DelAccount (videodv)
+20:01:51 [Obj][13003] DelClient (177.200.34.53)
+20:02:29 [Obj][13002] AddClient (177.200.34.53)
+20:02:30 [Obj][13002] AddAccount (videodv)
+20:02:31 [Obj][13002] LogInCharacter (AdmSaffe)
+20:02:44 [Obj][13002] LogOutCharacter (AdmSaffe)
+20:02:44 [Obj][13002] DelAccount (videodv)
+20:02:44 [Obj][13002] DelClient (177.200.34.53)
+20:04:22 [Obj][13000] AddClient (177.200.34.53)
+20:04:28 [Obj][13000] AddAccount (hellder)
+20:04:29 [Obj][13000] LogInCharacter (Saffe)
+20:09:10 [Obj][13000] LogOutCharacter (Saffe)
+20:09:10 [Obj][13000] DelAccount (hellder)
+20:09:10 [Obj][13000] DelClient (177.200.34.53)
+20:10:44 [Obj][13004] AddClient (177.200.34.53)
+20:10:46 [Obj][13004] AddAccount (hellder)
+20:10:47 [Obj][13004] LogInCharacter (Saffe)
+20:10:59 [Obj][13004] LogOutCharacter (Saffe)
+20:10:59 [Obj][13004] DelAccount (hellder)
+20:10:59 [Obj][13004] DelClient (177.200.34.53)
+20:37:02 [Obj][13003] AddClient (177.200.34.53)
+20:37:04 [Obj][13003] DelClient (177.200.34.53)
+21:11:01 [Obj][13002] AddClient (186.216.60.237)
+21:11:47 [Obj][13002] DelClient (186.216.60.237)

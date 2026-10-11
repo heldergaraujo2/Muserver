@@ -1,0 +1,110 @@
+05:34:44 [Obj][13005] AddClient (66.132.153.114)
+05:34:47 [Obj][13005] DelClient (66.132.153.114)
+05:34:51 [Obj][13002] AddClient (66.132.153.114)
+05:35:01 [Obj][13002] DelClient (66.132.153.114)
+08:51:27 [Obj][13001] LogOutCharacter (Saffe)
+08:51:27 [Obj][13001] DelAccount (hellder)
+08:51:27 [Obj][13001] DelClient (177.200.34.53)
+08:59:49 [Obj][13003] AddClient (177.200.34.53)
+08:59:51 [Obj][13003] AddAccount (hellder)
+08:59:53 [Obj][13003] LogInCharacter (Saffe)
+09:04:29 [Obj][13004] AddClient (177.200.34.53)
+09:04:36 [Obj][13006] LogOutCharacter (100Desculp)
+09:04:36 [Obj][13006] DelAccount (hellderrr)
+09:04:36 [Obj][13006] DelClient (177.200.34.53)
+09:04:37 [Obj][13004] AddAccount (hellderrr)
+09:04:39 [Obj][13004] LogInCharacter (100Desculp)
+09:06:10 [ServerInfo] Skill loaded successfully
+09:06:47 [ServerInfo] Skill loaded successfully
+09:07:23 [ServerInfo] Skill loaded successfully
+09:12:08 [ServerInfo] Skill loaded successfully
+09:12:12 [ServerInfo] Effect loaded successfully
+09:13:32 [ServerInfo] Skill loaded successfully
+09:14:14 [ServerInfo] Skill loaded successfully
+10:24:12 [Obj][13000] AddClient (38.56.81.187)
+10:24:18 [Obj][13000] AddAccount (netocdj3)
+10:24:21 [Obj][13000] LogInCharacter (Foca)
+10:25:25 [Obj][13000] LogOutCharacter (Foca)
+10:25:25 [Obj][13000] DelAccount (netocdj3)
+10:25:25 [Obj][13000] DelClient (38.56.81.187)
+12:56:31 [Obj][13008] AddClient (160.202.130.69)
+12:56:35 [Obj][13008] AddAccount (thecrims1)
+12:56:36 [Obj][13008] LogInCharacter (ExitLag)
+12:57:32 [Obj][13005] AddClient (177.75.50.73)
+12:57:32 [Obj][13005] DelClient (177.75.50.73)
+12:57:32 [Obj][13002] AddClient (177.75.50.73)
+12:57:32 [Obj][13002] DelClient (177.75.50.73)
+12:57:32 [AntiFlood] SYN FLOOD attack(177.75.50.73)
+13:05:00 [Obj][13008] LogOutCharacter (ExitLag)
+13:05:00 [Obj][13008] DelAccount (thecrims1)
+13:05:00 [Obj][13008] DelClient (160.202.130.69)
+13:05:00 [Obj][13001] AddClient (177.75.50.73)
+13:05:00 [Obj][13001] DelClient (177.75.50.73)
+13:05:00 [Obj][13006] AddClient (177.75.50.73)
+13:05:00 [Obj][13006] DelClient (177.75.50.73)
+13:05:00 [AntiFlood] SYN FLOOD attack(177.75.50.73)
+16:37:59 [Obj][13000] AddClient (177.200.34.53)
+16:38:03 [Obj][13003] LogOutCharacter (Saffe)
+16:38:03 [Obj][13003] DelAccount (hellder)
+16:38:03 [Obj][13003] DelClient (177.200.34.53)
+16:38:05 [Obj][13000] AddAccount (hellder)
+16:38:07 [Obj][13000] LogInCharacter (Saffe)
+16:50:45 [ServerInfo] EventItemBag loaded successfully
+17:02:14 [ServerInfo] EventItemBag loaded successfully
+17:03:55 [ServerInfo] EventItemBag loaded successfully
+17:04:43 [ServerInfo] EventItemBag loaded successfully
+17:05:01 [ServerInfo] EventItemBag loaded successfully
+17:05:54 [ServerInfo] EventItemBag loaded successfully
+17:36:45 [ServerInfo] EventItemBag loaded successfully
+17:39:42 [ServerInfo] EventItemBag loaded successfully
+17:40:15 [ServerInfo] EventItemBag loaded successfully
+17:41:01 [ServerInfo] EventItemBag loaded successfully
+17:41:38 [ServerInfo] EventItemBag loaded successfully
+17:42:23 [ServerInfo] EventItemBag loaded successfully
+17:43:02 [ServerInfo] EventItemBag loaded successfully
+17:43:35 [ServerInfo] EventItemBag loaded successfully
+17:44:20 [ServerInfo] EventItemBag loaded successfully
+17:45:29 [ServerInfo] EventItemBag loaded successfully
+17:46:29 [ServerInfo] EventItemBag loaded successfully
+17:47:18 [ServerInfo] Event loaded successfully
+17:47:20 [ServerInfo] EventItemBag loaded successfully
+17:48:00 [ServerInfo] EventItemBag loaded successfully
+17:49:37 [ServerInfo] EventItemBag loaded successfully
+17:50:04 [ServerInfo] EventItemBag loaded successfully
+17:50:30 [ServerInfo] EventItemBag loaded successfully
+17:57:53 [ServerInfo] EventItemBag loaded successfully
+18:20:35 [ServerInfo] EventItemBag loaded successfully
+18:24:13 [ServerInfo] EventItemBag loaded successfully
+18:24:56 [ServerInfo] EventItemBag loaded successfully
+18:27:30 [ServerInfo] EventItemBag loaded successfully
+18:29:08 [ServerInfo] EventItemBag loaded successfully
+18:30:34 [ServerInfo] EventItemBag loaded successfully
+18:31:52 [ServerInfo] EventItemBag loaded successfully
+18:33:40 [ServerInfo] EventItemBag loaded successfully
+18:36:48 [ServerInfo] EventItemBag loaded successfully
+18:37:23 [ServerInfo] EventItemBag loaded successfully
+18:39:39 [ServerInfo] EventItemBag loaded successfully
+18:42:07 [ServerInfo] EventItemBag loaded successfully
+18:47:38 [ServerInfo] EventItemBag loaded successfully
+18:51:33 [ServerInfo] EventItemBag loaded successfully
+19:12:00 [Obj][13005] AddClient (200.25.57.15)
+19:12:01 [Obj][13005] DelClient (200.25.57.15)
+19:12:12 [Obj][13002] AddClient (200.25.57.15)
+19:12:13 [Obj][13002] DelClient (200.25.57.15)
+19:24:35 [Obj][13000] LogOutCharacter (Saffe)
+19:24:35 [Obj][13000] DelAccount (hellder)
+19:24:35 [Obj][13000] DelClient (177.200.34.53)
+19:25:25 [Obj][13004] LogOutCharacter (100Desculp)
+19:25:25 [Obj][13004] DelAccount (hellderrr)
+19:25:25 [Obj][13004] DelClient (177.200.34.53)
+19:26:33 [Obj][13007] LogOutCharacter (testebk)
+19:26:33 [Obj][13007] DelAccount (hellderrrr)
+19:26:33 [Obj][13007] DelClient (177.200.34.53)
+22:27:45 [Obj][13008] AddClient (200.25.57.15)
+22:27:46 [Obj][13008] DelClient (200.25.57.15)
+23:44:59 [Obj][13001] AddClient (194.99.80.130)
+23:45:00 [Obj][13001] AddAccount (joker)
+23:45:02 [Obj][13001] LogInCharacter (joker)
+23:45:21 [Obj][13001] LogOutCharacter (joker)
+23:45:21 [Obj][13001] DelAccount (joker)
+23:45:21 [Obj][13001] DelClient (194.99.80.130)

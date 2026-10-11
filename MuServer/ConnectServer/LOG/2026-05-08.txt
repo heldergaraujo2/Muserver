@@ -1,0 +1,69 @@
+03:33:11 [ServerList] GameServer offline (GameServer) (0)
+05:47:51 [ServerList] GameServer offline (GameServer) (2)
+05:49:32 [SocketManager] Server started at port [44406]
+05:49:32 [ServerList] ServerList loaded successfully
+05:49:36 [ServerList] JoinServer online
+05:49:42 [ServerList] GameServer online (GameServer) (0)
+05:49:48 [ServerList] GameServer online (GameServerCS) (19)
+05:50:00 [ServerList] GameServer online (GameServer) (1)
+12:39:21 [SocketManager] WSAAccept() failed with error: 10061
+12:39:31 [SocketManager] WSAAccept() failed with error: 10061
+16:35:48 [ServerList] GameServer online (GameServer) (2)
+20:48:44 [SocketManager] WSAAccept() failed with error: 10061
+20:48:44 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:09 [SocketManager] WSAAccept() failed with error: 10061
+20:49:10 [SocketManager] WSAAccept() failed with error: 10061
+20:49:19 [SocketManager] WSAAccept() failed with error: 10061
+20:49:20 [SocketManager] WSAAccept() failed with error: 10061
+20:49:30 [SocketManager] WSAAccept() failed with error: 10061
+20:49:30 [SocketManager] WSAAccept() failed with error: 10061
+20:49:40 [SocketManager] WSAAccept() failed with error: 10061
+20:49:40 [SocketManager] WSAAccept() failed with error: 10061
+20:49:50 [SocketManager] WSAAccept() failed with error: 10061
+20:49:50 [SocketManager] WSAAccept() failed with error: 10061
+20:50:00 [SocketManager] WSAAccept() failed with error: 10061
+20:50:10 [SocketManager] WSAAccept() failed with error: 10061
+20:50:20 [SocketManager] WSAAccept() failed with error: 10061
+20:50:23 [SocketManager] WSAAccept() failed with error: 10061
+20:50:30 [SocketManager] WSAAccept() failed with error: 10061
+20:50:41 [SocketManager] WSAAccept() failed with error: 10061
+20:50:51 [SocketManager] WSAAccept() failed with error: 10061
+20:51:01 [SocketManager] WSAAccept() failed with error: 10061
+20:51:02 [SocketManager] WSAAccept() failed with error: 10061
+20:51:11 [SocketManager] WSAAccept() failed with error: 10061
+20:51:21 [SocketManager] WSAAccept() failed with error: 10061
+20:52:22 [SocketManager] WSAAccept() failed with error: 10061
+20:53:03 [SocketManager] WSAAccept() failed with error: 10061
+20:53:03 [SocketManager] WSAAccept() failed with error: 10061
+20:53:03 [SocketManager] WSAAccept() failed with error: 10061
+20:53:12 [SocketManager] WSAAccept() failed with error: 10061
+20:53:13 [SocketManager] WSAAccept() failed with error: 10061
+20:53:13 [SocketManager] WSAAccept() failed with error: 10061
+20:53:13 [SocketManager] WSAAccept() failed with error: 10061
+20:53:22 [SocketManager] WSAAccept() failed with error: 10061
+20:53:23 [SocketManager] WSAAccept() failed with error: 10061
+20:53:23 [SocketManager] WSAAccept() failed with error: 10061
+20:53:23 [SocketManager] WSAAccept() failed with error: 10061
+20:53:33 [SocketManager] WSAAccept() failed with error: 10061
+20:53:34 [SocketManager] WSAAccept() failed with error: 10061
+20:53:34 [SocketManager] WSAAccept() failed with error: 10061
+20:53:34 [SocketManager] WSAAccept() failed with error: 10061
+20:53:44 [SocketManager] WSAAccept() failed with error: 10061
+20:53:44 [SocketManager] WSAAccept() failed with error: 10061
+20:53:44 [SocketManager] WSAAccept() failed with error: 10061
+20:53:44 [SocketManager] WSAAccept() failed with error: 10061
+21:03:23 [SocketManager] WSAAccept() failed with error: 10061
+21:03:23 [SocketManager] WSAAccept() failed with error: 10061
+21:03:23 [SocketManager] WSAAccept() failed with error: 10061
+22:41:55 [SocketManager] Server started at port [44406]
+22:41:55 [ServerList] ServerList loaded successfully
+22:41:56 [ServerList] GameServer online (GameServer) (2)
+22:41:58 [ServerList] JoinServer online
+22:42:05 [ServerList] GameServer online (GameServer) (0)
+22:42:11 [ServerList] GameServer online (GameServerCS) (19)
+22:42:19 [ServerList] GameServer online (GameServer) (1)

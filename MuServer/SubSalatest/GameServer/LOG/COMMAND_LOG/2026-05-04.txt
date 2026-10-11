@@ -1,0 +1,47 @@
+05:51:19 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 48)
+07:51:41 [CommandAddPoint][thecrims2][TheCrims] - (Type: 1, Amount: 78)
+14:57:51 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+14:59:00 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 3)
+15:00:54 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:07:16 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 10)
+15:07:36 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 10)
+15:07:46 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 10)
+15:08:16 [CommandMake][hellder][Saffe] Section: 0, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:08:57 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:09:03 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:15:01 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:21:34 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:22:01 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 10)
+15:29:52 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:32:58 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 10)
+15:34:24 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:38:13 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:38:47 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:39:11 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:40:49 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+15:41:12 [CommandSpot][hellder][Saffe] - (Monster: 859, Qtd: 1)
+20:28:42 [CommandAddPoint][jokerr][Cristal] - (Type: 3, Amount: 162)
+20:29:35 [CommandAddPoint][jokerrr][LapadDoCao] - (Type: 1, Amount: 112)
+20:30:29 [CommandAddPoint][jokerrrr][JokErDL] - (Type: 0, Amount: 115)
+23:04:39 [CommandPKClear][pvp04][PVPRF01] - (PKLevel: 3)
+23:12:38 [CommandReAdd][pvp04][PVPRF01] - OK
+23:12:43 [CommandAddPoint][pvp04][PVPRF01] - (Type: 3, Amount: 999)
+23:12:47 [CommandAddPoint][pvp04][PVPRF01] - (Type: 2, Amount: 10000)
+23:12:49 [CommandReAdd][pvp02][PVPRF] - OK
+23:12:51 [CommandAddPoint][pvp04][PVPRF01] - (Type: 1, Amount: 10000)
+23:12:53 [CommandAddPoint][pvp02][PVPRF] - (Type: 3, Amount: 985)
+23:12:55 [CommandAddPoint][pvp04][PVPRF01] - (Type: 0, Amount: 25000)
+23:13:14 [CommandAddPoint][pvp02][PVPRF] - (Type: 2, Amount: 9985)
+23:13:19 [CommandAddPoint][pvp02][PVPRF] - (Type: 1, Amount: 9985)
+23:13:28 [CommandAddPoint][pvp02][PVPRF] - (Type: 0, Amount: 26985)
+23:15:19 [CommandAddPoint][pvp02][PVPRF] - (Type: 1, Amount: 1000)
+23:15:21 [CommandAddPoint][pvp02][PVPRF] - (Type: 2, Amount: 1100)
+23:15:25 [CommandAddPoint][pvp02][PVPRF] - (Type: 3, Amount: 4)
+23:20:35 [CommandHide][hellder][Saffe] - (State: 1)
+23:26:55 [CommandHide][hellder][Saffe] - (State: 1)
+23:45:30 [CommandReMaster][pvp01][PVPSM] - Used
+23:54:11 [CommandHide][hellder][Saffe] - (State: 0)
+23:59:21 [CommandMake][hellder][Saffe] Section: 12, Type: 325, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:59:26 [CommandMake][hellder][Saffe] Section: 12, Type: 326, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:59:34 [Command Clear Iventory] Use for:[hellder][Saffe]
+23:59:36 [CommandMake][hellder][Saffe] Section: 12, Type: 324, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

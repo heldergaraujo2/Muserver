@@ -1,0 +1,246 @@
+0
+//Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5
+7	152	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//Black Dragon Helm
+7	210	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	224	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	190	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	152	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	210	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	224	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	190	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	152	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	210	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	224	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	190	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	152	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	210	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	224	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	190	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	152	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	210	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	224	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	190	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+0	51	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	52	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	55	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	58	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	71	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	90	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	94	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	96	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+end
+
+1
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time
+7	153	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//Black Dragon Helm
+7	176	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	211	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	218	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	153	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	176	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	211	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	218	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	153	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	176	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	211	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	218	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	153	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	176	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	211	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	218	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	153	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	176	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	211	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	218	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+5	82	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+5	79	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+5	76	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+5	52	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+6	43	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+6	44	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+6	45	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+6	32	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+
+  
+end
+
+2
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time  
+7	154	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//Black Dragon Helm
+7	177	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	212	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	226	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	154	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	177	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	212	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	226	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	154	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	177	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	212	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	226	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	154	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	177	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	212	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	226	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	154	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	177	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	212	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	226	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+4	33	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Soul Bow"
+4	39	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Bow"
+4	41	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Bow"
+4	43	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Bow"
+
+
+
+
+end
+
+3
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time
+
+8	156	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	179	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	214	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	228	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	156	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	179	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	214	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	228	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	156	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	179	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	214	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	228	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	156	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	179	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	214	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	228	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+0	123	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	126	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	128	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+0	130	0	79	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//Lighting Sword
+
+
+
+  
+end
+
+4
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time
+7	155	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//Black Dragon Helm
+7	178	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	213	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	227	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	155	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	178	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	213	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	227	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	155	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	178	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	213	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	227	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	155	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	178	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	213	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	227	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	155	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	178	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	213	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	227	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+5	56	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Soul Stick"
+5	71	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Stick"
+5	77	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Stick"
+5	83	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Stick"
+5	63	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Book of Soul"
+5	72	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Book"
+5	78	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Book"
+5	84	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Book"
+
+  
+end
+
+5
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time
+7	157	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//
+7	180	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	215	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	229	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	157	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	180	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	215	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	229	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	157	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	180	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	215	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	229	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	157	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	180	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	215	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	229	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	157	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	180	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	215	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	229	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+2	28	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Soul Stick"
+2	29	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Stick"
+2	30	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Stick"
+2	31	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Stick"
+2	32	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Book of Soul"
+2	33	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Book"
+2	34	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Book"
+2	35	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Book"  
+end
+
+6
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time
+7	158	0	103	0	1	0	0	0	0	0	1	1	1	1	1	1		0		//
+7	181	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Helm
+7	216	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Helm
+7	230	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Helm
+8	158	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Armor
+8	181	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Armor
+8	216	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Armor
+8	230	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Armor
+9	158	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Pants
+9	181	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Pants
+9	216	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Pants
+9	230	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Pants
+10	158	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Gloves
+10	181	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Gloves
+10	216	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Gloves
+10	230	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Gloves
+11	158	0	103	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Black Dragon Boots
+11	181	0	97	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dragon Boots
+11	216	0	109	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Dark Phoenix Boots
+11	230	0	115	0	1	0	0	0	0	0	255	255	255	255	255	255		0		//Great Dragon Boots
+0	104	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Soul Stick"
+0	104	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Stick"
+0	111	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Stick"
+0	111	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Stick"
+0	113	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Book of Soul"
+0	113	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Manticore Book"
+0	115	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Apocalypse Book"
+0	115	0	200	1	1	0	0	0	0	0	255	255	255	255	255	255		0		//"Temple Guard Book"
+
+  
+end
+
+7
+//      Section Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  BonusSocket  Time  
+end

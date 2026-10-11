@@ -1,0 +1,64 @@
+09:55:44 [SocketManager] Server started at port [55970]
+09:55:50 [ServerManager][0] AddServer (127.0.0.1)
+09:55:50 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+09:55:52 [ServerManager][1] AddServer (127.0.0.1)
+09:55:52 [ServerManager][1] ServerInfo (Test) (55903) (2)
+09:55:57 [ServerManager][2] AddServer (127.0.0.1)
+09:55:57 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+09:56:06 [ServerManager][3] AddServer (127.0.0.1)
+09:56:06 [ServerManager][3] ServerInfo (Speed) (55902) (1)
+10:02:38 [ServerManager][1] DelServer (127.0.0.1)
+10:02:46 [SocketManager] Server started at port [55970]
+10:02:52 [ServerManager][0] AddServer (127.0.0.1)
+10:02:52 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+10:02:58 [ServerManager][1] AddServer (127.0.0.1)
+10:02:58 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+10:03:08 [ServerManager][2] AddServer (127.0.0.1)
+10:03:08 [ServerManager][2] ServerInfo (Speed) (55902) (1)
+10:05:05 Account videodv logged with global password!
+10:11:30 Account videodv logged with global password!
+10:14:16 Account hellder logged with global password!
+10:30:39 Account hellder logged with global password!
+10:32:08 Account hellder logged with global password!
+10:33:35 Account hellder logged with global password!
+10:34:34 Account hellder logged with global password!
+10:37:12 [SocketManager] Server started at port [55970]
+10:37:17 [ServerManager][0] AddServer (127.0.0.1)
+10:37:17 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+10:37:24 [ServerManager][1] AddServer (127.0.0.1)
+10:37:24 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+10:37:34 [ServerManager][2] AddServer (127.0.0.1)
+10:37:34 [ServerManager][2] ServerInfo (Speed) (55902) (1)
+10:38:12 Account hellder logged with global password!
+10:40:44 Account hellder logged with global password!
+10:41:42 Account hellder logged with global password!
+11:18:29 Account hellder logged with global password!
+11:29:14 Account hellder logged with global password!
+11:35:30 Account hellder logged with global password!
+11:37:59 Account hellder logged with global password!
+11:46:02 Account hellder logged with global password!
+11:46:58 Account pvp02 logged with global password!
+12:00:52 Account pvp02 logged with global password!
+12:09:35 Account pvp02 logged with global password!
+12:12:19 Account hellder logged with global password!
+12:27:06 Account hellder logged with global password!
+12:29:12 Account hellder logged with global password!
+13:44:30 Account hellder logged with global password!
+13:45:18 Account videodv logged with global password!
+13:47:47 Account videodv logged with global password!
+13:57:59 Account videodv logged with global password!
+14:01:12 Account videodv logged with global password!
+14:04:07 Account videodv logged with global password!
+14:10:34 Account videodv logged with global password!
+14:13:27 Account videodv logged with global password!
+14:13:30 Account videodv logged with global password!
+14:19:52 Account videodv logged with global password!
+18:32:57 Account pvp01 logged with global password!
+18:48:53 [ServerManager][0] DelServer (127.0.0.1)
+18:49:00 [ServerManager][3] AddServer (127.0.0.1)
+18:49:00 [ServerManager][3] ServerInfo (Geral) (55901) (0)
+18:49:33 Account pvp01 logged with global password!
+18:52:35 Account hellder logged with global password!
+19:38:00 [ServerManager][3] DelServer (127.0.0.1)
+19:38:07 [ServerManager][0] AddServer (127.0.0.1)
+19:38:07 [ServerManager][0] ServerInfo (Geral) (55901) (0)

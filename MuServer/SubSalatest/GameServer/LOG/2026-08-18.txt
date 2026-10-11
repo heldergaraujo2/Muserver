@@ -1,0 +1,85 @@
+10:27:53 [FAKE ONLINE LOG] Start
+10:27:53 [ServerInfo] CashShop loaded successfully
+10:27:53 [ServerInfo] ChaosMix loaded successfully
+10:27:53 [ServerInfo] Character loaded successfully
+10:27:53 [FakeOnline] Loaded successfully
+10:27:53 [ServerInfo] Custom loaded successfully
+10:27:53 [ServerInfo] Command loaded successfully
+10:27:53 [ServerInfo] Common loaded successfully
+10:27:53 [ServerInfo] Discord loaded successfully
+10:27:53 [ServerInfo] Effect loaded successfully
+10:27:53 [ServerInfo] Event loaded successfully
+10:27:54 [ServerInfo] EventItemBag loaded successfully
+10:27:54 [ServerInfo] Hack loaded successfully
+10:27:54 [ServerInfo] Item loaded successfully
+10:27:54 [ServerInfo] Message loaded successfully
+10:27:54 [ServerInfo] Map loaded successfully
+10:27:54 [ServerInfo] Terrain loaded successfully
+10:27:54 [ServerInfo] Monster loaded successfully
+10:27:54 [ServerInfo] Move loaded successfully
+10:27:54 [ServerInfo] Quest loaded successfully
+10:27:54 [ServerInfo] Script loaded successfully
+10:27:54 [ServerInfo] Shop loaded successfully
+10:27:54 [ServerInfo] Skill loaded successfully
+10:27:54 [ServerInfo] Util loaded successfully
+10:27:54 [ReadBotInfo] BotSystem loaded successfully
+10:27:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 151, Y: 76)
+10:27:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+10:27:54 [ServerInfo] Custom Attack offline restored successfully
+10:27:54 [ServerInfo] Custom Store offline restored successfully
+10:27:55 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+10:32:22 [FakeOnline] Loaded successfully
+10:32:22 [ServerInfo] Custom loaded successfully
+10:34:04 [Obj][13000] AddClient (177.200.38.91)
+10:34:12 [Obj][13000] AddAccount (hellder)
+10:34:32 [Obj][13000] LogInCharacter (Saffe)
+10:36:05 [ServerInfo] Monster loaded successfully
+10:36:05 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+10:37:02 [FakeOnline] Loaded successfully
+10:37:02 [ServerInfo] Custom loaded successfully
+10:37:32 [FakeOnline] Loaded successfully
+10:37:32 [ServerInfo] Custom loaded successfully
+10:38:12 [FakeOnline] Loaded successfully
+10:38:12 [ServerInfo] Custom loaded successfully
+10:38:49 [FakeOnline] Loaded successfully
+10:38:49 [ServerInfo] Custom loaded successfully
+10:39:17 [FakeOnline] Loaded successfully
+10:39:17 [ServerInfo] Custom loaded successfully
+10:39:53 [FakeOnline] Loaded successfully
+10:39:53 [ServerInfo] Custom loaded successfully
+10:40:03 [ServerInfo] Monster loaded successfully
+10:40:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+10:40:04 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+10:40:26 [FakeOnline] Loaded successfully
+10:40:26 [ServerInfo] Custom loaded successfully
+10:41:00 [FakeOnline] Loaded successfully
+10:41:00 [ServerInfo] Custom loaded successfully
+11:03:47 [Obj][13000] LogOutCharacter (Saffe)
+11:03:47 [Obj][13000] DelAccount (hellder)
+11:03:47 [Obj][13000] DelClient (177.200.38.91)
+11:43:06 [FakeOnline] Loaded successfully
+11:43:06 [ServerInfo] Custom loaded successfully
+11:43:29 [Obj][13000] AddClient (177.200.38.91)
+11:43:34 [Obj][13000] AddAccount (hellder)
+11:43:35 [Obj][13000] LogInCharacter (Saffe)
+11:52:38 [Obj][13000] LogOutCharacter (Saffe)
+11:52:38 [Obj][13000] DelAccount (hellder)
+11:52:38 [Obj][13000] DelClient (177.200.38.91)
+12:03:06 [Obj][13000] AddClient (177.200.38.91)
+12:03:06 [Obj][13000] AddAccount (hellder)
+12:03:08 [Obj][13000] LogInCharacter (Saffe)
+12:04:48 [FakeOnline] Loaded successfully
+12:04:48 [ServerInfo] Custom loaded successfully
+12:14:03 [FakeOnline] Loaded successfully
+12:14:03 [ServerInfo] Custom loaded successfully
+12:18:07 [FakeOnline] Loaded successfully
+12:18:07 [ServerInfo] Custom loaded successfully
+12:20:23 [Obj][13000] LogOutCharacter (Saffe)
+12:20:23 [Obj][13000] DelAccount (hellder)
+12:20:23 [Obj][13000] DelClient (177.200.38.91)
+13:53:24 [Obj][13000] AddClient (177.200.38.91)
+13:53:26 [Obj][13000] AddAccount (ddarkk)
+13:53:28 [Obj][13000] LogInCharacter (Arkano)
+13:53:42 [Obj][13000] LogOutCharacter (Arkano)
+13:53:42 [Obj][13000] DelAccount (ddarkk)
+13:53:42 [Obj][13000] DelClient (177.200.38.91)

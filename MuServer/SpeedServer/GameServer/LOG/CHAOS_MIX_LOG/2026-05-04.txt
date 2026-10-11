@@ -1,0 +1,8 @@
+20:28:46 ============================= START CUSTOM MIX ============================= 
+20:28:46 [CustomMix][Failure][gordo93][Philco] - (Type: 7, ChaosSuccessRate: 80, ChaosMoney: 1000)
+20:33:02 ============================= START CUSTOM MIX ============================= 
+20:33:02 [Slot 04](Name: Hell Maine's Leather, Index: 7569, Level: 00, Dur: 1, Serial: 006A365A, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:33:02 [Slot 01](Name: Wings of Dragon, Index: 6149, Level: 09, Dur: 214, Serial: 0063E0F4, Option1: 0, Option2: 1, Option3: 4, NewOpt: 040, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:33:02 [Slot 05](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 006A3D91, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:33:02 [Slot 06](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 006A3D97, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+20:33:02 [CustomMix][Failure][gordo93][Philco] - (Type: 182, ChaosSuccessRate: 35, ChaosMoney: 100000000)

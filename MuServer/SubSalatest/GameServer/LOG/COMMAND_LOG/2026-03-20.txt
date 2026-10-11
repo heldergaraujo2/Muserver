@@ -1,0 +1,70 @@
+19:43:44 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 82, X: 24, Y: 18)
+19:43:47 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 82, X: 33, Y: 24)
+19:43:49 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 82, X: 26, Y: 8)
+19:43:52 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 82, X: 26, Y: 18)
+19:43:54 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 82, X: 23, Y: 21)
+19:45:09 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 56, X: 111, Y: 116)
+19:45:14 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 56, X: 86, Y: 23)
+19:45:16 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 56, X: 85, Y: 32)
+19:45:18 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 56, X: 72, Y: 45)
+19:45:20 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 56, X: 67, Y: 52)
+19:47:06 [CommandMake][hellder][Saffe] Section: 14, Type: 431, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:50:58 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:51:35 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:51:40 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:51:45 [CommandMake][hellder][Saffe] Section: 14, Type: 431, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:52:25 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:52:29 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:53:02 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:53:07 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+19:53:40 [CommandGMMove][hellder][Saffe] - (Name: Saffe, Map: 113, X: 0, Y: 0)
+20:05:34 [Command Clear Iventory] Use for:[hellder][Saffe]
+20:17:42 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:19:25 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:19:34 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:19:48 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:20:42 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:23:49 [CustomMove][jaqueline][PatckHorla] - (MoveIndex: 143)
+20:26:00 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+20:30:07 [CommandMake][hellder][Saffe] Section: 5, Type: 10, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+22:57:13 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+22:58:43 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+22:59:08 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+23:00:57 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+23:01:56 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+23:04:00 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+23:06:26 [CommandSpot][hellder][Saffe] - (Monster: 819, Qtd: 1)
+23:07:47 [CommandSpot][hellder][Saffe] - (Monster: 833, Qtd: 1)
+23:08:05 [CommandSpot][hellder][Saffe] - (Monster: 831, Qtd: 1)
+23:08:18 [CommandSpot][hellder][Saffe] - (Monster: 835, Qtd: 1)
+23:08:22 [CommandSpot][hellder][Saffe] - (Monster: 836, Qtd: 1)
+23:08:25 [CommandSpot][hellder][Saffe] - (Monster: 837, Qtd: 1)
+23:08:28 [CommandSpot][hellder][Saffe] - (Monster: 838, Qtd: 1)
+23:08:34 [CommandSpot][hellder][Saffe] - (Monster: 839, Qtd: 1)
+23:09:02 [CommandSpot][hellder][Saffe] - (Monster: 84, Qtd: 1)
+23:09:06 [CommandSpot][hellder][Saffe] - (Monster: 843, Qtd: 1)
+23:09:29 [CommandSpot][hellder][Saffe] - (Monster: 844, Qtd: 1)
+23:11:29 [CommandSpot][hellder][Saffe] - (Monster: 844, Qtd: 1)
+23:13:27 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+23:26:10 [CommandPKClear][hellderr][Louco] - (PKLevel: 3)
+23:26:12 [CustomMove][hellderr][Louco] - (MoveIndex: 143)
+23:34:19 [CommandReAdd][hellder][Saffe] - OK
+23:34:21 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 500)
+23:34:24 [CommandAddPoint][hellder][Saffe] - (Type: 1, Amount: 2000)
+23:34:26 [CommandAddPoint][hellder][Saffe] - (Type: 2, Amount: 2000)
+23:34:29 [CommandAddPoint][hellder][Saffe] - (Type: 3, Amount: 4000)
+23:34:58 [CustomMove][hellder][Saffe] - (MoveIndex: 143)
+23:38:46 [CommandTrack][hellder][Saffe] - (Name: Louco)
+23:39:09 [CommandMake][hellder][Saffe] Section: 7, Type: 10, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:13 [CommandMake][hellder][Saffe] Section: 7, Type: 12, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:16 [CommandMake][hellder][Saffe] Section: 7, Type: 14, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:20 [CommandMake][hellder][Saffe] Section: 7, Type: 16, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:24 [CommandMake][hellder][Saffe] Section: 7, Type: 17, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:27 [CommandMake][hellder][Saffe] Section: 7, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:39:50 [CustomMove][hellderr][Louco] - (MoveIndex: 143)
+23:40:10 [CommandMake][hellder][Saffe] Section: 7, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:22 [CommandMake][hellder][Saffe] Section: 8, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:25 [CommandMake][hellder][Saffe] Section: 9, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:28 [CommandMake][hellder][Saffe] Section: 10, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:31 [CommandMake][hellder][Saffe] Section: 11, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:58 [CommandTrack][hellder][Saffe] - (Name: Louco)

@@ -1,0 +1,68 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// [NPCS] VULCANUS
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+479            63             00         122            135            01             //Doorkeeper Titus
+240            63             00         116            126            02             //Safety Guardia
+end
+
+//=========================================================================================================================================
+// [SPOTS] VULCANUS
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+481            63             4          062            064            062          064          -1             10           //Zombie Fighter
+481            63             4          062            064            062          064          -1             10           //Zombie Fighter
+481            63             4          114            062            114          062          -1             10           //Zombie Fighter
+481            63             4          074            090            074          090          -1             10           //Zombie Fighter
+483            63             4          033            131            033          131          -1             10           //Resurrected Gladiator
+483            63             4          047            019            047          019          -1             10           //Resurrected Gladiator
+485            63             4          149            195            149          195          -1             10           //Ash Slaughterer
+485            63             4          204            224            204          224          -1             10           //Ash Slaughterer
+485            63             4          082            199            082          199          -1             10           //Ash Slaughterer
+485            63             4          197            181            197          181          -1             10           //Ash Slaughterer
+488            63             4          198            106            198          106          -1             10           //Cruel Blood Assassin
+488            63             4          238            119            238          119          -1             10           //Cruel Blood Assassin
+488            63             4          178            110            178          110          -1             10           //Cruel Blood Assassin
+491            63             4          152            089            152          089          -1             10           //Ruthless Lava Giant
+491            63             4          193            019            193          019          -1             10           //Ruthless Lava Giant
+491            63             4          092            179            092          179          -1             10           //Ruthless Lava Giant
+end
+
+////=========================================================================================================================================
+//// [SPOTS] VULCANUS	RECOMENDADO P/ SV HARD
+////=========================================================================================================================================
+//1
+////Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+//481            63             4          064            054            124          089          -1             0            //Zombie Fighter
+//481            63             4          065            012            105          047          -1             0            //Zombie Fighter
+//481            63             4          022            010            064          098          -1             0            //Zombie Fighter
+//483            63             4          021            128            077          186          -1             0            //Resurrected Gladiator
+//483            63             4          028            189            105          232          -1             0            //Resurrected Gladiator
+//485            63             4          123            186            174          219          -1             0            //Ash Slaughterer
+//485            63             4          172            215            230          234          -1             0            //Ash Slaughterer
+//485            63             4          175            171            238          194          -1             0            //Ash Slaughterer
+//485            63             4          203            195            243          214          -1             0            //Ash Slaughterer
+//488            63             4          198            106            226          148          -1             0            //Cruel Blood Assassin
+//488            63             4          228            107            248          133          -1             0            //Cruel Blood Assassin
+//488            63             4          168            101            198          131          -1             0            //Cruel Blood Assassin
+//491            63             4          143            008            178          063          -1             0            //Ruthless Lava Giant
+//491            63             4          182            013            210          070          -1             0            //Ruthless Lava Giant
+//491            63             4          211            039            244          072          -1             0            //Ruthless Lava Giant
+//end
+
+//=========================================================================================================================================
+// [ESPALHADOS] VULCANUS
+//=========================================================================================================================================
+2
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+
+end

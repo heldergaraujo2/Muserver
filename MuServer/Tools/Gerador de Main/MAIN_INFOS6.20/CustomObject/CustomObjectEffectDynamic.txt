@@ -1,0 +1,4 @@
+//ItemIndex   	EffectIndex	EffectValue   EffectLevel	ColorR	ColorG	ColorB	Type	Size   CSide
+ //349                 32077       1              0       0.19      0.42   0.70    9.0    0.5     0.0 
+ //349                 1452        1              0       0.19      0.42   0.70    9.0    0.5     0.0 
+end

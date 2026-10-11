@@ -1,0 +1,19 @@
+23:09:05 ============================= START MIX ============================= 
+23:09:05 [Slot 01](Name: Spirit, Index: 6687, Level: 01, Dur: 1, Serial: 005A741D, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:09:05 [Slot 02](Name: Jewel of Bless, Index: 7181, Level: 00, Dur: 2, Serial: 005A7406, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:09:05 [Slot 03](Name: Jewel of Soul, Index: 7182, Level: 00, Dur: 2, Serial: 005A7688, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:09:05 [Slot 04](Name: Jewel of Creation, Index: 7190, Level: 00, Dur: 1, Serial: 005A787E, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:09:05 [Slot 05](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 005A7875, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:09:05 [PetMix][Success][llkioll][PeSaDeL0] - (Type: 1, ChaosSuccessRate: 80, ChaosMoney: 1000000)
+23:18:45 ============================= START MIX ============================= 
+23:18:45 [Slot 15](Name: Spirit Boots, Index: 5645, Level: 07, Dur: 48, Serial: 005A7AFA, Option1: 0, Option2: 1, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:18:45 [Slot 22](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 005A7B55, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:18:45 [ChaosItemMix][Failure][gibaaraujo][MagoNegro] - (ChaosSuccessRate: 60, ChaosMoney: 600000)
+23:19:04 ============================= START MIX ============================= 
+23:19:04 [Slot 04](Name: Brass Helm, Index: 3592, Level: 07, Dur: 54, Serial: 005A7811, Option1: 0, Option2: 1, Option3: 3, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:19:04 [Slot 23](Name: Jewel of Chaos, Index: 6159, Level: 00, Dur: 1, Serial: 005A7B66, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:19:04 [ChaosItemMix][Success][gibaaraujo][MagoNegro] - (ChaosSuccessRate: 60, ChaosMoney: 600000)
+23:36:33 ============================= START MIX ============================= 
+23:36:33 [Slot 01](Name: Sealed Silver Box, Index: 7290, Level: 00, Dur: 1, Serial: 005A7F62, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:36:33 [Slot 02](Name: Silver Key, Index: 7280, Level: 00, Dur: 1, Serial: 005A7FD7, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+23:36:33 [ChestMix][Success][llkioll][PeSaDeL0] - (ChaosSuccessRate: 0, ChaosMoney: 0)

@@ -1,0 +1,17 @@
+00:07:31 [ServerList] GameServer offline (GameServer) (1)
+02:33:46 [AntiFlood] SYN FLOOD attack(200.101.62.56)
+02:33:46 [SocketManager] WSAAccept() failed with error: 10061
+11:13:02 [SocketManager] Protocol header error (Index: 1486, Header: 16)
+11:13:02 [SocketManager] Protocol header error (Index: 274, Header: 47)
+11:13:03 [SocketManager] Protocol header error (Index: 667, Header: 53)
+11:13:03 [SocketManager] Protocol header error (Index: 2453, Header: 5)
+11:13:04 [SocketManager] Protocol header error (Index: 1063, Header: 4)
+11:13:04 [SocketManager] Protocol header error (Index: 2885, Header: 48)
+11:13:05 [SocketManager] Protocol header error (Index: 1429, Header: 4f)
+11:13:05 [SocketManager] Protocol header error (Index: 1367, Header: 0)
+12:11:24 [SocketManager] Protocol header error (Index: 645, Header: 47)
+15:41:38 [AntiFlood] SYN FLOOD attack(177.130.13.40)
+15:41:38 [SocketManager] WSAAccept() failed with error: 10061
+20:18:03 [ServerList] GameServer online (GameServer) (1)
+22:56:36 [AntiFlood] SYN FLOOD attack(45.168.119.108)
+22:56:36 [SocketManager] WSAAccept() failed with error: 10061

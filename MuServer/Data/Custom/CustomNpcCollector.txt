@@ -1,0 +1,234 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=================================================================================================================
+//-- Npc 236 Golden Archer
+//=================================================================================================================
+
+//=================================================================================================================
+//      #Index	#Category  #ItemIndex  #ItemLevel  #Amount	 
+//=================================================================================================================
+0
+		0		6           6             13           1		//Jewel of Chaos
+		0		14          443           0            1		//Jewel of Chaos
+		0		14          444           0            1		//Jewel of Chaos
+		0		14          445           0            1		//Jewel of Chaos
+		0		14          446           0            1		//Jewel of Chaos
+		0		14          447           0            1		//Jewel of Chaos
+		1		6           14             13           1		//Jewel of Chaos
+		1		14          443           0            1		//Jewel of Chaos
+		1		14          444           0            1		//Jewel of Chaos
+		1		14          445           0            1		//Jewel of Chaos
+		1		14          446           0            1		//Jewel of Chaos
+		1		14          447           0            1		//Jewel of Chaos
+		2		6           15             13           1		//Jewel of Chaos
+		2		14          443           0            1		//Jewel of Chaos
+		2		14          444           0            1		//Jewel of Chaos
+		2		14          445           0            1		//Jewel of Chaos
+		2		14          446           0            1		//Jewel of Chaos
+		2		14          447           0            1		//Jewel of Chaos
+		3		6           20             13           1		//Jewel of Chaos
+		3		14          443           0            1		//Jewel of Chaos
+		3		14          444           0            1		//Jewel of Chaos
+		3		14          445           0            1		//Jewel of Chaos
+		3		14          446           0            1		//Jewel of Chaos
+		3		14          447           0            1		//Jewel of Chaos
+		4		6           24             13           1		//Jewel of Chaos
+		4		14          443           0            1		//Jewel of Chaos
+		4		14          444           0            1		//Jewel of Chaos
+		4		14          445           0            1		//Jewel of Chaos
+		4		14          446           0            1		//Jewel of Chaos
+		4		14          447           0            1		//Jewel of Chaos
+		5		6           2             13           1		//Jewel of Chaos
+		5		14          443           0            1		//Jewel of Chaos
+		5		14          444           0            1		//Jewel of Chaos
+		5		14          445           0            1		//Jewel of Chaos
+		5		14          446           0            1		//Jewel of Chaos
+		5		14          447           0            1		//Jewel of Chaos
+		6		6           5             13           1		//Jewel of Chaos
+		6		14          443           0            1		//Jewel of Chaos
+		6		14          444           0            1		//Jewel of Chaos
+		6		14          445           0            1		//Jewel of Chaos
+		6		14          446           0            1		//Jewel of Chaos
+		6		14          447           0            1		//Jewel of Chaos
+		7		6           8             13           1		//Jewel of Chaos
+		7		14          443           0            1		//Jewel of Chaos
+		7		14          444           0            1		//Jewel of Chaos
+		7		14          445           0            1		//Jewel of Chaos
+		7		14          446           0            1		//Jewel of Chaos
+		7		14          447           0            1		//Jewel of Chaos
+		8		6           17             13           1		//Jewel of Chaos
+		8		14          443           0            1		//Jewel of Chaos
+		8		14          444           0            1		//Jewel of Chaos
+		8		14          445           0            1		//Jewel of Chaos
+		8		14          446           0            1		//Jewel of Chaos
+		8		14          447           0            1		//Jewel of Chaos
+		9		6           22             13           1		//Jewel of Chaos
+		9		14          443           0            1		//Jewel of Chaos
+		9		14          444           0            1		//Jewel of Chaos
+		9		14          445           0            1		//Jewel of Chaos
+		9		14          446           0            1		//Jewel of Chaos
+		9		14          447           0            1		//Jewel of Chaos
+		10		6           7             13           1		//Jewel of Chaos
+		10		14          443           0            1		//Jewel of Chaos
+		10		14          444           0            1		//Jewel of Chaos
+		10		14          445           0            1		//Jewel of Chaos
+		10		14          446           0            1		//Jewel of Chaos
+		10		14          447           0            1		//Jewel of Chaos
+		11		6           9             13           1		//Jewel of Chaos
+		11		14          443           0            1		//Jewel of Chaos
+		11		14          444           0            1		//Jewel of Chaos
+		11		14          445           0            1		//Jewel of Chaos
+		11		14          446           0            1		//Jewel of Chaos
+		11		14          447           0            1		//Jewel of Chaos
+		12		6           11             13           1		//Jewel of Chaos
+		12		14          443           0            1		//Jewel of Chaos
+		12		14          444           0            1		//Jewel of Chaos
+		12		14          445           0            1		//Jewel of Chaos
+		12		14          446           0            1		//Jewel of Chaos
+		12		14          447           0            1		//Jewel of Chaos
+		13		6           21             13           1		//Jewel of Chaos
+		13		14          443           0            1		//Jewel of Chaos
+		13		14          444           0            1		//Jewel of Chaos
+		13		14          445           0            1		//Jewel of Chaos
+		13		14          446           0            1		//Jewel of Chaos
+		13		14          447           0            1		//Jewel of Chaos
+		14		6           26             13           1		//Jewel of Chaos
+		14		14          443           0            1		//Jewel of Chaos
+		14		14          444           0            1		//Jewel of Chaos
+		14		14          445           0            1		//Jewel of Chaos
+		14		14          446           0            1		//Jewel of Chaos
+		14		14          447           0            1		//Jewel of Chaos
+		15		6           36             13           1		//Jewel of Chaos
+		15		14          443           0            1		//Jewel of Chaos
+		15		14          444           0            1		//Jewel of Chaos
+		15		14          445           0            1		//Jewel of Chaos
+		15		14          446           0            1		//Jewel of Chaos
+		15		14          447           0            1		//Jewel of Chaos
+		16		6           12             13           1		//Jewel of Chaos
+		16		14          443           0            1		//Jewel of Chaos
+		16		14          444           0            1		//Jewel of Chaos
+		16		14          445           0            1		//Jewel of Chaos
+		16		14          446           0            1		//Jewel of Chaos
+		16		14          447           0            1		//Jewel of Chaos
+		17		6           13             13           1		//Jewel of Chaos
+		17		14          443           0            1		//Jewel of Chaos
+		17		14          444           0            1		//Jewel of Chaos
+		17		14          445           0            1		//Jewel of Chaos
+		17		14          446           0            1		//Jewel of Chaos
+		17		14          447           0            1		//Jewel of Chaos
+		18		6           18             13           1		//Jewel of Chaos
+		18		14          443           0            1		//Jewel of Chaos
+		18		14          444           0            1		//Jewel of Chaos
+		18		14          445           0            1		//Jewel of Chaos
+		18		14          446           0            1		//Jewel of Chaos
+		18		14          447           0            1		//Jewel of Chaos
+		19		6           25             13           1		//Jewel of Chaos
+		19		14          443           0            1		//Jewel of Chaos
+		19		14          444           0            1		//Jewel of Chaos
+		19		14          445           0            1		//Jewel of Chaos
+		19		14          446           0            1		//Jewel of Chaos
+		19		14          447           0            1		//Jewel of Chaos
+		20		6           03             13           1		//Jewel of Chaos
+		20		14          443           0            1		//Jewel of Chaos
+		20		14          444           0            1		//Jewel of Chaos
+		20		14          445           0            1		//Jewel of Chaos
+		20		14          446           0            1		//Jewel of Chaos
+		20		14          447           0            1		//Jewel of Chaos
+		21		6           16             13           1		//Jewel of Chaos
+		21		14          443           0            1		//Jewel of Chaos
+		21		14          444           0            1		//Jewel of Chaos
+		21		14          445           0            1		//Jewel of Chaos
+		21		14          446           0            1		//Jewel of Chaos
+		21		14          447           0            1		//Jewel of Chaos
+		22		6           40             13           1		//Jewel of Chaos
+		22		14          443           0            1		//Jewel of Chaos
+		22		14          444           0            1		//Jewel of Chaos
+		22		14          445           0            1		//Jewel of Chaos
+		22		14          446           0            1		//Jewel of Chaos
+		22		14          447           0            1		//Jewel of Chaos
+		23		6           19             13           1		//Jewel of Chaos
+		23		14          443           0            1		//Jewel of Chaos
+		23		14          444           0            1		//Jewel of Chaos
+		23		14          445           0            1		//Jewel of Chaos
+		23		14          446           0            1		//Jewel of Chaos
+		23		14          447           0            1		//Jewel of Chaos
+		24		6           23             13           1		//Jewel of Chaos
+		24		14          443           0            1		//Jewel of Chaos
+		24		14          444           0            1		//Jewel of Chaos
+		24		14          445           0            1		//Jewel of Chaos
+		24		14          446           0            1		//Jewel of Chaos
+		24		14          447           0            1		//Jewel of Chaos
+		25		0           135             13           1		//Jewel of Chaos
+		25		14          443           0            1		//Jewel of Chaos
+		25		14          444           0            1		//Jewel of Chaos
+		25		14          445           0            1		//Jewel of Chaos
+		25		14          446           0            1		//Jewel of Chaos
+		25		14          447           0            1		//Jewel of Chaos
+		26		0           136             13           1		//Jewel of Chaos
+		26		14          443           0            1		//Jewel of Chaos
+		26		14          444           0            1		//Jewel of Chaos
+		26		14          445           0            1		//Jewel of Chaos
+		26		14          446           0            1		//Jewel of Chaos
+		26		14          447           0            1		//Jewel of Chaos
+		27		0           137             13           1		//Jewel of Chaos
+		27		14          443           0            1		//Jewel of Chaos
+		27		14          444           0            1		//Jewel of Chaos
+		27		14          445           0            1		//Jewel of Chaos
+		27		14          446           0            1		//Jewel of Chaos
+		27		14          447           0            1		//Jewel of Chaos
+
+		
+end
+
+//=================================================================================================================
+// Reward Item
+//=================================================================================================================
+	//Index Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 Time	Class
+1
+	    0      6        14      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    1      6        15      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    2      6        20      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    3      6        24      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    4      6        30      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    5      6        5       0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    6      6        8       0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    7      6        17      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    8      6        22      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    9      6        30      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    10     6        9       0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    11     6        11      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    12     6        21      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    13     6        26      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    14     6        30      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    15     6        12      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    16     6        13      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    17     6        18      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    18     6        25      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    19     6        30      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    20     6        16      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    21     6        40      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    22     6        19      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    23     6        23      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    24     6        30      0      255    1       1       7       44       0       0   3    *       *       *        *       *     *       *
+	    25     0        136      0      255    1       1       7       56       0       0   3    *       *       *        *       *     *       *
+	    26     0        137      0      255    1       1       7       56       0       0   3    *       *       *        *       *     *       *
+	    27     0        138      0      255    1       1       7       56       0       0   3    *       *       *        *       *     *       *
+	
+	
+	
+	
+end
+
+//=================================================================================================================
+// Reward Coin
+//=================================================================================================================
+2
+	//Index WC	WP	GP
+//	0		20	0	0
+//	2		0	0	0
+end

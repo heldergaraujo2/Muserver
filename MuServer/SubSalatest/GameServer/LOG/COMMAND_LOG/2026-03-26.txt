@@ -1,0 +1,351 @@
+13:08:42 [CommandDisconnect][hellder][Saffe] - (Name: Invocadora)
+13:08:54 [CommandDisconnect][hellder][Saffe] - (Name: Snuff)
+13:09:11 [CommandTrace][hellder][Saffe] - (Name: SUSANA)
+13:09:26 [Command Clear Iventory] Use for:[hellder][Saffe]
+13:09:47 [Command Clear Iventory] Use for:[marcio123][SUSANA]
+13:09:52 [CommandSetLevel][hellder][Saffe] - (Player: SUSANA,Level: 400)
+13:10:50 [CommandSetFull][hellder][Saffe] - (Player: SUSANA, Str: 7580, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+13:10:59 [CommandReAdd][marcio123][SUSANA] - OK
+13:11:12 [CommandReAdd][marcio300][ZAKUM] - OK
+13:11:19 [CommandAddPoint][marcio300][ZAKUM] - (Type: 0, Amount: 670)
+13:11:21 [CommandAddPoint][marcio300][ZAKUM] - (Type: 1, Amount: 320)
+13:11:25 [CommandAddPoint][marcio300][ZAKUM] - (Type: 3, Amount: 400)
+13:11:28 [CommandAddPoint][marcio300][ZAKUM] - (Type: 2, Amount: 6054)
+13:11:55 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+13:13:24 [CommandAddPoint][hellder][TIMORDI] - (Type: 2, Amount: 218)
+13:13:37 [CustomMove][marcio300][ZAKUM] - (MoveIndex: 1)
+13:13:57 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 13, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:14:03 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 21, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:14:07 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 21, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:15:26 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 40, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:17:47 [Command Clear Iventory] Use for:[hellder][TIMORDI]
+13:18:12 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:18:17 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:18:20 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:18:23 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:18:50 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:18:58 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 108, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:02 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 106, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:10 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 46, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:15 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 48, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:20 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 50, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:29 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+13:19:35 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 32, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:40 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 34, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:45 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 36, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:48 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 38, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:52 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 40, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:19:59 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 42, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:20:06 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:20:47 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+13:21:03 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 6, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:22:10 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 216, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:22:14 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 219, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:22:18 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 212, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:22:23 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 213, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:22:26 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 214, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:24:25 [CommandReAdd][hellder][TIMORDI] - OK
+13:24:35 [CommandAddPoint][hellder][TIMORDI] - (Type: 0, Amount: 2000)
+13:24:49 [CommandAddPoint][hellder][TIMORDI] - (Type: 1, Amount: 2000)
+13:24:52 [CommandAddPoint][hellder][TIMORDI] - (Type: 2, Amount: 3218)
+13:25:13 [CommandReAdd][hellder][TIMORDI] - OK
+13:25:18 [CommandAddPoint][hellder][TIMORDI] - (Type: 0, Amount: 2000)
+13:25:23 [CommandAddPoint][hellder][TIMORDI] - (Type: 1, Amount: 2000)
+13:25:31 [CommandAddPoint][hellder][TIMORDI] - (Type: 3, Amount: 218)
+13:25:36 [CommandAddPoint][hellder][TIMORDI] - (Type: 2, Amount: 3000)
+13:33:49 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 3, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:33:58 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 4, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:39:11 [CommandHide][hellder][Saffe] - (State: 1)
+13:39:41 [CommandReAdd][marcio300][JUSTICE] - OK
+13:39:44 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+13:39:48 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 2200)
+13:39:52 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2500)
+13:39:58 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2917)
+13:40:00 [CommandReAdd][marcio300][JUSTICE] - OK
+13:40:02 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+13:40:07 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 2300)
+13:40:10 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2500)
+13:40:14 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 2817)
+13:47:22 [CommandReAdd][marcio300][JUSTICE] - OK
+13:47:26 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 4000)
+13:47:28 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 1000)
+13:47:35 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 2700)
+13:47:37 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 217)
+13:52:38 [CustomMove][marcio300][JUSTICE] - (MoveIndex: 1)
+13:52:46 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+13:53:05 [CommandPKClear][hellderrrr][Suavera] - (PKLevel: 3)
+13:53:30 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+13:56:25 [CommandReAdd][hellderrrr][Suavera] - OK
+13:56:34 [CommandAddPoint][hellderrrr][Suavera] - (Type: 0, Amount: 977)
+13:56:37 [CommandAddPoint][hellderrrr][Suavera] - (Type: 1, Amount: 2200)
+13:56:41 [CommandAddPoint][hellderrrr][Suavera] - (Type: 3, Amount: 3400)
+13:56:44 [CommandAddPoint][hellderrrr][Suavera] - (Type: 4, Amount: 300)
+13:56:55 [CommandAddPoint][hellderrrr][Suavera] - (Type: 2, Amount: 1800)
+13:58:30 [CommandReAdd][marcio300][JUSTICE] - OK
+13:58:31 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 2000)
+13:58:34 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 3000)
+13:58:36 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+13:58:38 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 2617)
+14:00:36 [CustomMove][hellder][TIMORDI] - (MoveIndex: 1)
+14:01:17 [CustomMove][hellder][TIMORDI] - (MoveIndex: 1)
+14:06:19 [CommandPKClear][marcio300][JUSTICE] - (PKLevel: 3)
+14:15:07 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+14:15:12 [CommandHide][hellder][Saffe] - (State: 1)
+14:15:35 [CustomMove][marcio300][JUSTICE] - (MoveIndex: 1)
+14:15:45 [CustomMove][hellderrrr][Elysium] - (MoveIndex: 1)
+14:15:58 [CommandReAdd][marcio300][JUSTICE] - OK
+14:16:15 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 2000)
+14:16:18 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2000)
+14:16:20 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+14:16:22 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 3617)
+14:16:51 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+14:22:24 [CommandReAdd][marcio300][JUSTICE] - OK
+14:22:27 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 4000)
+14:22:28 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 1000)
+14:22:38 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+14:22:40 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 2617)
+14:23:22 [CommandReAdd][marcio300][JUSTICE] - OK
+14:23:24 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 3000)
+14:23:27 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 1500)
+14:23:29 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+14:23:31 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 3117)
+14:24:39 [CommandReAdd][marcio300][JUSTICE] - OK
+14:24:45 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 2000)
+14:24:47 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2000)
+14:24:51 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 300)
+14:24:54 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 3617)
+14:31:36 [CommandReAdd][marcio300][JUSTICE] - OK
+14:31:40 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 769)
+14:31:40 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:31:42 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 278)
+14:31:44 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:31:47 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 233)
+14:31:49 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 117)
+14:32:02 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 46, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:10 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2)
+14:32:17 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 6000)
+14:32:18 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 48, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:20 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 518)
+14:32:23 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 50, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:27 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 52, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:35 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 54, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:40 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:32:53 [CommandMake][hellder][Saffe] Section: 5, Type: 11, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:33:46 [CommandReAdd][marcio300][JUSTICE] - OK
+14:33:52 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 1002)
+14:33:55 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 397)
+14:34:00 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 3000)
+14:34:05 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2000)
+14:34:09 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 500)
+14:34:11 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 1018)
+14:39:15 [CommandDrop][hellder][Saffe] Section: 15, Type: 17, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+14:45:19 [CommandReAdd][marcio300][JUSTICE] - OK
+14:45:26 [CommandAddPoint][marcio300][JUSTICE] - (Type: 0, Amount: 1002)
+14:45:30 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 397)
+14:45:46 [CommandAddPoint][marcio300][JUSTICE] - (Type: 3, Amount: 3500)
+14:45:49 [CommandAddPoint][marcio300][JUSTICE] - (Type: 2, Amount: 1000)
+14:45:53 [CommandAddPoint][marcio300][JUSTICE] - (Type: 1, Amount: 2018)
+14:49:04 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+14:49:07 [CustomMove][marcio300][JUSTICE] - (MoveIndex: 1)
+14:54:01 [CustomMove][hellderrrr][Elysium] - (MoveIndex: 1)
+14:54:18 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+14:54:49 [CommandMake][hellder][Saffe] Section: 0, Type: 20, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:54:55 [CommandMake][hellder][Saffe] Section: 0, Type: 20, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:55:01 [CommandMake][hellder][Saffe] Section: 0, Type: 20, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:55:24 [CommandHide][hellder][Saffe] - (State: 1)
+14:56:23 [CustomMove][marcio300][JUSTICE] - (MoveIndex: 1)
+14:56:31 [CommandMake][hellder][Saffe] Section: 13, Type: 21, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:56:35 [CommandMake][hellder][Saffe] Section: 13, Type: 21, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:56:39 [CommandMake][hellder][Saffe] Section: 13, Type: 13, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:56:56 [CommandHide][hellder][Saffe] - (State: 0)
+14:58:00 [CommandHide][hellder][Saffe] - (State: 1)
+14:58:59 [CustomMove][hellderrrr][Elysium] - (MoveIndex: 1)
+15:00:26 [CommandSetFull][hellder][Saffe] - (Player: Elysium, Str: 2655, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+15:00:43 [CommandReAdd][hellderrrr][Elysium] - OK
+15:01:01 [CommandAddPoint][hellderrrr][Elysium] - (Type: 2, Amount: 3000)
+15:01:34 [CommandAddPoint][hellderrrr][Elysium] - (Type: 3, Amount: 2323)
+15:01:41 [CommandAddPoint][hellderrrr][Elysium] - (Type: 1, Amount: 500)
+15:01:50 [CommandAddPoint][hellderrrr][Elysium] - (Type: 0, Amount: 1500)
+15:01:55 [CommandAddPoint][hellderrrr][Elysium] - (Type: 1, Amount: 300)
+15:05:23 [CommandReAdd][hellderrrr][Elysium] - OK
+15:05:51 [CommandAddPoint][hellderrrr][Elysium] - (Type: 0, Amount: 2500)
+15:05:55 [CommandAddPoint][hellderrrr][Elysium] - (Type: 1, Amount: 1000)
+15:06:00 [CommandAddPoint][hellderrrr][Elysium] - (Type: 3, Amount: 2000)
+15:06:03 [CommandAddPoint][hellderrrr][Elysium] - (Type: 2, Amount: 3140)
+15:07:58 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+15:11:24 [CommandMake][hellder][Saffe] Section: 15, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:11:30 [CommandDrop][hellder][Saffe] Section: 15, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+15:11:34 [CommandDrop][hellder][Saffe] Section: 15, Type: 20, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+15:11:36 [CommandDrop][hellder][Saffe] Section: 15, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+15:11:39 [CommandDrop][hellder][Saffe] Section: 15, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+15:11:41 [CommandDrop][hellder][Saffe] Section: 15, Type: 23, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+15:15:29 [CommandAddPoint][thecrims][Invocadora] - (Type: 3, Amount: 480)
+15:44:05 [CommandPKClear][hellderrrr][Suavera] - (PKLevel: 3)
+15:45:03 [CommandSpot][hellder][Saffe] - (Monster: 24, Qtd: 1)
+15:45:15 [CommandSpot][hellder][Saffe] - (Monster: 24, Qtd: 1)
+15:45:22 [CommandSpot][hellder][Saffe] - (Monster: 19, Qtd: 1)
+15:45:26 [CommandSpot][hellder][Saffe] - (Monster: 14, Qtd: 1)
+15:46:00 [CommandSpot][hellder][Saffe] - (Monster: 9, Qtd: 1)
+15:46:03 [CommandSpot][hellder][Saffe] - (Monster: 51, Qtd: 1)
+15:46:07 [CommandSpot][hellder][Saffe] - (Monster: 37, Qtd: 1)
+15:46:49 [CommandSpot][hellder][Saffe] - (Monster: 73, Qtd: 1)
+15:46:53 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+15:47:03 [CommandSpot][hellder][Saffe] - (Monster: 353, Qtd: 1)
+15:47:04 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+15:48:09 [CommandSpot][hellder][Saffe] - (Monster: 350, Qtd: 1)
+15:48:12 [CommandSpot][hellder][Saffe] - (Monster: 360, Qtd: 1)
+15:48:17 [CommandSpot][hellder][Saffe] - (Monster: 458, Qtd: 1)
+15:48:57 [CommandSpot][hellder][Saffe] - (Monster: 77, Qtd: 1)
+15:49:09 [CommandSpot][hellder][Saffe] - (Monster: 38, Qtd: 1)
+16:13:18 [CustomMove][hellderrrr][Suavera] - (MoveIndex: 1)
+16:14:46 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+16:16:18 [CustomMove][marcio123][SUSANA] - (MoveIndex: 1)
+16:19:38 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+16:19:54 [CommandDrop][hellder][Saffe] Section: 15, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:19:57 [CommandDrop][hellder][Saffe] Section: 15, Type: 20, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:02 [CommandDrop][hellder][Saffe] Section: 15, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:05 [CommandDrop][hellder][Saffe] Section: 15, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:09 [CommandDrop][hellder][Saffe] Section: 15, Type: 23, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:13 [CommandDrop][hellder][Saffe] Section: 15, Type: 24, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:23 [CommandChange][marcio123][SUSANA] - (ChangeUp: 0)
+16:20:25 [CommandDrop][hellder][Saffe] Section: 15, Type: 26, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:28 [CommandDrop][hellder][Saffe] Section: 15, Type: 27, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:34 [CommandDrop][hellder][Saffe] Section: 15, Type: 28, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:37 [CommandDrop][hellder][Saffe] Section: 15, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:47 [CommandDrop][hellder][Saffe] Section: 15, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:51 [CommandDrop][hellder][Saffe] Section: 15, Type: 20, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:53 [CommandDrop][hellder][Saffe] Section: 15, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:56 [CommandDrop][hellder][Saffe] Section: 15, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:20:59 [CommandDrop][hellder][Saffe] Section: 15, Type: 23, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:01 [CommandDrop][hellder][Saffe] Section: 15, Type: 24, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:06 [CommandDrop][hellder][Saffe] Section: 15, Type: 26, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:09 [CommandDrop][hellder][Saffe] Section: 15, Type: 27, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:13 [CommandDrop][hellder][Saffe] Section: 15, Type: 28, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:16 [CommandDrop][hellder][Saffe] Section: 15, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:19 [CommandDrop][hellder][Saffe] Section: 15, Type: 30, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:23 [CommandDrop][hellder][Saffe] Section: 15, Type: 31, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:38 [CommandDrop][hellder][Saffe] Section: 15, Type: 32, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:41 [CommandDrop][hellder][Saffe] Section: 15, Type: 33, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:44 [CommandDrop][hellder][Saffe] Section: 15, Type: 34, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:47 [CommandDrop][hellder][Saffe] Section: 15, Type: 35, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:21:51 [CommandDrop][hellder][Saffe] Section: 15, Type: 36, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:22:03 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 1000)
+16:22:31 [CommandMake][hellder][Saffe] Section: 5, Type: 15, Level: 1, Skill: 1, Luck: 7, Option: 56, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:22:43 [CommandMake][hellder][Saffe] Section: 5, Type: 22, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:23:01 [CommandMake][hellder][Saffe] Section: 5, Type: 22, Level: 18, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:23:15 [CommandMake][hellder][Saffe] Section: 5, Type: 18, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:23:38 [CommandAddPoint][marcio123][SUSANA] - (Type: 0, Amount: 315)
+16:23:39 [Command Clear Iventory] Use for:[hellder][Saffe]
+16:23:40 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 81)
+16:23:44 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 20)
+16:24:03 [CommandMake][hellder][Saffe] Section: 7, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:12 [CommandMake][hellder][Saffe] Section: 7, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:16 [CommandMake][hellder][Saffe] Section: 8, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:18 [CommandMake][hellder][Saffe] Section: 9, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:21 [CommandMake][hellder][Saffe] Section: 10, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:23 [CommandMake][hellder][Saffe] Section: 11, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:24:56 [CommandAddPoint][marcio123][SUSANA] - (Type: 0, Amount: 14)
+16:25:20 [CommandMake][hellder][Saffe] Section: 12, Type: 37, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:25:25 [CommandMake][hellder][Saffe] Section: 12, Type: 38, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:25:29 [Command Clear Iventory] Use for:[hellder][Saffe]
+16:26:06 [CommandMake][hellder][Saffe] Section: 12, Type: 6, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:26:06 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 3000)
+16:26:24 [CommandReAdd][marcio123][SUSANA] - OK
+16:26:26 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 2000)
+16:26:29 [CommandMake][hellder][Saffe] Section: 12, Type: 42, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:26:32 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 500)
+16:27:23 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:27:31 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:27:34 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 101)
+16:27:37 [CommandAddPoint][marcio123][SUSANA] - (Type: 0, Amount: 329)
+16:27:42 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:28:10 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 57, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:28:17 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 55, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:28:23 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 45, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:28:28 [CommandMake][hellder][Saffe] Section: 13, Type: 28, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 46, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:29:11 [CommandMake][hellder][Saffe] Section: 13, Type: 9, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:29:17 [CommandMake][hellder][Saffe] Section: 13, Type: 9, Level: 6, Skill: 1, Luck: 1, Option: 3, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:30:59 [CommandHide][hellder][Saffe] - (State: 1)
+16:33:07 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+16:33:47 [CustomMove][marcio123][SUSANA] - (MoveIndex: 1)
+16:34:06 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 200)
+16:34:15 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 200)
+16:34:21 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 100)
+16:34:34 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 2000)
+16:34:37 [CommandAddPoint][marcio123][SUSANA] - (Type: 2, Amount: 2352)
+16:39:05 [CommandReAdd][marcio123][SUSANA] - OK
+16:39:11 [CommandAddPoint][marcio123][SUSANA] - (Type: 0, Amount: 329)
+16:39:12 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 101)
+16:39:19 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 503)
+16:39:21 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 4000)
+16:39:25 [CommandAddPoint][marcio123][SUSANA] - (Type: 2, Amount: 1000)
+16:39:28 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 1849)
+16:41:45 [CustomMove][hellderrrr][Elysium] - (MoveIndex: 1)
+16:43:31 [CommandPKClear][marcio123][SUSANA] - (PKLevel: 3)
+16:45:18 [CommandReAdd][marcio123][SUSANA] - OK
+16:45:23 [CommandAddPoint][marcio123][SUSANA] - (Type: 0, Amount: 329)
+16:45:25 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 101)
+16:45:28 [CommandAddPoint][marcio123][SUSANA] - (Type: 2, Amount: 1000)
+16:45:37 [CommandAddPoint][marcio123][SUSANA] - (Type: 3, Amount: 5352)
+16:45:39 [CommandAddPoint][marcio123][SUSANA] - (Type: 1, Amount: 1000)
+16:55:46 [CommandMake][hellder][Saffe] Section: 12, Type: 296, Level: 15, Skill: 0, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 5, JoH: 0, 380: 0, [Amount: 1]
+16:56:30 [CommandMake][hellder][Saffe] Section: 11, Type: 230, Level: 15, Skill: 0, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 5, JoH: 0, 380: 0, [Amount: 1]
+16:56:38 [CommandMake][hellder][Saffe] Section: 11, Type: 230, Level: 15, Skill: 0, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 5, JoH: 0, 380: 0, [Amount: 1]
+16:57:29 [CommandMake][hellder][Saffe] Section: 14, Type: 250, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:57:33 [CommandMake][hellder][Saffe] Section: 14, Type: 251, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:09 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:16 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:24 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:27 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:32 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:03:52 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:53 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:03:58 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:04:00 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:04:04 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:04:09 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:05:06 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:05:37 [Command Clear Iventory] Use for:[hellder][Saffe]
+17:06:37 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:06:39 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:06:42 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:07:27 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:07:57 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:08:01 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:08:03 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:08:06 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:09:11 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:09:12 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:09:45 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:09:52 [CommandMake][hellder][Saffe] Section: 7, Type: 0, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:09:53 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:10:07 [CommandMake][hellder][Saffe] Section: 14, Type: 252, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 2]
+17:14:36 [CommandSetLevel][hellder][Saffe] - (Player: Suavera,Level: 400)
+17:23:55 [CommandPKClear][marcio123][SUSANA] - (PKLevel: 3)
+17:33:33 [CustomMove][marcio123][SUSANA] - (MoveIndex: 129)
+23:09:10 [CommandPKClear][hellder][TIMORDI] - (PKLevel: 3)
+23:09:12 [CustomMove][hellder][TIMORDI] - (MoveIndex: 1)
+23:10:41 [CommandReAdd][hellder][TIMORDI] - OK
+23:10:45 [CommandAddPoint][hellder][TIMORDI] - (Type: 1, Amount: 7218)
+23:10:50 [CommandReAdd][hellder][TIMORDI] - OK
+23:10:54 [CommandAddPoint][hellder][TIMORDI] - (Type: 1, Amount: 7000)
+23:10:57 [CommandAddPoint][hellder][TIMORDI] - (Type: 3, Amount: 218)
+23:11:41 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 1)
+23:12:03 [CommandSetFull][videodv][AdmSaffe] - (Player: TIMORDI, Str: 2000, Dex: 65000, Vit: 2000, Ene: 2000, Com: 0)
+23:14:09 [CommandReAdd][hellder][TIMORDI] - OK
+23:42:06 [CommandAddPoint][hellder][TIMORDI] - (Type: 1, Amount: 10000)
+23:42:09 [CommandAddPoint][hellder][TIMORDI] - (Type: 3, Amount: 100)
+23:42:12 [CommandAddPoint][hellder][TIMORDI] - (Type: 3, Amount: 100)
+23:42:17 [CommandAddPoint][hellder][TIMORDI] - (Type: 3, Amount: 100)
+23:42:29 [CommandAddPoint][hellder][TIMORDI] - (Type: 0, Amount: 500)
+23:42:39 [CommandAddPoint][hellder][TIMORDI] - (Type: 0, Amount: 500)
+23:46:58 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 1)
+23:50:26 [CustomMove][hellder][TIMORDI] - (MoveIndex: 1)
+23:52:11 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+23:52:28 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+23:52:48 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+23:52:59 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+23:53:23 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+23:53:50 [CommandReAdd][videodv][AdmSaffe] - OK
+23:54:02 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 15000)
+23:54:10 [CommandAddPoint][videodv][AdmSaffe] - (Type: 3, Amount: 2000)

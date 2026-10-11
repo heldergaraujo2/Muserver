@@ -1,0 +1,53 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+3
+//Index	DropRate	DropInventory
+0	10000		2000000
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0	5	100000	0	1		1	0	0	0	0	0	0
+0	6	100000	0	1		0	1	0	0	0	0	0
+0	7	100000	0	1		0	0	1	0	0	0	0
+0	8	100000	0	1		0	0	0	1	0	0	0
+0	9	100000	0	1		0	0	0	0	1	0	0
+0	10	100000	0	1		0	0	0	0	0	1	0
+0	11	100000	0	1		0	0	0	0	0	0	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+7
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+8
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+9
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+10
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end
+
+11
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6723	0	0	*	*	*	*	*	*	*	259200		// Pet Rudolf
+end

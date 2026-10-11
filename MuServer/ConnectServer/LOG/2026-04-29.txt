@@ -1,0 +1,20 @@
+04:04:11 [SocketManager] Protocol header error (Index: 37, Header: 16)
+04:04:11 [SocketManager] Protocol header error (Index: 42, Header: 47)
+04:04:12 [SocketManager] Protocol header error (Index: 45, Header: 53)
+04:04:12 [SocketManager] Protocol header error (Index: 10, Header: 5)
+04:04:13 [SocketManager] Protocol header error (Index: 1, Header: 4)
+04:04:14 [SocketManager] Protocol header error (Index: 19, Header: 48)
+04:04:15 [SocketManager] Protocol header error (Index: 36, Header: 4f)
+04:04:15 [SocketManager] Protocol header error (Index: 14, Header: 40)
+04:04:15 [SocketManager] Protocol header error (Index: 27, Header: 0)
+15:31:24 [SocketManager] Protocol header error (Index: 53, Header: 12)
+15:31:26 [SocketManager] Protocol header error (Index: 29, Header: 12)
+16:39:17 [SocketManager] Protocol header error (Index: 21, Header: 12)
+16:39:20 [SocketManager] Protocol header error (Index: 11, Header: 12)
+20:18:02 [SocketManager] WSAAccept() failed with error: 10061
+20:18:12 [SocketManager] WSAAccept() failed with error: 10061
+20:18:22 [SocketManager] WSAAccept() failed with error: 10061
+20:18:33 [SocketManager] WSAAccept() failed with error: 10061
+22:30:37 [SocketManager] WSAAccept() failed with error: 10061
+22:34:00 [SocketManager] WSAAccept() failed with error: 10061
+23:27:09 [SocketManager] WSAAccept() failed with error: 10061

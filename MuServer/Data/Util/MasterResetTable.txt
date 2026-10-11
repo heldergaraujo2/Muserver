@@ -1,0 +1,10 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//MinMasterReset   MaxMasterReset   Level_AL0   Level_AL1   Level_AL2   Level_AL3   Money_AL0   Money_AL1   Money_AL2   Money_AL3   Point_AL0   Point_AL1   Point_AL2   Point_AL3
+0				   10000			400			400			400			400			100			100			100 		100			5000			5000			5000			5000
+end

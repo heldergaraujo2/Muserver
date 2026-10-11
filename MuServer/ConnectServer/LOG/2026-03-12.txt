@@ -1,0 +1,13 @@
+07:54:01 [SocketManager] Protocol header error (Index: 19, Header: 3)
+07:54:02 [SocketManager] Protocol header error (Index: 44, Header: 3)
+09:01:57 [ServerList] GameServer offline (GameServer) (1)
+09:02:02 [ServerList] GameServer online (GameServer) (1)
+09:58:32 [SocketManager] Protocol header error (Index: 39, Header: 3)
+09:58:32 [SocketManager] Protocol header error (Index: 8, Header: 3)
+10:00:07 [ServerList] GameServer offline (GameServer) (1)
+10:00:08 [ServerList] GameServer online (GameServer) (1)
+12:01:40 [SocketManager] Protocol header error (Index: 32, Header: 3)
+12:01:41 [SocketManager] Protocol header error (Index: 12, Header: 3)
+18:19:57 [SocketManager] Protocol header error (Index: 11, Header: 3)
+18:19:57 [SocketManager] Protocol header error (Index: 38, Header: 3)
+21:35:04 [SocketManager] WSAAccept() failed with error: 10061

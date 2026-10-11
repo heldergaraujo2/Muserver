@@ -1,0 +1,203 @@
+12:54:56 [FAKE ONLINE LOG] Start
+12:54:56 [ServerInfo] CashShop loaded successfully
+12:54:56 [ServerInfo] ChaosMix loaded successfully
+12:54:56 [ServerInfo] Character loaded successfully
+12:54:56 [FakeOnline] Loaded successfully
+12:54:56 [ServerInfo] Custom loaded successfully
+12:54:56 [ServerInfo] Command loaded successfully
+12:54:56 [ServerInfo] Common loaded successfully
+12:54:56 [ServerInfo] Discord loaded successfully
+12:54:56 [ServerInfo] Effect loaded successfully
+12:54:56 [ServerInfo] Event loaded successfully
+12:54:56 [ServerInfo] EventItemBag loaded successfully
+12:54:56 [ServerInfo] Hack loaded successfully
+12:54:56 [ServerInfo] Item loaded successfully
+12:54:56 [ServerInfo] Message loaded successfully
+12:54:56 [ServerInfo] Map loaded successfully
+12:54:56 [ServerInfo] Terrain loaded successfully
+12:54:56 [ServerInfo] Monster loaded successfully
+12:54:56 [ServerInfo] Move loaded successfully
+12:54:56 [ServerInfo] Quest loaded successfully
+12:54:56 [ServerInfo] Script loaded successfully
+12:54:56 [ServerInfo] Shop loaded successfully
+12:54:56 [ServerInfo] Skill loaded successfully
+12:54:56 [ServerInfo] Util loaded successfully
+12:54:56 [ReadBotInfo] BotSystem loaded successfully
+12:54:56 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+12:54:56 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 165)
+12:54:56 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+12:54:56 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+12:54:57 [ServerInfo] Custom Attack offline restored successfully
+12:54:57 [ServerInfo] Custom Store offline restored successfully
+12:54:57 [Discord] Connection successfully
+12:55:15 [Obj][13000] AddClient (177.200.32.187)
+12:55:16 [Obj][13000] AddAccount (hellder)
+12:55:17 [Obj][13000] LogInCharacter (Saffe)
+12:55:39 [Obj][13000] LogOutCharacter (Saffe)
+12:55:39 [Obj][13000] DelAccount (hellder)
+12:55:39 [Obj][13000] DelClient (177.200.32.187)
+12:59:27 [Obj][13000] AddClient (177.200.32.187)
+12:59:28 [Obj][13000] AddAccount (hellder)
+12:59:29 [Obj][13000] LogInCharacter (Saffe)
+13:00:26 [ServerInfo] Move loaded successfully
+13:00:36 [ServerInfo] Monster loaded successfully
+13:00:36 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+13:00:39 [ServerInfo] CashShop loaded successfully
+13:00:39 [ServerInfo] ChaosMix loaded successfully
+13:00:39 [ServerInfo] Character loaded successfully
+13:00:39 [ServerInfo] Command loaded successfully
+13:00:39 [ServerInfo] Common loaded successfully
+13:00:39 [FakeOnline] Loaded successfully
+13:00:39 [ServerInfo] Custom loaded successfully
+13:00:39 [ServerInfo] Discord loaded successfully
+13:00:39 [ServerInfo] Effect loaded successfully
+13:00:39 [ServerInfo] Event loaded successfully
+13:00:39 [ServerInfo] EventItemBag loaded successfully
+13:00:39 [ServerInfo] Hack loaded successfully
+13:00:39 [ServerInfo] Message loaded successfully
+13:00:39 [ServerInfo] Map loaded successfully
+13:00:39 [ServerInfo] Message loaded successfully
+13:00:39 [ServerInfo] Monster loaded successfully
+13:00:39 [ServerInfo] Move loaded successfully
+13:00:39 [ServerInfo] Quest loaded successfully
+13:00:39 [ServerInfo] Shop loaded successfully
+13:00:39 [ServerInfo] Skill loaded successfully
+13:00:39 [ServerInfo] Util loaded successfully
+13:00:39 [ReadBotInfo] BotSystem loaded successfully
+13:01:33 [Obj][13000] LogOutCharacter (Saffe)
+13:01:33 [Obj][13000] DelAccount (hellder)
+13:01:33 [Obj][13000] DelClient (177.200.32.187)
+13:01:36 [Obj][13001] AddClient (177.200.32.187)
+13:01:37 [Obj][13001] AddAccount (hellder)
+13:01:38 [Obj][13001] LogInCharacter (Saffe)
+13:03:53 [FAKE ONLINE LOG] Start
+13:03:53 [ServerInfo] CashShop loaded successfully
+13:03:53 [ServerInfo] ChaosMix loaded successfully
+13:03:53 [ServerInfo] Character loaded successfully
+13:03:53 [FakeOnline] Loaded successfully
+13:03:53 [ServerInfo] Custom loaded successfully
+13:03:53 [ServerInfo] Command loaded successfully
+13:03:54 [ServerInfo] Common loaded successfully
+13:03:54 [ServerInfo] Discord loaded successfully
+13:03:54 [ServerInfo] Effect loaded successfully
+13:03:54 [ServerInfo] Event loaded successfully
+13:03:54 [ServerInfo] EventItemBag loaded successfully
+13:03:54 [ServerInfo] Hack loaded successfully
+13:03:54 [ServerInfo] Item loaded successfully
+13:03:54 [ServerInfo] Message loaded successfully
+13:03:54 [ServerInfo] Map loaded successfully
+13:03:54 [ServerInfo] Terrain loaded successfully
+13:03:54 [ServerInfo] Monster loaded successfully
+13:03:54 [ServerInfo] Move loaded successfully
+13:03:54 [ServerInfo] Quest loaded successfully
+13:03:54 [ServerInfo] Script loaded successfully
+13:03:54 [ServerInfo] Shop loaded successfully
+13:03:54 [ServerInfo] Skill loaded successfully
+13:03:54 [ServerInfo] Util loaded successfully
+13:03:54 [ReadBotInfo] BotSystem loaded successfully
+13:03:54 [ServerInfo] Custom Attack offline restored successfully
+13:03:54 [ServerInfo] Custom Store offline restored successfully
+13:03:54 [Discord] Connection successfully
+13:04:13 [Obj][13000] AddClient (177.200.32.187)
+13:04:23 [Obj][13000] AddAccount (hellder)
+13:04:23 [Obj][13000] LogInCharacter (Saffe)
+13:04:33 [Obj][13000] LogOutCharacter (Saffe)
+13:04:33 [Obj][13000] DelAccount (hellder)
+13:04:33 [Obj][13000] DelClient (177.200.32.187)
+13:05:54 [Obj][13000] AddClient (177.200.32.187)
+13:05:55 [Obj][13000] AddAccount (hellder)
+13:05:57 [Obj][13000] LogInCharacter (Saffe)
+13:06:28 [Obj][13000] LogOutCharacter (Saffe)
+13:06:28 [Obj][13000] DelAccount (hellder)
+13:06:28 [Obj][13000] DelClient (177.200.32.187)
+20:09:17 [ServerInfo] Monster loaded successfully
+20:09:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+20:09:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 58, Y: 7)
+20:09:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+20:09:27 [Obj][13000] AddClient (177.200.32.187)
+20:09:29 [Obj][13000] AddAccount (hellder)
+20:09:30 [Obj][13000] LogInCharacter (Saffe)
+20:10:57 [Obj][13000] LogOutCharacter (Saffe)
+20:10:57 [Obj][13000] DelAccount (hellder)
+20:10:57 [Obj][13000] DelClient (177.200.32.187)
+20:11:16 [Obj][13000] AddClient (177.200.32.187)
+20:11:16 [Obj][13000] AddAccount (hellder)
+20:11:18 [Obj][13000] LogInCharacter (Saffe)
+20:12:28 [ServerInfo] Map loaded successfully
+20:12:36 [ServerInfo] Monster loaded successfully
+20:12:36 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+20:12:40 [ServerInfo] Map loaded successfully
+20:12:43 [ServerInfo] CashShop loaded successfully
+20:12:43 [ServerInfo] ChaosMix loaded successfully
+20:12:43 [ServerInfo] Character loaded successfully
+20:12:43 [ServerInfo] Command loaded successfully
+20:12:43 [ServerInfo] Common loaded successfully
+20:12:44 [FakeOnline] Loaded successfully
+20:12:44 [ServerInfo] Custom loaded successfully
+20:12:44 [ServerInfo] Discord loaded successfully
+20:12:44 [ServerInfo] Effect loaded successfully
+20:12:44 [ServerInfo] Event loaded successfully
+20:12:44 [ServerInfo] EventItemBag loaded successfully
+20:12:44 [ServerInfo] Hack loaded successfully
+20:12:44 [ServerInfo] Message loaded successfully
+20:12:44 [ServerInfo] Map loaded successfully
+20:12:44 [ServerInfo] Message loaded successfully
+20:12:44 [ServerInfo] Monster loaded successfully
+20:12:44 [ServerInfo] Move loaded successfully
+20:12:44 [ServerInfo] Quest loaded successfully
+20:12:44 [ServerInfo] Shop loaded successfully
+20:12:44 [ServerInfo] Skill loaded successfully
+20:12:44 [ServerInfo] Util loaded successfully
+20:12:44 [ReadBotInfo] BotSystem loaded successfully
+20:13:28 [ServerInfo] Map loaded successfully
+20:13:30 [ServerInfo] Monster loaded successfully
+20:13:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 199, Y: 114)
+20:13:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+20:13:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+20:13:59 [ServerInfo] CashShop loaded successfully
+20:13:59 [ServerInfo] ChaosMix loaded successfully
+20:13:59 [ServerInfo] Character loaded successfully
+20:13:59 [ServerInfo] Command loaded successfully
+20:13:59 [ServerInfo] Common loaded successfully
+20:14:00 [FakeOnline] Loaded successfully
+20:14:00 [ServerInfo] Custom loaded successfully
+20:14:00 [ServerInfo] Discord loaded successfully
+20:14:00 [ServerInfo] Effect loaded successfully
+20:14:00 [ServerInfo] Event loaded successfully
+20:14:00 [ServerInfo] EventItemBag loaded successfully
+20:14:00 [ServerInfo] Hack loaded successfully
+20:14:00 [ServerInfo] Message loaded successfully
+20:14:00 [ServerInfo] Map loaded successfully
+20:14:00 [ServerInfo] Message loaded successfully
+20:14:00 [ServerInfo] Monster loaded successfully
+20:14:00 [ServerInfo] Move loaded successfully
+20:14:00 [ServerInfo] Quest loaded successfully
+20:14:00 [ServerInfo] Shop loaded successfully
+20:14:00 [ServerInfo] Skill loaded successfully
+20:14:00 [ServerInfo] Util loaded successfully
+20:14:00 [ReadBotInfo] BotSystem loaded successfully
+20:15:57 [ServerInfo] Map loaded successfully
+20:16:18 [ServerInfo] Map loaded successfully
+20:18:08 [Obj][13001] AddClient (177.200.32.187)
+20:18:11 [Obj][13001] AddAccount (videodv)
+20:18:13 [Obj][13001] LogInCharacter (AdmSaffe)
+20:22:05 [ServerInfo] Map loaded successfully
+20:23:30 [ServerInfo] Map loaded successfully
+20:23:50 [ServerInfo] Map loaded successfully
+20:39:15 [Obj][13001] LogOutCharacter (AdmSaffe)
+20:39:15 [Obj][13001] DelAccount (videodv)
+20:39:15 [Obj][13001] DelClient (177.200.32.187)
+21:04:19 [Obj][13000] LogOutCharacter (Saffe)
+21:04:19 [Obj][13000] DelAccount (hellder)
+21:04:19 [Obj][13000] DelClient (177.200.32.187)
+23:56:03 [Obj][13001] AddClient (177.200.32.187)
+23:56:04 [Obj][13001] AddAccount (hellderrrr)
+23:56:05 [Obj][13001] LogInCharacter (Elysium)
+23:56:14 [Obj][13001] LogOutCharacter (Elysium)
+23:56:21 [Obj][13001] LogInCharacter (Cabeludo)
+23:59:02 [CommandRename][hellderrrr][Cabecao] - Sucess (OldName: Cabeludo)
+23:59:02 [Obj][13001] LogOutCharacter (Cabecao)
+23:59:05 [Obj][13001] LogInCharacter (Cabecao)
+23:59:39 [Obj][13001] LogOutCharacter (Cabecao)
+23:59:39 [Obj][13001] DelAccount (hellderrrr)
+23:59:39 [Obj][13001] DelClient (177.200.32.187)

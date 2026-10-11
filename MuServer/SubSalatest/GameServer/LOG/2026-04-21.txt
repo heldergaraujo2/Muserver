@@ -1,0 +1,840 @@
+03:32:51 [Obj][13000] AddClient (66.132.195.112)
+03:32:54 [Obj][13000] DelClient (66.132.195.112)
+03:32:58 [Obj][13001] AddClient (66.132.195.112)
+03:33:08 [Obj][13001] DelClient (66.132.195.112)
+08:37:52 [Obj][13000] AddClient (177.200.33.42)
+08:37:59 [Obj][13000] AddAccount (videodv)
+08:38:01 [Obj][13000] LogInCharacter (AdmSaffe)
+08:41:59 Gameserver - ExperienceList.txt created!
+08:42:02 [ServerInfo] Util loaded successfully
+08:43:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 224 | Count: 4
+08:44:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:44:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:44:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:44:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:44:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:42 [ServerInfo] Common loaded successfully
+08:46:45 [ServerInfo] Util loaded successfully
+08:46:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 1
+08:46:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:46:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:46:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 2
+08:47:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 1
+08:47:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:47:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:47:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 2
+08:48:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:46 [ServerInfo] Util loaded successfully
+08:48:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:48:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:48:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 2
+08:49:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:49:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:49:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:50:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:50:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 2
+08:50:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:50:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:50:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:50:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:51:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:51:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:25 [ServerInfo] Util loaded successfully
+08:51:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:51:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 3
+08:51:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:51:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:52:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 214 | Count: 4
+08:53:24 [ServerInfo] Monster loaded successfully
+08:53:25 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+08:53:25 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+08:53:51 [ServerInfo] Common loaded successfully
+09:04:04 [ServerInfo] Util loaded successfully
+09:04:14 Gameserver - ExperienceList.txt created!
+09:04:17 [ServerInfo] Util loaded successfully
+09:04:25 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:04:27 [Obj][13000] LogInCharacter (AdmSaffe)
+09:04:58 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:05:00 [Obj][13000] LogInCharacter (AdmSaffe)
+09:06:04 [ServerInfo] Util loaded successfully
+09:06:09 Gameserver - ExperienceList.txt created!
+09:06:13 [ServerInfo] Util loaded successfully
+09:06:24 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:06:26 [Obj][13000] LogInCharacter (AdmSaffe)
+09:08:05 [ServerInfo] Util loaded successfully
+09:08:11 Gameserver - ExperienceList.txt created!
+09:08:13 [ServerInfo] Util loaded successfully
+09:08:21 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:08:23 [Obj][13000] LogInCharacter (AdmSaffe)
+09:09:50 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:09:52 [Obj][13000] LogInCharacter (AdmSaffe)
+09:10:51 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:10:51 [Obj][13000] DelAccount (videodv)
+09:10:51 [Obj][13000] DelClient (177.200.33.42)
+09:14:12 [Obj][13001] AddClient (177.200.33.42)
+09:14:22 [Obj][13001] AddAccount (videodv)
+09:14:23 [Obj][13001] LogInCharacter (AdmSaffe)
+09:17:04 [ServerInfo] Util loaded successfully
+09:17:38 [ServerInfo] Util loaded successfully
+09:17:41 Gameserver - ExperienceList.txt created!
+09:17:44 [ServerInfo] Util loaded successfully
+09:17:45 [ServerInfo] CashShop loaded successfully
+09:17:45 [ServerInfo] ChaosMix loaded successfully
+09:17:45 [ServerInfo] Character loaded successfully
+09:17:45 [ServerInfo] Command loaded successfully
+09:17:46 [ServerInfo] Common loaded successfully
+09:17:46 [FakeOnline] Loaded successfully
+09:17:46 [ServerInfo] Custom loaded successfully
+09:17:46 [ServerInfo] Discord loaded successfully
+09:17:46 [ServerInfo] Effect loaded successfully
+09:17:46 [ServerInfo] Event loaded successfully
+09:17:46 [ServerInfo] EventItemBag loaded successfully
+09:17:46 [ServerInfo] Hack loaded successfully
+09:17:46 [ServerInfo] Message loaded successfully
+09:17:46 [ServerInfo] Map loaded successfully
+09:17:46 [ServerInfo] Message loaded successfully
+09:17:46 [ServerInfo] Monster loaded successfully
+09:17:46 [ServerInfo] Move loaded successfully
+09:17:46 [ServerInfo] Quest loaded successfully
+09:17:46 [ServerInfo] Shop loaded successfully
+09:17:46 [ServerInfo] Skill loaded successfully
+09:17:46 [ServerInfo] Util loaded successfully
+09:17:46 [ReadBotInfo] BotSystem loaded successfully
+09:20:36 [Obj][13001] LogOutCharacter (AdmSaffe)
+09:20:41 [Obj][13001] DelAccount (videodv)
+09:20:41 [Obj][13001] DelClient (177.200.33.42)
+09:20:43 [Obj][13000] AddClient (177.200.33.42)
+09:20:44 [Obj][13000] AddAccount (videodv)
+09:20:45 [Obj][13000] LogInCharacter (AdmSaffe)
+09:40:14 [ServerInfo] Util loaded successfully
+09:40:17 Gameserver - ExperienceList.txt created!
+09:40:21 [ServerInfo] Util loaded successfully
+09:40:29 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:40:29 [Obj][13000] DelAccount (videodv)
+09:40:29 [Obj][13000] DelClient (177.200.33.42)
+09:40:32 [Obj][13001] AddClient (177.200.33.42)
+09:40:33 [Obj][13001] AddAccount (videodv)
+09:40:34 [Obj][13001] LogInCharacter (AdmSaffe)
+09:41:30 [ServerInfo] Util loaded successfully
+09:41:35 [ServerInfo] CashShop loaded successfully
+09:41:36 [ServerInfo] ChaosMix loaded successfully
+09:41:36 [ServerInfo] Character loaded successfully
+09:41:36 [ServerInfo] Command loaded successfully
+09:41:36 [ServerInfo] Common loaded successfully
+09:41:36 [FakeOnline] Loaded successfully
+09:41:36 [ServerInfo] Custom loaded successfully
+09:41:36 [ServerInfo] Discord loaded successfully
+09:41:36 [ServerInfo] Effect loaded successfully
+09:41:36 [ServerInfo] Event loaded successfully
+09:41:36 [ServerInfo] EventItemBag loaded successfully
+09:41:36 [ServerInfo] Hack loaded successfully
+09:41:36 [ServerInfo] Message loaded successfully
+09:41:36 [ServerInfo] Map loaded successfully
+09:41:36 [ServerInfo] Message loaded successfully
+09:41:36 [ServerInfo] Monster loaded successfully
+09:41:36 [ServerInfo] Move loaded successfully
+09:41:36 [ServerInfo] Quest loaded successfully
+09:41:36 [ServerInfo] Shop loaded successfully
+09:41:36 [ServerInfo] Skill loaded successfully
+09:41:36 [ServerInfo] Util loaded successfully
+09:41:36 [ReadBotInfo] BotSystem loaded successfully
+09:41:50 [FAKE ONLINE LOG] Start
+09:41:50 [ServerInfo] CashShop loaded successfully
+09:41:50 [ServerInfo] ChaosMix loaded successfully
+09:41:50 [ServerInfo] Character loaded successfully
+09:41:50 [FakeOnline] Loaded successfully
+09:41:50 [ServerInfo] Custom loaded successfully
+09:41:50 [ServerInfo] Command loaded successfully
+09:41:50 [ServerInfo] Common loaded successfully
+09:41:50 [ServerInfo] Discord loaded successfully
+09:41:50 [ServerInfo] Effect loaded successfully
+09:41:50 [ServerInfo] Event loaded successfully
+09:41:50 [ServerInfo] EventItemBag loaded successfully
+09:41:50 [ServerInfo] Hack loaded successfully
+09:41:50 [ServerInfo] Item loaded successfully
+09:41:50 [ServerInfo] Message loaded successfully
+09:41:50 [ServerInfo] Map loaded successfully
+09:41:50 [ServerInfo] Terrain loaded successfully
+09:41:50 [ServerInfo] Monster loaded successfully
+09:41:50 [ServerInfo] Move loaded successfully
+09:41:50 [ServerInfo] Quest loaded successfully
+09:41:50 [ServerInfo] Script loaded successfully
+09:41:50 [ServerInfo] Shop loaded successfully
+09:41:50 [ServerInfo] Skill loaded successfully
+09:41:50 [ServerInfo] Util loaded successfully
+09:41:50 [ReadBotInfo] BotSystem loaded successfully
+09:41:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+09:41:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 58, Y: 7)
+09:41:51 [ServerInfo] Custom Attack offline restored successfully
+09:41:51 [ServerInfo] Custom Store offline restored successfully
+09:41:51 [Discord] Connection successfully
+09:41:51 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+09:42:12 [Obj][13000] AddClient (177.200.33.42)
+09:42:22 [Obj][13000] AddAccount (videodv)
+09:42:22 [Obj][13000] LogInCharacter (AdmSaffe)
+09:43:57 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:43:58 [Obj][13000] LogInCharacter (AdmSaffe)
+09:45:24 [ServerInfo] Util loaded successfully
+09:46:07 Gameserver - ExperienceList.txt created!
+09:46:11 [ServerInfo] Util loaded successfully
+09:51:44 [ServerInfo] Util loaded successfully
+09:51:46 Gameserver - ExperienceList.txt created!
+09:52:29 [ServerInfo] Common loaded successfully
+09:52:46 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:53:06 [Obj][13000] LogInCharacter (AdmSaffe)
+09:58:13 [ServerInfo] Util loaded successfully
+09:58:22 [Obj][13000] LogOutCharacter (AdmSaffe)
+09:58:22 [Obj][13000] DelAccount (videodv)
+09:58:22 [Obj][13000] DelClient (177.200.33.42)
+09:58:24 [Obj][13001] AddClient (177.200.33.42)
+09:58:24 [Obj][13001] AddAccount (videodv)
+09:58:26 [Obj][13001] LogInCharacter (AdmSaffe)
+10:00:37 [Obj][13000] AddClient (177.200.33.42)
+10:00:40 [Obj][13000] AddAccount (hellder)
+10:00:42 [Obj][13000] LogInCharacter (Saffe)
+10:02:21 [ServerInfo] Util loaded successfully
+10:05:00 [ReadBotInfo] BotSystem loaded successfully
+10:05:02 [ServerInfo] Util loaded successfully
+10:05:14 Gameserver - ExperienceList.txt created!
+10:05:17 [ServerInfo] CashShop loaded successfully
+10:05:17 [ServerInfo] ChaosMix loaded successfully
+10:05:17 [ServerInfo] Character loaded successfully
+10:05:17 [ServerInfo] Command loaded successfully
+10:05:17 [ServerInfo] Common loaded successfully
+10:05:17 [FakeOnline] Loaded successfully
+10:05:17 [ServerInfo] Custom loaded successfully
+10:05:17 [ServerInfo] Discord loaded successfully
+10:05:17 [ServerInfo] Effect loaded successfully
+10:05:17 [ServerInfo] Event loaded successfully
+10:05:17 [ServerInfo] EventItemBag loaded successfully
+10:05:17 [ServerInfo] Hack loaded successfully
+10:05:17 [ServerInfo] Message loaded successfully
+10:05:17 [ServerInfo] Map loaded successfully
+10:05:17 [ServerInfo] Message loaded successfully
+10:05:17 [ServerInfo] Monster loaded successfully
+10:05:17 [ServerInfo] Move loaded successfully
+10:05:17 [ServerInfo] Quest loaded successfully
+10:05:17 [ServerInfo] Shop loaded successfully
+10:05:17 [ServerInfo] Skill loaded successfully
+10:05:17 [ServerInfo] Util loaded successfully
+10:05:17 [ReadBotInfo] BotSystem loaded successfully
+10:06:01 [Obj][13000] LogOutCharacter (Saffe)
+10:06:02 [Obj][13000] LogInCharacter (Saffe)
+10:06:34 [Obj][13001] LogOutCharacter (AdmSaffe)
+10:06:35 [Obj][13001] LogInCharacter (AdmSaffe)
+10:07:04 [ServerInfo] Util loaded successfully
+10:07:58 [Obj][13000] LogOutCharacter (Saffe)
+10:07:58 [Obj][13000] DelAccount (hellder)
+10:07:58 [Obj][13000] DelClient (177.200.33.42)
+10:07:58 [Obj][13001] LogOutCharacter (AdmSaffe)
+10:07:58 [Obj][13001] DelAccount (videodv)
+10:07:58 [Obj][13001] DelClient (177.200.33.42)
+10:08:20 [FAKE ONLINE LOG] Start
+10:08:20 [ServerInfo] CashShop loaded successfully
+10:08:20 [ServerInfo] ChaosMix loaded successfully
+10:08:20 [ServerInfo] Character loaded successfully
+10:08:20 [FakeOnline] Loaded successfully
+10:08:20 [ServerInfo] Custom loaded successfully
+10:08:20 [ServerInfo] Command loaded successfully
+10:08:20 [ServerInfo] Common loaded successfully
+10:08:20 [ServerInfo] Discord loaded successfully
+10:08:20 [ServerInfo] Effect loaded successfully
+10:08:20 [ServerInfo] Event loaded successfully
+10:08:20 [ServerInfo] EventItemBag loaded successfully
+10:08:20 [ServerInfo] Hack loaded successfully
+10:08:20 [ServerInfo] Item loaded successfully
+10:08:20 [ServerInfo] Message loaded successfully
+10:08:20 [ServerInfo] Map loaded successfully
+10:08:20 [ServerInfo] Terrain loaded successfully
+10:08:20 [ServerInfo] Monster loaded successfully
+10:08:20 [ServerInfo] Move loaded successfully
+10:08:20 [ServerInfo] Quest loaded successfully
+10:08:20 [ServerInfo] Script loaded successfully
+10:08:20 [ServerInfo] Shop loaded successfully
+10:08:21 [ServerInfo] Skill loaded successfully
+10:08:21 [ServerInfo] Util loaded successfully
+10:08:21 [ReadBotInfo] BotSystem loaded successfully
+10:08:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 186, Map: 26, X: 80, Y: 6)
+10:08:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 68, Y: 7)
+10:08:21 [ServerInfo] Custom Attack offline restored successfully
+10:08:21 [ServerInfo] Custom Store offline restored successfully
+10:08:21 [Discord] Connection successfully
+10:08:21 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+10:08:43 [Obj][13000] AddClient (177.200.33.42)
+10:08:44 [Obj][13000] AddAccount (hellder)
+10:08:46 [Obj][13000] LogInCharacter (Saffe)
+10:09:43 [ServerInfo] Util loaded successfully
+10:09:55 [Obj][13000] LogOutCharacter (Saffe)
+10:09:57 [Obj][13000] LogInCharacter (Saffe)
+10:10:12 Gameserver - ExperienceList.txt created!
+10:10:15 [ServerInfo] Util loaded successfully
+10:10:17 [ServerInfo] CashShop loaded successfully
+10:10:17 [ServerInfo] ChaosMix loaded successfully
+10:10:18 [ServerInfo] Character loaded successfully
+10:10:18 [ServerInfo] Command loaded successfully
+10:10:18 [ServerInfo] Common loaded successfully
+10:10:18 [FakeOnline] Loaded successfully
+10:10:18 [ServerInfo] Custom loaded successfully
+10:10:18 [ServerInfo] Discord loaded successfully
+10:10:18 [ServerInfo] Effect loaded successfully
+10:10:18 [ServerInfo] Event loaded successfully
+10:10:18 [ServerInfo] EventItemBag loaded successfully
+10:10:18 [ServerInfo] Hack loaded successfully
+10:10:18 [ServerInfo] Message loaded successfully
+10:10:18 [ServerInfo] Map loaded successfully
+10:10:18 [ServerInfo] Message loaded successfully
+10:10:18 [ServerInfo] Monster loaded successfully
+10:10:18 [ServerInfo] Move loaded successfully
+10:10:18 [ServerInfo] Quest loaded successfully
+10:10:18 [ServerInfo] Shop loaded successfully
+10:10:18 [ServerInfo] Skill loaded successfully
+10:10:18 [ServerInfo] Util loaded successfully
+10:10:18 [ReadBotInfo] BotSystem loaded successfully
+10:10:43 [Obj][13001] AddClient (177.200.33.42)
+10:10:46 [Obj][13001] AddAccount (videodv)
+10:10:48 [Obj][13001] LogInCharacter (AdmSaffe)
+10:13:29 [ServerInfo] Util loaded successfully
+10:13:39 [Obj][13001] LogOutCharacter (AdmSaffe)
+10:13:41 [Obj][13001] LogInCharacter (AdmSaffe)
+10:14:08 Gameserver - ExperienceList.txt created!
+10:14:11 [ServerInfo] Util loaded successfully
+10:14:13 [ServerInfo] CashShop loaded successfully
+10:14:13 [ServerInfo] ChaosMix loaded successfully
+10:14:13 [ServerInfo] Character loaded successfully
+10:14:13 [ServerInfo] Command loaded successfully
+10:14:13 [ServerInfo] Common loaded successfully
+10:14:14 [FakeOnline] Loaded successfully
+10:14:14 [ServerInfo] Custom loaded successfully
+10:14:14 [ServerInfo] Discord loaded successfully
+10:14:14 [ServerInfo] Effect loaded successfully
+10:14:14 [ServerInfo] Event loaded successfully
+10:14:14 [ServerInfo] EventItemBag loaded successfully
+10:14:14 [ServerInfo] Hack loaded successfully
+10:14:14 [ServerInfo] Message loaded successfully
+10:14:14 [ServerInfo] Map loaded successfully
+10:14:14 [ServerInfo] Message loaded successfully
+10:14:14 [ServerInfo] Monster loaded successfully
+10:14:14 [ServerInfo] Move loaded successfully
+10:14:14 [ServerInfo] Quest loaded successfully
+10:14:14 [ServerInfo] Shop loaded successfully
+10:14:14 [ServerInfo] Skill loaded successfully
+10:14:14 [ServerInfo] Util loaded successfully
+10:14:14 [ReadBotInfo] BotSystem loaded successfully
+10:14:42 [ServerInfo] Common loaded successfully
+10:14:46 [ServerInfo] Util loaded successfully
+10:16:21 [ServerInfo] Util loaded successfully
+10:16:25 [ServerInfo] CashShop loaded successfully
+10:16:25 [ServerInfo] ChaosMix loaded successfully
+10:16:25 [ServerInfo] Character loaded successfully
+10:16:25 [ServerInfo] Command loaded successfully
+10:16:25 [ServerInfo] Common loaded successfully
+10:16:25 [FakeOnline] Loaded successfully
+10:16:25 [ServerInfo] Custom loaded successfully
+10:16:25 [ServerInfo] Discord loaded successfully
+10:16:25 [ServerInfo] Effect loaded successfully
+10:16:25 [ServerInfo] Event loaded successfully
+10:16:26 [ServerInfo] EventItemBag loaded successfully
+10:16:26 [ServerInfo] Hack loaded successfully
+10:16:26 [ServerInfo] Message loaded successfully
+10:16:26 [ServerInfo] Map loaded successfully
+10:16:26 [ServerInfo] Message loaded successfully
+10:16:26 [ServerInfo] Monster loaded successfully
+10:16:26 [ServerInfo] Move loaded successfully
+10:16:26 [ServerInfo] Quest loaded successfully
+10:16:26 [ServerInfo] Shop loaded successfully
+10:16:26 [ServerInfo] Skill loaded successfully
+10:16:26 [ServerInfo] Util loaded successfully
+10:16:26 [ReadBotInfo] BotSystem loaded successfully
+10:16:27 Gameserver - ExperienceList.txt created!
+10:16:29 [ServerInfo] CashShop loaded successfully
+10:16:29 [ServerInfo] ChaosMix loaded successfully
+10:16:29 [ServerInfo] Character loaded successfully
+10:16:29 [ServerInfo] Command loaded successfully
+10:16:29 [ServerInfo] Common loaded successfully
+10:16:29 [FakeOnline] Loaded successfully
+10:16:29 [ServerInfo] Custom loaded successfully
+10:16:29 [ServerInfo] Discord loaded successfully
+10:16:29 [ServerInfo] Effect loaded successfully
+10:16:29 [ServerInfo] Event loaded successfully
+10:16:29 [ServerInfo] EventItemBag loaded successfully
+10:16:29 [ServerInfo] Hack loaded successfully
+10:16:29 [ServerInfo] Message loaded successfully
+10:16:29 [ServerInfo] Map loaded successfully
+10:16:29 [ServerInfo] Message loaded successfully
+10:16:29 [ServerInfo] Monster loaded successfully
+10:16:29 [ServerInfo] Move loaded successfully
+10:16:29 [ServerInfo] Quest loaded successfully
+10:16:29 [ServerInfo] Shop loaded successfully
+10:16:29 [ServerInfo] Skill loaded successfully
+10:16:29 [ServerInfo] Util loaded successfully
+10:16:29 [ReadBotInfo] BotSystem loaded successfully
+10:16:31 [ServerInfo] Util loaded successfully
+10:17:23 [ServerInfo] Util loaded successfully
+10:18:17 [ServerInfo] Util loaded successfully
+10:18:20 Gameserver - ExperienceList.txt created!
+10:18:42 [ServerInfo] Util loaded successfully
+10:18:44 Gameserver - ExperienceList.txt created!
+10:18:46 [ServerInfo] Util loaded successfully
+10:19:22 [ServerInfo] Common loaded successfully
+10:19:26 [ServerInfo] Util loaded successfully
+10:19:30 Gameserver - ExperienceList.txt created!
+10:19:32 [ServerInfo] CashShop loaded successfully
+10:19:32 [ServerInfo] ChaosMix loaded successfully
+10:19:32 [ServerInfo] Character loaded successfully
+10:19:32 [ServerInfo] Command loaded successfully
+10:19:32 [ServerInfo] Common loaded successfully
+10:19:32 [FakeOnline] Loaded successfully
+10:19:32 [ServerInfo] Custom loaded successfully
+10:19:32 [ServerInfo] Discord loaded successfully
+10:19:32 [ServerInfo] Effect loaded successfully
+10:19:32 [ServerInfo] Event loaded successfully
+10:19:32 [ServerInfo] EventItemBag loaded successfully
+10:19:32 [ServerInfo] Hack loaded successfully
+10:19:32 [ServerInfo] Message loaded successfully
+10:19:32 [ServerInfo] Map loaded successfully
+10:19:32 [ServerInfo] Message loaded successfully
+10:19:32 [ServerInfo] Monster loaded successfully
+10:19:32 [ServerInfo] Move loaded successfully
+10:19:32 [ServerInfo] Quest loaded successfully
+10:19:32 [ServerInfo] Shop loaded successfully
+10:19:32 [ServerInfo] Skill loaded successfully
+10:19:32 [ServerInfo] Util loaded successfully
+10:19:32 [ReadBotInfo] BotSystem loaded successfully
+10:20:12 [ServerInfo] Util loaded successfully
+10:27:21 [ServerInfo] Common loaded successfully
+10:27:26 [ServerInfo] Common loaded successfully
+10:27:27 [ServerInfo] Util loaded successfully
+10:27:31 Gameserver - ExperienceList.txt created!
+10:30:41 [ServerInfo] Util loaded successfully
+10:32:43 [ServerInfo] Util loaded successfully
+10:39:25 [ServerInfo] Util loaded successfully
+10:41:00 [ServerInfo] Util loaded successfully
+10:41:07 Gameserver - ExperienceList.txt created!
+10:41:11 [ServerInfo] Util loaded successfully
+10:52:48 [ServerInfo] Util loaded successfully
+10:52:54 Gameserver - ExperienceList.txt created!
+10:53:17 [ServerInfo] Util loaded successfully
+11:38:18 [Obj][13000] LogOutCharacter (Saffe)
+11:38:18 [Obj][13000] DelAccount (hellder)
+11:38:18 [Obj][13000] DelClient (177.200.33.42)
+11:38:27 [Obj][13001] LogOutCharacter (AdmSaffe)
+11:38:27 [Obj][13001] DelAccount (videodv)
+11:38:27 [Obj][13001] DelClient (177.200.33.42)
+11:38:43 [ServerInfo] Item loaded successfully
+13:25:48 [Obj][13000] AddClient (177.200.33.42)
+13:25:53 [Obj][13000] AddAccount (hellder)
+13:25:54 [Obj][13000] LogInCharacter (Saffe)
+13:26:48 [Obj][13001] AddClient (177.200.33.42)
+13:26:51 [Obj][13001] AddAccount (videodv)
+13:26:52 [Obj][13001] LogInCharacter (AdmSaffe)
+16:53:49 [FAKE ONLINE LOG] Start
+16:53:49 [ServerInfo] CashShop loaded successfully
+16:53:49 [ServerInfo] ChaosMix loaded successfully
+16:53:49 [ServerInfo] Character loaded successfully
+16:53:49 [FakeOnline] Loaded successfully
+16:53:49 [ServerInfo] Custom loaded successfully
+16:53:49 [ServerInfo] Command loaded successfully
+16:53:49 [ServerInfo] Common loaded successfully
+16:53:49 [ServerInfo] Discord loaded successfully
+16:53:49 [ServerInfo] Effect loaded successfully
+16:53:49 [ServerInfo] Event loaded successfully
+16:53:49 [ServerInfo] EventItemBag loaded successfully
+16:53:49 [ServerInfo] Hack loaded successfully
+16:53:49 [ServerInfo] Item loaded successfully
+16:53:49 [ServerInfo] Message loaded successfully
+16:53:49 [ServerInfo] Map loaded successfully
+16:53:49 [ServerInfo] Terrain loaded successfully
+16:53:49 [ServerInfo] Monster loaded successfully
+16:53:49 [ServerInfo] Move loaded successfully
+16:53:49 [ServerInfo] Quest loaded successfully
+16:53:50 [ServerInfo] Script loaded successfully
+16:53:50 [ServerInfo] Shop loaded successfully
+16:53:50 [ServerInfo] Skill loaded successfully
+16:53:50 [ServerInfo] Util loaded successfully
+16:53:50 [ReadBotInfo] BotSystem loaded successfully
+16:53:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+16:53:50 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 59, Y: 7)
+16:53:50 [ServerInfo] Custom Attack offline restored successfully
+16:53:50 [ServerInfo] Custom Store offline restored successfully
+16:53:50 [Discord] Connection successfully
+16:53:50 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:04:03 [FAKE ONLINE LOG] Start
+17:04:03 [ServerInfo] CashShop loaded successfully
+17:04:03 [ServerInfo] ChaosMix loaded successfully
+17:04:03 [ServerInfo] Character loaded successfully
+17:04:03 [FakeOnline] Loaded successfully
+17:04:03 [ServerInfo] Custom loaded successfully
+17:04:03 [ServerInfo] Command loaded successfully
+17:04:03 [ServerInfo] Common loaded successfully
+17:04:03 [ServerInfo] Discord loaded successfully
+17:04:03 [ServerInfo] Effect loaded successfully
+17:04:03 [ServerInfo] Event loaded successfully
+17:04:03 [ServerInfo] EventItemBag loaded successfully
+17:04:03 [ServerInfo] Hack loaded successfully
+17:04:03 [ServerInfo] Item loaded successfully
+17:04:03 [ServerInfo] Message loaded successfully
+17:04:03 [ServerInfo] Map loaded successfully
+17:04:03 [ServerInfo] Terrain loaded successfully
+17:04:03 [ServerInfo] Monster loaded successfully
+17:04:03 [ServerInfo] Move loaded successfully
+17:04:03 [ServerInfo] Quest loaded successfully
+17:04:03 [ServerInfo] Script loaded successfully
+17:04:03 [ServerInfo] Shop loaded successfully
+17:04:03 [ServerInfo] Skill loaded successfully
+17:04:03 [ServerInfo] Util loaded successfully
+17:04:03 [ReadBotInfo] BotSystem loaded successfully
+17:04:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+17:04:04 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 59, Y: 7)
+17:04:04 [ServerInfo] Custom Attack offline restored successfully
+17:04:04 [ServerInfo] Custom Store offline restored successfully
+17:04:04 [Discord] Connection successfully
+17:04:04 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:12:16 [FAKE ONLINE LOG] Start
+17:12:16 [ServerInfo] CashShop loaded successfully
+17:12:16 [ServerInfo] ChaosMix loaded successfully
+17:12:16 [ServerInfo] Character loaded successfully
+17:12:16 [FakeOnline] Loaded successfully
+17:12:16 [ServerInfo] Custom loaded successfully
+17:12:16 [ServerInfo] Command loaded successfully
+17:12:16 [ServerInfo] Common loaded successfully
+17:12:16 [ServerInfo] Discord loaded successfully
+17:12:16 [ServerInfo] Effect loaded successfully
+17:12:16 [ServerInfo] Event loaded successfully
+17:12:16 [ServerInfo] EventItemBag loaded successfully
+17:12:16 [ServerInfo] Hack loaded successfully
+17:12:16 [ServerInfo] Item loaded successfully
+17:12:16 [ServerInfo] Message loaded successfully
+17:12:16 [ServerInfo] Map loaded successfully
+17:12:16 [ServerInfo] Terrain loaded successfully
+17:12:16 [ServerInfo] Monster loaded successfully
+17:12:16 [ServerInfo] Move loaded successfully
+17:12:16 [ServerInfo] Quest loaded successfully
+17:12:16 [ServerInfo] Script loaded successfully
+17:12:16 [ServerInfo] Shop loaded successfully
+17:12:16 [ServerInfo] Skill loaded successfully
+17:12:16 [ServerInfo] Util loaded successfully
+17:12:16 [ReadBotInfo] BotSystem loaded successfully
+17:12:17 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+17:12:17 [ServerInfo] Custom Attack offline restored successfully
+17:12:17 [ServerInfo] Custom Store offline restored successfully
+17:12:17 [Discord] Connection successfully
+17:15:58 [FAKE ONLINE LOG] Start
+17:15:58 [ServerInfo] CashShop loaded successfully
+17:15:59 [ServerInfo] ChaosMix loaded successfully
+17:15:59 [ServerInfo] Character loaded successfully
+17:15:59 [FakeOnline] Loaded successfully
+17:15:59 [ServerInfo] Custom loaded successfully
+17:15:59 [ServerInfo] Command loaded successfully
+17:15:59 [ServerInfo] Common loaded successfully
+17:15:59 [ServerInfo] Discord loaded successfully
+17:15:59 [ServerInfo] Effect loaded successfully
+17:15:59 [ServerInfo] Event loaded successfully
+17:15:59 [ServerInfo] EventItemBag loaded successfully
+17:15:59 [ServerInfo] Hack loaded successfully
+17:15:59 [ServerInfo] Item loaded successfully
+17:15:59 [ServerInfo] Message loaded successfully
+17:15:59 [ServerInfo] Map loaded successfully
+17:15:59 [ServerInfo] Terrain loaded successfully
+17:15:59 [ServerInfo] Monster loaded successfully
+17:15:59 [ServerInfo] Move loaded successfully
+17:15:59 [ServerInfo] Quest loaded successfully
+17:15:59 [ServerInfo] Script loaded successfully
+17:15:59 [ServerInfo] Shop loaded successfully
+17:15:59 [ServerInfo] Skill loaded successfully
+17:15:59 [ServerInfo] Util loaded successfully
+17:15:59 [ReadBotInfo] BotSystem loaded successfully
+17:15:59 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+17:15:59 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+17:15:59 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 60, Y: 7)
+17:15:59 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 68, Y: 7)
+17:15:59 [ServerInfo] Custom Attack offline restored successfully
+17:15:59 [ServerInfo] Custom Store offline restored successfully
+17:15:59 [Discord] Connection successfully
+17:15:59 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:01:34 [Obj][13000] AddClient (189.38.241.97)
+18:01:38 [Obj][13000] DelClient (189.38.241.97)
+18:26:07 [Obj][13000] AddClient (177.200.33.42)
+18:26:19 [Obj][13000] AddAccount (hellder)
+18:26:21 [Obj][13000] LogInCharacter (Saffe)
+18:30:10 [Obj][13000] LogOutCharacter (Saffe)
+18:30:10 [Obj][13000] DelAccount (hellder)
+18:30:10 [Obj][13000] DelClient (177.200.33.42)
+19:06:07 [Obj][13000] AddClient (177.200.33.42)
+19:06:08 [Obj][13000] AddAccount (hellder)
+19:06:09 [Obj][13000] LogInCharacter (Saffe)
+19:08:20 [Obj][13000] LogOutCharacter (Saffe)
+19:08:20 [Obj][13000] DelAccount (hellder)
+19:08:20 [Obj][13000] DelClient (177.200.33.42)
+19:08:41 [Obj][13000] AddClient (177.200.33.42)
+19:08:44 [Obj][13000] AddAccount (hellder)
+19:08:46 [Obj][13000] LogInCharacter (Saffe)
+19:11:37 [Obj][13000] LogOutCharacter (Saffe)
+19:11:38 [Obj][13000] DelAccount (hellder)
+19:11:38 [Obj][13000] DelClient (177.200.33.42)
+19:12:45 [Obj][13000] AddClient (177.200.33.42)
+19:12:46 [Obj][13000] AddAccount (hellder)
+19:12:56 [Obj][13000] LogInCharacter (Saffe)
+19:16:30 [Obj][13000] LogOutCharacter (Saffe)
+19:16:31 [Obj][13000] DelAccount (hellder)
+19:16:31 [Obj][13000] DelClient (177.200.33.42)
+19:17:01 [Obj][13000] AddClient (177.200.33.42)
+19:17:06 [Obj][13000] AddAccount (videodv)
+19:17:09 [Obj][13000] LogInCharacter (AdmSaffe)
+19:18:25 [Obj][13000] LogOutCharacter (AdmSaffe)
+19:18:25 [Obj][13000] DelAccount (videodv)
+19:18:25 [Obj][13000] DelClient (177.200.33.42)
+19:18:59 [Obj][13000] AddClient (177.200.33.42)
+19:19:00 [Obj][13000] AddAccount (videodv)
+19:19:02 [Obj][13000] LogInCharacter (AdmSaffe)
+19:20:07 Flood Packet: Index: 13000 Head: 0XF3 Sub: 0XDB
+19:20:38 [Obj][13000] LogOutCharacter (AdmSaffe)
+19:20:39 [Obj][13000] DelAccount (videodv)
+19:20:39 [Obj][13000] DelClient (177.200.33.42)

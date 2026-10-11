@@ -1,0 +1,1424 @@
+00:14:03 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:04 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:08 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:11 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:15 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:15 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:17 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:21 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:25 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:29 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:29 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:33 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:36 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:40 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:44 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:48 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:52 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:14:56 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:00 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:04 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:08 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:12 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:16 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:21 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:25 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:29 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:33 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:37 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:41 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:45 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:49 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:53 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:15:58 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:02 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:06 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:10 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:14 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:18 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:22 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:26 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:30 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:34 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:39 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:43 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:47 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:51 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:55 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:16:59 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:03 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:07 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:11 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:15 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:19 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:23 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:17:45 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:17:49 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:17:53 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:17:57 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:01 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:05 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:09 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:18 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:22 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:26 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:30 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:34 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:38 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:42 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:46 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:50 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:54 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:18:58 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:02 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:06 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:11 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:15 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:19 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:23 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:31 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:35 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:39 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:43 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:51 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:19:55 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:00 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:04 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:08 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:12 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:20 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:24 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:28 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:32 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:36 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:40 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:53 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:20:57 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:01 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:05 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:09 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:17 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:18 [Loader] Lua Gameserver socket ready!
+00:21:18 [Loader] Load success System\ScriptCore
+00:21:18 [Loader] Load success System\ProtocolCore
+00:21:18 [Loader] Load success Scripts\CalCharacter
+00:21:18 [Loader] Load success Utils\Database
+00:21:18 [Loader] Load success Utils\DatabaseAsync
+00:21:18 [Loader] Load success Utils\Cron
+00:21:18 [Loader] Load success Utils\Functions
+00:21:18 [Loader] Load success Utils\Schedule
+00:21:18 [Loader] Load success Scripts\Musaffe\Config
+00:21:18 [Timewindows] Script carregado. Mapa configurado: 10
+00:21:18 [Loader] Load success Scripts\Musaffe\Config
+00:21:18 [Loader] Load folder success Scripts\Musaffe\
+00:21:18 Connected to database
+00:21:18 Connected to Async database
+00:21:18 Teste query: ZZZZZZZZZZ
+00:21:18 [ServerInfo] Script loaded successfully
+00:21:21 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:25 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:33 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:38 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:38 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:42 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:46 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:50 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:55 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:21:59 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:03 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:07 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:11 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:15 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:19 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:23 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:32 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:36 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:40 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:22:56 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:00 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:04 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:08 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:17 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:21 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:25 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:33 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:37 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:41 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:23:46 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:24:11 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:15 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:19 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:23 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:27 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:31 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:35 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:39 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:43 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:48 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:52 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:24:56 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:00 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:04 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:08 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:12 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:16 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:20 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:25 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:29 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:33 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:37 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:41 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:45 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:49 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:53 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:25:57 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:26:01 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:26:06 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:26:10 [ProtocolCore] aIndex: 13002 Name: TimewindowsWindowRequest Head: 246
+00:26:30 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:34 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:38 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:42 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:51 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:55 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:26:59 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:03 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:07 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:11 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:15 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:19 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:23 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:32 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:36 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:40 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:27:56 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:00 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:04 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:08 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:17 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:21 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:28:28 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:28:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:28:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:28:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:29:04 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:08 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:12 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:20 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:24 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:33 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:37 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:41 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:45 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:49 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:53 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:29:58 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:30:02 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:30:06 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:30:10 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:30:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:26 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:30 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:34 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:38 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:43 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:47 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:30:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:11 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:15 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:19 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:24 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:31:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:33 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:37 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:41 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:46 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:50 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:54 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:31:58 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:02 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:06 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:10 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:15 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:19 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:23 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:31 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:35 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:39 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:32:43 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:33:02 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:06 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:10 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:26 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:30 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:34 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:38 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:43 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:47 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:33:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:11 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:15 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:19 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:23 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:27 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:44 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:48 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:52 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:34:56 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:00 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:04 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:08 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:12 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:16 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:25 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:29 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:33 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:37 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:41 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:45 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:49 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:53 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:35:57 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:01 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:06 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:10 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:26 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:30 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:34 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:38 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:42 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:46 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:36:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:11 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:15 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:19 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:23 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:27 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:44 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:48 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:52 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:37:56 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:38:00 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:38:04 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:38:10 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:14 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:18 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:22 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:31 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:35 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:39 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:43 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:51 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:55 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:38:59 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:03 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:07 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:11 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:20 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:24 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:28 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:32 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:36 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:40 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:39:57 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:01 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:05 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:09 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:17 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:40:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:26 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:31 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:35 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:39 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:43 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:47 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:40:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:11 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:15 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:19 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:24 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:28 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:44 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:48 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:52 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:41:56 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:00 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:04 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:09 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:13 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:17 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:25 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:29 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:33 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:37 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:41 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:46 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:50 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:54 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:42:58 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:02 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:06 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:10 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:26 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:31 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:35 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:39 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:43 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:47 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:43:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:12 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:16 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:20 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:24 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:28 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:44 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:49 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:53 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:44:57 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:01 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:05 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:09 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:13 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:17 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:25 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:29 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:33 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:38 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:42 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:46 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:50 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:54 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:45:58 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:02 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:06 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:10 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:14 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:18 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:22 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:27 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:31 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:35 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:39 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:43 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:47 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:51 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:55 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:46:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:07 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:12 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:16 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:20 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:24 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:28 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:32 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:36 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:40 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:44 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:48 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:52 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:47:57 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:01 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:05 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:09 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:13 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:17 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:21 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:25 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:29 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:33 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:37 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:42 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:46 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:50 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+00:48:56 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:49:00 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:49:04 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:49:06 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:54:37 [Loader] Lua Gameserver socket ready!
+00:54:37 [Loader] Load success System\ScriptCore
+00:54:37 [Loader] Load success System\ProtocolCore
+00:54:37 [Loader] Load success Scripts\CalCharacter
+00:54:37 [Loader] Load success Utils\Database
+00:54:37 [Loader] Load success Utils\DatabaseAsync
+00:54:37 [Loader] Load success Utils\Cron
+00:54:37 [Loader] Load success Utils\Functions
+00:54:37 [Loader] Load success Utils\Schedule
+00:54:37 [Loader] Load success Scripts\Musaffe\Config
+00:54:37 [Timewindows] Script carregado. Mapa configurado: 84
+00:54:37 [Loader] Load success Scripts\Musaffe\Config
+00:54:37 [Loader] Load folder success Scripts\Musaffe\
+00:54:37 Connected to database
+00:54:37 Connected to Async database
+00:54:37 Teste query: ZZZZZZZZZZ
+00:54:37 [ServerInfo] Script loaded successfully
+00:57:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:57:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:57:56 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:05 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:10 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:19 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:23 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:27 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:28 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:32 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:36 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:40 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+00:58:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:20:08 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:20:12 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:20:15 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:20:18 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:20:18 [TimewindowsWindow] Player Saffe movido para mapa 84 (29, 119)
+11:20:38 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 84
+11:22:16 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:21 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:25 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:26 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:29 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:30 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:34 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:22:34 [TimewindowsWindow] Player Saffe movido para mapa 84 (29, 119)
+11:23:09 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:23:20 [Loader] Lua Gameserver socket ready!
+11:23:20 [Loader] Load success System\ScriptCore
+11:23:20 [Loader] Load success System\ProtocolCore
+11:23:20 [Loader] Load success Scripts\CalCharacter
+11:23:20 [Loader] Load success Utils\Database
+11:23:20 [Loader] Load success Utils\DatabaseAsync
+11:23:20 [Loader] Load success Utils\Cron
+11:23:20 [Loader] Load success Utils\Functions
+11:23:20 [Loader] Load success Utils\Schedule
+11:23:20 [Loader] Load success Scripts\Musaffe\Config
+11:23:20 [Timewindows] Script carregado. Mapa configurado: 84
+11:23:20 [Loader] Load success Scripts\Musaffe\Config
+11:23:20 [Loader] Load folder success Scripts\Musaffe\
+11:23:20 Connected to database
+11:23:20 Connected to Async database
+11:23:20 Teste query: ZZZZZZZZZZ
+11:23:20 [ServerInfo] Script loaded successfully
+11:23:29 [ProtocolCore] aIndex: 13005 Name: TimewindowsWindowRequest Head: 246
+11:23:45 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:23:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:23:48 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:25:32 [Loader] Lua Gameserver socket ready!
+11:25:32 [Loader] Load success System\ScriptCore
+11:25:32 [Loader] Load success System\ProtocolCore
+11:25:32 [Loader] Load success Scripts\CalCharacter
+11:25:32 [Loader] Load success Utils\Database
+11:25:32 [Loader] Load success Utils\DatabaseAsync
+11:25:32 [Loader] Load success Utils\Cron
+11:25:32 [Loader] Load success Utils\Functions
+11:25:32 [Loader] Load success Utils\Schedule
+11:25:32 [Loader] Load success Scripts\Musaffe\Config
+11:25:32 [Timewindows] Script carregado. Mapa configurado: 84
+11:25:32 [Loader] Load success Scripts\Musaffe\Config
+11:25:32 [Loader] Load folder success Scripts\Musaffe\
+11:25:32 Connected to database
+11:25:32 Connected to Async database
+11:25:32 Teste query: ZZZZZZZZZZ
+11:25:32 [ServerInfo] Script loaded successfully
+11:25:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:25:51 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:06 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:09 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:17 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:21 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:25 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:33 [Loader] Lua Gameserver socket ready!
+11:27:33 [Loader] Load success System\ScriptCore
+11:27:33 [Loader] Load success System\ProtocolCore
+11:27:33 [Loader] Load success Scripts\CalCharacter
+11:27:33 [Loader] Load success Utils\Database
+11:27:33 [Loader] Load success Utils\DatabaseAsync
+11:27:33 [Loader] Load success Utils\Cron
+11:27:33 [Loader] Load success Utils\Functions
+11:27:33 [Loader] Load success Utils\Schedule
+11:27:33 [Loader] Load success Scripts\Musaffe\Config
+11:27:33 [Timewindows] Script carregado. Mapa configurado: 84
+11:27:33 [Loader] Load success Scripts\Musaffe\Config
+11:27:33 [Loader] Load folder success Scripts\Musaffe\
+11:27:33 Connected to database
+11:27:33 Connected to Async database
+11:27:33 Teste query: ZZZZZZZZZZ
+11:27:33 [ServerInfo] Script loaded successfully
+11:27:33 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:37 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:42 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:44 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:47 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:51 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:52 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:53 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:53 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:27:57 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:01 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:05 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:07 [Timewindows] Tempo deletado do account hellder | Motivo: saiu do mapa 84
+11:28:09 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:13 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:16 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+11:28:26 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:41 [Loader] Lua Gameserver socket ready!
+11:28:41 [Loader] Load success System\ScriptCore
+11:28:41 [Loader] Load success System\ProtocolCore
+11:28:41 [Loader] Load success Scripts\CalCharacter
+11:28:41 [Loader] Load success Utils\Database
+11:28:41 [Loader] Load success Utils\DatabaseAsync
+11:28:41 [Loader] Load success Utils\Cron
+11:28:41 [Loader] Load success Utils\Functions
+11:28:41 [Loader] Load success Utils\Schedule
+11:28:41 [Loader] Load success Scripts\Musaffe\Config
+11:28:41 [Timewindows] Script carregado. Mapa configurado: 84
+11:28:41 [Loader] Load success Scripts\Musaffe\Config
+11:28:41 [Loader] Load folder success Scripts\Musaffe\
+11:28:41 Connected to database
+11:28:41 Connected to Async database
+11:28:41 Teste query: ZZZZZZZZZZ
+11:28:41 [ServerInfo] Script loaded successfully
+11:28:45 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:28:48 [Timewindows] Tempo deletado do account videodv | Motivo: saiu do mapa 84
+11:28:54 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:29:06 [Loader] Lua Gameserver socket ready!
+11:29:06 [Loader] Load success System\ScriptCore
+11:29:06 [Loader] Load success System\ProtocolCore
+11:29:06 [Loader] Load success Scripts\CalCharacter
+11:29:06 [Loader] Load success Utils\Database
+11:29:06 [Loader] Load success Utils\DatabaseAsync
+11:29:06 [Loader] Load success Utils\Cron
+11:29:06 [Loader] Load success Utils\Functions
+11:29:06 [Loader] Load success Utils\Schedule
+11:29:06 [Loader] Load success Scripts\Musaffe\Config
+11:29:06 [Timewindows] Script carregado. Mapa configurado: 84
+11:29:06 [Loader] Load success Scripts\Musaffe\Config
+11:29:06 [Loader] Load folder success Scripts\Musaffe\
+11:29:06 Connected to database
+11:29:06 Connected to Async database
+11:29:06 Teste query: ZZZZZZZZZZ
+11:29:06 [ServerInfo] Script loaded successfully
+11:29:53 [Loader] Lua Gameserver socket ready!
+11:29:53 [Loader] Load success System\ScriptCore
+11:29:53 [Loader] Load success System\ProtocolCore
+11:29:53 [Loader] Load success Scripts\CalCharacter
+11:29:53 [Loader] Load success Utils\Database
+11:29:53 [Loader] Load success Utils\DatabaseAsync
+11:29:53 [Loader] Load success Utils\Cron
+11:29:53 [Loader] Load success Utils\Functions
+11:29:53 [Loader] Load success Utils\Schedule
+11:29:53 [Loader] Load success Scripts\Musaffe\Config
+11:29:53 [Timewindows] Script carregado. Mapa configurado: 84
+11:29:53 [Loader] Load success Scripts\Musaffe\Config
+11:29:53 [Loader] Load folder success Scripts\Musaffe\
+11:29:53 Connected to database
+11:29:53 Connected to Async database
+11:29:53 Teste query: ZZZZZZZZZZ
+11:29:53 [ServerInfo] Script loaded successfully
+11:29:59 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:30:02 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:30:02 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+11:31:36 [Timewindows] Tempo deletado do account videodv | Motivo: saiu do mapa 84
+11:32:03 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:08 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:12 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:16 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:20 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:20 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:25 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:29 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:30 [ProtocolCore] aIndex: 13008 Name: TimewindowsWindowRequest Head: 246
+11:32:30 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+11:33:02 [SCRIPT LOG] Start
+11:33:02 [Loader] Lua Gameserver socket ready!
+11:33:02 [Loader] Load success System\ScriptCore
+11:33:02 [Loader] Load success System\ProtocolCore
+11:33:02 [Loader] Load success Scripts\CalCharacter
+11:33:02 [Loader] Load success Utils\Database
+11:33:02 [Loader] Load success Utils\DatabaseAsync
+11:33:02 [Loader] Load success Utils\Cron
+11:33:02 [Loader] Load success Utils\Functions
+11:33:02 [Loader] Load success Utils\Schedule
+11:33:02 [Loader] Load success Scripts\Musaffe\Config
+11:33:02 [Timewindows] Script carregado. Mapa configurado: 84
+11:33:02 [Loader] Load success Scripts\Musaffe\Config
+11:33:02 [Loader] Load folder success Scripts\Musaffe\
+11:33:02 Connected to database
+11:33:02 Connected to Async database
+11:33:02 Teste query: ZZZZZZZZZZ
+11:33:02 [ServerInfo] Script loaded successfully
+11:33:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:34:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:34:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:34:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:34:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:35:16 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+11:36:54 [Timewindows] Tempo deletado do account videodv | Motivo: saiu do mapa 84
+11:37:38 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:37:42 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:37:46 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:37:50 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:37:54 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:37:59 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:38:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:38:03 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:38:08 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:38:09 [ProtocolCore] aIndex: 13001 Name: TimewindowsWindowRequest Head: 246
+11:38:09 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+11:38:48 [Timewindows] Tempo deletado do account videodv | Motivo: saiu do mapa 84
+11:38:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:38:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:39:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:40:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:41:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:42:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:43:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:44:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:45:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:46:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:47:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:48:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:49:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:50:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:51:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:52:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:53:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:54:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:55:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:56:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:57:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:58:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+11:59:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:00:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:01:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:02:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:03:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:04:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:05:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:06:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:07:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:08:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:09:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:10:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:11:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:12:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:13:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:14:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:15:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:16:58 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:02 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:06 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:47 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:51 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:55 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:17:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:36 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:40 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:44 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:18:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:25 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:29 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:33 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:19:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:10 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:14 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:18 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:22 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:38 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:42 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:46 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:50 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:54 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:20:59 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:03 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:07 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:19 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:23 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:27 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:31 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:35 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:39 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:43 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:48 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:52 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:21:56 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:00 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:04 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:08 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:12 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:16 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:20 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:22:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:23:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:11 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:15 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:15 [TimewindowsWindow] Player AdmSaffe movido para mapa 84 (29, 119)
+12:29:24 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:28 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:32 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:37 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:41 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:45 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:49 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:53 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:29:57 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:01 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:05 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:09 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:13 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:17 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:21 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:26 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:30 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:34 [ProtocolCore] aIndex: 13004 Name: TimewindowsWindowRequest Head: 246
+12:30:41 [Timewindows] Tempo deletado do account videodv | Motivo: saiu do mapa 84

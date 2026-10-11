@@ -1,0 +1,148 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// [NPCS] ATLANS ABYSS
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+240            93             00         128            128            01             //Safety Guardian Atlans Abyss
+end
+
+//=========================================================================================================================================
+// [SPOTS] ATLANS ABYSS
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+766            93             05         92             118            92           118          -1             0             //Bahamut Abyss
+767            93             05         92             118            92           118          -1             0             //Vepar Abyss
+768            93             05         92             118            92           118          -1             0             //Silver Valkyre Abyss
+769            93             05         92             118            92           118          -1             0             //Lizard King Abyss
+766            93             05         97             161            97           161          -1             0             //Bahamut Abyss
+767            93             05         97             161            97           161          -1             0             //Vepar Abyss
+768            93             05         97             161            97           161          -1             0             //Silver Valkyre Abyss
+769            93             05         97             161            97           161          -1             0             //Lizard King Abyss
+766            93             05         70             169            70           169          -1             0             //Bahamut Abyss
+767            93             05         70             169            70           169          -1             0             //Vepar Abyss
+768            93             05         70             169            70           169          -1             0             //Silver Valkyre Abyss
+769            93             05         70             169            70           169          -1             0             //Lizard King Abyss
+766            93             05         80             210            80           210          -1             0             //Bahamut Abyss
+767            93             05         80             210            80           210          -1             0             //Vepar Abyss
+768            93             05         80             210            80           210          -1             0             //Silver Valkyre Abyss
+769            93             05         80             210            80           210          -1             0             //Lizard King Abyss
+766            93             05         92             233            92           233          -1             0             //Bahamut Abyss
+767            93             05         92             233            92           233          -1             0             //Vepar Abyss
+768            93             05         92             233            92           233          -1             0             //Silver Valkyre Abyss
+769            93             05         92             233            92           233          -1             0             //Lizard King Abyss
+766            93             05         129            233            129          233          -1             0             //Bahamut Abyss
+767            93             05         129            233            129          233          -1             0             //Vepar Abyss
+768            93             05         129            233            129          233          -1             0             //Silver Valkyre Abyss
+769            93             05         129            233            129          233          -1             0             //Lizard King Abyss
+766            93             05         149            225            149          225          -1             0             //Bahamut Abyss
+767            93             05         149            225            149          225          -1             0             //Vepar Abyss
+768            93             05         149            225            149          225          -1             0             //Silver Valkyre Abyss
+769            93             05         149            225            149          225          -1             0             //Lizard King Abyss
+766            93             05         141            210            141          210          -1             0             //Bahamut Abyss
+767            93             05         141            210            141          210          -1             0             //Vepar Abyss
+768            93             05         141            210            141          210          -1             0             //Silver Valkyre Abyss
+769            93             05         141            210            141          210          -1             0             //Lizard King Abyss
+766            93             05         216            219            216          219          -1             0             //Bahamut Abyss
+767            93             05         216            219            216          219          -1             0             //Vepar Abyss
+768            93             05         216            219            216          219          -1             0             //Silver Valkyre Abyss
+769            93             05         216            219            216          219          -1             0             //Lizard King Abyss
+766            93             05         237            184            237          184          -1             0             //Bahamut Abyss
+767            93             05         237            184            237          184          -1             0             //Vepar Abyss
+768            93             05         237            184            237          184          -1             0             //Silver Valkyre Abyss
+769            93             05         237            184            237          184          -1             0             //Lizard King Abyss
+766            93             05         232            200            232          200          -1             0             //Bahamut Abyss
+767            93             05         232            200            232          200          -1             0             //Vepar Abyss
+768            93             05         232            200            232          200          -1             0             //Silver Valkyre Abyss
+769            93             05         232            200            232          200          -1             0             //Lizard King Abyss
+766            93             05         232            143            232          143          -1             0             //Bahamut Abyss
+767            93             05         232            143            232          143          -1             0             //Vepar Abyss
+768            93             05         232            143            232          143          -1             0             //Silver Valkyre Abyss
+769            93             05         232            143            232          143          -1             0             //Lizard King Abyss
+766            93             05         219            098            219          098          -1             0             //Bahamut Abyss
+767            93             05         219            098            219          098          -1             0             //Vepar Abyss
+768            93             05         219            098            219          098          -1             0             //Silver Valkyre Abyss
+769            93             05         219            098            219          098          -1             0             //Lizard King Abyss
+766            93             05         230            078            230          078          -1             0             //Bahamut Abyss
+767            93             05         230            078            230          078          -1             0             //Vepar Abyss
+768            93             05         230            078            230          078          -1             0             //Silver Valkyre Abyss
+769            93             05         230            078            230          078          -1             0             //Lizard King Abyss
+766            93             05         219            051            219          051          -1             0             //Bahamut Abyss
+767            93             05         219            051            219          051          -1             0             //Vepar Abyss
+768            93             05         219            051            219          051          -1             0             //Silver Valkyre Abyss
+769            93             05         219            051            219          051          -1             0             //Lizard King Abyss
+766            93             05         178            037            178          037          -1             0             //Bahamut Abyss
+767            93             05         178            037            178          037          -1             0             //Vepar Abyss
+768            93             05         178            037            178          037          -1             0             //Silver Valkyre Abyss
+769            93             05         178            037            178          037          -1             0             //Lizard King Abyss
+766            93             05         154            025            154          025          -1             0             //Bahamut Abyss
+767            93             05         154            025            154          025          -1             0             //Vepar Abyss
+768            93             05         154            025            154          025          -1             0             //Silver Valkyre Abyss
+769            93             05         154            025            154          025          -1             0             //Lizard King Abyss
+766            93             05         129            023            129          023          -1             0             //Bahamut Abyss
+767            93             05         129            023            129          023          -1             0             //Vepar Abyss
+768            93             05         129            023            129          023          -1             0             //Silver Valkyre Abyss
+769            93             05         129            023            129          023          -1             0             //Lizard King Abyss
+766            93             05         103            031            103          031          -1             0             //Bahamut Abyss
+767            93             05         103            031            103          031          -1             0             //Vepar Abyss
+768            93             05         103            031            103          031          -1             0             //Silver Valkyre Abyss
+769            93             05         103            031            103          031          -1             0             //Lizard King Abyss
+766            93             05         072            023            072          023          -1             0             //Bahamut Abyss
+767            93             05         072            023            072          023          -1             0             //Vepar Abyss
+768            93             05         072            023            072          023          -1             0             //Silver Valkyre Abyss
+769            93             05         072            023            072          023          -1             0             //Lizard King Abyss
+766            93             05         054            049            054          049          -1             0             //Bahamut Abyss
+767            93             05         054            049            054          049          -1             0             //Vepar Abyss
+768            93             05         054            049            054          049          -1             0             //Silver Valkyre Abyss
+769            93             05         054            049            054          049          -1             0             //Lizard King Abyss
+766            93             05         034            077            034          077          -1             0             //Bahamut Abyss
+767            93             05         034            077            034          077          -1             0             //Vepar Abyss
+768            93             05         034            077            034          077          -1             0             //Silver Valkyre Abyss
+769            93             05         034            077            034          077          -1             0             //Lizard King Abyss
+766            93             05         031            101            031          101          -1             0             //Bahamut Abyss
+767            93             05         031            101            031          101          -1             0             //Vepar Abyss
+768            93             05         031            101            031          101          -1             0             //Silver Valkyre Abyss
+769            93             05         031            101            031          101          -1             0             //Lizard King Abyss
+766            93             05         155            102            155          102          -1             0             //Bahamut Abyss
+767            93             05         155            102            155          102          -1             0             //Vepar Abyss
+768            93             05         155            102            155          102          -1             0             //Silver Valkyre Abyss
+769            93             05         155            102            155          102          -1             0             //Lizard King Abyss
+766            93             05         161            069            161          069          -1             0             //Bahamut Abyss
+767            93             05         161            069            161          069          -1             0             //Vepar Abyss
+768            93             05         161            069            161          069          -1             0             //Silver Valkyre Abyss
+769            93             05         161            069            161          069          -1             0             //Lizard King Abyss
+766            93             05         175            053            175          053          -1             0             //Bahamut Abyss
+767            93             05         175            053            175          053          -1             0             //Vepar Abyss
+768            93             05         175            053            175          053          -1             0             //Silver Valkyre Abyss
+769            93             05         175            053            175          053          -1             0             //Lizard King Abyss
+766            93             05         123            068            123          068          -1             0             //Bahamut Abyss
+767            93             05         123            068            123          068          -1             0             //Vepar Abyss
+768            93             05         123            068            123          068          -1             0             //Silver Valkyre Abyss
+769            93             05         123            068            123          068          -1             0             //Lizard King Abyss
+766            93             05         108            053            108          053          -1             0             //Bahamut Abyss
+767            93             05         108            053            108          053          -1             0             //Vepar Abyss
+768            93             05         108            053            108          053          -1             0             //Silver Valkyre Abyss
+769            93             05         108            053            108          053          -1             0             //Lizard King Abyss
+766            93             05         105            080            105          080          -1             0             //Bahamut Abyss
+767            93             05         105            080            105          080          -1             0             //Vepar Abyss
+768            93             05         105            080            105          080          -1             0             //Silver Valkyre Abyss
+769            93             05         105            080            105          080          -1             0             //Lizard King Abyss
+766            93             05         155            156            155          156          -1             0             //Bahamut Abyss
+767            93             05         155            156            155          156          -1             0             //Vepar Abyss
+768            93             05         155            156            155          156          -1             0             //Silver Valkyre Abyss
+769            93             05         155            156            155          156          -1             0             //Lizard King Abyss
+766            93             05         179            137            179          137          -1             0             //Bahamut Abyss
+767            93             05         179            137            179          137          -1             0             //Vepar Abyss
+768            93             05         179            137            179          137          -1             0             //Silver Valkyre Abyss
+769            93             05         179            137            179          137          -1             0             //Lizard King Abyss
+766            93             05         202            120            202          120          -1             0             //Bahamut Abyss
+767            93             05         202            120            202          120          -1             0             //Vepar Abyss
+768            93             05         202            120            202          120          -1             0             //Silver Valkyre Abyss
+769            93             05         202            120            202          120          -1             0             //Lizard King Abyss
+end 

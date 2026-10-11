@@ -1,0 +1,8 @@
+03:17:44 [SocketManager] WSAAccept() failed with error: 10061
+03:17:54 [SocketManager] WSAAccept() failed with error: 10061
+03:20:58 [SocketManager] WSAAccept() failed with error: 10061
+10:48:47 [SocketManager] WSAAccept() failed with error: 10061
+10:48:47 [SocketManager] WSAAccept() failed with error: 10061
+22:06:51 [SocketManager] WSAAccept() failed with error: 10061
+22:06:52 [SocketManager] WSAAccept() failed with error: 10061
+22:07:03 [SocketManager] WSAAccept() failed with error: 10061

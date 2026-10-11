@@ -1,0 +1,38 @@
+16:55:31 [SCRIPT LOG] Start
+16:55:31 [Loader] Lua Gameserver socket ready!
+16:55:31 [Loader] Load success System\ScriptCore
+16:55:31 [Loader] Load success System\ProtocolCore
+16:55:31 [Loader] Load success Utils\Database
+16:55:31 [Loader] Load success Utils\DatabaseAsync
+16:55:31 [Loader] Load success Utils\Cron
+16:55:31 [Loader] Load success Utils\Functions
+16:55:31 [Loader] Load success Utils\Schedule
+16:55:31 [Loader] Load success Scripts\CalCharacter
+16:55:31 [Loader] Load success Scripts\Musaffe\Config
+16:55:31 [Timewindows] Script carregado. Mapa configurado: 84
+16:55:31 [Loader] Load success Scripts\Musaffe\Config
+16:55:31 [Loader] Load folder success Scripts\Musaffe\
+16:55:31 Connected to database
+16:55:31 Connected to Async database
+16:55:31 Teste query: ZZZZZZZZZZ
+16:55:31 [ServerInfo] Script loaded successfully
+19:40:46 [SCRIPT LOG] Start
+19:40:46 [Loader] Lua Gameserver socket ready!
+19:40:46 [Loader] Load success System\ScriptCore
+19:40:46 [Loader] Load success System\ProtocolCore
+19:40:46 [Loader] Load success Utils\Database
+19:40:46 [Loader] Load success Utils\DatabaseAsync
+19:40:46 [Loader] Load success Utils\Cron
+19:40:46 [Loader] Load success Utils\Functions
+19:40:46 [Loader] Load success Utils\Schedule
+19:40:46 [Loader] Load success Scripts\CalCharacter
+19:40:46 [Loader] Load success Scripts\Musaffe\Config
+19:40:46 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+19:40:46 [Loader] Load success Scripts\Musaffe\Config
+19:40:46 [Loader] Load folder success Scripts\Musaffe\
+19:40:46 Connected to database
+19:40:46 Connected to Async database
+19:40:46 Teste query: ZZZZZZZZZZ
+19:40:46 [ServerInfo] Script loaded successfully
+20:44:09 [MusaffeTimewindows] Tempo deletado do account roxever2 | Motivo: tempo expirado
+20:44:09 [MusaffeTimewindows] Tempo expirado. Player Insana movido para mapa 0 (125, 125)

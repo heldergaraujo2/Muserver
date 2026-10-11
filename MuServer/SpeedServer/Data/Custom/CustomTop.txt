@@ -1,0 +1,13 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Sistema que mostra os tops dentro do jogo
+//Ver procedure WZ_CustomTop de acordo com o index
+
+//Index	Command	Title
+1	"rr"	"[TOP RR]"
+2	"mr"	"[TOP MR]"

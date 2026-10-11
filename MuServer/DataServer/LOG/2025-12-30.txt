@@ -1,0 +1,74 @@
+13:41:31 [SocketManager] Server started at port [55960]
+13:41:34 [ServerManager][0] AddServer (127.0.0.1)
+13:41:34 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+13:41:38 [ServerManager][1] AddServer (127.0.0.1)
+13:41:38 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+13:45:14 [SocketManager] Server started at port [55960]
+13:45:18 [ServerManager][0] AddServer (127.0.0.1)
+13:45:18 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+13:45:21 [ServerManager][1] AddServer (127.0.0.1)
+13:45:21 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+13:49:15 [SocketManager] Server started at port [55960]
+13:49:18 [ServerManager][0] AddServer (127.0.0.1)
+13:49:18 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+13:49:22 [ServerManager][1] AddServer (127.0.0.1)
+13:49:22 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+18:37:16 [ServerManager][0] DelServer (127.0.0.1)
+18:37:39 [SocketManager] Server started at port [55960]
+18:37:44 [ServerManager][0] AddServer (127.0.0.1)
+18:37:44 [ServerManager][0] ServerInfo (Geral) (55919) (19)
+18:40:00 [SocketManager] Server started at port [55960]
+18:40:04 [ServerManager][0] AddServer (127.0.0.1)
+18:40:04 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+18:40:07 [ServerManager][1] AddServer (127.0.0.1)
+18:40:07 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+19:03:09 [SocketManager] Server started at port [55960]
+19:03:13 [ServerManager][0] AddServer (127.0.0.1)
+19:03:13 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+19:03:16 [ServerManager][1] AddServer (127.0.0.1)
+19:03:16 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+19:07:33 [SocketManager] Server started at port [55960]
+19:07:37 [ServerManager][0] AddServer (127.0.0.1)
+19:07:37 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+19:07:41 [ServerManager][1] AddServer (127.0.0.1)
+19:07:41 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+20:38:59 [SocketManager] Server started at port [55960]
+20:39:03 [ServerManager][0] AddServer (127.0.0.1)
+20:39:03 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+20:39:06 [ServerManager][1] AddServer (127.0.0.1)
+20:39:06 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+20:55:45 [SocketManager] Server started at port [55960]
+20:55:48 [ServerManager][0] AddServer (127.0.0.1)
+20:55:48 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+20:55:52 [ServerManager][1] AddServer (127.0.0.1)
+20:55:52 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:30:31 [SocketManager] Server started at port [55960]
+21:30:35 [ServerManager][0] AddServer (127.0.0.1)
+21:30:35 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:30:38 [ServerManager][1] AddServer (127.0.0.1)
+21:30:38 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:34:22 [SocketManager] Server started at port [55960]
+21:34:26 [ServerManager][0] AddServer (127.0.0.1)
+21:34:26 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:34:30 [ServerManager][1] AddServer (127.0.0.1)
+21:34:30 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:39:52 [SocketManager] Server started at port [55960]
+21:39:56 [ServerManager][0] AddServer (127.0.0.1)
+21:39:56 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:39:59 [ServerManager][1] AddServer (127.0.0.1)
+21:39:59 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:50:56 [SocketManager] Server started at port [55960]
+21:51:00 [ServerManager][0] AddServer (127.0.0.1)
+21:51:00 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+21:51:03 [ServerManager][1] AddServer (127.0.0.1)
+21:51:03 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+22:05:05 [SocketManager] Server started at port [55960]
+22:05:09 [ServerManager][0] AddServer (127.0.0.1)
+22:05:09 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+22:05:12 [ServerManager][1] AddServer (127.0.0.1)
+22:05:12 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+23:11:34 [SocketManager] Server started at port [55960]
+23:11:38 [ServerManager][0] AddServer (127.0.0.1)
+23:11:38 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+23:11:42 [ServerManager][1] AddServer (127.0.0.1)
+23:11:42 [ServerManager][1] ServerInfo (Geral) (55919) (19)

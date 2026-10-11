@@ -1,0 +1,108 @@
+00:11:32 [Obj][13000] AddClient (200.25.57.15)
+00:11:33 [Obj][13000] DelClient (200.25.57.15)
+04:26:08 [Obj][13000] AddClient (167.94.146.55)
+04:26:12 [Obj][13000] DelClient (167.94.146.55)
+04:26:15 [Obj][13001] AddClient (167.94.146.55)
+04:26:26 [Obj][13001] DelClient (167.94.146.55)
+04:40:55 [Obj][13000] AddClient (80.94.95.221)
+04:40:55 [Obj][13000] DelClient (80.94.95.221)
+04:46:13 [Obj][13001] AddClient (80.94.95.221)
+04:46:13 [Obj][13001] DelClient (80.94.95.221)
+04:51:47 [Obj][13000] AddClient (80.94.95.221)
+04:51:47 [Obj][13000] DelClient (80.94.95.221)
+05:01:59 [Obj][13001] AddClient (179.224.29.107)
+05:02:02 [Obj][13001] DelClient (179.224.29.107)
+05:02:47 [Obj][13000] AddClient (179.224.29.107)
+05:03:02 [Obj][13000] DelClient (179.224.29.107)
+11:50:53 [Obj][13001] AddClient (194.99.80.119)
+11:50:54 [Obj][13001] DelClient (194.99.80.119)
+14:11:00 [Obj][13000] AddClient (179.48.4.251)
+14:11:08 [Obj][13000] DelClient (179.48.4.251)
+15:08:56 [Obj][13001] AddClient (194.165.16.162)
+15:08:56 [Obj][13001] DelClient (194.165.16.162)
+15:16:35 [Obj][13000] AddClient (201.159.185.24)
+15:16:45 [Obj][13000] DelClient (201.159.185.24)
+16:34:09 [Obj][13001] AddClient (177.200.33.82)
+16:34:10 [Obj][13001] AddAccount (jaqueline)
+16:34:12 [Obj][13001] LogInCharacter (FacaNoBuxO)
+16:34:55 [Obj][13001] LogOutCharacter (FacaNoBuxO)
+16:34:55 [Obj][13001] DelAccount (jaqueline)
+16:34:55 [Obj][13001] DelClient (177.200.33.82)
+16:40:57 [Obj][13000] AddClient (45.171.0.186)
+16:40:58 [Obj][13000] DelClient (45.171.0.186)
+19:04:24 [Obj][13001] AddClient (177.200.33.82)
+19:04:24 [Obj][13001] AddAccount (jaqueline)
+19:04:28 [Obj][13001] LogInCharacter (PatckHorla)
+19:04:30 [Obj][13001] LogOutCharacter (PatckHorla)
+19:04:30 [Obj][13001] DelAccount (jaqueline)
+19:04:30 [Obj][13001] DelClient (177.200.33.82)
+19:04:55 [Obj][13000] AddClient (177.200.33.82)
+19:04:56 [Obj][13000] AddAccount (jaqueline)
+19:04:59 [Obj][13000] LogInCharacter (PatckHorla)
+19:05:09 [Obj][13000] LogOutCharacter (PatckHorla)
+19:05:09 [Obj][13000] DelAccount (jaqueline)
+19:05:09 [Obj][13000] DelClient (177.200.33.82)
+19:38:37 [Obj][13001] AddClient (186.205.15.82)
+19:38:41 [Obj][13001] DelClient (186.205.15.82)
+19:50:58 [ServerInfo] CashShop loaded successfully
+19:50:58 [ServerInfo] ChaosMix loaded successfully
+19:50:58 [ServerInfo] Character loaded successfully
+19:50:58 [ServerInfo] Command loaded successfully
+19:50:58 [ServerInfo] Common loaded successfully
+19:50:58 [FakeOnline] Loaded successfully
+19:50:58 [ServerInfo] Custom loaded successfully
+19:50:58 [ServerInfo] Discord loaded successfully
+19:50:58 [ServerInfo] Effect loaded successfully
+19:50:58 [ServerInfo] Event loaded successfully
+19:50:58 [ServerInfo] EventItemBag loaded successfully
+19:50:58 [ServerInfo] Hack loaded successfully
+19:50:58 [ServerInfo] Message loaded successfully
+19:50:58 [ServerInfo] Map loaded successfully
+19:50:58 [ServerInfo] Message loaded successfully
+19:50:59 [ServerInfo] Monster loaded successfully
+19:50:59 [ServerInfo] Move loaded successfully
+19:50:59 [ServerInfo] Quest loaded successfully
+19:50:59 [ServerInfo] Shop loaded successfully
+19:50:59 [ServerInfo] Skill loaded successfully
+19:50:59 [ServerInfo] Util loaded successfully
+19:50:59 [ReadBotInfo] BotSystem loaded successfully
+19:52:59 [Obj][13000] AddClient (160.202.130.69)
+19:53:13 [Obj][13000] DelClient (160.202.130.69)
+19:54:02 [ServerInfo] CashShop loaded successfully
+19:54:02 [ServerInfo] ChaosMix loaded successfully
+19:54:02 [ServerInfo] Character loaded successfully
+19:54:02 [ServerInfo] Command loaded successfully
+19:54:02 [ServerInfo] Common loaded successfully
+19:54:02 [FakeOnline] Loaded successfully
+19:54:02 [ServerInfo] Custom loaded successfully
+19:54:02 [ServerInfo] Discord loaded successfully
+19:54:02 [ServerInfo] Effect loaded successfully
+19:54:02 [ServerInfo] Event loaded successfully
+19:54:02 [ServerInfo] EventItemBag loaded successfully
+19:54:02 [ServerInfo] Hack loaded successfully
+19:54:02 [ServerInfo] Message loaded successfully
+19:54:02 [ServerInfo] Map loaded successfully
+19:54:02 [ServerInfo] Message loaded successfully
+19:54:02 [ServerInfo] Monster loaded successfully
+19:54:02 [ServerInfo] Move loaded successfully
+19:54:02 [ServerInfo] Quest loaded successfully
+19:54:02 [ServerInfo] Shop loaded successfully
+19:54:02 [ServerInfo] Skill loaded successfully
+19:54:02 [ServerInfo] Util loaded successfully
+19:54:02 [ReadBotInfo] BotSystem loaded successfully
+19:54:07 [Obj][13001] AddClient (160.202.130.69)
+19:54:08 [Obj][13001] AddAccount (thecrims4)
+19:54:10 [Obj][13001] LogInCharacter (ExitLag)
+19:55:07 [Obj][13000] AddClient (177.75.50.24)
+19:55:07 [Obj][13000] DelClient (177.75.50.24)
+19:55:07 [AntiFlood] SYN FLOOD attack(177.75.50.24)
+19:55:07 [Obj][13002] AddClient (177.75.50.24)
+19:55:07 [Obj][13002] DelClient (177.75.50.24)
+19:55:12 [Obj][13001] LogOutCharacter (ExitLag)
+19:55:12 [Obj][13001] DelAccount (thecrims4)
+19:55:12 [Obj][13001] DelClient (160.202.130.69)
+19:55:12 [Obj][13003] AddClient (177.75.50.24)
+19:55:12 [Obj][13003] DelClient (177.75.50.24)
+19:55:12 [Obj][13004] AddClient (177.75.50.24)
+19:55:12 [Obj][13004] DelClient (177.75.50.24)
+19:55:12 [AntiFlood] SYN FLOOD attack(177.75.50.24)

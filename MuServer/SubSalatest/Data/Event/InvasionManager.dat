@@ -1,0 +1,600 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//================================================================================================================
+// DEATH KING (Underground Forces)
+//================================================================================================================
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+//0         *      *       *     *     03      6        0
+//0         *      *       *     *     08      6        0
+//0         *      *       *     *     13      6        0
+//0         *      *       *     *     18      6        0
+//0         *      *       *     *     23      6        0
+//0         *      *       *     *     04      6        0
+//////================================================================================================================
+////// RED DRAGON
+//////================================================================================================================
+//////Index   Year   Month   Day   DoW   Hour   Minute   Second
+1         *      *       *     *     04      00       0
+1         *      *       *     *     06      25       0
+1         *      *       *     *     09      25       0
+1         *      *       *     *     12      25       0
+1         *      *       *     *     15      25       0
+1         *      *       *     *     18      25       0
+1         *      *       *     *     21      25       0
+1         *      *       *     *     00      25       0
+1         *      *       *     *     03      25       0
+//
+//////================================================================================================================
+////// DOURADOS [GOLDEN]
+//////================================================================================================================
+//////Index   Year   Month   Day   DoW   Hour   Minute   Second
+2         *      *       *     *     03     01        0
+2         *      *       *     *     6      01        0
+2         *      *       *     *     8      00       0
+2         *      *       *     *     10     00       0
+2         *      *       *     *     12     00       0
+2         *      *       *     *     14     00       0
+2         *      *       *     *     16     00       0
+2         *      *       *     *     18     00       0
+2         *      *       *     *     20     00       0
+2         *      *       *     *     22     00       0
+2         *      *       *     *     00     00       0
+2         *      *       *     *     02     00       0
+2         *      *       *     *     04     00       0
+
+////////================================================================================================================
+//////// WHITE WIZARD
+////////================================================================================================================
+////////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//3         *      *       *     *     0      50       0
+//3         *      *       *     *     4      50       0
+//3         *      *       *     *     8      50       0
+//3         *      *       *     *     12     50       0
+//3         *      *       *     *     16     50       0
+//3         *      *       *     *     20     50       0
+////================================================================================================================
+//// INVASÃO DE ANO NOVO [NEW YEAR]
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+4         *      *       *     *     03      30        0
+4         *      *       *     *     7      30        0
+4         *      *       *     *     11     30        0
+4         *      *       *     *     15     30       0
+4         *      *       *     *     19     30       0
+4         *      *       *     *     23     30       0
+4         *      *       *     *     03     30       0
+////================================================================================================================
+//// COELHOS [RABBITS]
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//5         *      *       *     *     03     50       0
+//5         *      *       *     *     08     00       0
+//5         *      *       *     *     12     30      0
+//5         *      *       *     *     16     30       0
+//5         *      *       *     *     20     30       0
+//5         *      *       *     *     00     30       0
+//5         *      *       *     *     04     30       0
+//
+////================================================================================================================
+//// INVASÃO DE VERÃO [SUMMER]
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//6         *      *       *     *     2      25       0
+//6         *      *       *     *     6      25       0
+//6         *      *       *     *     10     25       0
+//6         *      *       *     *     14     25       0
+//6         *      *       *     *     18     25       0
+//6         *      *       *     *     22     25       0
+////================================================================================================================
+//// INVASÃO NATAL [CHRISTMAS]
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//7         *      *       *     *     2      50       0
+//7         *      *       *     *     6      50       0
+//7         *      *       *     *     10     50       0
+//7         *      *       *     *     14     50       0
+//7         *      *       *     *     18     50       0
+//7         *      *       *     *     22     50       0
+////================================================================================================================
+//// BOSS MEDUSA
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//8         *      *       *     *     03     00       0
+//8         *      *       *     *     10     00       0
+//8         *      *       *     *     16     00       0
+//8         *      *       *     *     18     30       0
+//8         *      *       *     *     23     00       0
+////////================================================================================================================
+//////// NEW BOSSES
+////////================================================================================================================
+////////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//9         *      *       *     *     9     0       0
+//9         *      *       *     *     15    0       0
+//9         *      *       *     *     21    0       0
+//10        *      *       *     5     21     30       0
+11        *      *       *     *     00     00       0
+11        *      *       *     *     06     00       0
+11        *      *       *     *     12     30       0
+11        *      *       *     *     20     00       0
+//11        *      *       *     *     18     30       0
+//11        *      *       *     *     22     00       0
+//11        *      *       *     *     00     00       0
+//12        *      *       *     3     21     30       0
+//13        *      *       *     2     21     30       0
+////================================================================================================================
+//// PROTECTOR OF ACHERON EVENT
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//16        *      *       *     *     18     30       0
+////================================================================================================================
+//// EVOMON EVENT
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+17        *      *       *     *     02     0        0
+17        *      *       *     *     08     30        0
+17        *      *       *     *     14     0        0
+17        *      *       *     *     18     0        0
+////================================================================================================================
+//// CHICKEN EVENT
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//19        *      *       *     *     14     0        0
+//20        *      *       *     *     14     0        1
+////================================================================================================================
+//// ARKA WAR TOWER EVENT
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//21        *      *       *     4     20     30       2
+////================================================================================================================
+//// INVOCAÇÃO DEMONS [GOLDEN KUNDUN]
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//22        *      *       *     *     1      25       0
+//22        *      *       *     *     5      25       0 
+//22        *      *       *     *     9      25       0
+//22        *      *       *     *     13     25       0
+//22        *      *       *     *     17     25       0
+//22        *      *       *     *     21     25       0
+////================================================================================================================
+//// MERCHANT ZYERO
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//23        *      *       *     *     1      25       0
+//23        *      *       *     *     5      25       0 
+////================================================================================================================
+//// BOSS BATTLE TOGETHER
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+24        *      *       *     *     04     30       0
+24        *      *       *     *     10     00       0
+24        *      *       *     *     16     30       0
+24        *      *       *     *     22     00       0
+//
+////================================================================================================================
+//// NEW INVASIONS (HORSE, GOAT, MONKEY, GOBLIN)
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//27        *      *       *     *     12     30       0
+//28        *      *       *     *     18     30       0 
+//29        *      *       *     *     00     30       0
+//30        *      *       *     *     06     30       0
+//30        *      *       *     *     14     30       0
+//29        *      *       *     *     16     30       0 
+//28        *      *       *     *     20     30       0
+//27        *      *       *     *     22     30       0
+////================================================================================================================
+//// ELITE
+////================================================================================================================
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//31        *      *       *     *     00     00       0
+//31        *      *       *     *     02     00       0
+//31        *      *       *     *     04     00       0
+//31        *      *       *     *     06     00       0
+//31        *      *       *     *     08     00       0
+//31        *      *       *     *     10     00       0
+//31        *      *       *     *     12     00       0
+//31        *      *       *     *     14     00       0
+//31        *      *       *     *     16     00       0
+//31        *      *       *     *     18     00       0
+//31        *      *       *     *     20     00       0
+//31        *      *       *     *     22     00       0
+//
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//34        *      *       *     *     *     59       0 // Angel
+//35        *      *       *     *     *     29       0 // Dark
+//35        *      *       *     *     20     20       0
+//36        *      *       *     *     20     23       0  //3
+//37        *      *       *     *     20     26       0  //3
+//38        *      *       *     *     20     29       0  //3
+//39        *      *       *     *     20     29       30 //30 seconds
+//
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//40        *      *       *     *     19     20       0
+//41        *      *       *     *     19     20       0
+//42        *      *       *     *     19     23       0  //3
+//43        *      *       *     *     19     26       0  //3
+//44        *      *       *     *     19     29       0  //3
+//45        *      *       *     *     19     29       30 //30 seconds
+//
+//15        *      *       *     *      *     10      0 //[Invasion] Hell Maine
+//15        *      *       *     *      *     20      0 //[Invasion] Hell Maine
+//15        *      *       *     *      *     30      0 //[Invasion] Hell Maine
+//15        *      *       *     *      *     40      0 //[Invasion] Hell Maine
+//15        *      *       *     *      *     50      0 //[Invasion] Hell Maine
+//40        *      *       *     *      *     15      0 //[Invasion] Death Beam Knight
+//40        *      *       *     *      *     25      0 //[Invasion] Death Beam Knight
+//40        *      *       *     *      *     35      0 //[Invasion] Death Beam Knight
+//40        *      *       *     *      *     45      0 //[Invasion] Death Beam Knight
+//40        *      *       *     *      *     55      0 //[Invasion] Death Beam Knight
+//41        *      *       *     *      *     8      0 //[Invasion] Dark Phoenix
+//41        *      *       *     *      *     18      0 //[Invasion] Dark Phoenix
+//41        *      *       *     *      *     28      0 //[Invasion] Dark Phoenix
+//41        *      *       *     *      *     38      0 //[Invasion] Dark Phoenix
+//41        *      *       *     *      *     48      0 //[Invasion] Dark Phoenix
+//
+//
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//46        *      *       *     *     00     00       0
+//46        *      *       *     *     06     00       0
+//46        *      *       *     *     12     00       0
+//47        *      *       *     *     00     00       0
+//47        *      *       *     *     06     00       0
+//47        *      *       *     *     12     00       0
+//
+//
+//48          *      	 *       *     *      *     00       0 //[Mini-Boss] Hydra
+//33          *      	 *       *     *      *     12       0 //[Mini-Boss] Gorgon
+//32          *      	 *       *     *      *     24       0 //[Mini-Boss] Ice Queen
+//49          *      	 *       *     *      *     36       0 //[Mini-Boss] Zaikan
+//14          *      	 *       *     *      03      20       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      5      48       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      9      48       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      13     48       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      17     00       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      21     00       0 //[Mini-Boss] Balrog
+//14          *      	 *       *     *      00     48       0 //[Mini-Boss] Balrog
+////Index   Year   Month   Day   DoW   Hour   Minute   Second
+//18         *      *       *     *      03      10         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      7       45         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      11      45         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      15      45         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      18      45         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      21      16         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      23      45         0     //[Mini-Boss] Zaikan
+//18         *      *       *     *      03      45         0     //[Mini-Boss] Zaikan
+  
+  
+  
+  
+end
+
+1
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+0         "[Invasion] Skeleton King"            192              *                55          58            1800           5
+1         "[Invasion] Red Dragon"             193              *                42          58            1800           5
+2         "[Invasion] Golden Dragon"          194              *                501         58            1800           5
+3         "[Invasion] White Wizard"           195              *                135         58            1800           0
+4         "[Invasion] New Year"                 196              *                365         58            1800           5
+5           "[Invasion] Rabbits"                197              *                413         58            3600           5
+6         "[Invasion] Summer"                 198              *                463         58            1800           0
+7         "[Invasion] Cursed Santa"           199              *                476         58            1800           0
+8         "[Invasion] Medusa"                 200              *                561         58            1800           0
+9         "[Event] Ferea"                     1508             58               710         *             1800           5
+10        "[Event] Nix"                       1510             58               687         1511          1800           5
+11        "[Event] God of Darkness"           1512             58               694         1513          3600           5
+12        "[Event] Core Magriffy"             1514             58               683         1515          1800           5
+13        "[Event] Lord Silvester"            1516             58               682         1517          1800           5
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+16        "[Event] Protector of Archron"      1519             58               784         1520          1800           5
+17        "Glacial Golem"                     3084             3083             868         58             4000           5
+19        "[Event] Chicken Event"             1525             1527             776         58            600            5
+20        "[Event] Chicken Event"             *                *                776         58            600            5
+21        "[Event] Arka War"                  1527             58               793         58            900            5
+22        "[Invasion] Summon of Demons"       210              *                795         58            1800           0
+23        "[Event] Merchant Zyro"             1533             1534             568         58            1800           5
+24        "[Event] Boss Eunice"                 1536             58               820         1537          1800           5
+25        "[Event] Boss Battle Together"      1536             58               822         1537          1800           5
+26        "[Event] Boss Battle Together"      1536             58               824         1537          1800           5
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+27        "[Invasion] Horses"                 1544             *                750         58            1800           0
+28        "[Invasion] Goats"                  1545             *                754         58            1800           0
+29        "[Invasion] Monkeys"                1546             *                758         58            1800           0
+30        "[Invasion] Goblins"                1547             *                762         58            1800           0
+31        "[Invasion] Silent Invasion"        0                58               828         58            1800           0
+15          "[Invasion] Hell Maine"             3064             *                309         58            3600           0
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+  34        "Boss Angel"                        3079             *                865         *             4000           5
+  35        "Boss Dark"                         3082             *                866         *             4000           5
+35        "[Event] 5th Event"                 1565             58               842         58            180            0
+36        "[Event] 5th Event"                 1567             1568             815         58            120            0
+37        "[Event] 5th Event"                 1569             1570             816         58            120            0
+38        "[Event] 5th Event"                 1571             1572             844         58            300            0
+39        "[Event] 5th Event"                 0                58               842         58            300            0
+
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+40        "[Event] 4th Event"                 1548             1550             771         58            120            5
+41        "[Event] 4th Event"                 1549             58               771         58            180            0
+42        "[Event] 4th Event"                 1551             1552             773         58            120            0
+43        "[Event] 4th Event"                 1553             1554             774         58            120            0
+44        "[Event] 4th Event"                 1555             1556             772         58            300            0
+45        "[Event] 4th Event"                 0                58               771         58            300            0
+40          "[Invasion] Death Beam Knight"      3068             *                063         58            3600           0
+41          "[Invasion] Dark Phoenix"           3066             *                077         58            3600            0
+
+
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+46        "Pandora's Mine Event"              1574             1576             847         58            1200           0
+47        "Pandora's Mine Event"              0                0                845         58            1200           0
+
+48        "[Mini-Boss] Hydra"               	1499                0                049         58            1800           0
+49        "[Mini-Boss] Zaikan"               	1498                0                059         58            1800           0
+14        "[Mini-Boss] Balrog"               	1497                0                038         58            3600           5
+32        "[Mini-Boss] Ice Queen"              	1496                0                025         58            1800           0
+33        "[Mini-Boss] Gorgon"               	1495                0                018         58            1800           0
+//Index   InvasionName		              RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   WarningTime
+18          "Kundun"                       	    3072                0                275         3073            3600           5
+end
+
+
+2
+//Index   Group   Map   Value
+0         0       0     0
+0         0       3     0
+//Index   Group   Map   Value
+1         0       0     0
+1         0       2     0
+1         0       3     0
+//Index   Group   Map   Value
+2         0       0     0
+2         1       2     0
+2         2       2     0
+2         3       3     0
+2         4       0     0
+2         4       2     0
+2         4       3     0
+2         4       51    0
+2         5       7     0
+2         6       7     0
+2         7       8     0
+2         8       8     0
+2         9       1     0
+2         10      4     0
+2         11      33    0
+2         12      10    0
+2         13      37    0
+2         14      38    0
+2         15      57    0
+2         16      56    0
+2         17      37    0
+2         17      57    0
+2         18      51    0
+//Index   Group   Map   Value
+3         0       0     0
+3         0       2     0
+3         0       3     0
+//Index   Group   Map   Value
+4         0       2     0
+//Index   Group   Map   Value
+5         0       51     0
+//Index   Group   Map   Value
+6         0       4     0
+6         0       7     0
+6         0       8     0
+6         0       33    0
+6         0       37    0
+6         0       57    0
+//Index   Group   Map   Value
+7         0       0     0
+7         0       2     0
+7         0       3     0
+//Index   Group   Map   Value
+8         0       56    0
+8         0       56    1
+8         0       56    2
+8         0       56    3
+//Index   Group   Map   Value
+9         0       85    0
+10        0       84    0
+11          0       99    0
+12        0       86    0
+13        0       88    0
+15        0       33    0		//[Invasion] Hell Maine
+//Index   Group   Map   Value
+16        0       89    0
+16        0       89    1
+16        0       90    2
+//Index   Group   Map   Value
+17        0       2     0
+//Index   Group   Map   Value
+19        0       0     0
+20        0       3     0
+//Index   Group   Map   Value
+21        0       92     0
+//Index   Group   Map   Value
+22        0       8     0
+22        0       33    0
+22        0       37    0
+22        0       80    0
+22        0       81    0
+//Index   Group   Map   Value
+23        0       00    0
+23        0       02    1
+23        0       51    2
+//Index   Group   Map   Value
+24          0       99    0
+25        0       99    0 
+26        0       99    0 
+27        0       00    0 
+28        0       87    0 
+29        0       96    0 
+30        0       101   0 
+31        0       100   0 
+
+34        0       2     0 
+35        0       04    0 
+35        0       102   0 
+36        0       102   0 
+37        0       102   0 
+38        0       102   0
+39        0       102   0  
+
+40        0       08     0 
+41        0       10     0 
+42        0       102   0 
+43        0       102   0 
+44        0       102   0
+45        0       102   0 
+40        0       08    0 
+41        0       10    0
+46        0       87    0 
+47        0       107   0 
+
+48        0       007   0 		//[Mini-Boss] Hydra   
+49        0       008   0 		//[Mini-Boss] Zaikan 
+14        0       004   0 		//[Mini-Boss] Balrog 
+32        0       002   0 		//[Mini-Boss] Ice Queen
+33        0       001   0 		//[Mini-Boss] Gorgon
+18          0       36    0 		//Kundun
+
+end
+
+
+3
+////Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+0         0       55             0           0           *
+//0         0       56             0           0           *
+////Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+1         0       42             0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+2         0       43             0           0           *
+2         1       53             0           0           *
+2         2       54             0           0           *
+2         3       78             0           0           *
+2         4       79             0           0           *
+2         5       80             0           0           *
+2         6       81             0           0           *
+2         7       82             0           0           *
+2         8       83             0           0           *
+2         9       493            0           0           *
+2         10      494            0           0           *
+2         11      495            0           0           *
+2         12      496            0           0           *
+2         13      497            0           0           *
+2         14      498            0           0           *
+2         15      499            0           0           *
+2         16      500            0           0           *
+2         17      501            0           0           *
+2         18      502            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+3         0       135            0           0           *
+3         0       136            0           0           *
+3         0       137            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+4         0       365            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+5         0       413            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+6         0       463            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+7         0       466            0           0           *
+7         0       476            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+8         0       560            0           0           *
+8         0       561            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+9         0       710            0           0           *
+9         0       708            0           0           *
+10        0       687            0           0           *
+11          0       694            0           0           *
+11        0       693            0           0           *
+11        0       692            0           0           *
+12        0       683            0           0           *
+13        0       682            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+16        0       784            0           0           *
+16        0       713            0           0           *
+16        0       715            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+17        0       868            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+19        0       776            0           0           *
+20        0       776            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+21        0       793            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+22        0       795            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+23        0       568            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+24          0       844            0           0           *
+25        0       821            0           0           *
+25        0       822            0           0           *
+26        0       823            0           0           *
+26        0       824            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+27        0       750            0           0           *
+27        0       751            0           0           *
+27        0       752            0           0           *
+27        0       753            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+28        0       754            0           0           *
+28        0       755            0           0           *
+28        0       756            0           0           *
+28        0       757            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+29        0       758            0           0           *
+29        0       759            0           0           *
+29        0       760            0           0           *
+29        0       761            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+30        0       762            0           0           *
+30        0       763            0           0           *
+30        0       764            0           0           *
+30        0       765            0           0           *
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+31        0       828            0           0           *
+31        0       829            0           0           *
+31        0       830            0           0           *
+34        0       865            0           0           *
+35        0       866            0           0           *  
+35        0       842            0           0           *
+36        0       815            1           5           *
+36        0       816            1           5           *
+36        0       817            1           5           *
+37        0       815            1           5           *
+37        0       816            1           5           *
+37        0       817            1           5           *
+38        0       843            0           0           *
+39        0       842            0           0           *
+
+40        0       771            0           0           *
+41        0       771            0           0           *
+40        0       063            0           0           *
+41        0       077            0           0           *
+42        0       773            1           5           *
+42        0       774            1           5           *
+42        0       775            1           5           *
+43        0       774            1           5           *
+43        0       773            1           5           *
+43        0       775            1           5           *
+44        0       772            0           0           *
+45        0       771            0           0           *
+
+//Index   Group   MonsterClass   RegenType   RegenTime   NeedOnlinePlayers
+46        0       847            0           0           *
+47        0       845            0           0           *
+47        0       846            0           0           *
+48        0       049            0           0           *		//[Mini-Boss] Hydra   
+49        0       059            0           0           *		//[Mini-Boss] Zaikan 
+14        0       038            0           0           *		//[Mini-Boss] Balrog 
+15        0       309            0           0           *		//[Invasion] Hell Maine
+32        0       025            0           0           *		//[Mini-Boss] Ice Queen
+33        0       018            0           0           *		//[Mini-Boss] Gorgon
+18        0       275            0           0           *		//kundun
+end

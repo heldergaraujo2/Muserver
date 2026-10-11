@@ -1,0 +1,77 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Core Magriffy"		1000	100		2		0		0		0		0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Ancient	Socket	Comment
+7	53	0	2	0	1	0	3	0	3	// Succubus Helm
+7	54	0	2	0	1	0	3	0	3	// Lazy Wind Helm
+7	55	0	2	0	1	0	3	0	3	// Dark Devil Helm
+7	56	0	2	0	1	0	3	0	3	// Sticky Helm
+7	58	0	2	0	1	0	3	0	3	// Ambition Mask
+7	77	0	2	0	1	0	3	0	3	// Bloody Dragon Helm
+7	53	0	2	0	0	0	2	0	3	// Succubus Helm
+7	54	0	2	0	0	0	2	0	3	// Lazy Wind Helm
+7	55	0	2	0	0	0	2	0	3	// Dark Devil Helm
+7	56	0	2	0	0	0	2	0	3	// Sticky Helm
+7	58	0	2	0	0	0	2	0	3	// Ambition Mask
+7	77	0	2	0	0	0	2	0	3	// Bloody Dragon Helm
+8	53	0	2	0	1	0	3	0	3	// Succubus Armor
+8	54	0	2	0	1	0	3	0	3	// Lazy Wind Armor
+8	55	0	2	0	1	0	3	0	3	// Dark Devil Armor
+8	56	0	2	0	1	0	3	0	3	// Sticky Armor
+8	57	0	2	0	1	0	3	0	3	// Hell Night Armor
+8	58	0	2	0	1	0	3	0	3	// Ambition Armor
+8	77	0	2	0	1	0	3	0	3	// Bloody Dragon Armor
+8	53	0	2	0	0	0	2	0	3	// Succubus Armor
+8	54	0	2	0	0	0	2	0	3	// Lazy Wind Armor
+8	55	0	2	0	0	0	2	0	3	// Dark Devil Armor
+8	56	0	2	0	0	0	2	0	3	// Sticky Armor
+8	57	0	2	0	0	0	2	0	3	// Hell Night Armor
+8	58	0	2	0	0	0	2	0	3	// Ambition Armor
+8	77	0	2	0	0	0	2	0	3	// Bloody Dragon Armor
+9	53	0	2	0	1	0	3	0	3	// Succubus Pants
+9	54	0	2	0	1	0	3	0	3	// Lazy Wind Pants
+9	55	0	2	0	1	0	3	0	3	// Dark Devil Pants
+9	56	0	2	0	1	0	3	0	3	// Sticky Pants
+9	57	0	2	0	1	0	3	0	3	// Hell Night Pants
+9	58	0	2	0	1	0	3	0	3	// Ambition Pants
+9	77	0	2	0	1	0	3	0	3	// Bloody Dragon Pants
+9	53	0	2	0	0	0	2	0	3	// Succubus Pants
+9	54	0	2	0	0	0	2	0	3	// Lazy Wind Pants
+9	55	0	2	0	0	0	2	0	3	// Dark Devil Pants
+9	56	0	2	0	0	0	2	0	3	// Sticky Pants
+9	57	0	2	0	0	0	2	0	3	// Hell Night Pants
+9	58	0	2	0	0	0	2	0	3	// Ambition Pants
+9	77	0	2	0	0	0	2	0	3	// Bloody Dragon Pants
+10	53	0	2	0	1	0	3	0	3	// Succubus Gloves
+10	54	0	2	0	1	0	3	0	3	// Lazy Wind Gloves
+10	55	0	2	0	1	0	3	0	3	// Dark Devil Gloves
+10	56	0	2	0	1	0	3	0	3	// Sticky Gloves
+10	57	0	2	0	1	0	3	0	3	// Hell Night Gloves
+10	58	0	2	0	1	0	3	0	3	// Ambition Gloves
+10	53	0	2	0	0	0	2	0	3	// Succubus Gloves
+10	54	0	2	0	0	0	2	0	3	// Lazy Wind Gloves
+10	55	0	2	0	0	0	2	0	3	// Dark Devil Gloves
+10	56	0	2	0	0	0	2	0	3	// Sticky Gloves
+10	57	0	2	0	0	0	2	0	3	// Hell Night Gloves
+10	58	0	2	0	0	0	2	0	3	// Ambition Gloves
+11	53	0	2	0	1	0	3	0	3	// Succubus Boots
+11	54	0	2	0	1	0	3	0	3	// Lazy Wind Boots
+11	55	0	2	0	1	0	3	0	3	// Dark Devil Boots
+11	56	0	2	0	1	0	3	0	3	// Sticky Boots
+11	57	0	2	0	1	0	3	0	3	// Hell Night Boots
+11	58	0	2	0	1	0	3	0	3	// Ambition Boots
+11	77	0	2	0	1	0	3	0	3	// Bloody Dragon Boots
+11	53	0	2	0	0	0	2	0	3	// Succubus Boots
+11	54	0	2	0	0	0	2	0	3	// Lazy Wind Boots
+11	55	0	2	0	0	0	2	0	3	// Dark Devil Boots
+11	56	0	2	0	0	0	2	0	3	// Sticky Boots
+11	57	0	2	0	0	0	2	0	3	// Hell Night Boots
+11	58	0	2	0	0	0	2	0	3	// Ambition Boots
+11	77	0	2	0	0	0	2	0	3	// Bloody Dragon Boots
+end

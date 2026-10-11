@@ -1,0 +1,21 @@
+12:21:21 [SETCOIN LOG] Start
+12:34:56 [SETCOIN LOG] Start
+14:37:04 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:37:18 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:37:30 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:41:37 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 1000
+16:41:43 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 2000
+16:41:48 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 5000
+16:42:08 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 5000
+16:42:49 [hellder][Saffe] WZ_SetCoin(ItemBag) Val1: 0, Val2: 0, Val3: 1000
+17:44:22 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+17:50:47 [hellder][afqrqrfdas] WZ_SetCoin(CommonShopBuy) Val1: -1000, Val2: 0, Val3: 0
+18:43:04 [SETCOIN LOG] Start
+18:57:55 [pvp02][PVPSUM] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+19:11:21 [pvp04][PVPSUM01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+19:58:13 [pvp02][PVPSUM] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+20:18:07 [pvp04][PVPSUM01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+20:46:19 [pvp01][PVPMG] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+21:47:43 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+22:47:43 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5
+23:47:43 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5

@@ -1,0 +1,6 @@
+08:03:48 [ServerManager][3] DelServer (127.0.0.1)
+08:04:29 [ServerManager][2] AddServer (127.0.0.1)
+08:04:29 [ServerManager][2] ServerInfo (Test) (55902) (1)
+21:53:36 [ServerManager][2] DelServer (127.0.0.1)
+21:54:03 [ServerManager][3] AddServer (127.0.0.1)
+21:54:03 [ServerManager][3] ServerInfo (Test) (55902) (1)

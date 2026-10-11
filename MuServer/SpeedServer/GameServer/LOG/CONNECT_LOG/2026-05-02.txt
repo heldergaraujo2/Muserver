@@ -1,0 +1,5 @@
+15:04:55 [SocketManager] WSASend() failed with error: 10054
+20:14:12 [Connection] connect() failed with error: 10061
+20:14:13 [Connection] connect() failed with error: 10061
+20:14:22 [Connection] connect() failed with error: 10061
+20:14:52 [Connection] connect() failed with error: 10061

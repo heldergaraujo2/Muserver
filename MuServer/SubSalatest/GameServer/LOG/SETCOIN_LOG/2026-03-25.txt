@@ -1,0 +1,12 @@
+14:35:06 [hellder][Saffe] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+14:48:22 [videodv][AdmSaffe] WZ_SetCoin(CustomMonster) Val1: 15, Val2: 0, Val3: 0
+15:17:31 [videodv][AdmSaffe] WZ_SetCoin(CustomMonster) Val1: 15, Val2: 0, Val3: 0
+15:23:39 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:26:16 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+17:25:39 [hellder][Saffe] WZ_SetCoin(CustomMonster) Val1: 15, Val2: 0, Val3: 0
+17:27:14 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+18:00:01 [thecrims][Invocadora] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+21:15:44 [SETCOIN LOG] Start
+21:19:35 [hellder][Saffe] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+21:28:43 [SETCOIN LOG] Start
+22:38:50 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

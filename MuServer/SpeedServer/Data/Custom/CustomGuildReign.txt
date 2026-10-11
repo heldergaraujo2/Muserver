@@ -1,0 +1,15 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// ConquerTime1 - Time to keep press the swith(npc)(seconds)
+// ConquerTime2 - After conquest, time to try to conquer again(seconds)
+//=============================================================================================================================================================================================================================
+//ARENA - STADIUM
+//Map   NpcIndex   MapX   MapY   NpcDir   ConquerTime1   ConquerTime2   ConquerMessage1   ConquerMessage2   ExperienceRate   ItemDropRate   ExcItemDropRate   SetItemDropRate   MoneyAmountRate   ExclusiveGate
+6       854        079    014    2        60             14400          1105              1106              10               10             10                0                 10                *      
+113     854        043    049    2        60             03600          1105              1106              10               10             10                0                 10                486      
+//=============================================================================================================================================================================================================================

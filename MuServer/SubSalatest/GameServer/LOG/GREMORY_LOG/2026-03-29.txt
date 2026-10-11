@@ -1,0 +1,9 @@
+10:34:01 [Gremory Case](thecrims4)(ExitLag) ADDITEM ItemIndex: 4675, Level: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOpt: 2, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 259200
+10:34:01 [Gremory Case] (thecrims4)(ExitLag) ADD ITEM OK
+10:34:17 [Gremory Case](thecrims4)(ExitLag) GETITEM ItemIndex: 4675, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 2, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1775050457
+10:34:23 [Gremory Case](thecrims4)(ExitLag) ADDITEM ItemIndex: 5187, Level: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOpt: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 259200
+10:34:23 [Gremory Case] (thecrims4)(ExitLag) ADD ITEM OK
+10:34:30 [Gremory Case](thecrims4)(ExitLag) ADDITEM ItemIndex: 4163, Level: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOpt: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255, 255, Duration: 259200
+10:34:30 [Gremory Case] (thecrims4)(ExitLag) ADD ITEM OK
+10:34:40 [Gremory Case](thecrims4)(ExitLag) GETITEM ItemIndex: 4163, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1775050480
+10:34:42 [Gremory Case](thecrims4)(ExitLag) GETITEM ItemIndex: 5187, Lvl: 0, Opt1: 0, Opt2: 1, Opt3: 4, NewOption: 5, SetOpt: 5, JOH: 0, OptEx: 0, SocketOpt: 255, 255, 255, 255, 255 255, Duration: 1775050482

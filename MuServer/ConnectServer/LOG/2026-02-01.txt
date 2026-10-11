@@ -1,0 +1,12 @@
+09:10:37 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+09:10:37 [SocketManager] WSAAccept() failed with error: 10061
+11:39:03 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:39:03 [SocketManager] WSAAccept() failed with error: 10061
+11:41:37 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:41:37 [SocketManager] WSAAccept() failed with error: 10061
+11:42:56 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:42:56 [SocketManager] WSAAccept() failed with error: 10061
+11:54:33 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:54:33 [SocketManager] WSAAccept() failed with error: 10061
+12:06:01 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+12:06:01 [SocketManager] WSAAccept() failed with error: 10061

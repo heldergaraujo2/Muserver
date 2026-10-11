@@ -1,0 +1,16 @@
+04:15:15 [SocketManager] Protocol header error (Index: 13008, Header: 22)
+04:22:58 [SocketManager] Protocol header error (Index: 13001, Header: 22)
+04:29:33 [SocketManager] Protocol header error (Index: 13006, Header: 22)
+04:36:03 [SocketManager] Protocol header error (Index: 13003, Header: 22)
+05:02:56 [SocketManager] Protocol header error (Index: 13004, Header: 22)
+05:23:50 [SocketManager] Protocol header error (Index: 13006, Header: 22)
+05:37:40 [SocketManager] Protocol header error (Index: 13000, Header: 22)
+05:44:34 [SocketManager] Protocol header error (Index: 13004, Header: 22)
+21:46:08 [SocketManager] Server started at port [55902]
+21:46:29 [SocketManager] WSAAccept() failed with error: 10061
+21:46:29 [SocketManager] WSAAccept() failed with error: 10061
+21:46:29 [SocketManager] WSAAccept() failed with error: 10061
+21:46:29 [SocketManager] WSAAccept() failed with error: 10061
+21:46:59 [SocketManager] WSAAccept() failed with error: 10061
+21:46:59 [SocketManager] WSAAccept() failed with error: 10061
+23:17:03 [SocketManager] WSAAccept() failed with error: 10061

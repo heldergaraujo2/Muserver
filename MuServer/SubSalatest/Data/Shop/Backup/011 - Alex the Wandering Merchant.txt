@@ -1,0 +1,28 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+//Shop: 011 - Alex the Wandering Merchant
+0
+//Group Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 SocketBonus  Duration   Info
+7	15	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Guardian Helm
+7	20	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Legendary Helm
+7	23	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Dragon Helm
+6	13	9	100	0	0	1	32	0	0	0	255	255	255	255	255	255	     0          //Dragon Shield
+8	15	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Guardian Armor
+8	20	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Legendary Armor
+8	23	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Dragon Armor
+8	194	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Storm Crow Armor
+9	15	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Guardian Pants
+9	20	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Legendary Pants
+9	23	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Dragon Pants
+9	194	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Storm Crow Pants
+10	15	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Guardian Gloves
+10	20	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Legendary Gloves
+10	23	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Dragon Gloves
+10	194	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Storm Crow Gloves
+11	15	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Guardian Boots
+11	20	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Legendary Boots
+11	23	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Dragon Boots
+11	194	9	100	0	0	1	8	0	0	0	255	255	255	255	255	255	     0          //Storm Crow Boots
+0	93	9	113	1	1	1	32	0	0	0	255	255	255	255	255	255		0		//Sword of Destruction
+0	23	9	113	1	1	1	32	0	0	0	255	255	255	255	255	255		0		//Sword of Destruction
+0	31	9	113	1	1	1	32	0	0	0	255	255	255	255	255	255		0		//Sword of Destruction
+end

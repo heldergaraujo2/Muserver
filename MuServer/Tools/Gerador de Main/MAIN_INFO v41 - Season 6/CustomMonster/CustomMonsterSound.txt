@@ -1,0 +1,675 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- © 2025 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+// Type = 0: Npc 1
+// Type = 1: Npc 2
+// Type = 2: Monster Move
+// Type = 3: Monster Attack1
+// Type = 4: Monster Attack2
+// Type = 6: Monster Death
+// Folder Data/Sound
+
+
+// MonsterID | Type 	| FileName 
+678            2         "Swampmon_move_step1"
+678            3         "Ferea_King_Attack_Normal"
+678            4         "Ferea_King_Attack_Roar"
+678            6         "Ferea_King_Death"
+//Ferea Orb
+710            6         "AmoroBallCrash"
+
+//Ferea General
+708            2         "Jelint_move01"
+708            3         "Ferea_General_NormalAttack"
+708            4         "Ferea_General_NormalAttack"
+708            6         "Ferea_General_Death"
+
+// MonsterID | Type 	| FileName 
+682            2         "Swampmon_move_step2"
+682            3         "mLordSilvester_Attack"
+682            4         "mLordSilvester_WhirlWind"
+682            6         "mLordSilvester_Death"
+
+// MonsterID | Type 	| FileName 
+683            2         "SwampEnt_move"
+683            3         "CoreMagriffi_attack"
+683            4         "CoreMagriffi_skill"
+683            6         "CoreMagriffi_death"
+
+// MonsterID | Type 	| FileName 	
+687            2         "cursedtemple_statue01"
+687            3         "Nix_attack"
+687            4         "Nix_skill_IceBoom_Ice"
+687            6         "Nix_death"
+
+820            2         "cursedtemple_statue01"
+820            3         "Nix_attack"
+820            4         "Nix_skill_IceBoom_Ice"
+820            6         "Nix_death"
+
+// MonsterID | Type 	| FileName 
+694            2         "DarknessKing_move"
+694            3         "DarknessKing_attack1"
+694            4         "DarknessKing_flame"
+694            6         "DarknessKing_death"
+
+824            2         "DarknessKing_move"
+824            3         "DarknessKing_attack1"
+824            4         "DarknessKing_flame"
+824            6         "DarknessKing_death"
+//Monster of the Swamp
+692            2         "Mutantile_move"
+692            3         "Mutantile_attack"
+692            4         "Mutantile_death"
+692            6         "Mutantile_death"
+
+//Monster of the Water
+693            2         "Swampmon_move"
+693            3         "Swampmon_attack"
+693            4         "Swampmon_spit"
+693            6         "Swampmon_death"
+
+// MonsterID | Type 	| FileName 
+//Ferea Knight
+679            2         "Jelint_move01"
+679            3         "Ferea_Knight_Attack"
+679            4         "Ferea_Knight_Attack"
+679            6         "Ferea_Knight_Death"
+
+//Ferea Archer
+680            2         "Jelint_move02"
+680            3         "Ferea_Archer_Attack"
+680            4         "Ferea_Archer_Attack"
+680            6         "Ferea_Archer_Death"
+
+//Ferea Fighter
+681            2         "Swampmon_move"
+681            3         "Ferea_Fighter_Attack"
+681            4         "Ferea_Fighter_Attack"
+681            6         "Ferea_Fighter_Death"
+
+// MonsterID | Type 	| FileName
+//Urk Devil Fairy
+705            2         "ubaiddevilfairy_move1"
+705            3         "mUrkeDevilFairy_attack"
+705            4         "mUrkeDevilFairy_hit"
+705            6         "mUrkeDevilFairy_death"
+
+//Urk Elemental Beast
+706            2         "uebeast_move1"
+706            3         "mUrkeElementalBeast_attack"
+706            4         "mUrkeElementalBeast_hit"
+706            6         "mUrkeElementalBeast_death"
+
+//Urk Elemental Knight
+707            2         "ubaideknight_move1"
+707            3         "mUrkeElemenalKnightk_attack"
+707            4         "mUrkeElemenalKnight_hit"
+707            6         "mUrkeElemenalKnight_death"
+
+// MonsterID | Type 	| FileName
+//Nars Devil Fairy
+702            2         "ubaiddevilfairy_move2"
+702            3         "NarsDevilFairy_attack"
+702            4         "NarsDevilFairy_attack"
+702            6         "NarsDevilFairy_death"
+
+//Nars Elemental Beast
+703            2         "uebeast_move2"
+703            3         "NarsElementalBeast_attack"
+703            4         "NarsElementalBeast_attack"
+703            6         "NarsElementalBeast_death"
+
+//Nars Elemental Knight
+704            2         "ubaideknight_move2"
+704            3         "NarsElementalKnight_attack"
+704            4         "NarsElementalKnight_attack"
+704            6         "NarsElementalKnight_death"
+
+// MonsterID | Type 	| FileName
+//Paraca
+684            2         "Orcus_move1"
+684            3         "Paraca_attack"
+684            4         "Paraca_attack"
+684            6         "Paraca_death"
+
+//Bass
+685            2         "Liquimon_move"
+685            3         "Vasuki_attack"
+685            4         "Vasuki_attack"
+685            6         "Bass_death"
+
+//Vasuki
+686            2         "Liquimon_move"
+686            3         "Vasuki_attack"
+686            4         "Vasuki_attack"
+686            6         "Vasuki_death"
+
+// MonsterID | Type 	| FileName
+//Swamp Ent
+688            2         "SwampEnt_move"
+688            3         "SwampEnt_attack"
+688            4         "SwampEnt_attack"
+688            6         "SwampEnt_death"
+
+//Wooden Beast
+689            2         "WoddenBeast_move"
+689            3         "WoddenBeast_attack"
+689            4         "WoddenBeast_attack"
+689            6         "WoddenBeast_death"
+
+//Swamp Wizard
+690            2         "SwampWizard_move"
+690            3         "SwampWizard_attack"
+690            4         "SwampWizard_attack"
+690            6         "SwampWizard_death"
+
+//Mutanlite
+691            2         "Mutantile_move"
+691            3         "Mutantile_attack"
+691            4         "Mutantile_attack"
+691            6         "Mutantile_death"
+
+// MonsterID | Type 	| FileName
+//Mindigger
+695            2         "Orcus_move1"
+695            3         "kuberaDigger_attack"
+695            4         "kuberaDigger_hit"
+695            6         "kuberaDigger_death"
+
+//Main Carrier
+696            2         "Mutantile_move"
+696            3         "kuberaCartpuller_attack"
+696            4         "kuberaCartpuller_hit"
+696            6         "kuberaCartpuller_death"
+
+//Mine Porter
+697            2         "Mutantile_move"
+697            3         "kuberaSackMiner_attack"
+697            4         "kuberaSackMiner_hit"
+697            6         "kuberaSackMiner_death"
+
+//Main Driller
+698            2         "Orcus_move1e"
+698            3         "kuberaPickaxMiner_attack"
+698            4         "kuberaPickaxMiner_hit"
+698            6         "kuberaPickaxMiner_death"
+
+//Dead Digger
+699            2         "Mutantile_move"
+699            3         "kuberaDigger_attack"
+699            4         "kuberaDigger_hit"
+699            6         "kuberaDigger_death"
+
+//Dead Showbell
+700            2         "Mutantile_move"
+700            3         "kuberaDeadShoveler_attack"
+700            4         "kuberaDeadShoveler_attack2"
+700            6         "kuberaDeadShoveler_death"
+
+//Dead Porter
+701            2         "Orcus_move1"
+701            3         "kuberaSackMiner_attack"
+701            4         "kuberaSackMiner_hit"
+701            6         "kuberaSackMiner_death"
+
+// MonsterID | Type 	| FileName
+//Scotched Warrior
+781            2         "Orcus_move1"
+781            3         "SC_warrior_attack"
+781            4         "SC_warrior_hit"
+781            6         "SC_warrior_death"
+
+//Scotched Wizard
+782            2         "Mutantile_move"
+782            3         "SC_magician_attack"
+782            4         "SC_magician_hit"
+782            6         "SC_magician_death"
+
+//Scotched Assassin
+783            2         "Mutantile_move"
+783            3         "SC_Assassin_attack"
+783            4         "SC_Assassin_hit"
+783            6         "SC_Assassin_death"
+
+// MonsterID | Type 	| FileName
+//Cursed Tower
+784            6         "Acheron_obelisk_occupy"
+
+// MonsterID | Type 	| FileName
+//Elemental Beast
+587            2         "ebeast_move1"
+587            3         "ebeast_attack1"
+587            4         "ebeast_hit1"
+587            6         "ebeast_death1"
+
+//Elemental Knight
+588            2         "eknight_move1"
+588            3         "eknight_attack1"
+588            4         "eknight_hit1"
+588            6         "eknight_death1"
+
+//Devilfairy
+589            2         "ubaiddevilfairy_move1"
+589            3         "devilfairy_attack1"
+589            4         "devilfairy_hit1"
+589            6         "devilfairy_death1"
+
+// MonsterID | Type 	| FileName
+//Ubaid Devil Fairy
+589            2         "ubaiddevilfairy_move1"
+589            3         "ubaiddevilfairy_attack1"
+589            4         "ubaiddevilfairy_attack1"
+589            6         "ubaiddevilfairy_death1"
+
+//Ubaid Elemental Beast
+590            2         "uebeast_move1"
+590            3         "uebeast_attack1"
+590            4         "uebeast_attack1"
+590            6         "uebeast_death1"
+
+//Ubaid Elemental Knight
+591            2         "ubaideknight_move1"
+591            3         "ubaideknight_attack1"
+591            4         "ubaideknight_attack1"
+591            6         "ubaideknight_death1"
+
+// MonsterID | Type 	| FileName
+
+//Salamander
+711            2         "salamander_move1"
+711            3         "salamander_attack1"
+711            4         "salamander_skill1"
+711            6         "salamander_death1"
+
+//Undine
+712            2         "undine_move1"
+712            3         "undine_attack1"
+712            4         "undine_skill1"
+712            6         "undine_death1"
+
+//Sylphid
+713            3         "silpheed_attack1"
+713            4         "silpheed_skill1"
+713            6         "silpheed_death1"
+
+//Gnome
+714            2         "gnome_move1"
+714            3         "gnome_attack1"
+714            4         "gnome_skill1"
+714            6         "gnome_death1"
+
+//Hellraiser
+715            2         "hilasha_move1"
+715            3         "hilasha_attack1"
+715            4         "hilasha_skill1"
+715            6         "hilasha_death1"
+
+//Sellihoden
+716            2         "salamander_move1"
+716            3         "salamander_attack1"
+716            4         "salamander_skill1"
+716            6         "salamander_death1"
+
+//Ukanva
+717            2         "undine_move1"
+717            3         "undine_attack1"
+717            4         "undine_skill1"
+717            6         "undine_death1"
+
+//Silla
+718            2         "gnome_move1"
+718            3         "gnome_attack1"
+718            4         "gnome_skill1"
+718            6         "ugnome_death1"
+
+//Normus
+719            3         "silpheed_attack1"
+719            4         "silpheed_skill1"
+719            6         "silpheed_death1"
+
+//Muff
+720            2         "hilasha_move1"
+720            3         "hilasha_attack1"
+720            4         "hilasha_skill1"
+720            6         "hilasha_death1"
+
+// MonsterID | Type 	| FileName
+//Death Tree Gray
+806            2         "ubaiddevilfairy_move2"
+806            3         "dt_attack1"
+806            4         "dt_attack2"
+806            6         "dt_death"
+
+//Forest Orc Gray
+807            2         "ubaiddevilfairy_move2"
+807            3         "fo_attack1"
+807            4         "fo_attack2"
+807            6         "fo_death"
+
+//Death Rider Gray
+808            2         "ubaiddevilfairy_move2"
+808            3         "dr_attack1"
+808            4         "dr_attack2"
+808            6         "dr_death"
+
+//Witch Queen Gray
+809            2         "ubaiddevilfairy_move2"
+809            3         "wq_attack1"
+809            4         "wq_attack2"
+809            6         "wq_death"
+
+//Elite Ashen Golem Gray
+810            2         "ubaiddevilfairy_move2"
+810            3         "bg_attack1"
+810            4         "bg_attack2"
+810            6         "bg_death"
+
+//Elite B Witch Queen G
+811            3         "wq_attack1"
+811            4         "wq_attack2"
+811            6         "wq_death"
+
+// MonsterID | Type 	| FileName
+//Deep D Larva"
+725            3         "mLarva1"
+725            4         "mLarva2"
+725            6         "TempleGremlin_death"
+
+//Deep D Cyclops
+726            3         "RaisedGladiator_attack"
+726            4         "RaisedGladiator_attack"
+726            6         "AshesButcher_death"
+
+//Deep D Ghost
+727            3         "mGhostAttack1"
+727            4         "mGhostAttack2"
+727            6         "mGhostDie"
+
+//Deep D HellHound
+728            3         "mHoundAttack1"
+728            4         "mHoundAttack2"
+728            6         "mHoundDie"
+
+//Deep D Hell Spider
+729            3         "mHellSpider1"
+729            4         "mHellSpiderAttack1"
+729            6         "mHellSpiderDie"
+
+//Deep D Thunder Lich
+730            3         "eThunder"
+730            4         "eThunder"
+730            6         "mDeathBubble"
+
+//Deep D Poison Bull F
+731            3         "mBullAttack1"
+731            4         "mBullAttack2"
+731            6         "mBullDie"
+
+//Deep D Dark Knight
+732            3         "mDarkKnightAttack1"
+732            4         "mDarkKnightAttack2"
+732            6         "mDarkKnightDie"
+
+//Deep D Gorgon
+733            3         "mGorgonAttack1"
+733            4         "mGorgonAttack2"
+733            6         "mGorgonDie"
+
+
+// MonsterID | Type 	| FileName
+//Bahamut Abyss
+766            3         "mBahamut1"
+766            6         "mDeathBubble"
+
+//Vepar Abyss
+767            3         "mBepar1"
+767            4         "mBepar2"
+767            6         "mDeathBubble"
+
+//Silver Valkyre Abyss
+768            3         "mValkyrie1"
+768            4         "eCrossbow"
+768            6         "mDeathBubble"
+
+//Lizard King Abyss
+769            3         "mLizardKing1"
+769            4         "mLizardKing2"
+769            6         "mDeathBubble"
+
+
+// MonsterID | Type 	| FileName
+//Golden Goblin"
+795            3         "mGoblin1"
+795            4         "mGoblin2"
+795            6         "mGoblinDie"
+
+//Golden Titan"
+796            3         "Skill_SpiritHook_Dmg"
+796            4         "ShiningPeak"
+796            6         "Goloch_death"
+
+//Golden Tantalose"
+797            3         "ShiningPeak"
+797            4         "ShiningPeak"
+797            6         "jaikan_die"
+
+//Golden Erohim"
+798            3         "Skill_SpiritHook_Right"
+798            4         "sHellFire"
+798            6         "mKundunRoar"
+
+//Golden Hell Maine"
+799            3         "hm_attack1"
+799            4         "hm_firelay"
+799            6         "hm_death"
+
+//Golden Kundun"
+800            3         "mKundunAttack1"
+800            4         "mKundunAttack2"
+800            6         "mKundunDestory"
+
+
+// MonsterID | Type 	| FileName
+//Debenter Devil Fairy
+786            2         "ubaiddevilfairy_move1"
+786            3         "ubaiddevilfairy_attack1"
+786            4         "ubaiddevilfairy_attack1"
+786            6         "ubaiddevilfairy_death1"
+
+//Debenter Elemental Beast
+787            2         "uebeast_move1"
+787            3         "uebeast_attack1"
+787            4         "uebeast_attack1"
+787            6         "uebeast_death1"
+
+//Debenter Elemental Knight
+788            2         "ubaideknight_move1"
+788            3         "ubaideknight_attack1"
+788            4         "ubaideknight_attack1"
+788            6         "ubaideknight_death1"
+
+
+// MonsterID | Type 	| FileName
+//Evomon (Lv1)
+734            2         "DarkSanta_Walk02"
+734            3         "DarkSanta_Attack01"
+734            4         "DarkSanta_Attack01"
+734            6         "pWpain1"
+
+//Evomon (Lv2)
+735            2         "DarkSanta_Walk02"
+735            3         "DarkSanta_Attack01"
+735            4         "DarkSanta_Attack01"
+735            6         "pWpain1"
+
+//Evomon (Lv3)
+736            2         "DarkSanta_Walk02"
+736            3         "DarkSanta_Attack01"
+736            4         "DarkSanta_Attack01"
+736            6         "pWpain1"
+
+//Special Evomon
+737            2         "DarkSanta_Walk02"
+737            3         "DarkSanta_Attack01"
+737            4         "sDarkSpear"
+737            6         "xmasturn"
+
+// MonsterID | Type 	| FileName
+801            6         "SE_Ev_rabbit_Explosion"
+802            6         "SE_Ev_rabbit_Explosion"
+803            6         "SE_Ev_rabbit_Explosion"
+804            6         "SE_Ev_rabbit_Explosion"
+750            6         "SE_Ev_rabbit_Explosion"
+751            6         "SE_Ev_rabbit_Explosion"
+752            6         "SE_Ev_rabbit_Explosion"
+753            6         "SE_Ev_rabbit_Explosion"
+754            6         "SE_Ev_rabbit_Explosion"
+755            6         "SE_Ev_rabbit_Explosion"
+756            6         "SE_Ev_rabbit_Explosion"
+757            6         "SE_Ev_rabbit_Explosion"
+758            6         "SE_Ev_rabbit_Explosion"
+759            6         "SE_Ev_rabbit_Explosion"
+760            6         "SE_Ev_rabbit_Explosion"
+761            6         "SE_Ev_rabbit_Explosion"
+762            6         "SE_Ev_rabbit_Explosion"
+763            6         "SE_Ev_rabbit_Explosion"
+764            6         "SE_Ev_rabbit_Explosion"
+765            6         "SE_Ev_rabbit_Explosion"
+
+
+
+
+// MonsterID | Type 	| FileName
+//Temple Ogre
+812            3         "TempleOgre_hit"
+812            4         "TempleOgre_attack"
+812            6         "TempleOgre_death"
+
+
+//Temple Gramlin
+813            3         "TempleGremlin_hit"
+813            4         "TempleGremlin_attack"
+813            6         "TempleGremlin_death"
+
+
+//Temple Gargoyle
+814            3         "TempleGargoyle_hit"
+814            4         "TempleGargoyle_attack"
+814            6         "TempleGargoyle_death"
+
+
+// MonsterID | Type 	| FileName
+//Crimson Lycan
+815            3         "CRIMSON LYCAN(2)"
+815            4         "CRIMSON LYCAN(1)"
+815            6         "CRIMSON LYCAN(3)"
+
+
+//Crimson Minos
+816            3         "CRIMSON MINOS(2)"
+816            4         "CRIMSON MINOS(1)"
+816            6         "CRIMSON MINOS(3)"
+
+
+//Crimson Harpy
+817            3         "CRIMSON HARPY(2)"
+817            4         "CRIMSON HARPY(1)"
+817            6         "CRIMSON HARPY(3)"
+821            3         "Selupan_attack1"
+821            4         "Selupan_word3"
+821            6         "Selupan_word2"
+822            3         "mKundunAttack1"
+822            4         "mKundunAttack2"
+822            6         "mKundunDestory"
+823            3         "nightmare_attack-01"
+823            4         "nightmare_skill-02"
+823            6         "nightmare_death"
+825            3         "perso_attack-01"
+825            4         "perso_attack-02"
+825            6         "perso_death"
+826            3         "twin_attack-01"
+826            4         "twin_attack-02"
+826            6         "twin_death"
+827            3         "dred_attack-01"
+827            4         "dred_attack-02"
+827            6         "dred_death"
+828            3         "perso_attack-01"
+828            4         "perso_attack-02"
+828            6         "perso_death"
+829            3         "twin_attack-01"
+829            4         "twin_attack-02"
+829            6         "twin_death"
+830            3         "dred_attack-01"
+830            4         "dred_attack-02"
+830            6         "dred_death"
+831            3         "MagmaGladiator_attack"
+831            4         "MagmaGladiator_hit"
+831            6         "MagmaGladiator_death"
+832            3         "MagmaHook_attack"
+832            4         "MagmaHook_hit"
+832            6         "MagmaHook_death"
+833            3         "MagmaMagician_attack"
+833            4         "MagmaMagician_hit"
+833            6         "MagmaMagician_death"
+776            3         "Chicken_DMG_01"
+776            4         "Chicken_DMG_02"
+776            6         "SE_Ev_rabbit_Explosion"
+777            3         "Chicken_DMG_01"
+777            4         "Chicken_DMG_02"
+777            6         "SE_Ev_rabbit_Explosion"
+778            3         "Chicken_DMG_01"
+778            4         "Chicken_DMG_02"
+778            6         "SE_Ev_rabbit_Explosion"
+779            3         "Chicken_DMG_01"
+779            4         "Chicken_DMG_02"
+779            6         "SE_Ev_rabbit_Explosion"
+780            3         "Chicken_DMG_01"
+780            4         "Chicken_DMG_02"
+780            6         "SE_Ev_rabbit_Explosion"
+835            3         "mutant1"
+835            4         "mutant_attack1"
+835            6         "mutant2"
+836            3         "blood1"
+836            4         "blood_attack1"
+836            6         "blood_die"
+837            3         "death1"
+837            4         "death_attack1"
+837            6         "death_die"
+838            3         "jaikan_attack1"
+838            4         "jaikan_attack2"
+838            6         "jaikan_die"
+839            3         "StormGuard_attack"
+839            4         "StormGuard_Hit"
+839            6         "StormGuard_death"
+840            3         "StormReaper_attack"
+840            4         "StormReaper_Hit"
+840            6         "StormReaper_death"
+841            3         "StormFiend_attack"
+841            4         "StormFiend_Hit"
+841            6         "StormFiend_death"
+848            3         "Crypta_attack"
+848            4         "Crypta_move2"
+848            6         "Crypta_death"
+849            3         "Goloch_attack"
+849            4         "Goloch_move1"
+849            6         "Goloch_death"
+850            3         "Condra_attack"
+850            4         "Condra_move1"
+850            6         "Condra_death"
+851            3         "DevilSword_attack"
+851            4         "DevilSword_Hit"
+851            6         "DevilSword_death"
+852            3         "DevilScythe_attack"
+852            4         "DevilScythe_Hit"
+852            6         "DevilScythe_death"
+853            3         "Devilsorcerer_attack"
+853            4         "Devilsorcerer_Hit"
+853            6         "Devilsorcerer_death"
+
+
+end

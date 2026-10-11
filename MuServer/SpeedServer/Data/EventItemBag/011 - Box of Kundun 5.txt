@@ -1,0 +1,235 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2022 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0		10000		0
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0		5	    9200   	0		0			1	1	1	1	1	1	1
+//0		6	    1000 	0		0			1	1	1	1	1	1	1
+//0		7	    100   	0		0			1	1	1	1	1	1	1
+0		8	    800   	0		0			1	1	1	1	1	1	1
+
+end
+
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+31  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+20  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+21  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+24  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+33	      0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+34	      0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+1036      0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+1546	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2067	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2068	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2571	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2578	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2583	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+3083	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+3085	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+3605	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4117	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4629	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+5147	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5653	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3606	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3608	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4120	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4632	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5144	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5656	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4118	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4630	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5141	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5142	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5654	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4119	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4631	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5143	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5655	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3612	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4124	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4636	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5660	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3626	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4138	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4650	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5162	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5674	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3644	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3645	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4156	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4668	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5692	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3087	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+2573	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2573	  0	      0	       0	   0	   0	   0	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4157	  0	      0	       0	   0	   0	   0	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4669	  0	      0	       0	   0	   0	   0	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5693	  0	      0	       0	   0	   0	   0	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+ 
+
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+31  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+20  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+24  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+33	      0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+1546	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2067	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2068	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2571	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2578	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2583	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+3605	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4117	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4629	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+5147	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5653	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3606	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4118	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4630	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5654	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4119	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4631	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5143	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5655	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3612	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4124	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4636	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5660	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3626	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4138	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4650	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5162	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5674	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3644	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3645	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4156	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4668	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5692	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3087	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+end
+
+7
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+31  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+20  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+24  	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+33	      0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+1546	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2067	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2068	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2571	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2578	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+2583	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+3605	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4117	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+4629	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly
+5147	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5653	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3606	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4118	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4630	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5654	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4119	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4631	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5143	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5655	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3612	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4124	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4636	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5660	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3626	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4138	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4650	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5162	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5674	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3644	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4156	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+4668	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+5692	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+3087	  0	      0	       0	   0	   0	   0	   12	   0	   0	    0		// Talisman of Chaos Assembly 
+end
+
+8
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+31  	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+20  	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+21  	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+24  	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+33	      0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+34	      0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+1036      0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+1546	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+2067	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+2068	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+2571	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+2578	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+2583	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+3083	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+3085	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+3605	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+4117	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+4629	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+5147	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5142	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5141	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5653	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3606	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4118	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4630	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5654	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4119	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4631	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5143	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5655	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3612	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4124	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4636	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5148	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5660	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3626	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4138	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4650	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5162	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5674	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3644	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3645	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4156	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4668	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5692	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3087	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+2573	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4157	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4669	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5693	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+3608	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4120	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+4632	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5144	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly 
+5656	  0	      0	       0	   0	   0	   12	   13	   0	   0	    0		// Talisman of Chaos Assembly
+
+
+end

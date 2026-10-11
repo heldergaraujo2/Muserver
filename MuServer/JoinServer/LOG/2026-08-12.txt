@@ -1,0 +1,40 @@
+00:00:23 Account hellderr logged with global password!
+00:01:58 Account hellderr logged with global password!
+00:14:50 [ServerManager][1] DelServer (127.0.0.1)
+00:15:04 [SocketManager] Server started at port [55970]
+00:15:09 [ServerManager][0] AddServer (127.0.0.1)
+00:15:09 [ServerManager][0] ServerInfo (Test) (55903) (2)
+00:15:10 [ServerManager][1] AddServer (127.0.0.1)
+00:15:10 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+00:15:16 [ServerManager][2] AddServer (127.0.0.1)
+00:15:16 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+00:15:30 Account hellderr logged with global password!
+00:16:00 Account hellder logged with global password!
+00:16:41 Account hellder logged with global password!
+00:28:32 Account hellder logged with global password!
+00:29:25 Account hellder logged with global password!
+09:29:39 Account hellder logged with global password!
+09:29:41 Account hellder logged with global password!
+09:36:27 Account hellderr logged with global password!
+09:36:29 Account hellderr logged with global password!
+09:44:08 Account hellder logged with global password!
+09:49:22 Account hellder logged with global password!
+09:56:16 [ServerManager][0] DelServer (127.0.0.1)
+09:56:26 [ServerManager][0] AddServer (127.0.0.1)
+09:56:26 [ServerManager][0] ServerInfo (Test) (55903) (2)
+09:56:56 Account hellder logged with global password!
+11:15:56 Account hellder logged with global password!
+12:05:20 Account hellder logged with global password!
+12:08:05 Account hellder logged with global password!
+13:09:17 Account hellderr logged with global password!
+13:11:44 Account hellderr logged with global password!
+13:12:49 Account hellderr logged with global password!
+13:30:21 Account hellder logged with global password!
+13:30:52 Account hellder logged with global password!
+19:22:16 Account hellder logged with global password!
+19:30:05 Account hellder logged with global password!
+19:47:02 Account hellderr logged with global password!
+19:47:02 Account hellder logged with global password!
+19:52:51 Account hellder logged with global password!
+21:32:06 Account hellder logged with global password!
+21:52:26 Account hellder logged with global password!

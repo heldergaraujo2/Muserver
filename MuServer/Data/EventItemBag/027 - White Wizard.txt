@@ -1,0 +1,17 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName			DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"White Wizard"		1000	10000			5			    0				0				0			0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+14		13		0		0		0		0		0		0	// Jewel of Bless
+14		14		0		0		0		0		0		0	// Jewel of Soul
+14		13		0		0		0		0		0		0	// Jewel of Bless
+14		14		0		0		0		0		0		0	// Jewel of Soul
+14		13		0		0		0		0		0		0	// Jewel of Bless
+14		14		0		0		0		0		0		0	// Jewel of Soul
+end

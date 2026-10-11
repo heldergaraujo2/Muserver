@@ -1,0 +1,8 @@
+04:42:48 [SocketManager] Protocol header error (Index: 16, Header: 3)
+04:42:48 [SocketManager] Protocol header error (Index: 57, Header: 3)
+06:43:25 [SocketManager] Protocol header error (Index: 44, Header: 3)
+06:43:26 [SocketManager] Protocol header error (Index: 55, Header: 3)
+09:13:35 [SocketManager] Protocol header error (Index: 51, Header: 3)
+09:13:36 [SocketManager] Protocol header error (Index: 52, Header: 3)
+15:30:54 [SocketManager] Protocol header error (Index: 16, Header: 3)
+15:30:54 [SocketManager] Protocol header error (Index: 24, Header: 3)

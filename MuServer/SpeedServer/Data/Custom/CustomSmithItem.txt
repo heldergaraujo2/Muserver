@@ -1,0 +1,854 @@
+//#####################################################################################################################################################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     # -- 3DServers MUONLINE SERVER EMULATOR                     # -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              # -- https://3dservers.com.br/                              # -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             # -- © 2025 Bruno3D Development                             # -- © 2025 Bruno3D Development                             #
+//# -- File is a part of 3DServers MuOnline Server files.     # -- File is a part of 3DServers MuOnline Server files.     # -- File is a part of 3DServers MuOnline Server files.     #
+//#####################################################################################################################################################################################
+0
+//Item Value
+//ItemMinIndex   ItemMaxIndex   1DayCoin1   1DayCoin2   1DayCoin3   7DayCoin1   7DayCoin2   7DayCoin3   30DayCoin1   30DayCoin2   30DayCoin3   UnlimitedCoin1   UnlimitedCoin2   UnlimitedCoin3   
+0000             0002           *           *           *           *           *           *           *            *            *            50               0                0
+0003             0018           *           *           *           *           *           *           *            *            *            50               0                0
+0019             0019           *           *           *           *           *           *           *            *            *            100              0                0
+0020             0021           *           *           *           *           *           *           *            *            *            50               0                0
+0022             0023           *           *           *           *           *           *           *            *            *            100              0                0
+0024             0025           *           *           *           *           *           *           *            *            *            100              0                0
+0026             0030           *           *           *           *           *           *           *            *            *            100              0                0
+0031             0034           *           *           *           *           *           *           *            *            *            100              0                0
+0035             0035           *           *           *           *           *           *           *            *            *            100              0                0
+0037             0037           *           *           *           *           *           *           *            *            *            100              0                0
+0042             0044           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Sword, Magic Sword
+0100             0100           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Claw
+// 2 - Scepters
+1024             1024           *           *           *           *           *           *           *            *            *            50               0                0
+1025             1025           *           *           *           *           *           *           *            *            *            50               0                0
+1026             1026           *           *           *           *           *           *           *            *            *            50               0                0
+1027             1030           *           *           *           *           *           *           *            *            *            50               0                0
+1031             1031           *           *           *           *           *           *           *            *            *            50               0                0
+1032             1034           *           *           *           *           *           *           *            *            *            50               0                0
+1035             1037           *           *           *           *           *           *           *            *            *            100              0                0
+1038             1038           *           *           *           *           *           *           *            *            *            100              0                0
+1039             1039           *           *           *           *           *           *           *            *            *            100              0                0
+1040             1040           *           *           *           *           *           *           *            *            *            100              0                0
+1041             1041           *           *           *           *           *           *           *            *            *            100              0                0
+1042             1042           *           *           *           *           *           *           *            *            *            100              0                0
+1043             1044           *           *           *           *           *           *           *            *            *            100              0                0
+1046             1046           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Scepter
+// 3 - Spears
+1536             1554           *           *           *           *           *           *           *            *            *            50               0                0
+// 4 - Bows
+2048             2065           *           *           *           *           *           *           *            *            *            50               0                0
+2066             2074           *           *           *           *           *           *           *            *            *            100              0                0
+2076             2076           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Bow
+// 5 - Staffs
+2560             2580           *           *           *           *           *           *           *            *            *            50               0                0
+2581             2597           *           *           *           *           *           *           *            *            *            100              0                0
+2601             2603           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Staffs
+2620             2620           *           *           *           *           *           *           *            *            *            1000             0                0	//Book of Bloodangel
+// 6 - Shield
+3072             3088           *           *           *           *           *           *           *            *            *            50               0                0
+3089             3098           *           *           *           *           *           *           *            *            *            100              0                0
+3102             3102           *           *           *           *           *           *           *            *            *            1000             0                0	//Bloodangel Shield
+// 7 - Helms
+3584             3584           *           *           *           *           *           *           *            *            *            25               0                0  //Bronze Helm       
+3585             3585           *           *           *           *           *           *           *            *            *            25               0                0  //Dragon Helm       
+3586             3586           *           *           *           *           *           *           *            *            *            25               0                0  //Pad Helm          
+3587             3587           *           *           *           *           *           *           *            *            *            25               0                0  //Legendary Helm    
+3588             3588           *           *           *           *           *           *           *            *            *            25               0                0  //Bone Helm         
+3589             3589           *           *           *           *           *           *           *            *            *            25               0                0  //Leather Helm      
+3590             3590           *           *           *           *           *           *           *            *            *            25               0                0  //Scale Helm        
+3591             3591           *           *           *           *           *           *           *            *            *            25               0                0  //Sphinx Mask       
+3592             3592           *           *           *           *           *           *           *            *            *            25               0                0  //Brass Helm        
+3593             3593           *           *           *           *           *           *           *            *            *            25               0                0  //Plate Helm        
+3594             3594           *           *           *           *           *           *           *            *            *            25               0                0  //Vine Helm         
+3595             3595           *           *           *           *           *           *           *            *            *            25               0                0  //Silk Helm         
+3596             3596           *           *           *           *           *           *           *            *            *            25               0                0  //Wind Helm         
+3597             3597           *           *           *           *           *           *           *            *            *            25               0                0  //Spirit Helm       
+3598             3598           *           *           *           *           *           *           *            *            *            25               0                0  //Guardian Helm     
+3600             3600           *           *           *           *           *           *           *            *            *            40               0                0  //Black Dragon Helm 
+3601             3601           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Phoenix Helm 
+3602             3602           *           *           *           *           *           *           *            *            *            40               0                0  //Grand Soul Helm   
+3603             3603           *           *           *           *           *           *           *            *            *            40               0                0  //Divine Helm       
+3605             3605           *           *           *           *           *           *           *            *            *            40               0                0  //Great Dragon Helm 
+3606             3606           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Soul Helm    
+3608             3608           *           *           *           *           *           *           *            *            *            40               0                0  //Red Spirit Helm   
+3609             3609           *           *           *           *           *           *           *            *            *            40               0                0  //Light Plate Mask  
+3610             3610           *           *           *           *           *           *           *            *            *            40               0                0  //Adamantine Mask
+3611             3611           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Steel Mask   
+3612             3612           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Master Mask  
+3613             3613           *           *           *           *           *           *           *            *            *            40               0                0  //Dragon Knight Helm
+3614             3614           *           *           *           *           *           *           *            *            *            40               0                0  //Venom Mist Helm   
+3615             3615           *           *           *           *           *           *           *            *            *            40               0                0  //Sylphid Ray Helm  
+3617             3617           *           *           *           *           *           *           *            *            *            40               0                0  //Sunlight Mask     
+3618             3618           *           *           *           *           *           *           *            *            *            40               0                0  //Ashcrow Helm      
+3619             3619           *           *           *           *           *           *           *            *            *            40               0                0  //Eclipse Helm      
+3620             3620           *           *           *           *           *           *           *            *            *            40               0                0  //Iris Helm         
+3622             3622           *           *           *           *           *           *           *            *            *            40               0                0  //Glorious Mask     
+3623             3623           *           *           *           *           *           *           *            *            *            40               0                0  //Violent Wind Helm 
+3624             3624           *           *           *           *           *           *           *            *            *            40               0                0  //Red Wing Helm     
+3625             3625           *           *           *           *           *           *           *            *            *            40               0                0  //Ancient Helm      
+3626             3626           *           *           *           *           *           *           *            *            *            40               0                0  //Demonic Helm      
+3627             3627           *           *           *           *           *           *           *            *            *            40               0                0  //Storm Blitz Helm  
+3628             3628           *           *           *           *           *           *           *            *            *            60               0                0  //Lilium Helm       
+3629             3629           *           *           *           *           *           *           *            *            *            60               0                0  //Titan Helm        
+3630             3630           *           *           *           *           *           *           *            *            *            60               0                0  //Brave Helm        
+3633             3633           *           *           *           *           *           *           *            *            *            60               0                0  //Seraphim Helm     
+3634             3634           *           *           *           *           *           *           *            *            *            60               0                0  //Divine Helm       
+3635             3635           *           *           *           *           *           *           *            *            *            60               0                0  //Royal Mask        
+3636             3636           *           *           *           *           *           *           *            *            *            60               0                0  //Hades Helm        
+3637             3637           *           *           *           *           *           *           *            *            *            60               0                0  //Succubus Helm     
+3638             3638           *           *           *           *           *           *           *            *            *            60               0                0  //Lazy Wind Helm
+3639             3639           *           *           *           *           *           *           *            *            *            60               0                0  //Dark Devil Helm   
+3640             3640           *           *           *           *           *           *           *            *            *            60               0                0  //Sticky Helm       
+3642             3642           *           *           *           *           *           *           *            *            *            60               0                0  //Ambition Mask     
+3643             3643           *           *           *           *           *           *           *            *            *            60               0                0  //Sacred Helm       
+3644             3644           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Hard Helm   
+3645             3645           *           *           *           *           *           *           *            *            *            60               0                0  //Piercing Helm     
+3657             3657           *           *           *           *           *           *           *            *            *            60               0                0  //Phoenix Soul Helm
+3682             3688           *           *           *           *           *           *           *            *            *            1000             0                0  //Bloodangel Helm
+// 8 - Armors
+4096             4096           *           *           *           *           *           *           *            *            *            25               0                0  //Bronze Armor       
+4097             4097           *           *           *           *           *           *           *            *            *            25               0                0  //Dragon Armor       
+4098             4098           *           *           *           *           *           *           *            *            *            25               0                0  //Pad Armor          
+4099             4099           *           *           *           *           *           *           *            *            *            25               0                0  //Legendary Armor    
+4100             4100           *           *           *           *           *           *           *            *            *            25               0                0  //Bone Armor         
+4101             4101           *           *           *           *           *           *           *            *            *            25               0                0  //Leather Armor      
+4102             4102           *           *           *           *           *           *           *            *            *            25               0                0  //Scale Armor        
+4103             4103           *           *           *           *           *           *           *            *            *            25               0                0  //Sphinx Armor       
+4104             4104           *           *           *           *           *           *           *            *            *            25               0                0  //Brass Armor        
+4105             4105           *           *           *           *           *           *           *            *            *            25               0                0  //Plate Armor        
+4106             4106           *           *           *           *           *           *           *            *            *            25               0                0  //Vine Armor         
+4107             4107           *           *           *           *           *           *           *            *            *            25               0                0  //Silk Armor         
+4108             4108           *           *           *           *           *           *           *            *            *            25               0                0  //Wind Armor         
+4109             4109           *           *           *           *           *           *           *            *            *            25               0                0  //Spirit Armor       
+4110             4110           *           *           *           *           *           *           *            *            *            25               0                0  //Guardian Armor     
+4111             4111           *           *           *           *           *           *           *            *            *            40               0                0  //Storm Crow Armor   
+4112             4112           *           *           *           *           *           *           *            *            *            40               0                0  //Black Dragon Armor 
+4113             4113           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Phoenix Armor 
+4114             4114           *           *           *           *           *           *           *            *            *            40               0                0  //Grand Soul Armor   
+4115             4115           *           *           *           *           *           *           *            *            *            40               0                0  //Divine Armor       
+4116             4116           *           *           *           *           *           *           *            *            *            40               0                0  //Thunder Hawk Armor 
+4117             4117           *           *           *           *           *           *           *            *            *            40               0                0  //Great Dragon Armor 
+4118             4118           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Soul Armor    
+4119             4119           *           *           *           *           *           *           *            *            *            40               0                0  //Hurricane Armor    
+4120             4120           *           *           *           *           *           *           *            *            *            40               0                0  //Red Sprit Armor    
+4121             4121           *           *           *           *           *           *           *            *            *            40               0                0  //Light Plate Armor  
+4122             4122           *           *           *           *           *           *           *            *            *            40               0                0  //Adamantine Armor   
+4123             4123           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Steel Armor   
+4124             4124           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Master Armor  
+4125             4125           *           *           *           *           *           *           *            *            *            40               0                0  //Dragon Knight Armor
+4126             4126           *           *           *           *           *           *           *            *            *            40               0                0  //Venom Mist Armor   
+4127             4127           *           *           *           *           *           *           *            *            *            40               0                0  //Sylphid Ray Armor  
+4128             4128           *           *           *           *           *           *           *            *            *            40               0                0  //Volcano Armor      
+4129             4129           *           *           *           *           *           *           *            *            *            40               0                0  //Sunlight Armor     
+4130             4130           *           *           *           *           *           *           *            *            *            40               0                0  //Ashcrow Armor      
+4131             4131           *           *           *           *           *           *           *            *            *            40               0                0  //Eclipse Armor      
+4132             4132           *           *           *           *           *           *           *            *            *            40               0                0  //Iris Armor         
+4133             4133           *           *           *           *           *           *           *            *            *            40               0                0  //Valiant Armor      
+4134             4134           *           *           *           *           *           *           *            *            *            40               0                0  //Glorious Armor     
+4135             4135           *           *           *           *           *           *           *            *            *            60               0                0  //Violent Wind Armor 
+4136             4136           *           *           *           *           *           *           *            *            *            60               0                0  //Red Wing Armor     
+4137             4137           *           *           *           *           *           *           *            *            *            60               0                0  //Ancient Armor      
+4138             4138           *           *           *           *           *           *           *            *            *            60               0                0  //Demonic Armor      
+4139             4139           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Blitz Armor  
+4140             4140           *           *           *           *           *           *           *            *            *            60               0                0  //Lilium Armor       
+4141             4141           *           *           *           *           *           *           *            *            *            60               0                0  //Titan Armor        
+4142             4142           *           *           *           *           *           *           *            *            *            60               0                0  //Brave Armor        
+4143             4143           *           *           *           *           *           *           *            *            *            60               0                0  //Phantom Armor      
+4144             4144           *           *           *           *           *           *           *            *            *            60               0                0  //Destroy Armor      
+4145             4145           *           *           *           *           *           *           *            *            *            60               0                0  //Seraphim Armor     
+4146             4146           *           *           *           *           *           *           *            *            *            60               0                0  //Divine Armor       
+4147             4147           *           *           *           *           *           *           *            *            *            60               0                0  //Royal Armor        
+4148             4148           *           *           *           *           *           *           *            *            *            60               0                0  //Hades Armor        
+4149             4149           *           *           *           *           *           *           *            *            *            60               0                0  //Succubus Armor     
+4150             4150           *           *           *           *           *           *           *            *            *            60               0                0  //Lazy Wind Armor    
+4151             4151           *           *           *           *           *           *           *            *            *            60               0                0  //Dark Devil Armor   
+4152             4152           *           *           *           *           *           *           *            *            *            60               0                0  //Sticky Armor       
+4153             4153           *           *           *           *           *           *           *            *            *            60               0                0  //Hell Night Armor   
+4154             4154           *           *           *           *           *           *           *            *            *            60               0                0  //Ambition Armor     
+4155             4155           *           *           *           *           *           *           *            *            *            60               0                0  //Sacred Armor       
+4156             4156           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Hard Armor   
+4157             4157           *           *           *           *           *           *           *            *            *            60               0                0  //Piercing Armor     
+4169             4169           *           *           *           *           *           *           *            *            *            60               0                0  //Phoenix Soul Armor
+4194             4200           *           *           *           *           *           *           *            *            *            1000             0                0  //Bloodangel Armor
+// 9 - Pants
+4608             4608           *           *           *           *           *           *           *            *            *            25               0                0  //Bronze Pants       
+4609             4609           *           *           *           *           *           *           *            *            *            25               0                0  //Dragon Pants       
+4610             4610           *           *           *           *           *           *           *            *            *            25               0                0  //Pad Pants          
+4611             4611           *           *           *           *           *           *           *            *            *            25               0                0  //Legendary Pants    
+4612             4612           *           *           *           *           *           *           *            *            *            25               0                0  //Bone Pants         
+4613             4613           *           *           *           *           *           *           *            *            *            25               0                0  //Leather Pants      
+4614             4614           *           *           *           *           *           *           *            *            *            25               0                0  //Scale Pants        
+4615             4615           *           *           *           *           *           *           *            *            *            25               0                0  //Sphinx Pants       
+4616             4616           *           *           *           *           *           *           *            *            *            25               0                0  //Brass Pants        
+4617             4617           *           *           *           *           *           *           *            *            *            25               0                0  //Plate Pants        
+4618             4618           *           *           *           *           *           *           *            *            *            25               0                0  //Vine Pants         
+4619             4619           *           *           *           *           *           *           *            *            *            25               0                0  //Silk Pants         
+4620             4620           *           *           *           *           *           *           *            *            *            25               0                0  //Wind Pants         
+4621             4621           *           *           *           *           *           *           *            *            *            25               0                0  //Spirit Pants       
+4622             4622           *           *           *           *           *           *           *            *            *            25               0                0  //Guardian Pants     
+4623             4623           *           *           *           *           *           *           *            *            *            40               0                0  //Storm Crow Pants   
+4624             4624           *           *           *           *           *           *           *            *            *            40               0                0  //Black Dragon Pants 
+4625             4625           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Phoenix Pants 
+4626             4626           *           *           *           *           *           *           *            *            *            40               0                0  //Grand Soul Pants   
+4627             4627           *           *           *           *           *           *           *            *            *            40               0                0  //Divine Pants       
+4628             4628           *           *           *           *           *           *           *            *            *            40               0                0  //Thunder Hawk Pants 
+4629             4629           *           *           *           *           *           *           *            *            *            40               0                0  //Great Dragon Pants 
+4630             4630           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Soul Pants    
+4631             4631           *           *           *           *           *           *           *            *            *            40               0                0  //Hurricane Pants    
+4632             4632           *           *           *           *           *           *           *            *            *            40               0                0  //Red Spirit Pants   
+4633             4633           *           *           *           *           *           *           *            *            *            40               0                0  //Light Plate Pants  
+4634             4634           *           *           *           *           *           *           *            *            *            40               0                0  //Adamantine Pants   
+4635             4635           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Steel Pants   
+4636             4636           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Master Pants  
+4637             4637           *           *           *           *           *           *           *            *            *            40               0                0  //Dragon Knight Pants
+4638             4638           *           *           *           *           *           *           *            *            *            40               0                0  //Venom Mist Pants   
+4639             4639           *           *           *           *           *           *           *            *            *            40               0                0  //Sylphid Ray Pants  
+4640             4640           *           *           *           *           *           *           *            *            *            40               0                0  //Volcano Pants      
+4641             4641           *           *           *           *           *           *           *            *            *            40               0                0  //Sunlight Pants     
+4642             4642           *           *           *           *           *           *           *            *            *            40               0                0  //Ashcrow Pants      
+4643             4643           *           *           *           *           *           *           *            *            *            40               0                0  //Eclipse Pants      
+4644             4644           *           *           *           *           *           *           *            *            *            40               0                0  //Iris Pants         
+4645             4645           *           *           *           *           *           *           *            *            *            40               0                0  //Valiant Pants      
+4646             4646           *           *           *           *           *           *           *            *            *            40               0                0  //Glorious Pants     
+4647             4647           *           *           *           *           *           *           *            *            *            60               0                0  //Violent Wind Pants 
+4648             4648           *           *           *           *           *           *           *            *            *            60               0                0  //Red Wing Pants     
+4649             4649           *           *           *           *           *           *           *            *            *            60               0                0  //Ancient Pants      
+4650             4650           *           *           *           *           *           *           *            *            *            60               0                0  //Demonic Pants      
+4651             4651           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Blitz Pants  
+4652             4652           *           *           *           *           *           *           *            *            *            60               0                0  //Lilium Pants       
+4653             4653           *           *           *           *           *           *           *            *            *            60               0                0  //Titan  Pants       
+4654             4654           *           *           *           *           *           *           *            *            *            60               0                0  //Brave Pants        
+4655             4655           *           *           *           *           *           *           *            *            *            60               0                0  //Phantom  Pants     
+4656             4656           *           *           *           *           *           *           *            *            *            60               0                0  //Destroy Pants      
+4657             4657           *           *           *           *           *           *           *            *            *            60               0                0  //Seraphim Pants     
+4658             4658           *           *           *           *           *           *           *            *            *            60               0                0  //Divine Pants       
+4659             4659           *           *           *           *           *           *           *            *            *            60               0                0  //Royal Pants        
+4660             4660           *           *           *           *           *           *           *            *            *            60               0                0  //Hades Pants        
+4661             4661           *           *           *           *           *           *           *            *            *            60               0                0  //Succubus Pants     
+4662             4662           *           *           *           *           *           *           *            *            *            60               0                0  //Lazy Wind Pants    
+4663             4663           *           *           *           *           *           *           *            *            *            60               0                0  //Dark Devil Pants   
+4664             4664           *           *           *           *           *           *           *            *            *            60               0                0  //Sticky Pants       
+4665             4665           *           *           *           *           *           *           *            *            *            60               0                0  //Hell Night Pants   
+4666             4666           *           *           *           *           *           *           *            *            *            60               0                0  //Ambition Pants     
+4667             4667           *           *           *           *           *           *           *            *            *            60               0                0  //Sacred Pants       
+4668             4668           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Hard Pants   
+4669             4669           *           *           *           *           *           *           *            *            *            60               0                0  //Piercing Pants     
+4681             4681           *           *           *           *           *           *           *            *            *            60               0                0  //Phoenix Soul Pants
+4706             4712           *           *           *           *           *           *           *            *            *            1000             0                0  //Bloodangel Pants
+// 10 - Gloves
+5120             5120           *           *           *           *           *           *           *            *            *            25               0                0  //Bronze Gloves
+5121             5121           *           *           *           *           *           *           *            *            *            25               0                0  //Dragon Gloves
+5122             5122           *           *           *           *           *           *           *            *            *            25               0                0  //Pad Gloves
+5123             5123           *           *           *           *           *           *           *            *            *            25               0                0  //Legendary Gloves
+5124             5124           *           *           *           *           *           *           *            *            *            25               0                0  //Bone Gloves
+5125             5125           *           *           *           *           *           *           *            *            *            25               0                0  //Leather Gloves
+5126             5126           *           *           *           *           *           *           *            *            *            25               0                0  //Scale Gloves
+5127             5127           *           *           *           *           *           *           *            *            *            25               0                0  //Sphinx Gloves
+5128             5128           *           *           *           *           *           *           *            *            *            25               0                0  //Brass Gloves
+5129             5129           *           *           *           *           *           *           *            *            *            25               0                0  //Plate Gloves
+5130             5130           *           *           *           *           *           *           *            *            *            25               0                0  //Vine Gloves
+5131             5131           *           *           *           *           *           *           *            *            *            25               0                0  //Silk Gloves
+5132             5132           *           *           *           *           *           *           *            *            *            25               0                0  //Wind Gloves
+5133             5133           *           *           *           *           *           *           *            *            *            25               0                0  //Spirit Gloves
+5134             5134           *           *           *           *           *           *           *            *            *            25               0                0  //Guardian Gloves
+5135             5135           *           *           *           *           *           *           *            *            *            40               0                0  //Storm Crow Gloves
+5136             5136           *           *           *           *           *           *           *            *            *            40               0                0  //Black Dragon Gloves
+5137             5137           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Phoenix Gloves
+5138             5138           *           *           *           *           *           *           *            *            *            40               0                0  //Grand Soul Gloves
+5139             5139           *           *           *           *           *           *           *            *            *            40               0                0  //Divine Gloves
+5140             5140           *           *           *           *           *           *           *            *            *            40               0                0  //Thunder Hawk Gloves
+5141             5141           *           *           *           *           *           *           *            *            *            40               0                0  //Great Dragon Gloves
+5142             5142           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Soul Gloves
+5143             5143           *           *           *           *           *           *           *            *            *            40               0                0  //Hurricane Gloves
+5144             5144           *           *           *           *           *           *           *            *            *            40               0                0  //Red Spirit Gloves
+5145             5145           *           *           *           *           *           *           *            *            *            40               0                0  //Light Plate Gloves
+5146             5146           *           *           *           *           *           *           *            *            *            40               0                0  //Adamantine Gloves
+5147             5147           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Steel Gloves
+5148             5148           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Master Gloves
+5149             5149           *           *           *           *           *           *           *            *            *            40               0                0  //Dragon Knight Gloves
+5150             5150           *           *           *           *           *           *           *            *            *            40               0                0  //Venom Mist Gloves
+5151             5151           *           *           *           *           *           *           *            *            *            40               0                0  //Sylphid Ray Gloves
+5152             5152           *           *           *           *           *           *           *            *            *            40               0                0  //Volcano Gloves
+5153             5153           *           *           *           *           *           *           *            *            *            40               0                0  //Sunlight Gloves
+5154             5154           *           *           *           *           *           *           *            *            *            40               0                0  //Ashcrow Gloves
+5155             5155           *           *           *           *           *           *           *            *            *            40               0                0  //Eclipse Gloves
+5156             5156           *           *           *           *           *           *           *            *            *            40               0                0  //Iris Gloves
+5157             5157           *           *           *           *           *           *           *            *            *            40               0                0  //Valiant Gloves
+5158             5158           *           *           *           *           *           *           *            *            *            40               0                0  //Glorious Gloves
+5159             5159           *           *           *           *           *           *           *            *            *            60               0                0  //Violent Wind Gloves
+5160             5160           *           *           *           *           *           *           *            *            *            60               0                0  //Red Wing Gloves
+5161             5161           *           *           *           *           *           *           *            *            *            60               0                0  //Ancient Gloves
+5162             5162           *           *           *           *           *           *           *            *            *            60               0                0  //Demonic Gloves
+5163             5163           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Blitz Gloves
+5164             5164           *           *           *           *           *           *           *            *            *            60               0                0  //Lilium Gloves
+5165             5165           *           *           *           *           *           *           *            *            *            60               0                0  //Titan  Gloves
+5166             5166           *           *           *           *           *           *           *            *            *            60               0                0  //Brave Gloves
+5167             5167           *           *           *           *           *           *           *            *            *            60               0                0  //Phantom  Gloves
+5168             5168           *           *           *           *           *           *           *            *            *            60               0                0  //Destroy Gloves
+5169             5169           *           *           *           *           *           *           *            *            *            60               0                0  //Seraphim Gloves
+5170             5170           *           *           *           *           *           *           *            *            *            60               0                0  //Divine Gloves
+5171             5171           *           *           *           *           *           *           *            *            *            60               0                0  //Royal Gloves
+5172             5172           *           *           *           *           *           *           *            *            *            60               0                0  //Hades Gloves
+5173             5173           *           *           *           *           *           *           *            *            *            60               0                0  //Succubus Gloves
+5174             5174           *           *           *           *           *           *           *            *            *            60               0                0  //Lazy Wind Gloves
+5175             5175           *           *           *           *           *           *           *            *            *            60               0                0  //Dark Devil Gloves
+5176             5176           *           *           *           *           *           *           *            *            *            60               0                0  //Sticky Gloves
+5177             5177           *           *           *           *           *           *           *            *            *            60               0                0  //Hell Night Gloves
+5178             5178           *           *           *           *           *           *           *            *            *            60               0                0  //Ambition Gloves
+5218             5223           *           *           *           *           *           *           *            *            *            1000             0                0  //Bloodangel Gloves
+// 11 - Boots
+5632             5632           *           *           *           *           *           *           *            *            *            25               0                0  //Bronze Boots          
+5633             5633           *           *           *           *           *           *           *            *            *            25               0                0  //Dragon Boots          
+5634             5634           *           *           *           *           *           *           *            *            *            25               0                0  //Pad Boots             
+5635             5635           *           *           *           *           *           *           *            *            *            25               0                0  //Legendary Boots       
+5636             5636           *           *           *           *           *           *           *            *            *            25               0                0  //Bone Boots            
+5637             5637           *           *           *           *           *           *           *            *            *            25               0                0  //Leather Boots         
+5638             5638           *           *           *           *           *           *           *            *            *            25               0                0  //Scale Boots           
+5639             5639           *           *           *           *           *           *           *            *            *            25               0                0  //Sphinx Boots          
+5640             5640           *           *           *           *           *           *           *            *            *            25               0                0  //Brass Boots           
+5641             5641           *           *           *           *           *           *           *            *            *            25               0                0  //Plate Boots           
+5642             5642           *           *           *           *           *           *           *            *            *            25               0                0  //Vine Boots            
+5643             5643           *           *           *           *           *           *           *            *            *            25               0                0  //Silk Boots            
+5644             5644           *           *           *           *           *           *           *            *            *            25               0                0  //Wind Boots            
+5645             5645           *           *           *           *           *           *           *            *            *            25               0                0  //Spirit Boots          
+5646             5646           *           *           *           *           *           *           *            *            *            25               0                0  //Guardian Boots        
+5647             5647           *           *           *           *           *           *           *            *            *            40               0                0  //Storm Crow Boots      
+5648             5648           *           *           *           *           *           *           *            *            *            40               0                0  //Black Dragon Boots    
+5649             5649           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Phoenix Boots    
+5650             5650           *           *           *           *           *           *           *            *            *            40               0                0  //Grand Soul Boots      
+5651             5651           *           *           *           *           *           *           *            *            *            40               0                0  //Divine Boots          
+5652             5652           *           *           *           *           *           *           *            *            *            40               0                0  //Thunder Hawk Boots    
+5653             5653           *           *           *           *           *           *           *            *            *            40               0                0  //Great Dragon Boots    
+5654             5654           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Soul Boots       
+5655             5655           *           *           *           *           *           *           *            *            *            40               0                0  //Hurricane Boots       
+5656             5656           *           *           *           *           *           *           *            *            *            40               0                0  //Red Spirit Boots      
+5657             5657           *           *           *           *           *           *           *            *            *            40               0                0  //Light Plate Boots     
+5658             5658           *           *           *           *           *           *           *            *            *            40               0                0  //Adamantine Boots      
+5659             5659           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Steel Boots      
+5660             5660           *           *           *           *           *           *           *            *            *            40               0                0  //Dark Master Boots     
+5661             5661           *           *           *           *           *           *           *            *            *            40               0                0  //Dragon Knight Boots   
+5662             5662           *           *           *           *           *           *           *            *            *            40               0                0  //Venom Mist Boots      
+5663             5663           *           *           *           *           *           *           *            *            *            40               0                0  //Sylphid Ray Boots     
+5664             5664           *           *           *           *           *           *           *            *            *            40               0                0  //Volcano Boots         
+5665             5665           *           *           *           *           *           *           *            *            *            40               0                0  //Sunlight Boots        
+5666             5666           *           *           *           *           *           *           *            *            *            40               0                0  //Ashcrow Boots         
+5667             5667           *           *           *           *           *           *           *            *            *            40               0                0  //Eclipse Boots         
+5668             5668           *           *           *           *           *           *           *            *            *            40               0                0  //Iris Boots            
+5669             5669           *           *           *           *           *           *           *            *            *            40               0                0  //Valiant Boots         
+5670             5670           *           *           *           *           *           *           *            *            *            40               0                0  //Glorious Boots        
+5671             5671           *           *           *           *           *           *           *            *            *            60               0                0  //Violent Wind Boots
+5672             5672           *           *           *           *           *           *           *            *            *            60               0                0  //Red Wing Boots
+5673             5673           *           *           *           *           *           *           *            *            *            60               0                0  //Ancient Boots
+5674             5674           *           *           *           *           *           *           *            *            *            60               0                0  //Demonic Boots
+5675             5675           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Blitz Boots
+5676             5676           *           *           *           *           *           *           *            *            *            60               0                0  //Lilium Boots
+5677             5677           *           *           *           *           *           *           *            *            *            60               0                0  //Titan Boots
+5678             5678           *           *           *           *           *           *           *            *            *            60               0                0  //Brave Boots
+5679             5679           *           *           *           *           *           *           *            *            *            60               0                0  //Phantom Boots
+5680             5680           *           *           *           *           *           *           *            *            *            60               0                0  //Destroy Boots
+5681             5681           *           *           *           *           *           *           *            *            *            60               0                0  //Seraphim Boots
+5682             5682           *           *           *           *           *           *           *            *            *            60               0                0  //Divine Boots
+5683             5683           *           *           *           *           *           *           *            *            *            60               0                0  //Royal Boots
+5684             5684           *           *           *           *           *           *           *            *            *            60               0                0  //Hades Boots
+5685             5685           *           *           *           *           *           *           *            *            *            60               0                0  //Succubus Boots        
+5686             5686           *           *           *           *           *           *           *            *            *            60               0                0  //Lazy Wind Boots       
+5687             5687           *           *           *           *           *           *           *            *            *            60               0                0  //Dark Devil Boots      
+5688             5688           *           *           *           *           *           *           *            *            *            60               0                0  //Sticky Boots          
+5689             5689           *           *           *           *           *           *           *            *            *            60               0                0  //Hell Night Boots      
+5690             5690           *           *           *           *           *           *           *            *            *            60               0                0  //Ambition Boots        
+5691             5691           *           *           *           *           *           *           *            *            *            60               0                0  //Sacred Boots          
+5692             5692           *           *           *           *           *           *           *            *            *            60               0                0  //Storm Hard Boots      
+5693             5693           *           *           *           *           *           *           *            *            *            60               0                0  //Piercing Boots        
+5705             5705           *           *           *           *           *           *           *            *            *            60               0                0  //Phoenix Soul Boots
+5730             5736           *           *           *           *           *           *           *            *            *            1000             0                0  //Bloodangel Boots
+// 12- Wings
+//ItemMinIndex   ItemMaxIndex   1DayCoin1   1DayCoin2   1DayCoin3   7DayCoin1   7DayCoin2   7DayCoin3   30DayCoin1   30DayCoin2   30DayCoin3   UnlimitedCoin1   UnlimitedCoin2   UnlimitedCoin3
+6180             6184           *           *           *           *           *           *           *            *            *            6000             0                0 //Wings lvl 3
+6187             6187           *           *           *           *           *           *           *            *            *            6000             0                0 //Wings lvl 3
+6194             6194           *           *           *           *           *           *           *            *            *            6000             0                0 //Cape of Fighter                        Wings lvl 2
+// 13- Pets
+6686             6686           *           *           *           *           *           *           *            *            *            200              0                0 //Cape of Lord                           Wings lvl 2
+6693             6693           *           *           *           *           *           *           *            *            *            1500             0                0 //Horn of Fenrir
+6856             6856           *           *           *           *           *           *           *            *            *            1700             0                0 //Ghost Horse
+6872             6873           *           *           *           *           *           *           *            *            *            1500             0                0 //Tibetton (Mount) e Tibetton (Mount Evolved)
+6882             6883           *           *           *           *           *           *           *            *            *            1500             0                0 //Repen (Mount) e Repen (Mount Evolved)
+6902             6903           *           *           *           *           *           *           *            *            *            3000             0                0 //Ice Dragon e Ice Dragon (Rare)
+6932             6933           *           *           *           *           *           *           *            *            *            3600             0                0 //Pierce Ryan e Pierce Ryan (Rare)
+6948             6949           *           *           *           *           *           *           *            *            *            3900             0                0 //Shining Tail e Shining Tail (Rare)
+6950             6951           *           *           *           *           *           *           *            *            *            4200             0                0 //Ur e Ur (Rare)
+6957             6960           *           *           *           *           *           *           *            *            *            1500             0                0 //Divine Horse, Fire Divine Spirit, Ice Divine Spirit e Holy Divine Spirit
+6962             6963           *           *           *           *           *           *           *            *            *            5400             0                0 //Ur e Ur (Rare)
+// 13- Ring e Pendants
+6664             6683           *           *           *           *           *           *           *            *            *            1500             *                * //Ring e pendant
+end
+
+1
+//Item Option Value
+//ItemMinIndex   ItemMaxIndex   LevelCoin1   LevelCoin2   LevelCoin3   LuckyCoin1   LuckyCoin2   LuckyCoin3   SkillCoin1   SkillCoin2   SkillCoin3   AddCoin1   AddCoin2   AddCoin3   380Coin1   380Coin2   380Coin3   ExcCoin1   ExcCoin2   ExcCoin3   SetCoin1   SetCoin2   SetCoin3   SocketCoin1   SocketCoin2   SocketCoin3
+0000             0002           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+0003             0018           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+0019             0019           100          0            0            100          0            0            120          0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+0020             0021           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+0022             0023           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+0024             0025           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+0026             0030           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+0030             0034           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+0035             0035           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+0037             0037           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0
+0042             0044           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Sword, Magic Sword
+0100             0100           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Claw
+// 2 - Scepters
+1024             1024           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1025             1025           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1026             1026           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1027             1030           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1031             1031           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1032             1034           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+1035             1037           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1038             1038           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1039             1039           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1040             1040           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1041             1041           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1042             1042           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1043             1044           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+1046             1046           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Scepter
+// 3 - Spears
+1536             1554           60           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          0             0             0                                      
+// 4 - Bows
+2048             2065           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          90         0          0          0          0          0          100           0             0                                      
+2066             2074           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+2076             2076           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Bow
+// 5 - Staffs
+2560             2580           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+2581             2597           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+2601             2603           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Staffs
+2620             2620           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Book of Bloodangel
+// 6 - Shield
+3072             3088           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+3089             3098           100          0            0            100          0            0            120          0            0            40         0          0          150        0          0          90         0          0          0          0          0          100           0             0                                      
+3102             3102           50           0            0            50           0            0            50           0            0            40         0          0          0          0          0          500        0          0          0          0          0          0             0             0 //Bloodangel Shield
+// 7 - Helms
+3584             3657           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          20         0          0          100           0             0
+3682             3688           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          250        0          0          500        0          0          0             0             0 //Bloodangel Helm
+// 8 - Armors
+4096             4169           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          20         0          0          100           0             0
+4194             4200           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          250        0          0          500        0          0          0             0             0 //Bloodangel Armor
+// 9 - Pants
+4608             4681           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          20         0          0          100           0             0
+4706             4712           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          250        0          0          500        0          0          0             0             0 //Bloodangel Pants
+// 10 - Gloves
+5120             5178           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          20         0          0          100           0             0
+5218             5223           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          250        0          0          500        0          0          0             0             0 //Bloodangel Gloves
+// 11 - Boots
+5632             5705           50           0            0            50           0            0            40           0            0            40         0          0          150        0          0          90         0          0          20         0          0          100           0             0
+5730             5736           50           0            0            50           0            0            40           0            0            40         0          0          0          0          0          250        0          0          500        0          0          0             0             0 //Bloodangel Boots
+// 12- Wings
+6180             6184           1            0            0            1            0            0            0            0            0            0          0          0          0          0          0          1000      0          0          0          0          0          0             0             0 //Wingslvl3                                     
+6187             6187           1            0            0            1            0            0            0            0            0            0          0          0          0          0          0          1000      0          0          0          0          0          0             0             0 //Wingslvl3                                     
+6194             6194           1            0            0            1            0            0            0            0            0            0          0          0          0          0          0          1000      0          0          0          0          0          0             0             0                                      
+// 13- Pets
+6693             6963           100          0            0            100          0            0            120          0            0            20         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+// 13 - Rings
+6664             6683           050          0            0            100          0            0            120          0            0            20         0          0          150        0          0          90         0          0          0          0          0          0             0             0                                      
+end
+
+2
+//Item Max Options (0 to disable an option)
+//ItemMinIndex   ItemMaxIndex   MaxLevel   MaxLucky   MaxSkill   MaxAdd   Max380  MaxExcellent   MaxSetItem   MaxSocket
+0000             0002           9         1          0          7        0       2              0            0
+0003             0018           9         1          1          7        0       2              0            0
+0019             0019           9         1          1          7        0       2              0            0
+0020             0021           9         1          1          7        0       2              0            0
+0022             0023           9         1          1          7        0       2              0            0
+0024             0025           9         1          1          7        0       2              0            0
+0026             0030           9         1          1          7        0       2              0            0
+0031             0034           9         1          1          7        0       2              0            0
+0035             0035           9         1          1          7        0       2              0            0
+0037             0037           9         1          1          7        0       2              0            0
+0042             0044           9         1          1          7        0       2              0            0 //Bloodangel Sword, Magic Sword
+0100             0100           9         1          1          7        0       2              0            0 //Bloodangel Claw
+// 2 - Scepters                                                 7
+1024             1024           9         1          0          7        0       2              0            0
+1025             1025           9         1          1          7        0       2              0            0
+1026             1026           9         1          0          7        0       2              0            0
+1027             1030           9         1          1          7        0       2              0            0
+1031             1031           9         1          0          7        0       2              0            0
+1032             1034           9         1          1          7        0       2              0            0
+1035             1037           9         1          1          7        0       2              0            0
+1038             1038           9         1          1          7        0       2              0            0
+1039             1039           9         1          1          7        0       2              0            0
+1040             1040           9         1          0          7        0       2              0            0
+1041             1041           9         1          1          7        0       2              0            0
+1042             1042           9         1          1          7        0       2              0            0
+1043             1044           9         1          1          7        0       2              0            0
+1046             1046           9         1          1          7        0       2              0            0 //Bloodangel Scepter
+// 3 - Spears                                                   7
+1536             1536           9         1          1          7        0       2              0            0
+1537             1539           9         1          0          7        0       2              0            0
+1540             1540           9         1          1          7        0       2              0            0
+1541             1542           9         1          0          7        0       2              0            0
+1543             1554           9         1          1          7        0       2              0            0
+// 4 - Bows                                                     7
+2048             2065           9         1          1          7        0       2              0            0
+2066             2068           9         1          1          7        0       2              0            0
+2069             2069           9         1          1          7        0       2              0            0
+2070             2070           9         1          1          7        0       2              0            0
+2071             2071           9         1          1          7        0       2              0            0
+2072             2072           9         1          1          7        0       2              0            0
+2073             2074           9         1          1          7        0       2              0            0
+2076             2076           9         1          1          7        0       2              0            0 //Bloodangel Bow
+// 5 - Staffs                                                   7
+2560             2571           9         1          0          7        0       2              0            0
+2572             2572           9         1          0          7        0       2              0            0
+2573             2578           9         1          1          7        0       2              0            0
+2579             2579           9         1          1          7        0       2              0            0
+2580             2583           9         1          1          7        0       2              0            0
+2590             2592           9         1          0          7        0       2              0            0
+2593             2594           9         1          0          7        0       2              0            0
+2595             2595           9         1          0          7        0       2              0            0
+2596             2596           9         1          0          7        0       2              0            0
+2597             2597           9         1          0          7        0       2              0            0
+2601             2603           9         1          1          7        0       2              0            0 //Bloodangel Staffs
+2620             2620           9         1          1          7        0       2              0            0 //Book of Bloodangel
+// 6 - Shield                                                   7
+3072             3075           9         1          0          7        0       2              0            0
+3076             3085           9         1          1          7        0       2              0            0
+3086             3088           9         1          0          7        0       2              0            0
+3089             3090           9         1          1          7        0       2              0            0
+3091             3092           9         1          0          7        0       2              0            0
+3093             3093           9         1          1          7        0       2              0            0
+3094             3094           9         1          1          7        0       2              0            0
+3095             3096           9         1          0          7        0       2              0            0
+3097             3098           9         1          1          7        0       2              0            0
+3102             3102           9         1          1          7        0       2              0            0 //Bloodangel Shield
+// 7 - Helms                                                    7
+3584             3584           9         1          0          7        0       2              0            0  //Bronze Helm       
+3585             3585           9         1          0          7        0       2              0            0  //Dragon Helm       
+3586             3586           9         1          0          7        0       2              0            0  //Pad Helm          
+3587             3587           9         1          0          7        0       2              0            0  //Legendary Helm    
+3588             3588           9         1          0          7        0       2              0            0  //Bone Helm         
+3589             3589           9         1          0          7        0       2              0            0  //Leather Helm      
+3590             3590           9         1          0          7        0       2              0            0  //Scale Helm        
+3591             3591           9         1          0          7        0       2              0            0  //Sphinx Mask       
+3592             3592           9         1          0          7        0       2              0            0  //Brass Helm        
+3593             3593           9         1          0          7        0       2              0            0  //Plate Helm        
+3594             3594           9         1          0          7        0       2              0            0  //Vine Helm         
+3595             3595           9         1          0          7        0       2              0            0  //Silk Helm         
+3596             3596           9         1          0          7        0       2              0            0  //Wind Helm         
+3597             3597           9         1          0          7        0       2              0            0  //Spirit Helm       
+3598             3598           9         1          0          7        0       2              0            0  //Guardian Helm     
+3600             3600           9         1          0          7        0       2              0            0  //Black Dragon Helm 
+3601             3601           9         1          0          7        0       2              0            0  //Dark Phoenix Helm 
+3602             3602           9         1          0          7        0       2              0            0  //Grand Soul Helm   
+3603             3603           9         1          0          7        0       2              0            0  //Divine Helm       
+3605             3605           9         1          0          7        0       2              0            0  //Great Dragon Helm 
+3606             3606           9         1          0          7        0       2              0            0  //Dark Soul Helm    
+3608             3608           9         1          0          7        0       2              0            0  //Red Spirit Helm   
+3609             3609           9         1          0          7        0       2              0            0  //Light Plate Mask  
+3610             3610           9         1          0          7        0       2              0            0  //Adamantine Mask
+3611             3611           9         1          0          7        0       2              0            0  //Dark Steel Mask   
+3612             3612           9         1          0          7        0       2              0            0  //Dark Master Mask  
+3613             3613           9         1          0          7        0       2              0            0  //Dragon Knight Helm
+3614             3614           9         1          0          7        0       2              0            0  //Venom Mist Helm   
+3615             3615           9         1          0          7        0       2              0            0  //Sylphid Ray Helm  
+3617             3617           9         1          0          7        0       2              0            0  //Sunlight Mask     
+3618             3618           9         1          0          7        0       2              0            0  //Ashcrow Helm      
+3619             3619           9         1          0          7        0       2              0            0  //Eclipse Helm      
+3620             3620           9         1          0          7        0       2              0            0  //Iris Helm         
+3622             3622           9         1          0          7        0       2              0            0  //Glorious Mask     
+3623             3623           9         1          0          7        0       2              0            0  //Violent Wind Helm 
+3624             3624           9         1          0          7        0       2              0            0  //Red Wing Helm     
+3625             3625           9         1          0          7        0       2              0            0  //Ancient Helm      
+3626             3626           9         1          0          7        0       2              0            0  //Demonic Helm      
+3627             3627           9         1          0          7        0       2              0            0  //Storm Blitz Helm  
+3628             3628           9         1          0          7        0       2              0            0  //Lilium Helm       
+3629             3629           9         1          0          7        0       2              0            0  //Titan Helm        
+3630             3630           9         1          0          7        0       2              0            0  //Brave Helm        
+3633             3633           9         1          0          7        0       2              0            0  //Seraphim Helm     
+3634             3634           9         1          0          7        0       2              0            0  //Divine Helm       
+3635             3635           9         1          0          7        0       2              0            0  //Royal Mask        
+3636             3636           9         1          0          7        0       2              0            0  //Hades Helm        
+3637             3637           9         1          0          7        0       2              0            0  //Succubus Helm     
+3638             3638           9         1          0          7        0       2              0            0  //Lazy Wind Helm
+3639             3639           9         1          0          7        0       2              0            0  //Dark Devil Helm   
+3640             3640           9         1          0          7        0       2              0            0  //Sticky Helm       
+3642             3642           9         1          0          7        0       2              0            0  //Ambition Mask     
+3643             3643           9         1          0          7        0       2              0            0  //Sacred Helm       
+3644             3644           9         1          0          7        0       2              0            0  //Storm Hard Helm   
+3645             3645           9         1          0          7        0       2              0            0  //Piercing Helm     
+3657             3657           9         1          0          7        0       2              0            0  //Phoenix Soul Helm
+3682             3688           9         1          0          7        0       2              0            0  //Bloodangel Helm
+// 8 - Armors                                                   7
+4096             4096           9         1          0          7        0       2              0            0  //Bronze Armor         
+4097             4097           9         1          0          7        0       2              0            0  //Dragon Armor         
+4098             4098           9         1          0          7        0       2              0            0  //Pad Armor            
+4099             4099           9         1          0          7        0       2              0            0  //Legendary Armor      
+4100             4100           9         1          0          7        0       2              0            0  //Bone Armor           
+4101             4101           9         1          0          7        0       2              0            0  //Leather Armor        
+4102             4102           9         1          0          7        0       2              0            0  //Scale Armor          
+4103             4103           9         1          0          7        0       2              0            0  //Sphinx Armor         
+4104             4104           9         1          0          7        0       2              0            0  //Brass Armor          
+4105             4105           9         1          0          7        0       2              0            0  //Plate Armor          
+4106             4106           9         1          0          7        0       2              0            0  //Vine Armor           
+4107             4107           9         1          0          7        0       2              0            0  //Silk Armor           
+4108             4108           9         1          0          7        0       2              0            0  //Wind Armor           
+4109             4109           9         1          0          7        0       2              0            0  //Spirit Armor         
+4110             4110           9         1          0          7        0       2              0            0  //Guardian Armor       
+4111             4111           9         1          0          7        0       2              0            0  //Storm Crow Armor     
+4112             4112           9         1          0          7        0       2              0            0  //Black Dragon Armor   
+4113             4113           9         1          0          7        0       2              0            0  //Dark Phoenix Armor   
+4114             4114           9         1          0          7        0       2              0            0  //Grand Soul Armor     
+4115             4115           9         1          0          7        0       2              0            0  //Divine Armor         
+4116             4116           9         1          0          7        0       2              0            0  //Thunder Hawk Armor   
+4117             4117           9         1          0          7        0       2              0            0  //Great Dragon Armor   
+4118             4118           9         1          0          7        0       2              0            0  //Dark Soul Armor      
+4119             4119           9         1          0          7        0       2              0            0  //Hurricane Armor      
+4120             4120           9         1          0          7        0       2              0            0  //Red Sprit Armor      
+4121             4121           9         1          0          7        0       2              0            0  //Light Plate Armor    
+4122             4122           9         1          0          7        0       2              0            0  //Adamantine Armor     
+4123             4123           9         1          0          7        0       2              0            0  //Dark Steel Armor     
+4124             4124           9         1          0          7        0       2              0            0  //Dark Master Armor    
+4125             4125           9         1          0          7        0       2              0            0  //Dragon Knight Armor  
+4126             4126           9         1          0          7        0       2              0            0  //Venom Mist Armor     
+4127             4127           9         1          0          7        0       2              0            0  //Sylphid Ray Armor    
+4128             4128           9         1          0          7        0       2              0            0  //Volcano Armor        
+4129             4129           9         1          0          7        0       2              0            0  //Sunlight Armor       
+4130             4130           9         1          0          7        0       2              0            0  //Ashcrow Armor        
+4131             4131           9         1          0          7        0       2              0            0  //Eclipse Armor        
+4132             4132           9         1          0          7        0       2              0            0  //Iris Armor           
+4133             4133           9         1          0          7        0       2              0            0  //Valiant Armor        
+4134             4134           9         1          0          7        0       2              0            0  //Glorious Armor       
+4135             4135           9         1          0          7        0       2              0            0  //Violent Wind Armor   
+4136             4136           9         1          0          7        0       2              0            0  //Red Wing Armor       
+4137             4137           9         1          0          7        0       2              0            0  //Ancient Armor        
+4138             4138           9         1          0          7        0       2              0            0  //Demonic Armor        
+4139             4139           9         1          0          7        1       2              0            0  //Storm Blitz Armor    
+4140             4140           9         1          0          7        0       2              0            0  //Lilium Armor         
+4141             4141           9         1          0          7        0       2              0            0  //Titan Armor          
+4142             4142           9         1          0          7        0       2              0            0  //Brave Armor          
+4143             4143           9         1          0          7        0       2              0            0  //Phantom Armor        
+4144             4144           9         1          0          7        0       2              0            0  //Destroy Armor        
+4145             4145           9         1          0          7        0       2              0            0  //Seraphim Armor       
+4146             4146           9         1          0          7        0       2              0            0  //Divine Armor         
+4147             4147           9         1          0          7        0       2              0            0  //Royal Armor          
+4148             4148           9         1          0          7        0       2              0            0  //Hades Armor          
+4149             4149           9         1          0          7        0       2              0            0  //Succubus Armor       
+4150             4150           9         1          0          7        0       2              0            0  //Lazy Wind Armor      
+4151             4151           9         1          0          7        0       2              0            0  //Dark Devil Armor     
+4152             4152           9         1          0          7        0       2              0            0  //Sticky Armor         
+4153             4153           9         1          0          7        0       2              0            0  //Hell Night Armor     
+4154             4154           9         1          0          7        0       2              0            0  //Ambition Armor       
+4155             4155           9         1          0          7        0       2              0            0  //Sacred Armor         
+4156             4156           9         1          0          7        0       2              0            0  //Storm Hard Armor     
+4157             4157           9         1          0          7        0       2              0            0  //Piercing Armor       
+4169             4169           9         1          0          7        0       2              0            0  //Phoenix Soul Armor
+4194             4200           9         1          0          7        0       2              0            0  //Bloodangel Armors
+// 9 - Pants                                                    7
+4608             4608           9         1          0          7        0       2              0            0  //Bronze Pants             
+4609             4609           9         1          0          7        0       2              0            0  //Dragon Pants             
+4610             4610           9         1          0          7        0       2              0            0  //Pad Pants                
+4611             4611           9         1          0          7        0       2              0            0  //Legendary Pants          
+4612             4612           9         1          0          7        0       2              0            0  //Bone Pants               
+4613             4613           9         1          0          7        0       2              0            0  //Leather Pants            
+4614             4614           9         1          0          7        0       2              0            0  //Scale Pants              
+4615             4615           9         1          0          7        0       2              0            0  //Sphinx Pants             
+4616             4616           9         1          0          7        0       2              0            0  //Brass Pants              
+4617             4617           9         1          0          7        0       2              0            0  //Plate Pants              
+4618             4618           9         1          0          7        0       2              0            0  //Vine Pants               
+4619             4619           9         1          0          7        0       2              0            0  //Silk Pants               
+4620             4620           9         1          0          7        0       2              0            0  //Wind Pants               
+4621             4621           9         1          0          7        0       2              0            0  //Spirit Pants             
+4622             4622           9         1          0          7        0       2              0            0  //Guardian Pants           
+4623             4623           9         1          0          7        0       2              0            0  //Storm Crow Pants         
+4624             4624           9         1          0          7        0       2              0            0  //Black Dragon Pants       
+4625             4625           9         1          0          7        0       2              0            0  //Dark Phoenix Pants       
+4626             4626           9         1          0          7        0       2              0            0  //Grand Soul Pants         
+4627             4627           9         1          0          7        0       2              0            0  //Divine Pants             
+4628             4628           9         1          0          7        0       2              0            0  //Thunder Hawk Pants       
+4629             4629           9         1          0          7        0       2              0            0  //Great Dragon Pants       
+4630             4630           9         1          0          7        0       2              0            0  //Dark Soul Pants          
+4631             4631           9         1          0          7        0       2              0            0  //Hurricane Pants          
+4632             4632           9         1          0          7        0       2              0            0  //Red Spirit Pants         
+4633             4633           9         1          0          7        0       2              0            0  //Light Plate Pants        
+4634             4634           9         1          0          7        0       2              0            0  //Adamantine Pants         
+4635             4635           9         1          0          7        0       2              0            0  //Dark Steel Pants         
+4636             4636           9         1          0          7        0       2              0            0  //Dark Master Pants        
+4637             4637           9         1          0          7        0       2              0            0  //Dragon Knight Pants      
+4638             4638           9         1          0          7        0       2              0            0  //Venom Mist Pants         
+4639             4639           9         1          0          7        0       2              0            0  //Sylphid Ray Pants        
+4640             4640           9         1          0          7        0       2              0            0  //Volcano Pants            
+4641             4641           9         1          0          7        0       2              0            0  //Sunlight Pants           
+4642             4642           9         1          0          7        0       2              0            0  //Ashcrow Pants            
+4643             4643           9         1          0          7        0       2              0            0  //Eclipse Pants            
+4644             4644           9         1          0          7        0       2              0            0  //Iris Pants               
+4645             4645           9         1          0          7        0       2              0            0  //Valiant Pants            
+4646             4646           9         1          0          7        0       2              0            0  //Glorious Pants           
+4647             4647           9         1          0          7        0       2              0            0  //Violent Wind Pants       
+4648             4648           9         1          0          7        0       2              0            0  //Red Wing Pants           
+4649             4649           9         1          0          7        0       2              0            0  //Ancient Pants            
+4650             4650           9         1          0          7        0       2              0            0  //Demonic Pants            
+4651             4651           9         1          0          7        0       2              0            0  //Storm Blitz Pants        
+4652             4652           9         1          0          7        0       2              0            0  //Lilium Pants             
+4653             4653           9         1          0          7        0       2              0            0  //Titan  Pants             
+4654             4654           9         1          0          7        0       2              0            0  //Brave Pants              
+4655             4655           9         1          0          7        0       2              0            0  //Phantom  Pants           
+4656             4656           9         1          0          7        0       2              0            0  //Destroy Pants            
+4657             4657           9         1          0          7        0       2              0            0  //Seraphim Pants           
+4658             4658           9         1          0          7        0       2              0            0  //Divine Pants             
+4659             4659           9         1          0          7        0       2              0            0  //Royal Pants              
+4660             4660           9         1          0          7        0       2              0            0  //Hades Pants              
+4661             4661           9         1          0          7        0       2              0            0  //Succubus Pants           
+4662             4662           9         1          0          7        0       2              0            0  //Lazy Wind Pants          
+4663             4663           9         1          0          7        0       2              0            0  //Dark Devil Pants         
+4664             4664           9         1          0          7        0       2              0            0  //Sticky Pants             
+4665             4665           9         1          0          7        0       2              0            0  //Hell Night Pants         
+4666             4666           9         1          0          7        0       2              0            0  //Ambition Pants           
+4667             4667           9         1          0          7        0       2              0            0  //Sacred Pants             
+4668             4668           9         1          0          7        0       2              0            0  //Storm Hard Pants         
+4669             4669           9         1          0          7        0       2              0            0  //Piercing Pants           
+4681             4681           9         1          0          7        0       2              0            0  //Phoenix Soul Pants
+4706             4712           9         1          0          7        0       2              0            0  //Bloodangel Pants
+// 10 - Gloves                                                  7
+5120             5120           9         1          0          7        0       2              0            0  //Bronze Gloves  
+5121             5121           9         1          0          7        0       2              0            0  //Dragon Gloves  
+5122             5122           9         1          0          7        0       2              0            0  //Pad Gloves  
+5123             5123           9         1          0          7        0       2              0            0  //Legendary Gloves  
+5124             5124           9         1          0          7        0       2              0            0  //Bone Gloves  
+5125             5125           9         1          0          7        0       2              0            0  //Leather Gloves  
+5126             5126           9         1          0          7        0       2              0            0  //Scale Gloves  
+5127             5127           9         1          0          7        0       2              0            0  //Sphinx Gloves  
+5128             5128           9         1          0          7        0       2              0            0  //Brass Gloves  
+5129             5129           9         1          0          7        0       2              0            0  //Plate Gloves  
+5130             5130           9         1          0          7        0       2              0            0  //Vine Gloves  
+5131             5131           9         1          0          7        0       2              0            0  //Silk Gloves  
+5132             5132           9         1          0          7        0       2              0            0  //Wind Gloves  
+5133             5133           9         1          0          7        0       2              0            0  //Spirit Gloves  
+5134             5134           9         1          0          7        0       2              0            0  //Guardian Gloves  
+5135             5135           9         1          0          7        0       2              0            0  //Storm Crow Gloves  
+5136             5136           9         1          0          7        0       2              0            0  //Black Dragon Gloves  
+5137             5137           9         1          0          7        0       2              0            0  //Dark Phoenix Gloves  
+5138             5138           9         1          0          7        0       2              0            0  //Grand Soul Gloves  
+5139             5139           9         1          0          7        0       2              0            0  //Divine Gloves  
+5140             5140           9         1          0          7        0       2              0            0  //Thunder Hawk Gloves  
+5141             5141           9         1          0          7        0       2              0            0  //Great Dragon Gloves  
+5142             5142           9         1          0          7        0       2              0            0  //Dark Soul Gloves  
+5143             5143           9         1          0          7        0       2              0            0  //Hurricane Gloves  
+5144             5144           9         1          0          7        0       2              0            0  //Red Spirit Gloves  
+5145             5145           9         1          0          7        0       2              0            0  //Light Plate Gloves  
+5146             5146           9         1          0          7        0       2              0            0  //Adamantine Gloves  
+5147             5147           9         1          0          7        0       2              0            0  //Dark Steel Gloves  
+5148             5148           9         1          0          7        0       2              0            0  //Dark Master Gloves  
+5149             5149           9         1          0          7        0       2              0            0  //Dragon Knight Gloves  
+5150             5150           9         1          0          7        0       2              0            0  //Venom Mist Gloves  
+5151             5151           9         1          0          7        0       2              0            0  //Sylphid Ray Gloves  
+5152             5152           9         1          0          7        0       2              0            0  //Volcano Gloves  
+5153             5153           9         1          0          7        0       2              0            0  //Sunlight Gloves  
+5154             5154           9         1          0          7        0       2              0            0  //Ashcrow Gloves  
+5155             5155           9         1          0          7        0       2              0            0  //Eclipse Gloves  
+5156             5156           9         1          0          7        0       2              0            0  //Iris Gloves  
+5157             5157           9         1          0          7        0       2              0            0  //Valiant Gloves  
+5158             5158           9         1          0          7        0       2              0            0  //Glorious Gloves  
+5159             5159           9         1          0          7        0       2              0            0  //Violent Wind Gloves  
+5160             5160           9         1          0          7        0       2              0            0  //Red Wing Gloves  
+5161             5161           9         1          0          7        0       2              0            0  //Ancient Gloves  
+5162             5162           9         1          0          7        0       2              0            0  //Demonic Gloves  
+5163             5163           9         1          0          7        0       2              0            0  //Storm Blitz Gloves  
+5164             5164           9         1          0          7        0       2              0            0  //Lilium Gloves  
+5165             5165           9         1          0          7        0       2              0            0  //Titan  Gloves  
+5166             5166           9         1          0          7        0       2              0            0  //Brave Gloves  
+5167             5167           9         1          0          7        0       2              0            0  //Phantom  Gloves  
+5168             5168           9         1          0          7        0       2              0            0  //Destroy Gloves  
+5169             5169           9         1          0          7        0       2              0            0  //Seraphim Gloves  
+5170             5170           9         1          0          7        0       2              0            0  //Divine Gloves  
+5171             5171           9         1          0          7        0       2              0            0  //Royal Gloves  
+5172             5172           9         1          0          7        0       2              0            0  //Hades Gloves  
+5173             5173           9         1          0          7        0       2              0            0  //Succubus Gloves  
+5174             5174           9         1          0          7        0       2              0            0  //Lazy Wind Gloves  
+5175             5175           9         1          0          7        0       2              0            0  //Dark Devil Gloves  
+5176             5176           9         1          0          7        0       2              0            0  //Sticky Gloves  
+5177             5177           9         1          0          7        0       2              0            0  //Hell Night Gloves  
+5178             5178           9         1          0          7        0       2              0            0  //Ambition Gloves  
+5218             5223           9         1          0          7        0       2              0            0  //Bloodangel Gloves
+// 11 - Boots                                                   7
+5632             5632           9         1          0          7        0       2              0            0  //Bronze Boots          
+5633             5633           9         1          0          7        0       2              0            0  //Dragon Boots          
+5634             5634           9         1          0          7        0       2              0            0  //Pad Boots             
+5635             5635           9         1          0          7        0       2              0            0  //Legendary Boots       
+5636             5636           9         1          0          7        0       2              0            0  //Bone Boots            
+5637             5637           9         1          0          7        0       2              0            0  //Leather Boots         
+5638             5638           9         1          0          7        0       2              0            0  //Scale Boots           
+5639             5639           9         1          0          7        0       2              0            0  //Sphinx Boots          
+5640             5640           9         1          0          7        0       2              0            0  //Brass Boots           
+5641             5641           9         1          0          7        0       2              0            0  //Plate Boots           
+5642             5642           9         1          0          7        0       2              0            0  //Vine Boots            
+5643             5643           9         1          0          7        0       2              0            0  //Silk Boots            
+5644             5644           9         1          0          7        0       2              0            0  //Wind Boots            
+5645             5645           9         1          0          7        0       2              0            0  //Spirit Boots          
+5646             5646           9         1          0          7        0       2              0            0  //Guardian Boots        
+5647             5647           9         1          0          7        0       2              0            0  //Storm Crow Boots      
+5648             5648           9         1          0          7        0       2              0            0  //Black Dragon Boots    
+5649             5649           9         1          0          7        0       2              0            0  //Dark Phoenix Boots    
+5650             5650           9         1          0          7        0       2              0            0  //Grand Soul Boots      
+5651             5651           9         1          0          7        0       2              0            0  //Divine Boots          
+5652             5652           9         1          0          7        0       2              0            0  //Thunder Hawk Boots    
+5653             5653           9         1          0          7        0       2              0            0  //Great Dragon Boots    
+5654             5654           9         1          0          7        0       2              0            0  //Dark Soul Boots       
+5655             5655           9         1          0          7        0       2              0            0  //Hurricane Boots       
+5656             5656           9         1          0          7        0       2              0            0  //Red Spirit Boots      
+5657             5657           9         1          0          7        0       2              0            0  //Light Plate Boots     
+5658             5658           9         1          0          7        0       2              0            0  //Adamantine Boots      
+5659             5659           9         1          0          7        0       2              0            0  //Dark Steel Boots      
+5660             5660           9         1          0          7        0       2              0            0  //Dark Master Boots     
+5661             5661           9         1          0          7        0       2              0            0  //Dragon Knight Boot    
+5662             5662           9         1          0          7        0       2              0            0  //Venom Mist Boots      
+5663             5663           9         1          0          7        0       2              0            0  //Sylphid Ray Boots     
+5664             5664           9         1          0          7        0       2              0            0  //Volcano Boots         
+5665             5665           9         1          0          7        0       2              0            0  //Sunlight Boots        
+5666             5666           9         1          0          7        0       2              0            0  //Ashcrow Boots         
+5667             5667           9         1          0          7        0       2              0            0  //Eclipse Boots         
+5668             5668           9         1          0          7        0       2              0            0  //Iris Boots            
+5669             5669           9         1          0          7        0       2              0            0  //Valiant Boots         
+5670             5670           9         1          0          7        0       2              0            0  //Glorious Boots        
+5671             5671           9         1          0          7        0       2              0            0  //Violent Wind Boots    
+5672             5672           9         1          0          7        0       2              0            0  //Red Wing Boots    
+5673             5673           9         1          0          7        0       2              0            0  //Ancient Boots    
+5674             5674           9         1          0          7        0       2              0            0  //Demonic Boots    
+5675             5675           9         1          0          7        0       2              0            0  //Storm Blitz Boots    
+5676             5676           9         1          0          7        0       2              0            0  //Lilium Boots    
+5677             5677           9         1          0          7        0       2              0            0  //Titan Boots    
+5678             5678           9         1          0          7        0       2              0            0  //Brave Boots    
+5679             5679           9         1          0          7        0       2              0            0  //Phantom Boots    
+5680             5680           9         1          0          7        0       2              0            0  //Destroy Boots    
+5681             5681           9         1          0          7        0       2              0            0  //Seraphim Boots    
+5682             5682           9         1          0          7        0       2              0            0  //Divine Boots    
+5683             5683           9         1          0          7        0       2              0            0  //Royal Boots    
+5684             5684           9         1          0          7        0       2              0            0  //Hades Boots    
+5685             5685           9         1          0          7        0       2              0            0  //Succubus Boots        
+5686             5686           9         1          0          7        0       2              0            0  //Lazy Wind Boots       
+5687             5687           9         1          0          7        0       2              0            0  //Dark Devil Boots      
+5688             5688           9         1          0          7        0       2              0            0  //Sticky Boots          
+5689             5689           9         1          0          7        0       2              0            0  //Hell Night Boots      
+5690             5690           9         1          0          7        0       2              0            0  //Ambition Boots        
+5691             5691           9         1          0          7        0       2              0            0  //Sacred Boots          
+5692             5692           9         1          0          7        0       2              0            0  //Storm Hard Boots      
+5693             5693           9         1          0          7        0       2              0            0  //Piercing Boots        
+5705             5705           9         1          0          7        0       2              0            0  //Phoenix Soul Boots
+5730             5736           9         1          0          7        0       2              0            0  //Bloodangel Boots
+// 12- Wings
+6180             6184           15         1          0          7        0       2              0            0
+6187             6187           15         1          0          7        0       2              0            0
+6194             6194           15         1          0          7        0       2              0            0
+// 13- Pets
+//ItemMinIndex   ItemMaxIndex   MaxLevel   MaxLucky   MaxSkill   MaxAdd   Max380  MaxExcellent   MaxSetItem   MaxSocket
+6693             6693           0          0          0          0        0       0              0            0  //Horn of Fenrir
+6856             6963           0          0          0          0        0       0              0            0
+6686             6686           15         1          0          1        0       2              0            0  //Cape of Lord
+// 13- Ring pendant
+6664             6683           15         0          0          1        0       2              0            0  //Ring pendant
+end
+
+3
+//Item Discount Rate
+//ItemMinIndex   ItemMaxIndex   Discount_AL0   Discount_AL1   Discount_AL2   Discount_AL3
+end

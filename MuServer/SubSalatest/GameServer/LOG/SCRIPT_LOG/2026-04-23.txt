@@ -1,0 +1,15 @@
+10:36:46 [Loader] Lua Gameserver socket ready!
+10:36:46 [Loader] Load success System\ScriptCore
+10:36:46 [Loader] Load success System\ProtocolCore
+10:36:46 [Loader] Load success Scripts\CalCharacter
+10:36:46 [Loader] Load success Utils\Database
+10:36:46 [Loader] Load success Utils\DatabaseAsync
+10:36:46 [Loader] Load success Utils\Cron
+10:36:46 [Loader] Load success Utils\Functions
+10:36:46 [Loader] Load success Utils\Schedule
+10:36:46 [Loader] Load success Scripts\Transformation\Config
+10:36:46 [Loader] Load folder success Scripts\Transformation\
+10:36:46 Connected to database
+10:36:46 Connected to Async database
+10:36:46 Teste query: ZZZZZZZZZZ
+10:36:46 [ServerInfo] Script loaded successfully

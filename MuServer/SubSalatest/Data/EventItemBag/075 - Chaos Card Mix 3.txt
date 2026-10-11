@@ -1,0 +1,165 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Chaos Card Mix 3"	1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+0	0	0	0	0	1	1	2	// Kris
+0	16	0	0	1	1	1	2	// Sword of Destruction
+0	17	0	0	1	1	1	2	// Dark Breaker
+0	18	0	0	1	1	1	2	// Thunder Blade
+0	31	0	0	1	1	1	2	// Rune Blade
+2	10	0	0	1	1	1	2	// Great Scepter
+2	11	0	0	1	1	1	2	// Lord Scepter
+4	16	0	0	1	1	1	2	// Saint Crossbow
+4	17	0	0	1	1	1	2	// Celestial Bow
+5	7	0	0	0	1	1	2	// Chaos Lighting Staff
+5	8	0	0	0	1	1	2	// Staff of Destruction
+4	6	0	0	1	1	1	2	// Chaos Nature Bow
+2	6	0	0	1	1	1	2	// Chaos Dragon Axe
+0	2	0	0	0	1	1	2	// Rapier
+0	3	0	0	1	1	1	2	// Katana
+1	3	0	0	1	1	1	2	// Tomahawk
+2	2	0	0	0	1	1	2	// Flail
+2	4	0	0	1	1	1	2	// Crystal Morning Star
+2	5	0	0	1	1	1	2	// Crystal Sword
+2	7	0	0	1	1	1	2	// Elemental Mace
+2	8	0	0	1	1	1	2	// Battle Scepter
+2	9	0	0	1	1	1	2	// Master Scepter
+3	9	0	0	1	1	1	2	// Bill of Balrog
+4	0	0	0	1	1	1	2	// Short Bow
+4	11	0	0	1	1	1	2	// Light Crossbow
+4	13	0	0	1	1	1	2	// Bluewing Crossbow
+4	14	0	0	1	1	1	2	// Aquagold Crossbow
+5	6	0	0	0	1	1	2	// Staff of Resurrection
+6	0	0	0	0	1	1	2	// Small Shield
+6	1	0	0	0	1	1	2	// Horn Shield
+6	2	0	0	1	1	1	2	// Kite Shield
+6	3	0	0	1	1	1	2	// Elven Shield
+6	4	0	0	1	1	1	2	// Buckler
+6	5	0	0	0	1	1	2	// Dragon Slayer Shield
+6	6	0	0	1	1	1	2	// Skull Shield
+6	7	0	0	1	1	1	2	// Spiked Shield
+6	8	0	0	1	1	1	2	// Tower Shield
+6	9	0	0	1	1	1	2	// Plate Shield
+6	10	0	0	1	1	1	2	// Large Round Shield
+6	11	0	0	1	1	1	2	// Serpent Shield
+6	12	0	0	1	1	1	2	// Bronze Shield
+6	13	0	0	1	1	1	2	// Dragon Shield
+6	14	0	0	0	1	1	2	// Legendary Shield
+6	15	0	0	0	1	1	2	// Grand Soul Shield
+6	16	0	0	1	1	1	2	// Elemental Shield
+8	15	0	0	0	1	1	2	// Storm Crow Armor
+9	15	0	0	0	1	1	2	// Storm Crow Pants
+10	15	0	0	0	1	1	2	// Storm Crow Gloves
+11	15	0	0	0	1	1	2	// Storm Crow Boots
+7	16	0	0	0	1	1	2	// Black Dragon Helm
+8	16	0	0	0	1	1	2	// Black Dragon Armor
+9	16	0	0	0	1	1	2	// Black Dragon Pants
+10	16	0	0	0	1	1	2	// Black Dragon Gloves
+11	16	0	0	0	1	1	2	// Black Dragon Boots
+7	17	0	0	0	1	1	2	// Dark Phoenix Helm
+8	17	0	0	0	1	1	2	// Dark Phoenix Armor
+9	17	0	0	0	1	1	2	// Dark Phoenix Pants
+10	17	0	0	0	1	1	2	// Dark Phoenix Gloves
+11	17	0	0	0	1	1	2	// Dark Phoenix Boots
+7	18	0	0	0	1	1	2	// Grand Soul Helm
+8	18	0	0	0	1	1	2	// Grand Soul Armor
+9	18	0	0	0	1	1	2	// Grand Soul Pants
+10	18	0	0	0	1	1	2	// Grand Soul Gloves
+11	18	0	0	0	1	1	2	// Grand Soul Boots
+7	19	0	0	0	1	1	2	// Divine Helm
+8	19	0	0	0	1	1	2	// Divine Armor
+9	19	0	0	0	1	1	2	// Divine Pants
+10	19	0	0	0	1	1	2	// Divine Gloves
+11	19	0	0	0	1	1	2	// Divine Boots
+8	20	0	0	0	1	1	2	// Thunder Hawk Armor
+9	20	0	0	0	1	1	2	// Thunder Hawk Pants
+10	20	0	0	0	1	1	2	// Thunder Hawk Gloves
+11	20	0	0	0	1	1	2	// Thunder Hawk Boots
+7	27	0	0	0	1	1	2	// Dark Steel Mask
+8	27	0	0	0	1	1	2	// Dark Steel Armor
+9	27	0	0	0	1	1	2	// Dark Steel Pants
+10	27	0	0	0	1	1	2	// Dark Steel Gloves
+11	27	0	0	0	1	1	2	// Dark Steel Boots
+7	34	0	0	0	1	1	2	// Ashcrow Helm
+8	34	0	0	0	1	1	2	// Ashcrow Armor
+9	34	0	0	0	1	1	2	// Ashcrow Pants
+10	34	0	0	0	1	1	2	// Ashcrow Gloves
+11	34	0	0	0	1	1	2	// Ashcrow Boots
+7	35	0	0	0	1	1	2	// Eclipse Helm
+8	35	0	0	0	1	1	2	// Eclipse Armor
+9	35	0	0	0	1	1	2	// Eclipse Pants
+10	35	0	0	0	1	1	2	// Eclipse Gloves
+11	35	0	0	0	1	1	2	// Eclipse Boots
+7	36	0	0	0	1	1	2	// Iris Helm
+8	36	0	0	0	1	1	2	// Iris Armor
+9	36	0	0	0	1	1	2	// Iris Pants
+10	36	0	0	0	1	1	2	// Iris Gloves
+11	36	0	0	0	1	1	2	// Iris Boots
+8	37	0	0	0	1	1	2	// Valiant Armor
+9	37	0	0	0	1	1	2	// Valiant Pants
+10	37	0	0	0	1	1	2	// Valiant Gloves
+11	37	0	0	0	1	1	2	// Valiant Boots
+7	38	0	0	0	1	1	2	// Glorious Mask
+8	38	0	0	0	1	1	2	// Glorious Armor
+9	38	0	0	0	1	1	2	// Glorious Pants
+10	38	0	0	0	1	1	2	// Glorious Gloves
+11	38	0	0	0	1	1	2	// Glorious Boots
+7	10	0	0	0	1	1	2	// Vine Helm
+8	10	0	0	0	1	1	2	// Vine Armor
+9	10	0	0	0	1	1	2	// Vine Pants
+10	10	0	0	0	1	1	2	// Vine Gloves
+11	10	0	0	0	1	1	2	// Vine Boots
+7	11	0	0	0	1	1	2	// Silk Helm
+8	11	0	0	0	1	1	2	// Silk Armor
+9	11	0	0	0	1	1	2	// Silk Pants
+10	11	0	0	0	1	1	2	// Silk Gloves
+11	11	0	0	0	1	1	2	// Silk Boots
+7	12	0	0	0	1	1	2	// Wind Helm
+8	12	0	0	0	1	1	2	// Wind Armor
+9	12	0	0	0	1	1	2	// Wind Pants
+10	12	0	0	0	1	1	2	// Wind Gloves
+11	12	0	0	0	1	1	2	// Wind Boots
+7	13	0	0	0	1	1	2	// Spirit Helm
+8	13	0	0	0	1	1	2	// Spirit Armor
+9	13	0	0	0	1	1	2	// Spirit Pants
+10	13	0	0	0	1	1	2	// Spirit Gloves
+11	13	0	0	0	1	1	2	// Spirit Boots
+7	14	0	0	0	1	1	2	// Guardian Helm
+8	14	0	0	0	1	1	2	// Guardian Armor
+9	14	0	0	0	1	1	2	// Guardian Pants
+10	14	0	0	0	1	1	2	// Guardian Gloves
+11	14	0	0	0	1	1	2	// Guardian Boots
+7	25	0	0	0	1	1	2	// Light Plate Mask
+8	25	0	0	0	1	1	2	// Light Plate Armor
+9	25	0	0	0	1	1	2	// Light Plate Pants
+10	25	0	0	0	1	1	2	// Light Plate Gloves
+11	25	0	0	0	1	1	2	// Light Plate Boots
+7	26	0	0	0	1	1	2	// Adamantine Mask
+8	26	0	0	0	1	1	2	// Adamantine Armor
+9	26	0	0	0	1	1	2	// Adamantine Pants
+10	26	0	0	0	1	1	2	// Adamantine Gloves
+11	26	0	0	0	1	1	2	// Adamantine Boots
+13	8	0	0	0	1	1	1	// Ring of Ice
+13	9	0	0	0	1	1	1	// Ring of Poison
+13	21	0	0	0	1	1	1	// Ring of Fire
+13	22	0	0	0	1	1	1	// Ring of Earth
+13	23	0	0	0	1	1	1	// Ring of Wind
+13	24	0	0	0	1	1	1	// Ring of Magic
+13	12	0	0	0	1	1	1	// Pendant of Lighting
+13	13	0	0	0	1	1	1	// Pendant of Fire
+13	25	0	0	0	1	1	1	// Pendant of Ice
+13	26	0	0	0	1	1	1	// Pendant of Wind
+13	27	0	0	0	1	1	1	// Pendant of Water
+13	28	0	0	0	1	1	1	// Pendant of Ability
+12	30	0	0	0	0	0	0	// Bundled Jewel of Bless
+12	31	0	0	0	0	0	0	// Bundled Jewel of Soul
+13	4	0	0	0	0	0	0	// Dark Horse
+13	5	0	0	0	0	0	0	// Dark Raven
+13	37	0	0	0	0	0	0	// Horn of Fenrir
+end

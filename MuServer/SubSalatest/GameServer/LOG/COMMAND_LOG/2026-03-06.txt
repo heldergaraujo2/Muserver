@@ -1,0 +1,58 @@
+08:49:00 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+13:14:35 [CommandSetBuff][videodv][AdmSaffe] - AddBuff [videodv][AdmSaffe] (Buff: 25 Duration: 0 Power1: 0 Power2: 0 Power3: 0 Power4: 0)
+13:14:41 [CommandSetBuff][videodv][AdmSaffe] - AddBuff [videodv][AdmSaffe] (Buff: 28 Duration: 0 Power1: 0 Power2: 0 Power3: 0 Power4: 0)
+14:42:14 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 39)
+15:01:03 [CommandSetBuff][videodv][AdmSaffe] - AddBuff [videodv][AdmSaffe] (Buff: 28 Duration: 0 Power1: 0 Power2: 0 Power3: 0 Power4: 0)
+15:06:11 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 39)
+17:56:01 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+17:57:07 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+17:57:12 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+17:59:57 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 20]
+18:03:10 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 20]
+18:11:05 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:11:46 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:12:42 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:15:08 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:17:44 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:18:59 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:19:17 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:19:55 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:21:17 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+18:21:20 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:25:25 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+18:25:54 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+18:26:21 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 500, Dex: 4000, Vit: 500, Ene: 5000, Com: 0)
+18:26:26 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+18:27:57 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+18:31:01 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+18:31:17 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+18:32:06 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:32:55 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 65000, Dex: 65000, Vit: 65000, Ene: 65000, Com: 0)
+18:33:52 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 65000, Dex: 65000, Vit: 65000, Ene: 65000, Com: 0)
+18:33:55 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:34:27 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:34:52 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:35:16 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:36:35 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+18:37:00 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+20:20:23 [CommandSetBuff][videodv][AdmSaffe] - AddBuff [videodv][AdmSaffe] (Buff: 28 Duration: 0 Power1: 0 Power2: 0 Power3: 0 Power4: 0)
+20:22:15 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:26:46 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [videodv][AdmSaffe] (Buff: 3)
+20:26:51 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [videodv][AdmSaffe] (Buff: 30)
+20:30:28 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+20:42:57 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 326, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:43:01 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+20:43:05 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 326, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:44:10 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 4, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:44:15 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 4, Level: 9, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:57:48 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+20:58:46 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+21:00:40 [CommandSpot][videodv][AdmSaffe] - (Monster: 42, Qtd: 1)
+21:10:59 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 25, Dex: 25, Vit: 25, Ene: 25, Com: 0)
+21:12:33 [CommandSpot][videodv][AdmSaffe] - (Monster: 694, Qtd: 1)
+21:19:37 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 65000, Dex: 65000, Vit: 65000, Ene: 65000, Com: 0)
+21:20:09 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+21:23:36 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [hellder][Saffe] (Buff: 28)
+21:24:09 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [videodv][AdmSaffe] (Buff: 28)
+21:24:51 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 28, Dex: 28, Vit: 28, Ene: 28, Com: 0)
+21:30:41 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 65000, Dex: 65000, Vit: 65000, Ene: 65000, Com: 0)

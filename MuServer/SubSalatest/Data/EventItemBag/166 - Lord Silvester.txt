@@ -1,0 +1,45 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Lord Silvester"	1000	100		2		0		0		0		0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Ancient	Socket	Comment
+0	29	0	2	1	1	0	3	0	3	// Sonic Blade
+0	30	0	2	1	1	0	3	0	3	// Asura
+0	37	0	2	1	1	0	3	0	3	// Blast Break
+0	101	0	2	1	1	0	3	0	3	// Prickle Glove
+2	19	0	2	1	1	0	3	0	3	// Thunderbolt
+2	20	0	2	1	1	0	3	0	3	// Horn of Steal
+3	12	0	2	1	1	0	3	0	3	// Magmus Peer
+4	25	0	2	1	1	0	3	0	3	// Angelic Bow
+4	26	0	2	1	1	0	3	0	3	// Devil Crossbow
+5	32	0	2	1	1	0	3	0	3	// Summon Spirit Stick
+5	35	0	2	1	1	0	3	0	3	// Miracle Staff
+5	37	0	2	1	1	0	3	0	3	// Spite Staff
+0	29	0	2	0	0	0	2	0	3	// Sonic Blade
+0	30	0	2	0	0	0	2	0	3	// Asura
+0	37	0	2	0	0	0	2	0	3	// Blast Break
+0	101	0	2	0	0	0	2	0	3	// Prickle Glove
+2	19	0	2	0	0	0	2	0	3	// Thunderbolt
+2	20	0	2	0	0	0	2	0	3	// Horn of Steal
+3	12	0	2	0	0	0	2	0	3	// Magmus Peer
+4	25	0	2	0	0	0	2	0	3	// Angelic Bow
+4	26	0	2	0	0	0	2	0	3	// Devil Crossbow
+5	32	0	2	0	0	0	2	0	3	// Summon Spirit Stick
+5	35	0	2	0	0	0	2	0	3	// Miracle Staff
+5	37	0	2	0	0	0	2	0	3	// Spite Staff
+6	22	0	2	1	1	0	3	0	3	// Lazy Wind Shield
+6	23	0	2	1	1	0	3	0	3	// Light Lord Shield
+6	24	0	2	1	1	0	3	0	3	// Dark Devil Shield
+6	25	0	2	1	1	0	3	0	3	// Magic Knight Shield
+6	26	0	2	1	1	0	3	0	3	// Ambition Shield
+6	22	0	2	0	0	0	2	0	3	// Lazy Wind Shield
+6	23	0	2	0	0	0	2	0	3	// Light Lord Shield
+6	24	0	2	0	0	0	2	0	3	// Dark Devil Shield
+6	25	0	2	0	0	0	2	0	3	// Magic Knight Shield
+6	26	0	2	0	0	0	2	0	3	// Ambition Shield
+end

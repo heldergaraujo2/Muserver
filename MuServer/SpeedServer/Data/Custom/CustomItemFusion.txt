@@ -1,0 +1,24 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+///////////////////////////////////////////////////////////////////////////////////////
+// Fusion Type:
+// 1: Sum all attributes
+// 2: Sum option Exc only
+//
+// Fusion error type:
+// 1: Keep the source item
+// 2: All atributes to zero(Type == 1) or Reset Option exc only (Type == 2)
+// 3: Delete both items
+//
+// ItemOption3: Adicional Option(Life)
+//
+// Obs: Socket and Ancient options will not change
+///////////////////////////////////////////////////////////////////////////////////////
+// 	ItemMinIndex  	ItemMaxIndex   Type   ErrorType   MinItemLevel   MaxItemLevel   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption  SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   Description
+//	000          	0030	       1      2       	  *              *	        *                *	          *                  *                  *                  *                     *        	      100               100               100               100               //Item Teste
+end

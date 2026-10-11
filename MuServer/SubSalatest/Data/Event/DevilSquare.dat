@@ -1,0 +1,76 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+5               1            20          4         
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+*        *       *     *     7      00       0
+*        *       *     *     9      00       0
+*        *       *     *     11     00       0
+*        *       *     *     13     00       0
+*        *       *     *     15     00       0
+*        *       *     *     17     00       0
+*        *       *     *     19     00       0
+*        *       *     *     21     00       0
+*        *       *     *     23     00       0
+*        *       *     *     01     00       0
+*        *       *     *     03     00       0
+*        *       *     *     05     00       0
+
+end
+
+2
+//Level   RewardExperience1   RewardExperience2   RewardExperience3   RewardExperience4   RewardExperience5   RewardExperience6   RewardExperience7   RewardExperience8   RewardExperience9   RewardExperience10
+0         6000                4000                4000                2000                2000                2000                1000                1000                1000                1000
+1         8000                6000                6000                4000                4000                4000                2000                2000                2000                2000
+2         10000               8000                8000                6000                6000                6000                4000                4000                4000                4000
+3         20000               10000               10000               8000                8000                8000                6000                6000                6000                6000
+4         22000               20000               20000               10000               10000               10000               8000                8000                8000                8000
+5         24000               22000               22000               20000               20000               20000               10000               10000               10000               10000
+6         26000               24000               24000               22000               22000               22000               20000               20000               20000               20000
+end
+
+3
+//Level   RewardMoney1   RewardMoney2   RewardMoney3   RewardMoney4   RewardMoney5   RewardMoney6   RewardMoney7   RewardMoney8   RewardMoney9   RewardMoney10
+0         30000          25000          25000          20000          20000          20000          15000          15000          15000          15000
+1         40000          35000          35000          30000          30000          30000          25000          25000          25000          25000
+2         50000          45000          45000          40000          40000          40000          35000          35000          35000          35000
+3         60000          55000          55000          50000          50000          50000          45000          45000          45000          45000
+4         70000          65000          65000          60000          60000          60000          55000          55000          55000          55000
+5         80000          75000          75000          70000          70000          70000          65000          65000          65000          65000
+6         150000         140000         140000         120000         120000         120000         90000          90000          90000          90000
+end
+
+//Reward 
+4
+//Level   	WC	HP	GP 
+0			0	0	100		
+1			0	0	100
+2			0	0	100
+3			0	0	100
+4			0	0	100
+5			0	0	100
+6			0	0	100
+end
+
+
+5
+//BC enter level/reset/mreset(Change the type in the GameServerInfo - Event.dat)
+//Normal:  DW,DK,ELF,SU
+//Special: MG,DL,RF
+//Level   NormalMin  NormalMax  SpecialMin SpecialMax
+0         15         130        10         110
+1         131        180        111        160
+2         181        230        161        210
+3         231        280        211        260
+4         281        330        261        310
+5         331        400        311        400
+end

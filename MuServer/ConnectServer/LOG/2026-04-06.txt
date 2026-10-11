@@ -1,0 +1,26 @@
+11:42:11 [SocketManager] WSAAccept() failed with error: 10061
+12:02:04 [SocketManager] WSAAccept() failed with error: 10061
+13:27:08 [SocketManager] Server started at port [44406]
+13:27:08 [ServerList] ServerList loaded successfully
+13:27:08 [ServerList] GameServer online (GameServer) (1)
+13:27:11 [ServerList] JoinServer online
+13:27:17 [ServerList] GameServer online (GameServer) (0)
+13:27:23 [ServerList] GameServer online (GameServerCS) (19)
+13:56:29 [SocketManager] WSAAccept() failed with error: 10061
+13:56:39 [SocketManager] WSAAccept() failed with error: 10061
+13:56:39 [SocketManager] WSAAccept() failed with error: 10061
+13:56:50 [SocketManager] WSAAccept() failed with error: 10061
+13:56:50 [SocketManager] WSAAccept() failed with error: 10061
+13:57:00 [SocketManager] WSAAccept() failed with error: 10061
+13:57:10 [SocketManager] WSAAccept() failed with error: 10061
+13:57:30 [SocketManager] WSAAccept() failed with error: 10061
+18:15:20 [ServerList] GameServer offline (GameServer) (1)
+18:16:23 [ServerList] GameServer online (GameServer) (1)
+18:26:41 [ServerList] GameServer offline (GameServer) (1)
+18:31:13 [ServerList] GameServer online (GameServer) (1)
+23:36:05 [SocketManager] Server started at port [44406]
+23:36:05 [ServerList] ServerList loaded successfully
+23:36:05 [ServerList] GameServer online (GameServer) (1)
+23:36:08 [ServerList] JoinServer online
+23:36:15 [ServerList] GameServer online (GameServer) (0)
+23:36:23 [ServerList] GameServer online (GameServerCS) (19)

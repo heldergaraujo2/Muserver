@@ -1,0 +1,28 @@
+16:50:55 [ServerManager][2] DelServer (127.0.0.1)
+16:57:02 [ServerManager][2] AddServer (127.0.0.1)
+16:57:02 [ServerManager][2] ServerInfo (Test) (55903) (2)
+18:31:27 [SocketManager] Server started at port [55960]
+18:31:32 [ServerManager][0] AddServer (127.0.0.1)
+18:31:32 [ServerManager][0] ServerInfo (Test) (55903) (2)
+18:31:33 [ServerManager][1] AddServer (127.0.0.1)
+18:31:33 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+18:31:39 [ServerManager][2] AddServer (127.0.0.1)
+18:31:39 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+18:59:23 [SocketManager] Server started at port [55960]
+18:59:23 [ServerManager][0] AddServer (127.0.0.1)
+18:59:23 [ServerManager][0] ServerInfo (Test) (55903) (2)
+18:59:55 [SocketManager] Server started at port [55960]
+19:00:02 [ServerManager][0] AddServer (127.0.0.1)
+19:00:02 [ServerManager][0] ServerInfo (Test) (55903) (2)
+19:00:17 [SocketManager] Server started at port [55960]
+19:01:25 [SocketManager] Server started at port [55960]
+19:03:21 [SocketManager] Server started at port [55960]
+19:03:28 [ServerManager][0] AddServer (127.0.0.1)
+19:03:28 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+19:03:34 [ServerManager][1] AddServer (127.0.0.1)
+19:03:34 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+21:53:10 [ServerManager][2] AddServer (127.0.0.1)
+21:53:10 [ServerManager][2] ServerInfo (Test) (55903) (2)
+22:20:37 [ServerManager][2] DelServer (127.0.0.1)
+22:20:59 [ServerManager][2] AddServer (127.0.0.1)
+22:20:59 [ServerManager][2] ServerInfo (Test) (55903) (2)

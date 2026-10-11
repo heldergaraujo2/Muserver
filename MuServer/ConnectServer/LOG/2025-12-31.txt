@@ -1,0 +1,57 @@
+12:10:46 [SocketManager] Server started at port [44406]
+12:10:46 [ServerList] ServerList loaded successfully
+12:10:49 [ServerList] JoinServer online
+12:10:53 [ServerList] GameServer online (GameServer) (0)
+12:10:56 [ServerList] GameServer online (GameServerCS) (19)
+12:13:17 [SocketManager] Server started at port [44406]
+12:13:17 [ServerList] ServerList loaded successfully
+12:13:20 [ServerList] JoinServer online
+12:13:24 [ServerList] GameServer online (GameServer) (0)
+12:13:27 [ServerList] GameServer online (GameServerCS) (19)
+12:15:14 [SocketManager] Server started at port [44406]
+12:15:14 [ServerList] ServerList loaded successfully
+12:15:17 [ServerList] JoinServer online
+12:15:20 [ServerList] GameServer online (GameServer) (0)
+12:15:24 [ServerList] GameServer online (GameServerCS) (19)
+12:17:07 [SocketManager] Server started at port [44406]
+12:17:07 [ServerList] ServerList loaded successfully
+12:17:10 [ServerList] JoinServer online
+12:17:14 [ServerList] GameServer online (GameServer) (0)
+12:17:17 [ServerList] GameServer online (GameServerCS) (19)
+12:20:51 [SocketManager] Server started at port [44406]
+12:20:51 [ServerList] ServerList loaded successfully
+12:20:54 [ServerList] JoinServer online
+12:20:58 [ServerList] GameServer online (GameServer) (0)
+12:21:01 [ServerList] GameServer online (GameServerCS) (19)
+12:25:41 [SocketManager] Server started at port [44406]
+12:25:41 [ServerList] ServerList loaded successfully
+12:25:44 [ServerList] JoinServer online
+12:25:47 [ServerList] GameServer online (GameServer) (0)
+12:25:51 [ServerList] GameServer online (GameServerCS) (19)
+12:26:19 [SocketManager] Server started at port [44406]
+12:26:19 [ServerList] ServerList loaded successfully
+12:26:22 [ServerList] JoinServer online
+12:26:25 [ServerList] GameServer online (GameServer) (0)
+12:26:29 [ServerList] GameServer online (GameServerCS) (19)
+12:32:20 [SocketManager] Server started at port [44406]
+12:32:20 [ServerList] ServerList loaded successfully
+12:32:23 [ServerList] JoinServer online
+12:32:26 [ServerList] GameServer online (GameServer) (0)
+12:32:30 [ServerList] GameServer online (GameServerCS) (19)
+13:43:11 [SocketManager] Server started at port [44406]
+13:43:11 [ServerList] ServerList loaded successfully
+13:43:14 [ServerList] JoinServer online
+13:43:17 [ServerList] GameServer online (GameServer) (0)
+13:43:21 [ServerList] GameServer online (GameServerCS) (19)
+15:58:09 [SocketManager] Server started at port [44406]
+15:58:09 [ServerList] ServerList loaded successfully
+15:58:12 [ServerList] JoinServer online
+15:58:16 [ServerList] GameServer online (GameServer) (0)
+15:58:20 [ServerList] GameServer online (GameServerCS) (19)
+18:27:39 [SocketManager] Server started at port [44406]
+18:27:39 [ServerList] ServerList loaded successfully
+18:27:42 [ServerList] JoinServer online
+18:27:46 [ServerList] GameServer online (GameServer) (0)
+18:27:50 [ServerList] GameServer online (GameServerCS) (19)
+20:57:38 [SocketManager] Protocol header error (Index: 1, Header: 3)
+20:57:38 [SocketManager] Protocol header error (Index: 2, Header: 3)

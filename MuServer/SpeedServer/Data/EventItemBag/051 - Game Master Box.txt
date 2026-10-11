@@ -1,0 +1,265 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- https://www.facebook.com/Brunoturbo3d/
+//# -- © 2021 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+
+3
+//Index	DropRate	DropInventory
+0		10000		1
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0		5		0248	0		0			0	1	0	0	0	0	0
+0		6		0248	0		0			0	1	0	0	0	0	0
+0		7		0248	0		0			0	1	0	0	0	0	0
+0		8		0248	0		0			0	1	0	0	0	0	0
+0		9		0248	0		0			0	1	0	0	0	0	0
+0		10		0248	0		0			0	1	0	0	0	0	0
+0		11		0248	0		0			1	0	0	0	0	0	0
+0		12		0248	0		0			1	0	0	0	0	0	0
+0		13		0248	0		0			1	0	0	0	0	0	0
+0		15		0248	0		0			1	0	0	0	0	0	0
+0		16		0248	0		0			1	0	0	0	0	0	0
+0		17		0248	0		0			1	0	0	0	0	0	0
+0		18		0248	0		0			0	0	1	0	0	0	0
+0		19		0248	0		0			0	0	1	0	0	0	0
+0		20		0248	0		0			0	0	1	0	0	0	0
+0		21		0248	0		0			0	0	1	0	0	0	0
+0		22		0248	0		0			0	0	1	0	0	0	0
+0		23		0248	0		0			0	0	1	0	0	0	0
+0		24		0248	0		0			0	0	0	1	0	0	0
+0		25		0248	0		0			0	0	0	1	0	0	0
+0		26		0248	0		0			0	0	0	1	0	0	0
+0		27		0248	0		0			0	0	0	1	0	0	0
+0		28		0248	0		0			0	0	0	1	0	0	0
+0		29		0248	0		0			0	0	0	0	1	0	0
+0		30		0248	0		0			0	0	0	0	1	0	0
+0		31		0248	0		0			0	0	0	0	1	0	0
+0		32		0248	0		0			0	0	0	0	1	0	0
+0		33		0248	0		0			0	0	0	0	1	0	0
+0		34		0248	0		0			0	0	0	0	1	0	0
+0		35		0248	0		0			0	0	0	0	0	1	0
+0		36		0248	0		0			0	0	0	0	0	1	0
+0		37		0248	0		0			0	0	0	0	0	1	0
+0		38		0248	0		0			0	0	0	0	0	1	0
+0		39		0248	0		0			0	0	0	0	0	1	0
+0		40		0248	0		0			0	0	0	0	0	1	0
+0		41		0248	0		0			0	0	0	0	0	0	1
+0		42		0248	0		0			0	0	0	0	0	0	1
+0		43		0248	0		0			0	0	0	0	0	0	1
+0		44		0248	0		0			0	0	0	0	0	0	1
+0		45		0248	0		0			0	0	0	0	0	0	1
+0		46		0080	0		0			1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3613	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Helm
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4125	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Armor
+end
+
+7
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4637	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Pants
+end
+
+8
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5149	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Gloves
+end
+
+9
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5661	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Boots
+end
+
+10
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+0022	0	0	1	1	10	20	13	0	0	0		// Bone Blade
+end
+
+11
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3614	0	0	1	0	10	20	13	0	0	0		// Venom Mist Helm
+end
+
+12
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4126	0	0	1	0	10	20	13	0	0	0		// Venom Mist Armor
+end
+
+13
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4638	0	0	1	0	10	20	13	0	0	0		// Venom Mist Pants
+end
+
+15
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5150	0	0	1	0	10	20	13	0	0	0		// Venom Mist Gloves
+end
+
+16
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5662	0	0	1	0	10	20	13	0	0	0		// Venom Mist Boots
+end
+
+17
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+2572	0	0	1	1	10	20	13	0	0	0		// Grand Viper Staff
+end
+
+18
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3615	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Helm
+end
+
+19
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4127	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Armor
+end
+
+20
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4639	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Pants
+end
+
+21
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5151	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Gloves
+end
+
+22
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5663	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Boots
+end
+
+23
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+2069	0	0	1	1	10	20	13	0	0	0		// Sylph Wind Bow
+end
+
+24
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4128	0	0	1	0	10	20	13	0	0	0		// Volcano Armor
+end
+
+25
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4640	0	0	1	0	10	20	13	0	0	0		// Volcano Pants
+end
+
+26
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5152	0	0	1	0	10	20	13	0	0	0		// Volcano Gloves
+end
+
+27
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5664	0	0	1	0	10	20	13	0	0	0		// Volcano Boots
+end
+
+28
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+0023	0	0	1	1	10	20	13	0	0	0		// Explosion Blade
+end
+
+29
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3617	0	0	1	0	10	20	13	0	0	0		// Sunlight Mask
+end
+
+30
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4129	0	0	1	0	10	20	13	0	0	0		// Sunlight Armor
+end
+
+31
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4641	0	0	1	0	10	20	13	0	0	0		// Sunlight Pants
+end
+
+32
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5153	0	0	1	0	10	20	13	0	0	0		// Sunlight Gloves
+end
+
+33
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5665	0	0	1	0	10	20	13	0	0	0		// Sunlight Boots
+end
+
+34
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+1038	0	0	1	1	10	20	13	0	0	0		// Soleil Sceptor
+end
+
+35
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3627	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Helm
+end
+
+36
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4139	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Armor
+end
+
+37
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4651	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Pants
+end
+
+38
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5163	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Gloves
+end
+
+39
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5675	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Boots
+end
+
+
+40
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+2579	0	0	1	1	10	20	13	0	0	0		// Storm Blitz Stick
+end
+
+41
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3657	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Helm
+end
+
+42
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4169	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Armor
+end
+
+43
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+4681	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Pants
+end
+
+
+44
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+5705	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Boots
+end
+
+45
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+0035	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Star
+end
+
+46
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6429	0		0		1		10		10		20		2		0		0		86400		// Wings of Angel and Devil
+end

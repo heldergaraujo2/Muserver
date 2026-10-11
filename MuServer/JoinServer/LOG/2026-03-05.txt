@@ -1,0 +1,20 @@
+06:11:46 [SocketManager] WSAAccept() failed with error: 10061
+06:47:02 [SocketManager] WSAAccept() failed with error: 10061
+07:21:16 [SocketManager] WSAAccept() failed with error: 10061
+08:47:11 Account mathiass logged with global password!
+08:47:12 Account mathiass logged with global password!
+08:49:40 Account hellder logged with global password!
+08:49:41 Account hellder logged with global password!
+10:08:49 Account hellderr logged with global password!
+10:08:51 Account hellderr logged with global password!
+10:23:50 Account hellderr logged with global password!
+10:35:18 [ServerManager][0] DelServer (127.0.0.1)
+10:35:26 [ServerManager][3] AddServer (127.0.0.1)
+10:35:26 [ServerManager][3] ServerInfo (Test) (55902) (1)
+10:35:55 Account hellder logged with global password!
+11:00:41 Account videodv logged with global password!
+12:27:43 Account videodv logged with global password!
+12:52:31 Account videodv logged with global password!
+14:02:44 Account videodv logged with global password!
+14:02:46 Account hellder logged with global password!
+18:44:17 [SocketManager] WSAAccept() failed with error: 10061

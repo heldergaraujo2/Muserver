@@ -1,0 +1,52 @@
+//Custom achievements by louis
+// Images ID: 61600 ~ 61649 (Data/Custom/Interface/Achievements)
+
+//Bonus Configuration
+0
+//	#ID	#English                           #Portuguese                        #Spanish                           #ImageID	 	
+	0       "Inc.HP"                           "Aumentar HP"                      "Aumentar HP"                      61612
+	1       "Inc.Experience Rate"              "Inc.Experience Rate"              "Inc.Experience Rate"              61631
+	2       "Inc.Base Defense"                 "Inc.Base Defense"                 "Inc.Base Defense"                 61605
+	3       "Inc.Full Damage Reflect Rate"     "Inc.Full Damage Reflect Rate"     "Inc.Full Damage Reflect Rate"     61610
+	4       "Inc.Critical Damage Rate"         "Inc.Critical Damage Rate"         "Inc.Critical Damage Rate"         61624
+	5       "Inc.Excellent Damage Rate"        "Inc.Excellent Damage Rate"        "Inc.Excellent Damage Rate"        61625
+	6       "Inc.Double Damage"                "Inc.Double Damage"                "Inc.Double Damage"                61615
+	7       "Inc.Triple Damage"                "Inc.Triple Damage"                "Inc.Triple Damage"                61606
+	8       "Inc.Ignore Defense Rate"          "Inc.Ignore Defense Rate"          "Inc.Ignore Defense Rate"          61630
+	9       "Resist Critical Damage Rate"      "Resist Critical Damage Rate"      "Resist Critical Damage Rate"      61622
+	10      "Resist Excellent Damage Rate"     "Resist Excellent Damage Rate"     "Resist Excellent Damage Rate"     61619
+	11      "Resist Double Damage"             "Resist Double Damage"             "Resist Double Damage"             61623
+	12      "Resist Triple Damage"             "Resist Triple Damage"             "Resist Triple Damage"             61628
+	13      "Resist Ignore Defense"            "Resist Ignore Defense"            "Resist Ignore Defense"            61648
+	14      "Inc.Weapon Durability Rate"       "Inc.Weapon Durability Rate"       "Inc.Weapon Durability Rate"       61617
+	15      "Inc.Armor Durability Rate"        "Inc.Armor Durability Rate"        "Inc.Armor Durability Rate"        61616
+	16      "Inc.Guardian Durability Rate"     "Inc.Guardian Durability Rate"     "Inc.Guardian Durability Rate"     61640
+	17      "Inc.Offen. FullHP Restore Rate"   "Inc.Offen. FullHP Restore Rate"   "Inc.Offen. FullHP Restore Rate"   61604
+	18      "Inc.Defen. FullHP Restore Rate"   "Inc.Defen. FullHP Restore Rate"   "Inc.Defen. FullHP Restore Rate"   61605
+	19      "Resist Stun Rate"                 "Resist Stun Rate"                 "Resist Stun Rate"                 61607
+end
+
+//General Achievements
+1
+//	#ID	#English                           #Portuguese                        #Spanish                           #ImageID	 	
+	0       "Custom Quest"                     "Custom Quest"                     "Custom Quest"                     61618
+	1       "Custom Npc Quest"                 "Custom Npc Quest"                 "Custom Npc Quest"                 61620
+	2       "Playing time(Minutes)"            "Playing time(Minutes)"            "Playing time(Minutes)"            61647
+	3       "Reset"                            "Reset"                            "Reset"                            61602
+	4       "Master Reset"                     "Master Reset"                     "Master Reset"                     61629
+	5       "Complete Blood Castle"            "Complete Blood Castle"            "Complete Blood Castle"            61632
+	6       "Complete Devil Square"            "Complete Devil Square"            "Complete Devil Square"            61634
+	7       "Complete Chaos Castle"            "Complete Chaos Castle"            "Complete Chaos Castle"            61643
+	8       "Win Guild War"                    "Win Guild War"                    "Win Guild War"                    61635
+	9       "Success Chaos Mix"                "Success Chaos Mix"                "Success Chaos Mix"                61649
+	10      "Failed Chaos Mix"                 "Failed Chaos Mix"                 "Failed Chaos Mix"                 61603
+	11      "Pick up Zen"                      "Pick up Zen"                      "Pick up Zen"                      61639
+	12      "PvP"                              "PvP"                              "PvP"                              61601
+	13      "PvM"                              "PvM"                              "PvM"                              61633
+	14      "Gift Code Redeem"                 "Gift Code Redeem"                 "Gift Code Redeem"                 61614
+	15      "Luck Wheel spins"                 "Luck Wheel spins"                 "Luck Wheel spins"                 61642
+	16      "Kill Golden mobs"                 "Kill Golden mobs"                 "Kill Golden mobs"                 61609
+	17      "Kill on self-defense"             "Kill on self-defense"             "Kill on self-defense"             61608
+	18      "Kill a PK"                        "Kill a PK"                        "Kill a PK"                        61611
+	19      "Duel Win"                         "Duel Win"                         "Duel Win"                         61613
+end

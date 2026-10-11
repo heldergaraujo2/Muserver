@@ -1,0 +1,428 @@
+00:00:03 [BotBuffer] CharName: SatoruRF - ADD_FITNESS Time: 720
+00:00:05 [BotBuffer] CharName: SatoruRF - ADD_CRITICAL_DAMAGE Time: 720
+00:00:09 [BotBuffer] CharName: SatoruRF - ADD_DAMAGE_REFLECT Time: 720
+00:00:10 [BotBuffer] CharName: SatoruRF - ADD_GREATER_LIFE Time: 720
+00:00:13 [BotBuffer] CharName: SatoruRF - ADD_SKILL_MANA Time: 720
+00:00:15 [BotBuffer] CharName: SatoruRF -ADD_GREATER_DEFENSE Time: 720
+00:00:15 [BotBuffer] CharName: SatoruRF - ADD_GREATER_DAMAGE Time: 720
+00:38:25 [BotBuffer] CharName: SatoruRF - ADD_FITNESS Time: 720
+00:38:28 [BotBuffer] CharName: SatoruRF - ADD_CRITICAL_DAMAGE Time: 720
+00:38:31 [BotBuffer] CharName: SatoruRF - ADD_DAMAGE_REFLECT Time: 720
+00:38:33 [BotBuffer] CharName: SatoruRF - ADD_GREATER_LIFE Time: 720
+00:38:36 [BotBuffer] CharName: SatoruRF - ADD_SKILL_MANA Time: 720
+00:38:38 [BotBuffer] CharName: SatoruRF -ADD_GREATER_DEFENSE Time: 720
+00:38:38 [BotBuffer] CharName: SatoruRF - ADD_GREATER_DAMAGE Time: 720
+02:37:18 [Obj][13003] LogOutCharacter (rfrfrfr)
+02:37:32 [Obj][13003] DelAccount (jp46061419)
+02:37:32 [Obj][13003] DelClient (168.205.154.228)
+02:37:45 [Obj][13007] LogOutCharacter (SatoruRF)
+02:38:46 [Obj][13007] DelAccount (luckask11)
+02:38:46 [Obj][13007] DelClient (45.170.89.112)
+02:38:46 Game response error causes conclusion [13007][][][45.170.89.112]
+02:39:45 [Obj][13008] LogOutCharacter (Lolita)
+02:59:03 [Obj][13008] DelAccount (lipelessa)
+02:59:03 [Obj][13008] DelClient (45.184.138.139)
+02:59:45 [Obj][13013] LogOutCharacter (KAKILAROTO)
+04:53:36 [Obj][13013] LogOutCharacter (KAKILAROTO)
+04:54:45 [Obj][13013] DelAccount (lukasgoes)
+04:54:45 [Obj][13013] DelClient (179.236.192.193)
+08:47:38 [Obj][13010] AddClient (45.181.112.102)
+08:47:40 [Obj][13010] AddAccount (fontes)
+08:47:51 [Obj][13010] LogOutCharacter (RomeOZitO)
+08:48:06 [Obj][13010] LogOutCharacter (RomeOZitO)
+08:48:16 [Obj][13010] DelAccount (fontes)
+08:48:16 [Obj][13010] DelClient (45.181.112.102)
+08:48:20 [Obj][13001] AddClient (45.181.112.102)
+08:48:22 [Obj][13001] AddAccount (romeo)
+08:48:28 [Obj][13001] LogInCharacter (XiuNooB)
+08:49:18 [BotBuffer] CharName: XiuNooB - ADD_FITNESS Time: 720
+08:49:20 [BotBuffer] CharName: XiuNooB - ADD_CRITICAL_DAMAGE Time: 720
+08:49:22 [BotBuffer] CharName: XiuNooB - ADD_DAMAGE_REFLECT Time: 720
+08:49:25 [BotBuffer] CharName: XiuNooB - ADD_GREATER_LIFE Time: 720
+08:49:29 [BotBuffer] CharName: XiuNooB -ADD_GREATER_DEFENSE Time: 720
+08:49:29 [BotBuffer] CharName: XiuNooB - ADD_GREATER_DAMAGE Time: 720
+08:49:31 [BotBuffer] CharName: XiuNooB - ADD_SKILL_MANA Time: 720
+08:50:00 [Obj][13001] LogOutCharacter (XiuNooB)
+08:50:00 [Obj][13001] DelAccount (romeo)
+08:50:00 [Obj][13001] DelClient (45.181.112.102)
+08:59:00 [Obj][13004] AddClient (45.181.112.102)
+08:59:01 [Obj][13004] AddAccount (romeo)
+08:59:09 [Obj][13004] LogInCharacter (XiuNooB)
+09:05:06 [Obj][13002] AddClient (45.181.112.102)
+09:05:09 [Obj][13004] LogOutCharacter (XiuNooB)
+09:05:09 [Obj][13004] DelAccount (romeo)
+09:05:09 [Obj][13004] DelClient (45.181.112.102)
+09:05:10 [Obj][13002] AddAccount (romeo)
+09:05:15 [Obj][13002] LogInCharacter (XiuNooB)
+09:12:06 [Obj][13003] AddClient (45.181.112.102)
+09:12:09 [Obj][13002] LogOutCharacter (XiuNooB)
+09:12:09 [Obj][13002] DelAccount (romeo)
+09:12:09 [Obj][13002] DelClient (45.181.112.102)
+09:12:11 [Obj][13003] AddAccount (romeo)
+09:12:13 [Obj][13003] LogInCharacter (XiuNooB)
+09:17:13 [Obj][13003] LogOutCharacter (XiuNooB)
+09:17:13 [Obj][13003] DelAccount (romeo)
+09:17:13 [Obj][13003] DelClient (45.181.112.102)
+09:24:39 [Obj][13007] AddClient (45.181.112.102)
+09:24:41 [Obj][13007] AddAccount (romeo)
+09:24:45 [Obj][13007] LogInCharacter (XiuNooB)
+10:12:46 [Obj][13008] AddClient (45.181.112.102)
+10:12:51 [Obj][13007] LogOutCharacter (XiuNooB)
+10:12:51 [Obj][13007] DelAccount (romeo)
+10:12:51 [Obj][13007] DelClient (45.181.112.102)
+10:12:53 [Obj][13008] AddAccount (romeo)
+10:12:55 [Obj][13008] LogInCharacter (XiuNooB)
+10:21:38 [Obj][13013] AddClient (45.170.89.112)
+10:21:39 [Obj][13013] AddAccount (luckask11)
+10:21:46 [Obj][13013] LogOutCharacter (SatoruRF)
+10:21:54 [Obj][13013] LogOutCharacter (SatoruRF)
+10:22:02 [Obj][13013] LogOutCharacter (SatoruRF)
+10:22:09 [Obj][13013] LogOutCharacter (SatoruRF)
+10:22:45 [Obj][13013] LogInCharacter (Juninho33)
+10:26:11 [Obj][13013] LogOutCharacter (Juninho33)
+10:26:18 [Obj][13013] LogOutCharacter (SatoruRF)
+10:26:20 [Obj][13013] LogInCharacter (Juninho33)
+10:31:31 [Obj][13013] LogOutCharacter (Juninho33)
+10:31:31 [Obj][13013] DelAccount (luckask11)
+10:31:31 [Obj][13013] DelClient (45.170.89.112)
+10:33:24 [Obj][13010] AddClient (45.170.89.112)
+10:33:26 [Obj][13010] AddAccount (luckask19)
+10:33:29 [Obj][13010] LogInCharacter (SatoruSM)
+10:34:14 [BotBuffer] CharName: SatoruSM -ADD_GREATER_DEFENSE Time: 720
+10:34:14 [BotBuffer] CharName: SatoruSM - ADD_GREATER_DAMAGE Time: 720
+10:34:16 [BotBuffer] CharName: SatoruSM - ADD_SKILL_MANA Time: 720
+10:34:18 [BotBuffer] CharName: SatoruSM - ADD_GREATER_LIFE Time: 720
+10:34:21 [BotBuffer] CharName: SatoruSM - ADD_DAMAGE_REFLECT Time: 720
+10:34:23 [BotBuffer] CharName: SatoruSM - ADD_CRITICAL_DAMAGE Time: 720
+10:34:27 [BotBuffer] CharName: SatoruSM - ADD_FITNESS Time: 720
+10:35:53 [Obj][13001] AddClient (45.181.112.102)
+10:35:56 [Obj][13008] LogOutCharacter (XiuNooB)
+10:35:56 [Obj][13008] DelAccount (romeo)
+10:35:56 [Obj][13008] DelClient (45.181.112.102)
+10:35:58 [Obj][13001] AddAccount (romeo)
+10:36:01 [Obj][13001] LogInCharacter (XiuNooB)
+10:53:28 [BotBuffer] CharName: SatoruSM -ADD_GREATER_DEFENSE Time: 720
+10:53:28 [BotBuffer] CharName: SatoruSM - ADD_GREATER_DAMAGE Time: 720
+10:53:29 [BotBuffer] CharName: SatoruSM - ADD_SKILL_MANA Time: 720
+10:53:30 [BotBuffer] CharName: SatoruSM - ADD_GREATER_LIFE Time: 720
+10:53:32 [BotBuffer] CharName: SatoruSM - ADD_DAMAGE_REFLECT Time: 720
+10:53:34 [BotBuffer] CharName: SatoruSM - ADD_CRITICAL_DAMAGE Time: 720
+10:53:37 [BotBuffer] CharName: SatoruSM - ADD_FITNESS Time: 720
+11:02:33 [Obj][13004] AddClient (177.200.33.107)
+11:02:39 [Obj][13004] AddAccount (mamm)
+11:02:46 [Obj][13004] LogInCharacter (ElMarcolaa)
+11:20:45 [Obj][13004] LogOutCharacter (ElMarcolaa)
+11:50:04 [Obj][13002] AddClient (168.205.154.228)
+11:50:09 [Obj][13002] AddAccount (jp46061419)
+11:50:27 [Obj][13002] LogInCharacter (RfLoko)
+11:51:28 [Obj][13002] LogOutCharacter (RfLoko)
+11:51:28 [Obj][13002] DelAccount (jp46061419)
+11:51:28 [Obj][13002] DelClient (168.205.154.228)
+11:54:12 [Obj][13003] AddClient (168.205.154.228)
+11:54:14 [Obj][13003] AddAccount (jp46061419)
+11:54:17 [Obj][13003] LogInCharacter (RfLoko)
+11:59:26 [Obj][13004] LogOutCharacter (ElMarcolaa)
+11:59:38 [Obj][13004] DelAccount (mamm)
+11:59:38 [Obj][13004] DelClient (177.200.33.107)
+12:01:07 [BotBuffer] CharName: RfLoko -ADD_GREATER_DEFENSE Time: 720
+12:01:07 [BotBuffer] CharName: RfLoko - ADD_GREATER_DAMAGE Time: 720
+12:01:08 [BotBuffer] CharName: RfLoko - ADD_SKILL_MANA Time: 720
+12:01:11 [BotBuffer] CharName: RfLoko - ADD_GREATER_LIFE Time: 720
+12:01:13 [BotBuffer] CharName: RfLoko - ADD_DAMAGE_REFLECT Time: 720
+12:01:15 [BotBuffer] CharName: RfLoko - ADD_CRITICAL_DAMAGE Time: 720
+12:01:17 [BotBuffer] CharName: RfLoko - ADD_FITNESS Time: 720
+12:08:36 [Obj][13007] AddClient (177.200.33.107)
+12:08:37 [Obj][13007] AddAccount (mamm)
+12:08:44 [Obj][13007] LogInCharacter (EllMarcola)
+12:18:45 [Obj][13001] LogOutCharacter (XiuNooB)
+12:19:56 [BotBuffer] CharName: RfLoko - ADD_FITNESS Time: 720
+12:20:05 [BotBuffer] CharName: RfLoko - ADD_CRITICAL_DAMAGE Time: 720
+12:20:07 [BotBuffer] CharName: RfLoko - ADD_DAMAGE_REFLECT Time: 720
+12:20:09 [BotBuffer] CharName: RfLoko - ADD_GREATER_LIFE Time: 720
+12:20:11 [BotBuffer] CharName: RfLoko - ADD_SKILL_MANA Time: 720
+12:20:13 [BotBuffer] CharName: RfLoko -ADD_GREATER_DEFENSE Time: 720
+12:20:13 [BotBuffer] CharName: RfLoko - ADD_GREATER_DAMAGE Time: 720
+12:23:22 [BotBuffer] CharName: RfLoko -ADD_GREATER_DEFENSE Time: 720
+12:23:22 [BotBuffer] CharName: RfLoko - ADD_GREATER_DAMAGE Time: 720
+12:23:24 [BotBuffer] CharName: RfLoko - ADD_SKILL_MANA Time: 720
+12:23:25 [BotBuffer] CharName: RfLoko - ADD_GREATER_LIFE Time: 720
+12:23:34 [BotBuffer] CharName: RfLoko - ADD_FITNESS Time: 720
+12:23:37 [BotBuffer] CharName: RfLoko - ADD_CRITICAL_DAMAGE Time: 720
+12:23:41 [BotBuffer] CharName: RfLoko - ADD_DAMAGE_REFLECT Time: 720
+12:44:20 [ServerInfo] Move loaded successfully
+12:45:08 [ServerInfo] CashShop loaded successfully
+12:45:08 [ServerInfo] ChaosMix loaded successfully
+12:45:08 [ServerInfo] Character loaded successfully
+12:45:08 [ServerInfo] Command loaded successfully
+12:45:08 [ServerInfo] Common loaded successfully
+12:45:08 [FakeOnline] Loaded successfully
+12:45:08 [ServerInfo] Custom loaded successfully
+12:45:08 [ServerInfo] Discord loaded successfully
+12:45:08 [ServerInfo] Effect loaded successfully
+12:45:08 [ServerInfo] Event loaded successfully
+12:45:08 [ServerInfo] EventItemBag loaded successfully
+12:45:08 [ServerInfo] Hack loaded successfully
+12:45:08 [ServerInfo] Message loaded successfully
+12:45:08 [ServerInfo] Map loaded successfully
+12:45:08 [ServerInfo] Message loaded successfully
+12:45:08 [ServerInfo] Monster loaded successfully
+12:45:08 [ServerInfo] Move loaded successfully
+12:45:08 [ServerInfo] Quest loaded successfully
+12:45:08 [ServerInfo] Shop loaded successfully
+12:45:08 [ServerInfo] Skill loaded successfully
+12:45:08 [ServerInfo] Util loaded successfully
+12:45:08 [ReadBotInfo] BotSystem loaded successfully
+12:45:30 [ServerInfo] Monster loaded successfully
+12:48:42 [Obj][13013] AddClient (187.106.130.1)
+12:48:43 [Obj][13013] AddAccount (lucasf17)
+12:48:50 [Obj][13013] LogOutCharacter (Nagasawa)
+12:48:54 [Obj][13013] LogInCharacter (Kasiak)
+12:49:38 [Obj][13013] LogOutCharacter (Kasiak)
+12:49:58 [Obj][13013] LogInCharacter (MeioMago)
+13:01:47 [Obj][13008] AddClient (45.184.138.139)
+13:01:52 [Obj][13008] AddAccount (scottcouto)
+13:02:32 [BotBuffer] CharName: MeioMago -ADD_GREATER_DEFENSE Time: 720
+13:02:32 [BotBuffer] CharName: MeioMago - ADD_GREATER_DAMAGE Time: 720
+13:02:33 [BotBuffer] CharName: MeioMago - ADD_SKILL_MANA Time: 720
+13:02:34 [BotBuffer] CharName: MeioMago - ADD_GREATER_LIFE Time: 720
+13:02:35 [BotBuffer] CharName: MeioMago - ADD_DAMAGE_REFLECT Time: 720
+13:02:36 [BotBuffer] CharName: MeioMago - ADD_CRITICAL_DAMAGE Time: 720
+13:02:37 [BotBuffer] CharName: MeioMago - ADD_FITNESS Time: 720
+13:02:52 [Obj][13008] LogInCharacter (Blackkill)
+13:17:08 [Obj][13001] LogOutCharacter (XiuNooB)
+13:17:25 [Obj][13001] LogOutCharacter (XiuNooB)
+13:17:34 [Obj][13001] DelAccount (romeo)
+13:17:34 [Obj][13001] DelClient (45.181.112.102)
+13:19:25 [Obj][13013] LogOutCharacter (MeioMago)
+13:19:25 [Obj][13013] DelAccount (lucasf17)
+13:19:25 [Obj][13013] DelClient (187.106.130.1)
+13:19:55 [Obj][13002] AddClient (187.106.130.1)
+13:20:05 [Obj][13002] AddAccount (lucasf17)
+13:20:05 [Obj][13002] LogInCharacter (MeioMago)
+13:27:42 [Obj][13008] LogOutCharacter (Blackkill)
+13:27:42 [Obj][13008] DelAccount (scottcouto)
+13:27:42 [Obj][13008] DelClient (45.184.138.139)
+13:29:47 [Obj][13004] AddClient (45.184.138.139)
+13:29:49 [Obj][13004] AddAccount (scottcouto)
+13:29:52 [Obj][13004] LogInCharacter (Blackkill)
+13:55:25 [Obj][13002] LogOutCharacter (MeioMago)
+13:55:25 [Obj][13002] DelAccount (lucasf17)
+13:55:25 [Obj][13002] DelClient (187.106.130.1)
+13:56:02 [Obj][13001] AddClient (187.106.130.1)
+13:56:06 [Obj][13001] AddAccount (lucasf17)
+13:56:08 [Obj][13001] LogInCharacter (MeioMago)
+14:00:44 [Obj][13013] AddClient (45.237.100.247)
+14:00:46 [Obj][13000] LogOutCharacter (Mercenario)
+14:00:46 [Obj][13000] DelAccount (maiconj5)
+14:00:46 [Obj][13000] DelClient (45.237.100.247)
+14:00:47 [Obj][13013] AddAccount (maiconj5)
+14:00:50 [Obj][13013] LogInCharacter (Mercenario)
+14:02:59 [Obj][13008] AddClient (45.237.100.247)
+14:03:01 [Obj][13005] LogOutCharacter (miguelito)
+14:03:01 [Obj][13005] DelAccount (maiconj4)
+14:03:01 [Obj][13005] DelClient (45.237.100.247)
+14:03:02 [Obj][13008] AddAccount (maiconj4)
+14:03:04 [Obj][13008] LogInCharacter (miguelito)
+14:23:30 [Obj][13001] LogOutCharacter (MeioMago)
+14:23:30 [Obj][13001] DelAccount (lucasf17)
+14:23:30 [Obj][13001] DelClient (187.106.130.1)
+14:24:50 [Obj][13002] AddClient (187.106.130.1)
+14:24:51 [Obj][13002] AddAccount (lucasf17)
+14:24:53 [Obj][13002] LogInCharacter (MeioMago)
+14:25:37 [BotBuffer] CharName: MeioMago - ADD_SKILL_MANA Time: 720
+14:25:39 [BotBuffer] CharName: MeioMago -ADD_GREATER_DEFENSE Time: 720
+14:25:39 [BotBuffer] CharName: MeioMago - ADD_GREATER_DAMAGE Time: 720
+14:39:23 [Obj][13002] LogOutCharacter (MeioMago)
+14:39:23 [Obj][13002] DelAccount (lucasf17)
+14:39:23 [Obj][13002] DelClient (187.106.130.1)
+14:39:53 [Obj][13000] AddClient (187.106.130.1)
+14:40:03 [Obj][13000] AddAccount (lucasf17)
+14:40:03 [Obj][13000] LogInCharacter (MeioMago)
+14:58:37 [BotBuffer] CharName: Blackkill - ADD_FITNESS Time: 720
+14:58:40 [BotBuffer] CharName: Blackkill - ADD_CRITICAL_DAMAGE Time: 720
+14:58:43 [BotBuffer] CharName: Blackkill - ADD_DAMAGE_REFLECT Time: 720
+14:58:46 [BotBuffer] CharName: Blackkill - ADD_GREATER_LIFE Time: 720
+14:58:49 [BotBuffer] CharName: Blackkill - ADD_SKILL_MANA Time: 720
+14:58:50 [BotBuffer] CharName: Blackkill -ADD_GREATER_DEFENSE Time: 720
+14:58:50 [BotBuffer] CharName: Blackkill - ADD_GREATER_DAMAGE Time: 720
+15:00:24 [Obj][13004] LogOutCharacter (Blackkill)
+15:00:27 [Obj][13004] LogInCharacter (Blackkill)
+15:39:10 [lucasf17][MeioMago] Kill [mamm][EllMarcola]
+15:40:05 [Obj][13004] LogOutCharacter (Blackkill)
+15:40:09 [Obj][13004] LogInCharacter (Blackkill)
+15:46:41 [Obj][13000] LogOutCharacter (MeioMago)
+15:46:41 [Obj][13000] DelAccount (lucasf17)
+15:46:41 [Obj][13000] DelClient (187.106.130.1)
+15:49:42 [Obj][13007] LogOutCharacter (EllMarcola)
+15:49:42 [Obj][13007] DelAccount (mamm)
+15:49:42 [Obj][13007] DelClient (177.200.33.107)
+15:49:42 Game response error causes conclusion [13007][][][177.200.33.107]
+15:50:12 [Obj][13005] AddClient (177.200.33.107)
+15:50:22 [Obj][13005] AddAccount (mamm)
+15:50:23 [Obj][13005] LogInCharacter (EllMarcola)
+16:16:03 [BotBuffer] CharName: RfLoko - ADD_FITNESS Time: 720
+16:16:05 [BotBuffer] CharName: RfLoko - ADD_CRITICAL_DAMAGE Time: 720
+16:16:08 [BotBuffer] CharName: RfLoko - ADD_DAMAGE_REFLECT Time: 720
+16:16:10 [BotBuffer] CharName: RfLoko - ADD_GREATER_LIFE Time: 720
+16:16:12 [BotBuffer] CharName: RfLoko - ADD_SKILL_MANA Time: 720
+16:16:14 [BotBuffer] CharName: RfLoko -ADD_GREATER_DEFENSE Time: 720
+16:16:14 [BotBuffer] CharName: RfLoko - ADD_GREATER_DAMAGE Time: 720
+16:35:50 [Obj][13001] AddClient (187.106.130.1)
+16:35:53 [Obj][13001] AddAccount (lucasf17)
+16:36:08 [Obj][13001] LogOutCharacter (Nagasawa)
+16:36:12 [Obj][13001] LogInCharacter (MeioMago)
+16:53:13 [Obj][13010] LogOutCharacter (SatoruSM)
+16:53:22 [Obj][13010] LogOutCharacter (SatoruGojo)
+16:53:31 [Obj][13010] DelAccount (luckask19)
+16:53:31 [Obj][13010] DelClient (45.170.89.112)
+17:18:45 [Obj][13003] LogOutCharacter (RfLoko)
+17:18:57 [Obj][13002] AddClient (45.170.89.112)
+17:18:59 [Obj][13002] AddAccount (luckask12)
+17:19:01 [Obj][13002] LogInCharacter (YujiRF)
+17:34:42 [Obj][13000] AddClient (66.132.195.83)
+17:34:46 [Obj][13000] DelClient (66.132.195.83)
+17:34:50 [Obj][13007] AddClient (66.132.195.83)
+17:35:00 [Obj][13007] DelClient (66.132.195.83)
+18:02:23 [Obj][13010] AddClient (200.110.109.25)
+18:02:25 [Obj][13010] AddAccount (isilva2)
+18:02:27 [Obj][13010] LogInCharacter (Suporte)
+18:03:23 [Obj][13000] AddClient (45.170.89.112)
+18:03:28 [Obj][13000] AddAccount (luckask19)
+18:03:35 [Obj][13000] LogOutCharacter (SatoruGojo)
+18:03:38 [Obj][13000] LogInCharacter (SatoruSM)
+18:08:11 [BotBuffer] CharName: SatoruSM - ADD_FITNESS Time: 720
+18:08:13 [BotBuffer] CharName: SatoruSM - ADD_CRITICAL_DAMAGE Time: 720
+18:08:15 [BotBuffer] CharName: SatoruSM - ADD_DAMAGE_REFLECT Time: 720
+18:08:17 [BotBuffer] CharName: SatoruSM - ADD_GREATER_LIFE Time: 720
+18:08:19 [luckask19][SatoruSM] Kill [mamm][EllMarcola]
+18:08:22 [BotBuffer] CharName: SatoruSM - ADD_SKILL_MANA Time: 720
+18:08:24 [BotBuffer] CharName: SatoruSM -ADD_GREATER_DEFENSE Time: 720
+18:08:24 [BotBuffer] CharName: SatoruSM - ADD_GREATER_DAMAGE Time: 720
+18:19:10 [BotBuffer] CharName: YujiRF - ADD_FITNESS Time: 720
+18:19:12 [BotBuffer] CharName: YujiRF - ADD_DAMAGE_REFLECT Time: 720
+18:19:13 [BotBuffer] CharName: YujiRF - ADD_CRITICAL_DAMAGE Time: 720
+18:19:15 [BotBuffer] CharName: YujiRF - ADD_GREATER_LIFE Time: 720
+18:19:17 [BotBuffer] CharName: YujiRF - ADD_SKILL_MANA Time: 720
+18:19:19 [BotBuffer] CharName: YujiRF -ADD_GREATER_DEFENSE Time: 720
+18:19:19 [BotBuffer] CharName: YujiRF - ADD_GREATER_DAMAGE Time: 720
+18:21:24 [BotBuffer] CharName: YujiRF - ADD_FITNESS Time: 720
+18:21:26 [BotBuffer] CharName: YujiRF - ADD_CRITICAL_DAMAGE Time: 720
+18:21:28 [BotBuffer] CharName: YujiRF - ADD_DAMAGE_REFLECT Time: 720
+18:21:30 [BotBuffer] CharName: YujiRF - ADD_GREATER_LIFE Time: 720
+18:21:32 [BotBuffer] CharName: YujiRF - ADD_SKILL_MANA Time: 720
+18:21:34 [BotBuffer] CharName: YujiRF -ADD_GREATER_DEFENSE Time: 720
+18:21:34 [BotBuffer] CharName: YujiRF - ADD_GREATER_DAMAGE Time: 720
+18:32:03 [luckask19][SatoruSM] Kill [scottcouto][Blackkill]
+18:35:28 [Obj][13010] LogOutCharacter (Suporte)
+18:35:28 [Obj][13010] DelAccount (isilva2)
+18:35:28 [Obj][13010] DelClient (200.110.109.25)
+18:37:10 [Obj][13007] AddClient (200.110.109.25)
+18:37:11 [Obj][13007] AddAccount (isilva2)
+18:37:12 [Obj][13007] LogInCharacter (Suporte)
+18:44:21 [Obj][13007] LogOutCharacter (Suporte)
+18:44:21 [Obj][13007] DelAccount (isilva2)
+18:44:21 [Obj][13007] DelClient (200.110.109.25)
+18:51:41 [BotBuffer] CharName: Blackkill - ADD_FITNESS Time: 720
+18:51:43 [BotBuffer] CharName: Blackkill - ADD_CRITICAL_DAMAGE Time: 720
+18:51:46 [BotBuffer] CharName: Blackkill - ADD_GREATER_LIFE Time: 720
+18:51:48 [BotBuffer] CharName: Blackkill - ADD_SKILL_MANA Time: 720
+18:51:51 [BotBuffer] CharName: Blackkill -ADD_GREATER_DEFENSE Time: 720
+18:51:51 [BotBuffer] CharName: Blackkill - ADD_GREATER_DAMAGE Time: 720
+19:02:57 [Obj][13003] LogOutCharacter (RfLoko)
+19:03:05 [Obj][13003] DelAccount (jp46061419)
+19:03:05 [Obj][13003] DelClient (168.205.154.228)
+19:19:14 [luckask12][YujiRF] Kill [maiconj4][miguelito]
+19:19:17 [luckask12][YujiRF] Kill [maiconj3][TanGirO]
+19:19:20 [luckask12][YujiRF] Kill [maiconj5][Mercenario]
+19:25:46 [Obj][13002] LogOutCharacter (YujiRF)
+19:25:46 [Obj][13002] DelAccount (luckask12)
+19:25:46 [Obj][13002] DelClient (45.170.89.112)
+19:40:03 [Obj][13001] LogOutCharacter (MeioMago)
+19:40:03 [Obj][13001] DelAccount (lucasf17)
+19:40:03 [Obj][13001] DelClient (187.106.130.1)
+19:43:46 [Obj][13010] AddClient (52.67.110.115)
+19:43:47 [Obj][13010] AddAccount (jokerrr)
+19:43:50 [Obj][13010] LogInCharacter (LapadDoCao)
+19:44:46 [Obj][13007] AddClient (45.238.1.153)
+19:44:46 [Obj][13007] DelClient (45.238.1.153)
+19:44:46 [Obj][13003] AddClient (45.238.1.153)
+19:44:46 [Obj][13003] DelClient (45.238.1.153)
+19:44:46 [Obj][13002] AddClient (45.238.1.153)
+19:44:46 [Obj][13002] DelClient (45.238.1.153)
+19:44:57 [Obj][13001] AddClient (177.139.81.240)
+19:44:58 [Obj][13001] AddAccount (lucasf17)
+19:45:03 [Obj][13001] LogInCharacter (MeioMago)
+20:03:13 [BotBuffer] CharName: SatoruSM - ADD_FITNESS Time: 720
+20:03:15 [BotBuffer] CharName: SatoruSM - ADD_CRITICAL_DAMAGE Time: 720
+20:03:17 [BotBuffer] CharName: SatoruSM - ADD_DAMAGE_REFLECT Time: 720
+20:03:21 [BotBuffer] CharName: SatoruSM - ADD_GREATER_LIFE Time: 720
+20:03:22 [BotBuffer] CharName: SatoruSM - ADD_SKILL_MANA Time: 720
+20:03:25 [BotBuffer] CharName: SatoruSM -ADD_GREATER_DEFENSE Time: 720
+20:03:25 [BotBuffer] CharName: SatoruSM - ADD_GREATER_DAMAGE Time: 720
+20:03:30 [luckask19][SatoruSM] Kill [jokerrr][LapadDoCao]
+20:05:35 [BotBuffer] CharName: SatoruSM - ADD_FITNESS Time: 720
+20:05:37 [BotBuffer] CharName: SatoruSM - ADD_CRITICAL_DAMAGE Time: 720
+20:05:39 [BotBuffer] CharName: SatoruSM - ADD_DAMAGE_REFLECT Time: 720
+20:05:42 [BotBuffer] CharName: SatoruSM - ADD_GREATER_LIFE Time: 720
+20:05:44 [BotBuffer] CharName: SatoruSM - ADD_SKILL_MANA Time: 720
+20:05:46 [BotBuffer] CharName: SatoruSM -ADD_GREATER_DEFENSE Time: 720
+20:05:46 [BotBuffer] CharName: SatoruSM - ADD_GREATER_DAMAGE Time: 720
+20:14:45 [Obj][13004] LogOutCharacter (Blackkill)
+20:18:26 [Obj][13004] DelAccount (scottcouto)
+20:18:26 [Obj][13004] DelClient (45.184.138.139)
+20:22:41 [ServerInfo] Map loaded successfully
+20:23:03 [ServerInfo] Map loaded successfully
+20:34:47 [Obj][13000] LogOutCharacter (SatoruSM)
+20:34:47 [Obj][13000] DelAccount (luckask19)
+20:34:47 [Obj][13000] DelClient (45.170.89.112)
+20:35:05 [Obj][13001] LogOutCharacter (MeioMago)
+20:35:05 [Obj][13001] DelAccount (lucasf17)
+20:35:05 [Obj][13001] DelClient (177.139.81.240)
+21:00:03 [Obj][13007] AddClient (201.77.168.176)
+21:00:04 [Obj][13007] DelClient (201.77.168.176)
+21:02:29 [Obj][13005] LogOutCharacter (EllMarcola)
+21:02:41 [Obj][13005] DelAccount (mamm)
+21:02:41 [Obj][13005] DelClient (177.200.33.107)
+21:10:54 [Obj][13012] LogOutCharacter (TanGirO)
+21:10:54 [Obj][13012] DelAccount (maiconj3)
+21:10:54 [Obj][13012] DelClient (45.237.100.247)
+22:11:44 [Obj][13011] LogOutCharacter (AzyzzRF)
+22:11:44 [Obj][13011] DelAccount (morota25)
+22:11:44 [Obj][13011] DelClient (45.191.9.91)
+22:14:13 [Obj][13009] LogOutCharacter (AUR0R4SM)
+22:14:13 [Obj][13009] DelAccount (locotmx)
+22:14:13 [Obj][13009] DelClient (45.191.9.91)
+22:14:15 [Obj][13006] LogOutCharacter (SpotRF)
+22:14:15 [Obj][13006] DelAccount (locotmx25)
+22:14:15 [Obj][13006] DelClient (45.191.9.91)
+22:20:34 [BotBuffer] CharName: LapadDoCao -ADD_GREATER_DEFENSE Time: 720
+22:20:34 [BotBuffer] CharName: LapadDoCao - ADD_GREATER_DAMAGE Time: 720
+22:22:07 [Obj][13003] AddClient (45.191.9.91)
+22:22:11 [Obj][13003] AddAccount (locotmx)
+22:22:14 [Obj][13003] LogInCharacter (AUR0R4SM)
+22:23:05 [Obj][13002] AddClient (45.191.9.91)
+22:23:08 [Obj][13002] AddAccount (locotmx25)
+22:23:12 [Obj][13002] LogInCharacter (SpotRF)
+22:24:42 [Obj][13004] AddClient (66.132.195.43)
+22:24:45 [Obj][13004] DelClient (66.132.195.43)
+22:24:48 [Obj][13000] AddClient (66.132.195.43)
+22:25:01 [Obj][13000] DelClient (66.132.195.43)
+22:51:18 [Obj][13002] LogOutCharacter (SpotRF)
+22:51:18 [Obj][13002] DelAccount (locotmx25)
+22:51:18 [Obj][13002] DelClient (45.191.9.91)
+22:56:14 [Obj][13001] AddClient (45.191.9.91)
+22:56:15 [Obj][13001] AddAccount (locotmx25)
+22:56:19 [Obj][13001] LogInCharacter (SpotRF)
+22:58:14 [Obj][13007] AddClient (45.191.9.91)
+22:58:19 [Obj][13007] AddAccount (locotmx30)
+22:58:38 [Obj][13007] LogInCharacter (BayBlade)
+23:11:09 [Obj][13005] AddClient (179.63.44.169)
+23:11:11 [Obj][13005] AddAccount (gordo1)
+23:11:27 [Obj][13005] LogInCharacter (DexTer)
+23:12:18 [Obj][13012] AddClient (179.63.44.169)
+23:12:21 [Obj][13012] AddAccount (gordo)
+23:12:22 [Obj][13012] LogInCharacter (HataKe)
+23:56:59 [BotBuffer] CharName: DexTer - ADD_FITNESS Time: 720
+23:57:01 [BotBuffer] CharName: DexTer - ADD_CRITICAL_DAMAGE Time: 720
+23:57:05 [BotBuffer] CharName: DexTer -ADD_GREATER_DEFENSE Time: 720
+23:57:05 [BotBuffer] CharName: DexTer - ADD_GREATER_DAMAGE Time: 720

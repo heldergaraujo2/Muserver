@@ -1,0 +1,1384 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+
+
+//========================================================================
+// SETS SEASON 8
+//========================================================================
+//Index   ColorR   ColorG   ColorB   ModelName
+3637      178	   51	    51      "helmmale98"
+3638      204	   216	    229     "helmmale75"
+3639      255      24       22      "helmmale76"
+3640      153	   204	    102     "helmmale77"
+3642      0	   127	    255     "helmmale78"
+3661      255	   229	    153     "helmmale82"
+
+4149      178	   51	    51      "ArmorMale98"
+4150      204	   216	    229     "ArmorMale75"
+4151      255      24       22      "ArmorMale76"
+4152      153	   204	    102     "ArmorMale77"
+4153      205      192      176     "ArmorMale84"
+4154      0	   127	    255     "ArmorMale78"
+4173      255	   229	    153     "ArmorMale82"
+
+4661      178	   51	    51      "PantMale98"
+4662      204	   216	    229     "PantMale75"
+4663      255      24       22      "PantMale76"
+4664      153	   204	    102     "PantMale77"
+4665      205      192      176     "PantMale84"
+4666      0	   127	    255     "PantMale78"
+4685      255	   229	    153     "PantMale82"
+
+5173      178	   51	    51      "GloveMale98"
+5174      204	   216	    229     "GloveMale75"
+5175      255      24       22      "GloveMale76"
+5176      153	   204	    102     "GloveMale77"
+5177      205      192      176     "GloveMale84"
+5178      0	   127	    255     "GloveMale78"
+
+5685      178	   51	    51      "BootMale98"
+5686      204	   216	    229     "BootMale75"
+5687      255      24       22      "BootMale76"
+5688      153	   204	    102     "BootMale77"
+5689      205      192      176     "BootMale84"
+5690      0	   127	    255     "BootMale78"
+5709      255	   229	    153     "BootMale82"
+
+//========================================================================
+// MIX
+//========================================================================
+7568     -1        -1       -1       "DeathKingBone"        // Death King's Bone
+7569     -1        -1       -1       "hellmine"             // Hell Maine's Leather
+7570     -1        -1       -1       "DarkPhoenixBz"        // Dark Phoenix Flame
+7571     -1        -1       -1       "deathsoul"            // Death Beam Knight Soul
+
+7572     -1        -1       -1       "spellstone3"          // Greater Spirit Stone
+7573     -1        -1       -1       "GarudaFlame"          // Garuda's Flame
+7574     -1        -1       -1       "GarudaFeather"        // Garuda's Feather
+7575     -1        -1       -1       "goldarms01"           // Golden Sentence
+
+7576     -1        -1       -1       "MixMaterialDA"        // Sealed Stone Shard
+7577     -1        -1       -1       "hs_hammerB"           // Steel of Heaven
+7578     -1        -1       -1       "hs_hammerA"           // Archangel's Hammer
+
+
+7579     -1        -1       -1       "AHeroSpiritUP"        // Ancient Heros Soul
+
+7580     -1        -1       -1       "James_anvil"          // Darkangel Anvil
+7581     -1        -1       -1       "3cha_lightstone"      // Holyangel Spirit
+7582     -1        -1       -1       "sd_AwakeningSoul01"   // Awakening 
+7583     -1        -1       -1       "holyangelanvil"       // Anvil of Holy Angel
+7584     -1        -1       -1       "FrostSoul"            // Cold Marriage
+7585     -1        -1       -1       "soulanvil"            // Soul Moru
+7586     -1        -1       -1       "BlueEyeAnvil"         // Blue Eye Weapons
+7587     -1        -1       -1       "6master_peice"        // Silver Heart Set
+7588     -1        -1       -1       "Jamesanvil_6master"   // Silver Anvil
+7589     -1        -1       -1       "7mastery_mixiteam"    // Manticore Spirit
+
+7454     -1        -1       -1       "GM02"           
+7488     -1        -1       -1       "Lucky"           // 
+
+7590    -1        -1       -1       "ResuPiece"                 // Fragment of Resurreccion
+7591    -1        -1       -1       "Ghosthorse_item_shield"    // Seal of the Phantasmal Shield
+7592    -1        -1       -1       "hs_2GuadianiceD"           // Seal of Ice Dragon
+7593    -1        -1       -1       "hs_3Guadianice"            // Seal of Pierce Ryan
+7594    -1        -1       -1       "ProofOfConqueror"          // Conqueror's Badge
+7595    -1        -1       -1       "manticoremoru_"            // Manticore Moru
+7596    -1        -1       -1       "brillianthorn_"            // Brilliant Soul Moru
+7598    -1        -1       -1       "tail_3D"                   // Seal of Shining Tail
+7599    -1        -1       -1       "boss_invitationticket"     //
+7600    -1        -1       -1       "Apocal_stone"              //
+7601    -1        -1       -1       "8chamoru"                  //
+7602    -1        -1       -1       "urseal"                    // 
+7603    -1        -1       -1       "apcalips_moru"             // 
+7604    -1        -1       -1       "lightning_stone"           // 
+
+7605    -1        -1       -1       "wingcore_feather"          // 
+7606    -1        -1       -1       "WingsRelic5th"             //
+
+7607    -1        -1       -1       "Leviathan_seal3D"          //
+7608    -1        -1       -1       "lightning_anvil"           //
+
+7609    -1        -1       -1       "TempleGuard_Material"      //
+7610    -1        -1       -1       "TempleGuard_anvil"         //
+
+
+612     -1        -1       -1       "Ghosthorsemask01"          // 
+613     -1        -1       -1       "hs_2GuadianiceCA"          // 
+614     -1        -1       -1       "hs_2GuadianiceCB"          // 
+615     -1        -1       -1       "hs_fiercelion_inB"         // 
+616     -1        -1       -1       "hs_fiercelion_inR"         // 
+617     -1        -1       -1       "shiningtails_in1"          // 
+618     -1        -1       -1       "rare_shiningtails_in1"     // 
+619     -1        -1       -1       "ur_inven"                  // 
+620     -1        -1       -1       "urUp_inven"                // 
+621     -1        -1       -1       "DivineHorse_horn"
+622     -1        -1       -1       "spiritbill"
+623     -1        -1       -1       "Leviathan_inven"
+624     -1        -1       -1       "Leviathan_rare_inven"
+625     -1        -1       -1       "Taurus_inven"
+626     -1        -1       -1       "Taurus_rare_inven"
+
+522     -1        -1       -1       "PickNH"
+//========================================================================
+// SUMMONS SCROLL
+//========================================================================
+7423     -1        -1       -1       "Book000001"        // Titan's Anger
+7424     -1        -1       -1       "Book000001"        // Tantalose's Punishment
+7425     -1        -1       -1       "Book000001"        // Erohim's Nightmare
+7426     -1        -1       -1       "Book000001"        // Hell Maine's Insanity
+7427     -1        -1       -1       "Book000001"        // Kundun's Greed
+7428     -1        -1       -1       "Book000001"        // Evomon Summoning Scroll
+
+//========================================================================
+// THE SNAKE BEGINS EVENT
+//========================================================================
+7429     -1        -1       -1       "doubt_paper_G"        // Summon Scroll (Lv1)
+7430     -1        -1       -1       "doubt_paper_Y"        // Summon Scroll (Lv2)
+7431     -1        -1       -1       "doubt_paper_P"        // Summon Scroll (Lv3)
+7432     -1        -1       -1       "doubt_paper_R"        // Summon Scroll (Lv4)
+
+//========================================================================
+// RUUD BOX & Spirit Nixie's Shard
+//========================================================================
+7338     -1        -1       -1       "RudeBox_green"       // Mastery Box (Minor)
+7339     -1        -1       -1       "RudeBox_blue"        // Mastery Box (Standard)
+7340     -1        -1       -1       "RudeBox_red"         // Mastery Box (Greater)
+7341      0         0        0       "nudldisivna"         // Spirit Nixie's Shard
+
+//========================================================================
+// Pet Evolution System
+//========================================================================
+6853     -1        -1       -1       "spellst01"           // Muun Energy Converter
+6854     -1        -1       -1       "evolutionstone"      // Evolition Stone
+6855     -1        -1       -1       "PetEgg"              // Muun Egg
+
+//========================================================================
+// NEW RINGS & Pendants SEASON 8
+//========================================================================
+6809     -1        -1       -1       "finalgori"              // Ring of Ultimatum
+6810     -1        -1       -1       "proguardring"           // Protector Protection Ring
+6811     -1        -1       -1       "guardring"              // Protection Ring
+6812     -1        -1       -1       "NecklaceOfAgony"        // Necklace Of Agony
+6813     -1        -1       -1       "SolidSymbol"            // Solid Symbol
+6814     -1        -1       -1       "Ring01"                 // Decoration Ring
+6815     -1        -1       -1       "Ring02"                 // Blessed Decoration Ring
+
+//========================================================================
+// WEAPONS SEASON 8
+//========================================================================
+30       127       127      127       "asura"
+29       255       162      31        "balhalla_sword"
+37       20        231      255       "blastbreak"
+1548     127       127      127       "MagmaSpear"
+1043     172       169      255       "thunder_bolt"
+1044     255       255      255       "hornofsteel"
+2592     247       119      119       "stick32"
+2595     127       127      127       "MiracleStaff"
+2597     255       107      37        "kerberos_spear_dark_road"
+3094     255       255      255       "CrazyWind"
+3095     255       160      142       "light_road"
+3096     255       24       22        "darkdevilS"
+3097     127       127      127       "hellnights"
+3098     0         149      228       "AmbitionShield"
+
+//===================================================================
+// WEAPONS BLOODANGEL
+//===================================================================
+42        255	   78	    56      "blood_angelsword_s"
+44        255	   78	    56      "blood_anglesword"
+1046      255	   78	    56      "booldangel_sapter"
+2601      255	   78	    56      "bloodangelstaff01"
+2603      255	   78	    56      "bloodangelstick01"
+//===================================================================
+// WEAPONS BLESSED
+//===================================================================
+51        255	   178	    63      "absolute02_sword"
+1049      255	   178	    63      "absolute_septer"
+2609      255	   178	    63      "absolute02_staff"
+2610      255	   178	    63      "absolute_stick"
+//===================================================================
+// WEAPONS DARKANGEL
+//===================================================================
+52        255      226      115     "DarkangelSword"
+53        255      226      115     "DarkangelMagicsword"
+1050      255      226      115     "Darkangel_Scepter"
+2611      255      226      115     "Darkangel_Staff"
+2613      255      226      115     "DarkangelStick"
+//===================================================================
+// WEAPONS HOLLYANGEL
+//===================================================================
+55        190	   142	    69      "HolyAngelSword"
+56        190	   142	    69      "HolyAngelMagicSword"
+1051      190	   142	    69      "HolyAngelSepter"
+2612      190	   142	    69      "HolyAngelStaff"
+2614      190	   142	    69      "HolyAngelStick"
+//===================================================================
+// WEAPONS AWAKENING
+//===================================================================
+58        205      133      063     "soulknightsword"
+59        205      133      063     "SoulmagicSword"
+1052      205      133      063     "seoulRoad_septer"
+2615      205      133      063     "sd_SoulWizardStaff01"
+2616      205      133      063     "sd_soulsummoner"
+
+//===================================================================
+// SET BLOODANGEL
+//===================================================================
+3682      204	   216	    229     "helmmale83"
+3683      204	   216	    229     "helmmale85"
+3684      204	   216	    229     "helmmale86"
+3685      204	   216	    229     "helmmale87"
+3687      204	   216	    229     "helmmale88"
+3688      204	   216	    229     "helmmale90"
+
+4194      204	   216	    229     "ArmorMale83"
+4195      204	   216	    229     "ArmorMale85"
+4196      204	   216	    229     "ArmorMale86"
+4197      204	   216	    229     "ArmorMale87"
+4198      204	   216	    229     "ArmorMale89"
+4199      204	   216	    229     "ArmorMale88"
+4200      204	   216	    229     "ArmorMale90"
+
+4706      204	   216	    229     "PantMale83"
+4707      204	   216	    229     "PantMale85"
+4708      204	   216	    229     "PantMale86"
+4709      204	   216	    229     "PantMale87"
+4710      204	   216	    229     "PantMale89"
+4711      204	   216	    229     "PantMale88"
+4712      204	   216	    229     "PantMale90"
+
+5218      204	   216	    229     "GloveMale83"
+5219      204	   216	    229     "GloveMale85"
+5220      204	   216	    229     "GloveMale86"
+5221      204	   216	    229     "GloveMale87"
+5222      204	   216	    229     "GloveMale89"
+5223      204	   216	    229     "GloveMale88"
+
+5730      204	   216	    229     "BootMale83"
+5731      204	   216	    229     "BootMale85"
+5732      204	   216	    229     "BootMale86"
+5733      204	   216	    229     "BootMale87"
+5734      204	   216	    229     "BootMale89"
+5735      204	   216	    229     "BootMale88"
+5736      204	   216	    229     "BootMale90"
+
+//===================================================================
+// SET SEALED BLOODANGEL MIX
+//===================================================================
+3694      -1	   -1	    -1      "helmmale83"
+3695      -1	   -1	    -1      "helmmale85"
+3696      -1	   -1	    -1      "helmmale86"
+3697      -1	   -1	    -1      "helmmale87"
+3699      -1	   -1	    -1      "helmmale88"
+3700      -1	   -1	    -1      "helmmale90"
+
+4206      -1	   -1	    -1      "ArmorMale83"
+4207      -1	   -1	    -1      "ArmorMale85"
+4208      -1	   -1	    -1      "ArmorMale86"
+4209      -1	   -1	    -1      "ArmorMale87"
+4210      -1	   -1	    -1      "ArmorMale89"
+4211      -1	   -1	    -1      "ArmorMale88"
+4212      -1	   -1	    -1      "ArmorMale90"
+
+4718      -1	   -1	    -1      "PantMale83"
+4719      -1	   -1	    -1      "PantMale85"
+4720      -1	   -1	    -1      "PantMale86"
+4721      -1	   -1	    -1      "PantMale87"
+4722      -1	   -1	    -1      "PantMale89"
+4723      -1	   -1	    -1      "PantMale88"
+4724      -1	   -1	    -1      "PantMale90"
+
+5230      -1	   -1	    -1      "GloveMale83"
+5231      -1	   -1	    -1      "GloveMale85"
+5232      -1	   -1	    -1      "GloveMale86"
+5233      -1	   -1	    -1      "GloveMale87"
+5234      -1	   -1	    -1      "GloveMale89"
+5235      -1	   -1	    -1      "GloveMale88"
+
+5742      -1	   -1	    -1      "BootMale83"
+5743      -1	   -1	    -1      "BootMale85"
+5744      -1	   -1	    -1      "BootMale86"
+5745      -1	   -1	    -1      "BootMale87"
+5746      -1	   -1	    -1      "BootMale89"
+5747      -1	   -1	    -1      "BootMale88"
+5748      -1	   -1	    -1      "BootMale90"
+
+//===================================================================
+// SET DARKANGEL
+//===================================================================
+3722      174      198      207     "helmmale91"
+3723      155      196      226     "helmmale92"
+3724      221      160      221     "helmmale93"
+3725      72       61       139     "helmmale94"
+3727      115      169      194     "helmmale95"
+3728      178      190      181     "helmmale97"
+
+4234      174      198     207      "ArmorMale91"
+4235      155      196     226      "ArmorMale92"
+4236      221      160     221      "ArmorMale93"
+4237      72       61      139      "ArmorMale94"
+4238      205      133     063      "ArmorMale95"
+4239      115      169     194      "ArmorMale96"
+4240      178      190     181      "ArmorMale97"
+
+4746      174      198     207      "PantMale91"
+4747      155      196     226      "PantMale92"
+4748      221      160     221      "PantMale93"
+4749      72       61      139      "PantMale94"
+4750      205      133     063      "PantMale95"
+4751      115      169     194      "PantMale96"
+4752      178      190     181      "PantMale97"
+
+5258      174      198     207      "GloveMale91"
+5259      155      196     226      "GloveMale92"
+5260      221      160     221      "GloveMale93"
+5261      72       61      139      "GloveMale94"
+5262      205      133     063      "GloveMale95"
+5263      115      169     194      "GloveMale96"
+
+5770      174      198     207      "BootMale91"
+5771      155      196     226      "BootMale92"
+5772      221      160     221      "BootMale93"
+5773      72       61      139      "BootMale94"
+5774      205      133     063      "BootMale95"
+5775      115      169     194      "BootMale96"
+5776      178      190     181      "BootMale97"
+//===================================================================
+// SET HOLLYANGEL
+//===================================================================
+3729     122	   147	   99       "HelmMale112_knight"
+3730     122	   147	   99       "HelmMale111_magic"
+3731     122	   147	   99       "HelmMale109_elf"
+3732     122	   147	   99       "HelmMale109_alice"
+3734     122	   147	   99       "HelmMale111_dark"
+3735     122	   147	   99       "HelmMale112_fight"
+
+4241     122	   147	   99       "ArmorMale112"
+4242     122	   147	   99       "ArmorMale111"
+4243     122	   147	   99       "ArmorMale109_elf"
+4244     122	   147	   99       "ArmorMale109_alice"
+4245     122	   147	   99       "ArmorMale112"
+4246     122	   147	   99       "ArmorMale111"
+4247     122	   147	   99       "ArmorMale112"
+
+4753     122	   147	   99       "PantMale112"
+4754     122	   147	   99       "PantMale111"
+4755     122	   147	   99       "PantMale109_elf"
+4756     122	   147	   99       "PantMale109_alice"
+4757     122	   147	   99       "PantMale112"
+4758     122	   147	   99       "PantMale111"
+4759     122	   147	   99       "PantMale112"
+
+5265     122	   147	   99       "GloveMale112"
+5266     122	   147	   99       "GloveMale111"
+5267     122	   147	   99       "GloveMale109"
+5268     122	   147	   99       "GloveMale109"
+5269     122	   147	   99       "GloveMale112"
+5270     122	   147	   99       "GloveMale111"
+
+5777     122	   147	   99       "BootMale112"
+5778     122	   147	   99       "BootMale111"
+5779     122	   147	   99       "BootMale109"
+5780     122	   147	   99       "BootMale109"
+5781     122	   147	   99       "BootMale112"
+5782     122	   147	   99       "BootMale111"
+5783     122	   147	   99       "BootMale112"
+//===================================================================
+// SET AWAKENING SOUL
+//===================================================================
+3736     255	   146	   76       "HelmMale116_knight"
+3737     255	   146	   76       "HelmMale115_magic"
+3738     255	   146	   76       "HelmMale113_elf"
+3739     255	   146	   76       "HelmMale113_alice"
+3741     255	   146	   76       "HelmMale115_dark"
+3742     255	   146	   76       "HelmMale116_fight"
+
+4248     255	   146	   76       "ArmorMale116"
+4249     255	   146	   76       "ArmorMale115"
+4250     255	   146	   76       "ArmorMale113_elf"
+4251     255	   146	   76       "ArmorMale113_alice"
+4252     255	   146	   76       "ArmorMale116"
+4253     255	   146	   76       "ArmorMale115"
+4254     255	   146	   76       "ArmorMale116"
+
+4760     255	   146	   76       "PantMale116"
+4761     255	   146	   76       "PantMale115"
+4762     255	   146	   76       "PantMale113_elf"
+4763     255	   146	   76       "PantMale113_alice"
+4764     255	   146	   76       "PantMale116"
+4765     255	   146	   76       "PantMale115"
+4766     255	   146	   76       "PantMale116"
+
+5272     255	   146	   76       "GloveMale116"
+5273     255	   146	   76       "GloveMale115"
+5274     255	   146	   76       "GloveMale113_elf"
+5275     255	   146	   76       "GloveMale113_alice"
+5276     255	   146	   76       "GloveMale116"
+5277     255	   146	   76       "GloveMale115"
+
+5784     255	   146	   76       "BootMale116"
+5785     255	   146	   76       "BootMale115"
+5786     255	   146	   76       "BootMale113_elf"
+5787     255	   146	   76       "BootMale113_alice"
+5788     255	   146	   76       "BootMale116"
+5789     255	   146	   76       "BootMale115"
+5790     255	   146	   76       "BootMale116"
+//===================================================================
+// SET BLUE EYE
+//===================================================================
+3743     040      080      120      "HelmMale120_knight"
+3744     040      080      120      "HelmMale119_magic"
+3745     040      080      120      "HelmMale117_elf"
+3746     040      080      120      "HelmMale117_alice"
+3748     040      080      120      "HelmMale119_dark"
+3749     040      080      120      "HelmMale120_fight"
+
+4255     040      080      120      "ArmorMale120_knight"
+4256     040      080      120      "ArmorMale119"
+4257     040      080      120      "ArmorMale117"
+4258     040      080      120      "ArmorMale117"
+4259     040      080      120      "ArmorMale120_ma"
+4260     040      080      120      "ArmorMale119"
+4261     040      080      120      "ArmorMale120_fight"
+
+4767     040      080      120      "PantMale120_knight"
+4768     040      080      120      "PantMale119"
+4769     040      080      120      "PantMale117"
+4770     040      080      120      "PantMale117"
+4771     040      080      120      "PantMale120_ma"
+4772     040      080      120      "PantMale119"
+4773     040      080      120      "PantMale120_fight"
+
+5279     040      080      120      "GloveMale120_knight"
+5280     040      080      120      "GloveMale119"
+5281     040      080      120      "GloveMale117"
+5282     040      080      120      "GloveMale117"
+5283     040      080      120      "GloveMale120_ma"
+5284     040      080      120      "GloveMale119"
+
+5791     040      080      120      "BootMale120_knight"
+5792     040      080      120      "BootMale119"
+5793     040      080      120      "BootMale117"
+5794     040      080      120      "BootMale117"
+5795     040      080      120      "BootMale120_ma"
+5796     040      080      120      "BootMale119"
+5797     040      080      120      "BootMale120_fight"
+
+//===================================================================
+// SET TIGRIS
+//===================================================================
+3750     89	  165	  255      "HelmMale105"
+4262     89	  165	  255      "ArmorMale105"
+4774     89	  165	  255      "PantMale105"
+5798     89	  165	  255      "BootMale105"
+
+//===================================================================
+// SET CRISMSON SKULL
+//===================================================================
+3751     229	178	114      "HelmMale107"
+4263     229	178	114      "ArmorMale107"
+4775     229	178	114      "PantMale107"
+5799     229	178	114      "BootMale107"
+
+//===================================================================
+// WEAPONS BLUE EYE
+//===================================================================
+69      122     139     168      "hs_blueeyeknightA"
+70      122     139     168      "blue_eye_magicsword01"
+1053    122     139     168      "Blue_eye_road_secpter"
+2617    122     139     168      "blue_eye_ws"
+2618    122     139     168      "blueeye_summoner"
+
+//===================================================================
+// NEW BOOKS SUM S15
+//===================================================================
+2620    204	 216	 229      "Yigye1Book"
+2621    174      198     207      "Yigye2Book"
+2622    122	 147	 99       "Yigye3Book"
+2623    255	 146	 76       "Yigye4Book"
+2624    122      139     168      "Yigye5Book"
+2627    153      153     153      "mastery_book06"
+
+//===================================================================
+// SET SILVER HEART
+//===================================================================
+3752    153    153     153      "HelmMale131"
+3753    153    153     153      "HelmMale130"
+3754    153    153     153      "HelmMale128_elf"
+3755    153    153     153      "HelmMale128_alice"
+3757    153    153     153      "HelmMale130"
+3758    153    153     153      "HelmMale131"
+
+4264    153    153     153      "ArmorMale131"
+4265    153    153     153      "ArmorMale130"
+4266    153    153     153      "ArmorMale128_elf"
+4267    153    153     153      "ArmorMale128_alice"
+4268    153    153     153      "ArmorMale131"
+4269    153    153     153      "ArmorMale130"
+4270    153    153     153      "ArmorMale131"
+
+4776    153    153     153      "PantMale131"
+4777    153    153     153      "PantMale130"
+4778    153    153     153      "PantMale128_elf"
+4779    153    153     153      "PantMale128_alice"
+4780    153    153     153      "PantMale131"
+4781    153    153     153      "PantMale130"
+4782    153    153     153      "PantMale131"
+
+5288    153    153     153      "GloveMale131"
+5289    153    153     153      "GloveMale130"
+5290    153    153     153      "GloveMale128_elf"
+5291    153    153     153      "GloveMale128_alice"
+5292    153    153     153      "GloveMale131"
+5293    153    153     153      "GloveMale130"
+
+5800    153    153     153      "BootMale131"
+5801    153    153     153      "BootMale130"
+5802    153    153     153      "BootMale128_elf"
+5803    153    153     153      "BootMale128_alice"
+5804    153    153     153      "BootMale131"
+5805    153    153     153      "BootMale130"
+5806    153    153     153      "BootMale131"
+
+//========================================================================
+// SHIELDS S15
+//========================================================================
+3102    204     40     28       "Masteryshild_dk01"
+3103    28      64     29       "Masteryshild_dk02"
+3104    117     113    87       "Masteryshild_dk03"
+3105    193     144    77       "Masteryshild_dk04"
+3106    122     139    168      "Masteryshild_dk05"
+3107    215     89     0        "Masteryshild_dk06"
+
+96      60      110     150      "lightning_sword"
+97      60      110     150      "lightning_magicsword"
+129	60      110     150	"lightning_twohandsword"
+1058	60      110     150	"lightning_scepter"
+2639	60      110     150	"lightning_staff"
+2640	60      110     150	"lightning_stick"
+2641	60      110     150	"book84"    
+3116	60      110     150	"lightning_shield"
+
+
+98      128    100      30      "Templeguard_sword"
+99      128    100      30      "Templeguard_Magicsword"
+130	128    100      30	"Templeguard_TH_Sword"
+1059	128    100      30	"Templeguard_scepter"
+2642	128    100      30	"Templeguard_staff"
+2643	128    100      30	"TempleGuard_stick"
+2644	128    100      30	"TempleGuard_book"    
+3117	128    100      30	"TempleGuard_shild"
+
+//========================================================================
+// MIX UPGRADE SOCKET WEAPONS EX700
+//========================================================================
+7348	0	0	0	"IceWalkerMane"
+7349	0	0	0	"MammothBundleFur"
+7350	0	0	0	"GiantPieceIce"
+7351	0	0	0	"CoolutinPoison"
+7352	0	0	0	"IronKnightHeart"
+7353	0	0	0	"DarkMammothHorn"
+7354	0	0	0	"DarkGiantAxe"
+7355	0	0	0	"DarkCoolutinBlood"
+7356	0	0	0	"DarkIronKnightSword"
+//--
+7359	0	0	0	"doubt_paper"
+7360	0	0	0	"doubt_paper"
+7361	0	0	0	"doubt_paper"
+7362	0	0	0	"doubt_paper"
+7363	0	0	0	"doubt_paper"
+7364	0	0	0	"doubt_paper"
+7365	0	0	0	"doubt_paper"
+7366	0	0	0	"doubt_paper"
+7367	0	0	0	"doubt_paper"
+7368	0	0	0	"doubt_paper"
+7369	0	0	0	"doubt_paper"
+7370	0	0	0	"doubt_paper"
+7371	0	0	0	"doubt_paper"
+7372	0	0	0	"doubt_paper"
+7373	0	0	0	"doubt_paper"
+7374	0	0	0	"doubt_paper"
+7375	0	0	0	"doubt_paper"
+7376	0	0	0	"doubt_paper"
+7597	0	0	0	"doubt_paper"
+
+//===================================================================
+// WEAPONS SILVER HEART SEASON 16
+//===================================================================
+71      78       17       166      "mastery_sword6"
+72      78       17       166      "mastery_magicsword6"
+1054    78       17       166      "mastery_septera"
+2625    78       17       166      "mastery_staff"
+2626    78       17       166      "Mastery_Stick6"
+
+//===================================================================
+// SET ROARING MANTICORE SEASON 16
+//===================================================================
+3759	140      128      083	"HelmMale135_knight"
+3760	140      128      083	"HelmMale136_wizard"
+3761	140      128      083	"HelmMale138_elf"
+3762	140      128      083	"HelmMale138_alice"
+3764	140      128      083	"HelmMale136_lord"
+3765	140      128      083	"HelmMale135_fighter"
+
+4271	140      128      083	"ArmorMale135_knight"
+4272	140      128      083	"ArmorMale136_wizard"
+4273	140      128      083	"ArmorMale138_elf"
+4274	140      128      083	"ArmorMale138_alice"
+4275	140      128      083	"ArmorMale135_magic"
+4276	140      128      083	"ArmorMale136_lord"
+4277	140      128      083	"ArmorMale135_fighter"
+
+4783	140      128      083	"PantMale135_knight"
+4784	140      128      083	"PantMale136_wizard"
+4785	140      128      083	"PantMale138_elf"
+4786	140      128      083	"PantMale138_alice"
+4787	140      128      083	"PantMale135_magic"
+4788	140      128      083	"PantMale136_lord"
+4789	140      128      083	"PantMale135_fighter"
+
+5295	140      128      083	"GloveMale135_knight"
+5296	140      128      083	"GloveMale136_wizard"
+5297	140      128      083	"GloveMale138_elf"
+5298	140      128      083	"GloveMale138_alice"
+5299	140      128      083	"GloveMale135_magic"
+5300	140      128      083	"GloveMale136_lord"
+
+5807	140      128      083	"BootMale135_knight"
+5808	140      128      083	"BootMale136_wizard"
+5809	140      128      083	"BootMale138_elf"
+5810	140      128      083	"BootMale138_alice"
+5811	140      128      083	"BootMale135_magic"
+5812	140      128      083	"BootMale136_lord"
+5813	140      128      083	"BootMale135_fighter"
+
+//===================================================================
+// SPECIAL SETS (GROW LANCER)
+//===================================================================
+3766	102	 178	  255	"HelmMale923D"
+4278	102	 178	  255	"ArmorMale923D"
+4790	102	 178	  255	"PantMale923D"
+5302	102	 178	  255	"GloveMale923D"
+5814	102	 178	  255	"BootMale923D"
+
+3767	127	 204	  165	"HelmMale933D"
+4279	127	 204	  165	"ArmorMale933D"
+4791	127 	 204	  165	"PantMale933D"
+5303	127	 204	  165	"GloveMale933D"
+5815	127	 204	  165	"BootMale933D"
+
+3768	229	 204	  255	"HelmMale943D"
+4280	229	 204	  255	"ArmorMale943D"
+4792	229	 204	  255	"PantMale943D"
+5304	229	 204	  255	"GloveMale943D"
+5816	229	 204	  255	"BootMale943D"
+
+3769	191	 255	  153	"HelmMale953D"
+4281	191	 255	  153	"ArmorMale953D"
+4793	191	 255	  153	"PantMale953D"
+5305	191	 255	  153	"GloveMale953D"
+5817	191	 255	  153	"BootMale953D"
+
+3770	127	 76	  25	"HelmMale963D"
+4282	127	 76	  25	"ArmorMale963D"
+4794	127	 76	  25	"PantMale963D"
+5306	127	 76	  25	"GloveMale963D"
+5818	127	 76	  25	"BootMale963D"
+
+//===================================================================
+// SPECIAL WEAPONS (GROW LANCER)
+//===================================================================
+1549     102	 178	 255       "rapidelance"
+1550     204	 216	 229       "conmocionlance"
+1551     229	 204	 255       "plumalance"
+1552     204	 117	 63        "vislance"
+1553     204	 178	 76        "pricklelance"
+1554     204	 51	     25        "alacranlance"
+
+//===================================================================
+// SPECIAL SHIELDS (GROW LANCER)
+//===================================================================
+3108    102	 204	 255       "rapideshield"
+3109    229	 204	 255       "plumashield"
+3110    204	 51	     25        "alacranshield"
+3111    229	 204	 63        "visshield"
+
+//===================================================================
+// SPECIAL SETS (GUN CRASHER)
+//===================================================================
+3771    239    154     70      "HelmMale139"
+4283    239    154     70      "ArmorMale139"
+4795    239    154     70      "PantMale139"
+5307    239    154     70      "GloveMale139"
+5819    239    154     70      "BootMale139"
+
+//===================================================================
+// SPECIAL SETS (RUNE WIZARD)
+//===================================================================
+3772    100	75	100      "HelmMale123"
+4284    100	75	100      "ArmorMale123"
+4796    100	75	100      "PantMale123"
+5308    100	75	100      "GloveMale123"
+5820    100	75	100      "BootMale123"
+2628	100	100	100		 "Elhaz_Mace"
+2629	150	125	100		 "Absolute_Mace"
+3112	100	110	120		 "shildrune_mixelf"
+
+//===================================================================
+// SPECIAL SETS (SLAYER)
+//===================================================================
+3773    80	90	100      "HelmMale133"
+4285    80	90	100      "ArmorMale133"
+4797    80	90	100      "PantMale133"
+5309    80	90	100      "GloveMale133"
+5821    80	90	100      "BootMale133"
+80		090	080	070	     "CookriShortSword"
+81		090	090	090	     "FlatShortSword"
+82		070	080	090	     "DaciaShortSword"
+83		150 100 120		 "AbsoluteShortSword"
+
+//===================================================================
+// MIX WINGS LEVEL 3 + TALISMAN
+//===================================================================
+6802	0	0	0	"amulet_emperor_cape"
+6816	0	0	0	"amulet_storm_wings"
+6817	0	0	0	"amulet_warrior_cloak"
+6804	0	0	0	"amulet_eternal_wings"
+6805	0	0	0	"amulet_illusion_wings"
+6806	0	0	0	"amulet_ruin_wings"
+6807	0	0	0	"amulet_dimension_wings"
+6808	0	0	0	"amulet_overrule_cloak"
+//===================================================================
+// NEW WEAPONS MG
+//===================================================================
+120	255	15	051	"MDHsword1a"
+121	255	204	0	"master_twohandsword2"
+122	100	100	70	"master_x2cha"
+123	174	123	0	"MDHsword4b"
+124	97	97	97	"master_double05"
+125	78	78	50	"master_double06"
+
+//===================================================================
+// MANTICORE WEAPONS
+//===================================================================
+90	159    150    102	"masteryknsw_7cha_"
+91	159    150    102	"mastery7_maigcswrod_"
+126	159    150    102	"master_twohandsw7_"
+1055	159    150    102	"mastery_darkoad7_"
+2630	159    150    102	"master7_staff_"
+2631	159    150    102	"hs_7MasteryStick_"
+2632	159    150    102	"mastery_7book_S_"
+3113	159    150    102	"blakcNightshild_7_"
+  
+92      102	202	255      "swrod_8cah"
+93      102	198	255      "maigic_swordmaster08"
+
+127	159    150    102	"matery_twohandsword"
+1056	159    150    102	"8cha_mastery_septer"
+2633	159    150    102	"staff_effect_8cha"
+2634	159    150    102	"mastery_stikc8"
+2635	159    150    102	"matery8cha_serBook"
+3114	159    150    102	"matery_8chashild"
+
+
+
+94      200	160	100      "apocalypse_sword"
+95      200	160	100      "apocalypse__msword"
+
+128	200	160	100	"apocalypse_twohand"
+1057	200	160	100	"apocalypse_cepter"
+2636	200	160	100	"apocalypse_staff"
+2637	200	160	100	"apocalypse_stick"
+2638	200	160	100	"apocalypse_book"
+3115	200	160	100	"apocalypse_shield"
+
+//===================================================================
+// SET BRILLIANT S17
+//===================================================================
+3774    95     113     153      "HelmMale150_knight_"
+3775    95     113     153      "HelmMale149_magic_"
+3776    95     113     153      "HelmMale151_elf_"
+3777    95     113     153      "HelmMale151_alice_"
+3779    95     113     153      "HelmMale149_dark_"
+3780    95     113     153      "HelmMale150_fight_"
+
+4286    95     113     153      "ArmorMale150_"
+4287    95     113     153      "ArmorMale149_"
+4288    95     113     153      "ArmorMale151_"
+4289    95     113     153      "ArmorMale151_alice_"
+4290    95     113     153      "ArmorMale150_"
+4291    95     113     153      "ArmorMale149_"
+4292    95     113     153      "ArmorMale150_"
+
+4798    95     113     153      "PantMale150_"
+4799    95     113     153      "PantMale149_"
+4800    95     113     153      "PantMale151_"
+4801    95     113     153      "PantMale151_alice_"
+4802    95     113     153      "PantMale150_"
+4803    95     113     153      "PantMale149_"
+4804    95     113     153      "PantMale150_"
+
+5310    95     113     153      "GloveMale150_"
+5311    95     113     153      "GloveMale149_"
+5312    95     113     153      "GloveMale151_"
+5313    95     113     153      "GloveMale151_"
+5314    95     113     153      "GloveMale150_"
+5315    95     113     153      "GloveMale149_"
+
+5822    95     113     153      "BootMale150_"
+5823    95     113     153      "BootMale149_"
+5824    95     113     153      "BootMale151_"
+5825    95     113     153      "BootMale151_"
+5826    95     113     153      "BootMale150_"
+5827    95     113     153      "BootMale149_"
+5828    95     113     153      "BootMale150_"
+
+//===================================================================
+// SET KUNDUN MEPHIS AND LEMURIA S17
+//===================================================================
+3781    98	125	151      "HelmMale143_"
+3782    147	154	180      "HelmMale140_"
+3783    248	90	17      "HelmMale142_"
+3784    95	129	251      "HelmMale144_"
+3785    124	154	204      "HelmMale141_"
+3786    119	88	51      "HelmMale145_"
+3787    188	178	136      "HelmMale148_"
+3788    215	167	127      "HelmMale146_"
+3789    185	149	137      "HelmMale147_"
+
+4293    98	125	151      "ArmorMale143_"
+4294    147	154	180      "ArmorMale140_"
+4295    248	90	17      "ArmorMale142_"
+4296    95	129	251      "ArmorMale144_"
+4297    124	154	204      "ArmorMale141_"
+4298    119	88	51      "ArmorMale145_"
+4299    188	178	136      "ArmorMale148_"
+4300    215	167	127      "ArmorMale146_"
+4301    185	149	137     "ArmorMale147_"
+
+4805    98	125	151      "PantMale143_"
+4806    147	154	180      "PantMale140_"
+4807    248	90	17      "PantMale142_"
+4808    95	129	251      "PantMale144_"
+4809    124	154	204      "PantMale141_"
+4810    119	88	51      "PantMale145_"
+4811    188	178	136      "PantMale148_"
+4812    215	167	127      "PantMale146_"
+4813    185	149	137     "PantMale147_"
+
+5317    98	125	151      "GloveMale143_"
+5318    147	154	180      "GloveMale140_"
+5319    248	90	17      "GloveMale142_"
+5320    95	129	251      "GloveMale144_"
+5321    124	154	204      "GloveMale141_"
+5322    119	88	51      "GloveMale145_"
+5323    188	178	136      "GloveMale148_"
+5324    215	167	127      "GloveMale146_"
+5325    185	149	137     "GloveMale147_"
+
+5829    98	125	151      "BootMale143_"
+5830    147	154	180      "BootMale140_"
+5831    248	90	17      "BootMale142_"
+5832    95	129	251      "BootMale144_"
+5833    124	154	204      "BootMale141_"
+5834    119	88	51      "BootMale145_"
+5835    188	178	136      "BootMale148_"
+5836    215	167	127      "BootMale146_"
+5837    185	149	137      "BootMale147_"
+
+
+
+
+84        192	181	170         "blade01"
+85        127	154	180         "blade02"
+86        0	73	142         "blade03"
+87        223	99	68          "blade13"
+88        198	57	0           "blade14"
+
+521      150      135     20       "axe02"
+
+3790    0	127	255     "HelmMale153"
+3791    214	225	224     "HelmMale154"
+3792    56	102	153     "HelmMale155"
+3793    122	79	0       "HelmMale156"
+
+4302    0	127	255     "ArmorMale153_de"
+4303    214	225	224     "ArmorMale154_de"
+4304    56	102	153     "ArmorMale155_de"
+4305    122	79	0       "ArmorMale156_de"
+
+4814    0	127	255     "PantMale153_de"
+4815    214	225	224     "PantMale154_de"
+4816    56	102	153     "PantMale155_de"
+4817    122	79	0       "PantMale156_de"
+
+5326    0	127	255     "GloveMale153_de"
+5327    214	225	224     "GloveMale154_de"
+5328    56	102	153     "GloveMale155_de"
+5329    122	79	0       "GloveMale156_de"
+
+5838    0	127	255     "BootMale153_de"
+5839    214	225	224     "BootMale154_de"
+5840    56	102	153     "BootMale155_de"
+5841    122	79	0       "BootMale156_de"
+
+
+
+3808    163    143      99      "HelmMale172_knight"
+4320    163    143      99      "ArmorMale172"
+4832    163    143      99      "PantMale172"
+5344    163    143      99      "GloveMale172"
+5856    163    143      99      "BootMale172"
+
+
+3809    163    143      99      "HelmMale172_dark"
+4321    163    143      99      "ArmorMale172"
+4833    163    143      99      "PantMale172"
+5345    163    143      99      "GloveMale172"
+5857    163    143      99      "BootMale172"
+
+
+3810    163    143      99      "HelmMale174_elf"
+4322    163    143      99      "ArmorMale174_elf"
+4834    163    143      99      "PantMale174_elf"
+5346    163    143      99      "GloveMale174_elf"
+5858    163    143      99      "BootMale174_elf"
+
+
+3811    163    143      99      "HelmMale176_Summoner"
+4323    163    143      99      "ArmorMale176_Summoner"
+4835    163    143      99      "PantMale176_Summoner"
+5347    163    143      99      "GloveMale176_Summoner"
+5859    163    143      99      "BootMale176_Summoner"
+
+4324    163    143      99      "ArmorMale172"
+4836    163    143      99      "PantMale172"
+5348    163    143      99      "GloveMale172"
+5860    163    143      99      "BootMale172"
+
+3813    163    143      99      "HelmMale172_dark"
+4325    163    143      99      "ArmorMale172"
+4837    163    143      99      "PantMale172"
+5349    163    143      99      "GloveMale172"
+5861    163    143      99      "BootMale172"
+
+3814    163    143      99      "HelmMale172_fighter"
+4326    163    143      99      "ArmorMale172"
+4838    163    143      99      "PantMale172"
+5862    163    143      99      "BootMale172"
+
+
+3794    255   150   150     "HelmMale158"
+4306    255   150   150     "ArmorMale158"
+4818    255   150   150     "PantMale158"
+5330    255   150   150     "GloveMale158"
+5842    255   150   150     "BootMale158"
+
+
+
+3795    255   150   150     "HelmMale157"
+4307    255   150   150     "ArmorMale157"
+4819    255   150   150     "PantMale157"
+5331    255   150   150     "GloveMale157"
+5843    255   150   150     "BootMale157"
+
+
+3796    255   150   150     "HelmMale159_elf"
+4308    255   150   150     "ArmorMale159_elf"
+4820    255   150   150     "PantMale159_elf"
+5332    255   150   150     "GloveMale159_elf"
+5844    255   150   150     "BootMale159_elf"
+
+
+3797    255   150   150     "HelmMale159_alice"
+4309    255   150   150     "ArmorMale159_alice"
+4821    255   150   150     "PantMale159_alice"
+5333    255   150   150     "GloveMale159_alice"
+5845    255   150   150     "BootMale159_alice"
+
+
+4310    255   150   150     "ArmorMale158_magum"
+4822    255   150   150     "PantMale158"
+5334    255   150   150     "GloveMale158"
+5846    255   150   150     "BootMale158"
+
+
+
+3799    255   150   150     "HelmMale157"
+4311    255   150   150     "ArmorMale157"
+4823    255   150   150     "PantMale157"
+5335    255   150   150     "GloveMale157"
+5847    255   150   150     "BootMale157"
+
+
+3800    255   150   150     "HelmMale158"
+4312    255   150   150     "ArmorMale158"
+4824    255   150   150     "PantMale158"
+5848    255   150   150     "BootMale158"
+
+
+
+3801    50    50    50      "HelmMale164"
+4313    50    50    50      "ArmorMale164"
+4825    50    50    50      "PantMale164"
+5337    50    50    50      "GloveMale164"
+5849    50    50    50      "BootMale164"
+
+
+3802    50    50    50      "HelmMale163"
+4314    50    50    50      "ArmorMale163"
+4826    50    50    50      "PantMale163"
+5338    50    50    50      "GloveMale163"
+5850    50    50    50      "BootMale163"
+
+
+3803    50    50    50      "HelmMale162_elf"
+4315    50    50    50      "ArmorMale162"
+4827    50    50    50      "PantMale162"
+5339    50    50    50      "GloveMale162"
+5851    50    50    50      "BootMale162"
+
+
+3804    50    50    50      "HelmMale162_alice"
+4316    50    50    50      "ArmorMale162"
+4828    50    50    50      "PantMale162"
+5340    50    50    50      "GloveMale162"
+5852    50    50    50      "BootMale162"
+
+4317    50    50    50      "ArmorMale164"
+4829    50    50    50      "PantMale164"
+5341    50    50    50      "GloveMale164"
+5853    50    50    50      "BootMale164"
+
+3806    50    50    50      "HelmMale163"
+4318    50    50    50      "ArmorMale163"
+4830    50    50    50      "PantMale163"
+5342    50    50    50      "GloveMale163"
+5854    50    50    50      "BootMale163"
+
+3807    50    50    50      "HelmMale164"
+4319    50    50    50      "ArmorMale164"
+4831    50    50    50      "PantMale164"
+5855    50    50    50      "BootMale164"
+
+
+6304     255       127       0       "penta02GG"         //MUREN  LV1 
+
+//SEM ERRTEIS RANK 1
+6305     255       127       0       "penta02GG"         //MUREN  LV100
+6306     255       127       0       "penta01GG"         //ETRAMU  LV150
+6307     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6308     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6309     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//ANGER RANK 1
+6310     255       127       0       "penta02GG"         //MUREN  LV100
+6311     255       127       0       "penta01GG"         //ETRAMU  LV150
+6312     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6313     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6314     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//BLESSING RANK 1
+6315     255       127       0       "penta02GG"         //MUREN  LV100
+6316     255       127       0       "penta01GG"         //ETRAMU  LV150
+6317     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6318     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6319     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//INTEGRITY RANK 1
+6320     255       127       0       "penta02GG"         //MUREN  LV100
+6321     255       127       0       "penta01GG"         //ETRAMU  LV150
+6322     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6323     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6324     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//DIVINITY RANK 1
+6325     255       127       0       "penta02GG"         //MUREN  LV100
+6326     255       127       0       "penta01GG"         //ETRAMU  LV150
+6327     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6328     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6329     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//RADIANCE RANK 1
+6330     255       127       0       "penta02GG"         //MUREN  LV100
+6331     255       127       0       "penta01GG"         //ETRAMU  LV150
+6332     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6333     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6334     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//SEM ERRTEIS RANK 2
+6335     255       127       0       "penta02GG"         //MUREN  LV100
+6336     255       127       0       "penta01GG"         //ETRAMU  LV150
+6337     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6338     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6339     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//ANGER RANK 2
+6340     255       127       0       "penta02GG"         //MUREN  LV100
+6341     255       127       0       "penta01GG"         //ETRAMU  LV150
+6342     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6343     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6344     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//BLESSING RANK 2
+6345     255       127       0       "penta02GG"         //MUREN  LV100
+6346     255       127       0       "penta01GG"         //ETRAMU  LV150
+6347     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6348     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6349     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//INTEGRITY RANK 2
+6350     255       127       0       "penta02GG"         //MUREN  LV100
+6351     255       127       0       "penta01GG"         //ETRAMU  LV150
+6352     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6353     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6354     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//DIVINITY RANK 2
+6355     255       127       0       "penta02GG"         //MUREN  LV100
+6356     255       127       0       "penta01GG"         //ETRAMU  LV150
+6357     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6358     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6359     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//RADIANCE RANK 2
+6360     255       127       0       "penta02GG"         //MUREN  LV100
+6361     255       127       0       "penta01GG"         //ETRAMU  LV150
+6362     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6363     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6364     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//SEM ERRTEIS RANK 3
+6365     255       127       0       "penta02GG"         //MUREN  LV100
+6366     255       127       0       "penta01GG"         //ETRAMU  LV150
+6367     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6368     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6369     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//ANGER RANK 3
+6370     255       127       0       "penta02GG"         //MUREN  LV100
+6371     255       127       0       "penta01GG"         //ETRAMU  LV150
+6372     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6373     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6374     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//BLESSING RANK 3
+6375     255       127       0       "penta02GG"         //MUREN  LV100
+6376     255       127       0       "penta01GG"         //ETRAMU  LV150
+6377     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6378     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6379     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//INTEGRITY RANK 3
+6380     255       127       0       "penta02GG"         //MUREN  LV100
+6381     255       127       0       "penta01GG"         //ETRAMU  LV150
+6382     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6383     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6384     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//DIVINITY RANK 3
+6385     255       127       0       "penta02GG"         //MUREN  LV100
+6386     255       127       0       "penta01GG"         //ETRAMU  LV150
+6387     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6388     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6389     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+//RADIANCE RANK 3
+6390     255       127       0       "penta02GG"         //MUREN  LV100
+6391     255       127       0       "penta01GG"         //ETRAMU  LV150
+6392     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV150
+6393     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV150
+6394     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV150
+
+
+
+6494     255       127       0       "penta02GG"         //MUREN  test 
+
+//6310     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV180
+//6311     255       127       0       "pentaliquidAA"     //HERO ELIXIR  LV180
+//6312     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV180 
+//6313     255       127       0       "PentaCintamani145"  //SAGE JEWEL   LV180
+//6314     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV300
+//6315     255       127       0       "penta01GG"         //ETRAMU  LV300
+//6316     255       127       0       "pentaexshiKK"      //KNIGHTS IRON SHIELD  LV300
+//6317     255       127       0       "penta02GG"         //MUREN  LV300
+//6318     255       127       0       "penta01GG"         //ETRAMU  LV300
+//6319     255       127       0       "penta01GG"         //ETRAMU  LV300
+//6320     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV300
+//6321     255       127       0       "pentaharp"       //GOLDNTUNE HARP LV300
+//6322     255       127       0       "PentaCintamani145"  //SAGE JEWEL   LV300
+//6323     255       127       0       "pentaharp"       //GOLDNTUNE HARP LV300
+//6324     255       127       0       "PentaCintamani145"  //SAGE JEWEL   LV800
+//6325     255       127       0       "pentaexdan1"      //GLADIATORS DAGGER  LV800
+
+
+//===================================================================
+// CUSTOM FLAGS COUNTRIES
+//===================================================================
+8852  	  -1 	   -1      -1       "flag_america"
+8853  	  -1 	   -1      -1       "flag_argentina"
+8854  	  -1 	   -1      -1       "flag_brazil"
+8855  	  -1 	   -1      -1       "flag_canada"
+8856  	  -1 	   -1      -1       "flag_china"
+8857  	  -1 	   -1      -1       "flag_england"
+8858  	  -1 	   -1      -1       "flag_korea"
+8859  	  -1 	   -1      -1       "flag_malaysia"
+8860  	  -1 	   -1      -1       "flag_mexico"
+8861  	  -1 	   -1      -1       "flag_philippines"
+8862  	  -1 	   -1      -1       "flag_portugal"
+8863  	  -1 	   -1      -1       "flag_russia"
+8864  	  -1 	   -1      -1       "flag_singapore"
+8865  	  -1 	   -1      -1       "flag_spain"
+8866  	  -1 	   -1      -1       "flag_taiwan"
+8867  	  -1 	   -1      -1       "flag_taiwan"
+8868  	  -1 	   -1      -1       "flag_thailand"
+8869  	  -1 	   -1      -1       "flag_vietnam"
+8870  	  -1 	   -1      -1       "flag_GuildMasterBruno3D"
+8871  	  -1 	   -1      -1       "Flag001"
+8872  	  -1 	   -1      -1       "latinflag2"
+8873  	  -1 	   -1      -1       "ddsinflag1"
+8874  	  -1 	   -1      -1       "flag_Youtube"
+8875  	  -1 	   -1      -1       "flag_Twitch"
+8876  	  -1 	   -1      -1       "RongDoX2"
+8877  	  -1 	   -1      -1       "RongHongX2"
+8878  	  -1 	   -1      -1       "RongTrangX2"
+8879  	  -1 	   -1      -1       "RongVangX2"
+8880  	  -1 	   -1      -1       "RongXanhDuongX2"
+8881  	  -1 	   -1      -1       "RongXanhLaX2"
+
+
+//========================================================================
+// EARRINGS SYSTEM
+//========================================================================
+//Index   ColorR   ColorG   ColorB   ModelName
+7056  	  -1 	   -1      -1       "so_neckL"               	//	Earring Of Wrath (L)
+7057  	  -1 	   -1      -1       "so_neckR"               	//	Earring Of Wrath (R)
+
+7058  	  -1 	   -1      -1       "mr2earringL"            	//	Earring Of Ancestral (L)
+7059  	  -1 	   -1      -1       "mr2earringR"            	//	Earring Of Ancestral (R)
+
+7060  	  -1 	   -1      -1       "gloryearringL"          	//	Earring Of Glory (L)
+7061  	  -1 	   -1      -1       "gloryearringR"          	//	Earring Of Glory (R)
+
+7062  	  -1 	   -1      -1       "hs_Earring4th_L"         //	Blood Earring (L)
+7063  	  -1 	   -1      -1       "hs_Earring4th_R"         //	Blood Earring (R)
+
+7064  	  -1 	   -1      -1       "Earring5th_L"            //	Earring of Deception (L)
+7065  	  -1 	   -1      -1       "Earring5th_R"            //	Earring of Deception (R)
+
+7066  	  -1 	   -1      -1       "earring6th_L"            //	Earring of Unity (L)
+7067  	  -1 	   -1      -1       "earring6th_R"            //	Earring of Unity (R)
+
+7068  	  -1 	   -1      -1       "earring7th_L"            //	Verdant Earring (L)
+7069  	  -1 	   -1      -1       "earring7th_R"            //	Verdant Earring (R)
+
+
+7433  	  -1 	   -1      -1       "attgempiece"             //
+7434  	  -1 	   -1      -1       "attjewel"                //
+
+
+7438  	  -1 	   -1      -1       "RageErthel"              //
+7439  	  -1 	   -1      -1       "RageErthel"              //
+7440  	  -1 	   -1      -1       "RageErthel"              //
+
+7441  	  -1 	   -1      -1       "blessing"                //
+7442  	  -1 	   -1      -1       "blessing"                //
+7443  	  -1 	   -1      -1       "blessing"                //
+
+7444  	  -1 	   -1      -1       "NobleErthel"             //
+7445  	  -1 	   -1      -1       "NobleErthel"             //
+7446  	  -1 	   -1      -1       "NobleErthel"             //
+
+7447  	  -1 	   -1      -1       "holyE"                   //
+7448  	  -1 	   -1      -1       "holyE"                   //
+7449  	  -1 	   -1      -1       "holyE"                   //
+
+7450  	  -1 	   -1      -1       "ExtremeErthel"           //
+7451  	  -1 	   -1      -1       "ExtremeErthel"           //
+7452  	  -1 	   -1      -1       "ExtremeErthel"           //
+
+
+
+131	      255      255      255	     "Sword131"                // Snow Sword
+1060	  128      100      30	     "Mace36"                  // Snow mace
+3118	  255      255      255  	 "shield46"                // Snow Shield
+3815      255      255      255      "HelmMale231"             // Snow
+4327      255      255      255      "ArmorMale231"            // Snow 
+4839      255      255      255      "PantMale321"             // Snow 
+5350      255      255      255      "GloveMale230"            // Snow 
+5863      255      255      255      "BootMale231"             // Snow 
+
+132	     232    232    232        "Sword132"                // Ancient Dragon Sword
+523	     047    079    079        "Axe11"                   // Ancient Dragon Axe
+1061	 047    079    079        "Mace37"                  // Ancient Dragon mace
+3119	 047    079    079        "shield47"                // Ancient Dragon Shield
+3816     232    232    232        "HelmMale232"             // Ancient Dragon
+4328     232    232    232        "ArmorMale232"            // Ancient Dragon 
+4840     232    232    232        "PantMale322"             // Ancient Dragon 
+5352     232    232    232        "GloveMale232"            // Ancient Dragon 
+5864     232    232    232        "BootMale232"             // Ancient Dragon
+
+
+133	     245    245    220        "Sword133"                // Light Sword
+1062	 245    245    220        "Mace38"                  // Light mace
+3120	 245    245    220        "shield48"                // Light Shield
+3817     105    105    105        "HelmMale233"             // Light
+4329     105    105    105        "ArmorMale233"            // Light 
+4841     105    105    105        "PantMale233"             // Light 
+5353     105    105    105        "GloveMale233"            // Light 
+5865     105    105    105        "BootMale233"             // Light 
+
+
+524	     139    035    035        "Axe12"                   // Ancient Dragon Axe
+525	     105    105    105        "DarkHammer"                   // Ancient Dragon Axe
+
+1555  	 105    105    105       "DarkSpear"           //
+1063	 165    042    042        "MaceOfKing"                  // MaceOfKing
+
+
+7666     -1        -1       -1       "BoxDark"        // BoxDark
+7667     -1        -1       -1       "BoxAngel"        // BoxAngel
+7668     -1        -1       -1       "BoxSaffe"        // BoxSaffe
+7669     -1        -1       -1       "1000hunt"        // 1000hunt
+7670     -1        -1       -1       "2000hunt"        // 2000hunt
+7671     -1        -1       -1       "6000hunt"        // 6000hunt
+7672     -1        -1       -1       "13000hunt"       // 13000hunt
+60       -1        -1       -1       "SwLuminous"       // SwLuminous
+
+
+2645     54         54       54         "Personificacao"       // 13000hunt
+60       105        105      105        "SwLuminous"             // SwLuminous
+
+526	     139    000    000        "Axe14"                   //  Akatsuki
+2608     139    000    000        "Staff48"                   //  Akatsuki
+3099	 139    000    000        "shield27"                //  Akatsuki
+3658     139    000    000        "HelmAkatsuki"             // Akatsuki
+4170     139    000    000        "ArmorAkatsuki"            //  Akatsuki
+4682     139    000    000        "PantAkatsuki"             //  Akatsuki
+5194     139    000    000        "GloveAkatsuki"            //  Akatsuki
+5706     139    000    000        "BootAkatsuki"             // Akatsuki
+
+
+//61	     248		248		255        "SwRenegados"              //  Renegados
+//2608     248		248		255        "Staff48"                  //  Renegados
+//3099	 248		248		255        "shield27"                 //  Renegados
+//3658     248		248		255        "HelmAkatsuki"             //  Renegados
+//4170     248		248		255        "ArmorAkatsuki"            //  Renegados
+//4682     248		248		255        "PantAkatsuki"             //  Renegados
+//5194     248		248		255        "GloveAkatsuki"            //  Renegados
+//5706     248		248		255        "BootAkatsuki"             //  Renegados
+
+
+
+
+
+
+end

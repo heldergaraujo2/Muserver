@@ -1,0 +1,258 @@
+09:23:01 [Obj][13001] AddClient (177.200.36.221)
+09:23:02 [Obj][13001] AddAccount (hellder)
+09:23:04 [Obj][13001] LogInCharacter (Saffe)
+09:53:09 [Obj][13001] LogOutCharacter (Saffe)
+09:53:09 [Obj][13001] DelAccount (hellder)
+09:53:09 [Obj][13001] DelClient (177.200.36.221)
+11:31:16 [Obj][13002] AddClient (177.200.36.221)
+11:31:17 [Obj][13002] AddAccount (hellder)
+11:31:20 [Obj][13002] LogInCharacter (Saffe)
+11:32:37 [Obj][13002] LogOutCharacter (Saffe)
+11:32:37 [Obj][13002] DelAccount (hellder)
+11:32:37 [Obj][13002] DelClient (177.200.36.221)
+11:41:08 [Obj][13000] AddClient (177.200.36.221)
+11:41:09 [Obj][13000] AddAccount (hellder)
+11:41:10 [Obj][13000] LogInCharacter (Saffe)
+11:41:37 [Obj][13000] LogOutCharacter (Saffe)
+11:41:37 [Obj][13000] DelAccount (hellder)
+11:41:37 [Obj][13000] DelClient (177.200.36.221)
+11:43:58 [Obj][13001] AddClient (177.200.36.221)
+11:43:59 [Obj][13001] AddAccount (hellder)
+11:44:00 [Obj][13001] LogInCharacter (Saffe)
+11:44:26 [Obj][13001] LogOutCharacter (Saffe)
+11:44:26 [Obj][13001] DelAccount (hellder)
+11:44:26 [Obj][13001] DelClient (177.200.36.221)
+11:52:36 [Obj][13002] AddClient (177.200.36.221)
+11:52:37 [Obj][13002] AddAccount (hellder)
+11:52:39 [Obj][13002] LogInCharacter (Saffe)
+11:53:33 [Obj][13002] LogOutCharacter (Saffe)
+11:53:33 [Obj][13002] DelAccount (hellder)
+11:53:33 [Obj][13002] DelClient (177.200.36.221)
+11:56:13 [Obj][13000] AddClient (177.200.36.221)
+11:56:14 [Obj][13000] AddAccount (hellder)
+11:56:15 [Obj][13000] LogInCharacter (Saffe)
+11:56:47 [Obj][13000] LogOutCharacter (Saffe)
+11:56:47 [Obj][13000] DelAccount (hellder)
+11:56:47 [Obj][13000] DelClient (177.200.36.221)
+12:19:21 [Obj][13001] AddClient (177.200.36.221)
+12:19:22 [Obj][13001] AddAccount (hellder)
+12:19:24 [Obj][13001] LogInCharacter (Saffe)
+12:34:49 [Obj][13001] LogOutCharacter (Saffe)
+12:34:49 [Obj][13001] DelAccount (hellder)
+12:34:49 [Obj][13001] DelClient (177.200.36.221)
+13:44:53 [Obj][13002] AddClient (177.200.36.221)
+13:44:53 [Obj][13002] AddAccount (hellder)
+13:44:56 [Obj][13002] LogInCharacter (Saffe)
+13:45:33 [Obj][13002] LogOutCharacter (Saffe)
+13:45:33 [Obj][13002] DelAccount (hellder)
+13:45:33 [Obj][13002] DelClient (177.200.36.221)
+13:47:46 [Obj][13000] AddClient (177.200.36.221)
+13:47:47 [Obj][13000] AddAccount (hellder)
+13:47:49 [Obj][13000] LogInCharacter (Saffe)
+13:48:06 [Obj][13000] LogOutCharacter (Saffe)
+13:48:06 [Obj][13000] DelAccount (hellder)
+13:48:06 [Obj][13000] DelClient (177.200.36.221)
+13:49:14 [Obj][13001] AddClient (177.200.36.221)
+13:49:15 [Obj][13001] AddAccount (hellder)
+13:49:17 [Obj][13001] LogInCharacter (Saffe)
+13:52:25 [Obj][13001] LogOutCharacter (Saffe)
+13:52:25 [Obj][13001] DelAccount (hellder)
+13:52:25 [Obj][13001] DelClient (177.200.36.221)
+13:56:51 [Obj][13002] AddClient (177.200.36.221)
+13:56:52 [Obj][13002] AddAccount (hellder)
+13:56:54 [Obj][13002] LogInCharacter (Saffe)
+13:57:32 [Obj][13002] LogOutCharacter (Saffe)
+13:57:32 [Obj][13002] DelAccount (hellder)
+13:57:32 [Obj][13002] DelClient (177.200.36.221)
+16:40:47 [Obj][13000] AddClient (177.200.36.221)
+16:40:48 [Obj][13000] AddAccount (hellder)
+16:40:49 [Obj][13000] LogInCharacter (Saffe)
+16:42:17 [Obj][13000] LogOutCharacter (Saffe)
+16:42:17 [Obj][13000] DelAccount (hellder)
+16:42:17 [Obj][13000] DelClient (177.200.36.221)
+16:42:50 [Obj][13001] AddClient (177.200.36.221)
+16:42:51 [Obj][13001] AddAccount (hellder)
+16:42:52 [Obj][13001] LogInCharacter (Saffe)
+16:43:32 [Obj][13001] LogOutCharacter (Saffe)
+16:43:32 [Obj][13001] DelAccount (hellder)
+16:43:32 [Obj][13001] DelClient (177.200.36.221)
+17:08:45 [Obj][13002] AddClient (177.200.36.221)
+17:08:45 [Obj][13002] AddAccount (hellder)
+17:08:47 [Obj][13002] LogInCharacter (Saffe)
+17:09:40 [Obj][13002] LogOutCharacter (Saffe)
+17:09:40 [Obj][13002] DelAccount (hellder)
+17:09:40 [Obj][13002] DelClient (177.200.36.221)
+17:11:21 [Obj][13000] AddClient (177.200.36.221)
+17:11:22 [Obj][13000] AddAccount (hellder)
+17:11:25 [Obj][13000] LogInCharacter (Saffe)
+17:11:59 [Obj][13000] LogOutCharacter (Saffe)
+17:11:59 [Obj][13000] DelAccount (hellder)
+17:11:59 [Obj][13000] DelClient (177.200.36.221)
+17:30:34 [Obj][13001] AddClient (177.200.36.221)
+17:30:35 [Obj][13001] AddAccount (hellder)
+17:30:37 [Obj][13001] LogInCharacter (Saffe)
+17:31:25 [Obj][13001] LogOutCharacter (Saffe)
+17:31:25 [Obj][13001] DelAccount (hellder)
+17:31:25 [Obj][13001] DelClient (177.200.36.221)
+17:36:15 [Obj][13002] AddClient (177.200.36.221)
+17:36:16 [Obj][13002] AddAccount (hellder)
+17:36:17 [Obj][13002] LogInCharacter (Saffe)
+17:36:44 [Obj][13002] LogOutCharacter (Saffe)
+17:36:44 [Obj][13002] DelAccount (hellder)
+17:36:44 [Obj][13002] DelClient (177.200.36.221)
+17:37:43 [Obj][13000] AddClient (177.200.36.221)
+17:37:44 [Obj][13000] AddAccount (hellder)
+17:37:46 [Obj][13000] LogInCharacter (Saffe)
+17:40:58 [Obj][13000] LogOutCharacter (Saffe)
+17:40:58 [Obj][13000] DelAccount (hellder)
+17:40:58 [Obj][13000] DelClient (177.200.36.221)
+17:41:07 [Obj][13001] AddClient (177.200.36.221)
+17:41:08 [Obj][13001] AddAccount (hellder)
+17:41:10 [Obj][13001] LogInCharacter (Saffe)
+17:41:51 [Obj][13001] LogOutCharacter (Saffe)
+17:41:51 [Obj][13001] DelAccount (hellder)
+17:41:51 [Obj][13001] DelClient (177.200.36.221)
+17:48:43 [Obj][13002] AddClient (177.200.36.221)
+17:48:44 [Obj][13002] AddAccount (hellder)
+17:48:46 [Obj][13002] LogInCharacter (Saffe)
+17:51:11 [Obj][13002] LogOutCharacter (Saffe)
+17:51:11 [Obj][13002] DelAccount (hellder)
+17:51:11 [Obj][13002] DelClient (177.200.36.221)
+17:51:36 [Obj][13000] AddClient (177.200.36.221)
+17:51:37 [Obj][13000] AddAccount (hellder)
+17:51:39 [Obj][13000] LogInCharacter (Saffe)
+18:26:01 [Obj][13001] AddClient (177.200.36.221)
+18:26:02 [Obj][13000] LogOutCharacter (Saffe)
+18:26:02 [Obj][13000] DelAccount (hellder)
+18:26:02 [Obj][13000] DelClient (177.200.36.221)
+18:26:03 [Obj][13001] AddAccount (hellder)
+18:26:05 [Obj][13001] LogInCharacter (Saffe)
+18:26:29 [Obj][13001] LogOutCharacter (Saffe)
+18:26:29 [Obj][13001] DelAccount (hellder)
+18:26:29 [Obj][13001] DelClient (177.200.36.221)
+18:31:44 [Obj][13002] AddClient (177.200.36.221)
+18:31:45 [Obj][13002] AddAccount (hellder)
+18:31:46 [Obj][13002] LogInCharacter (Saffe)
+18:32:44 [Obj][13002] LogOutCharacter (Saffe)
+18:32:44 [Obj][13002] DelAccount (hellder)
+18:32:44 [Obj][13002] DelClient (177.200.36.221)
+18:34:48 [Obj][13000] AddClient (177.200.36.221)
+18:34:49 [Obj][13000] AddAccount (hellder)
+18:34:50 [Obj][13000] LogInCharacter (Saffe)
+18:43:23 [Obj][13000] LogOutCharacter (Saffe)
+18:43:23 [Obj][13000] DelAccount (hellder)
+18:43:23 [Obj][13000] DelClient (177.200.36.221)
+18:44:04 [Obj][13001] AddClient (177.200.36.221)
+18:44:05 [Obj][13001] AddAccount (hellder)
+18:44:06 [Obj][13001] LogInCharacter (Saffe)
+19:56:37 [Obj][13001] LogOutCharacter (Saffe)
+19:56:37 [Obj][13001] DelAccount (hellder)
+19:56:37 [Obj][13001] DelClient (177.200.36.221)
+20:09:04 [Obj][13002] AddClient (177.200.36.221)
+20:09:05 [Obj][13002] AddAccount (hellder)
+20:09:07 [Obj][13002] LogInCharacter (Saffe)
+20:11:04 [Obj][13002] LogOutCharacter (Saffe)
+20:11:04 [Obj][13002] DelAccount (hellder)
+20:11:04 [Obj][13002] DelClient (177.200.36.221)
+20:17:12 [Obj][13000] AddClient (177.200.36.221)
+20:17:12 [Obj][13000] AddAccount (hellder)
+20:17:14 [Obj][13000] LogInCharacter (Saffe)
+20:18:40 [Obj][13000] LogOutCharacter (Saffe)
+20:18:40 [Obj][13000] DelAccount (hellder)
+20:18:40 [Obj][13000] DelClient (177.200.36.221)
+20:18:48 [Obj][13001] AddClient (177.200.36.221)
+20:18:52 [Obj][13001] AddAccount (hellderrrr)
+20:18:54 [Obj][13001] LogInCharacter (Suavera)
+20:22:15 [ServerInfo] Common loaded successfully
+20:22:47 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:22:47 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:47 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:22:47 [CustomAttackSkillDebug] Skill: 238 | Delay: 125 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 94 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 93 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 79 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 79 ms | Type: 3
+20:22:48 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:22:49 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:49 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:51 [CustomAttackSkillDebug] Skill: 238 | Delay: 2188 ms | Type: 3
+20:22:51 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:22:51 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:51 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 0 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 79 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 79 ms | Type: 3
+20:22:52 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:22:55 [CustomAttackSkillDebug] Skill: 238 | Delay: 2422 ms | Type: 3
+20:22:56 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:56 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:22:56 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:22:57 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:57 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:22:57 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:22:57 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:00 [CustomAttackSkillDebug] Skill: 238 | Delay: 2031 ms | Type: 3
+20:23:00 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:23:00 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:00 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 109 ms | Type: 3
+20:23:01 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:02 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:02 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:02 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:02 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:03 [CustomAttackSkillDebug] Skill: 238 | Delay: 94 ms | Type: 3
+20:23:03 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:03 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:03 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:04 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:23:04 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:04 [CustomAttackSkillDebug] Skill: 238 | Delay: 141 ms | Type: 3
+20:23:04 [CustomAttackSkillDebug] Skill: 238 | Delay: 93 ms | Type: 3
+20:23:05 [CustomAttackSkillDebug] Skill: 238 | Delay: 500 ms | Type: 3
+20:23:05 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:05 [CustomAttackSkillDebug] Skill: 238 | Delay: 47 ms | Type: 3
+20:23:05 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:06 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:09 [CustomAttackSkillDebug] Skill: 238 | Delay: 2844 ms | Type: 3
+20:23:09 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:10 [CustomAttackSkillDebug] Skill: 238 | Delay: 62 ms | Type: 3
+20:23:10 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:10 [CustomAttackSkillDebug] Skill: 238 | Delay: 78 ms | Type: 3
+20:23:11 [CustomAttackSkillDebug] Skill: 238 | Delay: 921 ms | Type: 3
+20:23:12 [CustomAttackSkillDebug] Skill: 238 | Delay: 968 ms | Type: 3
+20:23:12 [CustomAttackSkillDebug] Skill: 238 | Delay: 63 ms | Type: 3
+20:23:40 [Obj][13002] AddClient (177.200.36.221)
+20:23:48 [Obj][13002] AddAccount (hellder)
+20:23:49 [Obj][13002] LogInCharacter (Saffe)
+20:24:07 [Obj][13001] LogOutCharacter (Suavera)
+20:24:07 [Obj][13001] DelAccount (hellderrrr)
+20:24:07 [Obj][13001] DelClient (177.200.36.221)
+20:26:44 [Obj][13002] LogOutCharacter (Saffe)
+20:26:44 [Obj][13002] DelAccount (hellder)
+20:26:44 [Obj][13002] DelClient (177.200.36.221)
+22:43:32 [Obj][13000] AddClient (177.234.145.242)
+22:43:38 [Obj][13000] AddAccount (joker)
+22:43:40 [Obj][13000] LogInCharacter (joker)
+22:45:52 [Obj][13000] LogOutCharacter (joker)
+22:45:52 [Obj][13000] DelAccount (joker)
+22:45:52 [Obj][13000] DelClient (177.234.145.242)

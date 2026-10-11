@@ -1,0 +1,32 @@
+10:31:04 [MusaffeTimewindows] Tempo deletado do account hellder | Motivo: tempo expirado
+10:31:04 [MusaffeTimewindows] Tempo expirado. Player Saffe movido para mapa 0 (125, 125)
+19:37:20 [MusaffeDungeon1] Script desligado.
+19:37:20 [MusaffeDungeon2] Script desligado.
+19:37:20 [MusaffeDungeon3] Script desligado.
+19:37:20 [MusaffeDungeon4] Script desligado.
+19:37:42 [SCRIPT LOG] Start
+19:37:42 [Loader] Lua Gameserver socket ready!
+19:37:42 [Loader] Load success System\ScriptCore
+19:37:42 [Loader] Load success System\ProtocolCore
+19:37:42 [Loader] Load success Utils\Database
+19:37:42 [Loader] Load success Utils\DatabaseAsync
+19:37:42 [Loader] Load success Utils\Cron
+19:37:42 [Loader] Load success Utils\Functions
+19:37:42 [Loader] Load success Utils\Schedule
+19:37:42 [Loader] Load success Scripts\CalCharacter
+19:37:42 [Loader] Load success Scripts\Musaffe\Config
+19:37:42 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+19:37:42 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+19:37:42 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+19:37:42 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+19:37:42 [Loader] Load success Scripts\Musaffe\Config
+19:37:42 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+19:37:42 [Loader] Load success Scripts\Musaffe\Config
+19:37:42 [Loader] Load folder success Scripts\Musaffe\
+19:37:42 [Loader] Load success Scripts\TransformationRing\Config
+19:37:42 [Loader] Load folder success Scripts\TransformationRing\
+19:37:42 Connected to database
+19:37:42 Connected to Async database
+19:37:42 Teste query: ZZZZZZZZZZ
+19:37:42 [TransformationRing] Script carregado.
+19:37:42 [ServerInfo] Script loaded successfully

@@ -1,0 +1,5 @@
+01:16:08 [SocketManager] Protocol header error (Index: 3, Header: 16)
+05:10:08 [SocketManager] Protocol header error (Index: 1, Header: 16)
+05:10:08 [SocketManager] Protocol header error (Index: 2, Header: 16)
+15:00:14 [ServerList] GameServer online (GameServer) (2)
+19:45:04 [ServerList] GameServer offline (GameServer) (2)

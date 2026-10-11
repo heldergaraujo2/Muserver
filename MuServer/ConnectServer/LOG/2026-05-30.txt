@@ -1,0 +1,5 @@
+12:14:40 [ServerList] GameServer offline (GameServer) (2)
+12:14:40 [ServerList] GameServer online (GameServer) (2)
+20:12:44 [SocketManager] Protocol header error (Index: 20, Header: 47)
+20:13:51 [SocketManager] Protocol header error (Index: 22, Header: 16)
+22:44:15 [SocketManager] Protocol header error (Index: 13, Header: 47)

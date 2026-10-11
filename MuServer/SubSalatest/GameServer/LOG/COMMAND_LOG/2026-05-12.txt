@@ -1,0 +1,59 @@
+17:25:09 [CommandReMaster][pvp03][PVPMG01] - Used
+17:25:32 [CommandReMaster][pvp03][PVPMG01] - Used
+17:34:46 [CommandReAdd][pvp03][PVPMG01] - OK
+17:34:56 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 215)
+17:35:05 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 998)
+17:35:11 [CommandReAdd][pvp03][PVPMG01] - OK
+17:35:16 [CommandAddPoint][pvp03][PVPMG01] - (Type: 0, Amount: 983)
+17:35:20 [CommandAddPoint][pvp03][PVPMG01] - (Type: 1, Amount: 10000)
+17:35:25 [CommandAddPoint][pvp03][PVPMG01] - (Type: 3, Amount: 29985)
+17:35:31 [CommandAddPoint][pvp03][PVPMG01] - (Type: 2, Amount: 9076)
+18:46:52 [Command Clear Iventory] Use for:[hellder][Saffe]
+18:47:27 [CommandMake][hellder][Saffe] Section: 13, Type: 23, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+18:47:36 [CommandMake][hellder][Saffe] Section: 13, Type: 24, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:10:40 [CommandMake][hellder][Saffe] Section: 11, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:10:55 [CommandMake][hellder][Saffe] Section: 9, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:30:22 [CommandMake][hellder][Saffe] Section: 9, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:23:17 [Command Clear Iventory] Use for:[hellder][Saffe]
+20:29:59 [CustomMove][hellder][Saffe] - (MoveIndex: 1)
+20:30:25 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+20:30:39 [CommandSpot][hellder][Saffe] - (Monster: 353, Qtd: 1)
+20:30:46 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+20:31:05 [CommandSpot][hellder][Saffe] - (Monster: 350, Qtd: 1)
+20:31:16 [CommandSpot][hellder][Saffe] - (Monster: 360, Qtd: 1)
+20:31:46 [CommandSpot][hellder][Saffe] - (Monster: 458, Qtd: 1)
+20:31:55 [CommandSpot][hellder][Saffe] - (Monster: 58, Qtd: 1)
+20:32:03 [CommandSpot][hellder][Saffe] - (Monster: 69, Qtd: 1)
+20:32:14 [CommandSpot][hellder][Saffe] - (Monster: 457, Qtd: 1)
+20:32:21 [CommandSpot][hellder][Saffe] - (Monster: 457, Qtd: 1)
+20:35:14 [CommandSpot][hellder][Saffe] - (Monster: 32, Qtd: 1)
+20:35:34 [CommandSpot][hellder][Saffe] - (Monster: 36, Qtd: 1)
+20:36:12 [CommandSpot][hellder][Saffe] - (Monster: 62, Qtd: 1)
+20:36:27 [CommandSpot][hellder][Saffe] - (Monster: 72, Qtd: 1)
+20:37:15 [CommandSpot][hellder][Saffe] - (Monster: 302, Qtd: 1)
+20:37:28 [CommandSpot][hellder][Saffe] - (Monster: 355, Qtd: 1)
+20:37:45 [CommandSpot][hellder][Saffe] - (Monster: 359, Qtd: 1)
+20:38:19 [CommandSpot][hellder][Saffe] - (Monster: 424, Qtd: 1)
+20:38:45 [CommandSpot][hellder][Saffe] - (Monster: 439, Qtd: 1)
+20:39:29 [CommandSpot][hellder][Saffe] - (Monster: 549, Qtd: 1)
+20:39:53 [CommandSpot][hellder][Saffe] - (Monster: 579, Qtd: 1)
+20:39:59 [CommandSpot][hellder][Saffe] - (Monster: 575, Qtd: 1)
+20:40:07 [CommandSpot][hellder][Saffe] - (Monster: 576, Qtd: 1)
+20:40:53 [CommandSpot][hellder][Saffe] - (Monster: 559, Qtd: 1)
+20:41:35 [CommandSpot][hellder][Saffe] - (Monster: 684, Qtd: 1)
+20:42:35 [CommandSpot][hellder][Saffe] - (Monster: 532, Qtd: 1)
+20:42:51 [CommandSpot][hellder][Saffe] - (Monster: 434, Qtd: 1)
+20:43:09 [CommandSpot][hellder][Saffe] - (Monster: 284, Qtd: 1)
+20:43:47 [CommandSpot][hellder][Saffe] - (Monster: 21, Qtd: 1)
+20:45:04 [CommandSpot][hellder][Saffe] - (Monster: 560, Qtd: 1)
+22:48:51 [CommandChange][pvp04][elfabuf] - (ChangeUp: 0)
+22:48:54 [CommandChange][pvp04][elfabuf] - (ChangeUp: 1)
+22:49:30 [CommandMoney][pvp04][elfabuf] - (Money: 2147483647)
+22:51:16 [CommandAddPoint][pvp04][elfabuf] - (Type: 3, Amount: 2985)
+22:51:21 [CommandAddPoint][pvp04][elfabuf] - (Type: 3, Amount: 27000)
+22:51:26 [CommandAddPoint][pvp04][elfabuf] - (Type: 2, Amount: 1000)
+22:51:37 [CommandAddPoint][pvp04][elfabuf] - (Type: 1, Amount: 1000)
+22:51:44 [CommandAddPoint][pvp04][elfabuf] - (Type: 0, Amount: 1000)
+22:51:53 [CommandAddPoint][pvp04][elfabuf] - (Type: 1, Amount: 17000)
+23:24:42 [CommandReAdd][pvp04][PVPRF01] - OK
+23:24:49 [CommandAddPoint][pvp04][PVPRF01] - (Type: 3, Amount: 29985)

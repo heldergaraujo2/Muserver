@@ -1,0 +1,57 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+1         2026     04      12    1     21     35        0
+//1         *      *       *     3     12     00        0
+//2         *      *       *     4     12     00        0
+//3         *      *       *     5     12     00        0
+//4         *      *       *     6     12     00        0
+//5         *      *       *     7     12     00        0
+//6         *      *       *     1     12     00        0
+end
+
+1
+// CoinType 1: WC, 2:HP, 3:GP(Ruud)
+//Index   CoinType     BidAmount     MaxidleTime(min)     MaxTime(min)
+1         2            1000            1555                 1560
+//1         3            1000          1439                 1439
+//2         3            1000          1439                 1439
+//3         3            1000          1439                 1439
+//4         3            1000          1439                 1439
+//5         3            1000          1439                 1439
+//6         3            1000          1439                 1439
+end
+
+2
+//Max 10 items per Auction
+//Index Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 Time          Comment
+1 	13        253    0       255     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	13        198    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	13        198    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	13        198    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	13        198    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	14        52    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	14        52    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	14        52    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	14        52    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+1 	14        52    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Helmet Ticket  
+//1 	13        140    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Armor Ticket 
+//2 	13        141    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Pants Ticket 
+//3 	13        143    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Gloves Ticket 
+//4 	13        144    0       0     0       0      0        0	0	0	0	255	255	255	255	255	0             //2nd Lucky Boots Ticket 
+//5 	13        37     0       0     0       0      0        1	0	0	0	255	255	255	255	255	1296000       //Horn of Fenrir + Attack (15days)
+//6 	13        37     0       0     0       0      0        2	0	0	0	255	255	255	255	255	1296000       //Horn of Fenrir + Protect (15days)
+end
+
+
+//DoW = Day of Week
+//DoW = Dia da Semana
+
+// 1 - Sunday | 2 - Monday | 3 - Tuesday | 4 - Wednesday | 5 - Thursday | 6 - Friday | 7 - Saturday
+// 1 - Domingo | 2 - Segunda-feira | 3 - Terça-feira | 4 - Quarta-feira | 5 - Quinta-feira | 6 - Sexta-feira | 7 - Sábado

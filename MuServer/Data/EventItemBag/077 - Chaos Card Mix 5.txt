@@ -1,0 +1,128 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Chaos Card Mix 5"	1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+0	16	0	0	1	1	1	2	// Sword of Destruction
+0	17	0	0	1	1	1	2	// Dark Breaker
+0	18	0	0	1	1	1	2	// Thunder Blade
+0	31	0	0	1	1	1	2	// Rune Blade
+2	10	0	0	1	1	1	2	// Great Scepter
+2	11	0	0	1	1	1	2	// Lord Scepter
+4	16	0	0	1	1	1	2	// Saint Crossbow
+4	17	0	0	1	1	1	2	// Celestial Bow
+5	7	0	0	0	1	1	2	// Chaos Lighting Staff
+5	8	0	0	0	1	1	2	// Staff of Destruction
+4	6	0	0	1	1	1	2	// Chaos Nature Bow
+2	6	0	0	1	1	1	2	// Chaos Dragon Axe
+2	5	0	0	1	1	1	2	// Crystal Sword
+2	7	0	0	1	1	1	2	// Elemental Mace
+3	9	0	0	1	1	1	2	// Bill of Balrog
+4	13	0	0	1	1	1	2	// Bluewing Crossbow
+4	14	0	0	1	1	1	2	// Aquagold Crossbow
+5	6	0	0	0	1	1	2	// Staff of Resurrection
+6	12	0	0	1	1	1	2	// Bronze Shield
+6	13	0	0	1	1	1	2	// Dragon Shield
+6	14	0	0	0	1	1	2	// Legendary Shield
+6	15	0	0	0	1	1	2	// Grand Soul Shield
+6	16	0	0	1	1	1	2	// Elemental Shield
+5	16	0	0	0	1	1	1	// Red Wing Stick
+5	17	0	0	0	1	1	1	// Ancient Stick
+8	15	0	0	0	1	1	2	// Storm Crow Armor
+9	15	0	0	0	1	1	2	// Storm Crow Pants
+10	15	0	0	0	1	1	2	// Storm Crow Gloves
+11	15	0	0	0	1	1	2	// Storm Crow Boots
+7	16	0	0	0	1	1	2	// Black Dragon Helm
+8	16	0	0	0	1	1	2	// Black Dragon Armor
+9	16	0	0	0	1	1	2	// Black Dragon Pants
+10	16	0	0	0	1	1	2	// Black Dragon Gloves
+11	16	0	0	0	1	1	2	// Black Dragon Boots
+7	17	0	0	0	1	1	2	// Dark Phoenix Helm
+8	17	0	0	0	1	1	2	// Dark Phoenix Armor
+9	17	0	0	0	1	1	2	// Dark Phoenix Pants
+10	17	0	0	0	1	1	2	// Dark Phoenix Gloves
+11	17	0	0	0	1	1	2	// Dark Phoenix Boots
+7	18	0	0	0	1	1	2	// Grand Soul Helm
+8	18	0	0	0	1	1	2	// Grand Soul Armor
+9	18	0	0	0	1	1	2	// Grand Soul Pants
+10	18	0	0	0	1	1	2	// Grand Soul Gloves
+11	18	0	0	0	1	1	2	// Grand Soul Boots
+7	19	0	0	0	1	1	2	// Divine Helm
+8	19	0	0	0	1	1	2	// Divine Armor
+9	19	0	0	0	1	1	2	// Divine Pants
+10	19	0	0	0	1	1	2	// Divine Gloves
+11	19	0	0	0	1	1	2	// Divine Boots
+8	20	0	0	0	1	1	2	// Thunder Hawk Armor
+9	20	0	0	0	1	1	2	// Thunder Hawk Pants
+10	20	0	0	0	1	1	2	// Thunder Hawk Gloves
+11	20	0	0	0	1	1	2	// Thunder Hawk Boots
+7	27	0	0	0	1	1	2	// Dark Steel Mask
+8	27	0	0	0	1	1	2	// Dark Steel Armor
+9	27	0	0	0	1	1	2	// Dark Steel Pants
+10	27	0	0	0	1	1	2	// Dark Steel Gloves
+11	27	0	0	0	1	1	2	// Dark Steel Boots
+7	34	0	0	0	1	1	2	// Ashcrow Helm
+8	34	0	0	0	1	1	2	// Ashcrow Armor
+9	34	0	0	0	1	1	2	// Ashcrow Pants
+10	34	0	0	0	1	1	2	// Ashcrow Gloves
+11	34	0	0	0	1	1	2	// Ashcrow Boots
+7	35	0	0	0	1	1	2	// Eclipse Helm
+8	35	0	0	0	1	1	2	// Eclipse Armor
+9	35	0	0	0	1	1	2	// Eclipse Pants
+10	35	0	0	0	1	1	2	// Eclipse Gloves
+11	35	0	0	0	1	1	2	// Eclipse Boots
+7	36	0	0	0	1	1	2	// Iris Helm
+8	36	0	0	0	1	1	2	// Iris Armor
+9	36	0	0	0	1	1	2	// Iris Pants
+10	36	0	0	0	1	1	2	// Iris Gloves
+11	36	0	0	0	1	1	2	// Iris Boots
+8	37	0	0	0	1	1	2	// Valiant Armor
+9	37	0	0	0	1	1	2	// Valiant Pants
+10	37	0	0	0	1	1	2	// Valiant Gloves
+11	37	0	0	0	1	1	2	// Valiant Boots
+7	38	0	0	0	1	1	2	// Glorious Mask
+8	38	0	0	0	1	1	2	// Glorious Armor
+9	38	0	0	0	1	1	2	// Glorious Pants
+10	38	0	0	0	1	1	2	// Glorious Gloves
+11	38	0	0	0	1	1	2	// Glorious Boots
+7	41	0	0	0	1	1	2	// Ancient Helm
+8	41	0	0	0	1	1	2	// Ancient Armor
+9	41	0	0	0	1	1	2	// Ancient Pants
+10	41	0	0	0	1	1	2	// Ancient Gloves
+11	41	0	0	0	1	1	2	// Ancient Boots
+7	40	0	0	0	1	1	2	// Red Wing Helm
+8	40	0	0	0	1	1	2	// Red Wing Armor
+9	40	0	0	0	1	1	2	// Red Wing Pants
+10	40	0	0	0	1	1	2	// Red Wing Gloves
+11	40	0	0	0	1	1	2	// Red Wing Boots
+13	8	0	0	0	0	1	2	// Ring of Ice
+13	9	0	0	0	0	1	2	// Ring of Poison
+13	21	0	0	0	0	1	2	// Ring of Fire
+13	22	0	0	0	0	1	2	// Ring of Earth
+13	23	0	0	0	0	1	2	// Ring of Wind
+13	24	0	0	0	0	1	2	// Ring of Magic
+13	12	0	0	0	0	1	2	// Pendant of Lighting
+13	13	0	0	0	0	1	2	// Pendant of Fire
+13	25	0	0	0	0	1	2	// Pendant of Ice
+13	26	0	0	0	0	1	2	// Pendant of Wind
+13	27	0	0	0	0	1	2	// Pendant of Water
+13	28	0	0	0	0	1	2	// Pendant of Ability
+14	13	0	0	0	0	0	0	// Jewel of Bless
+14	16	0	0	0	0	0	0	// Jewel of Life
+14	42	0	0	0	0	0	0	// Jewel of Harmony
+12	15	0	0	0	0	0	0	// Jewel of Chaos
+14	14	0	0	0	0	0	0	// Jewel of Soul
+14	22	0	0	0	0	0	0	// Jewel of Creation
+14	41	0	0	0	0	0	0	// Gemstone
+14	44	0	0	0	0	0	0	// Higher refining stone
+12	30	0	0	0	0	0	0	// Bundled Jewel of Bless
+12	31	0	0	0	0	0	0	// Bundled Jewel of Soul
+13	4	0	0	0	0	0	0	// Dark Horse
+13	5	0	0	0	0	0	0	// Dark Raven
+13	37	0	0	0	0	0	0	// Horn of Fenrir
+end

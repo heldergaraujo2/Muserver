@@ -1,0 +1,9 @@
+10:18:31 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+10:37:03 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+10:53:30 [pvp01][PVPDL] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+11:37:03 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:00:01 [videodv][AdmSaffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+12:37:03 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:38:35 [pvp03][PVPDL01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+13:37:03 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+13:58:06 [pvp03][PVPMG01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

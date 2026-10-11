@@ -1,0 +1,68 @@
+///////////////////////////////////////////////////////////////
+// WebHook Type
+//  0: Chat
+//  1: Character Connect
+//  2: Character Disconnect
+//  3: Antihack
+//  4: SetCoin
+//  5: Chaos Mix
+//  6: Reset
+//  7: Master Reset
+//  8: Blood Castle
+//  9: Devil Square
+// 10: Chaos Castle
+// 11: Illusion Temple
+// 12: Rank User
+// 13: Custom Quest
+// 14: Player Kill
+// 15: EventStart
+// 16: PostItem
+// 17: InvasionStart
+// 18: InvasionWinner
+// 19: Gremory
+// 20: SmithShop
+// 21: Giftcode
+// 22: MarketPlace
+// 23: Item drop
+// 24: Item pick
+//
+// Color:
+//  0: ini
+//  1: yaml
+//  2: prolog
+//  3: md
+//  4: fix
+//  5: tex
+//  6: arm
+//  7: diff
+//  8: css
+//  9: autohotkey
+// 10: gray
+// 11: special
+//////////////////////////////////////////////////////////////
+// #Index   #Color   #Webhook                                                                                                                      #Text
+   0        0        "https://discord.com/api/webhooks/988593600822640710/w4DoTQaK2i0sf6syIB5XuSAJ2Fd7Wd5shn4WECBaZJqmaIR7S1CBk2Alp7gKPrCfd4YA"    "[%s] %s"
+   1        1        "https://discord.com/api/webhooks/989231281759998022/kxWeogFrpgN226DOoMcnG7PUDnjSoCDA-1vvZ9AUEypF_oScSpMNc-PxnWyUvOz8rms8"    "%s connected!"
+   2        10       "https://discord.com/api/webhooks/989231281759998022/kxWeogFrpgN226DOoMcnG7PUDnjSoCDA-1vvZ9AUEypF_oScSpMNc-PxnWyUvOz8rms8"    "%s disconnected!"
+   3        0        "https://discord.com/api/webhooks/989368765688991764/knztCHE498dSfF6CQjvCeOnIBGeoxCaej8al4GWe_5HyM_oUrYDaArvBlPe58Mn7dxP5"    "%s"
+   4        0        "https://discord.com/api/webhooks/989393055394172969/ptH5T8xNMMkE_yjHybNa3XHOFyzQz24IA6Qal8-QSHp8uqau3Q411_n9plq3vhwsMZcy"    "%s"
+   5        0        "https://discord.com/api/webhooks/989401876904701962/-d0xaI7LlRXMIZlXu8MK27zEms4CCqohfbgcFMY4pa1oYGN28mnnfyrkw6NzBfN-7eWU"    "[%s] upgrade the [%s] to level %d!"
+   6        1        "https://discord.com/api/webhooks/989539698563239956/mOJdgrn4_YlUKLvRoSLfIDOxadbXVYVzOfmuU0zdJ2Atsx4l28RKDlgPJECU8GkifMmy"    "%s made a reset successfully(Total: %d reset(s))!"
+   7        4        "https://discord.com/api/webhooks/989539698563239956/mOJdgrn4_YlUKLvRoSLfIDOxadbXVYVzOfmuU0zdJ2Atsx4l28RKDlgPJECU8GkifMmy"    "%s made a master reset successfully(Total: %d master reset(s))!"
+   8        0        "https://discord.com/api/webhooks/989557045063712878/3wKwEiMBDTMJH0_K-vYWcYnbxClFPzl0DeVJmBTbX2Hlll0yKWoASNNzspKwigI_R161"    "[%s] wins the Blood Castle!"
+   9        0        "https://discord.com/api/webhooks/989557045063712878/3wKwEiMBDTMJH0_K-vYWcYnbxClFPzl0DeVJmBTbX2Hlll0yKWoASNNzspKwigI_R161"    "[%s] wins the Devil Square!"
+   10       0        "https://discord.com/api/webhooks/989557045063712878/3wKwEiMBDTMJH0_K-vYWcYnbxClFPzl0DeVJmBTbX2Hlll0yKWoASNNzspKwigI_R161"    "[%s] wins the Chaos Castle!"
+   11       0        "https://discord.com/api/webhooks/989557045063712878/3wKwEiMBDTMJH0_K-vYWcYnbxClFPzl0DeVJmBTbX2Hlll0yKWoASNNzspKwigI_R161"    "[%s] wins the Illusion Temple!"
+   12       0        "https://discord.com/api/webhooks/989582215027523615/C0CZfTSmk4MApyQ2tIWJBseXnrgXShc_bw9J1IhGXn0v0t2j0bEph66h-LYJMJEbWvtC"    "[%s] reached the rankuser [%s]!"
+   13       2        "https://discord.com/api/webhooks/989582609774424114/OvXVY4kjvhFn2roZJnz3_wYjLKceu_-7amNVehe1mYV8F20yawroW6IQhvLEA1_ajJ2l"    "[%s] completed the quest %d!"
+   14       0        "https://discord.com/api/webhooks/989604202516996206/RlywqESUlEmmn4n_FfhGvulGcw-Q7Uzv6YVU-0HWrBLRMUpIlAjGB77nX-XDFXXEL6I-"    "[%s] killed [%s]!"
+   15       0        "https://discord.com/api/webhooks/989557045063712878/3wKwEiMBDTMJH0_K-vYWcYnbxClFPzl0DeVJmBTbX2Hlll0yKWoASNNzspKwigI_R161"    "%s"
+   16       0        "https://discord.com/api/webhooks/1039169033171382323/7pFB_95HsUxseDZEllG8kTVQvhQtaHnssvttQybyWOIKzDFclBYt0OFsMw8k__jZsQ0z"   "[%s] %s"
+   17       0        "https://discord.com/api/webhooks/1039194601761804318/jAEZRwwtWyqDPdrIzFBu6CKVOV3i_fG0hgT77yFW8GITswHhdxFFB6TwRGpnxJfXl1_Q"   "%s"
+   18       0        "https://discord.com/api/webhooks/1039194601761804318/jAEZRwwtWyqDPdrIzFBu6CKVOV3i_fG0hgT77yFW8GITswHhdxFFB6TwRGpnxJfXl1_Q"   "[%s] kill the invasion boss"
+   19       0        "https://discord.com/api/webhooks/1268207026446667848/PIAf2oCIg5Q54tZx47vZTpaFPrcIVv-ZZSCDCMRLSUPi7uUZpXiiwteYr1ZMtm6n21S1"    "%s"
+   20       0        "https://discord.com/api/webhooks/1268207247897661594/mQmlbkKF5V1bl8eQ8LDG_5ATnCfV1M0bVNRMYHf-xVSTrEirAPhI-e2cXCVEmM650GG-"    "%s"
+   21       0        "https://discord.com/api/webhooks/1268207333415194705/dVEvznbDDsOmnhLG1TLiHjplqMxZUQfjkFnTrsoh1jzjPpufuu_dOcovwH09Nzf7DBsr"    "%s"
+   22       0        "https://discord.com/api/webhooks/1268207388972810241/x1sWgczUbYg9jdpWIdal3abqTt71mQi_2xQoarz7LajMbaSUZxKA3OsXBCBW70q72PLK"    "%s"
+   23       0        "https://discord.com/api/webhooks/1391561152588415118/Gl1jkI_IzADqvkQnu2zriHu9W0jKG9iWVvbspDWFLXC4Cx8ZZlgb6We7FVRki81ilfdC"    "%s"
+   24       0        "https://discord.com/api/webhooks/1391561221127274566/7-PB8Vlcgyi6v2124wT2wCtHAzS7LZT7gX6hxH4F_aQ1GEUBF8aX8sMI7lfYKmIquCVj"    "%s"

@@ -1,0 +1,26 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Boss aparece      Tempo portal fechar   Tempo evento começar(5= 5 seg)         (300= 5 min)          (86400= 24 hrs)
+ 5		         	300		          		14400
+end
+
+1
+//BossEggHalf   BossEggMax
+  5		      17
+end
+
+2
+//SkillDelay
+1500
+end
+
+3
+//Pattern1   Pattern2   Pattern3   Pattern4   Pattern5   Pattern6
+80	     60	        50	   40	      20	 10
+end

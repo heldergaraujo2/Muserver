@@ -1,0 +1,292 @@
+00:13:58 [Obj][13000] AddClient (177.200.32.187)
+00:13:59 [Obj][13000] AddAccount (hellderrrr)
+00:14:02 [Obj][13000] LogInCharacter (Cabecao)
+00:14:48 [Obj][13000] LogOutCharacter (Cabecao)
+00:14:49 [Obj][13000] DelAccount (hellderrrr)
+00:14:49 [Obj][13000] DelClient (177.200.32.187)
+00:33:48 [Obj][13001] AddClient (177.200.32.187)
+00:33:50 [Obj][13001] AddAccount (hellderr)
+00:33:52 [Obj][13001] LogInCharacter (OdetBokeT)
+00:35:21 [ServerInfo] Monster loaded successfully
+00:35:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 199, Y: 114)
+00:35:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+00:36:20 [ServerInfo] Map loaded successfully
+00:37:27 [Obj][13000] AddClient (177.200.32.187)
+00:37:30 [Obj][13000] AddAccount (hellder)
+00:37:31 [Obj][13000] LogInCharacter (Saffe)
+00:40:17 [ServerInfo] CashShop loaded successfully
+00:40:17 [ServerInfo] ChaosMix loaded successfully
+00:40:17 [ServerInfo] Character loaded successfully
+00:40:17 [ServerInfo] Command loaded successfully
+00:40:17 [ServerInfo] Common loaded successfully
+00:40:17 [FakeOnline] Loaded successfully
+00:40:17 [ServerInfo] Custom loaded successfully
+00:40:17 [ServerInfo] Discord loaded successfully
+00:40:17 [ServerInfo] Effect loaded successfully
+00:40:17 [ServerInfo] Event loaded successfully
+00:40:17 [ServerInfo] EventItemBag loaded successfully
+00:40:17 [ServerInfo] Hack loaded successfully
+00:40:17 [ServerInfo] Message loaded successfully
+00:40:17 [ServerInfo] Map loaded successfully
+00:40:17 [ServerInfo] Message loaded successfully
+00:40:18 [ServerInfo] Monster loaded successfully
+00:40:18 [ServerInfo] Move loaded successfully
+00:40:18 [ServerInfo] Quest loaded successfully
+00:40:18 [ServerInfo] Shop loaded successfully
+00:40:18 [ServerInfo] Skill loaded successfully
+00:40:18 [ServerInfo] Util loaded successfully
+00:40:18 [ReadBotInfo] BotSystem loaded successfully
+00:40:30 [Obj][13000] LogOutCharacter (Saffe)
+00:40:30 [Obj][13000] DelAccount (hellder)
+00:40:30 [Obj][13000] DelClient (177.200.32.187)
+00:40:32 [Obj][13002] AddClient (177.200.32.187)
+00:40:36 [Obj][13002] AddAccount (mamm)
+00:40:38 [Obj][13002] LogInCharacter (ElMarcola)
+00:40:44 [Obj][13002] LogOutCharacter (ElMarcola)
+00:40:49 [Obj][13002] LogInCharacter (ElMarcolaa)
+00:47:16 [Obj][13002] LogOutCharacter (ElMarcolaa)
+00:47:17 [Obj][13002] DelAccount (mamm)
+00:47:17 [Obj][13002] DelClient (177.200.32.187)
+00:47:19 [Obj][13000] AddClient (177.200.32.187)
+00:47:20 [Obj][13000] AddAccount (mamm)
+00:47:24 [Obj][13000] LogInCharacter (ElMarcolaa)
+00:48:37 [ServerInfo] Common loaded successfully
+00:49:42 [ServerInfo] Effect loaded successfully
+01:20:46 [ServerInfo] Map loaded successfully
+01:21:08 [ServerInfo] Map loaded successfully
+01:21:28 [ServerInfo] Map loaded successfully
+01:27:19 [Obj][13002] AddClient (177.200.32.187)
+01:27:20 [Obj][13002] AddAccount (hellder)
+01:27:23 [Obj][13002] LogInCharacter (Saffe)
+01:27:54 [Obj][13002] LogOutCharacter (Saffe)
+01:27:54 [Obj][13002] DelAccount (hellder)
+01:27:54 [Obj][13002] DelClient (177.200.32.187)
+06:28:36 [Obj][13000] LogOutCharacter (ElMarcolaa)
+06:28:36 [Obj][13000] DelAccount (mamm)
+06:28:36 [Obj][13000] DelClient (177.200.32.187)
+06:58:11 [Obj][13002] AddClient (193.176.31.217)
+06:58:11 [Obj][13002] DelClient (193.176.31.217)
+07:10:23 [Obj][13001] LogOutCharacter (OdetBokeT)
+07:10:23 [Obj][13001] DelAccount (hellderr)
+07:10:23 [Obj][13001] DelClient (177.200.32.187)
+08:49:56 [Obj][13000] AddClient (177.200.32.187)
+08:50:01 [Obj][13000] AddAccount (hellder)
+08:50:16 [Obj][13000] LogInCharacter (Saffe)
+08:51:29 [ServerInfo] Monster loaded successfully
+08:52:56 [ServerInfo] Monster loaded successfully
+08:54:50 [ServerInfo] Monster loaded successfully
+08:55:21 [Obj][13000] LogOutCharacter (Saffe)
+08:55:21 [Obj][13000] DelAccount (hellder)
+08:55:21 [Obj][13000] DelClient (177.200.32.187)
+09:28:07 [Obj][13002] AddClient (177.200.32.187)
+09:28:08 [Obj][13002] AddAccount (hellder)
+09:28:10 [Obj][13002] LogInCharacter (Saffe)
+09:43:37 [ServerInfo] Character loaded successfully
+10:23:58 [Obj][13002] LogOutCharacter (Saffe)
+10:23:58 [Obj][13002] DelAccount (hellder)
+10:23:58 [Obj][13002] DelClient (177.200.32.187)
+12:08:01 [ServerInfo] CashShop loaded successfully
+12:08:01 [ServerInfo] ChaosMix loaded successfully
+12:08:01 [ServerInfo] Character loaded successfully
+12:08:01 [ServerInfo] Command loaded successfully
+12:08:01 [ServerInfo] Common loaded successfully
+12:08:01 [FakeOnline] Loaded successfully
+12:08:01 [ServerInfo] Custom loaded successfully
+12:08:01 [ServerInfo] Discord loaded successfully
+12:08:01 [ServerInfo] Effect loaded successfully
+12:08:01 [ServerInfo] Event loaded successfully
+12:08:01 [ServerInfo] EventItemBag loaded successfully
+12:08:01 [ServerInfo] Hack loaded successfully
+12:08:01 [ServerInfo] Message loaded successfully
+12:08:01 [ServerInfo] Map loaded successfully
+12:08:01 [ServerInfo] Message loaded successfully
+12:08:01 [ServerInfo] Monster loaded successfully
+12:08:01 [ServerInfo] Move loaded successfully
+12:08:01 [ServerInfo] Quest loaded successfully
+12:08:01 [ServerInfo] Shop loaded successfully
+12:08:02 [ServerInfo] Skill loaded successfully
+12:08:02 [ServerInfo] Util loaded successfully
+12:08:02 [ReadBotInfo] BotSystem loaded successfully
+12:08:34 [ServerInfo] Common loaded successfully
+12:09:44 [Obj][13001] AddClient (177.200.32.187)
+12:09:45 [Obj][13001] AddAccount (hellder)
+12:09:47 [Obj][13001] LogInCharacter (Saffe)
+12:11:19 [ServerInfo] Monster loaded successfully
+12:12:08 [ServerInfo] CashShop loaded successfully
+12:12:08 [ServerInfo] ChaosMix loaded successfully
+12:12:09 [ServerInfo] Character loaded successfully
+12:12:09 [ServerInfo] Command loaded successfully
+12:12:09 [ServerInfo] Common loaded successfully
+12:12:09 [FakeOnline] Loaded successfully
+12:12:09 [ServerInfo] Custom loaded successfully
+12:12:09 [ServerInfo] Discord loaded successfully
+12:12:09 [ServerInfo] Effect loaded successfully
+12:12:09 [ServerInfo] Event loaded successfully
+12:12:09 [ServerInfo] EventItemBag loaded successfully
+12:12:09 [ServerInfo] Hack loaded successfully
+12:12:09 [ServerInfo] Message loaded successfully
+12:12:09 [ServerInfo] Map loaded successfully
+12:12:09 [ServerInfo] Message loaded successfully
+12:12:09 [ServerInfo] Monster loaded successfully
+12:12:09 [ServerInfo] Move loaded successfully
+12:12:09 [ServerInfo] Quest loaded successfully
+12:12:09 [ServerInfo] Shop loaded successfully
+12:12:09 [ServerInfo] Skill loaded successfully
+12:12:09 [ServerInfo] Util loaded successfully
+12:12:09 [ReadBotInfo] BotSystem loaded successfully
+12:16:12 [Obj][13000] AddClient (177.75.52.38)
+12:16:20 [Obj][13000] AddAccount (thecrims)
+12:16:22 [Obj][13000] LogInCharacter (Invocadora)
+12:16:28 [Obj][13002] AddClient (177.200.32.187)
+12:16:29 [Obj][13001] LogOutCharacter (Saffe)
+12:16:29 [Obj][13001] DelAccount (hellder)
+12:16:29 [Obj][13001] DelClient (177.200.32.187)
+12:16:31 [Obj][13002] AddAccount (hellder)
+12:16:36 [Obj][13002] LogInCharacter (Saffe)
+12:16:50 [Obj][13000] LogOutCharacter (Invocadora)
+12:16:50 [Obj][13000] DelAccount (thecrims)
+12:16:50 [Obj][13000] DelClient (177.75.52.38)
+12:17:48 [ServerInfo] Item loaded successfully
+12:17:59 [Obj][13001] AddClient (177.75.52.38)
+12:18:00 [Obj][13001] AddAccount (thecrims)
+12:18:01 [Obj][13001] LogInCharacter (Invocadora)
+12:18:18 [Obj][13000] AddClient (177.75.52.38)
+12:18:20 [Obj][13000] AddAccount (thecrims1)
+12:18:21 [Obj][13000] LogInCharacter (Snuff)
+12:18:55 [Obj][13003] AddClient (177.75.52.38)
+12:19:02 [Obj][13003] AddAccount (netocdj1)
+12:19:04 [Obj][13003] LogInCharacter (Cenoura)
+12:19:09 [Obj][13004] AddClient (177.200.32.187)
+12:19:13 [Obj][13004] AddAccount (hellderr)
+12:19:15 [Obj][13004] LogInCharacter (OdetBokeT)
+12:19:56 [Obj][13002] LogOutCharacter (Saffe)
+12:19:56 [Obj][13002] DelAccount (hellder)
+12:19:56 [Obj][13002] DelClient (177.200.32.187)
+12:21:23 [Obj][13002] AddClient (177.200.33.107)
+12:21:26 [Obj][13002] AddAccount (mamm)
+12:21:39 [Obj][13002] LogInCharacter (ElMarcolaa)
+12:21:50 [Obj][13005] AddClient (177.200.32.187)
+12:21:52 [Obj][13005] AddAccount (hellder)
+12:21:53 [Obj][13005] LogInCharacter (Saffe)
+12:21:59 [Obj][13006] AddClient (177.75.52.38)
+12:22:03 [Obj][13006] AddAccount (thecrims2)
+12:22:05 [Obj][13006] LogInCharacter (TheCrims)
+12:24:40 [Obj][13007] AddClient (177.200.32.187)
+12:24:47 [Obj][13002] LogOutCharacter (ElMarcolaa)
+12:24:47 [Obj][13002] DelAccount (mamm)
+12:24:47 [Obj][13002] DelClient (177.200.33.107)
+12:24:47 [Obj][13007] AddAccount (mamm)
+12:24:49 [Obj][13007] LogInCharacter (ElMarcolaa)
+12:25:24 [Obj][13002] AddClient (177.200.33.107)
+12:25:25 [Obj][13007] LogOutCharacter (ElMarcolaa)
+12:25:25 [Obj][13007] DelAccount (mamm)
+12:25:25 [Obj][13007] DelClient (177.200.32.187)
+12:25:52 [Obj][13002] AddAccount (mamm)
+12:25:55 [Obj][13002] LogInCharacter (ElMarcolaa)
+12:25:57 [Obj][13002] LogOutCharacter (ElMarcolaa)
+12:25:57 [Obj][13002] DelAccount (mamm)
+12:25:57 [Obj][13002] DelClient (177.200.33.107)
+12:26:23 [Obj][13007] AddClient (177.200.33.107)
+12:26:24 [Obj][13007] AddAccount (mamm)
+12:26:30 [Obj][13007] LogInCharacter (ElMarcolaa)
+12:26:34 [Obj][13005] LogOutCharacter (Saffe)
+12:26:34 [Obj][13005] DelAccount (hellder)
+12:26:34 [Obj][13005] DelClient (177.200.32.187)
+12:26:39 [Obj][13002] AddClient (177.200.32.187)
+12:26:40 [Obj][13002] DelClient (177.200.32.187)
+13:07:41 [Obj][13005] AddClient (177.200.32.187)
+13:07:46 [Obj][13005] DelClient (177.200.32.187)
+13:07:47 [Obj][13002] AddClient (177.200.32.187)
+13:07:48 [Obj][13002] AddAccount (hellder)
+13:07:50 [Obj][13002] LogInCharacter (Saffe)
+13:08:43 [Obj][13002] LogOutCharacter (Saffe)
+13:08:43 [Obj][13002] DelAccount (hellder)
+13:08:43 [Obj][13002] DelClient (177.200.32.187)
+13:33:07 [ServerInfo] Map loaded successfully
+13:33:46 [ServerInfo] Monster loaded successfully
+13:33:46 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+13:33:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+13:33:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 67, Y: 7)
+14:20:45 [Obj][13006] LogOutCharacter (TheCrims)
+14:20:45 [Obj][13006] DelAccount (thecrims2)
+14:20:45 [Obj][13006] DelClient (177.75.52.38)
+14:21:36 [Obj][13004] LogOutCharacter (OdetBokeT)
+14:21:36 [Obj][13004] DelAccount (hellderr)
+14:21:36 [Obj][13004] DelClient (177.200.32.187)
+14:24:55 [Obj][13005] AddClient (177.200.32.187)
+14:24:57 [Obj][13005] AddAccount (hellderr)
+14:24:58 [Obj][13005] LogInCharacter (OdetBokeT)
+14:25:13 [CommandRename][hellderr][LorencianA] - Sucess (OldName: OdetBokeT)
+14:25:13 [Obj][13005] LogOutCharacter (LorencianA)
+14:25:29 [Obj][13005] DelAccount (hellderr)
+14:25:29 [Obj][13005] DelClient (177.200.32.187)
+14:27:00 [Obj][13001] LogOutCharacter (Invocadora)
+14:27:00 [Obj][13001] DelAccount (thecrims)
+14:27:00 [Obj][13001] DelClient (177.75.52.38)
+14:27:39 [Obj][13000] LogOutCharacter (Snuff)
+14:27:39 [Obj][13000] DelAccount (thecrims1)
+14:27:39 [Obj][13000] DelClient (177.75.52.38)
+15:38:32 [Obj][13002] AddClient (177.75.52.38)
+15:38:35 [Obj][13002] AddAccount (thecrims1)
+15:38:36 [Obj][13002] LogInCharacter (Snuff)
+15:39:17 [Obj][13006] AddClient (177.75.52.38)
+15:39:19 [Obj][13006] AddAccount (thecrims)
+15:39:20 [Obj][13006] LogInCharacter (Invocadora)
+15:41:15 [Obj][13003] LogOutCharacter (Cenoura)
+15:41:15 [Obj][13003] DelAccount (netocdj1)
+15:41:15 [Obj][13003] DelClient (177.75.52.38)
+15:45:27 [Obj][13007] LogOutCharacter (ElMarcolaa)
+15:45:27 [Obj][13007] DelAccount (mamm)
+15:45:27 [Obj][13007] DelClient (177.200.33.107)
+15:51:20 [Obj][13002] LogOutCharacter (Snuff)
+15:51:20 [Obj][13002] DelAccount (thecrims1)
+15:51:20 [Obj][13002] DelClient (177.75.52.38)
+15:51:50 [Obj][13006] LogOutCharacter (Invocadora)
+15:51:50 [Obj][13006] DelAccount (thecrims)
+15:51:50 [Obj][13006] DelClient (177.75.52.38)
+16:16:28 [Obj][13004] AddClient (177.75.52.38)
+16:16:30 [Obj][13004] AddAccount (thecrims)
+16:16:33 [Obj][13005] AddClient (177.75.52.38)
+16:16:38 [Obj][13005] AddAccount (thecrims1)
+16:16:40 [Obj][13005] LogInCharacter (Snuff)
+16:16:43 [Obj][13004] LogInCharacter (Invocadora)
+16:47:29 [ServerInfo] Script loaded successfully
+17:28:29 [Obj][13001] AddClient (177.75.52.38)
+17:28:33 [Obj][13001] AddAccount (thecrims2)
+17:28:34 [Obj][13001] LogInCharacter (TheCrims)
+18:22:13 [Obj][13000] AddClient (177.200.33.107)
+18:22:17 [Obj][13000] AddAccount (mamm)
+18:22:23 [Obj][13000] LogInCharacter (ElMarcolaa)
+19:25:16 [Obj][13000] LogOutCharacter (ElMarcolaa)
+19:25:16 [Obj][13000] DelAccount (mamm)
+19:25:16 [Obj][13000] DelClient (177.200.33.107)
+20:00:27 [Obj][13003] AddClient (177.200.33.107)
+20:00:28 [Obj][13003] AddAccount (mamm)
+20:00:34 [Obj][13003] LogInCharacter (ElMarcolaa)
+20:09:34 [Obj][13001] LogOutCharacter (TheCrims)
+20:09:34 [Obj][13001] DelAccount (thecrims2)
+20:09:34 [Obj][13001] DelClient (177.75.52.38)
+21:00:59 [Obj][13004] LogOutCharacter (Invocadora)
+21:00:59 [Obj][13004] DelAccount (thecrims)
+21:00:59 [Obj][13004] DelClient (177.75.52.38)
+21:06:28 [Obj][13007] AddClient (177.75.52.38)
+21:06:29 [Obj][13007] AddAccount (thecrims)
+21:06:30 [Obj][13007] LogInCharacter (Invocadora)
+21:06:53 [Obj][13007] LogOutCharacter (Invocadora)
+21:06:53 [Obj][13007] DelAccount (thecrims)
+21:06:53 [Obj][13007] DelClient (177.75.52.38)
+21:21:01 [Obj][13002] AddClient (177.75.52.38)
+21:21:01 [Obj][13002] AddAccount (thecrims)
+21:21:02 [Obj][13002] LogInCharacter (Invocadora)
+21:21:27 [Obj][13002] LogOutCharacter (Invocadora)
+21:21:28 [Obj][13002] DelAccount (thecrims)
+21:21:28 [Obj][13002] DelClient (177.75.52.38)
+21:21:41 [Obj][13006] AddClient (177.75.52.38)
+21:21:41 [Obj][13006] AddAccount (thecrims)
+21:21:42 [Obj][13006] LogInCharacter (Invocadora)
+21:28:38 [Obj][13006] LogOutCharacter (Invocadora)
+21:28:38 [Obj][13006] DelAccount (thecrims)
+21:28:38 [Obj][13006] DelClient (177.75.52.38)
+22:40:01 [Obj][13000] AddClient (177.75.52.38)
+22:40:02 [Obj][13000] AddAccount (thecrims)
+22:40:03 [Obj][13000] LogInCharacter (Invocadora)

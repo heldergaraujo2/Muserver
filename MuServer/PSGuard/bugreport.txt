@@ -1,0 +1,1658 @@
+date/time          : 2025-12-20, 12:23:43, 937ms
+computer name      : WIN-K82J9TU944D
+wts client name    : HINET102
+user name          : Administrator <admin>
+registered owner   : Usuário do Windows
+operating system   : Windows 2012 R2 x64 build 9600
+system language    : Portuguese
+system up time     : 1 hour 26 minutes
+program up time    : 53 seconds
+processors         : 4x Common KVM processor
+physical memory    : 569/2047 MB (free/total)
+free disk space    : (C:) 15,00 GB
+display mode       : 1920x1080, 32 bit
+process id         : $ec0
+allocated memory   : 92,35 MB
+largest free block : 131029,98 GB
+executable         : Servidor.64.exe
+exec. date/time    : 2024-11-24 18:23
+version            : 1.0.3.9
+compiled with      : Delphi 10.2 Tokyo
+madExcept version  : 4.0.17
+callstack crc      : $3ff7bf55, $5ba514ce, $5ba514ce
+exception number   : 1
+exception class    : EIdCouldNotBindSocket
+exception message  : Could not bind socket. Address and port are already in use.
+
+main thread ($1720):
+005e7feb +019b Servidor.64.exe IdSocketHandle              TIdSocketHandle.Bind
+007b84c2 +00c2 Servidor.64.exe IdCustomTCPServer           TIdCustomTCPServer.StartListening
+007b8cf4 +0134 Servidor.64.exe IdCustomTCPServer           TIdCustomTCPServer.Startup
+007b8136 +0076 Servidor.64.exe IdCustomTCPServer           TIdCustomTCPServer.SetActive
+0099f34e +10fe Servidor.64.exe Unit1             3535 +100 TForm1.Timer1Timer
+004ec6a0 +0020 Servidor.64.exe Vcl.ExtCtrls                TTimer.Timer
+004ec4c8 +0038 Servidor.64.exe Vcl.ExtCtrls                TTimer.WndProc
+002e6753 +0023 Servidor.64.exe System.Classes              StdWndProc
+7ffaeb7d +0000 user32.dll                                  DispatchMessageW
+0059e3ce +012e Servidor.64.exe Vcl.Forms                   TApplication.ProcessMessage
+0059e443 +0013 Servidor.64.exe Vcl.Forms                   TApplication.HandleMessage
+0059e891 +00e1 Servidor.64.exe Vcl.Forms                   TApplication.Run
+7ffae971 +000b KERNEL32.DLL                                BaseThreadInitThunk
+7ffaebde +001b ntdll.dll                                   RtlUserThreadStart
+
+thread $1a98: <priority:2>
+7ffae9bf +1ae WS2_32.dll                              select
+005cf697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+005cf61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+005e892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+007b6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+007b8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+007b4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+002e0920 +040 Servidor.64.exe System.Classes          ThreadProc
+001c0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffae971 +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffaebde +01b ntdll.dll                               RtlUserThreadStart
+
+thread $d04: <priority:2>
+7ffae9bf +1ae WS2_32.dll                              select
+005cf697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+005cf61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+005e892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+007b6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+007b8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+007b4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+002e0920 +040 Servidor.64.exe System.Classes          ThreadProc
+001c0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffae971 +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffaebde +01b ntdll.dll                               RtlUserThreadStart
+
+thread $1024:
+7ffae91b +e7 KERNELBASE.dll                    WaitForMultipleObjectsEx
+004121e1 +81 Servidor.64.exe System.SyncObjs   THandleObject.WaitFor
+0086f28b +1b Servidor.64.exe FireDAC.Stan.Pool TFDResourcePoolGC.Execute
+002e0920 +40 Servidor.64.exe System.Classes    ThreadProc
+001c0d2a +3a Servidor.64.exe System            ThreadWrapper
+7ffae971 +0b KERNEL32.DLL                      BaseThreadInitThunk
+7ffaebde +1b ntdll.dll                         RtlUserThreadStart
+
+thread $14f4:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1ad8:
+7ffae91b +3d KERNELBASE.dll  GetQueuedCompletionStatus
+7ffae971 +0b KERNEL32.DLL    BaseThreadInitThunk
+7ffaebde +1b ntdll.dll       RtlUserThreadStart
+
+thread $18c4:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1bf0:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1904:
+7ffae91b +e7 KERNELBASE.dll            WaitForMultipleObjectsEx
+003b1509 +49 Servidor.64.exe madExcept ThreadExceptFrame
+7ffae971 +0b KERNEL32.DLL              BaseThreadInitThunk
+7ffaebde +1b ntdll.dll                 RtlUserThreadStart
+
+thread $f18:
+7ffaeb7d +20 user32.dll                GetMessageW
+003b1509 +49 Servidor.64.exe madExcept ThreadExceptFrame
+7ffae971 +0b KERNEL32.DLL              BaseThreadInitThunk
+7ffaebde +1b ntdll.dll                 RtlUserThreadStart
+
+thread $850:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $122c:
+7ffae91b +e7 KERNELBASE.dll            WaitForMultipleObjectsEx
+003b1509 +49 Servidor.64.exe madExcept ThreadExceptFrame
+7ffae971 +0b KERNEL32.DLL              BaseThreadInitThunk
+7ffaebde +1b ntdll.dll                 RtlUserThreadStart
+
+thread $1484:
+7ffae91b +e7 KERNELBASE.dll            WaitForMultipleObjectsEx
+003b1509 +49 Servidor.64.exe madExcept ThreadExceptFrame
+7ffae971 +0b KERNEL32.DLL              BaseThreadInitThunk
+7ffaebde +1b ntdll.dll                 RtlUserThreadStart
+
+thread $1148:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $f44:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1848:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1140:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+thread $1a08:
+7ffae971 +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffaebde +1b ntdll.dll     RtlUserThreadStart
+
+modules:
+001b0000 Servidor.64.exe           1.0.3.9             C:\MuServer\PSGuard
+11000000 libeay32.dll              1.0.2.17            C:\MuServer\PSGuard
+12000000 ssleay32.dll              1.0.2.17            C:\MuServer\PSGuard
+48060000 instapi.dll               2005.90.1399.0      C:\Program Files\Microsoft SQL Server\90\Shared
+56590000 SQLNCLIR11.RLL            2011.110.2100.60    C:\Windows\system32\1033
+565d0000 sqlncli11.dll             2011.110.5643.3     C:\Windows\system32
+56be0000 MSVCR100.dll              10.0.40219.325      C:\Windows\system32
+570b0000 MSVCR80.dll               8.0.50727.8428      C:\Windows\WinSxS\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.8428_none_88dcdb0b2fb19957
+7ffabe66 odbc32.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffac864 DSPARSE.DLL               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffacdd9 NetworkExplorer.dll       6.3.9600.16384      C:\Windows\system32
+7ffad035 netbios.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffad036 security.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffad0c2 ntlanman.dll              6.3.9600.16384      C:\Windows\System32
+7ffad9c3 odbccp32.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffada10 drprov.dll                6.3.9600.16384      C:\Windows\System32
+7ffadada FaultRep.dll              6.3.9600.17031      C:\Windows\SYSTEM32
+7ffadae9 StructuredQuery.dll       7.0.9600.17031      C:\Windows\System32
+7ffadaf3 SearchFolder.dll          6.3.9600.17041      C:\Windows\system32
+7ffadcde ntshrui.dll               6.3.9600.17031      C:\Windows\SYSTEM32
+7ffadd73 explorerframe.dll         6.3.9600.17031      C:\Windows\system32
+7ffadd9f actxprxy.dll              6.3.9600.17031      C:\Windows\System32
+7ffadfc5 MPR.dll                   6.3.9600.16384      C:\Windows\SYSTEM32
+7ffadfcf twinapi.dll               6.3.9600.17031      C:\Windows\System32
+7ffae09d Windows.Globalization.dll 6.3.9600.17031      C:\Windows\System32
+7ffae0dc ncryptsslp.dll            6.3.9600.17031      C:\Windows\system32
+7ffae143 twinapi.appcore.dll       6.3.9600.17031      C:\Windows\System32
+7ffae15e winspool.drv              6.3.9600.16457      C:\Windows\SYSTEM32
+7ffae23c CLUSAPI.DLL               6.3.9600.17019      C:\Windows\system32
+7ffae243 RESUTILS.DLL              6.3.9600.16384      C:\Windows\system32
+7ffae25d globinputhost.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae26a thumbcache.dll            6.3.9600.17031      C:\Windows\System32
+7ffae28a IdnDL.dll                 6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae29a SHFolder.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae2b5 rasadhlp.dll              6.3.9600.16384      C:\Windows\System32
+7ffae2bd version.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae326 LINKINFO.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae330 cscapi.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae356 dbghelp.dll               6.3.9600.16520      C:\Windows\SYSTEM32
+7ffae37f wsock32.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae391 SECUR32.DLL               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae44d WINMMBASE.dll             6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae46d winmm.dll                 6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae4d9 uiautomationcore.dll      7.2.9600.16421      C:\Windows\System32
+7ffae4eb PROPSYS.dll               7.0.9600.17041      C:\Windows\SYSTEM32
+7ffae528 ntmarta.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae558 dhcpcsvc.DLL              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae574 wtsapi32.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae57c Fwpuclnt.dll              6.3.9600.17042      C:\Windows\SYSTEM32
+7ffae583 OLEACC.dll                7.2.9600.16384      C:\Windows\system32
+7ffae596 WINNSI.DLL                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae59e iphlpapi.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae5df XmlLite.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae5e3 Bcp47Langs.dll            6.3.9600.16384      C:\Windows\System32
+7ffae65e wkscli.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae660 netutils.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae667 ntdsapi.dll               6.3.9600.16384      C:\Windows\system32
+7ffae682 DUser.dll                 6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae6b4 netapi32.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae6b7 comctl32.dll              6.10.9600.17031     C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1
+7ffae728 WindowsCodecs.dll         6.3.9600.16521      C:\Windows\SYSTEM32
+7ffae75d dwmapi.dll                6.3.9600.17031      C:\Windows\system32
+7ffae75f DUI70.dll                 6.3.9600.17031      C:\Windows\system32
+7ffae77a SHCORE.DLL                6.3.9600.17031      C:\Windows\SYSTEM32
+7ffae7d7 apphelp.dll               6.3.9600.17031      C:\Windows\SYSTEM32
+7ffae7e0 DPAPI.DLL                 6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae7e1 kernel.appcore.dll        6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae7e5 uxtheme.dll               6.3.9600.17031      C:\Windows\system32
+7ffae7fd DEVOBJ.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae807 FirewallAPI.dll           6.3.9600.16384      C:\Windows\System32
+7ffae859 schannel.DLL              6.3.9600.17031      C:\Windows\system32
+7ffae860 rsaenh.dll                6.3.9600.16384      C:\Windows\system32
+7ffae871 LOGONCLI.DLL              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae875 DNSAPI.dll                6.3.9600.17039      C:\Windows\SYSTEM32
+7ffae88d msv1_0.DLL                6.3.9600.16384      C:\Windows\system32
+7ffae894 mswsock.dll               6.3.9600.16384      C:\Windows\system32
+7ffae89a CRYPTSP.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae89c kerberos.DLL              6.3.9600.17042      C:\Windows\system32
+7ffae8ab cryptdll.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae8b6 NTASN1.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae8ba ncrypt.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae8bd bcrypt.dll                6.3.9600.17031      C:\Windows\SYSTEM32
+7ffae8cf srvcli.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae8ec SSPICLI.DLL               6.3.9600.16408      C:\Windows\SYSTEM32
+7ffae8ef bcryptPrimitives.dll      6.3.9600.17031      C:\Windows\SYSTEM32
+7ffae8f5 sxs.dll                   6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae8ff WINSTA.dll                6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae905 CRYPTBASE.dll             6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae90e profapi.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae919 MSASN1.dll                6.3.9600.16384      C:\Windows\system32
+7ffae91b KERNELBASE.dll            6.3.9600.17055      C:\Windows\system32
+7ffae92c crypt32.dll               6.3.9600.16431      C:\Windows\system32
+7ffae94f cfgmgr32.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae95f sechost.dll               6.3.9600.16384      C:\Windows\SYSTEM32
+7ffae965 oleaut32.dll              6.3.9600.16506      C:\Windows\system32
+7ffae971 KERNEL32.DLL              6.3.9600.17056      C:\Windows\system32
+7ffae985 advapi32.dll              6.3.9600.17031      C:\Windows\system32
+7ffae990 MSCTF.dll                 6.3.9600.17031      C:\Windows\system32
+7ffae9a6 ole32.dll                 6.3.9600.17042      C:\Windows\system32
+7ffae9be WS2_32.dll                6.3.9600.16384      C:\Windows\system32
+7ffae9ca RPCRT4.dll                6.3.9600.16384      C:\Windows\system32
+7ffae9de combase.dll               6.3.9600.17031      C:\Windows\system32
+7ffaea16 shell32.dll               6.3.9600.17055      C:\Windows\system32
+7ffaeb58 IMM32.DLL                 6.3.9600.17031      C:\Windows\system32
+7ffaeb5c NSI.dll                   6.3.9600.16384      C:\Windows\system32
+7ffaeb5d msvcrt.dll                7.0.9600.16384      C:\Windows\system32
+7ffaeb68 comdlg32.dll              6.3.9600.17031      C:\Windows\system32
+7ffaeb72 clbcatq.dll               2001.12.10530.16384 C:\Windows\SYSTEM32
+7ffaeb7d user32.dll                6.3.9600.17031      C:\Windows\system32
+7ffaeb95 gdi32.dll                 6.3.9600.17042      C:\Windows\system32
+7ffaebaa SETUPAPI.dll              6.3.9600.17031      C:\Windows\system32
+7ffaebc9 SHLWAPI.dll               6.3.9600.16384      C:\Windows\system32
+7ffaebd6 Normaliz.dll              6.3.9600.16384      C:\Windows\system32
+7ffaebd7 ntdll.dll                 6.3.9600.17031      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                 0 0   0
+0004 System               0 0   0
+00ec smss.exe             0 0   0
+0154 csrss.exe            0 0   0
+0188 wininit.exe          0 0   0
+0190 csrss.exe            1 0   0
+01ac winlogon.exe         1 0   0
+01e4 services.exe         0 0   0
+01ec lsass.exe            0 0   0
+022c svchost.exe          0 0   0
+0248 svchost.exe          0 0   0
+02ac LogonUI.exe          1 0   0
+02b4 dwm.exe              1 0   0
+02c4 svchost.exe          0 0   0
+02f0 svchost.exe          0 0   0
+031c svchost.exe          0 0   0
+036c svchost.exe          0 0   0
+012c svchost.exe          0 0   0
+03bc spoolsv.exe          0 0   0
+0408 blnsvr.exe           0 0   0
+0444 qemu-ga.exe          0 0   0
+04a8 svchost.exe          0 0   0
+04c4 VGAuthService.exe    0 0   0
+04d8 vm3dservice.exe      0 0   0
+04f4 vm3dservice.exe      1 0   0
+0674 svchost.exe          0 0   0
+06a8 WmiPrvSE.exe         0 0   0
+0748 dllhost.exe          0 0   0
+0758 msdtc.exe            0 0   0
+0840 WmiPrvSE.exe         0 0   0
+0944 TrustedInstaller.exe 0 0   0
+0658 csrss.exe            2 0   0
+070c winlogon.exe         2 0   0
+0228 dwm.exe              2 0   0
+0888 rdpclip.exe          2 11  27  normal       C:\Windows\System32
+0bd8 Explorer.EXE         2 419 422 normal       C:\Windows
+0560 taskhostex.exe       2 9   11  normal       C:\Windows\system32
+0b20 chrome.exe           2 132 77  normal       C:\Program Files (x86)\Google\Chrome\Application
+0b7c chrome.exe           2 9   4   normal       C:\Program Files (x86)\Google\Chrome\Application
+0318 chrome.exe           2 13  2   above normal C:\Program Files (x86)\Google\Chrome\Application
+063c chrome.exe           2 4   1   normal       C:\Program Files (x86)\Google\Chrome\Application
+06e0 chrome.exe           2 0   0   normal       C:\Program Files (x86)\Google\Chrome\Application
+0d44 chrome.exe           2 4   1   normal       C:\Program Files (x86)\Google\Chrome\Application
+1988 TiWorker.exe         0 0   0
+08c4 sqlwriter.exe        0 0   0
+1838 sqlbrowser.exe       0 0   0
+0324 sqlservr.exe         0 0   0   normal
+0378 SQLAGENT.EXE         0 0   0   normal
+15f8 conhost.exe          0 0   0
+1534 chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+1514 chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0640 chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+16bc chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0f84 chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0f14 chrome.exe           2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0a54 Ssms.exe             2 264 136 normal       C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio
+1a40 SSU_v1.0.4.164.exe   2 108 47  normal       C:\MuServer\Tools\StartUp
+094c ConnectServer.exe    2 23  19  normal       C:\MuServer\ConnectServer
+0f58 DataServer.exe       2 23  17  normal       C:\MuServer\DataServer
+1290 JoinServer.exe       2 23  18  normal       C:\MuServer\JoinServer
+1094 GameServer.exe       2 29  41  normal       C:\MuServer\GameServer
+0c78 DiscordServer.exe    2 23  18  normal       C:\MuServer\DiscordServer
+16f8 WmiApSrv.exe         0 0   0
+0ec0 Servidor.64.exe      2 132 99  normal       C:\MuServer\PSGuard
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Fila de Impressão da Raiz
+  - Microsoft XPS Document Writer
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) 82371SB PCI to USB Universal Host Controller
+  - USB Root Hub
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - PC com base em x64 ACPI
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - QEMU HARDDISK ATA Device
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Adaptador de Vídeo Básico da Microsoft
++ {4d36e969-e325-11ce-bfc1-08002be10318}
+  - Controlador padrão de disquete
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - ATA Channel 0
+  - ATA Channel 1
+  - Intel(R) 82371SB PCI Bus Master IDE Controller
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - Dispositivo de Teclado de Área de Trabalho Remota
+  - Teclado Padrão PS/2
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Monitor Genérico PnP
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - Dispositivo de Mouse de Área de Trabalho Remota
+  - Mouse compatível com HID
+  - VMware Pointing Device (driver 12.5.7.0)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Adaptador do Microsoft 6to4
+  - Adaptador do Microsoft ISATAP
+  - Intel(R) PRO/1000 MT Network Connection
+  - Microsoft Kernel Debug Network Adapter
+  - Miniporta de rede remota (IP)
+  - Miniporta de Rede Remota (IPv6)
+  - Miniporta de rede remota (L2TP)
+  - Miniporta de rede remota (Monitor de rede)
+  - Miniporta de rede remota (PPTP)
+  - Miniporta WAN (IKEv2)
+  - Miniporta WAN (PPPOE)
+  - Miniporta WAN (SSTP)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Controlador de Espaços de Armazenamento da Microsoft
+  - Controlador de Loopback de VHD da Microsoft
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - Barramento de E/S estendido
+  - Barramento de E/S estendido
+  - Barramento de E/S estendido
+  - Barramento genérico
+  - Barramento Redirecionador de Dispositivos de Área de Trabalho Remota
+  - Botão de recurso fixo ACPI
+  - CMOS do sistema/relógio em tempo real
+  - Contador de Geração do Microsoft Hyper-V
+  - Driver de Renderização Básico da Microsoft
+  - Driver de Vídeo Básico da Microsoft
+  - Enumerador de Adaptador de Rede Virtual NDIS
+  - Enumerador de Barramento de Composição
+  - Enumerador de Barramento de Raiz UMBus
+  - Enumerador de Dispositivos de Software Plug and Play
+  - Enumerador de Unidade Virtual Microsoft
+  - Enumerador UMBus
+  - Gerenciador de Volumes
+  - Intel 82371SB PCI to ISA bridge
+  - Intel 82441FX Pentium(R) Pro Processor to PCI bridge
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - PCI bus
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Timer de eventos de alta precisão
+  - VirtIO Balloon Driver (driver 62.83.104.18900)
+  - VirtIO Serial Driver (driver 62.83.104.18900)
+  - VMware VMCI Host Device (driver 9.8.6.0)
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Common KVM processor
+  - Common KVM processor
+  - Common KVM processor
+  - Common KVM processor
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Barramento do Adaptador de Transição IPv4 IPv6 da Microsoft
+  - Smart Card Device Enumeration Bus
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Dispositivo de Entrada USB
+
+cpu registers:
+rax = 0000000000000000
+rbx = 0000000006454fc0
+rcx = 0000000000000000
+rdx = 0000000000000000
+rsi = 00000000005e7ff0
+rdi = 0000000000000113
+rip = 00007ffae91b5bf8
+rsp = 000000000198f230
+rbp = 000000000198f310
+r8  = 00000000001e15b8
+r9  = 0000000000000001
+r10 = 000000000198f158
+r11 = 00000000001b1378
+r12 = 0000000000000000
+r13 = 00000000000c0254
+r14 = 0000000001b20e0a
+r15 = 0000000000000001
+
+stack dump:
+0198f230  16 00 00 00 00 00 00 00 - 16 00 00 00 00 00 00 00  ................
+0198f240  08 f3 98 01 00 00 00 00 - 01 00 00 00 00 00 00 00  ................
+0198f250  38 f3 98 01 00 00 00 00 - f0 4a 3a 00 00 00 00 00  8........J:.....
+0198f260  d0 f2 98 01 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0198f270  16 00 00 00 00 00 00 00 - f0 4a 3a 00 00 00 00 00  .........J:.....
+0198f280  00 00 00 00 00 00 00 00 - 54 02 0c 00 00 00 00 00  ........T.......
+0198f290  38 f3 98 01 00 00 00 00 - e9 0f 1c 00 00 00 00 00  8...............
+0198f2a0  16 00 00 16 00 00 00 00 - f7 f7 98 01 00 00 00 00  ................
+0198f2b0  06 01 00 07 00 00 00 00 - f0 4a 3a 00 00 00 00 00  .........J:.....
+0198f2c0  f7 f7 98 01 00 00 00 00 - b7 f0 35 00 00 00 00 00  ..........5.....
+0198f2d0  02 00 00 02 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0198f2e0  f8 f7 98 01 00 00 00 00 - f0 4a 3a 00 00 00 00 00  .........J:.....
+0198f2f0  00 00 1b 00 00 00 00 00 - 00 20 6a 01 00 00 00 00  ......... j.....
+0198f300  81 00 09 88 00 00 00 00 - f8 02 62 03 00 00 00 00  ..........b.....
+0198f310  00 00 00 00 00 00 00 00 - d0 f2 98 01 00 00 00 00  ................
+0198f320  e8 f3 98 01 00 00 00 00 - 40 da 62 03 00 00 00 00  ........@.b.....
+0198f330  00 00 00 00 00 00 00 00 - f0 4a 3a 00 00 00 00 00  .........J:.....
+0198f340  b0 f3 98 01 00 00 00 00 - 24 92 1b 00 00 00 00 00  ........$.......
+0198f350  00 00 00 00 00 00 00 00 - 16 00 00 00 00 00 00 00  ................
+0198f360  50 1a 1b 00 00 00 00 00 - 00 20 9e 00 00 00 00 00  P........ ......
+
+disassembling:
+[...]
+0099f338        mov     [rax], rcx
+0099f33b 3535   mov     rcx, [$aa9b68]
+0099f342        mov     dl, 1
+0099f344        mov     rax, [$aa9b68]
+0099f34b        mov     rbx, [rax]
+0099f34e      > call    qword ptr [rbx+$128]
+0099f354 3537   nop
+0099f355        lea     rcx, [rbp+$3d8]
+0099f35c        mov     edx, $f
+0099f362        call    -$3867 ($99bb00)       ; Unit1.RetornaTraducao
+0099f367        call    -$7b047c ($1eeef0)     ; System.SysUtils.Now
+[...]
+
+date/time          : 2026-05-04, 19:19:32, 192ms
+computer name      : WIN-K82J9TU944D
+wts client name    : ADMINISTRADOR
+user name          : Administrator <admin>
+registered owner   : Usuário do Windows
+operating system   : Windows 2012 R2 x64 build 9600
+system language    : Portuguese
+system up time     : 3 days 1 hour
+program up time    : 3 days 1 hour
+processors         : 8x Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+physical memory    : 10828/16383 MB (free/total)
+free disk space    : (C:) 23,23 GB
+display mode       : 1920x1080, 32 bit
+process id         : $e3c
+allocated memory   : 117,60 MB
+largest free block : 131029,99 GB
+executable         : Servidor.64.exe
+exec. date/time    : 2024-11-24 18:23
+version            : 1.0.3.9
+compiled with      : Delphi 10.2 Tokyo
+madExcept version  : 4.0.17
+callstack crc      : $6efa3eba, $c0c902b6, $e956d71e
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 00000000007F7774 in module 'Servidor.64.exe'. Read of address 0000000000000058.
+
+main thread ($db8):
+007f7774 +014 Servidor.64.exe FireDAC.DatS         TFDDatSView.IndexOf
+008759e5 +025 Servidor.64.exe FireDAC.Comp.DataSet TFDDataSet.InternalGotoBookmark
+00875a4a +02a Servidor.64.exe FireDAC.Comp.DataSet TFDDataSet.InternalGotoBookmark
+00875ab9 +029 Servidor.64.exe FireDAC.Comp.DataSet TFDDataSet.InternalSetToRecord
+00766363 +093 Servidor.64.exe Data.DB              TDataSet.SetCurrentRecord
+00766412 +022 Servidor.64.exe Data.DB              TDataSet.GetNextRecord
+00766a54 +024 Servidor.64.exe Data.DB              TDataSet.GetNextRecords
+00766199 +179 Servidor.64.exe Data.DB              TDataSet.SetBufferCount
+007662ba +0ea Servidor.64.exe Data.DB              TDataSet.UpdateBufferCount
+0075a13c +04c Servidor.64.exe Data.DB              TDataSource.RemoveDataLink
+007593f6 +066 Servidor.64.exe Data.DB              TDataLink.SetDataSource
+007592a8 +028 Servidor.64.exe Data.DB              TDataLink.Destroy
+00a2a348 +028 Servidor.64.exe Vcl.DBGrids          TGridDataLink.Destroy
+002cdcf5 +015 Servidor.64.exe System               TObject.Free
+00a2e93c +04c Servidor.64.exe Vcl.DBGrids          TCustomDBGrid.Destroy
+00550f43 +103 Servidor.64.exe Vcl.Controls         TWinControl.Destroy
+005b858f +04f Servidor.64.exe Vcl.ComCtrls         TTabSheet.Destroy
+00550f43 +103 Servidor.64.exe Vcl.Controls         TWinControl.Destroy
+005b6dd8 +0b8 Servidor.64.exe Vcl.ComCtrls         TCustomTabControl.Destroy
+005b8f84 +074 Servidor.64.exe Vcl.ComCtrls         TPageControl.Destroy
+00550f43 +103 Servidor.64.exe Vcl.Controls         TWinControl.Destroy
+0069ccae +06e Servidor.64.exe Vcl.Forms            TScrollingWinControl.Destroy
+0069e431 +1e1 Servidor.64.exe Vcl.Forms            TCustomForm.Destroy
+002cdcf5 +015 Servidor.64.exe System               TObject.Free
+006a6864 +004 Servidor.64.exe Vcl.Forms            TCustomForm.CMRelease
+002ce432 +042 Servidor.64.exe System               TObject.Dispatch
+0054e35d +36d Servidor.64.exe Vcl.Controls         TControl.WndProc
+005550b3 +8a3 Servidor.64.exe Vcl.Controls         TWinControl.WndProc
+006a02a7 +8c7 Servidor.64.exe Vcl.Forms            TCustomForm.WndProc
+0055437a +02a Servidor.64.exe Vcl.Controls         TWinControl.MainWndProc
+003f6753 +023 Servidor.64.exe System.Classes       StdWndProc
+7ffa4ad1 +000 user32.dll                           DispatchMessageW
+006ae3ce +12e Servidor.64.exe Vcl.Forms            TApplication.ProcessMessage
+006ae443 +013 Servidor.64.exe Vcl.Forms            TApplication.HandleMessage
+006ae891 +0e1 Servidor.64.exe Vcl.Forms            TApplication.Run
+7ffa4abd +00b KERNEL32.DLL                         BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                            RtlUserThreadStart
+
+thread $d04: <priority:2>
+7ffa4ab8 +1ae WS2_32.dll                              select
+006df697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+006df61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+006f892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+008c6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+008c8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+008c4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+003f0920 +040 Servidor.64.exe System.Classes          ThreadProc
+002d0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffa4abd +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                               RtlUserThreadStart
+
+thread $2a0: <priority:2>
+7ffa4ab8 +1ae WS2_32.dll                              select
+006df697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+006df61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+006f892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+008c6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+008c8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+008c4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+003f0920 +040 Servidor.64.exe System.Classes          ThreadProc
+002d0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffa4abd +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                               RtlUserThreadStart
+
+thread $f48:
+7ffa4a78 +e7 KERNELBASE.dll                    WaitForMultipleObjectsEx
+005221e1 +81 Servidor.64.exe System.SyncObjs   THandleObject.WaitFor
+0097f28b +1b Servidor.64.exe FireDAC.Stan.Pool TFDResourcePoolGC.Execute
+003f0920 +40 Servidor.64.exe System.Classes    ThreadProc
+002d0d2a +3a Servidor.64.exe System            ThreadWrapper
+7ffa4abd +0b KERNEL32.DLL                      BaseThreadInitThunk
+7ffa4d18 +1b ntdll.dll                         RtlUserThreadStart
+
+thread $d7c:
+7ffa4abd +0b KERNEL32.DLL  BaseThreadInitThunk
+7ffa4d18 +1b ntdll.dll     RtlUserThreadStart
+
+thread $514:
+7ffa4a78 +0a4 KERNELBASE.dll                 SleepEx
+00ab225e +61e Servidor.64.exe Unit1 3950 +81 WAKORLZIJT
+7ffa4abd +00b KERNEL32.DLL                   BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                      RtlUserThreadStart
+
+thread $504: <priority:2>
+7ffa4ab8 +1ae WS2_32.dll                              select
+006df697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+006df61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+006f892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+008c6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+008c8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+008c4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+003f0920 +040 Servidor.64.exe System.Classes          ThreadProc
+002d0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffa4abd +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                               RtlUserThreadStart
+
+thread $500: <priority:2>
+7ffa4ab8 +1ae WS2_32.dll                              select
+006df697 +057 Servidor.64.exe IdStackWindows          TIdSocketListWindows.FDSelect
+006df61f +02f Servidor.64.exe IdStackWindows          TIdSocketListWindows.SelectRead
+006f892f +00f Servidor.64.exe IdSocketHandle          TIdSocketHandle.Select
+008c6022 +062 Servidor.64.exe IdServerIOHandlerSocket TIdServerIOHandlerSocket.Accept
+008c8f29 +089 Servidor.64.exe IdCustomTCPServer       TIdListenerThread.Run
+008c4448 +0d8 Servidor.64.exe IdThread                TIdThread.Execute
+003f0920 +040 Servidor.64.exe System.Classes          ThreadProc
+002d0d2a +03a Servidor.64.exe System                  ThreadWrapper
+7ffa4abd +00b KERNEL32.DLL                            BaseThreadInitThunk
+7ffa4d18 +01b ntdll.dll                               RtlUserThreadStart
+
+thread $d18:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $16b4:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $4c0:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $ed4:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $380:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $4a0:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1518:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1488:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $bfc:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1368:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $134c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1274:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1590:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1398:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $12c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $d8c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $168c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $172c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $15e8:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $10a0:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $300:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $390:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $7bc:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $bc4:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $79c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1698:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1414:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1010:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $7f4:
+7ffa4a78 +3d KERNELBASE.dll  GetQueuedCompletionStatus
+7ffa4abd +0b KERNEL32.DLL    BaseThreadInitThunk
+7ffa4d18 +1b ntdll.dll       RtlUserThreadStart
+
+thread $738:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $10e8:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $cf0:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1584:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $1498:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $125c:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+thread $c94:
+7ffa4ab8 +01ae WS2_32.dll                                 select
+006df697 +0057 Servidor.64.exe IdStackWindows             TIdSocketListWindows.FDSelect
+006df61f +002f Servidor.64.exe IdStackWindows             TIdSocketListWindows.SelectRead
+006f892f +000f Servidor.64.exe IdSocketHandle             TIdSocketHandle.Select
+006f85db +005b Servidor.64.exe IdSocketHandle             CheckIsReadable
+006f869b +007b Servidor.64.exe IdSocketHandle             TIdSocketHandle.Readable
+006fd1cb +000b Servidor.64.exe IdIOHandlerStack           TIdIOHandlerStack.Readable
+006f36a3 +00f3 Servidor.64.exe IdIOHandler                TIdIOHandler.ReadFromSource
+006f3aa4 +0044 Servidor.64.exe IdIOHandler                TIdIOHandler.CheckForDataOnSource
+00ac057e +134e Servidor.64.exe Unit1             5733 +99 TForm1.IdTCPServer1Execute
+008c7fa1 +0021 Servidor.64.exe IdCustomTCPServer          TIdCustomTCPServer.DoExecute
+00709b9c +001c Servidor.64.exe IdContext                  TIdContext.Run
+0070722e +000e Servidor.64.exe IdTask                     TIdTask.DoRun
+008c509f +000f Servidor.64.exe IdThread                   TIdThreadWithTask.Run
+008c4448 +00d8 Servidor.64.exe IdThread                   TIdThread.Execute
+003f0920 +0040 Servidor.64.exe System.Classes             ThreadProc
+002d0d2a +003a Servidor.64.exe System                     ThreadWrapper
+7ffa4abd +000b KERNEL32.DLL                               BaseThreadInitThunk
+7ffa4d18 +001b ntdll.dll                                  RtlUserThreadStart
+
+modules:
+002c0000 Servidor.64.exe      1.0.3.9             C:\MuServer\PSGuard
+11000000 libeay32.dll         1.0.2.17            C:\MuServer\PSGuard
+12000000 ssleay32.dll         1.0.2.17            C:\MuServer\PSGuard
+48060000 instapi.dll          2005.90.1399.0      C:\Program Files\Microsoft SQL Server\90\Shared
+647b0000 SQLNCLIR11.RLL       2011.110.2100.60    C:\Windows\system32\1033
+647f0000 sqlncli11.dll        2011.110.5643.3     C:\Windows\system32
+64ca0000 MSVCR80.dll          8.0.50727.8428      C:\Windows\WinSxS\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.8428_none_88dcdb0b2fb19957
+65210000 MSVCR100.dll         10.0.40219.325      C:\Windows\system32
+7ffa20c9 odbccp32.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa20f2 IdnDL.dll            6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa20f3 FaultRep.dll         6.3.9600.17031      C:\Windows\SYSTEM32
+7ffa20fa SHFolder.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa20fb sfc_os.dll           6.3.9600.16384      C:\Windows\System32
+7ffa227c pcacli.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3323 urlmon.dll           11.0.9600.17031     C:\Windows\System32
+7ffa3872 odbc32.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3aa2 winspool.drv         6.3.9600.16457      C:\Windows\SYSTEM32
+7ffa3b46 ncryptsslp.dll       6.3.9600.17031      C:\Windows\system32
+7ffa3b50 DSPARSE.DLL          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3bc2 rasadhlp.dll         6.3.9600.16384      C:\Windows\System32
+7ffa3c39 netbios.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3c3a security.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3c9a RESUTILS.DLL         6.3.9600.16384      C:\Windows\system32
+7ffa3c9f CLUSAPI.DLL          6.3.9600.17019      C:\Windows\system32
+7ffa3ccf version.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3cd0 dbghelp.dll          6.3.9600.16520      C:\Windows\SYSTEM32
+7ffa3cf9 wsock32.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa3dbf iertutil.dll         11.0.9600.17031     C:\Windows\System32
+7ffa3ded WININET.dll          11.0.9600.17031     C:\Windows\System32
+7ffa3e20 WINMMBASE.dll        6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4560 winmm.dll            6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa456b SECUR32.DLL          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa456e MPR.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4613 PROPSYS.dll          7.0.9600.17041      C:\Windows\SYSTEM32
+7ffa4662 ntmarta.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4691 dhcpcsvc.DLL         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa469e wtsapi32.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa46a6 Fwpuclnt.dll         6.3.9600.17042      C:\Windows\SYSTEM32
+7ffa46b9 WINNSI.DLL           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4770 netapi32.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4772 ntdsapi.dll          6.3.9600.16384      C:\Windows\system32
+7ffa4776 iphlpapi.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa47a8 wkscli.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa480b comctl32.dll         6.10.9600.17031     C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1
+7ffa4841 netutils.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4897 dwmapi.dll           6.3.9600.17031      C:\Windows\system32
+7ffa48b4 SHCORE.DLL           6.3.9600.17031      C:\Windows\SYSTEM32
+7ffa4911 apphelp.dll          6.3.9600.17031      C:\Windows\SYSTEM32
+7ffa491a DPAPI.DLL            6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa491e kernel.appcore.dll   6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa491f uxtheme.dll          6.3.9600.17031      C:\Windows\system32
+7ffa4937 DEVOBJ.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4941 FirewallAPI.dll      6.3.9600.16384      C:\Windows\System32
+7ffa4993 schannel.DLL         6.3.9600.17031      C:\Windows\system32
+7ffa499a rsaenh.dll           6.3.9600.16384      C:\Windows\system32
+7ffa49a9 USERENV.dll          6.3.9600.17041      C:\Windows\System32
+7ffa49ab LOGONCLI.DLL         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa49af DNSAPI.dll           6.3.9600.17039      C:\Windows\SYSTEM32
+7ffa49c7 msv1_0.DLL           6.3.9600.16384      C:\Windows\system32
+7ffa49ce mswsock.dll          6.3.9600.16384      C:\Windows\system32
+7ffa49d4 CRYPTSP.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa49d6 kerberos.DLL         6.3.9600.17042      C:\Windows\system32
+7ffa49e5 cryptdll.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa49f0 NTASN1.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa49f4 ncrypt.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa49f7 bcrypt.dll           6.3.9600.17031      C:\Windows\SYSTEM32
+7ffa4a09 srvcli.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a26 SSPICLI.DLL          6.3.9600.16408      C:\Windows\SYSTEM32
+7ffa4a29 bcryptPrimitives.dll 6.3.9600.17031      C:\Windows\SYSTEM32
+7ffa4a2f sxs.dll              6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a39 WINSTA.dll           6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a3f CRYPTBASE.dll        6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a48 profapi.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a53 MSASN1.dll           6.3.9600.16384      C:\Windows\system32
+7ffa4a55 cfgmgr32.dll         6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4a5a crypt32.dll          6.3.9600.16431      C:\Windows\system32
+7ffa4a78 KERNELBASE.dll       6.3.9600.17055      C:\Windows\system32
+7ffa4a99 IMM32.DLL            6.3.9600.17031      C:\Windows\system32
+7ffa4a9d oleaut32.dll         6.3.9600.16506      C:\Windows\system32
+7ffa4aa9 SHLWAPI.dll          6.3.9600.16384      C:\Windows\system32
+7ffa4aaf Normaliz.dll         6.3.9600.16384      C:\Windows\system32
+7ffa4ab0 sechost.dll          6.3.9600.16384      C:\Windows\SYSTEM32
+7ffa4ab7 WS2_32.dll           6.3.9600.16384      C:\Windows\system32
+7ffa4abd KERNEL32.DLL         6.3.9600.17056      C:\Windows\system32
+7ffa4ad1 user32.dll           6.3.9600.17031      C:\Windows\system32
+7ffa4ae9 ole32.dll            6.3.9600.17042      C:\Windows\system32
+7ffa4b01 msvcrt.dll           7.0.9600.16384      C:\Windows\system32
+7ffa4b2c SETUPAPI.dll         6.3.9600.17031      C:\Windows\system32
+7ffa4b4a combase.dll          6.3.9600.17031      C:\Windows\system32
+7ffa4b68 comdlg32.dll         6.3.9600.17031      C:\Windows\system32
+7ffa4b72 shell32.dll          6.3.9600.17055      C:\Windows\system32
+7ffa4cb4 advapi32.dll         6.3.9600.17031      C:\Windows\system32
+7ffa4cbf gdi32.dll            6.3.9600.17042      C:\Windows\system32
+7ffa4cd6 clbcatq.dll          2001.12.10530.16384 C:\Windows\SYSTEM32
+7ffa4ce2 MSCTF.dll            6.3.9600.17031      C:\Windows\system32
+7ffa4cfc NSI.dll              6.3.9600.16384      C:\Windows\system32
+7ffa4cfd RPCRT4.dll           6.3.9600.16384      C:\Windows\system32
+7ffa4d11 ntdll.dll            6.3.9600.17031      C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                           0 0   0
+0004 System                         0 0   0
+0118 smss.exe                       0 0   0
+017c csrss.exe                      0 0   0
+01b0 wininit.exe                    0 0   0
+01b8 csrss.exe                      1 0   0
+01d4 winlogon.exe                   1 0   0
+020c services.exe                   0 0   0
+0214 lsass.exe                      0 0   0
+0258 svchost.exe                    0 0   0
+0274 svchost.exe                    0 0   0
+02d4 LogonUI.exe                    1 0   0
+02dc dwm.exe                        1 0   0
+02f0 svchost.exe                    0 0   0
+031c svchost.exe                    0 0   0
+034c svchost.exe                    0 0   0
+03b8 svchost.exe                    0 0   0
+023c svchost.exe                    0 0   0
+0430 spoolsv.exe                    0 0   0
+0464 blnsvr.exe                     0 0   0
+04a8 sqlservr.exe                   0 0   0   normal
+04cc qemu-ga.exe                    0 0   0
+0524 sqlbrowser.exe                 0 0   0
+053c sqlwriter.exe                  0 0   0
+0560 svchost.exe                    0 0   0
+0588 VGAuthService.exe              0 0   0
+05e4 vm3dservice.exe                0 0   0
+0614 vm3dservice.exe                1 0   0
+0784 WmiPrvSE.exe                   0 0   0
+084c SQLAGENT.EXE                   0 0   0   normal
+0860 conhost.exe                    0 0   0
+0910 svchost.exe                    0 0   0
+0934 svchost.exe                    0 0   0
+09a4 dllhost.exe                    0 0   0
+0ae0 msdtc.exe                      0 0   0
+0b58 WmiPrvSE.exe                   0 0   0
+04ec csrss.exe                      2 0   0
+02d0 winlogon.exe                   2 0   0
+0c24 dwm.exe                        2 0   0
+0ce8 taskhostex.exe                 2 9   11  normal       C:\Windows\system32
+0d3c rdpclip.exe                    2 11  27  normal       C:\Windows\System32
+0d6c Explorer.EXE                   2 479 424 normal       C:\Windows
+0efc ServerManager.exe              2 36  26  normal       C:\Windows\system32
+0f94 MEGAsync.exe                   2 22  37  normal       C:\ProgramData\MEGAsync
+0fd0 mega-desktop-app-gfxworker.exe 2 4   1   normal       C:\ProgramData\MEGAsync
+0e3c Servidor.64.exe                2 115 117 normal       C:\MuServer\PSGuard
+0ca8 SSU_v1.0.4.164.exe             2 69  37  normal       C:\MuServer\Tools\StartUp
+12a0 GameServer.exe                 2 30  39  normal       C:\MuServer\SpeedServer\GameServer
+0170 notepad++.exe                  2 349 236 normal       C:\Program Files\Notepad++
+0c98 chrome.exe                     2 59  52  normal       C:\Program Files (x86)\Google\Chrome\Application
+1384 chrome.exe                     2 9   4   normal       C:\Program Files (x86)\Google\Chrome\Application
+12f4 chrome.exe                     2 13  2   above normal C:\Program Files (x86)\Google\Chrome\Application
+0c54 chrome.exe                     2 4   1   normal       C:\Program Files (x86)\Google\Chrome\Application
+09f8 chrome.exe                     2 0   0   normal       C:\Program Files (x86)\Google\Chrome\Application
+0ca4 chrome.exe                     2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0974 RuntimeBroker.exe              2 4   1   normal       C:\Windows\System32
+145c chrome.exe                     2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+0f14 ConnectServer.exe              2 23  17  normal       C:\MuServer\ConnectServer
+1524 DataServer.exe                 2 23  15  normal       C:\MuServer\DataServer
+02a8 JoinServer.exe                 2 23  16  normal       C:\MuServer\JoinServer
+1290 GameServer.exe                 2 30  39  normal       C:\MuServer\GameServer
+0840 GameServer.exe                 2 29  39  normal       C:\MuServer\GameServerCS
+10e4 DiscordServer.exe              2 23  16  normal       C:\MuServer\DiscordServer
+178c GameServer.exe                 2 30  39  normal       C:\MuServer\SubSalatest\GameServer
+1388 Ssms.exe                       2 254 112 normal       C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio
+0e34 WmiPrvSE.exe                   0 0   0
+0518 mspaint.exe                    2 410 70  normal       C:\Windows\system32
+0c38 chrome.exe                     2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+16f4 chrome.exe                     2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+1070 chrome.exe                     2 0   0   idle         C:\Program Files (x86)\Google\Chrome\Application
+103c mspaint.exe                    2 414 71  normal       C:\Windows\system32
+14a8 MuEditor.exe                   2 58  68  normal       C:\MuServer\Tools\Editores\MuEditor
+17d4 WmiApSrv.exe                   0 0   0
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Fila de Impressão da Raiz
+  - Microsoft XPS Document Writer
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) 82371SB PCI to USB Universal Host Controller
+  - USB Root Hub
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - PC com base em x64 ACPI
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - QEMU HARDDISK ATA Device
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Adaptador de Vídeo Básico da Microsoft
++ {4d36e969-e325-11ce-bfc1-08002be10318}
+  - Controlador padrão de disquete
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - ATA Channel 0
+  - ATA Channel 1
+  - Intel(R) 82371SB PCI Bus Master IDE Controller
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - Dispositivo de Teclado de Área de Trabalho Remota
+  - Teclado Padrão PS/2
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Monitor Genérico PnP
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - Dispositivo de Mouse de Área de Trabalho Remota
+  - Mouse compatível com HID
+  - VMware Pointing Device (driver 12.5.7.0)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Adaptador do Microsoft 6to4
+  - Adaptador do Microsoft ISATAP
+  - Intel(R) PRO/1000 MT Network Connection
+  - Microsoft Kernel Debug Network Adapter
+  - Miniporta de rede remota (IP)
+  - Miniporta de Rede Remota (IPv6)
+  - Miniporta de rede remota (L2TP)
+  - Miniporta de rede remota (Monitor de rede)
+  - Miniporta de rede remota (PPTP)
+  - Miniporta WAN (IKEv2)
+  - Miniporta WAN (PPPOE)
+  - Miniporta WAN (SSTP)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Controlador de Espaços de Armazenamento da Microsoft
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - Barramento de E/S estendido
+  - Barramento de E/S estendido
+  - Barramento de E/S estendido
+  - Barramento genérico
+  - Barramento Redirecionador de Dispositivos de Área de Trabalho Remota
+  - Botão de recurso fixo ACPI
+  - CMOS do sistema/relógio em tempo real
+  - Contador de Geração do Microsoft Hyper-V
+  - Driver de Renderização Básico da Microsoft
+  - Driver de Vídeo Básico da Microsoft
+  - Enumerador de Adaptador de Rede Virtual NDIS
+  - Enumerador de Barramento de Composição
+  - Enumerador de Barramento de Raiz UMBus
+  - Enumerador de Dispositivos de Software Plug and Play
+  - Enumerador de Unidade Virtual Microsoft
+  - Enumerador UMBus
+  - Gerenciador de Volumes
+  - Intel 82371SB PCI to ISA bridge
+  - Intel 82441FX Pentium(R) Pro Processor to PCI bridge
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - PCI bus
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Timer de eventos de alta precisão
+  - VirtIO Balloon Driver (driver 62.83.104.18900)
+  - VirtIO Serial Driver (driver 62.83.104.18900)
+  - VMware VMCI Host Device (driver 9.8.6.0)
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+  - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Barramento do Adaptador de Transição IPv4 IPv6 da Microsoft
+  - Smart Card Device Enumeration Bus
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Dispositivo de Entrada USB
+
+cpu registers:
+rax = 0000000000000000
+rbx = 0000000007a81360
+rcx = 0000000007a81360
+rdx = 0000000000000000
+rsi = 0000000000000000
+rdi = 0000000000000000
+rip = 00000000007f7774
+rsp = 0000000001a9e920
+rbp = 0000000001a9e920
+r8  = 0000000000000000
+r9  = 0000000000000000
+r10 = 0000000007a78930
+r11 = 0000000000000000
+r12 = 0000000000000000
+r13 = 0000000000000000
+r14 = 0000000007a115a0
+r15 = 0000000000000000
+
+stack dump:
+01a9e920  40 ea a9 01 00 00 00 00 - 00 00 00 00 00 00 00 00  @...............
+01a9e930  a0 00 00 00 00 00 00 00 - 6e 18 1f 49 fa 7f 00 00  ........n..I....
+01a9e940  30 45 d1 4a fa 7f 00 00 - 04 00 00 00 00 00 00 00  0E.J............
+01a9e950  a0 00 00 00 00 00 00 00 - e0 63 72 03 00 00 00 00  .........cr.....
+01a9e960  00 00 00 00 00 00 00 00 - b8 01 01 00 00 00 00 00  ................
+01a9e970  00 00 00 00 00 00 00 00 - 30 45 d1 4a fa 7f 00 00  ........0E.J....
+01a9e980  00 00 00 00 00 00 00 00 - 02 00 00 00 00 00 00 00  ................
+01a9e990  b8 01 01 00 00 00 00 00 - 3c 0e 00 00 00 00 00 00  ........<.......
+01a9e9a0  e9 03 e2 00 00 00 00 00 - 3c 0e 00 00 3c 0e 00 00  ........<...<...
+01a9e9b0  91 ea a9 01 00 00 00 00 - 93 0b 01 3b 00 00 00 00  ...........;....
+01a9e9c0  50 00 46 03 00 00 00 00 - 20 eb a9 01 00 00 00 00  P.F..... .......
+01a9e9d0  00 00 00 00 00 00 00 00 - c0 01 01 00 00 00 00 00  ................
+01a9e9e0  ba d5 d5 04 6a 42 00 00 - b8 50 55 00 00 00 00 00  ....jB...PU.....
+01a9e9f0  b8 01 01 00 00 00 00 00 - a0 00 00 00 fa 7f 00 00  ................
+01a9ea00  02 00 00 00 00 00 00 00 - e9 03 e2 00 00 00 00 00  ................
+01a9ea10  04 00 00 00 b0 04 00 00 - 30 45 d1 4a fa 7f 00 00  ........0E.J....
+01a9ea20  00 00 00 00 00 00 00 00 - 01 00 00 00 00 00 00 00  ................
+01a9ea30  00 00 00 00 00 00 00 00 - 58 e5 20 49 fa 7f 00 00  ........X. I....
+01a9ea40  fa d5 d5 04 6a 42 00 00 - 65 10 01 e3 ff ff ff ff  ....jB..e.......
+01a9ea50  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+007f7764   sub     rsp, $68
+007f7768   mov     rbp, rsp
+007f776b   mov     rbx, rcx
+007f776e   mov     rsi, rdx
+007f7771   mov     edi, r8d
+007f7774 > mov     edx, [rsi+$58]
+007f7777   mov     rax, [rbx+$40]
+007f777b   cmp     edx, [rax+$2c]
+007f777e   jnb     loc_7f7792
+007f7780   mov     ecx, edx
+007f7782   mov     rax, [rax+$20]
+[...]
+

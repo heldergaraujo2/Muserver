@@ -1,0 +1,85 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Lord of Ferea"		1000	10000		03		0		0		0		0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	acnt	SKt	Comment
+7		98		0		2		1		1		0		2	1		0	// Bloodangel Knight Helm
+7		99		0		2		1		1		0		2	1		0	// Bloodangel Wizard Helm
+7		100		0		2		1		1		0		2	1		0	// Bloodangel Elf Helm
+7		101		0		2		1		1		0		2	1		0	// Bloodangel Summoner Helm
+7		103		0		2		1		1		0		2	1		0	// Bloodangel Lord Helm
+7		104		0		2		1		1		0		2	1		0	// Bloodangel Fighter Helm
+7		98		0		2		0		0		0		2	1		0	// Bloodangel Knight Helm
+7		99		0		2		0		0		0		2	1		0	// Bloodangel Wizard Helm
+7		100		0		2		0		0		0		2	1		0	// Bloodangel Elf Helm
+7		101		0		2		0		0		0		2	1		0	// Bloodangel Summoner Helm
+7		103		0		2		0		0		0		2	1		0	// Bloodangel Lord Helm
+7		104		0		2		0		0		0		2	1		0	// Bloodangel Fighter Helm
+8		98		0		2		1		1		0		2	1		0	// Bloodangel Knight Armor
+8		99		0		2		1		1		0		2	1		0	// Bloodangel Wizard Armor
+8		100		0		2		1		1		0		2	1		0	// Bloodangel Elf Armor
+8		101		0		2		1		1		0		2	1		0	// Bloodangel Summoner Armor
+8		102		0		2		1		1		0		2	1		0	// Bloodangel Magic Armor
+8		103		0		2		1		1		0		2	1		0	// Bloodangel Lord Armor
+8		104		0		2		1		1		0		2	1		0	// Bloodangel Fighter Armor
+8		98		0		2		0		0		0		2	1		0	// Bloodangel Knight Armor
+8		99		0		2		0		0		0		2	1		0	// Bloodangel Wizard Armor
+8		100		0		2		0		0		0		2	1		0	// Bloodangel Elf Armor
+8		101		0		2		0		0		0		2	1		0	// Bloodangel Summoner Armor
+8		102		0		2		0		0		0		2	1		0	// Bloodangel Magic Armor
+8		103		0		2		0		0		0		2	1		0	// Bloodangel Lord Armor
+8		104		0		2		0		0		0		2	1		0	// Bloodangel Fighter Armor
+9		98		0		2		1		1		0		2	1		0	// Bloodangel Knight Pants
+9		99		0		2		1		1		0		2	1		0	// Bloodangel Wizard Pants
+9		100		0		2		1		1		0		2	1		0	// Bloodangel Elf Pants
+9		101		0		2		1		1		0		2	1		0	// Bloodangel Summoner Pants
+9		102		0		2		1		1		0		2	1		0	// Bloodangel Magic Pants
+9		103		0		2		1		1		0		2	1		0	// Bloodangel Lord Pants
+9		104		0		2		1		1		0		2	1		0	// Bloodangel Fighter Pants
+9		98		0		2		0		0		0		2	1		0	// Bloodangel Knight Pants
+9		99		0		2		0		0		0		2	1		0	// Bloodangel Wizard Pants
+9		100		0		2		0		0		0		2	1		0	// Bloodangel Elf Pants
+9		101		0		2		0		0		0		2	1		0	// Bloodangel Summoner Pants
+9		102		0		2		0		0		0		2	1		0	// Bloodangel Magic Pants
+9		103		0		2		0		0		0		2	1		0	// Bloodangel Lord Pants
+9		104		0		2		0		0		0		2	1		0	// Bloodangel Fighter Pants
+10		98		0		2		1		1		0		2	1		0	// Bloodangel Knight Gloves
+10		99		0		2		1		1		0		2	1		0	// Bloodangel Wizard Gloves
+10		100		0		2		1		1		0		2	1		0	// Bloodangel Elf Gloves
+10		101		0		2		1		1		0		2	1		0	// Bloodangel Summoner Gloves
+10		102		0		2		1		1		0		2	1		0	// Bloodangel Magic Gloves
+10		103		0		2		1		1		0		2	1		0	// Bloodangel Lord Gloves
+10		98		0		2		0		0		0		2	1		0	// Bloodangel Knight Gloves
+10		99		0		2		0		0		0		2	1		0	// Bloodangel Wizard Gloves
+10		100		0		2		0		0		0		2	1		0	// Bloodangel Elf Gloves
+10		101		0		2		0		0		0		2	1		0	// Bloodangel Summoner Gloves
+10		102		0		2		0		0		0		2	1		0	// Bloodangel Magic Gloves
+10		103		0		2		0		0		0		2	1		0	// Bloodangel Lord Gloves
+11		98		0		2		1		1		0		2	1		0	// Bloodangel Knight Boots
+11		99		0		2		1		1		0		2	1		0	// Bloodangel Wizard Boots
+11		100		0		2		1		1		0		2	1		0	// Bloodangel Elf Boots
+11		101		0		2		1		1		0		2	1		0	// Bloodangel Summoner Boots
+11		102		0		2		1		1		0		2	1		0	// Bloodangel Magic Boots
+11		103		0		2		1		1		0		2	1		0	// Bloodangel Lord Boots
+11		104		0		2		1		1		0		2	1		0	// Bloodangel Fighter Boots
+11		98		0		2		0		0		0		2	1		0	// Bloodangel Knight Boots
+11		99		0		2		0		0		0		2	1		0	// Bloodangel Wizard Boots
+11		100		0		2		0		0		0		2	1		0	// Bloodangel Elf Boots
+11		101		0		2		0		0		0		2	1		0	// Bloodangel Summoner Boots
+11		102		0		2		0		0		0		2	1		0	// Bloodangel Magic Boots
+11		103		0		2		0		0		0		2	1		0	// Bloodangel Lord Boots
+11		104		0		2		0		0		0		2	1		0	// Bloodangel Fighter Boots
+0		44		0		0		1		1		0		2	0		0	// Bloodangel Sword     
+0		42		0		0		1		1		0		2	0		0	// Bloodangel Magic Sword
+0		100		0		0		1		1		0		2	0		0	// Bloodangel Claw
+2		22		0		0		1		1		0		2	0		0	// Bloodangel Scepter
+4		28		0		0		1		1		0		2	0		0	// Bloodangel Bow
+5		41		0		0		1		1		0		2	0		0	// Bloodangel Staff
+5		43		0		0		1		1		0		2	0		0	// Bloodangel Stick
+6		30		0		0		1		1		0		2	0		0	// Bloodangel Shield
+end

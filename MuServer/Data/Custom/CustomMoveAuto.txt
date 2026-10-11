@@ -1,0 +1,26 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+//0         *      *       *     *       *     27        0
+end
+
+
+// 17  Lorencia
+// 22  Devias
+// 27  Noria
+// 267 Elbeland
+1
+//Index   SourceMap      TargetGate
+//0         *		 267                 
+end
+
+2
+//Index   SourceMap      TargetMap    TargetX     TargetY
+//0         0		 2            222         62     
+end

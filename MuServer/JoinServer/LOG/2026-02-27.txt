@@ -1,0 +1,63 @@
+04:12:49 [SocketManager] WSAAccept() failed with error: 10061
+04:30:35 [SocketManager] WSAAccept() failed with error: 10061
+04:43:56 [SocketManager] WSAAccept() failed with error: 10061
+04:56:10 [SocketManager] WSAAccept() failed with error: 10061
+05:07:56 [SocketManager] WSAAccept() failed with error: 10061
+05:20:17 [SocketManager] WSAAccept() failed with error: 10061
+05:31:36 [SocketManager] WSAAccept() failed with error: 10061
+05:42:55 [SocketManager] WSAAccept() failed with error: 10061
+08:55:09 [SocketManager] Server started at port [55970]
+08:55:15 [ServerManager][0] AddServer (127.0.0.1)
+08:55:15 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+08:55:22 [ServerManager][1] AddServer (127.0.0.1)
+08:55:22 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+09:15:32 [SocketManager] Server started at port [55970]
+09:15:39 [ServerManager][0] AddServer (127.0.0.1)
+09:15:39 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+09:15:46 [ServerManager][1] AddServer (127.0.0.1)
+09:15:46 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+09:31:56 [SocketManager] Server started at port [55970]
+09:32:32 [ServerManager][0] AddServer (127.0.0.1)
+09:32:32 [ServerManager][0] ServerInfo (Geral) (55919) (19)
+09:34:35 [SocketManager] Server started at port [55970]
+09:34:42 [ServerManager][0] AddServer (127.0.0.1)
+09:34:42 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+09:34:49 [ServerManager][1] AddServer (127.0.0.1)
+09:34:49 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+10:59:40 [SocketManager] Server started at port [55970]
+10:59:47 [ServerManager][0] AddServer (127.0.0.1)
+10:59:47 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+10:59:54 [ServerManager][1] AddServer (127.0.0.1)
+10:59:54 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+13:06:56 [SocketManager] Server started at port [55970]
+13:07:02 [ServerManager][0] AddServer (127.0.0.1)
+13:07:02 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+13:07:09 [ServerManager][1] AddServer (127.0.0.1)
+13:07:09 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+13:08:08 Account hellder logged with global password!
+13:41:21 Account hellderr logged with global password!
+13:43:16 [SocketManager] Server started at port [55970]
+13:43:24 [ServerManager][0] AddServer (127.0.0.1)
+13:43:24 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+13:43:31 [ServerManager][1] AddServer (127.0.0.1)
+13:43:31 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+13:43:50 Account hellderr logged with global password!
+13:44:20 Account hellder logged with global password!
+16:33:16 [SocketManager] Server started at port [55970]
+16:33:22 [ServerManager][0] AddServer (127.0.0.1)
+16:33:22 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+16:33:29 [ServerManager][1] AddServer (127.0.0.1)
+16:33:29 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+16:37:13 [SocketManager] Server started at port [55970]
+16:37:19 [ServerManager][0] AddServer (127.0.0.1)
+16:37:19 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+16:37:26 [ServerManager][1] AddServer (127.0.0.1)
+16:37:26 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+23:07:26 [SocketManager] Server started at port [55970]
+23:08:00 [ServerManager][0] AddServer (127.0.0.1)
+23:08:00 [ServerManager][0] ServerInfo (Geral) (55919) (19)
+23:09:49 [SocketManager] Server started at port [55970]
+23:09:55 [ServerManager][0] AddServer (127.0.0.1)
+23:09:55 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+23:10:02 [ServerManager][1] AddServer (127.0.0.1)
+23:10:02 [ServerManager][1] ServerInfo (Geral) (55919) (19)

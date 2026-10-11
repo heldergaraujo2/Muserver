@@ -1,0 +1,45 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// Add info commands in custom menu
+// Colors:
+// 1 - Gold
+// 2 - White
+// 3 - Orange
+// 4 - Red
+// 5 - Green
+// 6 - Yellow
+// 7 - Purple
+/////////////////////////////////////////////////////////////////////////////////////////
+//	#ID	#Color	#CommandInfo 			#CommandDescription			 										
+	0	2	"/post <Msg>"				"Postar msg no chat Global"		
+	1	2	"/f <points>"				"Add pontos em STR"				
+	2	2	"/a <points>"				"Add pontos em AGI"				
+	3	2	"/v <points>"				"Add pontos em VIT"				
+	4	2	"/e <points>"				"Add pontos em ENE"				
+	5	2	"/c <points>"				"Add pontos em COM"				
+	6	2	"Aperte END Calculadora"	"Calculadora de UP"				
+	7	2	"Aperte CTRL 3x Rapido"		"Ativa O Modo PVP"											
+	8	3	"/information"				"Dicas sobre o server"
+    9	3   "/limparinv"            	"Limpa o inventario"
+    10	3   "/re auto"              	"Aceita Party automatico"
+    11	3   "/setparty 1234"        	"Cria uma party com Senha"
+    12	3   "/joinparty 1234"       	"Ingressa na party com Senha"	
+    13	3   "/readd"                	"Custa 600 HC"
+	14	3   "/remaster" 				"Redistribuir pontos MasterTree"
+    15	3   "/lock <senha> | /unlock" 	"Senha para bloquear inventario"
+    16	5   "Aperte U para mais INFO"    "Aperte U e confira as opções"
+    17	5   "/unpack <joia> 10 20 30"    "Para Desfazer Packs"
+    18	5   "/pack <joia> 10 20 30" 	"Juntas Joias em 10 20 30"	
+    19	5   "Helper + Save + Offatk"   	"Abra o HELPER Configure e Salve"
+    20	5   "Aperte <J> Bank Jewel"      "Ctrl + Click Direito Deposita"		
+    21	5   "Aperte <DEL> Auto Pot"      "Auto Potion"		
+    22	5   "/bar"                		"Move para dentro do bar Lorencia"		
+    23	5   "/cm"                		"Move para Chaos Maxine em Noria"		
+    24	5   "/igreja"                	"Move para Igreja em Devias"		
+    25	1   "/ringue"                	"Move para Ringue em Lorencia"	
+end

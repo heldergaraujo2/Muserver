@@ -1,0 +1,32 @@
+12:54:56 [SCRIPT LOG] Start
+12:54:56 [Loader] Lua Gameserver socket ready!
+12:54:56 [Loader] Load success System\ScriptCore
+12:54:56 [Loader] Load success System\ProtocolCore
+12:54:56 [Loader] Load success Scripts\CalCharacter
+12:54:56 [Loader] Load success Utils\Database
+12:54:56 [Loader] Load success Utils\DatabaseAsync
+12:54:56 [Loader] Load success Utils\Cron
+12:54:56 [Loader] Load success Utils\Functions
+12:54:56 [Loader] Load success Utils\Schedule
+12:54:56 [Loader] Load success Scripts\Transformation\Config
+12:54:56 [Loader] Load folder success Scripts\Transformation\
+12:54:56 Connected to database
+12:54:56 Connected to Async database
+12:54:56 Teste query: ZZZZZZZZZZ
+12:54:56 [ServerInfo] Script loaded successfully
+13:03:53 [SCRIPT LOG] Start
+13:03:54 [Loader] Lua Gameserver socket ready!
+13:03:54 [Loader] Load success System\ScriptCore
+13:03:54 [Loader] Load success System\ProtocolCore
+13:03:54 [Loader] Load success Scripts\CalCharacter
+13:03:54 [Loader] Load success Utils\Database
+13:03:54 [Loader] Load success Utils\DatabaseAsync
+13:03:54 [Loader] Load success Utils\Cron
+13:03:54 [Loader] Load success Utils\Functions
+13:03:54 [Loader] Load success Utils\Schedule
+13:03:54 [Loader] Load success Scripts\Transformation\Config
+13:03:54 [Loader] Load folder success Scripts\Transformation\
+13:03:54 Connected to database
+13:03:54 Connected to Async database
+13:03:54 Teste query: ZZZZZZZZZZ
+13:03:54 [ServerInfo] Script loaded successfully

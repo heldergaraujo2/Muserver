@@ -1,0 +1,36 @@
+10:21:24 ============================= START MIX ============================= 
+10:21:24 [Slot 01](Name: Divine Pants, Index: 4627, Level: 00, Dur: 89, Serial: 0089BF7F, Option1: 0, Option2: 1, Option3: 1, NewOpt: 001, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:24 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:27 ============================= START MIX ============================= 
+10:21:27 [Slot 01](Name: Dark Steel Gloves, Index: 5147, Level: 00, Dur: 85, Serial: 0089BF90, Option1: 0, Option2: 1, Option3: 1, NewOpt: 020, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:27 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:32 ============================= START MIX ============================= 
+10:21:32 [Slot 01](Name: Ancient Pants, Index: 4649, Level: 00, Dur: 69, Serial: 0089BFA3, Option1: 0, Option2: 1, Option3: 1, NewOpt: 001, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:32 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:36 ============================= START MIX ============================= 
+10:21:36 [Slot 01](Name: Divine Gloves, Index: 5139, Level: 00, Dur: 89, Serial: 0089BFAB, Option1: 0, Option2: 0, Option3: 1, NewOpt: 001, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:36 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:39 ============================= START MIX ============================= 
+10:21:39 [Slot 01](Name: Grand Soul Boots, Index: 5650, Level: 00, Dur: 82, Serial: 0089C013, Option1: 0, Option2: 0, Option3: 1, NewOpt: 002, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:39 [JewelOfHarmonyItemSmeltMix][Success][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:43 ============================= START MIX ============================= 
+10:21:43 [Slot 01](Name: Dark Steel Gloves, Index: 5147, Level: 00, Dur: 85, Serial: 0089C020, Option1: 0, Option2: 1, Option3: 1, NewOpt: 032, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:43 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:47 ============================= START MIX ============================= 
+10:21:47 [Slot 01](Name: Ancient Pants, Index: 4649, Level: 00, Dur: 69, Serial: 0089C02A, Option1: 0, Option2: 1, Option3: 1, NewOpt: 016, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:47 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+10:21:50 ============================= START MIX ============================= 
+10:21:50 [Slot 01](Name: Divine Boots, Index: 5651, Level: 00, Dur: 89, Serial: 0089BFB5, Option1: 0, Option2: 0, Option3: 1, NewOpt: 008, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+10:21:50 [JewelOfHarmonyItemSmeltMix][Failure][horaga][Horaga] - (ChaosSuccessRate: 25, ChaosMoney: 0)
+12:35:33 ============================= START MIX ============================= 
+12:35:33 [Slot 01](Name: Chaos Card, Index: 7222, Level: 00, Dur: 1, Serial: 0089FAA0, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:35:33 [ChaosCardMix][Success][horaga][Horaga] - (Type: 1, ChaosSuccessRate: 0, ChaosMoney: 0)
+12:35:38 ============================= START MIX ============================= 
+12:35:38 [Slot 01](Name: Chaos Card, Index: 7222, Level: 00, Dur: 1, Serial: 0089FAA1, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:35:38 [ChaosCardMix][Success][horaga][Horaga] - (Type: 1, ChaosSuccessRate: 0, ChaosMoney: 0)
+12:35:42 ============================= START MIX ============================= 
+12:35:42 [Slot 01](Name: Chaos Card, Index: 7222, Level: 00, Dur: 1, Serial: 0089FAA2, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:35:42 [ChaosCardMix][Success][horaga][Horaga] - (Type: 1, ChaosSuccessRate: 0, ChaosMoney: 0)
+12:35:45 ============================= START MIX ============================= 
+12:35:45 [Slot 01](Name: Chaos Card, Index: 7222, Level: 00, Dur: 1, Serial: 0089FAA3, Option1: 0, Option2: 0, Option3: 0, NewOpt: 000, SetOpt: 000, JOH: 000, ItemOptEx: 000, SocketOpt: 255, 255, 255, 255, 255)
+12:35:45 [ChaosCardMix][Success][horaga][Horaga] - (Type: 1, ChaosSuccessRate: 0, ChaosMoney: 0)

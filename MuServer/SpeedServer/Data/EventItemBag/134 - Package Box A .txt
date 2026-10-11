@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Package Box A"		0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	21	0	0	0	1	7	2	// Great Dragon Helm
+8	21	0	0	0	1	7	2	// Great Dragon Armor
+9	21	0	0	0	1	7	2	// Great Dragon Pants
+10	21	0	0	0	1	7	2	// Great Dragon Gloves
+11	21	0	0	0	1	7	2	// Great Dragon Boots
+end

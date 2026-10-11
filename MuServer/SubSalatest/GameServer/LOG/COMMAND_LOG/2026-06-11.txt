@@ -1,0 +1,16 @@
+13:09:38 [CommandReAdd][hellder][Saffe] - OK
+13:09:43 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 1415)
+13:16:40 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 1000)
+13:16:44 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 1000)
+13:16:48 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 1000)
+13:16:53 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 500)
+13:16:57 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 500)
+13:27:05 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 24570)
+13:32:42 [CommandAddPoint][hellder][Saffe] - (Type: 1, Amount: 100)
+13:33:18 [CommandMake][hellder][Saffe] Section: 13, Type: 240, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:46:20 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 400, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:46:23 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 401, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:46:32 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 401, Level: 7, Skill: 1, Luck: 1, Option: 4, Exc: 60, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:46:36 [CommandMake][videodv][AdmSaffe] Section: 13, Type: 400, Level: 7, Skill: 1, Luck: 1, Option: 4, Exc: 60, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:43:32 [Command Clear Iventory] Use for:[pvp02][PVPRF]
+20:41:49 [CommandRename][pvp02][PVPRF] - (NewName: TacaPreda)

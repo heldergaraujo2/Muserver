@@ -1,0 +1,40 @@
+// Max 10 Luck Wheels
+//Requirement
+0	
+	//Index   ItemIndex   ItemAmount   Coin1   Coin2   Coin3
+	0	  *           *            50      0       0
+//	1	  7168        5            0       0       0
+end
+
+// Item List (Required 12 item by index)
+// ItemPos = Positve/Negative
+// ItemSize = 1 to 10 (1 is bigger)
+1
+	//Index   Slot   Rate  ItemPosX  ItemPosY   ItemSize   ItemIndex   Level   Dur   Skill   Luck   Option   ExcOp   SetOp   JoH   OEx   Socket1   Socket2   Socket3   Socket4   Socket5   BonusSocket   Duration   Name
+	0 	  1      50    0         5          10         7264        0       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1
+	0 	  2      5     0         5          10         7179        11      0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +2
+	0 	  3      5     0         0          10         7179        8       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1
+	0 	  4      5     0         0          10         7182        0       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +3
+	0 	  5      5     0         0          10         7179        8       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1
+	0 	  6      5     0         0          10         7179        9       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +2
+    0 	  7      5     0         0          10         7181        0       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1
+	0 	  8      5     0         0          10         7179        11      0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +4
+	0 	  9      5     0         0          10         7179        8       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1
+	0 	  10     5     0         0          10         7184        0       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +3
+   	0 	  11     4     0         0          10         7179        8       0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +1	
+	0 	  12     1     0         0          10         7179        12      0     0       0      0        0       0       0     0     255       255       255       255       255       255           0          //Box +5
+
+	//Index   Slot   Rate  ItemPosX  ItemPosY   ItemSize   ItemIndex   Level   Dur   Skill   Luck   Option   ExcOp   SetOp   JoH   OEx   Socket1   Socket2   Socket3   Socket4   Socket5   BonusSocket   Duration   Name
+	1 	  1      50    0         0          10         7179        1       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Bless+10
+	1 	  2      5     0         0          10         7179        3       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Bless+20
+	1 	  3      5     0         0          10         7179        5       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Bless+30
+	1 	  4      5     0         0          10         7179        6       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Soul+10
+	1 	  5      5     0         0          10         7179        7       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Soul+20
+	1 	  6      5     0         0          10         7179        13      0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Soul+30
+    1 	  7      5     0         0          10         7179        0       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Creation+10
+	1 	  8      5     0         0          10         7179        1       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Creation+20
+	1 	  9      5     0         0          10         7179        3       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Creation+30
+	1 	  10     5     0         0          10         7179        6       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Life+10
+    1 	  11     4     0         0          10         7179        13      0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Life+20
+	1 	  12     1     0         0          10         7179        0       0     0       0      0        0       0       0     0	   255       255       255       255       255       255          0          //Bundled Jewel of Life+30
+end

@@ -1,0 +1,36 @@
+[GameServerInfo]
+;==================================================
+; Connection Settings
+;==================================================
+DiscordServerActive = 1
+DiscordServerAddress = 127.0.0.1
+DiscordServerPort = 55990
+
+;==================================================
+; Active Hook Settings
+;==================================================
+DiscordHookChat = 1
+DiscordHookConnect = 1
+DiscordHookDisconnect = 1
+DiscordHookAntihack = 1
+DiscordHookSetCoin= 1
+DiscordHookChaosMix = 1
+DiscordHookReset = 1
+DiscordHookMasterReset = 1
+DiscordHookBloodCastle = 1
+DiscordHookDevilSquare = 1
+DiscordHookChaosCastle = 1
+DiscordHookIllusionTemple = 1
+DiscordHookRankUser = 1
+DiscordHookCustomQuest = 1
+DiscordHookKill = 1
+DiscordHookEventStart = 1
+DiscordHookPostItem = 1
+DiscordHookInvasionStart = 1
+DiscordHookInvasionWinner = 1
+DiscordHookGremory = 1
+DiscordHookSmithShop = 1
+DiscordHookGiftCode = 1
+DiscordHookMarketPlace = 1
+DiscordHookItemDrop = 1  ;new line
+DiscordHookItemPick = 1  ;new line

@@ -1,0 +1,51 @@
+00:25:39 [SCRIPT LOG] Start
+00:25:40 [Loader] Lua Gameserver socket ready!
+00:25:40 [Loader] Load success System\ScriptCore
+00:25:40 [Loader] Load success System\ProtocolCore
+00:25:40 [Loader] Load success Utils\Database
+00:25:40 [Loader] Load success Utils\DatabaseAsync
+00:25:40 [Loader] Load success Utils\Cron
+00:25:40 [Loader] Load success Utils\Functions
+00:25:40 [Loader] Load success Utils\Schedule
+00:25:40 Connected to database
+00:25:40 Connected to Async database
+00:25:40 Teste query: ZZZZZZZZZZ
+00:25:40 [ServerInfo] Script loaded successfully
+00:31:53 [SCRIPT LOG] Start
+00:31:53 [Loader] Lua Gameserver socket ready!
+00:31:53 [Loader] Load success System\ScriptCore
+00:31:53 [Loader] Load success System\ProtocolCore
+00:31:53 [Loader] Load success Utils\Database
+00:31:53 [Loader] Load success Utils\DatabaseAsync
+00:31:53 [Loader] Load success Utils\Cron
+00:31:53 [Loader] Load success Utils\Functions
+00:31:53 [Loader] Load success Utils\Schedule
+00:31:53 Connected to database
+00:31:53 Connected to Async database
+00:31:53 Teste query: ZZZZZZZZZZ
+00:31:53 [ServerInfo] Script loaded successfully
+08:03:29 [SCRIPT LOG] Start
+08:03:30 [Loader] Lua Gameserver socket ready!
+08:03:30 [Loader] Load success System\ScriptCore
+08:03:30 [Loader] Load success System\ProtocolCore
+08:03:30 [Loader] Load success Utils\Database
+08:03:30 [Loader] Load success Utils\DatabaseAsync
+08:03:30 [Loader] Load success Utils\Cron
+08:03:30 [Loader] Load success Utils\Functions
+08:03:30 [Loader] Load success Utils\Schedule
+08:03:30 Connected to database
+08:03:30 Connected to Async database
+08:03:30 Teste query: ZZZZZZZZZZ
+08:03:30 [ServerInfo] Script loaded successfully
+09:24:25 [Loader] Lua Gameserver socket ready!
+09:24:25 [Loader] Load success System\ScriptCore
+09:24:25 [Loader] Load success System\ProtocolCore
+09:24:25 [Loader] Load success Utils\Database
+09:24:25 [Loader] Load success Utils\DatabaseAsync
+09:24:25 [Loader] Load success Utils\Cron
+09:24:25 [Loader] Load success Utils\Functions
+09:24:25 [Loader] Load success Utils\Schedule
+09:24:25 Connected to database
+09:24:25 Connected to Async database
+09:24:25 Teste query: ZZZZZZZZZZ
+09:24:25 [ServerInfo] Script loaded successfully

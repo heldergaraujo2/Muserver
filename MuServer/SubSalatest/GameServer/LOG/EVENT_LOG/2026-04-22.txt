@@ -1,0 +1,186 @@
+00:01:26 [ MarlonMove ] Map: 3, X: 169 Y: 89
+00:16:27 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:31:28 [ MarlonMove ] Map: 2, X: 198 Y: 47
+00:35:00 [CustomQuiz] Start
+00:40:00 [CustomQuiz] Finish
+00:46:29 [ MarlonMove ] Map: 7, X: 17 Y: 25
+01:01:30 [ MarlonMove ] Map: 0, X: 137 Y: 87
+01:16:31 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:31:32 [ MarlonMove ] Map: 7, X: 17 Y: 25
+01:35:00 [CustomQuiz] Start
+01:40:00 [CustomQuiz] Finish
+01:46:33 [ MarlonMove ] Map: 3, X: 169 Y: 89
+02:01:34 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+02:16:35 [ MarlonMove ] Map: 7, X: 17 Y: 25
+02:31:36 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:35:00 [CustomQuiz] Start
+02:40:00 [CustomQuiz] Finish
+02:46:37 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:01:38 [ MarlonMove ] Map: 2, X: 198 Y: 47
+03:16:39 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:31:40 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:35:00 [CustomQuiz] Start
+03:40:00 [CustomQuiz] Finish
+03:46:41 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:01:42 [ MarlonMove ] Map: 3, X: 169 Y: 89
+04:16:43 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:31:44 [ MarlonMove ] Map: 3, X: 169 Y: 89
+04:35:00 [CustomQuiz] Start
+04:40:01 [CustomQuiz] Finish
+04:46:45 [ MarlonMove ] Map: 2, X: 198 Y: 47
+05:01:46 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:16:47 [ MarlonMove ] Map: 0, X: 137 Y: 87
+05:31:48 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:35:00 [CustomQuiz] Start
+05:40:00 [CustomQuiz] Finish
+05:46:49 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:01:50 [ MarlonMove ] Map: 2, X: 198 Y: 47
+06:16:51 [ MarlonMove ] Map: 0, X: 137 Y: 87
+06:31:52 [ MarlonMove ] Map: 7, X: 17 Y: 25
+06:35:00 [CustomQuiz] Start
+06:40:00 [CustomQuiz] Finish
+06:46:53 [ MarlonMove ] Map: 3, X: 169 Y: 89
+07:01:54 [ MarlonMove ] Map: 2, X: 198 Y: 47
+07:16:55 [ MarlonMove ] Map: 3, X: 169 Y: 89
+07:31:56 [ MarlonMove ] Map: 2, X: 198 Y: 47
+07:35:00 [CustomQuiz] Start
+07:40:00 [CustomQuiz] Finish
+07:46:57 [ MarlonMove ] Map: 7, X: 17 Y: 25
+08:01:58 [ MarlonMove ] Map: 3, X: 169 Y: 89
+08:16:59 [ MarlonMove ] Map: 7, X: 17 Y: 25
+08:32:00 [ MarlonMove ] Map: 0, X: 137 Y: 87
+08:35:00 [CustomQuiz] Start
+08:40:00 [CustomQuiz] Finish
+08:47:01 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:02:02 [ MarlonMove ] Map: 0, X: 137 Y: 87
+09:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+09:17:03 [ MarlonMove ] Map: 7, X: 17 Y: 25
+09:32:04 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:35:00 [CustomQuiz] Start
+09:40:00 [CustomQuiz] Finish
+09:47:05 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:02:06 [ MarlonMove ] Map: 3, X: 169 Y: 89
+10:17:07 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:32:08 [ MarlonMove ] Map: 3, X: 169 Y: 89
+10:35:00 [CustomQuiz] Start
+10:40:00 [CustomQuiz] Finish
+10:47:09 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:02:10 [ MarlonMove ] Map: 2, X: 198 Y: 47
+11:17:11 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:32:12 [ MarlonMove ] Map: 0, X: 137 Y: 87
+11:35:00 [CustomQuiz] Start
+11:40:00 [CustomQuiz] Finish
+11:47:13 [ MarlonMove ] Map: 2, X: 198 Y: 47
+12:02:14 [ MarlonMove ] Map: 3, X: 169 Y: 89
+12:09:00 [EVENT LOG] Start
+12:09:01 [Auction Event Index 1] Started
+12:09:02 [Auction 1] Checking Data
+12:09:02 [Auction 1] Ended
+12:09:02 [Guild Reign] DataLoad Send
+12:09:02 [Guild Reign] DataLoad OK
+12:09:02 [Guild Reign] Map(6) Start Npc Error #2
+12:09:02 [Guild Reign] Map(113) Start Npc Error #2
+12:24:02 [ MarlonMove ] Map: 7, X: 17 Y: 25
+12:35:00 [CustomQuiz] Start
+12:39:03 [ MarlonMove ] Map: 2, X: 198 Y: 47
+12:40:00 [CustomQuiz] Finish
+12:54:04 [ MarlonMove ] Map: 0, X: 137 Y: 87
+13:09:05 [ MarlonMove ] Map: 2, X: 198 Y: 47
+13:24:06 [ MarlonMove ] Map: 3, X: 169 Y: 89
+13:35:00 [CustomQuiz] Start
+13:39:07 [ MarlonMove ] Map: 2, X: 198 Y: 47
+13:40:00 [CustomQuiz] Finish
+13:54:08 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:05:00 [Pandora Event] Started (Map: Icarus X: 74, Y: 86)
+14:09:09 [ MarlonMove ] Map: 7, X: 17 Y: 25
+14:10:00 [Pandora Event] Finished (No Winner)
+14:24:10 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:35:00 [CustomQuiz] Start
+14:39:11 [ MarlonMove ] Map: 7, X: 17 Y: 25
+14:40:00 [CustomQuiz] Finish
+14:54:12 [ MarlonMove ] Map: 3, X: 169 Y: 89
+15:09:13 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:24:14 [ MarlonMove ] Map: 2, X: 198 Y: 47
+15:35:00 [CustomQuiz] Start
+15:39:15 [ MarlonMove ] Map: 3, X: 169 Y: 89
+15:40:00 [CustomQuiz] Finish
+15:54:16 [ MarlonMove ] Map: 0, X: 137 Y: 87
+16:09:17 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+16:24:18 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:35:00 [CustomQuiz] Start
+16:39:19 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:40:00 [CustomQuiz] Finish
+16:54:20 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:09:21 [ MarlonMove ] Map: 7, X: 17 Y: 25
+17:24:22 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:35:00 [CustomQuiz] Start
+17:39:23 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:40:00 [CustomQuiz] Finish
+17:54:24 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:09:25 [ MarlonMove ] Map: 7, X: 17 Y: 25
+18:24:26 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:35:00 [CustomQuiz] Start
+18:39:27 [ MarlonMove ] Map: 7, X: 17 Y: 25
+18:40:00 [CustomQuiz] Finish
+18:54:28 [ MarlonMove ] Map: 3, X: 169 Y: 89
+19:09:29 [ MarlonMove ] Map: 0, X: 137 Y: 87
+19:24:30 [ MarlonMove ] Map: 2, X: 198 Y: 47
+19:35:00 [CustomQuiz] Start
+19:39:31 [ MarlonMove ] Map: 7, X: 17 Y: 25
+19:40:00 [CustomQuiz] Finish
+19:47:30 [Guild Reign] DataLoad Send
+19:47:30 [Guild Reign] DataLoad OK
+19:47:30 [Guild Reign] Map(6) Start Npc Error #2
+19:47:30 [Guild Reign] Map(113) Start Npc Error #2
+19:51:12 [EVENT LOG] Start
+19:51:13 [Auction Event Index 1] Started
+19:51:14 [Auction 1] Checking Data
+19:51:14 [Auction 1] Ended
+19:51:14 [Guild Reign] DataLoad Send
+19:51:14 [Guild Reign] DataLoad OK
+19:51:14 [Guild Reign] Map(6) Start Npc Error #2
+19:51:14 [Guild Reign] Map(113) Start Npc Error #2
+20:06:14 [ MarlonMove ] Map: 7, X: 17 Y: 25
+20:21:15 [ MarlonMove ] Map: 3, X: 169 Y: 89
+20:30:00 [KING OF MU] Start
+20:35:00 [CustomQuiz] Start
+20:35:00 [KING OF MU] Finish - No Winner
+20:36:16 [ MarlonMove ] Map: 0, X: 137 Y: 87
+20:40:00 [CustomQuiz] Finish
+20:50:00 [Pandora Event] Started (Map: Tarkan X: 17, Y: 94)
+20:51:17 [ MarlonMove ] Map: 3, X: 169 Y: 89
+20:55:00 [Pandora Event] Finished (No Winner)
+21:06:18 [ MarlonMove ] Map: 2, X: 198 Y: 47
+21:15:45 [Guild Reign] Map(6) Start Npc Error #2
+21:15:45 [Guild Reign] Map(113) Start Npc Error #2
+21:15:52 [pvp01][PVPDL] Add BattlePass Star(Rank User) Value: 1
+21:15:52 [pvp01][PVPDL] Add BattlePass Star(Level Up) Value: 1
+21:19:03 [Guild Reign] Map(6) Start Npc Error #2
+21:19:03 [Guild Reign] Map(113) Start Npc Error #2
+21:25:07 [Guild Reign] DataLoad Send
+21:25:08 [Guild Reign] DataLoad OK
+21:25:08 [Guild Reign] Map(6) Start Npc Error #2
+21:25:08 [Guild Reign] Map(113) Start Npc Error #2
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 0 X: 150 Y: 127)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 23 Y: 17)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 20 Y: 60)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 49 Y: 94)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 103 Y: 51)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 236 Y: 18)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 230 Y: 71)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 83 Y: 143)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 147 Y: 168)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 176 Y: 177)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 124 Y: 206)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 28 Y: 228)
+22:22:56 [Guild Reign] DataLoad Send
+22:22:56 [Guild Reign] DataLoad OK
+22:22:56 [Guild Reign] Map(6) Start Npc Error #2
+22:22:56 [Guild Reign] Map(113) Start Npc Error #2
+22:24:50 [Guild Reign] DataLoad Send
+22:24:50 [Guild Reign] DataLoad OK
+22:24:50 [Guild Reign] Map(6) Start Npc Error #2
+22:24:50 [Guild Reign] Map(113) Start Npc Error #2
+23:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225

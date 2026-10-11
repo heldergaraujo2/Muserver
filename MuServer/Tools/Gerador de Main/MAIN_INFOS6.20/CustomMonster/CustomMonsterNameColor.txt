@@ -1,0 +1,75 @@
+//############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR
+//# -- https://3dservers.com.br/
+//# -- © 2025 Bruno3D Development
+//# ----------------------------------------------------------
+//# -- File is a part of 3DServers MuOnline Server files.
+//############################################################
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// BOSS
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+//Index   ColorR   ColorG   ColorB   Description
+77        100      255      100      // Phoenix of Darkness
+275       100      255      100      // Kundun
+295       100      255      100      // Erohim
+349       100      255      100      // Balgass
+361       100      255      100      // Nightmare
+412       100      255      100      // Dark Elf (3th Quest)
+459       100      255      100      // Selupan
+504       100      255      100      // Gaion
+529       100      255      100      // Furious Slaughterer
+561       100      255      100      // Medusa
+678       100      255      100      // Lord of Ferea
+682       100      255      100      // Lord Silvester
+683       100      255      100      // Core Magriffy
+687       100      255      100      // Nix
+694       100      255      100      // God of Darkness
+737       100      255      100      // Special Evomon
+784       100      255      100      // Cursed Tower
+798       100      255      100      // Golden Erohim
+799       100      255      100      // Golden Hell Maine
+800       100      255      100      // Golden Kundun
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// SUB BOSS
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+//Index   ColorR   ColorG   ColorB   Description
+18        255      102      0        // Gorgon
+25        255      102      0        // Ice Queen
+38        255      102      0        // Balrog
+49        255      102      0        // Hydra
+59        255      102      0        // Zaikan
+135       255      102      0        // White Wizard
+161       255      102      0        // Illusion of Kundun
+181       255      102      0        // Illusion of Kundun
+189       255      102      0        // Illusion of Kundun
+197       255      102      0        // Illusion of Kundun
+267       255      102      0        // Illusion of Kundun
+338       255      102      0        // Illusion of Kundun
+362       255      102      0        // Maya Hand
+363       255      102      0        // Maya Hand
+364       255      102      0        // Maya
+476       255      102      0        // Cursed Santa
+505       255      102      0        // Jerint
+506       255      102      0        // Raymond
+507       255      102      0        // Erkanne
+508       255      102      0        // Destler
+509       255      102      0        // Vermont
+510       255      102      0        // Kato
+511       255      102      0        // Galia
+530       255      102      0        // Slaughterer
+531       255      102      0        // Ice Walker
+532       255      102      0        // Larva
+692       255      102      0        // Monster of the Swamp
+693       255      102      0        // Monster of the Water
+710       255      102      0        // Ferea Crystal Orb
+735       255      102      0        // Evomon (Lv2)
+796       255      102      0        // Golden Titan
+797       255      102      0        // Golden Tantalose
+819       100      255      100
+820       100      255      100
+821       100      255      100 
+822       100      255      100  
+823       100      255      100   
+824       100      255      100 
+862       255      102      0        // Larva       
+end

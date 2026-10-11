@@ -1,0 +1,72 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+3
+//Index	DropRate	DropInventory
+0	10000			0
+1	10000			0
+2	10000			0
+end
+
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0		5		10000	0		0			1	1	1	1	1	1	1
+1		5		10000	0		0			1	1	1	1	1	1	1
+2		6		10000	0		0			1	1	1	1	1	1	1
+end
+
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+3613	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Helm
+4125	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Armor
+4637	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Pants
+5149	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Gloves
+5661	0	0	1	0	10	20	13	0	0	0		// Dragon Knight Boots
+0022	0	0	1	1	10	20	13	0	0	0		// Bone Blade
+3614	0	0	1	0	10	20	13	0	0	0		// Venom Mist Helm
+4126	0	0	1	0	10	20	13	0	0	0		// Venom Mist Armor
+4638	0	0	1	0	10	20	13	0	0	0		// Venom Mist Pants
+5150	0	0	1	0	10	20	13	0	0	0		// Venom Mist Gloves
+5662	0	0	1	0	10	20	13	0	0	0		// Venom Mist Boots
+2572	0	0	1	1	10	20	13	0	0	0		// Grand Viper Staff
+3615	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Helm
+4127	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Armor
+4639	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Pants
+5151	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Gloves
+5663	0	0	1	0	10	20	13	0	0	0		// Sylphid Ray Boots
+2069	0	0	1	1	10	20	13	0	0	0		// Sylph Wind Bow
+4128	0	0	1	0	10	20	13	0	0	0		// Volcano Armor
+4640	0	0	1	0	10	20	13	0	0	0		// Volcano Pants
+5152	0	0	1	0	10	20	13	0	0	0		// Volcano Gloves
+5664	0	0	1	0	10	20	13	0	0	0		// Volcano Boots
+0023	0	0	1	1	10	20	13	0	0	0		// Explosion Blade
+3617	0	0	1	0	10	20	13	0	0	0		// Sunlight Mask
+4129	0	0	1	0	10	20	13	0	0	0		// Sunlight Armor
+4641	0	0	1	0	10	20	13	0	0	0		// Sunlight Pants
+5153	0	0	1	0	10	20	13	0	0	0		// Sunlight Gloves
+5665	0	0	1	0	10	20	13	0	0	0		// Sunlight Boots
+1038	0	0	1	1	10	20	13	0	0	0		// Soleil Sceptor
+3627	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Helm
+4139	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Armor
+4651	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Pants
+5163	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Gloves
+5675	0	0	1	0	10	20	13	0	0	0		// Storm Blitz Boots
+2579	0	0	1	1	10	20	13	0	0	0		// Storm Blitz Stick
+3657	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Helm
+4169	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Armor
+4681	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Pants
+5705	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Boots
+0035	0	0	1	0	10	20	13	0	0	0		// Phoenix Soul Star
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+7264	0		0		1		0		0		0		0		0		0		0		// Talisman of Chaos Assembly
+7221	0		0		1		0		0		0		0		0		0		0		// Talisman of Luck
+end

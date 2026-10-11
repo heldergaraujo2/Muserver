@@ -1,0 +1,10 @@
+06:36:42 : [SISTEMA] Conexão 66.132.172.134:60318 não validada no PS, a conexão foi encerrada!
+11:27:13 : [SISTEMA] Autenticando licença...
+11:27:14 : [SISTEMA] Licença autenticada!
+12:15:52 : [SISTEMA] Iniciando sistema...
+12:15:52 : [SISTEMA] Autenticando licença...
+12:15:53 : [SISTEMA] Licença autenticada!
+12:15:55 : [SISTEMA] CS Proxy (44405 > 44406) iniciado!
+12:15:55 : [SISTEMA] Conectado ao SQL Server!
+12:15:55 : [SISTEMA] Banco de proteções carregado, Global 790 / Local 20!
+12:15:57 : [SISTEMA] Sistema iniciado em 3047 ms

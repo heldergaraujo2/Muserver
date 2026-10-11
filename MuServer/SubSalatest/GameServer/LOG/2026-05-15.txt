@@ -1,0 +1,21 @@
+23:53:42 [Obj][13000] AddClient (177.200.36.221)
+23:53:43 [Obj][13000] AddAccount (hellder)
+23:53:45 [Obj][13000] LogInCharacter (Saffe)
+23:53:51 [CustomAttackSkillDebug] Skill: 44 | Delay: 89902922 ms | Type: 1
+23:53:52 [CustomAttackSkillDebug] Skill: 44 | Delay: 391 ms | Type: 1
+23:54:20 [ServerInfo] Map loaded successfully
+23:54:24 [CustomAttackSkillDebug] Skill: 44 | Delay: 31703 ms | Type: 1
+23:54:25 [CustomAttackSkillDebug] Skill: 44 | Delay: 328 ms | Type: 1
+23:55:52 [Obj][13000] LogOutCharacter (Saffe)
+23:55:53 [Obj][13000] DelAccount (hellder)
+23:55:53 [Obj][13000] DelClient (177.200.36.221)
+23:57:01 [Obj][13000] AddClient (177.200.36.221)
+23:57:01 [Obj][13000] AddAccount (hellder)
+23:57:03 [Obj][13000] LogInCharacter (Saffe)
+23:57:19 [CustomAttackSkillDebug] Skill: 44 | Delay: 312 ms | Type: 1
+23:57:56 [ServerInfo] Util loaded successfully
+23:58:01 [CustomAttackSkillDebug] Skill: 44 | Delay: 41406 ms | Type: 1
+23:58:02 [CustomAttackSkillDebug] Skill: 44 | Delay: 312 ms | Type: 1
+23:58:51 [ServerInfo] Event loaded successfully
+23:59:06 [CustomAttackSkillDebug] Skill: 44 | Delay: 484 ms | Type: 1
+23:59:07 [CustomAttackSkillDebug] Skill: 44 | Delay: 375 ms | Type: 1

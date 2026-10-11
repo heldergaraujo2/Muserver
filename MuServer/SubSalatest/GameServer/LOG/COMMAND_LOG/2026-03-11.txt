@@ -1,0 +1,101 @@
+06:32:02 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+06:32:08 [CommandSpot][videodv][AdmSaffe] - (Monster: 718, Qtd: 1)
+06:32:37 [CommandSpot][videodv][AdmSaffe] - (Monster: 719, Qtd: 1)
+06:33:01 [CommandSpot][videodv][AdmSaffe] - (Monster: 772, Qtd: 1)
+06:33:59 [CommandSpot][videodv][AdmSaffe] - (Monster: 773, Qtd: 1)
+06:34:30 [CommandSpot][videodv][AdmSaffe] - (Monster: 824, Qtd: 1)
+06:35:00 [CommandSpot][videodv][AdmSaffe] - (Monster: 844, Qtd: 1)
+09:52:02 [Command Clear Iventory] Use for:[hellder][Saffe]
+09:54:42 [CommandMake][hellder][Saffe] Section: 14, Type: 431, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+09:55:42 [CommandSpot][hellder][Saffe] - (Monster: 717, Qtd: 1)
+09:56:15 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 500, Dex: 3000, Vit: 500, Ene: 3000, Com: 0)
+09:56:21 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 500, Dex: 3000, Vit: 500, Ene: 3000, Com: 0)
+09:56:25 [CommandSpot][hellder][Saffe] - (Monster: 717, Qtd: 1)
+09:56:49 [CommandSpot][hellder][Saffe] - (Monster: 718, Qtd: 1)
+09:57:01 [CommandSpot][hellder][Saffe] - (Monster: 719, Qtd: 1)
+09:57:10 [CommandSpot][hellder][Saffe] - (Monster: 720, Qtd: 1)
+09:57:53 [CommandSpot][hellder][Saffe] - (Monster: 772, Qtd: 1)
+09:58:27 [CommandSpot][hellder][Saffe] - (Monster: 824, Qtd: 1)
+09:58:46 [CommandSpot][hellder][Saffe] - (Monster: 844, Qtd: 1)
+10:10:31 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 225, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:10:35 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 225, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:10:38 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 225, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:10:41 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 225, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:10:45 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 225, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:11:40 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 42, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:11:47 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 41, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:11:50 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 40, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:11:53 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 39, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:11:56 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 38, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:12:10 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 35, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:12:15 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 34, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:12:20 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 33, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:12:23 [CommandMake][videodv][AdmSaffe] Section: 4, Type: 32, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:14 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 35, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:17 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 34, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:20 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 33, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:23 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 32, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:26 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 31, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:28 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 30, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:33 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 29, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:13:36 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 28, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:14:02 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 98, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:14:11 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 114, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:14:53 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 97, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:14:56 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 96, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:14:59 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 95, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:02 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 94, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:05 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 93, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:07 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 92, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:10 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 91, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:25 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 113, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:34 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 112, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:41 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 111, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:45 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 110, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:48 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 109, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:51 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 108, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:53 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 107, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:56 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 106, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:13 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 105, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:16 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 104, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:18 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 103, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:21 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 102, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:24 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 101, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:16:26 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 100, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:17:11 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 115, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:23:34 [Command Clear Iventory] Use for:[hellderr][LapadaSeca]
+10:24:50 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+10:24:54 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 114, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:24:58 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 114, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:25:19 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 223, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:25:23 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 223, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:25:27 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 223, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:25:33 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 223, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:29:35 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 165, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:29:39 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 165, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:29:42 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 165, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:29:48 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 165, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:30:16 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 109, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:32:46 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 110, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:32:51 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 174, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:32:55 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 174, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:32:58 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 174, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:33:05 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 174, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:33:19 [Command Clear Iventory] Use for:[hellderr][LapadaSeca]
+10:35:55 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 112, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:36:00 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 196, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:36:07 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 196, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:36:10 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 196, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:36:13 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 196, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:36:20 [Command Clear Iventory] Use for:[hellderr][LapadaSeca]
+22:36:35 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:39:04 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:39:19 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:39:47 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:40:14 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:40:23 [CommandSpot][videodv][AdmSaffe] - (Monster: 717, Qtd: 1)
+22:40:52 [CommandSpot][videodv][AdmSaffe] - (Monster: 718, Qtd: 1)
+22:41:12 [CommandSpot][videodv][AdmSaffe] - (Monster: 718, Qtd: 1)
+22:41:31 [CommandSpot][videodv][AdmSaffe] - (Monster: 719, Qtd: 1)
+22:42:05 [CommandSpot][videodv][AdmSaffe] - (Monster: 772, Qtd: 1)
+22:43:10 [CommandSpot][videodv][AdmSaffe] - (Monster: 824, Qtd: 1)

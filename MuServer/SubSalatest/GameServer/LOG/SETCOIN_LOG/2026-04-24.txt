@@ -1,0 +1,26 @@
+08:57:12 [hellderr][OdetBokeT] WZ_SetCoin(MarketCoinBuy) Val1: 0, Val2: 0, Val3: -60
+08:57:33 [hellderr][OdetBokeT] WZ_SetCoin(MarketCoinSell) Val1: 10, Val2: 0, Val3: 0
+09:11:16 [hellderr][OdetBokeT] WZ_SetCoin(MarketCoinBuy) Val1: -100, Val2: 0, Val3: 0
+09:11:40 [hellderr][OdetBokeT] WZ_SetCoin(MarketCoinSell) Val1: 50, Val2: 0, Val3: 0
+09:26:56 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+09:27:44 [pvp01][PVPBK] WZ_SetCoin(MarketCoinBuy) Val1: 0, Val2: 0, Val3: -30000
+09:35:15 [pvp01][PVPBK] WZ_SetCoin(MarketCoinAddItem) Val1: 0, Val2: -5, Val3: -6
+09:36:21 [pvp01][PVPBK] WZ_SetCoin(MarketCoinSell) Val1: 3000, Val2: 0, Val3: 0
+09:37:03 [pvp01][PVPBK] WZ_SetCoin(Trade Player1) Val1: -2000, Val2: 0, Val3: 0
+09:37:03 [hellderr][Louco] WZ_SetCoin(Trade Player2) Val1: 2000, Val2: 0, Val3: 0
+09:38:10 [pvp01][PVPBK] WZ_SetCoin(MarketCoinAddItem) Val1: 0, Val2: -5, Val3: -6
+09:39:09 [hellderr][Louco] WZ_SetCoin(MarketCoinBuy) Val1: -2000, Val2: 0, Val3: 0
+09:39:51 [pvp01][PVPBK] WZ_SetCoin(MarketCoinSell) Val1: 2000, Val2: 0, Val3: 0
+09:40:12 [pvp01][PVPBK] WZ_SetCoin(MarketCoinBuy) Val1: 0, Val2: 0, Val3: -50000
+09:40:39 [pvp01][PVPBK] WZ_SetCoin(MarketCoinSell) Val1: 500, Val2: 0, Val3: 0
+10:12:03 [pvp01][PVPBK] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+10:26:56 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+11:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+11:43:44 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:41:19 [videodv][AdmSaffe] WZ_SetCoin(MarketCoinAddItem) Val1: -1, Val2: 0, Val3: 0
+12:43:46 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+13:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+14:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+16:28:16 [hellderr][Louco] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

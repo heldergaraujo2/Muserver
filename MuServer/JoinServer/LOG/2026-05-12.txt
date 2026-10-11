@@ -1,0 +1,41 @@
+07:19:52 Account hellder logged with global password!
+13:47:16 Account hellder logged with global password!
+14:38:42 [ServerManager][2] DelServer (127.0.0.1)
+14:38:49 [ServerManager][4] AddServer (127.0.0.1)
+14:38:49 [ServerManager][4] ServerInfo (Speed) (55902) (1)
+14:38:53 [ServerManager][1] DelServer (127.0.0.1)
+14:39:00 [ServerManager][2] AddServer (127.0.0.1)
+14:39:00 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+14:44:03 [ServerManager][4] DelServer (127.0.0.1)
+14:44:08 [ServerManager][2] DelServer (127.0.0.1)
+14:44:09 [ServerManager][1] AddServer (127.0.0.1)
+14:44:09 [ServerManager][1] ServerInfo (Speed) (55902) (1)
+14:44:19 [ServerManager][4] AddServer (127.0.0.1)
+14:44:19 [ServerManager][4] ServerInfo (Geral) (55919) (19)
+14:44:21 [ServerManager][4] DelServer (127.0.0.1)
+14:44:28 [ServerManager][2] AddServer (127.0.0.1)
+14:44:28 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+14:44:33 [ServerManager][0] DelServer (127.0.0.1)
+14:44:40 [ServerManager][4] AddServer (127.0.0.1)
+14:44:40 [ServerManager][4] ServerInfo (Geral) (55901) (0)
+15:06:17 Account pvp01 logged with global password!
+15:12:26 Account pvp01 logged with global password!
+15:13:38 Account pvp01 logged with global password!
+15:47:47 [SocketManager] Server started at port [55970]
+15:47:50 [ServerManager][0] AddServer (127.0.0.1)
+15:47:50 [ServerManager][0] ServerInfo (Test) (55903) (2)
+15:47:52 [ServerManager][1] AddServer (127.0.0.1)
+15:47:52 [ServerManager][1] ServerInfo (Geral) (55901) (0)
+15:47:58 [ServerManager][2] AddServer (127.0.0.1)
+15:47:58 [ServerManager][2] ServerInfo (Geral) (55919) (19)
+15:48:07 [ServerManager][3] AddServer (127.0.0.1)
+15:48:07 [ServerManager][3] ServerInfo (Speed) (55902) (1)
+15:48:48 Account hellder logged with global password!
+15:52:34 Account hellder logged with global password!
+15:53:49 Account hellder logged with global password!
+16:34:24 Account hellder logged with global password!
+18:45:49 Account hellder logged with global password!
+18:54:47 Account hellder logged with global password!
+19:10:10 Account hellder logged with global password!
+20:23:06 Account hellder logged with global password!
+20:46:55 Account hellder logged with global password!

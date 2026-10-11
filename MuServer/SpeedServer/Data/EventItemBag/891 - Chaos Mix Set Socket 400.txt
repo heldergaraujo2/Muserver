@@ -1,0 +1,12 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Set Socket Upgrade"	0	100		1		0		0		0		0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Ancient	Socket	Comment
+7	54	0	3	1	1	1	0	0	3	// Lazy Wind Helm
+end

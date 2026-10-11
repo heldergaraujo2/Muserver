@@ -1,0 +1,121 @@
+10:25:15 [CommandMake][hellder][Saffe] Section: 7, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:26:59 [CommandMake][hellder][Saffe] Section: 7, Type: 9, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:41:40 [CommandMake][hellder][Saffe] Section: 7, Type: 1, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:44:05 [CommandMake][hellder][Saffe] Section: 7, Type: 1, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 38, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:44:10 [CommandMake][hellder][Saffe] Section: 7, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 38, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:44:35 [CommandMake][hellder][Saffe] Section: 7, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 38, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:47:27 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+10:49:55 [CommandMake][hellder][Saffe] Section: 14, Type: 410, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:49:59 [CommandMake][hellder][Saffe] Section: 14, Type: 411, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:50:11 [CommandMake][hellder][Saffe] Section: 14, Type: 412, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:50:35 [CommandMake][hellder][Saffe] Section: 14, Type: 413, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:51:52 [CommandMake][hellder][Saffe] Section: 14, Type: 408, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:52:20 [CommandMake][hellder][Saffe] Section: 14, Type: 250, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:52:24 [CommandMake][hellder][Saffe] Section: 14, Type: 250, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:55:57 [Command Clear Iventory] Use for:[hellder][Saffe]
+11:20:56 [Command Clear Iventory] Use for:[hellder][Saffe]
+11:21:18 [CommandMake][hellder][Saffe] Section: 7, Type: 5, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:21:37 [CommandMake][hellder][Saffe] Section: 7, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:23:49 [CommandMake][hellder][Saffe] Section: 7, Type: 9, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:44:57 [Command Clear Iventory] Use for:[hellder][Saffe]
+13:47:13 [CommandMake][hellder][Saffe] Section: 7, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:49:56 [CommandMake][hellder][Saffe] Section: 8, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:50:38 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+13:56:06 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+13:57:59 [CommandMake][hellder][Saffe] Section: 9, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:58:06 [CommandMake][hellder][Saffe] Section: 10, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:58:13 [CommandMake][hellder][Saffe] Section: 11, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:59:57 [CommandMake][hellder][Saffe] Section: 11, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:00:02 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:02:22 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:03:47 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:07:59 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:09:52 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:12:53 [CommandMake][hellder][Saffe] Section: 7, Type: 13, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:13:03 [CommandMake][hellder][Saffe] Section: 8, Type: 13, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:13:06 [CommandMake][hellder][Saffe] Section: 9, Type: 13, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:13:09 [CommandMake][hellder][Saffe] Section: 10, Type: 13, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:13:11 [CommandMake][hellder][Saffe] Section: 11, Type: 13, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:13:57 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:15:04 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:16:15 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:17:52 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:19:42 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:21:05 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:22:14 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:23:54 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:26:08 [CommandMake][hellder][Saffe] Section: 7, Type: 25, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:26:13 [CommandMake][hellder][Saffe] Section: 8, Type: 25, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:26:15 [CommandMake][hellder][Saffe] Section: 9, Type: 25, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:26:18 [CommandMake][hellder][Saffe] Section: 10, Type: 25, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:26:22 [CommandMake][hellder][Saffe] Section: 11, Type: 25, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:27:20 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:28:32 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:30:21 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:31:38 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:33:19 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:34:43 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:36:12 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:37:30 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:39:11 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:40:46 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:43:51 [CommandMake][hellder][Saffe] Section: 7, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:43:58 [CommandMake][hellder][Saffe] Section: 8, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:44:00 [CommandMake][hellder][Saffe] Section: 9, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:44:03 [CommandMake][hellder][Saffe] Section: 10, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:44:05 [CommandMake][hellder][Saffe] Section: 11, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:45:36 [CommandMake][hellder][Saffe] Section: 11, Type: 39, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:45:39 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:46:53 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:49:36 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:51:21 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:54:19 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:55:57 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:57:47 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+14:59:53 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:01:03 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:02:11 [CommandMake][hellder][Saffe] Section: 8, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:02:15 [CommandMake][hellder][Saffe] Section: 9, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:02:17 [CommandMake][hellder][Saffe] Section: 10, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:02:20 [CommandMake][hellder][Saffe] Section: 11, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:03:47 [CommandMake][hellder][Saffe] Section: 11, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:03:50 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:05:38 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:10:59 [CommandMake][hellder][Saffe] Section: 8, Type: 202, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:12:54 [CommandMake][hellder][Saffe] Section: 8, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:13:00 [CommandMake][hellder][Saffe] Section: 9, Type: 23, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:43:42 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:45:06 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:46:27 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+15:52:49 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+16:22:13 [CommandMake][hellder][Saffe] Section: 7, Type: 9, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:02:07 [Command Clear Iventory] Use for:[hellder][Saffe]
+20:02:25 [Command Clear Iventory] Use for:[hellder][Saffe]
+20:03:31 [CommandMake][hellder][Saffe] Section: 7, Type: 78, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:03:36 [CommandMake][hellder][Saffe] Section: 8, Type: 78, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:03:39 [CommandMake][hellder][Saffe] Section: 9, Type: 78, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:03:42 [CommandMake][hellder][Saffe] Section: 11, Type: 78, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:04:41 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+20:10:12 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+20:20:44 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+20:47:10 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+20:48:29 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+20:53:16 [CommandMake][hellder][Saffe] Section: 7, Type: 2, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:57:36 [CommandMake][hellder][Saffe] Section: 7, Type: 8, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:34:54 [CommandMake][hellder][Saffe] Section: 7, Type: 81, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:36:21 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:37:13 [CommandMake][hellder][Saffe] Section: 8, Type: 81, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:37:40 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:38:59 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:39:44 [CommandMake][hellder][Saffe] Section: 9, Type: 81, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:40:44 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:42:08 [CommandMake][hellder][Saffe] Section: 7, Type: 3, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:42:45 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:43:41 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:55:50 [CommandMake][hellder][Saffe] Section: 8, Type: 3, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:57:06 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:58:04 [CommandMake][hellder][Saffe] Section: 9, Type: 3, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:58:52 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:59:42 [CommandMoney][hellder][Saffe] - (Money: 2147483647)
+23:59:55 [CommandMake][hellder][Saffe] Section: 10, Type: 3, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+23:59:57 [CommandMoney][hellder][Saffe] - (Money: 2147483647)

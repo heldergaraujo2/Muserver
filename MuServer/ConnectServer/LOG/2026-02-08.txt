@@ -1,0 +1,8 @@
+09:11:14 [SocketManager] Protocol header error (Index: 1, Header: 3)
+09:11:14 [SocketManager] Protocol header error (Index: 2, Header: 3)
+11:37:14 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:37:14 [SocketManager] WSAAccept() failed with error: 10061
+11:41:58 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:41:58 [SocketManager] WSAAccept() failed with error: 10061
+11:48:02 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+11:48:02 [SocketManager] WSAAccept() failed with error: 10061

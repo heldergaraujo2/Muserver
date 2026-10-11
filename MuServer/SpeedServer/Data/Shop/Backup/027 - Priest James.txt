@@ -1,0 +1,90 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Section	Type	Level	Dur	Skill	Luck	Option	ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5	SocketBonus	Duration	Comment
+7		110	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+7		111	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+7		112	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+7		113	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+8		110	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+8		111	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+8		112	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+8		113	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+10		110	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+10		111	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+10		112	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+10		113	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+9		110	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+9		111	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+9		112	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+9		113	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+11		110	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+11		111	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+11		112	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+11		113	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+14		173	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Spirit Nixie's Shard
+end
+
+1
+//Section	Type	Level	Dur	Skill	Luck	Option	ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5	SocketBonus	Duration	Comment
+7		115	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+7		116	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Helm
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+8		115	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+8		116	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+8		114	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Armor
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+10		115	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+10		114	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Gloves
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+9		115	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+9		116	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+9		114	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Pants
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+11		115	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+11		116	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+11		114	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Bloodangel Boots
+15		201	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// SPACE 2x2
+14		173	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Spirit Nixie's Shard
+end
+
+2
+//Section	Type	Level	Dur	Skill	Luck	Option	ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5	SocketBonus	Duration	Comment
+14		412	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Darkangel Anvil
+14		408	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Sealed Stone Shard
+14		413	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Holyangel Spirit
+14		415	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Anvil of Holy Angel
+14		414	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Awakening
+14		417	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Soul Moru
+14		416	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Cold Marriage
+14		418	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Blue Eye Anvil
+14		419	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Ancestral Spirit
+14		420	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Silver Anvil
+14		421	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Manticore Spirit
+14		427	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Manticore Moru
+14		428	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Brilliant Soul Moru
+14		432	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Soul of Apocalypse
+14		433	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Brilliant Anvil
+14		435	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Apocalypse Avil
+14		436	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Lightning Soul
+14		440	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Lightning Anvil
+14		441	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Temple Guard Soul
+14		442	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Temple Guard Anvil
+end
+
+3
+//Section	Type	Level	Dur	Skill	Luck	Option	ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5	SocketBonus	Duration	Comment
+14		423	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of the Phantasmal Shield
+14		424	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of Ice Dragon
+14		425	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of Pierce Ryan
+14		430	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of Shining Tail
+14		434	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of Ur
+14		439	0	0	0	0	0	0	0	0	0	255	255	255	255	255	255		0		// Seal of Liviathan
+end

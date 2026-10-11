@@ -1,0 +1,10 @@
+16:25:32 [CommandMake][hellder][Saffe] Section: 12, Type: 5, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:32:02 [CommandMake][hellder][Saffe] Section: 12, Type: 5, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:14:20 [CommandMake][hellder][Saffe] Section: 12, Type: 327, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:35:15 [CommandReAdd][pvp01][PVPMG] - OK
+20:35:19 [CommandAddPoint][pvp01][PVPMG] - (Type: 0, Amount: 20000)
+20:35:25 [CommandAddPoint][pvp01][PVPMG] - (Type: 1, Amount: 12000)
+20:35:30 [CommandAddPoint][pvp01][PVPMG] - (Type: 3, Amount: 1000)
+20:35:34 [CommandAddPoint][pvp01][PVPMG] - (Type: 2, Amount: 5000)
+22:00:56 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 36, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 3, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+22:01:03 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 36, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

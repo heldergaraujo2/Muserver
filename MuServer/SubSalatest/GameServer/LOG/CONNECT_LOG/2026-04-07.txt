@@ -1,0 +1,13 @@
+17:31:04 [SocketManager] bind() failed with error: 10048
+17:33:19 [SocketManager] Server started at port [55902]
+17:35:49 [SocketManager] Server started at port [55902]
+18:20:14 [SocketManager] Server started at port [55902]
+18:30:32 [SocketManager] Server started at port [55902]
+18:32:50 [SocketManager] Server started at port [55902]
+18:42:07 [SocketManager] Server started at port [55902]
+18:42:23 [SocketManager] Server started at port [55902]
+18:54:57 [SocketManager] Server started at port [55902]
+19:28:09 [Connection] connect() failed with error: 10061
+19:28:19 [Connection] connect() failed with error: 10061
+19:29:50 [Connection] send() failed with error: 10054
+19:29:59 [Connection] connect() failed with error: 10061

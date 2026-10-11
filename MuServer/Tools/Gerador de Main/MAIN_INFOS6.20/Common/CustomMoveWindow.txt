@@ -1,0 +1,70 @@
+0
+//MapNumber AutoMoveEnable
+  0         1 
+  1         1
+  2         1
+  3         0
+  4         0
+  6         0
+  7         0
+  8         0
+  10        1
+  51        0
+  30        0
+  33        0
+  34        0
+  37        0
+  63        0
+  80        0
+  82        0
+  83        0
+  84        0
+  85        0
+  86        0
+  87        0
+end
+
+//ICONINDEX 
+// 31466 : Blacksmith
+// 31467 : Potion
+// 31468 : Vault
+// 31469 : Quest
+// 61521 : NPC
+// 32451 : Portal
+// 32452 : Monster Spot
+// 32453 : Vip Spot
+// 32454 : Town
+
+//MOVE INFO:
+1
+//MapNumber   MoveIndex  IconIndex  PosX  PosY  Size  RequireMoney   MinLevel   MaxLevel   MinReset   MaxReset   MinMasterReset   MaxMasterReset   AccountLevel   BlockPK   ShowName  Name     
+  0           2          32454      138   130   10    1000           1          1000       *          *          *                *                0              0         1         "Lorencia Town" 
+  0           62         32452      135   176   8     1000           1          1000       *          *          *                *                0              0         1         "Spot 1"
+  0           63         32453      136   077   8     1000           1          1000       1          2          3                4                1              1         1         "Vip Spot 1"
+  1           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Dungeon Town"
+  2           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Devias Town"
+  2           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Spot 1"
+  3           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Lost Tower"
+  4           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Dungeon Town"
+  6           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Arena 1"
+  7           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Atlans Town"
+  8           3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Tarkan Town"
+  10          3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Icarus"
+  51          3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Dungeon Town"
+  63          3          32451      125   125   8     1000           1          1000       *          *          *                *                0              0         1         "Volcanus"
+end
+
+//NPC INFO:
+2
+//MapNumber  IconIndex  PosX  PosY  Size  Name     
+  0          31468      146   110   8     "Vault" 
+  0          31468      146   145   8     "Vault" 
+  0          31469      145   120   8     "Quest"
+  0          31467      124   135   8     "Shops"
+  0          61521      118   113   8     "Shop"
+  0          31466      118   142   8     "BlackSmith"
+  0          32451      007   040   10    "Devias Entrance"
+  0          32451      122   231   10    "Dungeon Entrance"
+  0          32451      215   244   10    "Noria Entrance"
+  0          32451      240   014   10    "Loren Entrance"
+end

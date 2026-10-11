@@ -1,0 +1,19 @@
+09:17:02 [CommandRename][pvp02][PVPSUM] - (NewName: SaffeAnA)
+09:30:46 [CommandMake][hellder][Saffe] Section: 5, Type: 49, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+09:30:49 [CommandMake][hellder][Saffe] Section: 5, Type: 51, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:05:33 [CommandSpot][hellder][Saffe] - (Monster: 866, Qtd: 1)
+10:14:13 [CommandMake][hellder][Saffe] Section: 0, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:15:00 [CommandMake][hellder][Saffe] Section: 0, Type: 22, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 56, Set: 1, Sockets: 1, JoH: 1, 380: 255, [Amount: 1]
+10:26:32 [CommandMake][hellder][Saffe] Section: 8, Type: 233, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:43:38 [CommandReAdd][pvp04][elfabuf] - OK
+10:43:41 [CommandAddPoint][pvp04][elfabuf] - (Type: 3, Amount: 500)
+10:45:31 [CommandSetBuff][hellder][Saffe] - AddBuff [hellder][Saffe] (Buff: 2 Duration: 0 Power1: 0 Power2: 0 Power3: 0 Power4: 0)
+10:45:34 [CommandSetBuff][hellder][Saffe] - DelBuff [hellder][Saffe] (Buff: 2)
+10:45:36 [CommandSetBuff][hellder][Saffe] - DelBuff [hellder][Saffe] (Buff: 1)
+10:46:29 [CommandSetBuff][hellder][Saffe] - DelBuff [hellder][Saffe] (Buff: 1)
+14:07:53 [CommandMake][hellder][Saffe] Section: 12, Type: 5, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:17:11 [CommandMake][hellder][Saffe] Section: 7, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:17:15 [CommandMake][hellder][Saffe] Section: 8, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:17:19 [CommandMake][hellder][Saffe] Section: 9, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:17:22 [CommandMake][hellder][Saffe] Section: 10, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:17:26 [CommandMake][hellder][Saffe] Section: 11, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

@@ -1,0 +1,183 @@
+00:00:31 [Obj][13000] LogOutCharacter (NEON)
+00:00:31 [Obj][13000] DelAccount (mamm)
+00:00:31 [Obj][13000] DelClient (177.200.34.75)
+00:00:32 [Obj][13003] LogOutCharacter (Deviano)
+00:00:32 [Obj][13003] DelAccount (marco)
+00:00:32 [Obj][13003] DelClient (177.200.34.75)
+07:12:24 [Obj][13002] AddClient (200.25.57.15)
+07:12:25 [Obj][13002] DelClient (200.25.57.15)
+10:56:34 [Obj][13006] AddClient (201.77.168.255)
+10:56:35 [Obj][13006] AddAccount (mgzao)
+10:56:36 [Obj][13006] DelAccount (mgzao)
+10:56:36 [Obj][13006] DelClient (201.77.168.255)
+10:57:25 [Obj][13004] AddClient (201.77.168.255)
+10:57:26 [Obj][13004] AddAccount (mgzao)
+10:57:28 [Obj][13004] LogInCharacter (Hyperion)
+11:28:49 [Obj][13004] LogOutCharacter (Hyperion)
+11:29:22 [Obj][13004] DelAccount (mgzao)
+11:29:22 [Obj][13004] DelClient (201.77.168.255)
+16:47:47 [Obj][13005] AddClient (191.5.52.69)
+16:47:50 [Obj][13005] AddAccount (roxever2)
+16:49:03 [Obj][13005] LogInCharacter (Insana)
+16:52:31 [Obj][13007] AddClient (177.221.174.30)
+16:52:43 [Obj][13007] AddAccount (davidh)
+16:53:02 [Obj][13007] LogInCharacter (Zureia)
+16:55:31 [FAKE ONLINE LOG] Start
+16:55:31 [ServerInfo] CashShop loaded successfully
+16:55:31 [ServerInfo] ChaosMix loaded successfully
+16:55:31 [ServerInfo] Character loaded successfully
+16:55:31 [FakeOnline] Loaded successfully
+16:55:31 [ServerInfo] Custom loaded successfully
+16:55:31 [ServerInfo] Command loaded successfully
+16:55:31 [ServerInfo] Common loaded successfully
+16:55:31 [ServerInfo] Discord loaded successfully
+16:55:31 [ServerInfo] Effect loaded successfully
+16:55:31 [ServerInfo] Event loaded successfully
+16:55:31 [ServerInfo] EventItemBag loaded successfully
+16:55:31 [ServerInfo] Hack loaded successfully
+16:55:31 [ServerInfo] Item loaded successfully
+16:55:31 [ServerInfo] Message loaded successfully
+16:55:31 [ServerInfo] Map loaded successfully
+16:55:31 [ServerInfo] Terrain loaded successfully
+16:55:31 [ServerInfo] Monster loaded successfully
+16:55:31 [ServerInfo] Move loaded successfully
+16:55:31 [ServerInfo] Quest loaded successfully
+16:55:31 [ServerInfo] Script loaded successfully
+16:55:31 [ServerInfo] Shop loaded successfully
+16:55:31 [ServerInfo] Skill loaded successfully
+16:55:31 [ServerInfo] Util loaded successfully
+16:55:31 [ReadBotInfo] BotSystem loaded successfully
+16:55:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+16:55:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 67, Y: 7)
+16:55:31 [ServerInfo] Custom Attack offline restored successfully
+16:55:31 [ServerInfo] Custom Store offline restored successfully
+16:55:32 [Discord] Connection successfully
+16:55:32 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:55:48 [Obj][13000] AddClient (191.5.52.69)
+16:55:51 [Obj][13001] AddClient (177.221.174.30)
+16:55:58 [Obj][13000] AddAccount (roxever2)
+16:55:58 [Obj][13000] LogInCharacter (Insana)
+16:56:01 [Obj][13001] AddAccount (davidh)
+16:56:01 [Obj][13001] LogInCharacter (Zureia)
+16:56:54 [Obj][13001] LogOutCharacter (Zureia)
+16:56:54 [Obj][13001] DelAccount (davidh)
+16:56:54 [Obj][13001] DelClient (177.221.174.30)
+16:57:24 [Obj][13001] AddClient (177.221.174.30)
+16:57:26 [Obj][13001] DelClient (177.221.174.30)
+16:57:46 [Obj][13000] LogOutCharacter (Insana)
+16:57:46 [Obj][13000] DelAccount (roxever2)
+16:57:46 [Obj][13000] DelClient (191.5.52.69)
+16:57:46 Game response error causes conclusion [13000][][][191.5.52.69]
+16:57:56 [Obj][13001] AddClient (177.221.174.30)
+16:57:56 [Obj][13001] DelClient (177.221.174.30)
+16:58:16 [Obj][13000] AddClient (191.5.52.69)
+16:58:20 [Obj][13000] DelClient (191.5.52.69)
+16:58:26 [Obj][13001] AddClient (177.221.174.30)
+16:58:26 [Obj][13001] DelClient (177.221.174.30)
+16:58:50 [Obj][13000] AddClient (191.5.52.69)
+16:58:51 [Obj][13000] DelClient (191.5.52.69)
+16:58:56 [Obj][13001] AddClient (177.221.174.30)
+16:58:57 [Obj][13001] DelClient (177.221.174.30)
+16:59:21 [Obj][13000] AddClient (191.5.52.69)
+16:59:21 [Obj][13000] DelClient (191.5.52.69)
+16:59:27 [Obj][13001] AddClient (177.221.174.30)
+16:59:27 [Obj][13001] DelClient (177.221.174.30)
+16:59:51 [Obj][13000] AddClient (191.5.52.69)
+16:59:52 [Obj][13000] DelClient (191.5.52.69)
+16:59:57 [Obj][13001] AddClient (177.221.174.30)
+16:59:57 [Obj][13001] DelClient (177.221.174.30)
+17:00:22 [Obj][13000] AddClient (191.5.52.69)
+17:00:22 [Obj][13000] DelClient (191.5.52.69)
+17:00:28 [Obj][13001] AddClient (177.221.174.30)
+17:00:28 [Obj][13001] DelClient (177.221.174.30)
+17:00:52 [Obj][13000] AddClient (191.5.52.69)
+17:00:52 [Obj][13000] DelClient (191.5.52.69)
+17:00:58 [Obj][13001] AddClient (177.221.174.30)
+17:00:58 [Obj][13001] DelClient (177.221.174.30)
+17:01:28 [Obj][13000] AddClient (177.221.174.30)
+17:01:29 [Obj][13000] DelClient (177.221.174.30)
+17:01:59 [Obj][13001] AddClient (177.221.174.30)
+17:01:59 [Obj][13001] DelClient (177.221.174.30)
+17:27:38 [Obj][13000] AddClient (177.221.174.30)
+17:27:41 [Obj][13000] DelClient (177.221.174.30)
+17:28:08 [Obj][13001] AddClient (177.221.174.30)
+17:28:38 [Obj][13001] DelClient (177.221.174.30)
+17:28:38 Response error after connection causes conclusion [13001][][][177.221.174.30]
+17:31:59 [Obj][13000] AddClient (177.200.39.232)
+17:32:04 [Obj][13000] DelClient (177.200.39.232)
+18:38:45 [Obj][13001] AddClient (191.5.52.69)
+18:38:54 [Obj][13001] DelClient (191.5.52.69)
+18:39:27 [Obj][13000] AddClient (191.5.52.69)
+18:39:57 [Obj][13000] DelClient (191.5.52.69)
+18:39:57 Response error after connection causes conclusion [13000][][][191.5.52.69]
+19:11:57 [Obj][13001] AddClient (177.221.174.30)
+19:12:04 [Obj][13001] DelClient (177.221.174.30)
+19:40:46 [FAKE ONLINE LOG] Start
+19:40:46 [ServerInfo] CashShop loaded successfully
+19:40:46 [ServerInfo] ChaosMix loaded successfully
+19:40:46 [ServerInfo] Character loaded successfully
+19:40:46 [FakeOnline] Loaded successfully
+19:40:46 [ServerInfo] Custom loaded successfully
+19:40:46 [ServerInfo] Command loaded successfully
+19:40:46 [ServerInfo] Common loaded successfully
+19:40:46 [ServerInfo] Discord loaded successfully
+19:40:46 [ServerInfo] Effect loaded successfully
+19:40:46 [ServerInfo] Event loaded successfully
+19:40:46 [ServerInfo] EventItemBag loaded successfully
+19:40:46 [ServerInfo] Hack loaded successfully
+19:40:46 [ServerInfo] Item loaded successfully
+19:40:46 [ServerInfo] Message loaded successfully
+19:40:46 [ServerInfo] Map loaded successfully
+19:40:46 [ServerInfo] Terrain loaded successfully
+19:40:46 [ServerInfo] Monster loaded successfully
+19:40:46 [ServerInfo] Move loaded successfully
+19:40:46 [ServerInfo] Quest loaded successfully
+19:40:46 [ServerInfo] Script loaded successfully
+19:40:46 [ServerInfo] Shop loaded successfully
+19:40:46 [ServerInfo] Skill loaded successfully
+19:40:46 [ServerInfo] Util loaded successfully
+19:40:46 [ReadBotInfo] BotSystem loaded successfully
+19:40:46 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+19:40:46 [ServerInfo] Custom Attack offline restored successfully
+19:40:46 [ServerInfo] Custom Store offline restored successfully
+19:40:47 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+19:53:00 [Obj][13000] AddClient (186.194.50.50)
+19:53:16 [Obj][13000] DelClient (186.194.50.50)
+19:53:19 [Obj][13001] AddClient (186.194.50.50)
+19:53:20 [Obj][13001] DelClient (186.194.50.50)
+19:54:56 [Obj][13000] AddClient (186.194.50.50)
+19:54:59 [Obj][13001] AddClient (186.194.50.50)
+19:55:01 [Obj][13001] AddAccount (pvp01)
+19:55:12 [Obj][13000] DelClient (186.194.50.50)
+19:55:21 [Obj][13001] DelAccount (pvp01)
+19:55:21 [Obj][13001] DelClient (186.194.50.50)
+19:55:40 [Obj][13000] AddClient (186.194.50.50)
+19:55:42 [Obj][13000] AddAccount (pvp01)
+19:55:53 [Obj][13000] LogOutCharacter (PVPBK)
+19:55:58 [Obj][13001] AddClient (177.200.39.232)
+19:56:01 [Obj][13001] AddAccount (hellder)
+19:56:28 [Obj][13001] DelAccount (hellder)
+19:56:28 [Obj][13001] DelClient (177.200.39.232)
+19:56:33 [Obj][13002] AddClient (177.200.39.232)
+19:56:40 [Obj][13002] AddAccount (hellder)
+19:56:40 [Obj][13001] AddClient (186.224.24.210)
+19:56:40 [Obj][13001] DelClient (186.224.24.210)
+19:56:40 [AntiFlood] SYN FLOOD attack(186.224.24.210)
+19:56:40 [Obj][13003] AddClient (186.224.24.210)
+19:56:40 [Obj][13003] DelClient (186.224.24.210)
+20:05:05 [Obj][13001] AddClient (191.5.52.69)
+20:05:07 [Obj][13001] AddAccount (roxever2)
+20:05:09 [Obj][13001] LogInCharacter (Insana)
+20:50:34 [Obj][13000] DelAccount (pvp01)
+20:50:34 [Obj][13000] DelClient (186.194.50.50)
+21:33:03 [Obj][13003] AddClient (177.221.174.30)
+21:33:05 [Obj][13003] AddAccount (davidh)
+21:33:14 [Obj][13003] LogInCharacter (Zureia)
+21:36:21 [Obj][13002] LogOutCharacter (Saffe)
+21:36:27 [Obj][13002] DelAccount (hellder)
+21:36:27 [Obj][13002] DelClient (177.200.39.232)
+21:50:54 [Obj][13001] LogOutCharacter (Insana)
+21:50:54 [Obj][13001] DelAccount (roxever2)
+21:50:54 [Obj][13001] DelClient (191.5.52.69)
+23:41:50 [Obj][13000] AddClient (177.72.231.39)
+23:41:52 [Obj][13000] DelClient (177.72.231.39)

@@ -1,0 +1,81 @@
+09:19:04 [MusaffeDungeon1] Script desligado.
+09:19:04 [MusaffeDungeon2] Script desligado.
+09:19:04 [MusaffeDungeon3] Script desligado.
+09:19:04 [MusaffeDungeon4] Script desligado.
+09:19:15 [SCRIPT LOG] Start
+09:19:15 [Loader] Lua Gameserver socket ready!
+09:19:15 [Loader] Load success System\ScriptCore
+09:19:15 [Loader] Load success System\ProtocolCore
+09:19:15 [Loader] Load success Utils\Database
+09:19:15 [Loader] Load success Utils\DatabaseAsync
+09:19:15 [Loader] Load success Utils\Cron
+09:19:15 [Loader] Load success Utils\Functions
+09:19:15 [Loader] Load success Utils\Schedule
+09:19:15 [Loader] Load success Scripts\CalCharacter
+09:19:15 [Loader] Load success Scripts\Musaffe\Config
+09:19:15 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+09:19:15 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+09:19:15 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+09:19:15 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+09:19:15 [Loader] Load success Scripts\Musaffe\Config
+09:19:15 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+09:19:15 [Loader] Load success Scripts\Musaffe\Config
+09:19:15 [Loader] Load folder success Scripts\Musaffe\
+09:19:15 Connected to database
+09:19:15 Connected to Async database
+09:19:15 Teste query: ZZZZZZZZZZ
+09:19:15 [ServerInfo] Script loaded successfully
+09:20:08 [MusaffeDungeon1] Script desligado.
+09:20:08 [MusaffeDungeon2] Script desligado.
+09:20:08 [MusaffeDungeon3] Script desligado.
+09:20:08 [MusaffeDungeon4] Script desligado.
+09:20:44 [SCRIPT LOG] Start
+09:20:44 [Loader] Lua Gameserver socket ready!
+09:20:44 [Loader] Load success System\ScriptCore
+09:20:44 [Loader] Load success System\ProtocolCore
+09:20:44 [Loader] Load success Utils\Database
+09:20:44 [Loader] Load success Utils\DatabaseAsync
+09:20:44 [Loader] Load success Utils\Cron
+09:20:44 [Loader] Load success Utils\Functions
+09:20:44 [Loader] Load success Utils\Schedule
+09:20:44 [Loader] Load success Scripts\CalCharacter
+09:20:44 [Loader] Load success Scripts\Musaffe\Config
+09:20:44 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+09:20:44 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+09:20:44 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+09:20:44 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+09:20:44 [Loader] Load success Scripts\Musaffe\Config
+09:20:44 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+09:20:44 [Loader] Load success Scripts\Musaffe\Config
+09:20:44 [Loader] Load folder success Scripts\Musaffe\
+09:20:44 Connected to database
+09:20:44 Connected to Async database
+09:20:44 Teste query: ZZZZZZZZZZ
+09:20:44 [ServerInfo] Script loaded successfully
+09:21:38 [MusaffeDungeon1] Script desligado.
+09:21:38 [MusaffeDungeon2] Script desligado.
+09:21:38 [MusaffeDungeon3] Script desligado.
+09:21:38 [MusaffeDungeon4] Script desligado.
+09:22:14 [SCRIPT LOG] Start
+09:22:15 [Loader] Lua Gameserver socket ready!
+09:22:15 [Loader] Load success System\ScriptCore
+09:22:15 [Loader] Load success System\ProtocolCore
+09:22:15 [Loader] Load success Utils\Database
+09:22:15 [Loader] Load success Utils\DatabaseAsync
+09:22:15 [Loader] Load success Utils\Cron
+09:22:15 [Loader] Load success Utils\Functions
+09:22:15 [Loader] Load success Utils\Schedule
+09:22:15 [Loader] Load success Scripts\CalCharacter
+09:22:15 [Loader] Load success Scripts\Musaffe\Config
+09:22:15 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+09:22:15 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+09:22:15 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+09:22:15 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+09:22:15 [Loader] Load success Scripts\Musaffe\Config
+09:22:15 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+09:22:15 [Loader] Load success Scripts\Musaffe\Config
+09:22:15 [Loader] Load folder success Scripts\Musaffe\
+09:22:15 Connected to database
+09:22:15 Connected to Async database
+09:22:15 Teste query: ZZZZZZZZZZ
+09:22:15 [ServerInfo] Script loaded successfully

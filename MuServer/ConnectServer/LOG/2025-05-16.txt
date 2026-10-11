@@ -1,0 +1,6 @@
+02:28:58 [ServerList] GameServer offline (GameServer) (1)
+02:28:58 [ServerList] GameServer online (GameServer) (1)
+05:31:39 [AntiFlood] SYN FLOOD attack(185.192.124.136)
+05:31:39 [SocketManager] WSAAccept() failed with error: 10061
+15:05:15 [AntiFlood] SYN FLOOD attack(45.185.124.20)
+15:05:15 [SocketManager] WSAAccept() failed with error: 10061

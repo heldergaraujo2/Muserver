@@ -1,0 +1,20 @@
+15:10:01 [SCRIPT LOG] Start
+15:10:01 [Loader] Lua Gameserver socket ready!
+15:10:01 [Loader] Load success System\ScriptCore
+15:10:01 [Loader] Load success System\ProtocolCore
+15:10:01 [Loader] Load success Utils\Database
+15:10:01 [Loader] Load success Utils\DatabaseAsync
+15:10:01 [Loader] Load success Utils\Cron
+15:10:01 [Loader] Load success Utils\Functions
+15:10:01 [Loader] Load success Utils\Schedule
+15:10:01 [Loader] Load success Scripts\CalCharacter
+15:10:01 [Loader] Load success Scripts\Musaffe\Config
+15:10:01 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+15:10:01 [Loader] Load success Scripts\Musaffe\Config
+15:10:01 [Loader] Load folder success Scripts\Musaffe\
+15:10:01 [Loader] Load folder success Scripts\ReaddRequirement\
+15:10:01 Connected to database
+15:10:01 Connected to Async database
+15:10:01 Teste query: ZZZZZZZZZZ
+15:10:01 [ReaddRequirement] Carregado. Protegendo o comando /readd.
+15:10:01 [ServerInfo] Script loaded successfully

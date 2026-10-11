@@ -1,0 +1,51 @@
+00:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 845, Map: 107, X: 1~250, Y: 1~250)
+00:00:00 [MonsterSetBase] Incorrect Monster Position: (Monster: 846, Map: 107, X: 1~250, Y: 1~250)
+00:08:01 [ServerInfo] Event loaded successfully
+00:08:05 [ServerInfo] EventItemBag loaded successfully
+00:08:09 [ServerInfo] Monster loaded successfully
+00:08:09 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+00:08:09 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 68, Y: 7)
+00:08:16 [ServerInfo] CashShop loaded successfully
+00:08:16 [ServerInfo] ChaosMix loaded successfully
+00:08:16 [ServerInfo] Character loaded successfully
+00:08:16 [ServerInfo] Command loaded successfully
+00:08:16 [ServerInfo] Common loaded successfully
+00:08:16 [FakeOnline] Loaded successfully
+00:08:16 [ServerInfo] Custom loaded successfully
+00:08:16 [ServerInfo] Discord loaded successfully
+00:08:16 [ServerInfo] Effect loaded successfully
+00:08:16 [ServerInfo] Event loaded successfully
+00:08:17 [ServerInfo] EventItemBag loaded successfully
+00:08:17 [ServerInfo] Hack loaded successfully
+00:08:17 [ServerInfo] Message loaded successfully
+00:08:17 [ServerInfo] Map loaded successfully
+00:08:17 [ServerInfo] Message loaded successfully
+00:08:17 [ServerInfo] Monster loaded successfully
+00:08:17 [ServerInfo] Move loaded successfully
+00:08:17 [ServerInfo] Quest loaded successfully
+00:08:17 [ServerInfo] Shop loaded successfully
+00:08:17 [ServerInfo] Skill loaded successfully
+00:08:17 [ServerInfo] Util loaded successfully
+00:08:17 [ReadBotInfo] BotSystem loaded successfully
+00:08:27 [Obj][13001] LogOutCharacter (Louco)
+00:08:27 [Obj][13001] DelAccount (hellderr)
+00:08:27 [Obj][13001] DelClient (177.200.34.53)
+00:09:15 [ServerInfo] Event loaded successfully
+00:09:51 [Obj][13002] LogOutCharacter (Saffe)
+00:09:51 [Obj][13002] DelAccount (hellder)
+00:09:51 [Obj][13002] DelClient (177.200.34.53)
+00:31:02 [FakeOnline] Loaded successfully
+00:31:02 [ServerInfo] Custom loaded successfully
+00:32:12 [ServerInfo] Event loaded successfully
+03:19:34 [Obj][13004] AddClient (206.168.34.208)
+03:19:37 [Obj][13004] DelClient (206.168.34.208)
+03:19:41 [Obj][13003] AddClient (206.168.34.208)
+03:19:51 [Obj][13003] DelClient (206.168.34.208)
+05:00:53 [Obj][13000] AddClient (139.5.46.11)
+05:00:53 [Obj][13000] DelClient (139.5.46.11)
+15:38:48 [Obj][13001] AddClient (200.25.53.10)
+15:38:50 [Obj][13001] DelClient (200.25.53.10)
+17:02:19 [Obj][13002] AddClient (200.25.53.10)
+17:02:23 [Obj][13002] DelClient (200.25.53.10)
+17:53:51 [Obj][13004] AddClient (170.245.238.140)
+17:54:13 [Obj][13004] DelClient (170.245.238.140)

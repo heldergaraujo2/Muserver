@@ -1,0 +1,113 @@
+00:07:29 [CommandChange][joker][joker] - (ChangeUp: 0)
+00:07:34 [CommandChange][joker][joker] - (ChangeUp: 1)
+00:08:57 [Command Clear Iventory] Use for:[joker][joker]
+00:12:34 [CommandReAdd][joker][joker] - OK
+00:12:46 [CommandReAdd][joker][joker] - OK
+00:13:17 [CommandReAdd][joker][joker] - OK
+00:14:03 [CommandReAdd][joker][joker] - OK
+00:14:26 [CommandSetFull][hellder][Saffe] - (Player: joker, Str: 6787, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+00:14:40 [CommandReAdd][joker][joker] - OK
+00:14:55 [CommandAddPoint][joker][joker] - (Type: 3, Amount: 2300)
+00:14:59 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 3000)
+00:15:06 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 1138)
+00:15:10 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 447)
+00:15:36 [CommandReAdd][joker][joker] - OK
+00:15:42 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 1180)
+00:15:47 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 400)
+00:15:55 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 2700)
+00:16:00 [CommandAddPoint][joker][joker] - (Type: 3, Amount: 2605)
+00:17:36 [CommandDrop][hellder][Saffe] Section: 12, Type: 7, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:39 [CommandDrop][hellder][Saffe] Section: 12, Type: 8, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:42 [CommandDrop][hellder][Saffe] Section: 12, Type: 9, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:45 [CommandDrop][hellder][Saffe] Section: 12, Type: 10, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:48 [CommandDrop][hellder][Saffe] Section: 12, Type: 11, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:53 [CommandDrop][hellder][Saffe] Section: 12, Type: 12, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:56 [CommandDrop][hellder][Saffe] Section: 12, Type: 13, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:17:59 [CommandDrop][hellder][Saffe] Section: 12, Type: 14, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:18:01 [CommandDrop][hellder][Saffe] Section: 12, Type: 15, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:18:04 [CommandDrop][hellder][Saffe] Section: 12, Type: 16, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:18:07 [CommandDrop][hellder][Saffe] Section: 12, Type: 17, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:18:09 [CommandDrop][hellder][Saffe] Section: 12, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:18:12 [CommandDrop][hellder][Saffe] Section: 12, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+00:20:25 [CommandReAdd][joker][joker] - OK
+00:20:33 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 3000)
+00:20:37 [CommandAddPoint][joker][joker] - (Type: 3, Amount: 1000)
+00:20:41 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 2800)
+00:21:04 [CommandReAdd][joker][joker] - OK
+00:21:09 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 3500)
+00:21:12 [CommandAddPoint][joker][joker] - (Type: 3, Amount: 1000)
+00:21:18 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 1500)
+00:21:21 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 885)
+00:22:22 [CommandReAdd][joker][joker] - OK
+00:22:26 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 4000)
+00:22:33 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 2000)
+00:22:37 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 885)
+00:23:33 [CommandReAdd][joker][joker] - OK
+00:23:36 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 5000)
+00:23:39 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 1000)
+00:23:42 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 885)
+00:24:28 [CommandReAdd][joker][joker] - OK
+00:24:32 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 4000)
+00:24:35 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 2000)
+00:25:47 [CommandReAdd][joker][joker] - OK
+00:25:57 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 5000)
+00:26:01 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 1885)
+00:29:24 [CommandReAdd][joker][joker] - OK
+00:29:30 [CommandAddPoint][joker][joker] - (Type: 0, Amount: 1180)
+00:29:33 [CommandAddPoint][joker][joker] - (Type: 1, Amount: 500)
+00:29:36 [CommandAddPoint][joker][joker] - (Type: 3, Amount: 2300)
+00:29:40 [CommandAddPoint][joker][joker] - (Type: 2, Amount: 2905)
+00:52:59 [CommandReAdd][hellderrr][100Desculp] - OK
+00:53:04 [CommandAddPoint][hellderrr][100Desculp] - (Type: 0, Amount: 1000)
+00:53:07 [CommandAddPoint][hellderrr][100Desculp] - (Type: 1, Amount: 1000)
+00:53:09 [CommandAddPoint][hellderrr][100Desculp] - (Type: 3, Amount: 1000)
+00:53:14 [CommandAddPoint][hellderrr][100Desculp] - (Type: 2, Amount: 1000)
+01:03:31 [CommandAddPoint][hellderrr][100Desculp] - (Type: 1, Amount: 4000)
+10:57:53 [CommandSetFull][netocdj3][Italianao] - (Player: Italianao, Str: 7180, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:58:14 [CommandSetFull][netocdj3][Italianao] - (Player: Italianao, Str: 7180, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:58:19 [CommandSetFull][netocdj3][Italianao] - (Player: Italianao, Str: 7180, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:58:32 [CommandSetFull][netocdj3][Italianao] - (Player: Italianao, Str: 7180, Dex: 15, Vit: 15, Ene: 15, Com: 0)
+10:58:36 [CommandReAdd][netocdj3][Italianao] - OK
+10:59:09 [CommandReAdd][hellderrrr][Elysium] - OK
+10:59:19 [CommandAddPoint][netocdj3][Italianao] - (Type: 0, Amount: 1231)
+10:59:26 [CommandAddPoint][netocdj3][Italianao] - (Type: 1, Amount: 2000)
+10:59:32 [CommandAddPoint][netocdj3][Italianao] - (Type: 2, Amount: 930)
+10:59:49 [CommandAddPoint][netocdj3][Italianao] - (Type: 2, Amount: 2100)
+10:59:55 [CommandAddPoint][netocdj3][Italianao] - (Type: 3, Amount: 900)
+11:00:01 [CommandAddPoint][netocdj3][Italianao] - (Type: 2, Amount: 429)
+11:03:33 [CommandReAdd][hellderr][Louco] - OK
+11:03:37 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 690)
+11:03:46 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 600)
+11:03:49 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 600)
+11:03:57 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 5000)
+11:05:00 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 500)
+11:08:39 [CommandReAdd][hellderr][Louco] - OK
+11:08:51 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 629)
+11:08:56 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 41)
+11:09:00 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 400)
+11:09:09 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 6330)
+11:09:13 [CommandReAdd][hellderr][Louco] - OK
+11:09:21 [CommandAddPoint][hellderr][Louco] - (Type: 0, Amount: 670)
+11:09:27 [CommandAddPoint][hellderr][Louco] - (Type: 1, Amount: 400)
+11:09:29 [CommandAddPoint][hellderr][Louco] - (Type: 3, Amount: 400)
+11:09:35 [CommandAddPoint][hellderr][Louco] - (Type: 2, Amount: 5930)
+11:50:42 [Command Clear Iventory] Use for:[netocdj3][Italianao]
+11:51:20 [CommandMake][netocdj3][Italianao] Section: 12, Type: 137, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:26 [CommandMake][netocdj3][Italianao] Section: 12, Type: 137, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:31 [CommandMake][netocdj3][Italianao] Section: 12, Type: 137, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:53 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:51:59 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:02 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:05 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:08 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:11 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:14 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:17 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:20 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:23 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:26 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:29 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:52:38 [CommandMake][netocdj3][Italianao] Section: 14, Type: 22, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 40]
+11:53:13 [Command Clear Iventory] Use for:[netocdj3][Italianao]
+11:53:55 [CommandMake][netocdj3][Italianao] Section: 14, Type: 123, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:53:59 [CommandMake][netocdj3][Italianao] Section: 14, Type: 123, Level: 255, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

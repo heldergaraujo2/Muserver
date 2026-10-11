@@ -1,0 +1,1322 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	WCoin	WPoin	GP	    Comment
+0         7179        0           *		 		 *            * 			0		0		0		0		0		//Box of Luck
+1         *           *           55             *            * 			0		0		0		0		0		//Skeleton King
+2         *           *           42             *            * 			0		0		0		0		0		//Red Dragon
+3         7179        1           *              *            * 			0		0		0		0		0		//Star of Christmas
+4         7179        3           *              *            * 			0		0		0		0		0		//Heart of Love
+5         7179        5           *              *            * 			0		0		0		0		0		//Silver Medal
+6         7179        6           *              *            * 			0		0		0		0		0		//Gold Medal
+7         7179        8           *              *            * 			0		0		0		0		0		//Box of Kundun 1
+8         7179        9           *              *            * 			0		0		0		0		0		//Box of Kundun 2
+9         7179        10          *              *            * 			0		0		0		0		0		//Box of Kundun 3
+10        7179        11          *              *            * 			0		0		0		0		0		//Box of Kundun 4
+11        7179        12          *              *            * 			0		0		0		0		0		//Box of Kundun 5
+//======================================================================================================================
+// EVENT BLOOD CASTLE
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+12        *           *           *              *            0          	0		0		0		0		0		//Blood Castle 1
+13        *           *           *              *            1         	0		0		0		0		0		//Blood Castle 2
+14        *           *           *              *            2         	0		0		0		0		0		//Blood Castle 3
+15        *           *           *              *            3         	0		0		0		0		0		//Blood Castle 4
+16        *           *           *              *            4         	0		0		0		0		0		//Blood Castle 5
+17        *           *           *              *            5         	0		0		0		0		0		//Blood Castle 6
+18        *           *           *              *            6         	0		0		0		0		0		//Blood Castle 7
+19        *           *           *              *            7         	0		0		0		0		0		//Blood Castle 8
+//======================================================================================================================
+// EVENT CHAOS CASTLE
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+20        *           *           *              *            8         	0		0		0		0		0		//Chaos Castle 1
+21        *           *           *              *            9         	0		0		0		0		0		//Chaos Castle 2
+22        *           *           *              *            10         	0		0		0		0		0		//Chaos Castle 3
+23        *           *           *              *            11         	0		0		0		0		0		//Chaos Castle 4
+24        *           *           *              *            12         	0		0		0		0		0		//Chaos Castle 5
+25        *           *           *              *            13         	0		0		0		0		0		//Chaos Castle 6
+26        *           *           *              *            14         	0		0		0		0		0		//Chaos Castle 7
+//======================================================================================================================
+27        *           *           135            *            *         	0		0		0		0		0		//White Wizard
+28        *           *           *              *            15         	0		0		0		0		0		//Starter Ring 40
+29        *           *           *              *            16         	0		0		0		0		0		//Starter Ring 80
+30        7179        7           *              *            *         	0		0		0		0		0		//Box of Heaven
+31        7179        13          *              *            *         	0		0		0		0		0		//Blue Heart
+32        *           *           275            *            *         	0		0		0		0		0		//Kundun
+33        *           *           295            *            *         	0		0		0		0		0		//Erohim
+34        *           *           *              *            17         	0		0		0		0		0		//Senior Mix
+35        6176        *           *              *            *         	0		0		0		0		0		//Red Ribbon Box
+36        6177        *           *              *            *         	0		0		0		0		0		//Green Ribbon Box
+37        6178        *           *              *            *         	0		0		0		0		0		//Blue Ribbon Box
+38        7200        0           *              *            *         	0		0		0		0		0		//Pink Chocolate Box
+39        7201        0           *              *            *         	0		0		0		0		0		//Red Chocolate Box
+40        7202        0           *              *            *         	0		0		0		0		0		//Blue Chocolate Box
+41        7200        1           *              *            *         	0		0		0		0		0		//Purple Candy Box
+42        7201        1           *              *            *         	0		0		0		0		0		//Red Candy Box
+43        7202        1           *              *            *         	0		0		0		0		0		//Blue Candy Box
+
+//======================================================================================================================
+// EVENT CRY WOLF
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+44        *           *           340            *            *         	0	0	0	0	0	//Dark Elf
+45        *           *           349            *            *         	0	0	0	0	0	//Balgass
+//======================================================================================================================
+// EVENT KANTURU
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+46        *           *           362            *            *         	0	0	0	0	0	//Maya Hand Left
+47        *           *           363            *            *         	0	0	0	0	0	//Maya Hand Right
+48        *           *           361            *            *         	0	0	0	0	0	//Nightmare
+//======================================================================================================================
+49        7213        *           *              *            *         	0	0	0	0	0	//Halloween Pumpkin
+50        *           *           365            *            *         	0	0	0	0	0	//Fortune Pouch
+51        7220        *           *              *            *         	0	0	0	0	0	//Game Master Box
+52        7223        *           *              *            *         	0	0	0	0	0	//Green Mistery Box
+53        7224        *           *              *            *         	0	0	0	0	0	//Pink Mistery Box
+54        7225        *           *              *            *         	0	0	0	0	0	//Purple Mistery Box
+55        *           *           *              *            18         	0	0	0	0	0	//Leo the Helper
+//======================================================================================================================
+// EVENT ILLUSION TEMPLE
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+56        *           *           *              *            19         	0	0	0	0	0	//Illusion Temple 1
+57        *           *           *              *            20         	0	0	0	0	0	//Illusion Temple 2
+58        *           *           *              *            21         	0	0	0	0	0	//Illusion Temple 3
+59        *           *           *              *            22         	0	0	0	0	0	//Illusion Temple 4
+60        *           *           *              *            23         	0	0	0	0	0	//Illusion Temple 5
+61        *           *           *              *            24         	0	0	0	0	0	//Illusion Temple 6
+//======================================================================================================================
+62        *           *           413            *            *         	0	0	0	0	0	//Lunar Rabbit
+63        7252        *           *              *            *         	0	0	0	0	0	//Cherry Blossom Box
+64        *           *           *              *            25         	0	0	0	0	0	//Cherry Blossom Mix 1
+65        *           *           *              *            26         	0	0	0	0	0	//Cherry Blossom Mix 2
+66        *           *           *              *            27         	0	0	0	0	0	//Cherry Blossom Mix 3
+67        *           *           459            *            *         	0	0	0	0	0	//Selupan
+68        *           *           463            *            *         	0	0	0	0	0	//Fire Flame Ghost
+69        *           *           *              *            28         	0	0	0	0	0	//Santa Claus
+70        *           *           *              *            29         	0	0	0	0	0	//Lucky Coin 1
+71        *           *           *              *            30         	0	0	0	0	0	//Lucky Coin 2
+72        *           *           *              *            31         	0	0	0	0	0	//Lucky Coin 3
+73        7222        *           *              *            32         	0	0	0	0	0	//Chaos Card Mix 1 
+74        *           *           *              *            33         	0	0	0	0	0	//Chaos Card Mix 2
+75        *           *           *              *            34         	0	0	0	0	0	//Chaos Card Mix 3
+76        *           *           *              *            35         	0	0	0	0	0	//Chaos Card Mix 4
+77        *           *           *              *            36         	0	0	0	0	0	//Chaos Card Mix 5
+//======================================================================================================================
+// EVENT DOUBLEGOER
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+78        *           *           *              *            37         	0	0	0	0	0	//Double Goer Silver Chest 1
+79        *           *           *              *            38         	0	0	0	0	0	//Double Goer Silver Chest 2
+80        *           *           *              *            39         	0	0	0	0	0	//Double Goer Silver Chest 3
+81        *           *           *              *            40         	0	0	0	0	0	//Double Goer Silver Chest 4
+82        *           *           *              *            41         	0	0	0	0	0	//Double Goer Silver Chest 5
+83        *           *           *              *            42         	0	0	0	0	0	//Double Goer Golden Chest 1
+84        *           *           *              *            43         	0	0	0	0	0	//Double Goer Golden Chest 2
+85        *           *           *              *            44         	0	0	0	0	0	//Double Goer Golden Chest 3
+86        *           *           *              *            45         	0	0	0	0	0	//Double Goer Golden Chest 4
+87        *           *           *              *            46         	0	0	0	0	0	//Double Goer Golden Chest 5
+//======================================================================================================================
+// EVENT IMPERIAL GUARDIAN (GAION)
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+88        *           *           *              *            47         	0	0	0	0	0	//Imperial Guardian Side Boss 1
+89        *           *           *              *            48         	0	0	0	0	0	//Imperial Guardian Side Boss 2
+90        *           *           *              *            49         	0	0	0	0	0	//Imperial Guardian Side Boss 3
+91        *           *           *              *            50         	0	0	0	0	0	//Imperial Guardian Side Boss 4
+92        *           *           *              *            51         	0	0	0	0	0	//Imperial Guardian Side Boss 5
+93        *           *           *              *            52         	0	0	0	0	0	//Imperial Guardian Main Boss 1
+94        *           *           *              *            53         	0	0	0	0	0	//Imperial Guardian Main Boss 2
+95        *           *           *              *            54         	0	0	0	0	0	//Imperial Guardian Main Boss 3
+96        *           *           *              *            55         	0	0	0	0	0	//Imperial Guardian Main Boss 4
+97        *           *           *              *            56         	0	0	0	0	0	//Imperial Guardian Main Boss 5
+
+//======================================================================================================================
+98        7179        14          *              *            *         	0	0	0	0	0	//Blue Luck Pouch
+99        7179        15          *              *            *         	0	0	0	0	0	//Red Luck Pouch
+100       7291        *           *              *            *         	0	0	0	0	0	//Golden Box
+101       7292        *           *              *            *         	0	0	0	0	0	//Silver Box
+102       7309        *           *              *            *         	0	0	0	0	0	//Shining Jewelry Case
+103       7310        *           *              *            *         	0	0	0	0	0	//Elegant Jewelry Case
+104       7311        *           *              *            *         	0	0	0	0	0	//Steel Jewelry Case
+105       7312        *           *              *            *         	0	0	0	0	0	//Old Jewelry Case
+106       *           *           561            *            *         	0	0	0	0	0	//Medusa
+107       *           *           *              *            57         	0	0	0	0	0	//Crywolf
+
+//======================================================================================================================
+// NEWS GOLDEN
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+108       *           *           43             *            *         	0		0		0		0		10		//Golden Budge Dragon
+109       *           *           78             *            *         	0		0		0		0		10		//Golden Goblin
+110       *           *           54             *            *         	0		0		0		0		10		//Golden Soldier
+111       *           *           53             *            *         	0		0		0		0		10		//Golden Titan
+112       *           *           79             *            *         	0		0		0		0		10		//Golden Dragon
+113       *           *           80             *            *         	0		0		0		0		10		//Golden Lizard King
+114       *           *           81             *            *         	0		0		0		0		10		//Golden Vepar
+115       *           *           82             *            *         	0		0		0		0		10		//Golden Tantalos
+116       *           *           83             *            *         	0		0		0		0		10		//Golden Iron Wheel
+117       *           *           502            *            *         	0		0		0		0		10		//Golden Rabbit
+118       *           *           493            *            *         	0		0		0		0		10		//Golden Dark Knight
+119       *           *           494            *            *         	0		0		0		0		10		//Golden Devil
+120       *           *           495            *            *         	0		0		0		0		10		//Golden Stone Golem
+121       *           *           496            *            *         	0		0		0		0		10		//Golden Crust
+122       *           *           497            *            *         	0		0		0		0		10		//Golden Satyros
+123       *           *           498            *            *         	0		0		0		0		10		//Golden Twin Tail
+124       *           *           499            *            *         	0		0		0		0		10		//Golden Iron Knight
+125       *           *           500            3            *         	0		0		0		0		10		//Golden Napin
+126       *           *           501            *            *         	0		0		0		0		10		//Golden Great Dragon
+127       *           *           *              *            60         	0		0		0		0		0		//Online Lottery 
+128       *           *           *              *            61         	0		0		0		0		0		//Gift System
+129       *           *           *              *            62         	0		0		0		0		0		//Battle Royale
+
+//======================================================================================================================
+// MINI BOSSES
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+130       *           *           18             *            *         	0		0		0		0		0		//Boss Gorgon
+131       *           *           25             *            *         	0		0		0		0		0		//Boss Ice Queen
+132       *           *           38             *            *         	0		0		0		0		0		//Boss Balrog
+//133       *           *           59             *            *         	0		0		0		0		0		//Boss Zaikan
+//======================================================================================================================
+// NEW BOSSES
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+163       *           *           678            1            *         	0	0	0	0	0	//Lord of Ferea
+164       *           *           687            1            *         	0	0	0	0	0	//Nixie
+165       *           *           683            1            *         	0	0	0	0	0	//Core Magriffy
+166       *           *           682            1            *         	0	0	0	0	0	//Lord Silvester
+167       *           *           694            1            *         	0	0	0	0	0	//God of Darkness
+//======================================================================================================================
+// MUUN EGG
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+168       6855        *           *              *            *         	0	0	0	0	0	//Muun Egg
+//======================================================================================================================
+// ORCS WHIT WIZARD (WIZARD RING)
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+169       *           *           136           *             *         	0	0	0	0	0	//Orc Soldier
+170       *           *           137           *             *         	0	0	0	0	0	//Orc Archer
+//======================================================================================================================
+// PROTECTOR OF ACHERON
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+171       *           *           784            *            *         	0	0	0	0	0	////Cursed Tower
+//======================================================================================================================
+// SUMMON THE DEMONS EVENT
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+172       *           * 		  795            *            *         	0	0	0	0	0	// Golden Goblin  (Summon the Demons)
+173       *           *           796            *            *         	0	0	0	0	0	// Golden Titan
+174       *           *           797            *            *         	0	0	0	0	0	// Golden Tantalose
+175       *           *           798            *            *         	0	0	0	0	0	// Golden Erohim
+176       *           *           799            *            *         	0	0	0	0	0	// Golden Hell Maine
+177       *           *           800            *            *         	0	0	0	0	0	// Golden Kundun
+//======================================================================================================================
+// EVENT EVOMONS
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+178       *           *           736            *            *         	0	0	0	0	0	// Evomon Lv3
+179       *           *           737            *            *         	0	0	0	0	0	// Special Evomon
+//======================================================================================================================
+// EVENT CHICKENS RUN
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+180       *           *           776            *            *         	0		0		0		0		0		// Chicken
+181       *           *           049            *            *         	0		0		0		0		0		// Hydra
+182       *           *           309            *            *         	0		0		0		0		0		// hell Maine
+//======================================================================================================================
+// OTHERS EVENTS
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+200       *           *           *              *            63         	0	0	0	0	0	//Team Vs Team 
+201       *           *           *              *            64         	0	0	0	0	0	//Guild Vs Guild 
+202       *           *           *              *            65         	0	0	0	0	0	//Hide and Seek 
+203       *           *           *              *            66         	0	0	0	0	0	//Run and Catch
+204       *           *           *              *            67         	0	0	0	0	0	//Russian Roulette
+205       *           *           *              *            68         	0	0	0	0	0	//Player vs Player
+206       *           *           *              *            69         	0	0	0	0	0	//Kill All Rank 1
+207       *           *           *              *            70         	0	0	0	0	0	//Kill All Rank 2
+208       *           *           *              *            71         	0	0	0	0	0	//Kill All Rank 3
+209       *           *           *              *            72         	0	0	0	0	0	//Arka War Guild players (King of Mu)
+210       *           *           *              *            73         	0	0	0	0	0	//Arka War Top player 1 (King of Mu)
+211       *           *           *              *            74         	0	0	0	0	0	//Arka War Top player 2 (King of Mu)
+212       *           *           *              *            75         	0	0	0	0	0	//Arka War Top player 3 (King of Mu)
+213       *           *           *              *            76         	0	0	0	0	0	//Arka War Top player 4 (King of Mu)
+214       *           *           *              *            77         	0	0	0	0	0	//Arka War Top player 5 (King of Mu)
+215       *           *           *              *            78         	0	0	0	0	0	//Devil Square 1
+216       *           *           *              *            79        	0	0	0	0	0	//Devil Square 2
+217       *           *           *              *            80         	0	0	0	0	0	//Devil Square 3
+218       *           *           *              *            81         	0	0	0	0	0	//Devil Square 4
+219       *           *           *              *            82         	0	0	0	0	0	//Devil Square 5
+220       *           *           *              *            83         	0	0	0	0	0	//Devil Square 6
+221       *           *           *              *            84         	0	0	0	0	0	//Devil Square 7
+222       *           *           *              *            85        	0	0	0	0	0	//Quickly Event
+223       *           *           *              *            86        	0	0	0	0	0	//Reset Reward
+224       *           *           *              *            87        	0	0	0	0	0	//Master Reset Reward
+225       *           *           *              *            88            0	0	0	0	0	//Online Reward 1
+226       *           *           *              *            89            0	0	0	0	0	//Online Reward 2
+227       *           *           *              *            90         	0	0	0	0	0	//Online Reward 3
+228       *           *           *              *            91         	2	9	0	0	10	//Marathon Event 1
+229       *           *           *              *            92         	2	9	0	0	7	//Marathon Event 2
+230       *           *           *              *            93         	2	9	0	0	5	//Marathon Event 3
+231       *           *           *              *            94         	2	9	0	0	0	//PvpChampionship Final
+232       *           *           *              *            95         	2	9	0	0	0	//PvpChampionship Round
+233       *           *           *              *            108         	0	0	0	0	0	//Pandora event
+
+234       *           *           819            1            *         	2	9	0	0	0	//Boss Battle Together
+235       *           *           820            1            *         	2	9	0	0	0	//Boss Battle Together
+236       *           *           821            1            *         	2	9	0	0	0	//Boss Battle Together
+237       *           *           822            1            *         	2	9	0	0	0	//Boss Battle Together
+238       *           *           823            1            *         	2	9	0	0	0	//Boss Battle Together
+239       *           *           824            1            *         	2	9	0	0	0	//Boss Battle Together
+
+240       *           *           *              *            109         	0	0	0	0	0	//Rank #1 Castle siege Switch Time
+241       *           *           *              *            110         	0	0	0	0	0	//Rank #1 Castle siege Crown Time
+242       *           *           *              *            111         	0	0	0	0	0	//Rank #1 Castle siege Kills
+243       *           *           *              *            112         	0	0	0	0	0	//Rank #1 Castle siege Points
+
+
+
+
+
+
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+297       7338        *           *              *            *         	0	0       0	0	1000	//Mastery Box(Minor)
+298       7339        *           *              *            *         	0	0       0	0       5000	//Mastery Box(Standar)
+299       7340        *           *              *            *         	0	0       0	0	10000	//Mastery Box(Greater)
+//======================================================================================================================
+// CUSTOM MIX
+//======================================================================================================================
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+496       *           *           868            *            *         	0	0	0	0	0	//Chaos mix Wings 2.5
+497       *           *           *              *            497         	0	0	0	0	0	//Chaos mix Wings 2.5
+498       *           *           *              *            498         	0	0	0	0	0	//Chaos mix Wings 2.5
+499       *           *           *              *            499         	0	0	0	0	0	//Chaos mix Wings 2.5
+500       *           *           *              *            500         	0	0	0	0	0	//Chaos mix Wings 2.5
+502       *           *           *              *            502         	0	0	0	0	0	//Chaos mix Wings 2.5
+504       *           *           *              *            504         	0	0	0	0	0	//Chaos mix Wings 2.5
+506       *           *           *              *            506         	0	0	0	0	0	//Chaos mix Wings 2.5
+507       *           *           *              *            507         	0	0	0	0	0	//Mix Garuda Feather
+508       *           *           *              *            508         	0	0	0	0	0	//Mix Wings Lv4
+509       *           *           *              *            509         	0	0	0	0	0	//Mix Bloodangel - Ancient Hero's Soul
+510       *           *           *              *            510         	0	0	0	0	0	//Mix Bloodangel - 
+511       *           *           *              *            511         	0	0	0	0	0	//Mix Bloodangel - 
+512       *           *           *              *            512         	0	0	0	0	0	//Mix Bloodangel - 
+513       *           *           *              *            513         	0	0	0	0	0	//Mix Bloodangel - 
+514       *           *           *              *            514         	0	0	0	0	0	//Mix Bloodangel - 
+515       *           *           *              *            515         	0	0	0	0	0	//Mix Bloodangel - 
+516       *           *           *              *            516         	0	0	0	0	0	//Mix Bloodangel - 
+517       *           *           *              *            517         	0	0	0	0	0	//Mix Bloodangel - 
+518       *           *           *              *            518         	0	0	0	0	0	//Mix Bloodangel - 
+519       *           *           *              *            519         	0	0	0	0	0	//Mix Bloodangel - 
+520       *           *           *              *            520         	0	0	0	0	0	//Mix Bloodangel - 
+521       *           *           *              *            521         	0	0	0	0	0	//Mix Bloodangel - 
+522       *           *           *              *            522         	0	0	0	0	0	//Mix Bloodangel - 
+523       *           *           *              *            523         	0	0	0	0	0	//Mix Bloodangel - 
+524       *           *           *              *            524         	0	0	0	0	0	//Mix Bloodangel - 
+525       *           *           *              *            525         	0	0	0	0	0	//Mix Bloodangel - 
+526       *           *           *              *            526         	0	0	0	0	0	//Mix Bloodangel - 
+527       *           *           *              *            527         	0	0	0	0	0	//Mix Bloodangel - 
+528       *           *           *              *            528         	0	0	0	0	0	//Mix Bloodangel - 
+529       *           *           *              *            529         	0	0	0	0	0	//Mix Bloodangel - 
+530       *           *           *              *            530         	0	0	0	0	0	//Mix Bloodangel - 
+531       *           *           *              *            531         	0	0	0	0	0	//Mix Bloodangel - 
+532       *           *           *              *            532         	0	0	0	0	0	//Mix Bloodangel - 
+533       *           *           *              *            533         	0	0	0	0	0	//Mix Bloodangel - 
+534       *           *           *              *            534         	0	0	0	0	0	//Mix Bloodangel - 
+535       *           *           *              *            535         	0	0	0	0	0	//Mix Bloodangel - 
+536       *           *           *              *            536         	0	0	0	0	0	//Mix Bloodangel - 
+537       *           *           *              *            537         	0	0	0	0	0	//Mix Bloodangel - 
+538       *           *           *              *            538         	0	0	0	0	0	//Mix Bloodangel - 
+539       *           *           *              *            539         	0	0	0	0	0	//Mix Bloodangel - 
+540       *           *           *              *            540         	0	0	0	0	0	//Mix Bloodangel - 
+541       *           *           *              *            541         	0	0	0	0	0	//Mix Bloodangel - 
+542       *           *           *              *            542         	0	0	0	0	0	//Mix Bloodangel - 
+543       *           *           *              *            543         	0	0	0	0	0	//Chaos Mix Greater Spirit Stone
+544       *           *           *              *            544         	0	0	0	0	0	//Chaos Mix Archangel's Hammer
+545       *           *           *              *            545         	0	0	0	0	0	//Chaos Mix Blessed Sword
+546       *           *           *              *            546         	0	0	0	0	0	//Chaos Mix Blessed Claw
+547       *           *           *              *            547         	0	0	0	0	0	//Chaos Mix Blessed Scepter
+548       *           *           *              *            548         	0	0	0	0	0	//Chaos Mix Blessed Crossbow
+549       *           *           *              *            549         	0	0	0	0	0	//Chaos Mix Blessed Staff
+550       *           *           *              *            550         	0	0	0	0	0	//Chaos Mix Blessed Stick
+551       *           *           *              *            551         	0	0	0	0	0	//Chaos Mix Darkangel Sword
+552       *           *           *              *            552         	0	0	0	0	0	//Chaos Mix Darkangel Magic Sword
+553       *           *           *              *            553         	0	0	0	0	0	//Chaos Mix Darkangel Claw
+554       *           *           *              *            554         	0	0	0	0	0	//Chaos Mix Darkangel Scepter
+555       *           *           *              *            555         	0	0	0	0	0	//Chaos Mix Darkangel Bow
+556       *           *           *              *            556         	0	0	0	0	0	//Chaos Mix Darkangel Staff
+557       *           *           *              *            557         	0	0	0	0	0	//Chaos Mix Darkangel Stick
+558       *           *           *              *            558         	0	0	0	0	0	//Chaos Mix Summon Scroll Lv2
+559       *           *           *              *            559         	0	0	0	0	0	//Chaos Mix Summon Scroll Lv3
+560       *           *           *              *            560         	0	0	0	0	0	//Chaos Mix Summon Scroll Lv4
+561       *           *           801            *            *         	0	0	0	0	0	////Green Snake
+562       *           *           802            *            *         	0	0	0	0	0	////Yellow Snake
+563       *           *           803            *            *         	0	0	0	0	0	////Purple Snake
+564       *           *           804            *            *         	0	0	0	0	0	////Red Snake
+565       *           *           *              *            565         	0	0	0	0	0	//Mix Darkangel
+566       *           *           *              *            566         	0	0	0	0	0	//Mix Darkangel
+567       *           *           *              *            567         	0	0	0	0	0	//Mix Darkangel
+568       *           *           *              *            568         	0	0	0	0	0	//Mix Darkangel
+569       *           *           *              *            569         	0	0	0	0	0	//Mix Darkangel
+570       *           *           *              *            570         	0	0	0	0	0	//Mix Darkangel
+571       *           *           *              *            571         	0	0	0	0	0	//Mix Darkangel
+572       *           *           *              *            572         	0	0	0	0	0	//Mix Darkangel
+573       *           *           *              *            573         	0	0	0	0	0	//Mix Darkangel
+574       *           *           *              *            574         	0	0	0	0	0	//Mix Darkangel
+575       *           *           *              *            575         	0	0	0	0	0	//Mix Darkangel
+576       *           *           *              *            576         	0	0	0	0	0	//Mix Darkangel
+577       *           *           *              *            577         	0	0	0	0	0	//Mix Darkangel
+578       *           *           *              *            578         	0	0	0	0	0	//Mix Darkangel
+579       *           *           *              *            579         	0	0	0	0	0	//Mix Darkangel
+580       *           *           *              *            580         	0	0	0	0	0	//Mix Darkangel
+581       *           *           *              *            581         	0	0	0	0	0	//Mix Darkangel
+582       *           *           *              *            582         	0	0	0	0	0	//Mix Darkangel
+583       *           *           *              *            583         	0	0	0	0	0	//Mix Darkangel
+584       *           *           *              *            584         	0	0	0	0	0	//Mix Darkangel
+585       *           *           *              *            585         	0	0	0	0	0	//Mix Darkangel
+586       *           *           *              *            586         	0	0	0	0	0	//Mix Darkangel
+587       *           *           *              *            587         	0	0	0	0	0	//Mix Darkangel
+588       *           *           *              *            588         	0	0	0	0	0	//Mix Darkangel
+589       *           *           *              *            589         	0	0	0	0	0	//Mix Darkangel
+590       *           *           *              *            590         	0	0	0	0	0	//Mix Darkangel
+591       *           *           *              *            591         	0	0	0	0	0	//Mix Darkangel
+592       *           *           *              *            592         	0	0	0	0	0	//Mix Darkangel
+593       *           *           *              *            593         	0	0	0	0	0	//Mix Darkangel
+594       *           *           *              *            594         	0	0	0	0	0	//Mix Darkangel
+595       *           *           *              *            595         	0	0	0	0	0	//Mix Darkangel
+596       *           *           *              *            596         	0	0	0	0	0	//Mix Darkangel
+597       *           *           *              *            597         	0	0	0	0	0	//Mix Darkangel
+598       *           *           *              *            598         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+599       *           *           *              *            599         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+600       *           *           *              *            600         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+601       *           *           *              *            601         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+602       *           *           *              *            602         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+603       *           *           *              *            603         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+604       *           *           *              *            604         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+605       *           *           *              *            605         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+606       *           *           *              *            606         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+607       *           *           *              *            607         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+608       *           *           *              *            608         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+609       *           *           *              *            609         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+610       *           *           *              *            610         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+611       *           *           *              *            611         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+612       *           *           *              *            612         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+613       *           *           *              *            613         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+614       *           *           *              *            614         	0	0	0	0	0	//Upgrade Socket Ex700 Weapons
+616       *           *           *              *            616         	0	0	0	0	0	//Mix Holyangel
+617       *           *           *              *            617         	0	0	0	0	0	//Mix Holyangel
+618       *           *           *              *            618         	0	0	0	0	0	//Mix Holyangel
+619       *           *           *              *            619         	0	0	0	0	0	//Mix Holyangel
+620       *           *           *              *            620         	0	0	0	0	0	//Mix Holyangel
+621       *           *           *              *            621         	0	0	0	0	0	//Mix Holyangel
+622       *           *           *              *            622         	0	0	0	0	0	//Mix Holyangel
+623       *           *           *              *            623         	0	0	0	0	0	//Mix Holyangel
+624       *           *           *              *            624         	0	0	0	0	0	//Mix Holyangel
+625       *           *           *              *            625         	0	0	0	0	0	//Mix Holyangel
+626       *           *           *              *            626         	0	0	0	0	0	//Mix Holyangel
+627       *           *           *              *            627         	0	0	0	0	0	//Mix Holyangel
+628       *           *           *              *            628         	0	0	0	0	0	//Mix Holyangel
+629       *           *           *              *            629         	0	0	0	0	0	//Mix Holyangel
+630       *           *           *              *            630         	0	0	0	0	0	//Mix Holyangel
+631       *           *           *              *            631         	0	0	0	0	0	//Mix Holyangel
+632       *           *           *              *            632         	0	0	0	0	0	//Mix Holyangel
+633       *           *           *              *            633         	0	0	0	0	0	//Mix Holyangel
+634       *           *           *              *            634         	0	0	0	0	0	//Mix Holyangel
+635       *           *           *              *            635         	0	0	0	0	0	//Mix Holyangel
+636       *           *           *              *            636         	0	0	0	0	0	//Mix Holyangel
+637       *           *           *              *            637         	0	0	0	0	0	//Mix Holyangel
+638       *           *           *              *            638         	0	0	0	0	0	//Mix Holyangel
+639       *           *           *              *            639         	0	0	0	0	0	//Mix Holyangel
+640       *           *           *              *            640         	0	0	0	0	0	//Mix Holyangel
+641       *           *           *              *            641         	0	0	0	0	0	//Mix Holyangel
+642       *           *           *              *            642         	0	0	0	0	0	//Mix Holyangel
+643       *           *           *              *            643         	0	0	0	0	0	//Mix Holyangel
+644       *           *           *              *            644         	0	0	0	0	0	//Mix Holyangel
+645       *           *           *              *            645         	0	0	0	0	0	//Mix Holyangel
+646       *           *           *              *            646         	0	0	0	0	0	//Mix Holyangel
+647       *           *           *              *            647         	0	0	0	0	0	//Mix Holyangel
+648       *           *           *              *            648         	0	0	0	0	0	//Mix Holyangel
+649       *           *           *              *            649         	0	0	0	0	0	//Mix Cloak of Limit with all capes lv1
+650       *           *           *              *            650         	0	0	0	0	0	//Mix Cloak of Transcendence with wings lv2
+651       *           *           *              *            651         	0	0	0	0	0	//Chaos Mix Holyangel Sword
+652       *           *           *              *            652         	0	0	0	0	0	//Chaos Mix Holyangel Magic Sword
+653       *           *           *              *            653         	0	0	0	0	0	//Chaos Mix Holyangel Claw
+654       *           *           *              *            654         	0	0	0	0	0	//Chaos Mix Holyangel Scepter
+655       *           *           *              *            655         	0	0	0	0	0	//Chaos Mix Holyangel Bow
+656       *           *           *              *            656         	0	0	0	0	0	//Chaos Mix Holyangel Staff
+657       *           *           *              *            657         	0	0	0	0	0	//Chaos Mix Holyangel Stick
+658       *           *           *              *            658         	0	0	0	0	0	//Mix Holyangel Set 
+659       *           *           *              *            659         	0	0	0	0	0	//Mix Holyangel Set
+660       *           *           *              *            660         	0	0	0	0	0	//Mix Holyangel Set
+661       *           *           *              *            661         	0	0	0	0	0	//Mix Holyangel Set
+662       *           *           *              *            662         	0	0	0	0	0	//Mix Holyangel Set
+663       *           *           *              *            663         	0	0	0	0	0	//Mix Holyangel Set
+664       *           *           *              *            664         	0	0	0	0	0	//Mix Holyangel Set
+665       *           *           *              *            665         	0	0	0	0	0	//Mix Holyangel Set
+666       *           *           *              *            666         	0	0	0	0	0	//Mix Holyangel Set
+667       *           *           *              *            667         	0	0	0	0	0	//Mix Holyangel Set
+668       *           *           *              *            668         	0	0	0	0	0	//Mix Holyangel Set
+669       *           *           *              *            669         	0	0	0	0	0	//Mix Holyangel Set
+670       *           *           *              *            670         	0	0	0	0	0	//Mix Holyangel Set
+671       *           *           *              *            671         	0	0	0	0	0	//Mix Holyangel Set
+672       *           *           *              *            672         	0	0	0	0	0	//Mix Holyangel Set
+673       *           *           *              *            673         	0	0	0	0	0	//Mix Holyangel Set
+674       *           *           *              *            674         	0	0	0	0	0	//Mix Holyangel Set
+675       *           *           *              *            675         	0	0	0	0	0	//Mix Holyangel Set
+676       *           *           *              *            676         	0	0	0	0	0	//Mix Holyangel Set
+677       *           *           *              *            677         	0	0	0	0	0	//Mix Holyangel Set
+678       *           *           *              *            678         	0	0	0	0	0	//Mix Holyangel Set
+679       *           *           *              *            679         	0	0	0	0	0	//Mix Holyangel Set
+680       *           *           *              *            680         	0	0	0	0	0	//Mix Holyangel Set
+681       *           *           *              *            681         	0	0	0	0	0	//Mix Holyangel Set
+682       *           *           *              *            682         	0	0	0	0	0	//Mix Holyangel Set
+683       *           *           *              *            683         	0	0	0	0	0	//Mix Holyangel Set
+684       *           *           *              *            684         	0	0	0	0	0	//Mix Holyangel Set
+685       *           *           *              *            685         	0	0	0	0	0	//Mix Holyangel Set
+686       *           *           *              *            686         	0	0	0	0	0	//Mix Holyangel Set
+687       *           *           *              *            687         	0	0	0	0	0	//Mix Holyangel Set
+688       *           *           *              *            688         	0	0	0	0	0	//Mix Holyangel Set
+689       *           *           *              *            689         	0	0	0	0	0	//Mix Holyangel Set
+690       *           *           *              *            690         	0	0	0	0	0	//Mix Holyangel Set
+691       *           *           *              *            691         	0	0	0	0	0	//Chaos Mix Awakening Sword
+692       *           *           *              *            692         	0	0	0	0	0	//Chaos Mix Awakening Magic Sword
+693       *           *           *              *            693         	0	0	0	0	0	//Chaos Mix Awakening Claw
+694       *           *           *              *            694         	0	0	0	0	0	//Chaos Mix Awakening Scepter
+695       *           *           *              *            695         	0	0	0	0	0	//Chaos Mix Awakening Bow
+696       *           *           *              *            696         	0	0	0	0	0	//Chaos Mix Awakening Staff
+697       *           *           *              *            697         	0	0	0	0	0	//Chaos Mix Awakening Stick
+698       *           *           *              *            698         	0	0	0	0	0	//Mix Awakening Set 
+699       *           *           *              *            699         	0	0	0	0	0	//Mix Awakening Set
+700       *           *           *              *            700         	0	0	0	0	0	//Mix Awakening Set
+701       *           *           *              *            701         	0	0	0	0	0	//Mix Awakening Set
+702       *           *           *              *            702         	0	0	0	0	0	//Mix Awakening Set
+703       *           *           *              *            703         	0	0	0	0	0	//Mix Awakening Set
+704       *           *           *              *            704         	0	0	0	0	0	//Mix Awakening Set
+705       *           *           *              *            705         	0	0	0	0	0	//Mix Awakening Set
+706       *           *           *              *            706         	0	0	0	0	0	//Mix Awakening Set
+707       *           *           *              *            707         	0	0	0	0	0	//Mix Awakening Set
+708       *           *           *              *            708         	0	0	0	0	0	//Mix Awakening Set
+709       *           *           *              *            709         	0	0	0	0	0	//Mix Awakening Set
+710       *           *           *              *            710         	0	0	0	0	0	//Mix Awakening Set
+711       *           *           *              *            711         	0	0	0	0	0	//Mix Awakening Set
+712       *           *           *              *            712         	0	0	0	0	0	//Mix Awakening Set
+713       *           *           *              *            713         	0	0	0	0	0	//Mix Awakening Set
+714       *           *           *              *            714         	0	0	0	0	0	//Mix Awakening Set
+715       *           *           *              *            715         	0	0	0	0	0	//Mix Awakening Set
+716       *           *           *              *            716         	0	0	0	0	0	//Mix Awakening Set
+717       *           *           *              *            717         	0	0	0	0	0	//Mix Awakening Set
+718       *           *           *              *            718         	0	0	0	0	0	//Mix Awakening Set
+719       *           *           *              *            719         	0	0	0	0	0	//Mix Awakening Set
+720       *           *           *              *            720         	0	0	0	0	0	//Mix Awakening Set
+721       *           *           *              *            721         	0	0	0	0	0	//Mix Awakening Set
+722       *           *           *              *            722         	0	0	0	0	0	//Mix Awakening Set
+723       *           *           *              *            723         	0	0	0	0	0	//Mix Awakening Set
+724       *           *           *              *            724         	0	0	0	0	0	//Mix Awakening Set
+725       *           *           *              *            725         	0	0	0	0	0	//Mix Awakening Set
+726       *           *           *              *            726         	0	0	0	0	0	//Mix Awakening Set
+727       *           *           *              *            727         	0	0	0	0	0	//Mix Awakening Set
+728       *           *           *              *            728         	0	0	0	0	0	//Mix Awakening Set
+729       *           *           *              *            729         	0	0	0	0	0	//Mix Awakening Set
+730       *           *           *              *            730         	0	0	0	0	0	//Mix Awakening Set
+731       *           *           *              *            731         	0	0	0	0	0	//Chaos Mix Blue Eye Sword
+732       *           *           *              *            732         	0	0	0	0	0	//Chaos Mix Blue Eye Magic Sword
+733       *           *           *              *            733         	0	0	0	0	0	//Chaos Mix Blue Eye Claw
+734       *           *           *              *            734         	0	0	0	0	0	//Chaos Mix Blue Eye Scepter
+735       *           *           *              *            735         	0	0	0	0	0	//Chaos Mix Blue Eye Bow
+736       *           *           *              *            736         	0	0	0	0	0	//Chaos Mix Blue Eye Staff
+737       *           *           *              *            737         	0	0	0	0	0	//Chaos Mix Blue Eye Stick
+738       *           *           *              *            738         	0	0	0	0	0	//Mix Blue Eye Set 
+739       *           *           *              *            739         	0	0	0	0	0	//Mix Blue Eye Set
+740       *           *           *              *            740         	0	0	0	0	0	//Mix Blue Eye Set
+741       *           *           *              *            741         	0	0	0	0	0	//Mix Blue Eye Set
+742       *           *           *              *            742         	0	0	0	0	0	//Mix Blue Eye Set
+743       *           *           *              *            743         	0	0	0	0	0	//Mix Blue Eye Set
+744       *           *           *              *            744         	0	0	0	0	0	//Mix Blue Eye Set
+745       *           *           *              *            745         	0	0	0	0	0	//Mix Blue Eye Set
+746       *           *           *              *            746         	0	0	0	0	0	//Mix Blue Eye Set
+747       *           *           *              *            747         	0	0	0	0	0	//Mix Blue Eye Set
+748       *           *           *              *            748         	0	0	0	0	0	//Mix Blue Eye Set
+749       *           *           *              *            749         	0	0	0	0	0	//Mix Blue Eye Set
+750       *           *           *              *            750         	0	0	0	0	0	//Mix Blue Eye Set
+751       *           *           *              *            751         	0	0	0	0	0	//Mix Blue Eye Set
+752       *           *           *              *            752         	0	0	0	0	0	//Mix Blue Eye Set
+753       *           *           *              *            753         	0	0	0	0	0	//Mix Blue Eye Set
+754       *           *           *              *            754         	0	0	0	0	0	//Mix Blue Eye Set
+755       *           *           *              *            755         	0	0	0	0	0	//Mix Blue Eye Set
+756       *           *           *              *            756         	0	0	0	0	0	//Mix Blue Eye Set
+757       *           *           *              *            757         	0	0	0	0	0	//Mix Blue Eye Set
+758       *           *           *              *            758         	0	0	0	0	0	//Mix Blue Eye Set
+759       *           *           *              *            759         	0	0	0	0	0	//Mix Blue Eye Set
+760       *           *           *              *            760         	0	0	0	0	0	//Mix Blue Eye Set
+761       *           *           *              *            761         	0	0	0	0	0	//Mix Blue Eye Set
+762       *           *           *              *            762         	0	0	0	0	0	//Mix Blue Eye Set
+763       *           *           *              *            763         	0	0	0	0	0	//Mix Blue Eye Set
+764       *           *           *              *            764         	0	0	0	0	0	//Mix Blue Eye Set
+765       *           *           *              *            765         	0	0	0	0	0	//Mix Blue Eye Set
+766       *           *           *              *            766         	0	0	0	0	0	//Mix Blue Eye Set
+767       *           *           *              *            767         	0	0	0	0	0	//Mix Blue Eye Set
+768       *           *           *              *            768         	0	0	0	0	0	//Mix Blue Eye Set
+769       *           *           *              *            769         	0	0	0	0	0	//Mix Blue Eye Set
+770       *           *           *              *            770         	0	0	0	0	0	//Mix Blue Eye Set
+771       *           *           *              *            771         	0	0	0	0	0	//Mix Darkangel Book
+772       *           *           *              *            772         	0	0	0	0	0	//Mix Holyangel Book
+773       *           *           *              *            773         	0	0	0	0	0	//Mix Soul Book
+774       *           *           *              *            774         	0	0	0	0	0	//Mix Blue Eye Book
+775       *           *           *              *            775         	0	0	0	0	0	//Mix Darkangel Shield
+776       *           *           *              *            776         	0	0	0	0	0	//Mix Holyangel Shield
+777       *           *           *              *            777         	0	0	0	0	0	//Mix Soul Shield
+778       *           *           *              *            778         	0	0	0	0	0	//Mix Blue Eye Shield
+779       *           *           *              *            779         	0	0	0	0	0	//Chaos Mix Silver Heart Sword
+780       *           *           *              *            780         	0	0	0	0	0	//Chaos Mix Silver Heart Magic Sword
+781       *           *           *              *            781         	0	0	0	0	0	//Chaos Mix Silver Heart Claw
+782       *           *           *              *            782         	0	0	0	0	0	//Chaos Mix Silver Heart Scepter
+783       *           *           *              *            783         	0	0	0	0	0	//Chaos Mix Silver Heart Bow
+784       *           *           *              *            784         	0	0	0	0	0	//Chaos Mix Silver Heart Staff
+785       *           *           *              *            785         	0	0	0	0	0	//Chaos Mix Silver Heart Stick
+786       *           *           *              *            786         	0	0	0	0	0	//Mix Silver Heart Set 
+787       *           *           *              *            787         	0	0	0	0	0	//Mix Silver Heart Set
+788       *           *           *              *            788         	0	0	0	0	0	//Mix Silver Heart Set
+789       *           *           *              *            789         	0	0	0	0	0	//Mix Silver Heart Set
+790       *           *           *              *            790         	0	0	0	0	0	//Mix Silver Heart Set
+791       *           *           *              *            791         	0	0	0	0	0	//Mix Silver Heart Set
+792       *           *           *              *            792         	0	0	0	0	0	//Mix Silver Heart Set
+793       *           *           *              *            793         	0	0	0	0	0	//Mix Silver Heart Set
+794       *           *           *              *            794         	0	0	0	0	0	//Mix Silver Heart Set
+795       *           *           *              *            795         	0	0	0	0	0	//Mix Silver Heart Set
+796       *           *           *              *            796         	0	0	0	0	0	//Mix Silver Heart Set
+797       *           *           *              *            797         	0	0	0	0	0	//Mix Silver Heart Set
+798       *           *           *              *            798         	0	0	0	0	0	//Mix Silver Heart Set
+799       *           *           *              *            799         	0	0	0	0	0	//Mix Silver Heart Set
+800       *           *           *              *            800         	0	0	0	0	0	//Mix Silver Heart Set
+801       *           *           *              *            801         	0	0	0	0	0	//Mix Silver Heart Set
+802       *           *           *              *            802         	0	0	0	0	0	//Mix Silver Heart Set
+803       *           *           *              *            803         	0	0	0	0	0	//Mix Silver Heart Set
+804       *           *           *              *            804         	0	0	0	0	0	//Mix Silver Heart Set
+805       *           *           *              *            805         	0	0	0	0	0	//Mix Silver Heart Set
+806       *           *           *              *            806         	0	0	0	0	0	//Mix Silver Heart Set
+807       *           *           *              *            807         	0	0	0	0	0	//Mix Silver Heart Set
+808       *           *           *              *            808         	0	0	0	0	0	//Mix Silver Heart Set
+809       *           *           *              *            809         	0	0	0	0	0	//Mix Silver Heart Set
+810       *           *           *              *            810         	0	0	0	0	0	//Mix Silver Heart Set
+811       *           *           *              *            811         	0	0	0	0	0	//Mix Silver Heart Set
+812       *           *           *              *            812         	0	0	0	0	0	//Mix Silver Heart Set
+813       *           *           *              *            813         	0	0	0	0	0	//Mix Silver Heart Set
+814       *           *           *              *            814         	0	0	0	0	0	//Mix Silver Heart Set
+815       *           *           *              *            815         	0	0	0	0	0	//Mix Silver Heart Set
+816       *           *           *              *            816         	0	0	0	0	0	//Mix Silver Heart Set
+817       *           *           *              *            817         	0	0	0	0	0	//Mix Silver Heart Set
+818       *           *           *              *            818         	0	0	0	0	0	//Mix Silver Heart Set
+819       *           *           *              *            819         	0	0	0	0	0	//Mix Silver Heart Book
+820       *           *           *              *            820         	0	0	0	0	0	//Mix Ghost Horse
+821       *           *           *              *            821         	0	0	0	0	0	//Mix Ice Dragon
+822       *           *           *              *            822         	0	0	0	0	0	//Mix Pierce Ryan
+823       *           *           *              *            823         	0	0	0	0	0	//Mix Wings of the Conqueror
+824       *           *           *              *            824         	0	0	0	0	0	//Mix Talisman Wings
+825       *           *           *              *            825         	0	0	0	0	0	//Mix Talisman Wings
+826       *           *           *              *            826         	0	0	0	0	0	//Mix Talisman Wings
+827       *           *           *              *            827         	0	0	0	0	0	//Mix Talisman Wings
+828       *           *           *              *            828         	0	0	0	0	0	//Mix Talisman Wings
+829       *           *           *              *            829         	0	0	0	0	0	//Mix Talisman Wings
+830       *           *           *              *            830         	0	0	0	0	0	//Mix Talisman Wings
+831       *           *           *              *            831         	0	0	0	0	0	//Mix Talisman Wings
+832       *           *           *              *            832         	0	0	0	0	0	//Mix Talisman Wings
+833       *           *           *              *            833         	0	0	0	0	0	//Mix Talisman Wings
+834       *           *           *              *            834         	0	0	0	0	0	//Mix Talisman Wings
+835       *           *           *              *            835         	0	0	0	0	0	//Mix Talisman Wings
+836       *           *           *              *            836         	0	0	0	0	0	//Mix Talisman Wings
+837       *           *           *              *            837         	0	0	0	0	0	//Mix Talisman Wings
+838       *           *           *              *            838         	0	0	0	0	0	//Mix Talisman Wings
+839       *           *           *              *            839         	0	0	0	0	0	//Mix Talisman Wings
+840       *           *           *              *            840         	0	0	0	0	0	//Mix Talisman Wings
+841       *           *           *              *            841         	0	0	0	0	0	//Mix Talisman Wings
+842       *           *           *              *            842         	0	0	0	0	0	//Darkangel Two Hand Sword
+843       *           *           *              *            843         	0	0	0	0	0	//Holyangel Two Hand Sword
+844       *           *           *              *            844         	0	0	0	0	0	//Soul Two Hand Sword
+845       *           *           *              *            845         	0	0	0	0	0	//Blue Eye Two Hand Sword
+846       *           *           *              *            846         	0	0	0	0	0	//Silver Heart Two Hand Sword
+847       *           *           *              *            847         	0	0	0	0	0	//Manticore Two Hand Sword
+848       *           *           *              *            848         	0	0	0	0	0	//Manticore Sword
+849       *           *           *              *            849         	0	0	0	0	0	//Manticore Magic Sword
+850       *           *           *              *            850         	0	0	0	0	0	//Manticore Claw
+851       *           *           *              *            851         	0	0	0	0	0	//Manticore Scepter
+852       *           *           *              *            852         	0	0	0	0	0	//Manticore Bow
+853       *           *           *              *            853         	0	0	0	0	0	//Manticore Staff
+854       *           *           *              *            854         	0	0	0	0	0	//Manticore Stick
+855       *           *           *              *            855         	0	0	0	0	0	//Silver Heart Shield
+856       *           *           *              *            856         	0	0	0	0	0	//Manticore Shield
+857       *           *           *              *            857         	0	0	0	0	0	//Manticore Book
+858       *           *           *              *            858         	0	0	0	0	0	//Mix Brilliant Set 
+859       *           *           *              *            859         	0	0	0	0	0	//Mix Brilliant Set
+860       *           *           *              *            860         	0	0	0	0	0	//Mix Brilliant Set
+861       *           *           *              *            861         	0	0	0	0	0	//Mix Brilliant Set
+862       *           *           *              *            862         	0	0	0	0	0	//Mix Brilliant Set
+863       *           *           *              *            863         	0	0	0	0	0	//Mix Brilliant Set
+864       *           *           *              *            864         	0	0	0	0	0	//Mix Brilliant Set
+865       *           *           *              *            865         	0	0	0	0	0	//Mix Brilliant Set
+866       *           *           *              *            866         	0	0	0	0	0	//Mix Brilliant Set
+867       *           *           *              *            867         	0	0	0	0	0	//Mix Brilliant Set
+868       *           *           *              *            868         	0	0	0	0	0	//Mix Brilliant Set
+869       *           *           *              *            869         	0	0	0	0	0	//Mix Brilliant Set
+870       *           *           *              *            870         	0	0	0	0	0	//Mix Brilliant Set
+871       *           *           *              *            871         	0	0	0	0	0	//Mix Brilliant Set
+872       *           *           *              *            872         	0	0	0	0	0	//Mix Brilliant Set
+873       *           *           *              *            873         	0	0	0	0	0	//Mix Brilliant Set
+874       *           *           *              *            874         	0	0	0	0	0	//Mix Brilliant Set
+875       *           *           *              *            875         	0	0	0	0	0	//Mix Brilliant Set
+876       *           *           *              *            876         	0	0	0	0	0	//Mix Brilliant Set
+877       *           *           *              *            877         	0	0	0	0	0	//Mix Brilliant Set
+878       *           *           *              *            878         	0	0	0	0	0	//Mix Brilliant Set
+879       *           *           *              *            879         	0	0	0	0	0	//Mix Brilliant Set
+880       *           *           *              *            880         	0	0	0	0	0	//Mix Brilliant Set
+881       *           *           *              *            881         	0	0	0	0	0	//Mix Brilliant Set
+882       *           *           *              *            882         	0	0	0	0	0	//Mix Brilliant Set
+883       *           *           *              *            883         	0	0	0	0	0	//Mix Brilliant Set
+884       *           *           *              *            884         	0	0	0	0	0	//Mix Brilliant Set
+885       *           *           *              *            885         	0	0	0	0	0	//Mix Brilliant Set
+886       *           *           *              *            886         	0	0	0	0	0	//Mix Brilliant Set
+887       *           *           *              *            887         	0	0	0	0	0	//Mix Brilliant Set
+888       *           *           *              *            888         	0	0	0	0	0	//Mix Brilliant Set
+889       *           *           *              *            889         	0	0	0	0	0	//Mix Brilliant Set
+890       *           *           *              *            890         	0	0	0	0	0	//Mix Brilliant Set
+891       *           *           *              *            891         	0	0	0	0	0	//Mix Socket Upgrade 400
+892       *           *           *              *            892         	0	0	0	0	0	//Mix Socket Upgrade 400
+893       *           *           *              *            893         	0	0	0	0	0	//Mix Socket Upgrade 400
+894       *           *           *              *            894         	0	0	0	0	0	//Mix Socket Upgrade 400
+895       *           *           *              *            895         	0	0	0	0	0	//Mix Socket Upgrade 400
+896       *           *           *              *            896         	0	0	0	0	0	//Mix Socket Upgrade 400
+897       *           *           *              *            897         	0	0	0	0	0	//Mix Socket Upgrade 400
+898       *           *           *              *            898         	0	0	0	0	0	//Mix Socket Upgrade 400
+899       *           *           *              *            899         	0	0	0	0	0	//Mix Socket Upgrade 400
+900       *           *           *              *            900         	0	0	0	0	0	//Mix Socket Upgrade 400
+901       *           *           *              *            901         	0	0	0	0	0	//Mix Socket Upgrade 400
+902       *           *           *              *            902         	0	0	0	0	0	//Mix Socket Upgrade 400
+903       *           *           *              *            903         	0	0	0	0	0	//Mix Socket Upgrade 400
+904       *           *           *              *            904         	0	0	0	0	0	//Mix Socket Upgrade 400
+905       *           *           *              *            905         	0	0	0	0	0	//Mix Socket Upgrade 400
+906       *           *           *              *            906         	0	0	0	0	0	//Mix Socket Upgrade 400
+907       *           *           *              *            907         	0	0	0	0	0	//Mix Socket Upgrade 400
+908       *           *           *              *            908         	0	0	0	0	0	//Mix Socket Upgrade 400
+909       *           *           *              *            909         	0	0	0	0	0	//Mix Socket Upgrade 400
+910       *           *           *              *            910         	0	0	0	0	0	//Mix Socket Upgrade 400
+911       *           *           *              *            911         	0	0	0	0	0	//Mix Socket Upgrade 400
+912       *           *           *              *            912         	0	0	0	0	0	//Mix Socket Upgrade 400
+913       *           *           *              *            913         	0	0	0	0	0	//Mix Socket Upgrade 400
+914       *           *           *              *            914         	0	0	0	0	0	//Mix Socket Upgrade 400
+915       *           *           *              *            915         	0	0	0	0	0	//Mix Socket Upgrade 400
+916       *           *           *              *            916         	0	0	0	0	0	//Mix Socket Upgrade 400
+917       *           *           *              *            917         	0	0	0	0	0	//Mix Socket Upgrade 400
+918       *           *           *              *            918         	0	0	0	0	0	//Mix Socket Upgrade 400
+919       *           *           *              *            919         	0	0	0	0	0	//Mix Socket Upgrade 400
+920       *           *           *              *            920         	0	0	0	0	0	//Mix Socket Upgrade 400
+921       *           *           *              *            921         	0	0	0	0	0	//Mix Socket Upgrade 400
+922       *           *           *              *            922         	0	0	0	0	0	//Mix Socket Upgrade 400
+923       *           *           *              *            923         	0	0	0	0	0	//Mix Socket Upgrade 400
+924       *           *           *              *            924         	0	0	0	0	0	//Shining Tail
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+925       *           *           750            *            *         	0	0	0	0	0	//
+926       *           *           751            *            *         	0	0	0	0	0	//
+927       *           *           752            *            *         	0	0	0	0	0	//
+928       *           *           753            *            *             	0	0	0	0	0	//
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+929       *           *           754            *            *         	0	0	0	0	0	//
+930       *           *           755            *            *         	0	0	0	0	0	//
+931       *           *           756            *            *         	0	0	0	0	0	//
+932       *           *           757            *            *             	0	0	0	0	0	//
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+933       *           *           758            *            *         	0	0	0	0	0	//
+934       *           *           759            *            *         	0	0	0	0	0	//
+935       *           *           760            *            *         	0	0	0	0	0	//
+936       *           *           761            *            *             	0	0	0	0	0	//
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+937       *           *           762            *            *         	0	0	0	0	0	//
+938       *           *           763            *            *         	0	0	0	0	0	//
+939       *           *           764            *            *         	0	0	0	0	0	//
+940       *           *           765            *            *             	0	0	0	0	0	//
+941       *           *           *              *            941         	0	0	0	0	0	//
+942       *           *           *              *            942         	0	0	0	0	0	//
+943       *           *           *              *            943         	0	0	0	0	0	//
+944       *           *           *              *            944         	0	0	0	0	0	//
+945       *           *           *              *            945         	0	0	0	0	0	//
+946       *           *           *              *            946         	0	0	0	0	0	//
+947       *           *           *              *            947         	0	0	0	0	0	//
+948       *           *           *              *            948         	0	0	0	0	0	//
+949       *           *           *              *            949         	0	0	0	0	0	//
+950       *           *           *              *            950         	0	0	0	0	0	//
+951       *           *           *              *            951         	0	0	0	0	0	//
+952       *           *           *              *            952         	0	0	0	0	0	//
+953       *           *           *              *            953         	0	0	0	0	0	//
+954       *           *           *              *            954         	0	0	0	0	0	//
+955       *           *           *              *            955         	0	0	0	0	0	//
+956       *           *           *              *            956         	0	0	0	0	0	//
+957       *           *           *              *            957         	0	0	0	0	0	//
+958       *           *           *              *            958         	0	0	0	0	0	//
+959       *           *           *              *            959         	0	0	0	0	0	//
+960       *           *           *              *            960         	0	0	0	0	0	//
+961       *           *           *              *            961         	0	0	0	0	0	//
+962       *           *           *              *            962         	0	0	0	0	0	//
+963       *           *           *              *            963         	0	0	0	0	0	//
+964       *           *           *              *            964         	0	0	0	0	0	//
+965       *           *           *              *            965         	0	0	0	0	0	//
+966       *           *           *              *            966         	0	0	0	0	0	//
+967       *           *           *              *            967         	0	0	0	0	0	//
+968       *           *           *              *            968         	0	0	0	0	0	//
+969       *           *           *              *            969         	0	0	0	0	0	//
+970       *           *           *              *            970         	0	0	0	0	0	//
+971       *           *           *              *            971         	0	0	0	0	0	//
+972       *           *           *              *            972         	0	0	0	0	0	//
+973       *           *           *              *            973         	0	0	0	0	0	//
+974       *           *           *              *            974         	0	0	0	0	0	//
+975       *           *           *              *            975         	0	0	0	0	0	//
+976       *           *           *              *            976        	0	0	0	0	0	//
+977       *           *           *              *            977         	0	0	0	0	0	//
+978       *           *           *              *            978         	0	0	0	0	0	//
+979       *           *           *              *            979         	0	0	0	0	0	//
+980       *           *           *              *            980         	0	0	0	0	0	//
+981       *           *           *              *            981        	0	0	0	0	0	//
+982       *           *           *              *            982         	0	0	0	0	0	//
+983       *           *           *              *            983         	0	0	0	0	0	//
+984       *           *           *              *            984         	0	0	0	0	0	//
+985       *           *           *              *            985         	0	0	0	0	0	//
+986       *           *           *              *            986         	0	0	0	0	0	//
+987       *           *           *              *            987         	0	0	0	0	0	//
+988       *           *           *              *            988         	0	0	0	0	0	//
+989       *           *           *              *            989         	0	0	0	0	0	//
+990       *           *           *              *            990         	0	0	0	0	0	//
+991       *           *           *              *            991         	0	0	0	0	0	//
+992       *           *           *              *            992         	0	0	0	0	0	//
+993       *           *           *              *            993         	0	0	0	0	0	//
+994       *           *           *              *            994         	0	0	0	0	0	//
+995       *           *           *              *            995         	0	0	0	0	0	//
+996       *           *           *              *            996         	0	0	0	0	0	//
+997       7226        *           *              *            997         	0	0	0	0	0	//
+300       *           *           *              *            300         	0	0	0	0	0	//
+301       *           *           *              *            301         	0	0	0	0	0	//
+302       *           *           *              *            302         	0	0	0	0	0	//
+303       *           *           *              *            303         	0	0	0	0	0	//
+304       *           *           *              *            304         	0	0	0	0	0	//
+305       *           *           *              *            305         	0	0	0	0	0	//
+306       *           *           *              *            306         	0	0	0	0	0	//
+307       *           *           *              *            307         	0	0	0	0	0	//
+308       *           *           *              *            308         	0	0	0	0	0	//
+309       *           *           *              *            309         	0	0	0	0	0	//
+310       *           *           *              *            310         	0	0	0	0	0	//
+311       *           *           *              *            311         	0	0	0	0	0	//
+312       *           *           *              *            312         	0	0	0	0	0	//
+313       *           *           *              *            313         	0	0	0	0	0	//
+314       *           *           *              *            314         	0	0	0	0	0	//
+315       *           *           *              *            315         	0	0	0	0	0	//
+316       *           *           *              *            316         	0	0	0	0	0	//
+317       *           *           *              *            317         	0	0	0	0	0	//
+318       *           *           *              *            318         	0	0	0	0	0	//
+319       *           *           *              *            319         	0	0	0	0	0	//
+320       *           *           *              *            320         	0	0	0	0	0	//
+321       *           *           *              *            321         	0	0	0	0	0	//
+322       *           *           *              *            322         	0	0	0	0	0	//
+323       *           *           *              *            323         	0	0	0	0	0	//
+324       *           *           *              *            324         	0	0	0	0	0	//
+325       *           *           *              *            325         	0	0	0	0	0	//
+326       *           *           *              *            326         	0	0	0	0	0	//
+327       *           *           *              *            327         	0	0	0	0	0	//
+328       *           *           *              *            328         	0	0	0	0	0	//
+329       *           *           *              *            329         	0	0	0	0	0	//
+330       *           *           *              *            330         	0	0	0	0	0	//
+331       *           *           *              *            331         	0	0	0	0	0	//
+332       *           *           *              *            332         	0	0	0	0	0	//
+998       *           *           *              *            998         	0	0	0	0	0	//
+999       *           *           *              *            999         	0	0	0	0	0	//
+1000      *           *           *              *            1000         	0	0	0	0	0	//
+1001      *           *           *              *            1001        	0	0	0	0	0	//
+1002      *           *           845            *            1002        	0	0	0	0	0	//
+1003      *           *           846            *            1003        	0	0	0	0	0	//
+1004      *           *           *              *            1004        	0	0	0	0	0	//
+1005      *           *           *              *            1005        	0	0	0	0	0	//
+1006      *           *           *              *            1006        	0	0	0	0	0	//
+1007      *           *           *              *            1007        	0	0	0	0	0	//
+1008      *           *           *              *            1008        	0	0	0	0	0	//
+1009      *           *           *              *            1009        	0	0	0	0	0	//
+1010      *           *           *              *            1010        	0	0	0	0	0	//
+1011      *           *           *              *            1011        	0	0	0	0	0	//
+1012      *           *           *              *            1012        	0	0	0	0	0	//
+1013      *           *           *              *            1013        	0	0	0	0	0	//
+1014      *           *           *              *            1014        	0	0	0	0	0	//
+1015      7454        *           *              *            *         	0	0	0	0	0	//
+1016      *           *           *              *            1016        	0	0	0	0	0	//
+1017      *           *           *              *            1017        	0	0	0	0	0	//
+1018      *           *           *              *            1018        	0	0	0	0	0	//
+1019      *           *           *              *            1019        	0	0	0	0	0	//
+1020      *           *           *              *            1020        	0	0	0	0	0	//
+1021      *           *           *              *            1021        	0	0	0	0	0	//
+1022      *           *           *              *            1022        	0	0	0	0	0	//
+1023      *           *           *              *            1023        	0	0	0	0	0	//
+1024      *           *           *              *            1024        	0	0	0	0	0	//
+1025      *           *           *              *            1025        	0	0	0	0	0	//
+1026      *           *           *              *            1026        	0	0	0	0	0	//
+1027      *           *           *              *            1027        	0	0	0	0	0	//
+1028      *           *           *              *            1028        	0	0	0	0	0	//
+1029      *           *           *              *            1029        	0	0	0	0	0	//
+1030      *           *           *              *            1030        	0	0	0	0	0	//
+1031      *           *           *              *            1031        	0	0	0	0	0	//
+1032      *           *           *              *            1032        	0	0	0	0	0	//
+1033      *           *           *              *            1033        	0	0	0	0	0	//
+1034      *           *           *              *            1034        	0	0	0	0	0	//
+1035      *           *           *              *            1035        	0	0	0	0	0	//
+1036      *           *           *              *            1036        	0	0	0	0	0	//
+1037      *           *           *              *            1037        	0	0	0	0	0	//
+1038      *           *           *              *            1038        	0	0	0	0	0	//
+1039      *           *           *              *            1039        	0	0	0	0	0	//
+1040      *           *           *              *            1040        	0	0	0	0	0	//
+1041      *           *           *              *            1041        	0	0	0	0	0	//
+1042      *           *           *              *            1042        	0	0	0	0	0	//
+1043      *           *           *              *            1043        	0	0	0	0	0	//
+1044      *           *           *              *            1044        	0	0	0	0	0	//
+1045      *           *           *              *            1045        	0	0	0	0	0	//
+1046      *           *           *              *            1046        	0	0	0	0	0	//
+1047      *           *           *              *            1047        	0	0	0	0	0	//
+1048      *           *           *              *            1048        	0	0	0	0	0	//
+
+1049      *           *           *              *            1049        	0	0	0	0	0	//
+1050      *           *           *              *            1050        	0	0	0	0	0	//
+1051      *           *           *              *            1051        	0	0	0	0	0	//
+1052      *           *           *              *            1052        	0	0	0	0	0	//
+1053      *           *           *              *            1053        	0	0	0	0	0	//
+1054      *           *           *              *            1054        	0	0	0	0	0	//
+1055      *           *           *              *            1055        	0	0	0	0	0	//
+1056      *           *           *              *            1056        	0	0	0	0	0	//
+1057      *           *           *              *            1057        	0	0	0	0	0	//
+1058      *           *           *              *            1058        	0	0	0	0	0	//
+1059      *           *           *              *            1059        	0	0	0	0	0	//
+1060      *           *           *              *            1060        	0	0	0	0	0	//
+1061      *           *           844              *             *        	0	0	0	0	0	//Boss Eunice
+1062      *           *           63              *             *        	0	0	0	0	0	//[Invasion] Death Beam Knight
+//Index   ItemIndex   ItemLevel   MonsterClass 	 TopHitCount  SpecialValue	G_Type	G_Num	Coin1	Coin2	Coin3   Comment
+1064       7669         *           *              *             *        	  0	     0	     0	      1000	      0	     //Elite Yeti
+1065       7670         *           *              *             *        	  0	     0	     0	      2000	      0	     //Elite Yeti
+1066       7671         *           *              *             *        	  0	     0	     0	      6000	      0	     //Elite Yeti
+1067       7672         *           *              *             *        	  0	     0	     0	      13000	      0	     //Elite Yeti
+1063       7668         *           *              *             *        	0	0	0	0	0	//Box Saffe
+1068       7667           *           *              *             *        	0	0	0	0	0	//Angel Box
+1069        *           *           865              *             *        	0	0	0	0	0	//Boss Angel
+1070        *           *           866              *             *        	0	0	0	0	0	//Boss Dark
+1071       7666           *           *              *             *        	0	0	0	0	0	//Dark Box
+1072       7665           *           *              *             *        	0	0	0	0	0	//Ancient Box
+1073        *           *           851              *             *        	0	0	0	0	0	//Ancient Box
+//1064      *           *           20              *             *        	0	0	0	0	0	//Elite Yeti
+//1065      *           *           36              *             *        	0	0	0	0	0	//Shadow
+//1066      *           *           39              *             *        	0	0	0	0	0	//Poison Shadow
+//1067      *           *           34              *             *        	0	0	0	0	0	//Cursed Wizard
+//1068      *           *           41              *             *        	0	0	0	0	0	//Death Cow
+//1069      *           *           40              *             *        	0	0	0	0	0	//Death Knight
+//1070      *           *           37              *             *        	0	0	0	0	0	//Devil
+//1071      *           *           62              *             *        	0	0	0	0	0	//Mutant
+//1072      *           *           60              *             *        	0	0	0	0	0	//Bloody wolf
+//1073      *           *           57              *             *        	0	0	0	0	0	//Iron Wheel
+//1074      *           *           58              *             *        	0	0	0	0	0	//Tantalos
+//1075      *           *           45              *             *        	0	0	0	0	0	//Bahamut
+//1076      *           *           46              *             *        	0	0	0	0	0	//Vepar
+//1077      *           *           14              *             *        	0	0	0	0	0	//Skeleton
+//1078      *           *           17              *             *        	0	0	0	0	0	//Cyclops
+//1079      *           *           11              *             *        	0	0	0	0	0	//Ghost
+//1080      *           *           13              *             *        	0	0	0	0	0	//Hell Spider
+//1081      *           *           5              *             *        	0	0	0	0	0	//Hell Hound
+//1082      *           *           15              *             *        	0	0	0	0	0	//Skeleton Archer
+//1083      *           *           51              *             *        	0	0	0	0	0	//Great Bahamut
+//1084      *           *           52              *             *        	0	0	0	0	0	//Silver Valkyrie
+//1085      *           *           48              *             *        	0	0	0	0	0	//Lizard King
+//1086      *           *           307              *             *        	0	0	0	0	0	//Forest Orc
+//1087      *           *           308              *             *        	0	0	0	0	0	//Death Tree
+//1088      *           *           305              *             *        	0	0	0	0	0	//Blue Golem
+//1089      *           *           304              *             *        	0	0	0	0	0	//Witch Queen
+//1090      *           *           549              *             *        	0	0	0	0	0	//Bloody Orc
+//1091      *           *           550              *             *        	0	0	0	0	0	//Bloody Death Rider
+//1092      *           *           551              *             *        	0	0	0	0	0	//Bloody Golem
+//1093      *           *           69              *             *        	0	0	0	0	0	//Alquamos
+//1094      *           *           850              *             *        	0	0	0	0	0	//Twisted Condra
+1095        *           *           77              *             *        	0	0	0	0	0	//Boss Phoenix
+//1096      *           *           117              *             *        	0	0	0	0	0	//Soram
+//1097      *           *           70              *             *        	0	0	0	0	0	//Queen Rainier
+//1098      *           *           73              *             *        	0	0	0	0	0	//Drakan
+//1099      *           *           74              *             *        	0	0	0	0	0	//Alpha Crust
+//1100      *           *           72              *             *        	0	0	0	0	0	//Phantom Knight
+//1101      *           *           75              *             *        	0	0	0	0	0	//Great Drakan
+//1102      *           *           59              *             *        	0	0	0	0	0	//Zaikan
+//1103      *           *           35              *             *        	0	0	0	0	0	//Death Gorgon
+//1104      *           *           575              *             *        	0	0	0	0	0	//Condra
+1105      *           *           71              *             *        	0	0	0	0	0	//Mega Crust
+//1106      *           *           573              *             *        	0	0	0	0	0	//Crypta
+2003        *           *           *               *             2003        	0	0	0	0	0	//Orcus
+2004        *           *           *               *             2004        	0	0	0	0	0	//Orcus
+2005        *           *           *               *             2005        	0	0	0	0	0	//Orcus
+2006        *           *           *               *             2006        	0	0	0	0	0	//Orcus
+2007        *           *           *               *             2007        	0	0	0	0	0	//Orcus
+2008        *           *           *               *             2008        	0	0	0	0	0	//Orcus
+2009        *           *           *               *             2009        	0	0	0	0	0	//Orcus
+2010        *           *           *               *             2010        	0	0	0	0	0	//Orcus
+2011        *           *           *               *             2011        	0	0	0	0	0	//Orcus
+2012        *           *           *               *             2012        	0	0	0	0	0	//Orcus
+2013        *           *           *               *             2013        	0	0	0	0	0	//Orcus
+2014        *           *           *               *             2014        	0	0	0	0	0	//Orcus
+2015        *           *           *               *             2015        	0	0	0	0	0	//Orcus
+2016        *           *           *               *             2016        	0	0	0	0	0	//Orcus
+2017        *           *           *               *             2017        	0	0	0	0	0	//Orcus
+2018        *           *           *               *             2018        	0	0	0	0	0	//Orcus
+2019        *           *           *               *             2019        	0	0	0	0	0	//Orcus
+2020        *           *           *               *             2020        	0	0	0	0	0	//Orcus
+2021        *           *           *               *             2021        	0	0	0	0	0	//Orcus
+2022        *           *           *               *             2022        	0	0	0	0	0	//Orcus
+2023        *           *           *               *             2023        	0	0	0	0	0	//Orcus
+2024        *           *           *               *             2024        	0	0	0	0	0	//Orcus
+2025        *           *           *               *             2025        	0	0	0	0	0	//Orcus
+2026        *           *           *               *             2026        	0	0	0	0	0	//Orcus
+2027        *           *           *               *             2027        	0	0	0	0	0	//Orcus
+2028        *           *           *               *             2028        	0	0	0	0	0	//Orcus
+2029        *           *           *               *             2029        	0	0	0	0	0	//Orcus
+2030        *           *           *               *             2030        	0	0	0	0	0	//Orcus
+2031        *           *           *               *             2031        	0	0	0	0	0	//Orcus
+2032        *           *           *               *             2032        	0	0	0	0	0	//Orcus
+2033        *           *           *               *             2033        	0	0	0	0	0	//Orcus
+2034        *           *           *               *             2034        	0	0	0	0	0	//Orcus
+2035        *           *           *               *             2035        	0	0	0	0	0	//Orcus
+2036        *           *           *               *             2036        	0	0	0	0	0	//Orcus
+2037        *           *           *               *             2037        	0	0	0	0	0	//Orcus
+2038        *           *           *               *             2038        	0	0	0	0	0	//Orcus
+2039        *           *           *               *             2039        	0	0	0	0	0	//Orcus
+2040        *           *           *               *             2040        	0	0	0	0	0	//Orcus
+2041        *           *           *               *             2041        	0	0	0	0	0	//Orcus
+2042        *           *           *               *             2042        	0	0	0	0	0	//Orcus
+2043        *           *           *               *             2043        	0	0	0	0	0	//Orcus
+2044        *           *           *               *             2044        	0	0	0	0	0	//Orcus
+2045        *           *           *               *             2045        	0	0	0	0	0	//Orcus
+2046        *           *           *               *             2046        	0	0	0	0	0	//Orcus
+2047        *           *           *               *             2047        	0	0	0	0	0	//Orcus
+2048        *           *           *               *             2048        	0	0	0	0	0	//Orcus
+2049        *           *           *               *             2049        	0	0	0	0	0	//Orcus
+2050        *           *           *               *             2050        	0	0	0	0	0	//Orcus
+2051        *           *           *               *             2051        	0	0	0	0	0	//Orcus
+2052        *           *           *               *             2052        	0	0	0	0	0	//Orcus
+2053        *           *           *               *             2053        	0	0	0	0	0	//Orcus
+2054        *           *           *               *             2054        	0	0	0	0	0	//Orcus
+2055        *           *           *               *             2055        	0	0	0	0	0	//Orcus
+2056        *           *           *               *             2056        	0	0	0	0	0	//Orcus
+2057        *           *           *               *             2057        	0	0	0	0	0	//Orcus
+2058        *           *           *               *             2058        	0	0	0	0	0	//Orcus
+2059        *           *           *               *             2059        	0	0	0	0	0	//Orcus
+2060        *           *           *               *             2060        	0	0	0	0	0	//Orcus
+2061        *           *           *               *             2061        	0	0	0	0	0	//Orcus
+2062        *           *           *               *             2062        	0	0	0	0	0	//Orcus
+2063        *           *           *               *             2063        	0	0	0	0	0	//Orcus
+2064        *           *           *               *             2064        	0	0	0	0	0	//Orcus
+2065        *           *           *               *             2065        	0	0	0	0	0	//Orcus
+2066        *           *           *               *             2066        	0	0	0	0	0	//Orcus
+2067        *           *           *               *             2067        	0	0	0	0	0	//Orcus
+2068        *           *           *               *             2068        	0	0	0	0	0	//Orcus
+2069        *           *           *               *             2069        	0	0	0	0	0	//Orcus
+2070        *           *           *               *             2070        	0	0	0	0	0	//Orcus
+2071        *           *           *               *             2071        	0	0	0	0	0	//Orcus
+2072        *           *           *               *             2072        	0	0	0	0	0	//Orcus
+2073        *           *           *               *             2073        	0	0	0	0	0	//Orcus
+2074        *           *           *               *             2074        	0	0	0	0	0	//Orcus
+2075        *           *           *               *             2075        	0	0	0	0	0	//Orcus
+2076        *           *           *               *             2076        	0	0	0	0	0	//Orcus
+2077        *           *           *               *             2077        	0	0	0	0	0	//Orcus
+2078        *           *           *               *             2078        	0	0	0	0	0	//Orcus
+2079        *           *           *               *             2079        	0	0	0	0	0	//Orcus
+2080        *           *           *               *             2080        	0	0	0	0	0	//Orcus
+2081        *           *           *               *             2081        	0	0	0	0	0	//Orcus
+2082        *           *           *               *             2082        	0	0	0	0	0	//Orcus
+2083        *           *           *               *             2083        	0	0	0	0	0	//Orcus
+2084        *           *           *               *             2084        	0	0	0	0	0	//Orcus
+2085        *           *           *               *             2085        	0	0	0	0	0	//Orcus
+2086        *           *           *               *             2086        	0	0	0	0	0	//Orcus
+2087        *           *           *               *             2087        	0	0	0	0	0	//Orcus
+2088        *           *           *               *             2088        	0	0	0	0	0	//Orcus
+2089        *           *           *               *             2089        	0	0	0	0	0	//Orcus
+2090        *           *           *               *             2090        	0	0	0	0	0	//Orcus
+2091        *           *           *               *             2091        	0	0	0	0	0	//Orcus
+2092        *           *           *               *             2092        	0	0	0	0	0	//Orcus
+2093        *           *           *               *             2093        	0	0	0	0	0	//Orcus
+2094        *           *           *               *             2094        	0	0	0	0	0	//Orcus
+2095        *           *           *               *             2095        	0	0	0	0	0	//Orcus
+2096        *           *           *               *             2096        	0	0	0	0	0	//Orcus
+2097        *           *           *               *             2097        	0	0	0	0	0	//Orcus
+2098        *           *           *               *             2098        	0	0	0	0	0	//Orcus
+2099        *           *           *               *             2099        	0	0	0	0	0	//Orcus
+2100        *           *           *               *             2100        	0	0	0	0	0	//Orcus
+2101        *           *           *               *             2101        	0	0	0	0	0	//Orcus
+2102        *           *           *               *             2102        	0	0	0	0	0	//Orcus
+2103        *           *           *               *             2103        	0	0	0	0	0	//Orcus
+2104        *           *           *               *             2104        	0	0	0	0	0	//Orcus
+2105        *           *           *               *             2105        	0	0	0	0	0	//Orcus
+2106        *           *           *               *             2106        	0	0	0	0	0	//Orcus
+2107        *           *           *               *             2107        	0	0	0	0	0	//Orcus
+2108        *           *           *               *             2108        	0	0	0	0	0	//Orcus
+2109        *           *           *               *             2109        	0	0	0	0	0	//Orcus
+2110        *           *           *               *             2110        	0	0	0	0	0	//Orcus
+2111        *           *           *               *             2111        	0	0	0	0	0	//Orcus
+2112        *           *           *               *             2112        	0	0	0	0	0	//Orcus
+2113        *           *           *               *             2113        	0	0	0	0	0	//Orcus
+2114        *           *           *               *             2114        	0	0	0	0	0	//Orcus
+2115        *           *           *               *             2115        	0	0	0	0	0	//Orcus
+2116        *           *           *               *             2116        	0	0	0	0	0	//Orcus
+2117        *           *           *               *             2117        	0	0	0	0	0	//Orcus
+2118        *           *           *               *             2118        	0	0	0	0	0	//Orcus
+2119        *           *           *               *             2119        	0	0	0	0	0	//Orcus
+2120        *           *           *               *             2120        	0	0	0	0	0	//Orcus
+2121        *           *           *               *             2121        	0	0	0	0	0	//Orcus
+2122        *           *           *               *             2122        	0	0	0	0	0	//Orcus
+2123        *           *           *               *             2123        	0	0	0	0	0	//Orcus
+2124        *           *           *               *             2124        	0	0	0	0	0	//Orcus
+2125        *           *           *               *             2125        	0	0	0	0	0	//Orcus
+2126        *           *           *               *             2126        	0	0	0	0	0	//Orcus
+2127        *           *           *               *             2127        	0	0	0	0	0	//Orcus
+2128        *           *           *               *             2128        	0	0	0	0	0	//Orcus
+2129        *           *           *               *             2129        	0	0	0	0	0	//Orcus
+2130        *           *           *               *             2130        	0	0	0	0	0	//Orcus
+2131        *           *           *               *             2131        	0	0	0	0	0	//Orcus
+2132        *           *           *               *             2132        	0	0	0	0	0	//Orcus
+2133        *           *           *               *             2133        	0	0	0	0	0	//Orcus
+2134        *           *           *               *             2134        	0	0	0	0	0	//Orcus
+2135        *           *           *               *             2135        	0	0	0	0	0	//Orcus
+2136        *           *           *               *             2136        	0	0	0	0	0	//Orcus
+2137        *           *           *               *             2137        	0	0	0	0	0	//Orcus
+2138        *           *           *               *             2138        	0	0	0	0	0	//Orcus
+2139        *           *           *               *             2139        	0	0	0	0	0	//Orcus
+2140        *           *           *               *             2140        	0	0	0	0	0	//Orcus
+2141        *           *           *               *             2141        	0	0	0	0	0	//Orcus
+2142        *           *           *               *             2142        	0	0	0	0	0	//Orcus
+2143        *           *           *               *             2143        	0	0	0	0	0	//Orcus
+2144        *           *           *               *             2144        	0	0	0	0	0	//Orcus
+2145        *           *           *               *             2145        	0	0	0	0	0	//Orcus
+2146        *           *           *               *             2146        	0	0	0	0	0	//Orcus
+2147        *           *           *               *             2147        	0	0	0	0	0	//Orcus
+2148        *           *           *               *             2148        	0	0	0	0	0	//Orcus
+2149        *           *           *               *             2149        	0	0	0	0	0	//Orcus
+2150        *           *           *               *             2150        	0	0	0	0	0	//Orcus
+2151        *           *           *               *             2151        	0	0	0	0	0	//Orcus
+2152        *           *           *               *             2152        	0	0	0	0	0	//Orcus
+2153        *           *           *               *             2153        	0	0	0	0	0	//Orcus
+2154        *           *           *               *             2154        	0	0	0	0	0	//Orcus
+2155        *           *           *               *             2155        	0	0	0	0	0	//Orcus
+2156        *           *           *               *             2156        	0	0	0	0	0	//Orcus
+2157        *           *           *               *             2157        	0	0	0	0	0	//Orcus
+2158        *           *           *               *             2158        	0	0	0	0	0	//Orcus
+2159        *           *           *               *             2159        	0	0	0	0	0	//Orcus
+2160        *           *           *               *             2160        	0	0	0	0	0	//Orcus
+2161        *           *           *               *             2161        	0	0	0	0	0	//Orcus
+2162        *           *           *               *             2162        	0	0	0	0	0	//Orcus
+2163        *           *           *               *             2163        	0	0	0	0	0	//Orcus
+2164        *           *           *               *             2164        	0	0	0	0	0	//Orcus
+2165        *           *           *               *             2165        	0	0	0	0	0	//Orcus
+2166        *           *           *               *             2166        	0	0	0	0	0	//Orcus
+2167        *           *           *               *             2167        	0	0	0	0	0	//Orcus
+2168        *           *           *               *             2168        	0	0	0	0	0	//Orcus
+2169        *           *           *               *             2169        	0	0	0	0	0	//Orcus
+2170        *           *           *               *             2170        	0	0	0	0	0	//Orcus
+2171        *           *           *               *             2171        	0	0	0	0	0	//Orcus
+2172        *           *           *               *             2172        	0	0	0	0	0	//Orcus
+2173        *           *           *               *             2173        	0	0	0	0	0	//Orcus
+2174        *           *           *               *             2174        	0	0	0	0	0	//Orcus
+2175        *           *           *               *             2175        	0	0	0	0	0	//Orcus
+2176        *           *           *               *             2176        	0	0	0	0	0	//Orcus
+2177        *           *           *               *             2177        	0	0	0	0	0	//Orcus
+2178        *           *           *               *             2178        	0	0	0	0	0	//Orcus
+2179        *           *           *               *             2179        	0	0	0	0	0	//Orcus
+2180        *           *           *               *             2180        	0	0	0	0	0	//Orcus
+2181        *           *           *               *             2181        	0	0	0	0	0	//Orcus
+2182        *           *           *               *             2182        	0	0	0	0	0	//Orcus
+2183        *           *           *               *             2183        	0	0	0	0	0	//Orcus
+2184        *           *           *               *             2184        	0	0	0	0	0	//Orcus
+2185        *           *           *               *             2185        	0	0	0	0	0	//Orcus
+2186        *           *           *               *             2186        	0	0	0	0	0	//Orcus
+2187        *           *           *               *             2187        	0	0	0	0	0	//Orcus
+2188        *           *           *               *             2188        	0	0	0	0	0	//Orcus
+2189        *           *           *               *             2189        	0	0	0	0	0	//Orcus
+2190        *           *           *               *             2190        	0	0	0	0	0	//Orcus
+2191        *           *           *               *             2191        	0	0	0	0	0	//Orcus
+2192        *           *           *               *             2192        	0	0	0	0	0	//Orcus
+2193        *           *           *               *             2193        	0	0	0	0	0	//Orcus
+2194        *           *           *               *             2194        	0	0	0	0	0	//Orcus
+2195        *           *           *               *             2195        	0	0	0	0	0	//Orcus
+2196        *           *           *               *             2196        	0	0	0	0	0	//Orcus
+2197        *           *           *               *             2197        	0	0	0	0	0	//Orcus
+2198        *           *           *               *             2198        	0	0	0	0	0	//Orcus
+2199        *           *           *               *             2199        	0	0	0	0	0	//Orcus
+2200        *           *           *               *             2200        	0	0	0	0	0	//Orcus
+2201        *           *           *               *             2201        	0	0	0	0	0	//Orcus
+2202        *           *           *               *             2202        	0	0	0	0	0	//Orcus
+2203        *           *           *               *             2203        	0	0	0	0	0	//Orcus
+2204        *           *           *               *             2204        	0	0	0	0	0	//Orcus
+2205        *           *           *               *             2205        	0	0	0	0	0	//Orcus
+2206        *           *           *               *             2206        	0	0	0	0	0	//Orcus
+2207        *           *           *               *             2207        	0	0	0	0	0	//Orcus
+2208        *           *           *               *             2208        	0	0	0	0	0	//Orcus
+2209        *           *           *               *             2209        	0	0	0	0	0	//Orcus
+2210        *           *           *               *             2210        	0	0	0	0	0	//Orcus
+2211        *           *           *               *             2211        	0	0	0	0	0	//Orcus
+2212        *           *           *               *             2212        	0	0	0	0	0	//Orcus
+2213        *           *           *               *             2213        	0	0	0	0	0	//Orcus
+2214        *           *           *               *             2214        	0	0	0	0	0	//Orcus
+2215        *           *           *               *             2215        	0	0	0	0	0	//Orcus
+2216        *           *           *               *             2216        	0	0	0	0	0	//Orcus
+2217        *           *           *               *             2217        	0	0	0	0	0	//Orcus
+2218        *           *           *               *             2218        	0	0	0	0	0	//Orcus
+2219        *           *           *               *             2219        	0	0	0	0	0	//Orcus
+2220        *           *           *               *             2220        	0	0	0	0	0	//Orcus
+2221        *           *           *               *             2221        	0	0	0	0	0	//Orcus
+2222        *           *           *               *             2222        	0	0	0	0	0	//Orcus
+2223        *           *           *               *             2223        	0	0	0	0	0	//Orcus
+2224        *           *           *               *             2224        	0	0	0	0	0	//Orcus
+2225        *           *           *               *             2225        	0	0	0	0	0	//Orcus
+2226        *           *           *               *             2226        	0	0	0	0	0	//Orcus
+2227        *           *           *               *             2227        	0	0	0	0	0	//Orcus
+2228        *           *           *               *             2228        	0	0	0	0	0	//Orcus
+2229        *           *           *               *             2229        	0	0	0	0	0	//Orcus
+2230        *           *           *               *             2230        	0	0	0	0	0	//Orcus
+2231        *           *           *               *             2231        	0	0	0	0	0	//Orcus
+2232        *           *           *               *             2232        	0	0	0	0	0	//Orcus
+2233        *           *           *               *             2233        	0	0	0	0	0	//Orcus
+2234        *           *           *               *             2234        	0	0	0	0	0	//Orcus
+2235        *           *           *               *             2235        	0	0	0	0	0	//Orcus
+2236        *           *           *               *             2236        	0	0	0	0	0	//Orcus
+2237        *           *           *               *             2237        	0	0	0	0	0	//Orcus
+2238        *           *           *               *             2238        	0	0	0	0	0	//Orcus
+2239        *           *           *               *             2239        	0	0	0	0	0	//Orcus
+2240        *           *           *               *             2240        	0	0	0	0	0	//Orcus
+2241        *           *           *               *             2241        	0	0	0	0	0	//Orcus
+2242        *           *           *               *             2242        	0	0	0	0	0	//Orcus
+2243        *           *           *               *             2243        	0	0	0	0	0	//Orcus
+2244        *           *           *               *             2244        	0	0	0	0	0	//Orcus
+2245        *           *           *               *             2245        	0	0	0	0	0	//Orcus
+2246        *           *           *               *             2246        	0	0	0	0	0	//Orcus
+2247        *           *           *               *             2247        	0	0	0	0	0	//Orcus
+2248        *           *           *               *             2248        	0	0	0	0	0	//Orcus
+2249        *           *           *               *             2249        	0	0	0	0	0	//Orcus
+2250        *           *           *               *             2250        	0	0	0	0	0	//Orcus
+2251        *           *           *               *             2251        	0	0	0	0	0	//Orcus
+2252        *           *           *               *             2252        	0	0	0	0	0	//Orcus
+2253        *           *           *               *             2253        	0	0	0	0	0	//Orcus
+2254        *           *           *               *             2254        	0	0	0	0	0	//Orcus
+2255        *           *           *               *             2255        	0	0	0	0	0	//Orcus
+2256        *           *           *               *             2256        	0	0	0	0	0	//Orcus
+2257        *           *           *               *             2257        	0	0	0	0	0	//Orcus
+2258        *           *           *               *             2258        	0	0	0	0	0	//Orcus
+2259        *           *           *               *             2259        	0	0	0	0	0	//Orcus
+2260        *           *           *               *             2260        	0	0	0	0	0	//Orcus
+2261        *           *           *               *             2261        	0	0	0	0	0	//Orcus
+2262        *           *           *               *             2262        	0	0	0	0	0	//Orcus
+2263        *           *           *               *             2263        	0	0	0	0	0	//Orcus
+2264        *           *           *               *             2264        	0	0	0	0	0	//Orcus
+2265        *           *           *               *             2265        	0	0	0	0	0	//Orcus
+2266        *           *           *               *             2266        	0	0	0	0	0	//Orcus
+2267        *           *           *               *             2267        	0	0	0	0	0	//Orcus
+2268        *           *           *               *             2268        	0	0	0	0	0	//Orcus
+2269        *           *           *               *             2269        	0	0	0	0	0	//Orcus
+2270        *           *           *               *             2270        	0	0	0	0	0	//Orcus
+2271        *           *           *               *             2271        	0	0	0	0	0	//Orcus
+2272        *           *           *               *             2272        	0	0	0	0	0	//Orcus
+2273        *           *           *               *             2273        	0	0	0	0	0	//Orcus
+2274        *           *           *               *             2274        	0	0	0	0	0	//Orcus
+2275        *           *           *               *             2275        	0	0	0	0	0	//Orcus
+2276        *           *           *               *             2276        	0	0	0	0	0	//Orcus
+2277        *           *           *               *             2277        	0	0	0	0	0	//Orcus
+2278        *           *           *               *             2278        	0	0	0	0	0	//Orcus
+2279        *           *           *               *             2279        	0	0	0	0	0	//Orcus
+2280        *           *           *               *             2280        	0	0	0	0	0	//Orcus
+2281        *           *           *               *             2281        	0	0	0	0	0	//Orcus
+2282        *           *           *               *             2282        	0	0	0	0	0	//Orcus
+2283        *           *           *               *             2283        	0	0	0	0	0	//Orcus
+2284        *           *           *               *             2284        	0	0	0	0	0	//Orcus
+2285        *           *           *               *             2285        	0	0	0	0	0	//Orcus
+2286        *           *           *               *             2286        	0	0	0	0	0	//Orcus
+2287        *           *           *               *             2287        	0	0	0	0	0	//Orcus
+2288        *           *           *               *             2288        	0	0	0	0	0	//Orcus
+2289        *           *           *               *             2289        	0	0	0	0	0	//Orcus
+2290        *           *           *               *             2290        	0	0	0	0	0	//Orcus
+2291        *           *           *               *             2291        	0	0	0	0	0	//Orcus
+2292        *           *           *               *             2292        	0	0	0	0	0	//Orcus
+2293        *           *           *               *             2293        	0	0	0	0	0	//Orcus
+2294        *           *           *               *             2294        	0	0	0	0	0	//Orcus
+2295        *           *           *               *             2295        	0	0	0	0	0	//Orcus
+2296        *           *           *               *             2296        	0	0	0	0	0	//Orcus
+2297        *           *           *               *             2297        	0	0	0	0	0	//Orcus
+2298        *           *           *               *             2298        	0	0	0	0	0	//Orcus
+2299        *           *           *               *             2299        	0	0	0	0	0	//Orcus
+2300        *           *           *               *             2300        	0	0	0	0	0	//Orcus
+2301        *           *           *               *             2301        	0	0	0	0	0	//Orcus
+2302        *           *           *               *             2302        	0	0	0	0	0	//Orcus
+2303        *           *           *               *             2303        	0	0	0	0	0	//Orcus
+2304        *           *           *               *             2304        	0	0	0	0	0	//Orcus
+2305        *           *           *               *             2305        	0	0	0	0	0	//Orcus
+2306        *           *           *               *             2306        	0	0	0	0	0	//Orcus
+2307        *           *           *               *             2307        	0	0	0	0	0	//Orcus
+2308        *           *           *               *             2308        	0	0	0	0	0	//Orcus
+2309        *           *           *               *             2309        	0	0	0	0	0	//Orcus
+2310        *           *           *               *             2310        	0	0	0	0	0	//Orcus
+2311        *           *           *               *             2311        	0	0	0	0	0	//Orcus
+2312        *           *           *               *             2312        	0	0	0	0	0	//Orcus
+2313        *           *           *               *             2313        	0	0	0	0	0	//Orcus
+2314        *           *           *               *             2314        	0	0	0	0	0	//Orcus
+2315        *           *           *               *             2315        	0	0	0	0	0	//Orcus
+2316        *           *           *               *             2316        	0	0	0	0	0	//Orcus
+2317        *           *           *               *             2317        	0	0	0	0	0	//Orcus
+2318        *           *           *               *             2318        	0	0	0	0	0	//Orcus
+2319        *           *           *               *             2319        	0	0	0	0	0	//Orcus
+2320        *           *           *               *             2320        	0	0	0	0	0	//Orcus
+2321        *           *           *               *             2321        	0	0	0	0	0	//Orcus
+2322        *           *           *               *             2322        	0	0	0	0	0	//Orcus
+2323        *           *           *               *             2323        	0	0	0	0	0	//Orcus
+2324        *           *           *               *             2324        	0	0	0	0	0	//Orcus
+2325        *           *           *               *             2325        	0	0	0	0	0	//Orcus
+2326        *           *           *               *             2326        	0	0	0	0	0	//Orcus
+2327        *           *           *               *             2327        	0	0	0	0	0	//Orcus
+2328        *           *           *               *             2328        	0	0	0	0	0	//Orcus
+2329        *           *           *               *             2329        	0	0	0	0	0	//Orcus
+2330        *           *           *               *             2330        	0	0	0	0	0	//Orcus
+2331        *           *           *               *             2331        	0	0	0	0	0	//Orcus
+2332        *           *           *               *             2332        	0	0	0	0	0	//Orcus
+2333        *           *           *               *             2333        	0	0	0	0	0	//Orcus
+2334        *           *           *               *             2334        	0	0	0	0	0	//Orcus
+2335        *           *           *               *             2335        	0	0	0	0	0	//Orcus
+2336        *           *           *               *             2336        	0	0	0	0	0	//Orcus
+2337        *           *           *               *             2337        	0	0	0	0	0	//Orcus
+2338        *           *           *               *             2338        	0	0	0	0	0	//Orcus
+2339        *           *           *               *             2339        	0	0	0	0	0	//Orcus
+2340        *           *           *               *             2340        	0	0	0	0	0	//Orcus
+2341        *           *           *               *             2341        	0	0	0	0	0	//Orcus
+2342        *           *           *               *             2342        	0	0	0	0	0	//Orcus
+2343        *           *           *               *             2343        	0	0	0	0	0	//Orcus
+2344        *           *           *               *             2344        	0	0	0	0	0	//Orcus
+2345        *           *           *               *             2345        	0	0	0	0	0	//Orcus
+2346        *           *           *               *             2346        	0	0	0	0	0	//Orcus
+2347        *           *           *               *             2347        	0	0	0	0	0	//Orcus
+2348        *           *           *               *             2348        	0	0	0	0	0	//Orcus
+2349        *           *           *               *             2349        	0	0	0	0	0	//Orcus
+2350        *           *           *               *             2350        	0	0	0	0	0	//Orcus
+2351        *           *           *               *             2351        	0	0	0	0	0	//Orcus
+2352        *           *           *               *             2352        	0	0	0	0	0	//Orcus
+2353        *           *           *               *             2353        	0	0	0	0	0	//Orcus
+2354        *           *           *               *             2354        	0	0	0	0	0	//Orcus
+2355        *           *           *               *             2355        	0	0	0	0	0	//Orcus
+2356        *           *           *               *             2356        	0	0	0	0	0	//Orcus
+2357        *           *           *               *             2357        	0	0	0	0	0	//Orcus
+2358        *           *           *               *             2358        	0	0	0	0	0	//Orcus
+2359        *           *           *               *             2359        	0	0	0	0	0	//Orcus
+2360        *           *           *               *             2360        	0	0	0	0	0	//Orcus
+2361        *           *           *               *             2361        	0	0	0	0	0	//Orcus
+2362        *           *           *               *             2362        	0	0	0	0	0	//Orcus
+2363        *           *           *               *             2363        	0	0	0	0	0	//Orcus
+2364        *           *           *               *             2364        	0	0	0	0	0	//Orcus
+2365        *           *           *               *             2365        	0	0	0	0	0	//Orcus
+2366        *           *           *               *             2366        	0	0	0	0	0	//Orcus
+
+
+
+end

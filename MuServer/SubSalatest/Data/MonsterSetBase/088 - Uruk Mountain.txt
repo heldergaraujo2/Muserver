@@ -1,0 +1,133 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// [QUESTS] CIDADES HUNTS MOBS
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+600            88             00        022             091            03             //QUEST URUK MOUNTAIN
+end
+
+//=========================================================================================================================================
+// [SPOTS] URUK MOUNTAIN
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment  
+705            88             05         028          089              028          089          -1             0             //Urk Devil Fairy
+706            88             05         038          089              038          089          -1             0             //Urk Elemental Beast
+707            88             05         038          089              038          089          -1             0             //Urk Elemental Knight
+705            88             05         028          117              028          117          -1             0             //Urk Devil Fairy
+706            88             05         028          117              028          117          -1             0             //Urk Elemental Beast
+707            88             05         028          117              028          117          -1             0             //Urk Elemental Knight
+705            88             05         094          158              094          158          -1             0             //Urk Devil Fairy
+706            88             05         094          158              094          158          -1             0             //Urk Elemental Beast
+707            88             05         094          158              094          158          -1             0             //Urk Elemental Knight
+705            88             05         047          159              047          159          -1             0             //Urk Devil Fairy
+706            88             05         047          159              047          159          -1             0             //Urk Elemental Beast
+707            88             05         047          159              047          159          -1             0             //Urk Elemental Knight
+705            88             05         104          222              104          222          -1             0             //Urk Devil Fairy
+706            88             05         104          222              104          222          -1             0             //Urk Elemental Beast
+707            88             05         104          222              104          222          -1             0             //Urk Elemental Knight
+705            88             05         180          190              180          190          -1             0             //Urk Devil Fairy
+706            88             05         180          190              180          190          -1             0             //Urk Elemental Beast
+707            88             05         180          190              180          190          -1             0             //Urk Elemental Knight
+705            88             05         213          216              213          216          -1             0             //Urk Devil Fairy
+706            88             05         213          216              213          216          -1             0             //Urk Elemental Beast
+707            88             05         213          216              213          216          -1             0             //Urk Elemental Knight
+705            88             05         028          164              028          164          -1             0             //Urk Devil Fairy
+706            88             05         028          164              028          164          -1             0             //Urk Elemental Beast
+707            88             05         028          164              028          164          -1             0             //Urk Elemental Knight
+705            88             05         083          203              083          203          -1             0             //Urk Devil Fairy
+706            88             05         083          203              083          203          -1             0             //Urk Elemental Beast
+707            88             05         083          203              083          203          -1             0             //Urk Elemental Knight
+705            88             05         112          196              112          196          -1             0             //Urk Devil Fairy
+706            88             05         112          196              112          196          -1             0             //Urk Elemental Beast
+707            88             05         112          196              112          196          -1             0             //Urk Elemental Knight
+705            88             05         146          213              146          213          -1             0             //Urk Devil Fairy
+706            88             05         146          213              146          213          -1             0             //Urk Elemental Beast
+707            88             05         146          213              146          213          -1             0             //Urk Elemental Knight
+705            88             05         235          177              235          177          -1             0             //Urk Devil Fairy
+706            88             05         235          177              235          177          -1             0             //Urk Elemental Beast
+707            88             05         235          177              235          177          -1             0             //Urk Elemental Knight
+705            88             05         220          138              220          138          -1             0             //Urk Devil Fairy
+706            88             05         220          138              220          138          -1             0             //Urk Elemental Beast
+707            88             05         220          138              220          138          -1             0             //Urk Elemental Knight
+705            88             05         238          135              238          135          -1             0             //Urk Devil Fairy
+706            88             05         238          135              238          135          -1             0             //Urk Elemental Beast
+707            88             05         238          135              238          135          -1             0             //Urk Elemental Knight
+705            88             05         216          095              216          095          -1             0             //Urk Devil Fairy
+706            88             05         216          095              216          095          -1             0             //Urk Elemental Beast
+707            88             05         216          095              216          095          -1             0             //Urk Elemental Knight
+705            88             05         164          079              164          079          -1             0             //Urk Devil Fairy
+706            88             05         164          079              164          079          -1             0             //Urk Elemental Beast
+707            88             05         164          079              164          079          -1             0             //Urk Elemental Knight
+705            88             05         208          116              208          116          -1             0             //Urk Devil Fairy
+706            88             05         208          116              208          116          -1             0             //Urk Elemental Beast
+707            88             05         208          116              208          116          -1             0             //Urk Elemental Knight
+705            88             05         174          135              174          135          -1             0             //Urk Devil Fairy
+706            88             05         174          135              174          135          -1             0             //Urk Elemental Beast
+707            88             05         174          135              174          135          -1             0             //Urk Elemental Knight
+705            88             05         200          135              200          135          -1             0             //Urk Devil Fairy
+706            88             05         200          135              200          135          -1             0             //Urk Elemental Beast
+707            88             05         200          135              200          135          -1             0             //Urk Elemental Knight
+705            88             05         132          130              132          130          -1             0             //Urk Devil Fairy
+706            88             05         132          130              132          130          -1             0             //Urk Elemental Beast
+707            88             05         132          130              132          130          -1             0             //Urk Elemental Knight
+705            88             05         129          112              129          112          -1             0             //Urk Devil Fairy
+706            88             05         129          112              129          112          -1             0             //Urk Elemental Beast
+707            88             05         129          112              129          112          -1             0             //Urk Elemental Knight
+705            88             05         118          099              118          099          -1             0             //Urk Devil Fairy
+706            88             05         118          099              118          099          -1             0             //Urk Elemental Beast
+707            88             05         118          099              118          099          -1             0             //Urk Elemental Knight
+705            88             05         125          064              125          064          -1             0             //Urk Devil Fairy
+706            88             05         125          064              125          064          -1             0             //Urk Elemental Beast
+707            88             05         125          064              125          064          -1             0             //Urk Elemental Knight
+705            88             05         098          075              098          075          -1             0             //Urk Devil Fairy
+706            88             05         098          075              098          075          -1             0             //Urk Elemental Beast
+707            88             05         098          075              098          075          -1             0             //Urk Elemental Knight
+705            88             05         088          031              088          031          -1             0             //Urk Devil Fairy
+706            88             05         088          031              088          031          -1             0             //Urk Elemental Beast
+707            88             05         088          031              088          031          -1             0             //Urk Elemental Knight
+705            88             05         128          015              128          015          -1             0             //Urk Devil Fairy
+706            88             05         128          015              128          015          -1             0             //Urk Elemental Beast
+707            88             05         128          015              128          015          -1             0             //Urk Elemental Knight
+705            88             05         099          009              099          009          -1             0             //Urk Devil Fairy
+706            88             05         099          009              099          009          -1             0             //Urk Elemental Beast
+707            88             05         099          009              099          009          -1             0             //Urk Elemental Knight
+705            88             05         055          060              055          060          -1             0             //Urk Devil Fairy
+706            88             05         055          060              055          060          -1             0             //Urk Elemental Beast
+707            88             05         055          060              055          060          -1             0             //Urk Elemental Knight
+705            88             05         094          125              094          125          -1             0             //Urk Devil Fairy
+706            88             05         094          125              094          125          -1             0             //Urk Elemental Beast
+707            88             05         094          125              094          125          -1             0             //Urk Elemental Knight
+705            88             05         080          134              080          134          -1             0             //Urk Devil Fairy
+706            88             05         080          134              080          134          -1             0             //Urk Elemental Beast
+707            88             05         080          134              080          134          -1             0             //Urk Elemental Knight
+705            88             05         079          095              079          095          -1             0             //Urk Devil Fairy
+706            88             05         079          095              079          095          -1             0             //Urk Elemental Beast
+707            88             05         079          095              079          095          -1             0             //Urk Elemental Knight
+705            88             05         112          088              112          088          -1             0             //Urk Devil Fairy
+706            88             05         112          088              112          088          -1             0             //Urk Elemental Beast
+707            88             05         112          088              112          088          -1             0             //Urk Elemental Knight
+705            88             05         136          086              136          086          -1             0             //Urk Devil Fairy
+706            88             05         136          086              136          086          -1             0             //Urk Elemental Beast
+707            88             05         136          086              136          086          -1             0             //Urk Elemental Knight
+705            88             05         156          108              156          108          -1             0             //Urk Devil Fairy
+706            88             05         156          108              156          108          -1             0             //Urk Elemental Beast
+707            88             05         156          108              156          108          -1             0             //Urk Elemental Knight
+end
+
+//=========================================================================================================================================
+// [ESPALHADOS] URUK MOUNTAIN
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+705            88             30         10             10             240          240         -1              0            //Urk Devil Fairy
+706            88             30         10             10             240          240         -1              0            //Urk Elemental Beast
+707            88             30         10             10             240          240         -1              0            //Urk Elemental Knight
+end

@@ -1,0 +1,69 @@
+14:09:40 [ServerList] GameServer offline (GameServer) (0)
+14:09:43 [SocketManager] Server started at port [44406]
+14:09:43 [ServerList] ServerList loaded successfully
+14:09:46 [ServerList] JoinServer online
+14:09:50 [ServerList] GameServer online (GameServer) (0)
+14:09:54 [ServerList] GameServer online (GameServerCS) (19)
+20:00:32 [SocketManager] Server started at port [44406]
+20:00:32 [ServerList] ServerList loaded successfully
+20:00:35 [ServerList] JoinServer online
+20:00:39 [ServerList] GameServer online (GameServer) (0)
+20:00:43 [ServerList] GameServer online (GameServerCS) (19)
+20:10:18 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:10:18 [SocketManager] WSAAccept() failed with error: 10061
+20:15:21 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:15:21 [SocketManager] WSAAccept() failed with error: 10061
+20:29:58 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:29:58 [SocketManager] WSAAccept() failed with error: 10061
+20:32:19 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:32:19 [SocketManager] WSAAccept() failed with error: 10061
+20:35:21 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:35:21 [SocketManager] WSAAccept() failed with error: 10061
+20:40:55 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:40:55 [SocketManager] WSAAccept() failed with error: 10061
+20:43:59 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:43:59 [SocketManager] WSAAccept() failed with error: 10061
+20:44:10 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+20:44:10 [SocketManager] WSAAccept() failed with error: 10061
+20:57:57 [SocketManager] Server started at port [44406]
+20:57:57 [ServerList] ServerList loaded successfully
+20:58:00 [ServerList] JoinServer online
+20:58:04 [ServerList] GameServer online (GameServer) (0)
+20:58:08 [ServerList] GameServer online (GameServerCS) (19)
+21:22:11 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+21:22:11 [SocketManager] WSAAccept() failed with error: 10061
+21:57:44 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+21:57:44 [SocketManager] WSAAccept() failed with error: 10061
+22:03:28 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:03:28 [SocketManager] WSAAccept() failed with error: 10061
+22:09:01 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:09:01 [SocketManager] WSAAccept() failed with error: 10061
+22:10:42 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:10:42 [SocketManager] WSAAccept() failed with error: 10061
+22:14:09 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:14:09 [SocketManager] WSAAccept() failed with error: 10061
+22:20:22 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:20:22 [SocketManager] WSAAccept() failed with error: 10061
+22:23:07 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:23:07 [SocketManager] WSAAccept() failed with error: 10061
+22:24:38 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:24:38 [SocketManager] WSAAccept() failed with error: 10061
+22:28:20 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:28:20 [SocketManager] WSAAccept() failed with error: 10061
+22:46:34 [SocketManager] Server started at port [44406]
+22:46:34 [ServerList] ServerList loaded successfully
+22:46:37 [ServerList] JoinServer online
+22:46:41 [ServerList] GameServer online (GameServer) (0)
+22:46:44 [ServerList] GameServer online (GameServerCS) (19)
+22:46:52 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+22:46:52 [SocketManager] WSAAccept() failed with error: 10061
+23:11:07 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+23:11:07 [SocketManager] WSAAccept() failed with error: 10061
+23:11:25 [SocketManager] Protocol header error (Index: 1, Header: 3)
+23:11:25 [SocketManager] Protocol header error (Index: 3, Header: 3)
+23:41:38 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+23:41:38 [SocketManager] WSAAccept() failed with error: 10061
+23:47:10 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+23:47:10 [SocketManager] WSAAccept() failed with error: 10061
+23:47:20 [AntiFlood] SYN FLOOD attack(127.0.0.1)
+23:47:20 [SocketManager] WSAAccept() failed with error: 10061

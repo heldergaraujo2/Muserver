@@ -1,0 +1,18 @@
+//Skill damager system for increase or decrease skill power vs user or monster
+//	#Skill	#DamageRateUser	#DamageRateMonster
+	238	100	20     //birds
+	78	100	45     //FireScream
+
+	24	100	55     //Triplo Shot
+	235	100	55     //Multi Shot
+	
+	214	100	55     //Drain Life
+	215	100	35     //Chainlight
+	
+	261	86	75     //Upper
+	263	86	45     //DarkSide
+
+	55	105	75     //Fire Slash
+	56	105	75     //Power Slash
+	236	105	80     //Sword Power
+end

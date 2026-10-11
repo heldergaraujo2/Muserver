@@ -1,0 +1,89 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=================================================================================================================
+// System to add and control the skills in the Custom attack system (By Louis)
+//	#Skill 		- Skill Number
+//
+//	#Type  		- 1: Normal Attack
+//			- 2: Multiple Attack
+//			- 3: Duration Attack
+//			- 4: RF Attack (Not for all)
+//
+//	#Delay 		- Default value for calculating attack time
+//
+//	#MinDelay	- Mix Skill delay
+//=================================================================================================================
+//	    #Skill	    #Type	   #Delay	    #MinDelay
+//=================================================================================================================
+
+        //FENRIR
+        76         3     1000    120         //Plasma
+	//-- BK
+        43         1     800     120         //Stab
+        41         3     600     120         //Twister Slash 
+        42         3     1000    120         //Blow
+        232        3     1000    120         //Gelo
+	//-- SM
+        9         2     800      120         //Evil Spirit  
+        5         2     1000     120         //Flame
+        13        2     1000     120         //Blast
+        14        2     600      120         //Inferno
+        12        2     1000     120         //Aqua
+        10        2     600      120         //Hellfire
+        8         2     1000     120         //Twister
+        39        3     600      120         //Ice Storm
+        38        3     600      300         //Decay
+        1         1     800      120         //Poison
+        2         1     800      120         //Meteorite
+        17        1     800      120         //EnergyBall
+        3         1     800      120         //Light
+        11        1     800      120         //Power WAVE
+        7         1     800      120         //Ice
+	//-- MG
+        236        3     600     120        //Flame Strick
+        55         2     600     120        //Fire Slash
+        56         3     600     120        //Power SLASH
+        237        3     600     120        //Light
+	//-- ELF
+        24         2     600     120        //Triple
+        26         3     800     120        //Heal
+        52         2     600     120        //Penatrati
+        51         1     600     120        //Ice Arrow
+        235        2     600     120        //Multi Shot
+	//-- DL
+        60         1     600     120        //Force
+        61         1     800     120        //Fire Bust
+        62         3     10000   120        //Cavalada
+        65         3     5000    120        //Eletrick
+        78         2     800     120        //Fire Scream
+        238        3     600     120        //Chaotic
+	//-- SU
+        221        3     3000    120        //Lesser Damage
+        222        3     3000    120        //Lesser Defense
+        215        3     500     120        //Chain Light
+        230        3     1000    200        //Pulo
+        214        3     500     120        //Drain Life
+        223        3     3000    120        //Sahamut
+        224        3     3000    120        //Neil
+        225        3     3000    120        //Ghost
+	//-- RF
+        260        1     600     120        //Killing
+        262        1     1000    200        //Chain Driver
+        270        2     1000    200        //Phoenix Shot
+	263	   3	 650	 300	  //Dark Side
+        264        3     1200    200        //Dragon Roar
+        265        1     3000    120        //Dragon Slayer
+	//SKILL ARMAS 
+        21         1     900    120         //Uppercut 
+        22         1     930    120         //Clycone
+        23         1     930    120         //Slash
+        20         1     900    120         //Lunge   
+        47         1     1000   120         //Impale
+        260        1     980    300         //Large Ring Blower
+        261        1     980    300         //Upper Beast
+end

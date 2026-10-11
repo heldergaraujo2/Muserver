@@ -1,0 +1,130 @@
+09:13:19 [ServerInfo] Util loaded successfully
+11:43:21 [Obj][13003] AddClient (177.200.33.42)
+11:43:22 [Obj][13003] DelClient (177.200.33.42)
+12:36:44 [ServerInfo] EventItemBag loaded successfully
+12:37:02 [Obj][13004] AddClient (177.200.33.42)
+12:37:06 [Obj][13004] AddAccount (hellder)
+12:37:08 [Obj][13004] LogInCharacter (Saffe)
+12:38:27 [Obj][13004] LogOutCharacter (Saffe)
+12:38:27 [Obj][13004] DelAccount (hellder)
+12:38:27 [Obj][13004] DelClient (177.200.33.42)
+16:10:50 [Obj][13005] AddClient (177.200.33.42)
+16:11:00 [Obj][13005] DelClient (177.200.33.42)
+16:12:15 [ServerInfo] Util loaded successfully
+16:12:18 [ServerInfo] CashShop loaded successfully
+16:12:18 [ServerInfo] ChaosMix loaded successfully
+16:12:18 [ServerInfo] Character loaded successfully
+16:12:18 [ServerInfo] Command loaded successfully
+16:12:18 [ServerInfo] Common loaded successfully
+16:12:18 [FakeOnline] Loaded successfully
+16:12:18 [ServerInfo] Custom loaded successfully
+16:12:18 [ServerInfo] Discord loaded successfully
+16:12:18 [ServerInfo] Effect loaded successfully
+16:12:18 [ServerInfo] Event loaded successfully
+16:12:18 [ServerInfo] EventItemBag loaded successfully
+16:12:18 [ServerInfo] Hack loaded successfully
+16:12:18 [ServerInfo] Message loaded successfully
+16:12:18 [ServerInfo] Map loaded successfully
+16:12:18 [ServerInfo] Message loaded successfully
+16:12:18 [ServerInfo] Monster loaded successfully
+16:12:18 [ServerInfo] Move loaded successfully
+16:12:18 [ServerInfo] Quest loaded successfully
+16:12:18 [ServerInfo] Shop loaded successfully
+16:12:18 [ServerInfo] Skill loaded successfully
+16:12:18 [ServerInfo] Util loaded successfully
+16:12:18 [ReadBotInfo] BotSystem loaded successfully
+16:12:28 [Discord] Connection successfully
+16:12:46 [Obj][13000] AddClient (177.200.33.42)
+16:12:47 [Obj][13000] AddAccount (pvp01)
+16:12:51 [Obj][13000] LogInCharacter (PVPSM)
+16:13:17 [Obj][13000] LogOutCharacter (PVPSM)
+16:13:17 [Obj][13000] DelAccount (pvp01)
+16:13:17 [Obj][13000] DelClient (177.200.33.42)
+16:23:39 [Obj][13001] AddClient (177.200.33.42)
+16:23:41 [Obj][13001] AddAccount (pvp01)
+16:23:45 [Obj][13001] LogInCharacter (PVPSM)
+16:23:52 [Obj][13001] LogOutCharacter (PVPSM)
+16:23:53 [Obj][13001] LogInCharacter (PVPELF)
+16:24:03 [Item Map Drop] Item index: 65535 doesn't exists.
+16:24:19 [Obj][13001] LogOutCharacter (PVPELF)
+16:24:20 [Obj][13001] LogInCharacter (PVPMG)
+16:24:29 [Obj][13001] LogOutCharacter (PVPMG)
+16:24:30 [Obj][13001] LogInCharacter (PVPDL)
+16:24:41 [Obj][13001] LogOutCharacter (PVPDL)
+16:24:41 [Obj][13001] DelAccount (pvp01)
+16:24:41 [Obj][13001] DelClient (177.200.33.42)
+16:24:42 [Obj][13002] AddClient (177.200.33.42)
+16:24:45 [Obj][13002] AddAccount (pvp02)
+16:24:47 [Obj][13002] LogInCharacter (PVPSUM)
+16:24:56 [Obj][13002] LogOutCharacter (PVPSUM)
+16:24:58 [Obj][13002] LogInCharacter (PVPRF)
+16:25:09 [Obj][13002] LogOutCharacter (PVPRF)
+16:25:09 [Obj][13002] DelAccount (pvp02)
+16:25:09 [Obj][13002] DelClient (177.200.33.42)
+16:25:11 [Obj][13003] AddClient (177.200.33.42)
+16:25:13 [Obj][13003] AddAccount (pvp03)
+16:25:14 [Obj][13003] LogInCharacter (PVPBK01)
+16:25:26 [Obj][13003] LogOutCharacter (PVPBK01)
+16:25:28 [Obj][13003] LogInCharacter (PVPSM01)
+16:25:38 [Obj][13003] LogOutCharacter (PVPSM01)
+16:25:58 [Obj][13003] LogInCharacter (PVPSM01)
+16:26:05 [Obj][13003] LogOutCharacter (PVPSM01)
+16:26:06 [Obj][13003] LogInCharacter (PVPELF01)
+16:26:14 [Obj][13003] LogOutCharacter (PVPELF01)
+16:26:16 [Obj][13003] LogInCharacter (PVPMG01)
+16:26:25 [Obj][13003] LogOutCharacter (PVPMG01)
+16:26:27 [Obj][13003] LogInCharacter (PVPDL01)
+16:26:37 [Obj][13003] LogOutCharacter (PVPDL01)
+16:26:37 [Obj][13003] DelAccount (pvp03)
+16:26:37 [Obj][13003] DelClient (177.200.33.42)
+16:26:39 [Obj][13004] AddClient (177.200.33.42)
+16:26:43 [Obj][13004] AddAccount (pvp04)
+16:26:45 [Obj][13004] LogInCharacter (PVPSUM01)
+16:26:54 [Obj][13004] LogOutCharacter (PVPSUM01)
+16:26:56 [Obj][13004] LogInCharacter (PVPRF01)
+16:27:01 [Obj][13004] LogOutCharacter (PVPRF01)
+16:27:01 [Obj][13004] DelAccount (pvp04)
+16:27:01 [Obj][13004] DelClient (177.200.33.42)
+16:36:17 [Obj][13005] AddClient (177.200.33.42)
+16:36:21 [Obj][13005] AddAccount (pvp01)
+16:37:18 [Obj][13005] LogInCharacter (PVPBK)
+16:39:31 [Obj][13000] AddClient (177.200.33.42)
+16:39:57 [Obj][13000] AddAccount (videodv)
+16:39:59 [Obj][13000] LogInCharacter (AdmSaffe)
+16:50:23 [ServerInfo] Shop loaded successfully
+17:01:48 [Obj][13005] LogOutCharacter (PVPBK)
+17:02:41 [Obj][13005] LogInCharacter (PVPSM)
+18:23:40 [Obj][13001] AddClient (66.132.172.216)
+18:23:49 [Obj][13002] AddClient (66.132.172.216)
+18:23:59 [Obj][13002] DelClient (66.132.172.216)
+18:24:11 [Obj][13001] DelClient (66.132.172.216)
+18:24:11 Response error after connection causes conclusion [13001][][][66.132.172.216]
+19:30:00 [ CRYWOLF ] SYNC Occupation: 0, State: 1
+19:35:00 [ CRYWOLF ] SYNC Occupation: 2, State: 2
+19:36:00 [ CRYWOLF ] SYNC Occupation: 2, State: 3
+19:38:00 [ CRYWOLF ] SYNC Occupation: 1, State: 5
+19:38:15 [ CRYWOLF ] SYNC Occupation: 1, State: 6
+19:38:25 [ CRYWOLF ] SYNC Occupation: 1, State: 0
+19:39:07 [Obj][13005] LogOutCharacter (PVPSM)
+19:39:15 [Obj][13005] LogInCharacter (PVPELF)
+19:45:00 [Obj][13003] AddClient (66.132.172.46)
+19:45:03 [Obj][13003] DelClient (66.132.172.46)
+19:45:06 [Obj][13004] AddClient (66.132.172.46)
+19:45:16 [Obj][13004] DelClient (66.132.172.46)
+20:05:20 [Obj][13005] LogOutCharacter (PVPELF)
+20:05:20 [Obj][13005] DelAccount (pvp01)
+20:05:20 [Obj][13005] DelClient (177.200.33.42)
+20:05:21 [Obj][13000] LogOutCharacter (AdmSaffe)
+20:05:21 [Obj][13000] DelAccount (videodv)
+20:05:21 [Obj][13000] DelClient (177.200.33.42)
+20:13:14 [Obj][13002] AddClient (177.200.33.42)
+20:13:15 [Obj][13002] AddAccount (videodv)
+20:13:17 [Obj][13002] LogInCharacter (AdmSaffe)
+20:13:40 [Obj][13001] AddClient (177.200.33.42)
+20:13:41 [Obj][13001] DelClient (177.200.33.42)
+20:14:29 [Obj][13002] LogOutCharacter (AdmSaffe)
+20:14:29 [Obj][13002] DelAccount (videodv)
+20:14:29 [Obj][13002] DelClient (177.200.33.42)
+21:57:59 [Obj][13003] AddClient (168.196.89.192)
+21:58:29 [Obj][13003] DelClient (168.196.89.192)
+21:58:29 Response error after connection causes conclusion [13003][][][168.196.89.192]

@@ -1,0 +1,902 @@
+04:40:49 [Obj][13001] AddClient (66.132.172.195)
+04:40:53 [Obj][13001] DelClient (66.132.172.195)
+04:40:57 [Obj][13000] AddClient (66.132.172.195)
+04:41:08 [Obj][13000] DelClient (66.132.172.195)
+07:33:29 [Obj][13002] AddClient (177.200.33.42)
+07:33:36 [Obj][13002] AddAccount (hellder)
+07:33:38 [Obj][13002] LogInCharacter (Saffe)
+07:35:21 [ServerInfo] EventItemBag loaded successfully
+08:04:28 [FAKE ONLINE LOG] Start
+08:04:28 [ServerInfo] CashShop loaded successfully
+08:04:28 [ServerInfo] ChaosMix loaded successfully
+08:04:28 [ServerInfo] Character loaded successfully
+08:04:28 [FakeOnline] Loaded successfully
+08:04:28 [ServerInfo] Custom loaded successfully
+08:04:28 [ServerInfo] Command loaded successfully
+08:04:28 [ServerInfo] Common loaded successfully
+08:04:28 [ServerInfo] Discord loaded successfully
+08:04:28 [ServerInfo] Effect loaded successfully
+08:04:28 [ServerInfo] Event loaded successfully
+08:04:28 [ServerInfo] EventItemBag loaded successfully
+08:04:28 [ServerInfo] Hack loaded successfully
+08:04:28 [ServerInfo] Item loaded successfully
+08:04:28 [ServerInfo] Message loaded successfully
+08:04:28 [ServerInfo] Map loaded successfully
+08:04:28 [ServerInfo] Terrain loaded successfully
+08:04:28 [ServerInfo] Monster loaded successfully
+08:04:28 [ServerInfo] Move loaded successfully
+08:04:28 [ServerInfo] Quest loaded successfully
+08:04:28 [ServerInfo] Script loaded successfully
+08:04:28 [ServerInfo] Shop loaded successfully
+08:04:28 [ServerInfo] Skill loaded successfully
+08:04:28 [ServerInfo] Util loaded successfully
+08:04:28 [ReadBotInfo] BotSystem loaded successfully
+08:04:28 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+08:04:29 [ServerInfo] Custom Attack offline restored successfully
+08:04:29 [ServerInfo] Custom Store offline restored successfully
+08:04:29 [Discord] Connection successfully
+08:04:50 [Obj][13000] AddClient (177.200.33.42)
+08:05:00 [Obj][13000] AddAccount (hellder)
+08:05:00 [Obj][13000] LogInCharacter (Saffe)
+08:07:38 [ServerInfo] EventItemBag loaded successfully
+08:18:33 [ServerInfo] EventItemBag loaded successfully
+08:20:05 [ServerInfo] EventItemBag loaded successfully
+08:21:23 [ServerInfo] EventItemBag loaded successfully
+08:22:17 [ServerInfo] EventItemBag loaded successfully
+08:23:42 [ServerInfo] EventItemBag loaded successfully
+08:24:14 [ServerInfo] Hack loaded successfully
+08:24:15 [ServerInfo] EventItemBag loaded successfully
+08:24:32 [ServerInfo] EventItemBag loaded successfully
+08:27:15 [ServerInfo] EventItemBag loaded successfully
+08:27:39 [ServerInfo] EventItemBag loaded successfully
+08:27:53 [ServerInfo] EventItemBag loaded successfully
+08:28:52 [ServerInfo] EventItemBag loaded successfully
+08:29:10 [ServerInfo] EventItemBag loaded successfully
+08:29:28 [ServerInfo] EventItemBag loaded successfully
+08:31:31 [ServerInfo] EventItemBag loaded successfully
+08:31:49 [ServerInfo] EventItemBag loaded successfully
+08:33:57 [ServerInfo] EventItemBag loaded successfully
+08:34:30 [ServerInfo] EventItemBag loaded successfully
+08:35:57 [ServerInfo] EventItemBag loaded successfully
+08:36:26 [ServerInfo] EventItemBag loaded successfully
+08:40:51 [ServerInfo] EventItemBag loaded successfully
+08:41:35 [Obj][13001] AddClient (177.200.33.42)
+08:41:39 [Obj][13001] AddAccount (videodv)
+08:41:41 [Obj][13001] LogInCharacter (AdmSaffe)
+08:45:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 7
+08:45:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 16
+08:45:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+08:45:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+08:45:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+08:45:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 7
+08:45:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+08:45:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+08:45:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 3
+08:45:46 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+08:45:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+08:45:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+08:45:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 2
+08:45:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+08:53:57 [ServerInfo] EventItemBag loaded successfully
+09:03:30 [ServerInfo] EventItemBag loaded successfully
+09:22:50 [Obj][13000] LogOutCharacter (Saffe)
+09:22:50 [Obj][13000] DelAccount (hellder)
+09:22:50 [Obj][13000] DelClient (177.200.33.42)
+09:22:53 [Obj][13001] LogOutCharacter (AdmSaffe)
+09:22:53 [Obj][13001] DelAccount (videodv)
+09:22:53 [Obj][13001] DelClient (177.200.33.42)
+11:16:25 [Obj][13000] AddClient (177.200.33.42)
+11:16:26 [Obj][13000] AddAccount (hellder)
+11:16:29 [Obj][13000] LogInCharacter (Saffe)
+11:16:59 [Obj][13001] AddClient (177.200.33.42)
+11:17:02 [Obj][13001] AddAccount (videodv)
+11:17:04 [Obj][13001] LogInCharacter (AdmSaffe)
+11:20:27 [ServerInfo] EventItemBag loaded successfully
+11:22:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:22:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:22:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 11
+11:22:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:22:35 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:22:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 6
+11:22:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:22:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:22:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:22:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:22:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:22:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:22:59 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:23:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:23:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:23:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:23:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 1
+11:23:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:23:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 2
+11:23:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:23:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:26:24 [Obj][13002] AddClient (177.200.33.42)
+11:26:27 [Obj][13002] AddAccount (pvp01)
+11:26:29 [Obj][13002] LogInCharacter (PVPBK)
+11:26:58 [Obj][13003] AddClient (177.200.33.42)
+11:27:00 [Obj][13003] AddAccount (pvp02)
+11:27:03 [Obj][13003] LogInCharacter (PVPSUM)
+11:27:57 [Obj][13004] AddClient (177.200.33.42)
+11:28:00 [Obj][13004] AddAccount (pvp03)
+11:28:05 [Obj][13004] LogInCharacter (PVPELF01)
+11:28:53 [Obj][13005] AddClient (177.200.33.42)
+11:28:58 [Obj][13005] AddAccount (pvp04)
+11:29:02 [Obj][13005] LogInCharacter (PVPRF01)
+11:34:46 [ServerInfo] Common loaded successfully
+11:35:31 [ServerInfo] EventItemBag loaded successfully
+11:39:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 7
+11:39:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:39:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:39:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:39:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:34 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:39:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:39:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 5
+11:39:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:44 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 6
+11:39:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:39:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 6
+11:39:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 1
+11:39:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:56 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:39:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:39:58 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 6
+11:40:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:40:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+11:40:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:40:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 11
+11:40:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 11
+11:40:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 16
+11:40:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 3
+11:40:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:40:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 3
+11:40:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:40:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 16
+11:40:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 16
+11:40:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 11
+11:40:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:40:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 3
+11:41:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 7
+11:50:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+11:50:13 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 11
+11:50:15 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 16
+11:50:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 2
+11:50:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 1
+11:50:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+11:50:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:50:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:30 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 9
+11:50:32 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:50:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:39 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 3
+11:50:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:43 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:50:47 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:50:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:50:49 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:50:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:52 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 13
+11:50:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:50:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 10
+11:51:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:51:02 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:51:05 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:51:06 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:51:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 12
+11:51:09 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 4
+11:51:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:51:11 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 15
+11:51:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 14
+11:51:17 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 2
+11:51:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 8
+11:51:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 2105 | Count: 4
+11:53:36 [Obj][13001] LogOutCharacter (AdmSaffe)
+11:53:36 [Obj][13001] DelAccount (videodv)
+11:53:36 [Obj][13001] DelClient (177.200.33.42)
+11:53:39 [Obj][13005] LogOutCharacter (PVPRF01)
+11:53:39 [Obj][13005] DelAccount (pvp04)
+11:53:39 [Obj][13005] DelClient (177.200.33.42)
+11:53:42 [Obj][13004] LogOutCharacter (PVPELF01)
+11:53:42 [Obj][13004] DelAccount (pvp03)
+11:53:42 [Obj][13004] DelClient (177.200.33.42)
+11:53:45 [Obj][13003] LogOutCharacter (PVPSUM)
+11:53:45 [Obj][13003] DelAccount (pvp02)
+11:53:45 [Obj][13003] DelClient (177.200.33.42)
+11:53:50 [Obj][13002] LogOutCharacter (PVPBK)
+11:53:50 [Obj][13002] DelAccount (pvp01)
+11:53:50 [Obj][13002] DelClient (177.200.33.42)
+11:53:58 [Obj][13000] LogOutCharacter (Saffe)
+11:53:58 [Obj][13000] DelAccount (hellder)
+11:53:58 [Obj][13000] DelClient (177.200.33.42)
+15:56:36 [Obj][13001] AddClient (177.200.33.42)
+15:56:39 [Obj][13001] AddAccount (pvp01)
+15:56:40 [Obj][13001] LogInCharacter (PVPBK)
+17:04:17 [Obj][13005] AddClient (177.200.33.42)
+17:04:20 [Obj][13005] AddAccount (pvp02)
+17:04:21 [Obj][13005] LogInCharacter (PVPSUM)
+17:05:00 [Obj][13005] LogOutCharacter (PVPSUM)
+17:05:00 [Obj][13005] DelAccount (pvp02)
+17:05:00 [Obj][13005] DelClient (177.200.33.42)
+17:05:30 [Obj][13004] AddClient (177.200.33.42)
+17:05:40 [Obj][13004] AddAccount (pvp02)
+17:05:40 [Obj][13004] LogInCharacter (PVPSUM)
+17:05:52 [Obj][13004] LogOutCharacter (PVPSUM)
+17:05:52 [Obj][13004] DelAccount (pvp02)
+17:05:52 [Obj][13004] DelClient (177.200.33.42)
+17:06:28 [Obj][13003] AddClient (177.200.33.42)
+17:06:29 [Obj][13003] AddAccount (pvp02)
+17:06:31 [Obj][13003] LogInCharacter (PVPSUM)
+17:16:43 [Obj][13003] LogOutCharacter (PVPSUM)
+17:16:47 [Obj][13003] LogInCharacter (PVPRF)
+17:18:20 [Obj][13003] LogOutCharacter (PVPRF)
+17:18:20 [Obj][13003] DelAccount (pvp02)
+17:18:20 [Obj][13003] DelClient (177.200.33.42)
+17:18:23 [Obj][13002] AddClient (177.200.33.42)
+17:18:25 [Obj][13002] AddAccount (pvp03)
+17:18:27 [Obj][13002] LogInCharacter (PVPBK01)
+17:19:16 [Obj][13002] LogOutCharacter (PVPBK01)
+17:19:17 [Obj][13002] LogInCharacter (PVPSM01)
+17:19:40 [Obj][13002] LogOutCharacter (PVPSM01)
+17:19:42 [Obj][13002] LogInCharacter (PVPBK01)
+17:20:01 [Obj][13002] LogOutCharacter (PVPBK01)
+17:20:02 [Obj][13002] LogInCharacter (PVPSM01)
+17:22:11 [Obj][13002] LogOutCharacter (PVPSM01)
+17:22:13 [Obj][13002] LogInCharacter (PVPELF01)
+17:23:26 [Obj][13002] LogOutCharacter (PVPELF01)
+17:23:28 [Obj][13002] LogInCharacter (PVPMG01)
+17:23:50 [Obj][13002] LogOutCharacter (PVPMG01)
+17:23:52 [Obj][13002] LogInCharacter (PVPELF01)
+17:24:07 [Obj][13002] LogOutCharacter (PVPELF01)
+17:24:09 [Obj][13002] LogInCharacter (PVPMG01)
+17:25:25 [Obj][13002] LogOutCharacter (PVPMG01)
+17:25:27 [Obj][13002] LogInCharacter (PVPDL01)
+17:26:39 [Obj][13002] LogOutCharacter (PVPDL01)
+17:26:46 [Obj][13002] DelAccount (pvp03)
+17:26:46 [Obj][13002] DelClient (177.200.33.42)
+17:26:48 [Obj][13000] AddClient (177.200.33.42)
+17:26:50 [Obj][13000] AddAccount (pvp04)
+17:26:55 [Obj][13000] LogInCharacter (PVPSUM01)
+17:28:26 [Obj][13000] LogOutCharacter (PVPSUM01)
+17:28:29 [Obj][13000] LogInCharacter (PVPRF01)
+17:29:51 [Obj][13001] LogOutCharacter (PVPBK)
+17:29:53 [Obj][13001] LogInCharacter (PVPSM)
+17:31:22 [Obj][13001] LogOutCharacter (PVPSM)
+17:31:24 [Obj][13001] LogInCharacter (PVPELF)
+17:32:37 [Obj][13001] LogOutCharacter (PVPELF)
+17:32:41 [Obj][13001] LogInCharacter (PVPMG)
+17:33:42 [Obj][13001] LogOutCharacter (PVPMG)
+17:33:44 [Obj][13001] LogInCharacter (PVPDL)
+17:34:46 [Obj][13001] LogOutCharacter (PVPDL)
+17:34:53 [Obj][13001] LogInCharacter (PVPBK)
+17:35:00 [Obj][13001] LogOutCharacter (PVPBK)
+17:35:01 [Obj][13001] LogInCharacter (PVPSM)
+17:35:17 [Obj][13001] LogOutCharacter (PVPSM)
+17:35:19 [Obj][13001] LogInCharacter (PVPELF)
+17:35:26 [Obj][13001] LogOutCharacter (PVPELF)
+17:36:21 [Obj][13001] LogInCharacter (PVPMG)
+17:36:29 [Obj][13001] LogOutCharacter (PVPMG)
+17:36:31 [Obj][13001] LogInCharacter (PVPDL)
+17:36:39 [Obj][13001] LogOutCharacter (PVPDL)
+17:36:39 [Obj][13001] DelAccount (pvp01)
+17:36:39 [Obj][13001] DelClient (177.200.33.42)
+17:36:41 [Obj][13005] AddClient (177.200.33.42)
+17:36:45 [Obj][13005] AddAccount (pvp03)
+17:36:52 [Obj][13005] LogInCharacter (PVPBK01)
+17:37:00 [Obj][13005] LogOutCharacter (PVPBK01)
+17:37:00 [Obj][13005] DelAccount (pvp03)
+17:37:00 [Obj][13005] DelClient (177.200.33.42)
+17:37:01 [Obj][13000] LogOutCharacter (PVPRF01)
+17:37:01 [Obj][13000] DelAccount (pvp04)
+17:37:01 [Obj][13000] DelClient (177.200.33.42)
+18:22:01 [Obj][13004] AddClient (177.75.52.56)
+18:22:06 [Obj][13004] AddAccount (thecrims)
+18:22:08 [Obj][13004] LogInCharacter (Invocadora)
+18:23:30 [Obj][13004] LogOutCharacter (Invocadora)
+18:23:30 [Obj][13004] DelAccount (thecrims)
+18:23:30 [Obj][13004] DelClient (177.75.52.56)
+18:32:42 [ServerInfo] Shop loaded successfully
+18:33:10 [Obj][13003] AddClient (177.200.33.42)
+18:33:12 [Obj][13003] AddAccount (pvp03)
+18:33:12 [Obj][13003] DelAccount (pvp03)
+18:33:12 [Obj][13003] DelClient (177.200.33.42)
+18:33:54 [Obj][13002] AddClient (177.200.33.42)
+18:33:55 [Obj][13002] AddAccount (pvp03)
+18:33:56 [Obj][13002] LogInCharacter (PVPBK01)
+18:35:21 [ServerInfo] CashShop loaded successfully
+18:35:21 [ServerInfo] ChaosMix loaded successfully
+18:35:21 [ServerInfo] Character loaded successfully
+18:35:21 [ServerInfo] Command loaded successfully
+18:35:21 [ServerInfo] Common loaded successfully
+18:35:21 [FakeOnline] Loaded successfully
+18:35:21 [ServerInfo] Custom loaded successfully
+18:35:21 [ServerInfo] Discord loaded successfully
+18:35:21 [ServerInfo] Effect loaded successfully
+18:35:21 [ServerInfo] Event loaded successfully
+18:35:21 [ServerInfo] EventItemBag loaded successfully
+18:35:21 [ServerInfo] Hack loaded successfully
+18:35:21 [ServerInfo] Message loaded successfully
+18:35:21 [ServerInfo] Map loaded successfully
+18:35:21 [ServerInfo] Message loaded successfully
+18:35:21 [ServerInfo] Monster loaded successfully
+18:35:21 [ServerInfo] Move loaded successfully
+18:35:21 [ServerInfo] Quest loaded successfully
+18:35:21 [ServerInfo] Shop loaded successfully
+18:35:21 [ServerInfo] Skill loaded successfully
+18:35:21 [ServerInfo] Util loaded successfully
+18:35:21 [ReadBotInfo] BotSystem loaded successfully
+18:38:06 [Obj][13002] LogOutCharacter (PVPBK01)
+18:38:06 [Obj][13002] DelAccount (pvp03)
+18:38:06 [Obj][13002] DelClient (177.200.33.42)
+18:38:07 [Obj][13001] AddClient (177.200.33.42)
+18:38:09 [Obj][13001] DelClient (177.200.33.42)
+18:45:25 [Obj][13005] AddClient (177.75.52.56)
+18:45:26 [Obj][13005] AddAccount (thecrims2)
+18:45:28 [Obj][13005] LogInCharacter (TheCrims)
+18:48:27 [Obj][13005] LogOutCharacter (TheCrims)
+18:48:27 [Obj][13005] DelAccount (thecrims2)
+18:48:27 [Obj][13005] DelClient (177.75.52.56)
+20:28:22 [Obj][13000] AddClient (79.127.208.26)
+20:28:27 [Obj][13000] AddAccount (pvp03)
+20:28:29 [Obj][13000] LogInCharacter (PVPBK01)
+20:29:22 [Obj][13004] AddClient (186.233.109.55)
+20:29:22 [Obj][13004] DelClient (186.233.109.55)
+20:29:22 [AntiFlood] SYN FLOOD attack(186.233.109.55)
+20:29:22 [Obj][13003] AddClient (186.233.109.55)
+20:29:22 [Obj][13003] DelClient (186.233.109.55)
+20:32:11 [ServerInfo] Character loaded successfully
+20:39:14 [Obj][13000] LogOutCharacter (PVPBK01)
+20:39:14 [Obj][13000] DelAccount (pvp03)
+20:39:14 [Obj][13000] DelClient (79.127.208.26)
+20:39:14 [Obj][13002] AddClient (186.233.109.55)
+20:39:14 [Obj][13002] DelClient (186.233.109.55)
+20:39:14 [Obj][13001] AddClient (186.233.109.55)
+20:39:14 [Obj][13001] DelClient (186.233.109.55)
+20:39:14 [Obj][13005] AddClient (186.233.109.55)
+20:39:14 [Obj][13005] DelClient (186.233.109.55)
+21:29:19 [Obj][13004] AddClient (45.184.244.20)
+21:29:20 [Obj][13004] DelClient (45.184.244.20)
+21:35:13 [Obj][13003] AddClient (186.194.50.50)
+21:35:14 [Obj][13003] AddAccount (pvp01)
+21:35:18 [Obj][13003] LogInCharacter (PVPSM)
+21:35:30 [Obj][13000] AddClient (79.127.208.26)
+21:35:31 [Obj][13000] AddAccount (pvp03)
+21:35:33 [Obj][13000] LogInCharacter (PVPBK01)
+21:35:43 [Obj][13000] LogOutCharacter (PVPBK01)
+21:35:47 [Obj][13000] LogInCharacter (PVPSM01)
+21:36:13 [Obj][13002] AddClient (177.221.2.149)
+21:36:13 [Obj][13002] DelClient (177.221.2.149)
+21:36:13 [AntiFlood] SYN FLOOD attack(177.221.2.149)
+21:36:13 [AntiFlood] SYN FLOOD attack(177.221.2.149)
+21:36:30 [Obj][13001] AddClient (186.233.109.55)
+21:36:30 [Obj][13001] DelClient (186.233.109.55)
+21:36:31 [Obj][13005] AddClient (186.233.109.55)
+21:36:31 [Obj][13005] DelClient (186.233.109.55)
+21:36:31 [Obj][13004] AddClient (186.233.109.55)
+21:36:31 [Obj][13004] DelClient (186.233.109.55)
+21:37:14 [ServerInfo] Command loaded successfully
+21:41:18 [ServerInfo] Skill loaded successfully
+21:41:22 [ServerInfo] Shop loaded successfully
+21:45:42 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+21:49:49 [ServerInfo] Skill loaded successfully
+21:50:27 [ServerInfo] Skill loaded successfully
+21:53:07 [ServerInfo] Skill loaded successfully
+21:53:34 [ServerInfo] Skill loaded successfully
+21:54:02 [FAKE ONLINE LOG] Start
+21:54:02 [ServerInfo] CashShop loaded successfully
+21:54:02 [ServerInfo] ChaosMix loaded successfully
+21:54:02 [ServerInfo] Character loaded successfully
+21:54:02 [FakeOnline] Loaded successfully
+21:54:02 [ServerInfo] Custom loaded successfully
+21:54:02 [ServerInfo] Command loaded successfully
+21:54:03 [ServerInfo] Common loaded successfully
+21:54:03 [ServerInfo] Discord loaded successfully
+21:54:03 [ServerInfo] Effect loaded successfully
+21:54:03 [ServerInfo] Event loaded successfully
+21:54:03 [ServerInfo] EventItemBag loaded successfully
+21:54:03 [ServerInfo] Hack loaded successfully
+21:54:03 [ServerInfo] Item loaded successfully
+21:54:03 [ServerInfo] Message loaded successfully
+21:54:03 [ServerInfo] Map loaded successfully
+21:54:03 [ServerInfo] Terrain loaded successfully
+21:54:03 [ServerInfo] Monster loaded successfully
+21:54:03 [ServerInfo] Move loaded successfully
+21:54:03 [ServerInfo] Quest loaded successfully
+21:54:03 [ServerInfo] Script loaded successfully
+21:54:03 [ServerInfo] Shop loaded successfully
+21:54:03 [ServerInfo] Skill loaded successfully
+21:54:03 [ServerInfo] Util loaded successfully
+21:54:03 [ReadBotInfo] BotSystem loaded successfully
+21:54:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+21:54:03 [ServerInfo] Custom Attack offline restored successfully
+21:54:03 [ServerInfo] Custom Store offline restored successfully
+21:54:03 [Discord] Connection successfully
+21:54:07 [Obj][13000] AddClient (79.127.208.26)
+21:54:11 [Obj][13001] AddClient (186.194.50.50)
+21:54:17 [Obj][13000] AddAccount (pvp03)
+21:54:17 [Obj][13000] LogInCharacter (PVPSM01)
+21:54:21 [Obj][13001] AddAccount (pvp01)
+21:54:21 [Obj][13001] LogInCharacter (PVPSM)
+21:55:07 [Obj][13002] AddClient (186.233.109.55)
+21:55:07 [Obj][13002] DelClient (186.233.109.55)
+21:55:07 [AntiFlood] SYN FLOOD attack(186.233.109.55)
+21:55:07 [Obj][13003] AddClient (186.233.109.55)
+21:55:07 [Obj][13003] DelClient (186.233.109.55)
+21:55:11 [Obj][13004] AddClient (177.221.2.149)
+21:55:11 [Obj][13004] DelClient (177.221.2.149)
+21:55:11 [AntiFlood] SYN FLOOD attack(177.221.2.149)
+21:55:11 [AntiFlood] SYN FLOOD attack(177.221.2.149)
+21:55:14 [ServerInfo] Skill loaded successfully
+21:55:41 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 5
+21:55:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 7
+21:56:19 [ServerInfo] Skill loaded successfully
+21:56:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 3
+21:56:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 1
+21:56:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 1
+21:56:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 2
+21:56:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 2
+21:56:29 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 3
+21:56:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 1
+21:56:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 437 | Count: 2
+21:59:20 [ServerInfo] Skill loaded successfully
+21:59:33 [ServerInfo] Skill loaded successfully
+21:59:42 [ServerInfo] Skill loaded successfully
+22:01:31 [Obj][13001] LogOutCharacter (PVPSM)
+22:01:34 [Obj][13001] LogInCharacter (PVPSM)
+22:01:46 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:02:22 [pvp03][PVPSM01] Kill [pvp01][PVPSM]
+22:02:45 [SpeedHackDebug] Skill: 38 | AttackSpeed: 382 | Count: 1
+22:02:46 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:02:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 382 | Count: 1
+22:02:58 [pvp03][PVPSM01] Kill [pvp01][PVPSM]
+22:04:01 [ServerInfo] Character loaded successfully
+22:04:20 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:04:34 [pvp03][PVPSM01] Kill [pvp01][PVPSM]
+22:05:42 [ServerInfo] Character loaded successfully
+22:05:48 [Obj][13000] LogOutCharacter (PVPSM01)
+22:05:51 [Obj][13000] LogInCharacter (PVPSM01)
+22:06:07 [SpeedHackDebug] Skill: 38 | AttackSpeed: 392 | Count: 1
+22:06:08 [SpeedHackDebug] Skill: 38 | AttackSpeed: 392 | Count: 1
+22:08:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:08:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:08:25 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:08:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:08:27 [pvp03][PVPSM01] Kill [pvp01][PVPSM]
+22:08:27 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:08:37 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:08:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:08:40 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:08:42 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:09:19 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:09:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:09:22 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:09:22 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:09:39 [Obj][13001] LogOutCharacter (PVPSM)
+22:09:42 [Obj][13001] LogInCharacter (PVPSM)
+22:09:48 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:09:50 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:09:51 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:09:53 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:09:54 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:09:55 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:09:57 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:10:00 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:10:01 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:10:03 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:10:04 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:10:05 [pvp01][PVPSM] Kill [pvp03][PVPSM01]
+22:11:10 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:12 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:14 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:16 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:18 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:20 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:21 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:23 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:24 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:26 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:28 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:31 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:33 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:36 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:38 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 1
+22:11:42 [SpeedHackDebug] Skill: 38 | AttackSpeed: 397 | Count: 2
+22:11:42 [pvp03][PVPSM01] Kill [pvp01][PVPSM]
+22:13:56 [Obj][13000] LogOutCharacter (PVPSM01)
+22:14:03 [Obj][13001] LogOutCharacter (PVPSM)
+22:14:05 [Obj][13000] LogInCharacter (PVPBK01)
+22:14:10 [Obj][13001] LogInCharacter (PVPBK)
+22:21:59 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:24:11 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:24:31 [ServerInfo] Character loaded successfully
+22:24:40 [Obj][13001] LogOutCharacter (PVPBK)
+22:24:43 [Obj][13001] LogInCharacter (PVPBK)
+22:24:55 [ServerInfo] Common loaded successfully
+22:25:00 [Obj][13000] LogOutCharacter (PVPBK01)
+22:25:03 [Obj][13000] LogInCharacter (PVPBK01)
+22:27:27 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:27:46 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:28:02 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:28:42 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:32:50 [ServerInfo] Script loaded successfully
+22:34:16 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:34:53 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:35:12 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:39:06 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:39:22 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:39:43 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:40:53 [ServerInfo] Script loaded successfully
+22:41:01 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:41:58 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:42:24 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:45:46 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:46:02 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:46:15 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:46:34 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:48:17 [ServerInfo] Script loaded successfully
+22:48:31 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:48:59 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:49:31 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:49:45 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:50:00 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+22:50:18 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:50:26 [ServerInfo] CashShop loaded successfully
+22:50:26 [ServerInfo] ChaosMix loaded successfully
+22:50:26 [ServerInfo] Character loaded successfully
+22:50:26 [ServerInfo] Command loaded successfully
+22:50:26 [ServerInfo] Common loaded successfully
+22:50:26 [FakeOnline] Loaded successfully
+22:50:26 [ServerInfo] Custom loaded successfully
+22:50:26 [ServerInfo] Discord loaded successfully
+22:50:26 [ServerInfo] Effect loaded successfully
+22:50:26 [ServerInfo] Event loaded successfully
+22:50:27 [ServerInfo] EventItemBag loaded successfully
+22:50:27 [ServerInfo] Hack loaded successfully
+22:50:27 [ServerInfo] Message loaded successfully
+22:50:27 [ServerInfo] Map loaded successfully
+22:50:27 [ServerInfo] Message loaded successfully
+22:50:27 [ServerInfo] Monster loaded successfully
+22:50:27 [ServerInfo] Move loaded successfully
+22:50:27 [ServerInfo] Quest loaded successfully
+22:50:27 [ServerInfo] Shop loaded successfully
+22:50:27 [ServerInfo] Skill loaded successfully
+22:50:27 [ServerInfo] Util loaded successfully
+22:50:27 [ReadBotInfo] BotSystem loaded successfully
+22:50:29 [ServerInfo] Script loaded successfully
+22:50:52 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:52:58 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:53:44 [ServerInfo] Script loaded successfully
+22:54:26 [ServerInfo] Script loaded successfully
+22:54:33 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:56:38 [ServerInfo] Script loaded successfully
+22:56:49 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:57:01 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+22:58:21 [ServerInfo] Script loaded successfully
+22:58:23 [ServerInfo] Script loaded successfully
+22:59:07 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:00:22 [ServerInfo] Script loaded successfully
+23:00:31 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:00:47 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:01:21 [ServerInfo] Script loaded successfully
+23:01:31 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:01:40 [ServerInfo] Script loaded successfully
+23:01:41 [ServerInfo] Script loaded successfully
+23:01:52 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:02:07 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:02:36 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:03:16 [ServerInfo] Script loaded successfully
+23:03:18 [ServerInfo] Script loaded successfully
+23:03:30 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:03:51 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:04:16 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:05:12 [ServerInfo] Script loaded successfully
+23:05:31 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:05:54 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:06:11 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:06:59 [ServerInfo] Script loaded successfully
+23:07:00 [ServerInfo] Script loaded successfully
+23:07:17 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:07:38 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:08:05 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:08:32 [ServerInfo] Common loaded successfully
+23:09:16 [pvp03][PVPBK01] Kill [pvp01][PVPBK]
+23:11:50 [ServerInfo] Character loaded successfully
+23:11:51 [ServerInfo] CashShop loaded successfully
+23:11:51 [ServerInfo] ChaosMix loaded successfully
+23:11:51 [ServerInfo] Character loaded successfully
+23:11:51 [ServerInfo] Command loaded successfully
+23:11:51 [ServerInfo] Common loaded successfully
+23:11:51 [FakeOnline] Loaded successfully
+23:11:51 [ServerInfo] Custom loaded successfully
+23:11:51 [ServerInfo] Discord loaded successfully
+23:11:51 [ServerInfo] Effect loaded successfully
+23:11:51 [ServerInfo] Event loaded successfully
+23:11:51 [ServerInfo] EventItemBag loaded successfully
+23:11:52 [ServerInfo] Hack loaded successfully
+23:11:52 [ServerInfo] Message loaded successfully
+23:11:52 [ServerInfo] Map loaded successfully
+23:11:52 [ServerInfo] Message loaded successfully
+23:11:52 [ServerInfo] Monster loaded successfully
+23:11:52 [ServerInfo] Move loaded successfully
+23:11:52 [ServerInfo] Quest loaded successfully
+23:11:52 [ServerInfo] Shop loaded successfully
+23:11:52 [ServerInfo] Skill loaded successfully
+23:11:52 [ServerInfo] Util loaded successfully
+23:11:52 [ReadBotInfo] BotSystem loaded successfully
+23:11:55 [ServerInfo] Script loaded successfully
+23:11:57 [ServerInfo] CashShop loaded successfully
+23:11:57 [ServerInfo] ChaosMix loaded successfully
+23:11:57 [ServerInfo] Character loaded successfully
+23:11:57 [ServerInfo] Command loaded successfully
+23:11:57 [ServerInfo] Common loaded successfully
+23:11:57 [FakeOnline] Loaded successfully
+23:11:57 [ServerInfo] Custom loaded successfully
+23:11:57 [ServerInfo] Discord loaded successfully
+23:11:57 [ServerInfo] Effect loaded successfully
+23:11:57 [ServerInfo] Event loaded successfully
+23:11:57 [ServerInfo] EventItemBag loaded successfully
+23:11:57 [ServerInfo] Hack loaded successfully
+23:11:57 [ServerInfo] Message loaded successfully
+23:11:57 [ServerInfo] Map loaded successfully
+23:11:57 [ServerInfo] Message loaded successfully
+23:11:57 [ServerInfo] Monster loaded successfully
+23:11:57 [ServerInfo] Move loaded successfully
+23:11:57 [ServerInfo] Quest loaded successfully
+23:11:57 [ServerInfo] Shop loaded successfully
+23:11:57 [ServerInfo] Skill loaded successfully
+23:11:57 [ServerInfo] Util loaded successfully
+23:11:57 [ReadBotInfo] BotSystem loaded successfully
+23:12:11 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:13:27 [pvp01][PVPBK] Kill [pvp03][PVPBK01]
+23:14:46 [Obj][13000] LogOutCharacter (PVPBK01)
+23:14:51 [Obj][13001] LogOutCharacter (PVPBK)
+23:14:54 [Obj][13000] LogInCharacter (PVPBK01)
+23:14:56 [Obj][13001] LogInCharacter (PVPSM)
+23:15:19 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:16:01 [ServerInfo] Script loaded successfully
+23:16:03 [ServerInfo] CashShop loaded successfully
+23:16:03 [ServerInfo] ChaosMix loaded successfully
+23:16:03 [ServerInfo] Character loaded successfully
+23:16:03 [ServerInfo] Command loaded successfully
+23:16:03 [ServerInfo] Common loaded successfully
+23:16:03 [FakeOnline] Loaded successfully
+23:16:03 [ServerInfo] Custom loaded successfully
+23:16:03 [ServerInfo] Discord loaded successfully
+23:16:03 [ServerInfo] Effect loaded successfully
+23:16:03 [ServerInfo] Event loaded successfully
+23:16:03 [ServerInfo] EventItemBag loaded successfully
+23:16:03 [ServerInfo] Hack loaded successfully
+23:16:03 [ServerInfo] Message loaded successfully
+23:16:03 [ServerInfo] Map loaded successfully
+23:16:03 [ServerInfo] Message loaded successfully
+23:16:03 [ServerInfo] Monster loaded successfully
+23:16:03 [ServerInfo] Move loaded successfully
+23:16:03 [ServerInfo] Quest loaded successfully
+23:16:03 [ServerInfo] Shop loaded successfully
+23:16:03 [ServerInfo] Skill loaded successfully
+23:16:03 [ServerInfo] Util loaded successfully
+23:16:03 [ReadBotInfo] BotSystem loaded successfully
+23:16:15 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:17:25 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:17:54 [ServerInfo] Script loaded successfully
+23:17:56 [ServerInfo] Script loaded successfully
+23:17:58 [ServerInfo] CashShop loaded successfully
+23:17:58 [ServerInfo] ChaosMix loaded successfully
+23:17:58 [ServerInfo] Character loaded successfully
+23:17:58 [ServerInfo] Command loaded successfully
+23:17:58 [ServerInfo] Common loaded successfully
+23:17:58 [FakeOnline] Loaded successfully
+23:17:58 [ServerInfo] Custom loaded successfully
+23:17:58 [ServerInfo] Discord loaded successfully
+23:17:58 [ServerInfo] Effect loaded successfully
+23:17:58 [ServerInfo] Event loaded successfully
+23:17:58 [ServerInfo] EventItemBag loaded successfully
+23:17:58 [ServerInfo] Hack loaded successfully
+23:17:58 [ServerInfo] Message loaded successfully
+23:17:58 [ServerInfo] Map loaded successfully
+23:17:58 [ServerInfo] Message loaded successfully
+23:17:58 [ServerInfo] Monster loaded successfully
+23:17:58 [ServerInfo] Move loaded successfully
+23:17:58 [ServerInfo] Quest loaded successfully
+23:17:58 [ServerInfo] Shop loaded successfully
+23:17:58 [ServerInfo] Skill loaded successfully
+23:17:58 [ServerInfo] Util loaded successfully
+23:17:58 [ReadBotInfo] BotSystem loaded successfully
+23:18:12 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:18:26 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:18:46 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:19:02 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:19:19 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:19:48 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:20:15 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:21:32 [ServerInfo] Character loaded successfully
+23:21:35 [ServerInfo] Script loaded successfully
+23:22:04 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:22:54 [ServerInfo] Script loaded successfully
+23:22:56 [ServerInfo] CashShop loaded successfully
+23:22:56 [ServerInfo] ChaosMix loaded successfully
+23:22:57 [ServerInfo] Character loaded successfully
+23:22:57 [ServerInfo] Command loaded successfully
+23:22:57 [ServerInfo] Common loaded successfully
+23:22:57 [FakeOnline] Loaded successfully
+23:22:57 [ServerInfo] Custom loaded successfully
+23:22:57 [ServerInfo] Discord loaded successfully
+23:22:57 [ServerInfo] Effect loaded successfully
+23:22:57 [ServerInfo] Event loaded successfully
+23:22:57 [ServerInfo] EventItemBag loaded successfully
+23:22:57 [ServerInfo] Hack loaded successfully
+23:22:57 [ServerInfo] Message loaded successfully
+23:22:57 [ServerInfo] Map loaded successfully
+23:22:57 [ServerInfo] Message loaded successfully
+23:22:57 [ServerInfo] Monster loaded successfully
+23:22:57 [ServerInfo] Move loaded successfully
+23:22:57 [ServerInfo] Quest loaded successfully
+23:22:57 [ServerInfo] Shop loaded successfully
+23:22:57 [ServerInfo] Skill loaded successfully
+23:22:57 [ServerInfo] Util loaded successfully
+23:22:57 [ReadBotInfo] BotSystem loaded successfully
+23:23:13 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:23:56 [ServerInfo] Character loaded successfully
+23:23:58 [ServerInfo] Script loaded successfully
+23:23:59 [ServerInfo] CashShop loaded successfully
+23:23:59 [ServerInfo] ChaosMix loaded successfully
+23:23:59 [ServerInfo] Character loaded successfully
+23:23:59 [ServerInfo] Command loaded successfully
+23:23:59 [ServerInfo] Common loaded successfully
+23:23:59 [FakeOnline] Loaded successfully
+23:23:59 [ServerInfo] Custom loaded successfully
+23:23:59 [ServerInfo] Discord loaded successfully
+23:23:59 [ServerInfo] Effect loaded successfully
+23:23:59 [ServerInfo] Event loaded successfully
+23:23:59 [ServerInfo] EventItemBag loaded successfully
+23:23:59 [ServerInfo] Hack loaded successfully
+23:23:59 [ServerInfo] Message loaded successfully
+23:23:59 [ServerInfo] Map loaded successfully
+23:23:59 [ServerInfo] Message loaded successfully
+23:23:59 [ServerInfo] Monster loaded successfully
+23:23:59 [ServerInfo] Move loaded successfully
+23:23:59 [ServerInfo] Quest loaded successfully
+23:23:59 [ServerInfo] Shop loaded successfully
+23:23:59 [ServerInfo] Skill loaded successfully
+23:23:59 [ServerInfo] Util loaded successfully
+23:23:59 [ReadBotInfo] BotSystem loaded successfully
+23:24:15 [ServerInfo] Script loaded successfully
+23:24:16 [ServerInfo] CashShop loaded successfully
+23:24:16 [ServerInfo] ChaosMix loaded successfully
+23:24:16 [ServerInfo] Character loaded successfully
+23:24:16 [ServerInfo] Command loaded successfully
+23:24:16 [ServerInfo] Common loaded successfully
+23:24:16 [FakeOnline] Loaded successfully
+23:24:16 [ServerInfo] Custom loaded successfully
+23:24:16 [ServerInfo] Discord loaded successfully
+23:24:16 [ServerInfo] Effect loaded successfully
+23:24:16 [ServerInfo] Event loaded successfully
+23:24:16 [ServerInfo] EventItemBag loaded successfully
+23:24:16 [ServerInfo] Hack loaded successfully
+23:24:16 [ServerInfo] Message loaded successfully
+23:24:16 [ServerInfo] Map loaded successfully
+23:24:16 [ServerInfo] Message loaded successfully
+23:24:16 [ServerInfo] Monster loaded successfully
+23:24:16 [ServerInfo] Move loaded successfully
+23:24:16 [ServerInfo] Quest loaded successfully
+23:24:16 [ServerInfo] Shop loaded successfully
+23:24:16 [ServerInfo] Skill loaded successfully
+23:24:16 [ServerInfo] Util loaded successfully
+23:24:16 [ReadBotInfo] BotSystem loaded successfully
+23:24:48 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:25:22 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:29:54 [ServerInfo] Script loaded successfully
+23:29:56 [ServerInfo] Character loaded successfully
+23:31:48 [ServerInfo] Script loaded successfully
+23:31:49 [ServerInfo] Character loaded successfully
+23:32:14 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:32:48 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:33:38 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:34:34 [ServerInfo] Character loaded successfully
+23:35:05 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:36:04 [ServerInfo] Character loaded successfully
+23:36:31 [ServerInfo] Script loaded successfully
+23:36:32 [ServerInfo] Script loaded successfully
+23:36:34 [ServerInfo] CashShop loaded successfully
+23:36:34 [ServerInfo] ChaosMix loaded successfully
+23:36:34 [ServerInfo] Character loaded successfully
+23:36:34 [ServerInfo] Command loaded successfully
+23:36:34 [ServerInfo] Common loaded successfully
+23:36:34 [FakeOnline] Loaded successfully
+23:36:34 [ServerInfo] Custom loaded successfully
+23:36:34 [ServerInfo] Discord loaded successfully
+23:36:34 [ServerInfo] Effect loaded successfully
+23:36:34 [ServerInfo] Event loaded successfully
+23:36:34 [ServerInfo] EventItemBag loaded successfully
+23:36:34 [ServerInfo] Hack loaded successfully
+23:36:34 [ServerInfo] Message loaded successfully
+23:36:34 [ServerInfo] Map loaded successfully
+23:36:34 [ServerInfo] Message loaded successfully
+23:36:34 [ServerInfo] Monster loaded successfully
+23:36:34 [ServerInfo] Move loaded successfully
+23:36:34 [ServerInfo] Quest loaded successfully
+23:36:34 [ServerInfo] Shop loaded successfully
+23:36:34 [ServerInfo] Skill loaded successfully
+23:36:34 [ServerInfo] Util loaded successfully
+23:36:34 [ReadBotInfo] BotSystem loaded successfully
+23:37:41 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:38:28 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:38:42 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:39:16 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:39:34 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:39:42 [Obj][13000] LogOutCharacter (PVPBK01)
+23:39:46 [Obj][13000] LogInCharacter (PVPBK01)
+23:40:07 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:40:29 [pvp01][PVPSM] Kill [pvp03][PVPBK01]
+23:45:25 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:46:15 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:46:39 [ServerInfo] Character loaded successfully
+23:46:40 [ServerInfo] Script loaded successfully
+23:47:25 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:47:43 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:49:28 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:51:14 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:52:18 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:53:28 [ServerInfo] Script loaded successfully
+23:53:30 [ServerInfo] CashShop loaded successfully
+23:53:30 [ServerInfo] ChaosMix loaded successfully
+23:53:30 [ServerInfo] Character loaded successfully
+23:53:30 [ServerInfo] Command loaded successfully
+23:53:30 [ServerInfo] Common loaded successfully
+23:53:30 [FakeOnline] Loaded successfully
+23:53:30 [ServerInfo] Custom loaded successfully
+23:53:30 [ServerInfo] Discord loaded successfully
+23:53:30 [ServerInfo] Effect loaded successfully
+23:53:30 [ServerInfo] Event loaded successfully
+23:53:31 [ServerInfo] EventItemBag loaded successfully
+23:53:31 [ServerInfo] Hack loaded successfully
+23:53:31 [ServerInfo] Message loaded successfully
+23:53:31 [ServerInfo] Map loaded successfully
+23:53:31 [ServerInfo] Message loaded successfully
+23:53:31 [ServerInfo] Monster loaded successfully
+23:53:31 [ServerInfo] Move loaded successfully
+23:53:31 [ServerInfo] Quest loaded successfully
+23:53:31 [ServerInfo] Shop loaded successfully
+23:53:31 [ServerInfo] Skill loaded successfully
+23:53:31 [ServerInfo] Util loaded successfully
+23:53:31 [ReadBotInfo] BotSystem loaded successfully
+23:54:08 [pvp03][PVPBK01] Kill [pvp01][PVPSM]
+23:58:57 [Obj][13001] LogOutCharacter (PVPSM)
+23:58:57 [Obj][13001] DelAccount (pvp01)
+23:58:57 [Obj][13001] DelClient (186.194.50.50)
+23:58:57 [Obj][13002] AddClient (177.221.2.149)
+23:58:57 [Obj][13002] DelClient (177.221.2.149)
+23:58:57 [Obj][13003] AddClient (177.221.2.149)
+23:58:57 [Obj][13003] DelClient (177.221.2.149)
+23:58:57 [AntiFlood] SYN FLOOD attack(177.221.2.149)
+23:59:07 [Obj][13004] AddClient (186.233.109.55)
+23:59:07 [Obj][13004] DelClient (186.233.109.55)
+23:59:07 [Obj][13001] AddClient (186.233.109.55)
+23:59:07 [Obj][13001] DelClient (186.233.109.55)
+23:59:08 [AntiFlood] SYN FLOOD attack(186.233.109.55)
+23:59:17 [Obj][13000] LogOutCharacter (PVPBK01)
+23:59:17 [Obj][13000] DelAccount (pvp03)
+23:59:17 [Obj][13000] DelClient (79.127.208.26)

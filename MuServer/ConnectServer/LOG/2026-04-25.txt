@@ -1,0 +1,16 @@
+02:56:37 [SocketManager] WSAAccept() failed with error: 10061
+12:54:55 [ServerList] GameServer offline (GameServer) (2)
+12:54:58 [ServerList] GameServer online (GameServer) (2)
+13:03:53 [ServerList] GameServer offline (GameServer) (2)
+13:03:55 [ServerList] GameServer online (GameServer) (2)
+18:32:43 [SocketManager] WSAAccept() failed with error: 10061
+20:36:17 [SocketManager] WSAAccept() failed with error: 10061
+20:36:37 [SocketManager] WSAAccept() failed with error: 10061
+20:36:47 [SocketManager] WSAAccept() failed with error: 10061
+20:36:57 [SocketManager] WSAAccept() failed with error: 10061
+20:37:17 [SocketManager] WSAAccept() failed with error: 10061
+21:29:14 [SocketManager] WSAAccept() failed with error: 10061
+21:31:16 [SocketManager] WSAAccept() failed with error: 10061
+22:41:03 [SocketManager] WSAAccept() failed with error: 10061
+22:41:13 [SocketManager] WSAAccept() failed with error: 10061
+22:41:23 [SocketManager] WSAAccept() failed with error: 10061

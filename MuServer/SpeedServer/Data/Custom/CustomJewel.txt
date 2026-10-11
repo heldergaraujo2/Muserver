@@ -1,0 +1,225 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   MaxItem380Option   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   EnableSlotRing   EnableSlotPet   EnableSlotPentagram   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+  0       7412        0              12             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                0               0                     40               65               100               100               20          "Jewel180"    //Jewel Of Level bug
+  1       7413        0              15             0                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                0               0                     40               65               100               100               20          "Jewel181"    //Jewel Of Skill
+  2       7414        0              15             *                0                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                0               0                     40               65               100               100               20          "Jewel182"    //Jewel Of Luck
+  3       7415        0              15             *                *                0                2                *                  *                  *                  *                     *                     *                  *                  *                 *                0                0               0                     40               65               100               100               20          "Jewel183"    //Jewel Of Adicional
+  4       7416        0              15             *                *                *                *                0                  2                  *                  *                     *                     *                  *                  *                 0                *                0               0                     40               80               100               100               20          "Jewel184"    //Jewel Of Excelentt
+  5       7417        0              15             *                *                *                *                *                  *                  *                  0                     4                     *                  *                  *                 0                *                0               0                     40               65               100               100               20          "Jewel185"    //Jewel Of Socket
+  6       7418        0              15             *                *                *                *                *                  *                  1                  *                     *                     *                  *                  *                 *                *                0               0                     40               65               100               100               20          "Jewel187"    //Jewel Of Ancient 1
+  7       7419        0              15             *                *                *                *                *                  *                  2                  *                     *                     *                  *                  *                 *                *                0               0                     40               65               100               100               20          "Jewel188"    //Jewel Of Ancient 2
+  8       7420        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                0               0                     0                 0                100               100               20          "Jewel186"    //Jewel Of Full
+  9       7421        0              06             *                *                *                *                *                  *                  *                  *                     *                     *                  0                  0                 0                1                0               0                     40               65               100               100               20          "Jewel180"    //Jewel Of Level
+//================================================================================================================================================================================================================================================================================================================================================================================================================================================
+//       Pet Evolution System (Evolution Stone | Muun Energy Converter)
+//================================================================================================================================================================================================================================================================================================================================================================================================================================================
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   MaxItem380Option   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   EnableSlotRing   EnableSlotPet   EnableSlotPentagram   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+  10      6854        0              0              *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "evolutionstone"    //Evolution Stone
+  11      6853        0              0              *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "evolutionstone"    //Evolution Stone
+//================================================================================================================================================================================================================================================================================================================================================================================================================================================
+//       Errtels
+//================================================================================================================================================================================================================================================================================================================================================================================================================================================
+//RANK 1
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   MaxItem380Option   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   EnableSlotRing   EnableSlotPet   EnableSlotPentagram   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+12        7438        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "RageErthel"
+13        7441        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "blessing"
+14        7444        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "NobleErthel"
+15        7447        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "holyE"
+16        7450        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "ExtremeErthel"
+
+
+//RANK 2
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   MaxItem380Option   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   EnableSlotRing   EnableSlotPet   EnableSlotPentagram   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+17        7439        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "RageErthel"
+18        7442        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "blessing"
+19        7445        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "NobleErthel"
+20        7448        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "holyE"
+21        7451        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "ExtremeErthel"
+
+
+//RANK 3
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   MaxItem380Option   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   EnableSlotRing   EnableSlotPet   EnableSlotPentagram   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+22        7440        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "RageErthel"
+23        7443        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "blessing"
+24        7446        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "NobleErthel"
+25        7449        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "holyE"
+26        7452        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                  *                 *                *                *               *                     100               100               100               100               20          "ExtremeErthel"
+
+end
+
+1
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption   380Option
+  0       15      0         0         0         0           0           0              1
+  1       0       1         0         0         0           0           0              0
+  2       0       0         1         0         0           0           0              0
+  3       0       0         0         7         0           0           0              0
+  4       0       0         0         0         1           0           0              0
+  5       0       0         0         0         0           0           1              0
+  6       0       0         0         0         0           5           0              0
+  7       0       0         0         0         0           6           0              0
+  8       15      1         1         7         6           0           0              0
+  9       1       0         0         0         0           0           0              0
+end
+
+
+2
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption   380Option
+  8       15       0         0         0         1           0           0           0
+end
+
+3
+//=================================================================================================================
+//       Pet Evolution System (Pets)
+//=================================================================================================================
+//Index   	OldItemIndex	NewItemIndex	KeepOption
+10              6860            6861            0
+10              6862            6863            0
+10              6864            6865            0
+10              6866            6867            0
+10              6868            6869            0
+10              6870            6871            0
+10              6878            6879            0
+10              6880            6881            0
+10              6884            6885            0
+10              6886            6887            0
+10              6888            6889            0
+10              6890            6891            0
+10              6892            6893            0
+10              6894            6895            0
+10              6896            6897            0 
+10              6898            6899            0 
+10              6900            6901            0
+10              6905            6906            0
+10              6907            6908            0
+10              6909            6910            0
+10              6911            6912            0
+10              6913            6914            0
+10              6915            6916            0
+10              6917            6918            0 
+10              6919            6920            0
+10              6921            6922            0
+10              6923            6924            0
+10              6925            6926            0 
+10              6927            6928            0
+10              6929            6930            0
+10              6935            6936            0
+10              6938            6939            0
+10              6940            6941            0
+10              6942            6943            0
+10              6944            6945            0
+//=================================================================================================================
+//       Pet Evolution System (Mounts)
+//=================================================================================================================
+//Index   	OldItemIndex	NewItemIndex	KeepOption
+11              6865            6872            0
+11              6872            6873            0
+11              6881            6882            0
+11              6882            6883            0
+
+
+//=================================================================================================================
+//       Errtels
+//=================================================================================================================
+//rank 1
+//Index   	OldItemIndex	NewItemIndex	KeepOption
+12              6305            6310            1
+12              6306            6311            1
+12              6307            6312            1
+12              6308            6313            1
+12              6309            6314            1
+//-
+13              6310            6315            1
+13              6311            6316            1
+13              6312            6317            1
+13              6313            6318            1
+13              6314            6319            1
+//-
+14              6315            6320            1
+14              6316            6321            1
+14              6317            6322            1
+14              6318            6323            1
+14              6319            6324            1
+//-
+15              6320            6325            1
+15              6321            6326            1
+15              6322            6327            1
+15              6323            6328            1
+15              6324            6329            1
+//-
+16              6325            6330            1
+16              6326            6331            1
+16              6327            6332            1
+16              6328            6333            1
+16              6329            6334            1
+
+//rank 2
+//Index   	OldItemIndex	NewItemIndex	KeepOption
+17              6335            6340            1
+17              6336            6341            1
+17              6337            6342            1
+17              6338            6343            1
+17              6339            6344            1
+//-
+18              6340            6345            1
+18              6341            6346            1
+18              6342            6347            1
+18              6343            6348            1
+18              6344            6349            1
+//-
+19              6345            6350            1
+19              6346            6351            1
+19              6347            6352            1
+19              6348            6353            1
+19              6349            6354            1
+//-
+20              6350            6355            1
+20              6351            6356            1
+20              6352            6357            1
+20              6353            6358            1
+20              6354            6359            1
+//-
+21              6355            6360            1
+21              6356            6361            1
+21              6357            6362            1
+21              6358            6363            1
+21              6359            6364            1
+
+//rank 3
+//Index   	OldItemIndex	NewItemIndex	KeepOption
+22              6365            6370            1
+22              6366            6371            1
+22              6367            6372            1
+22              6368            6373            1
+22              6369            6374            1
+//-
+23              6370            6375            1
+23              6371            6376            1
+23              6372            6377            1
+23              6373            6378            1
+23              6374            6379            1
+//-
+24              6375            6380            1
+24              6376            6381            1
+24              6377            6382            1
+24              6378            6383            1
+24              6379            6384            1
+//-
+25              6380            6385            1
+25              6381            6386            1
+25              6382            6387            1
+25              6383            6388            1
+25              6384            6389            1
+//-
+26              6385            6390            1
+26              6386            6391            1
+26              6387            6392            1
+26              6388            6393            1
+26              6389            6394            1
+end

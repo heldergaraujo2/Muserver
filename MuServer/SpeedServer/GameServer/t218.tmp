@@ -1,0 +1,86 @@
+local ALLOWED_CUSTOMER = "musaffe"
+
+if string.lower(tostring(GetLicenseCustomerName() or "")) ~= ALLOWED_CUSTOMER then
+	return
+end
+
+ReaddRequirement = {
+	Command = "/readd",
+	DefaultWearSize = 12,
+	Message = "Remova todos os itens equipados para usar /readd.",
+}
+
+local function log(message)
+	if type(LogPrint) == "function" then
+		LogPrint("[ReaddRequirement] " .. tostring(message))
+	end
+end
+
+local function notice(aIndex, message)
+	if type(NoticeSend) == "function" then
+		NoticeSend(aIndex, 1, tostring(message))
+	end
+end
+
+local function getWearSize()
+	local wearSize = ReaddRequirement.DefaultWearSize
+
+	if type(InventoryGetWearSize) == "function" then
+		wearSize = tonumber(InventoryGetWearSize()) or wearSize
+	end
+
+	if wearSize < 1 then
+		return ReaddRequirement.DefaultWearSize
+	end
+
+	return math.floor(wearSize)
+end
+
+local function hasEquippedItem(aIndex)
+	for slot = 0, getWearSize() - 1 do
+		local itemIndex = InventoryGetItemIndex(aIndex, slot)
+
+		if itemIndex ~= nil and tonumber(itemIndex) ~= nil and tonumber(itemIndex) >= 0 then
+			return true, slot, tonumber(itemIndex)
+		end
+	end
+
+	return false, nil, nil
+end
+
+function ReaddRequirement_OnReadScript()
+	log("Carregado. Protegendo o comando " .. ReaddRequirement.Command .. ".")
+end
+
+function ReaddRequirement_OnCommandManager(aIndex, codeOrArgs, maybeArgs)
+	local args = maybeArgs or codeOrArgs
+	local command = CommandGetArgString(args, 0)
+
+	if string.lower(tostring(command or "")) ~= ReaddRequirement.Command then
+		return 0
+	end
+
+	if type(InventoryGetItemIndex) ~= "function" then
+		notice(aIndex, "Nao foi possivel verificar os equipamentos. Tente novamente.")
+		log("Comando bloqueado: InventoryGetItemIndex indisponivel.")
+		return 1
+	end
+
+	local equipped, slot, itemIndex = hasEquippedItem(aIndex)
+	if equipped then
+		notice(aIndex, ReaddRequirement.Message)
+		log(
+			"Comando bloqueado | Player=" .. tostring(GetObjectName(aIndex)) ..
+			" | Slot=" .. tostring(slot) ..
+			" | ItemIndex=" .. tostring(itemIndex)
+		)
+		return 1
+	end
+
+	return 0
+end
+
+BridgeFunctionAttach("OnReadScript", "ReaddRequirement_OnReadScript")
+BridgeFunctionAttach("OnCommandManager", "ReaddRequirement_OnCommandManager")
+
+return ReaddRequirement

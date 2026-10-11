@@ -1,0 +1,11 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Socket Upgrade 10"	0	100		1		0		0		0		0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Ancient	Socket	Comment
+5	32	0	3	1	1	1	0	0	3	// Summon Spirit Stick
+end

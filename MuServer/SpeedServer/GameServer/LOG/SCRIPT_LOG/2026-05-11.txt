@@ -1,0 +1,26 @@
+07:52:48 [SCRIPT LOG] Start
+07:52:48 [Loader] Lua Gameserver socket ready!
+07:52:48 [Loader] Load success System\ScriptCore
+07:52:48 [Loader] Load success System\ProtocolCore
+07:52:48 [Loader] Load success Utils\Database
+07:52:48 [Loader] Load success Utils\DatabaseAsync
+07:52:48 [Loader] Load success Utils\Cron
+07:52:48 [Loader] Load success Utils\Functions
+07:52:48 [Loader] Load success Utils\Schedule
+07:52:48 Connected to database
+07:52:48 Connected to Async database
+07:52:48 Teste query: ZZZZZZZZZZ
+07:52:48 [ServerInfo] Script loaded successfully
+12:29:47 [SCRIPT LOG] Start
+12:29:47 [Loader] Lua Gameserver socket ready!
+12:29:47 [Loader] Load success System\ScriptCore
+12:29:47 [Loader] Load success System\ProtocolCore
+12:29:47 [Loader] Load success Utils\Database
+12:29:47 [Loader] Load success Utils\DatabaseAsync
+12:29:47 [Loader] Load success Utils\Cron
+12:29:47 [Loader] Load success Utils\Functions
+12:29:47 [Loader] Load success Utils\Schedule
+12:29:48 Connected to database
+12:29:48 Connected to Async database
+12:29:48 Teste query: ZZZZZZZZZZ
+12:29:48 [ServerInfo] Script loaded successfully

@@ -1,0 +1,222 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// [NPCS] ARENA
+//=========================================================================================================================================
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+240            06             00         144            018            02             //Safety Guardian
+240            06             00         129            241            01             //Safety Guardian VIP
+255            06             00         126            241            01             //Lumen the Barmaid
+240            06             00         176            130            03             //Safety Guardian VIP II
+end
+
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+255            06             00         060            121            03             //Lumen the Barmaid
+240            06             00         061            125            02             //Safety Guardian
+816	           06	      	  00	 	 071	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 076	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 082	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 051	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 045	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 039	        118	       	   01             //Guardian Statue combo
+816	           06	      	  00	 	 056	        118	       	   01             //Guardian Statue combo
+857            06             00         084            003            05             //Portal
+
+end
+
+//=========================================================================================================================================
+// STADIUM SPOT	FREE						
+//=========================================================================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+694             06             5          047            081            047          081          -1             0             // Death Cow
+
+
+//--
+357             06             5          067            059            067          059          -1             0             // Genocider
+356             06             5          057            010            057          010          -1             0             // Gigantis
+356             06             5          086            034            086          034          -1             0             // Gigantis
+356             06             5          043            097            043          097          -1             0             // Gigantis
+356             06             5          096            007            096          007          -1             0             // Gigantis
+end
+
+
+//=========================================================================================================================================
+// STADIUM SPOT	VIP						
+//=========================================================================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+861            06             4          111            241            111          241          -1             0             // Genocider
+861            06             4          095            241            095          241          -1             0             // Genocider
+861            06             4          079            241            079          241          -1             0             // Genocider
+861            06             4          063            241            063          241          -1             0             // Genocider
+861            06             4          047            241            047          241          -1             0             // Genocider
+861            06             4          031            241            031          241          -1             0             // Genocider
+//lado direito                                                                                                  
+861            06             4          102            204            102          204          -1             0             // Genocider
+861            06             4          087            204            087          204          -1             0             // Genocider
+861            06             4          071            204            071          204          -1             0             // Genocider
+861            06             4          055            204            055          204          -1             0             // Genocider
+861            06             4          039            204            039          204          -1             0             // Genocider
+//lateral direita                                                                                               
+861            06             4          015            241            015          241          -1             0             // Genocider
+861            06             4          015            224            015          224          -1             0             // Genocider
+861            06             4          015            207            015          207          -1             0             // Genocider
+861            06             4          015            187            015          187          -1             0             // Genocider
+861            06             4          015            165            015          165          -1             0             // Genocider
+//lateral fila direita                                                                                          
+861            06             4          119            210            119          210          -1             0             // Genocider
+861            06             4          119            195            119          195          -1             0             // Genocider
+861            06             4          119            179            119          179          -1             0             // Genocider
+861            06             4          119            163            119          163          -1             0             // Genocider
+861            06             4          119            147            119          147          -1             0             // Genocider
+861            06             4          119            131            119          131          -1             0             // Genocider
+861            06             4          119            115            119          115          -1             0             // Genocider
+861            06             4          119            099            119          099          -1             0             // Genocider
+end
+
+//=========================================================================================================================================
+// STADIUM SPOT	VIP	2					
+//=========================================================================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+//1 FILA
+861            06             4          141            019            141          019          -1             10             // Genocider
+861            06             4          159            019            159          019          -1             10             // Genocider
+861            06             4          179            019            179          019          -1             10             // Genocider
+861            06             4          200            019            200          019          -1             10             // Genocider
+861            06             4          220            019            220          019          -1             0             // Genocider
+//2 FILA                                                                                                        
+861            06             4          141            036            141          036          -1             10             // Genocider
+861            06             4          159            036            159          036          -1             10             // Genocider
+861            06             4          179            036            179          036          -1             10             // Genocider
+861            06             4          200            036            200          036          -1             10             // Genocider
+861            06             4          220            036            220          036          -1             0             // Genocider
+//3 FILA                                                                                                        
+861            06             4          141            054            141          054          -1             10             // Genocider
+861            06             4          159            054            159          054          -1             10             // Genocider
+861            06             4          179            054            179          054          -1             10             // Genocider
+861            06             4          200            054            200          054          -1             10             // Genocider
+861            06             4          220            054            220          054          -1             0             // Genocider
+//4 FILA                                                                                                        
+861            06             4          141            072            141          072          -1             10             // Genocider
+861            06             4          159            072            159          072          -1             10             // Genocider
+861            06             4          179            072            179          072          -1             10             // Genocider
+861            06             4          200            072            200          072          -1             10             // Genocider
+861            06             4          220            072            220          072          -1             0             // Genocider
+//5 FILA                                                                                                        
+861            06             4          141            090            141          090          -1             10             // Genocider
+861            06             4          159            090            159          090          -1             10             // Genocider
+861            06             4          179            090            179          090          -1             10             // Genocider
+861            06             4          200            090            200          090          -1             10             // Genocider
+861            06             4          220            090            220          090          -1             0             // Genocider
+//6 FILA                                                                                                        
+861            06             4          141            108            141          108          -1             0             // Genocider
+861            06             4          159            108            159          108          -1             10             // Genocider
+861            06             4          179            108            179          108          -1             10             // Genocider
+861            06             4          200            108            200          108          -1             10             // Genocider
+861            06             4          220            108            220          108          -1             0             // Genocider
+//7 FILA                                                                                                        
+861            06             4          141            127            141          127          -1             10             // Genocider
+861            06             4          159            127            159          127          -1             10             // Genocider
+861            06             4          200            127            200          127          -1             10             // Genocider
+861            06             4          220            127            220          127          -1             0             // Genocider
+//8 FILA                                                                                                        
+861            06             4          141            145            141          145          -1             10             // Genocider
+861            06             4          159            145            159          145          -1             10             // Genocider
+861            06             4          179            145            179          145          -1             10             // Genocider
+861            06             4          200            145            200          145          -1             10             // Genocider
+861            06             4          220            145            220          145          -1             0             // Genocider
+//9 FILA                                                                                                        
+861            06             4          141            163            141          163          -1             10             // Genocider
+861            06             4          159            163            159          163          -1             10             // Genocider
+861            06             4          179            163            179          163          -1             10             // Genocider
+861            06             4          200            163            200          163          -1             10             // Genocider
+861            06             4          220            163            220          163          -1             0             // Genocider
+//10 FILA                                                                                                       
+861            06             4          141            180            141          180          -1             10             // Genocider
+861            06             4          159            180            159          180          -1             10             // Genocider
+861            06             4          179            180            179          180          -1             10             // Genocider
+861            06             4          200            180            200          180          -1             10             // Genocider
+861            06             4          220            180            220          180          -1             0             // Genocider
+//11 FILA                                                                                                       
+861            06             4          141            198            141          198          -1             10             // Genocider
+861            06             4          159            198            159          198          -1             10             // Genocider
+861            06             4          179            198            179          198          -1             10             // Genocider
+861            06             4          200            198            200          198          -1             10             // Genocider
+861            06             4          220            198            220          198          -1             0             // Genocider
+//12 FILA                                                                                                       
+861            06             4          141            217            141          217          -1             10             // Genocider
+861            06             4          159            217            159          217          -1             10             // Genocider
+861            06             4          179            217            179          217          -1             10             // Genocider
+861            06             4          200            217            200          217          -1             10             // Genocider
+861            06             4          220            217            220          217          -1             0             // Genocider
+//13 FILA                     4                                                                                 
+861            06             4          141            235            141          235          -1             10             // Genocider
+861            06             4          159            235            159          235          -1             10             // Genocider
+861            06             4          179            235            179          235          -1             10             // Genocider
+861            06             4          200            235            200          235          -1             10             // Genocider
+861            06             4          220            235            220          235          -1             0             // Genocider
+//lateral fila direita                                                                                          
+861            06             4          240            024            240          024          -1             0            // Red Skeleton Knight
+861            06             4          240            040            240          040          -1             0            // Red Skeleton Knight
+861            06             4          240            056            240          056          -1             0            // Red Skeleton Knight
+861            06             4          240            072            240          072          -1             0            // Red Skeleton Knight
+861            06             4          240            088            240          088          -1             0            // Red Skeleton Knight
+861            06             4          240            105            240          105          -1             0            // Red Skeleton Knight
+861            06             4          240            120            240          120          -1             0            // Red Skeleton Knight
+861            06             4          240            136            240          136          -1             0            // Red Skeleton Knight
+861            06             4          240            152            240          152          -1             0            // Red Skeleton Knight
+861            06             4          240            168            240          168          -1             0            // Red Skeleton Knight
+861            06             4          240            184            240          184          -1             0            // Red Skeleton Knight
+861            06             4          240            200            240          200          -1             0            // Red Skeleton Knight
+861            06             4          240            216            240          216          -1             0            // Red Skeleton Knight
+861            06             4          240            232            240          232          -1             0            // Red Skeleton Knight
+end
+
+
+//=========================================================================================================================================
+// [SPOTS] ARENA
+//=========================================================================================================================================
+//1
+////Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+//351            06             3          052            114            052          114          -1             0             //Splinter Wolf
+//351            06             3          039            114            039          114          -1             0             //Splinter Wolf
+//351            06             3          024            114            024          114          -1             0             //Splinter Wolf
+//351            06             3          071            114            071          114          -1             0             //Splinter Wolf
+//351            06             3          089            114            089          114          -1             0             //Splinter Wolf
+//351            06             3          070            098            070          098          -1             0             //Splinter Wolf
+//351            06             3          047            088            047          088          -1             0             //Splinter Wolf
+//351            06             3          047            071            047          071          -1             0             //Splinter Wolf
+//351            06             3          069            076            069          076          -1             0             //Splinter Wolf
+//351            06             3          069            072            069          072          -1             0             //Splinter Wolf
+//351            06             3          067            056            067          056          -1             0             //Splinter Wolf
+//351            06             3          048            057            048          057          -1             0             //Splinter Wolf
+//351            06             3          048            038            048          038          -1             0             //Splinter Wolf
+//355            06             3          063            029            063          029          -1             0             //Kentauros
+//355            06             3          030            039            030          039          -1             0             //Kentauros
+//355            06             3          030            057            030          057          -1             0             //Kentauros
+//355            06             3          030            075            030          075          -1             0             //Kentauros
+//355            06             3          030            092            030          092          -1             0             //Kentauros
+//355            06             3          012            091            012          091          -1             0             //Kentauros
+//355            06             3          012            075            012          075          -1             0             //Kentauros
+//357            06             3          012            056            012          056          -1             0             //Genocider
+//357            06             3          012            039            012          039          -1             0             //Genocider
+//357            06             3          010            027            010          027          -1             0             //Genocider
+//357            06             3          039            027            039          027          -1             0             //Genocider
+//357            06             3          009            008            009          008          -1             0             //Genocider
+//357            06             3          039            008            039          008          -1             0             //Genocider
+//357            06             3          084            012            084          012          -1             0             //Genocider
+//357            06             3          090            037            090          037          -1             0             //Genocider
+//357            06             3          090            056            090          056          -1             0             //Genocider
+//end

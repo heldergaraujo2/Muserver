@@ -1,0 +1,10 @@
+11:29:13 [MARKETPLACE LOG] (videodv)(AdmSaffe) BuyMC (Amount: 12)
+11:30:06 [MARKETPLACE LOG] (hellder)(Saffe) AddItem (ItemIndex: 6916, MarketValue: 12, Sponsored: 1)
+11:30:32 [MARKETPLACE LOG] (videodv)(AdmSaffe) BuyItem (MarketIndex: 47, MarketValue: 12)
+11:30:58 [MARKETPLACE LOG] (hellder)(Saffe) SellMC (Amount: 12)
+11:49:50 [MARKETPLACE LOG] (hellder)(Saffe) SellMC (Amount: 9)
+11:53:13 [MARKETPLACE LOG] (hellder)(Saffe) AddItem (ItemIndex: 6148, MarketValue: 20, Sponsored: 1)
+11:53:37 [MARKETPLACE LOG] (videodv)(AdmSaffe) BuyMC (Amount: 20)
+11:53:48 [MARKETPLACE LOG] (videodv)(AdmSaffe) BuyItem (MarketIndex: 48, MarketValue: 20)
+11:54:12 [MARKETPLACE LOG] (hellder)(Saffe) SellMC (Amount: 20)
+22:14:40 [MARKETCOIN LOG] Start

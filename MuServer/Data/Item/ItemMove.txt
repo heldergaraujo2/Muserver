@@ -1,0 +1,53 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//ItemMinIndex   ItemMaxIndex   AllowDrop   AllowSell   AllowTrade   AllowVault   AllowStore	AllowGuildVault   AllowMarketPlace  MaxAmount   Comment
+  6656           6656           0           1           1            1            1				1                 1                 *		    //Guardian Angel
+  6144           6150           0           1           1            1            1				1                 1                 *		    //Wings
+  6159           6159           0           1           1            1            1				1                 1                 *		    //Jewel of Chaos
+  6174           6175           0           1           1            1            1				1                 1                 *		    //Bundled Jewel
+  6180           6187           0           1           1            1            1				1                 1                 *		    //Wings
+  6204           6209           0           1           1            1            1				1                 1                 *		    //Seed
+  6214           6218           0           1           1            1            1				1                 1                 *		    //Sphere
+  6244           6273           0           1           1            1            1				1                 1                 *		    //Seed Sphere
+  6274           6279           0           1           1            1            1				1                 1                 *		    //Small Wings
+  6406           6411           0           1           1            1            1				1                 1                 *		    //Wings
+  6280           6287           0           1           1            1            1				1                 1                 *		    //Bundled Jewel
+  6657           6657           0           1           1            1            1				1                 1                 *		    //Imp
+  6658           6658           0           1           1            1            1				1                 1                 *		    //Horn of Uniria
+  6659           6659           0           1           1            1            1				1                 1                 *		    //Horn of Dinorant
+  6675           6675           1           0           0            0            1				1                 1                 *		    //Absolute Weapon of Archangel
+  6676           6676           1           1           0            0            1				1                 1                 *		    //Wizards Ring
+  6693           6693           0           1           1            1            1				1                 1                 *		    //Horn of Fenrir
+  6694           6694           1           1           0            1            1				1                 1                 *		    //Moonstone Pendant
+  6695           6695           1           1           0            1            1				1                 1                 *		    //Eilte Transfer Skeleton Ring
+  6710           6714           0           1           1            1            1				1                 1                 *		    //Reset Fruit
+  6720           6720           0           1           1            1            1				1                 1                 *		    //Demon
+  6721           6721           0           1           1            1            1				1                 1                 *		    //Spirit of Guardian
+  6723           6723           0           1           1            1            1				1                 1                 *		    //Pet Rudolf
+  6736           6736           0           1           1            1            1				1                 1                 *		    //Pet Panda
+  7181           7181           0           1           1            1            1				1                 1                 *		    //Jewel of Bless
+  7182           7182           0           1           1            1            1				1                 1                 *		    //Jewel of Soul
+  7184           7184           0           1           1            1            1				1                 1                 *		    //Jewel of Life
+  7190           7190           0           1           1            1            1				1                 1                 *		    //Jewel of Creation
+  7209           7209           0           1           1            1            1				1                 1                 *		    //Gemstone
+  7210           7210           0           1           1            1            1				1                 1                 *		    //Jewel of Harmony
+  7211           7211           0           1           1            1            1				1                 1                 *		    //Lower refining stone
+  7212           7212           0           1           1            1            1				1                 1                 *		    //Higher refining stone
+  7221           7221           0           1           1            1            1				1                 1                 *		    //Talisman of Luck
+  7232           7232           1           0           0            0            0				1                 1                 *		    //Cursed Castle Water
+  7264           7264           0           1           1            1            1				1                 1                 *		    //Talisman of Chaos Assembly
+  7357           7357           0           1           1            1            1				1                 1                 *		    //Elemental Talisman of Luck
+  7358           7358           0           1           1            1            1				1                 1                 *		    //Elemental Talisman of Chaos Assembly
+  6856           7056           0           1           1            1            1             1                 1                 *		    // Pets
+  6304           6325           0           1           1            1            1             1                 1                 *		    // Pentagram
+  
+  3646           3656           0           1           1            1            1				1                 1                 *		    //Lucky helm
+  7488           7488           0           0           0            1            0             0                 0             	*			//Lucky Wheel
+
+ 
+end

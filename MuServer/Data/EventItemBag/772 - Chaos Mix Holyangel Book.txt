@@ -1,0 +1,13 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Chaos Mix 772"		1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+5	62	0	0	1	1	0	3	// Book of Holy agel
+5	62	0	0	1	1	0	4	// Book of Holy agel
+end

@@ -1,0 +1,24 @@
+03:49:12 [SocketManager] WSARecv() failed with error: 10053
+09:42:26 [SocketManager] Protocol header error (Index: 5, Header: e2)
+09:42:32 [SocketManager] Protocol header error (Index: 6, Header: e0)
+09:42:35 [SocketManager] Protocol header error (Index: 8, Header: e2)
+09:42:57 [SocketManager] Protocol header error (Index: 24, Header: e2)
+09:43:06 [SocketManager] Protocol header error (Index: 12, Header: e2)
+09:43:27 [SocketManager] Protocol header error (Index: 0, Header: e2)
+09:52:04 [SocketManager] Protocol header error (Index: 8, Header: e2)
+10:04:30 [SocketManager] Protocol header error (Index: 37, Header: e2)
+10:04:32 [SocketManager] Protocol header error (Index: 43, Header: e2)
+10:05:00 [SocketManager] Protocol header error (Index: 23, Header: e2)
+10:05:02 [SocketManager] Protocol header error (Index: 10, Header: e2)
+10:05:31 [SocketManager] Protocol header error (Index: 23, Header: e2)
+10:05:33 [SocketManager] Protocol header error (Index: 46, Header: e2)
+10:06:01 [SocketManager] Protocol header error (Index: 23, Header: e2)
+10:09:42 [SocketManager] Protocol header error (Index: 8, Header: e2)
+10:10:11 [SocketManager] Protocol header error (Index: 29, Header: 47)
+10:10:13 [SocketManager] Protocol header error (Index: 1, Header: 32)
+10:10:14 [SocketManager] Protocol header error (Index: 14, Header: 36)
+22:18:14 [SocketManager] Server started at port [44406]
+22:18:14 [ServerList] ServerList loaded successfully
+22:18:17 [ServerList] JoinServer online
+22:18:24 [ServerList] GameServer online (GameServer) (0)
+22:18:30 [ServerList] GameServer online (GameServerCS) (19)

@@ -1,0 +1,144 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// [SPOTS] SCOTCH CANYON
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+781            94             5          221            026            221          026          -1             0             //Scotched Warrior
+782            94             5          221            026            221          026          -1             0             //Scotched Wizard
+783            94             5          221            026            221          026          -1             0             //Scotched Assassin
+781            94             5          176            022            176          022          -1             0             //Scotched Warrior
+782            94             5          176            022            176          022          -1             0             //Scotched Wizard
+783            94             5          176            022            176          022          -1             0             //Scotched Assassin
+781            94             5          122            036            122          036          -1             0             //Scotched Warrior
+782            94             5          122            036            122          036          -1             0             //Scotched Wizard
+783            94             5          122            036            122          036          -1             0             //Scotched Assassin
+781            94             5          080            030            080          030          -1             0             //Scotched Warrior
+782            94             5          080            030            080          030          -1             0             //Scotched Wizard
+783            94             5          080            030            080          030          -1             0             //Scotched Assassin
+781            94             5          034            046            034          046          -1             0             //Scotched Warrior
+782            94             5          034            046            034          046          -1             0             //Scotched Wizard
+783            94             5          034            046            034          046          -1             0             //Scotched Assassin
+781            94             5          084            013            084          013          -1             0             //Scotched Warrior
+782            94             5          084            013            084          013          -1             0             //Scotched Wizard
+783            94             5          084            013            084          013          -1             0             //Scotched Assassin
+781            94             5          089            079            089          079          -1             0             //Scotched Warrior
+782            94             5          089            079            089          079          -1             0             //Scotched Wizard
+783            94             5          089            079            089          079          -1             0             //Scotched Assassin
+781            94             5          044            073            044          073          -1             0             //Scotched Warrior
+782            94             5          044            073            044          073          -1             0             //Scotched Wizard
+783            94             5          044            073            044          073          -1             0             //Scotched Assassin
+781            94             5          027            109            027          109          -1             0             //Scotched Warrior
+782            94             5          027            109            027          109          -1             0             //Scotched Wizard
+783            94             5          027            109            027          109          -1             0             //Scotched Assassin
+781            94             5          014            134            014          134          -1             0             //Scotched Warrior
+782            94             5          014            134            014          134          -1             0             //Scotched Wizard
+783            94             5          014            134            014          134          -1             0             //Scotched Assassin
+781            94             5          072            121            072          121          -1             0             //Scotched Warrior
+782            94             5          072            121            072          121          -1             0             //Scotched Wizard
+783            94             5          072            121            072          121          -1             0             //Scotched Assassin
+781            94             5          097            146            097          146          -1             0             //Scotched Warrior
+782            94             5          097            146            097          146          -1             0             //Scotched Wizard
+783            94             5          097            146            097          146          -1             0             //Scotched Assassin
+781            94             5          111            172            111          172          -1             0             //Scotched Warrior
+782            94             5          111            172            111          172          -1             0             //Scotched Wizard
+783            94             5          111            172            111          172          -1             0             //Scotched Assassin
+781            94             5          046            193            046          193          -1             0             //Scotched Warrior
+782            94             5          046            193            046          193          -1             0             //Scotched Wizard
+783            94             5          046            193            046          193          -1             0             //Scotched Assassin
+781            94             5          027            189            027          189          -1             0             //Scotched Warrior
+782            94             5          027            189            027          189          -1             0             //Scotched Wizard
+783            94             5          027            189            027          189          -1             0             //Scotched Assassin
+781            94             5          029            175            029          175          -1             0             //Scotched Warrior
+782            94             5          029            175            029          175          -1             0             //Scotched Wizard
+783            94             5          029            175            029          175          -1             0             //Scotched Assassin
+781            94             5          017            225            017          225          -1             0             //Scotched Warrior
+782            94             5          017            225            017          225          -1             0             //Scotched Wizard
+783            94             5          017            225            017          225          -1             0             //Scotched Assassin
+781            94             5          057            217            057          217          -1             0             //Scotched Warrior
+782            94             5          057            217            057          217          -1             0             //Scotched Wizard
+783            94             5          057            217            057          217          -1             0             //Scotched Assassin
+781            94             5          096            200            096          200          -1             0             //Scotched Warrior
+782            94             5          096            200            096          200          -1             0             //Scotched Wizard
+783            94             5          096            200            096          200          -1             0             //Scotched Assassin
+781            94             5          134            196            134          196          -1             0             //Scotched Warrior
+782            94             5          134            196            134          196          -1             0             //Scotched Wizard
+783            94             5          134            196            134          196          -1             0             //Scotched Assassin
+781            94             5          157            209            157          209          -1             0             //Scotched Warrior
+782            94             5          157            209            157          209          -1             0             //Scotched Wizard
+783            94             5          157            209            157          209          -1             0             //Scotched Assassin
+781            94             5          149            227            149          227          -1             0             //Scotched Warrior
+782            94             5          149            227            149          227          -1             0             //Scotched Wizard
+783            94             5          149            227            149          227          -1             0             //Scotched Assassin
+781            94             5          184            192            184          192          -1             0             //Scotched Warrior
+782            94             5          184            192            184          192          -1             0             //Scotched Wizard
+783            94             5          184            192            184          192          -1             0             //Scotched Assassin
+781            94             5          175            234            175          234          -1             0             //Scotched Warrior
+782            94             5          175            234            175          234          -1             0             //Scotched Wizard
+783            94             5          175            234            175          234          -1             0             //Scotched Assassin
+781            94             5          211            219            211          219          -1             0             //Scotched Warrior
+782            94             5          211            219            211          219          -1             0             //Scotched Wizard
+783            94             5          211            219            211          219          -1             0             //Scotched Assassin
+781            94             5          217            191            217          191          -1             0             //Scotched Warrior
+782            94             5          217            191            217          191          -1             0             //Scotched Wizard
+783            94             5          217            191            217          191          -1             0             //Scotched Assassin
+781            94             5          237            205            237          205          -1             0             //Scotched Warrior
+782            94             5          237            205            237          205          -1             0             //Scotched Wizard
+783            94             5          237            205            237          205          -1             0             //Scotched Assassin
+781            94             5          230            181            230          181          -1             0             //Scotched Warrior
+782            94             5          230            181            230          181          -1             0             //Scotched Wizard
+783            94             5          230            181            230          181          -1             0             //Scotched Assassin
+781            94             5          172            157            172          157          -1             0             //Scotched Warrior
+782            94             5          172            157            172          157          -1             0             //Scotched Wizard
+783            94             5          172            157            172          157          -1             0             //Scotched Assassin
+781            94             5          182            139            182          139          -1             0             //Scotched Warrior
+782            94             5          182            139            182          139          -1             0             //Scotched Wizard
+783            94             5          182            139            182          139          -1             0             //Scotched Assassin
+781            94             5          222            139            222          139          -1             0             //Scotched Warrior
+782            94             5          222            139            222          139          -1             0             //Scotched Wizard
+783            94             5          222            139            222          139          -1             0             //Scotched Assassin
+781            94             5          190            095            190          095          -1             0             //Scotched Warrior
+782            94             5          190            095            190          095          -1             0             //Scotched Wizard
+783            94             5          190            095            190          095          -1             0             //Scotched Assassin
+781            94             5          165            095            165          095          -1             0             //Scotched Warrior
+782            94             5          165            095            165          095          -1             0             //Scotched Wizard
+783            94             5          165            095            165          095          -1             0             //Scotched Assassin
+781            94             5          207            077            207          077          -1             0             //Scotched Warrior
+782            94             5          207            077            207          077          -1             0             //Scotched Wizard
+783            94             5          207            077            207          077          -1             0             //Scotched Assassin
+781            94             5          234            109            234          109          -1             0             //Scotched Warrior
+782            94             5          234            109            234          109          -1             0             //Scotched Wizard
+783            94             5          234            109            234          109          -1             0             //Scotched Assassin
+781            94             5          229            065            229          065          -1             0             //Scotched Warrior
+782            94             5          229            065            229          065          -1             0             //Scotched Wizard
+783            94             5          229            065            229          065          -1             0             //Scotched Assassin
+781            94             5          172            050            172          050          -1             0             //Scotched Warrior
+782            94             5          172            050            172          050          -1             0             //Scotched Wizard
+783            94             5          172            050            172          050          -1             0             //Scotched Assassin
+781            94             5          157            032            157          032          -1             0             //Scotched Warrior
+782            94             5          157            032            157          032          -1             0             //Scotched Wizard
+783            94             5          157            032            157          032          -1             0             //Scotched Assassin
+781            94             5          141            077            141          077          -1             0             //Scotched Warrior
+782            94             5          141            077            141          077          -1             0             //Scotched Wizard
+783            94             5          141            077            141          077          -1             0             //Scotched Assassin
+781            94             5          199            035            199          035          -1             0             //Scotched Warrior
+782            94             5          199            035            199          035          -1             0             //Scotched Wizard
+783            94             5          199            035            199          035          -1             0             //Scotched Assassin
+end
+
+
+//=========================================================================================================================================
+// [ESPALHADOS] SCOTCH CANYON
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment 
+781            94             30         10             10             240          240          -1             0            //Scotched Warrior
+782            94             30         10             10             240          240          -1             0            //Scotched Wizard
+783            94             30         10             10             240          240          -1             0            //Scotched Assassin
+end
+

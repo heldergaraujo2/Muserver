@@ -1,0 +1,217 @@
+01:28:12 [Obj][13002] AddClient (66.132.195.33)
+01:28:15 [Obj][13002] DelClient (66.132.195.33)
+01:28:18 [Obj][13001] AddClient (66.132.195.33)
+01:28:28 [Obj][13001] DelClient (66.132.195.33)
+01:48:33 [Obj][13000] AddClient (201.148.246.120)
+01:48:35 [Obj][13000] DelClient (201.148.246.120)
+08:56:55 [Obj][13004] AddClient (45.238.1.52)
+08:57:04 [Obj][13004] AddAccount (bosss)
+08:57:17 [Obj][13004] LogInCharacter (Arlequina)
+08:59:47 [Obj][13004] LogOutCharacter (Arlequina)
+08:59:47 [Obj][13004] DelAccount (bosss)
+08:59:47 [Obj][13004] DelClient (45.238.1.52)
+09:02:25 [Obj][13002] AddClient (45.238.1.52)
+09:02:33 [Obj][13002] AddAccount (boss)
+09:02:42 [Obj][13002] LogOutCharacter (cumelao)
+09:02:50 [Obj][13002] DelAccount (boss)
+09:02:50 [Obj][13002] DelClient (45.238.1.52)
+09:03:38 [Obj][13001] AddClient (45.238.1.52)
+09:03:44 [Obj][13001] AddAccount (bosss)
+09:03:46 [Obj][13001] LogInCharacter (Arlequina)
+09:07:40 [BotBuffer] CharName: Arlequina - ADD_FITNESS Time: 720
+09:07:42 [BotBuffer] CharName: Arlequina - ADD_CRITICAL_DAMAGE Time: 720
+09:07:44 [BotBuffer] CharName: Arlequina - ADD_DAMAGE_REFLECT Time: 720
+09:07:47 [BotBuffer] CharName: Arlequina - ADD_GREATER_LIFE Time: 720
+09:07:48 [BotBuffer] CharName: Arlequina - ADD_SKILL_MANA Time: 720
+09:07:50 [BotBuffer] CharName: Arlequina -ADD_GREATER_DEFENSE Time: 720
+09:07:50 [BotBuffer] CharName: Arlequina - ADD_GREATER_DAMAGE Time: 720
+10:16:03 [BotBuffer] CharName: Pain -ADD_GREATER_DEFENSE Time: 720
+10:16:03 [BotBuffer] CharName: Pain - ADD_GREATER_DAMAGE Time: 720
+10:16:04 [BotBuffer] CharName: Pain - ADD_SKILL_MANA Time: 720
+10:16:06 [BotBuffer] CharName: Pain - ADD_GREATER_LIFE Time: 720
+10:16:07 [BotBuffer] CharName: Pain - ADD_DAMAGE_REFLECT Time: 720
+10:16:09 [BotBuffer] CharName: Pain - ADD_DAMAGE_REFLECT Time: 720
+10:16:10 [BotBuffer] CharName: Pain - ADD_FITNESS Time: 720
+10:16:12 [BotBuffer] CharName: Pain - ADD_CRITICAL_DAMAGE Time: 720
+10:37:36 [Obj][13001] LogOutCharacter (Arlequina)
+10:39:46 [Obj][13001] DelAccount (bosss)
+10:39:46 [Obj][13001] DelClient (45.238.1.52)
+15:03:45 [Obj][13003] LogOutCharacter (Pain)
+15:03:45 [Obj][13003] DelAccount (gordo3)
+15:03:45 [Obj][13003] DelClient (179.63.44.169)
+15:04:09 [FAKE ONLINE LOG] Start
+15:04:09 [ServerInfo] CashShop loaded successfully
+15:04:09 [ServerInfo] ChaosMix loaded successfully
+15:04:09 [ServerInfo] Character loaded successfully
+15:04:09 [FakeOnline] Loaded successfully
+15:04:09 [ServerInfo] Custom loaded successfully
+15:04:09 [ServerInfo] Command loaded successfully
+15:04:09 [ServerInfo] Common loaded successfully
+15:04:09 [ServerInfo] Discord loaded successfully
+15:04:09 [ServerInfo] Effect loaded successfully
+15:04:09 [ServerInfo] Event loaded successfully
+15:04:09 [ServerInfo] EventItemBag loaded successfully
+15:04:09 [ServerInfo] Hack loaded successfully
+15:04:09 [ServerInfo] Item loaded successfully
+15:04:09 [ServerInfo] Message loaded successfully
+15:04:09 [ServerInfo] Map loaded successfully
+15:04:09 [ServerInfo] Terrain loaded successfully
+15:04:09 [ServerInfo] Monster loaded successfully
+15:04:09 [ServerInfo] Move loaded successfully
+15:04:09 [ServerInfo] Quest loaded successfully
+15:04:09 [ServerInfo] Script loaded successfully
+15:04:09 [ServerInfo] Shop loaded successfully
+15:04:09 [ServerInfo] Skill loaded successfully
+15:04:09 [ServerInfo] Util loaded successfully
+15:04:09 [ReadBotInfo] BotSystem loaded successfully
+15:04:10 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+15:04:10 [ServerInfo] Custom Attack offline restored successfully
+15:04:10 [ServerInfo] Custom Store offline restored successfully
+15:04:10 [Discord] Connection successfully
+15:04:10 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+15:04:15 [Obj][13000] AddClient (179.63.44.169)
+15:04:25 [Obj][13000] AddAccount (gordo3)
+15:04:25 [Obj][13000] LogInCharacter (Pain)
+15:32:25 [Obj][13000] LogOutCharacter (Pain)
+15:32:25 [Obj][13000] DelAccount (gordo3)
+15:32:25 [Obj][13000] DelClient (179.63.44.169)
+15:32:25 Game response error causes conclusion [13000][][][179.63.44.169]
+15:32:55 [Obj][13000] AddClient (179.63.44.169)
+15:33:05 [Obj][13000] AddAccount (gordo3)
+15:33:05 [Obj][13000] LogInCharacter (Pain)
+15:40:42 [Obj][13000] LogOutCharacter (Pain)
+15:40:42 [Obj][13000] DelAccount (gordo3)
+15:40:42 [Obj][13000] DelClient (179.63.44.169)
+15:40:42 Game response error causes conclusion [13000][][][179.63.44.169]
+15:41:15 [Obj][13000] AddClient (179.63.44.169)
+15:41:26 [Obj][13000] AddAccount (gordo3)
+15:41:27 [Obj][13000] LogInCharacter (Pain)
+15:53:33 [Obj][13000] LogOutCharacter (Pain)
+15:53:33 [Obj][13000] DelAccount (gordo3)
+15:53:33 [Obj][13000] DelClient (179.63.44.169)
+15:53:33 Game response error causes conclusion [13000][][][179.63.44.169]
+15:54:06 [Obj][13000] AddClient (179.63.44.169)
+15:54:19 [Obj][13000] AddAccount (gordo3)
+15:54:19 [Obj][13000] LogInCharacter (Pain)
+16:01:24 [Obj][13000] LogOutCharacter (Pain)
+16:01:24 [Obj][13000] DelAccount (gordo3)
+16:01:24 [Obj][13000] DelClient (179.63.44.169)
+16:01:24 Game response error causes conclusion [13000][][][179.63.44.169]
+16:01:54 [Obj][13000] AddClient (179.63.44.169)
+16:02:04 [Obj][13000] AddAccount (gordo3)
+16:02:04 [Obj][13000] LogInCharacter (Pain)
+16:07:23 [Obj][13000] LogOutCharacter (Pain)
+16:07:23 [Obj][13000] DelAccount (gordo3)
+16:07:23 [Obj][13000] DelClient (179.63.44.169)
+16:07:23 Game response error causes conclusion [13000][][][179.63.44.169]
+16:07:53 [Obj][13000] AddClient (179.63.44.169)
+16:08:03 [Obj][13000] AddAccount (gordo3)
+16:08:03 [Obj][13000] LogInCharacter (Pain)
+16:21:04 [Obj][13000] LogOutCharacter (Pain)
+16:21:04 [Obj][13000] DelAccount (gordo3)
+16:21:04 [Obj][13000] DelClient (179.63.44.169)
+16:21:04 Game response error causes conclusion [13000][][][179.63.44.169]
+16:21:34 [Obj][13000] AddClient (179.63.44.169)
+16:21:49 [Obj][13000] AddAccount (gordo3)
+16:21:49 [Obj][13000] LogInCharacter (Pain)
+16:24:23 [Obj][13000] LogOutCharacter (Pain)
+16:24:23 [Obj][13000] DelAccount (gordo3)
+16:24:23 [Obj][13000] DelClient (179.63.44.169)
+16:24:23 Game response error causes conclusion [13000][][][179.63.44.169]
+16:24:53 [Obj][13000] AddClient (179.63.44.169)
+16:25:08 [Obj][13000] AddAccount (gordo3)
+16:25:08 [Obj][13000] LogInCharacter (Pain)
+16:42:03 [Obj][13000] LogOutCharacter (Pain)
+16:42:03 [Obj][13000] DelAccount (gordo3)
+16:42:03 [Obj][13000] DelClient (179.63.44.169)
+16:42:03 Game response error causes conclusion [13000][][][179.63.44.169]
+16:42:34 [Obj][13000] AddClient (179.63.44.169)
+16:42:44 [Obj][13000] AddAccount (gordo3)
+16:42:44 [Obj][13000] LogInCharacter (Pain)
+16:44:08 [Obj][13000] LogOutCharacter (Pain)
+16:44:08 [Obj][13000] DelAccount (gordo3)
+16:44:08 [Obj][13000] DelClient (179.63.44.169)
+16:44:08 Game response error causes conclusion [13000][][][179.63.44.169]
+19:57:25 [Obj][13000] AddClient (45.191.9.91)
+19:57:31 [Obj][13000] AddAccount (locotmx)
+19:57:34 [Obj][13000] LogInCharacter (AUR0R4SM)
+19:57:46 [Obj][13001] AddClient (45.191.9.91)
+19:57:51 [Obj][13001] AddAccount (morota25)
+19:57:54 [Obj][13001] LogInCharacter (AzyzzELF)
+20:05:41 [Obj][13000] LogOutCharacter (AUR0R4SM)
+20:05:41 [Obj][13000] DelAccount (locotmx)
+20:05:41 [Obj][13000] DelClient (45.191.9.91)
+20:05:45 [Obj][13002] AddClient (45.191.9.91)
+20:05:51 [Obj][13002] AddAccount (locotmx30)
+20:05:53 [Obj][13002] LogInCharacter (BayBlade)
+20:08:43 [Obj][13002] LogOutCharacter (BayBlade)
+20:08:43 [Obj][13002] DelAccount (locotmx30)
+20:08:43 [Obj][13002] DelClient (45.191.9.91)
+20:09:44 [Obj][13001] LogOutCharacter (AzyzzELF)
+20:09:44 [Obj][13001] DelAccount (morota25)
+20:09:44 [Obj][13001] DelClient (45.191.9.91)
+22:33:47 [FAKE ONLINE LOG] Start
+22:33:47 [ServerInfo] CashShop loaded successfully
+22:33:47 [ServerInfo] ChaosMix loaded successfully
+22:33:47 [ServerInfo] Character loaded successfully
+22:33:47 [FakeOnline] Loaded successfully
+22:33:47 [ServerInfo] Custom loaded successfully
+22:33:47 [ServerInfo] Command loaded successfully
+22:33:48 [ServerInfo] Common loaded successfully
+22:33:48 [ServerInfo] Discord loaded successfully
+22:33:48 [ServerInfo] Effect loaded successfully
+22:33:48 [ServerInfo] Event loaded successfully
+22:33:48 [ServerInfo] EventItemBag loaded successfully
+22:33:48 [ServerInfo] Hack loaded successfully
+22:33:48 [ServerInfo] Item loaded successfully
+22:33:48 [ServerInfo] Message loaded successfully
+22:33:48 [ServerInfo] Map loaded successfully
+22:33:48 [ServerInfo] Terrain loaded successfully
+22:33:48 [ServerInfo] Monster loaded successfully
+22:33:48 [ServerInfo] Move loaded successfully
+22:33:48 [ServerInfo] Quest loaded successfully
+22:33:48 [ServerInfo] Script loaded successfully
+22:33:48 [ServerInfo] Shop loaded successfully
+22:33:48 [ServerInfo] Skill loaded successfully
+22:33:48 [ServerInfo] Util loaded successfully
+22:33:48 [ReadBotInfo] BotSystem loaded successfully
+22:33:48 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+22:33:48 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+22:33:48 [ServerInfo] Custom Attack offline restored successfully
+22:33:48 [ServerInfo] Custom Store offline restored successfully
+22:33:48 [Discord] Connection successfully
+22:33:49 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+22:34:09 [Obj][13000] AddClient (177.200.34.5)
+22:34:10 [Obj][13000] AddAccount (hellder)
+22:34:19 [Obj][13000] DelAccount (hellder)
+22:34:19 [Obj][13000] DelClient (177.200.34.5)
+22:34:53 [FAKE ONLINE LOG] Start
+22:34:53 [ServerInfo] CashShop loaded successfully
+22:34:53 [ServerInfo] ChaosMix loaded successfully
+22:34:53 [ServerInfo] Character loaded successfully
+22:34:53 [FakeOnline] Loaded successfully
+22:34:53 [ServerInfo] Custom loaded successfully
+22:34:53 [ServerInfo] Command loaded successfully
+22:34:53 [ServerInfo] Common loaded successfully
+22:34:53 [ServerInfo] Discord loaded successfully
+22:34:53 [ServerInfo] Effect loaded successfully
+22:34:54 [ServerInfo] Event loaded successfully
+22:34:54 [ServerInfo] EventItemBag loaded successfully
+22:34:54 [ServerInfo] Hack loaded successfully
+22:34:54 [ServerInfo] Item loaded successfully
+22:34:54 [ServerInfo] Message loaded successfully
+22:34:54 [ServerInfo] Map loaded successfully
+22:34:54 [ServerInfo] Terrain loaded successfully
+22:34:54 [ServerInfo] Monster loaded successfully
+22:34:54 [ServerInfo] Move loaded successfully
+22:34:54 [ServerInfo] Quest loaded successfully
+22:34:54 [ServerInfo] Script loaded successfully
+22:34:54 [ServerInfo] Shop loaded successfully
+22:34:54 [ServerInfo] Skill loaded successfully
+22:34:54 [ServerInfo] Util loaded successfully
+22:34:54 [ReadBotInfo] BotSystem loaded successfully
+22:34:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+22:34:54 [ServerInfo] Custom Attack offline restored successfully
+22:34:54 [ServerInfo] Custom Store offline restored successfully
+22:34:54 [Discord] Connection successfully
+22:34:54 [ CRYWOLF ] SYNC Occupation: 0, State: 0

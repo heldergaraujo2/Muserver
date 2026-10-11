@@ -1,0 +1,24 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// Tooltip Item Title Color
+// No BackGround: -1 -1 -1
+// Color: 0 - 255
+// Max 400 total
+0
+//	ItemMinIndex   ItemMaxIndex ItemLevel   ColorR   ColorG   ColorB    BGColorR   BGColorG   BGColorB   BoderColorR   BorderColorG   BorderColorB 
+	0001           9999	    -1		-1       -1       -1	    -1	       -1         -1	     128	   128 		  128	
+	
+end
+
+// Drop Item Title Color
+// No BackGround: -1 -1 -1
+// Color: 0 - 255
+1 
+//	ItemMinIndex   ItemMaxIndex ItemLevel   ColorR   ColorG   ColorB    BGColorR   BGColorG   BGColorB  TitleBold
+//	0001           9999	    -1		-1       -1       -1	    -1        -1           -1	    2
+end

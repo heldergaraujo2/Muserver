@@ -1,0 +1,9 @@
+10:41:58 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+12:09:00 [SETCOIN LOG] Start
+19:51:12 [SETCOIN LOG] Start
+21:07:56 [pvp03][PVPDL01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+21:15:52 [pvp01][PVPDL] WZ_SetCoin(RankUser) Val1: 10, Val2: 0, Val3: 0
+21:25:37 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+21:58:51 [pvp03][PVPDL01] WZ_SetCoin(CustomFlag) Val1: 0, Val2: 0, Val3: -100000
+22:08:16 [pvp03][PVPDL01] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+22:26:29 [pvp01][PVPDL] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10

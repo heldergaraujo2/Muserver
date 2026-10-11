@@ -1,0 +1,6 @@
+00:42:59 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+00:46:49 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+21:21:19 [saffe3][Saffe3] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: -5100, Val3: 0
+21:21:22 [saffe3][Saffe3] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: -5100, Val3: 0
+21:21:35 [saffe3][Saffe3] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: -3825, Val3: 0
+21:21:37 [saffe3][Saffe3] WZ_SetCoin(CommonShopBuy) Val1: 0, Val2: -3825, Val3: 0

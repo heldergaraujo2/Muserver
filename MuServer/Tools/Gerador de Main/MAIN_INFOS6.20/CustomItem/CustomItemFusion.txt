@@ -1,0 +1,29 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+///////////////////////////////////////////////////////////////////////////////////////
+// Fusion Type:
+// 1: Sum all attributes
+// 2: Sum option Exc only
+//
+// Fusion error type:
+// 1: Keep the source item 
+// 2: All atributes to zero
+// 3: Delete both items
+//
+// ItemOption3: Adicional Option(Life)
+//
+// Obs: Socket and Ancient options will not change
+///////////////////////////////////////////////////////////////////////////////////////
+// 	ItemMinIndex  	ItemMaxIndex   Type   ErrorType   MinItemLevel   MaxItemLevel   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption  SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   Description
+	019          	019	       	   2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv swrd
+	1037          	1037	       2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv sept
+	2066          	2066	       2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv crsb
+	2570          	2570	       2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv staf
+	2596          	2596	       2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv stck
+	105          	105	       	   2      1       	  12              14	        *                *	          	  *                  2                  *                  *                     *        	      	  10                15                15                100               //dv claw
+end

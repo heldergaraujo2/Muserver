@@ -1,0 +1,17 @@
+0
+//Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  SocketBonus  Duration
+	14	     1	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Healing Potion
+	14	     2	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Healing Potion
+	14	     3	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Healing Potion
+	14	     4	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Mana Potion
+	14	     5	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Mana Potion
+	14	     6	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     31	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     32	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     33	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     34	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     35	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     36	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     30	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	
+end

@@ -1,0 +1,11 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//   Map   Money   Coin1   Coin2   Coin3   ItemIndex   ItemLevel   ItemCount   RenewTime   MoveGate
+     99    0       0       0       0       7599        0           1           1800        17
+     102   0       0       0       0       0           0           0           900         22
+end

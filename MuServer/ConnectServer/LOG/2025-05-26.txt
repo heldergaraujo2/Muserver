@@ -1,0 +1,384 @@
+03:09:21 [AntiFlood] SYN FLOOD attack(191.197.198.173)
+03:09:21 [SocketManager] WSAAccept() failed with error: 10061
+19:27:36 [ServerList] GameServer offline (GameServer) (23)
+19:28:07 [ServerList] GameServer offline (GameServerCS) (29)
+20:00:49 [AntiFlood] SYN FLOOD attack(177.177.233.144)
+20:00:49 [SocketManager] WSAAccept() failed with error: 10061
+20:54:26 [AntiFlood] SYN FLOOD attack(177.131.178.201)
+20:54:26 [SocketManager] WSAAccept() failed with error: 10061
+22:42:59 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:42:59 [SocketManager] WSAAccept() failed with error: 10061
+22:43:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:43:16 [SocketManager] WSAAccept() failed with error: 10061
+22:45:54 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:45:54 [SocketManager] WSAAccept() failed with error: 10061
+22:46:04 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:04 [SocketManager] WSAAccept() failed with error: 10061
+22:46:14 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:14 [SocketManager] WSAAccept() failed with error: 10061
+22:46:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:24 [SocketManager] WSAAccept() failed with error: 10061
+22:46:34 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:34 [SocketManager] WSAAccept() failed with error: 10061
+22:46:44 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:44 [SocketManager] WSAAccept() failed with error: 10061
+22:46:54 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:46:54 [SocketManager] WSAAccept() failed with error: 10061
+22:47:04 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:04 [SocketManager] WSAAccept() failed with error: 10061
+22:47:15 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:15 [SocketManager] WSAAccept() failed with error: 10061
+22:47:25 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:25 [SocketManager] WSAAccept() failed with error: 10061
+22:47:35 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:35 [SocketManager] WSAAccept() failed with error: 10061
+22:47:45 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:45 [SocketManager] WSAAccept() failed with error: 10061
+22:47:55 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:47:55 [SocketManager] WSAAccept() failed with error: 10061
+22:48:05 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:05 [SocketManager] WSAAccept() failed with error: 10061
+22:48:15 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:15 [SocketManager] WSAAccept() failed with error: 10061
+22:48:25 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:25 [SocketManager] WSAAccept() failed with error: 10061
+22:48:35 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:35 [SocketManager] WSAAccept() failed with error: 10061
+22:48:46 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:46 [SocketManager] WSAAccept() failed with error: 10061
+22:48:56 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:48:56 [SocketManager] WSAAccept() failed with error: 10061
+22:49:06 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:06 [SocketManager] WSAAccept() failed with error: 10061
+22:49:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:16 [SocketManager] WSAAccept() failed with error: 10061
+22:49:26 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:26 [SocketManager] WSAAccept() failed with error: 10061
+22:49:36 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:36 [SocketManager] WSAAccept() failed with error: 10061
+22:49:46 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:46 [SocketManager] WSAAccept() failed with error: 10061
+22:49:56 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:49:56 [SocketManager] WSAAccept() failed with error: 10061
+22:50:07 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:07 [SocketManager] WSAAccept() failed with error: 10061
+22:50:17 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:17 [SocketManager] WSAAccept() failed with error: 10061
+22:50:27 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:27 [SocketManager] WSAAccept() failed with error: 10061
+22:50:37 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:37 [SocketManager] WSAAccept() failed with error: 10061
+22:50:47 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:47 [SocketManager] WSAAccept() failed with error: 10061
+22:50:57 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:50:57 [SocketManager] WSAAccept() failed with error: 10061
+22:51:07 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:07 [SocketManager] WSAAccept() failed with error: 10061
+22:51:17 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:17 [SocketManager] WSAAccept() failed with error: 10061
+22:51:28 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:28 [SocketManager] WSAAccept() failed with error: 10061
+22:51:38 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:38 [SocketManager] WSAAccept() failed with error: 10061
+22:51:48 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:48 [SocketManager] WSAAccept() failed with error: 10061
+22:51:58 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:51:58 [SocketManager] WSAAccept() failed with error: 10061
+22:52:08 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:08 [SocketManager] WSAAccept() failed with error: 10061
+22:52:18 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:18 [SocketManager] WSAAccept() failed with error: 10061
+22:52:28 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:28 [SocketManager] WSAAccept() failed with error: 10061
+22:52:38 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:38 [SocketManager] WSAAccept() failed with error: 10061
+22:52:49 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:49 [SocketManager] WSAAccept() failed with error: 10061
+22:52:59 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:52:59 [SocketManager] WSAAccept() failed with error: 10061
+22:53:09 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:09 [SocketManager] WSAAccept() failed with error: 10061
+22:53:19 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:19 [SocketManager] WSAAccept() failed with error: 10061
+22:53:29 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:29 [SocketManager] WSAAccept() failed with error: 10061
+22:53:39 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:39 [SocketManager] WSAAccept() failed with error: 10061
+22:53:49 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:49 [SocketManager] WSAAccept() failed with error: 10061
+22:53:59 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:53:59 [SocketManager] WSAAccept() failed with error: 10061
+22:54:09 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:54:09 [SocketManager] WSAAccept() failed with error: 10061
+22:54:20 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:54:20 [SocketManager] WSAAccept() failed with error: 10061
+22:54:30 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:54:30 [SocketManager] WSAAccept() failed with error: 10061
+22:54:50 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:54:50 [SocketManager] WSAAccept() failed with error: 10061
+22:54:50 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:54:50 [SocketManager] WSAAccept() failed with error: 10061
+22:55:00 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:00 [SocketManager] WSAAccept() failed with error: 10061
+22:55:00 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:00 [SocketManager] WSAAccept() failed with error: 10061
+22:55:11 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:11 [SocketManager] WSAAccept() failed with error: 10061
+22:55:11 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:11 [SocketManager] WSAAccept() failed with error: 10061
+22:55:21 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:21 [SocketManager] WSAAccept() failed with error: 10061
+22:55:21 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:21 [SocketManager] WSAAccept() failed with error: 10061
+22:55:31 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:31 [SocketManager] WSAAccept() failed with error: 10061
+22:55:31 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:31 [SocketManager] WSAAccept() failed with error: 10061
+22:55:41 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:41 [SocketManager] WSAAccept() failed with error: 10061
+22:55:41 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:41 [SocketManager] WSAAccept() failed with error: 10061
+22:55:51 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:51 [SocketManager] WSAAccept() failed with error: 10061
+22:55:51 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:55:51 [SocketManager] WSAAccept() failed with error: 10061
+22:56:01 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:01 [SocketManager] WSAAccept() failed with error: 10061
+22:56:01 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:01 [SocketManager] WSAAccept() failed with error: 10061
+22:56:11 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:11 [SocketManager] WSAAccept() failed with error: 10061
+22:56:11 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:11 [SocketManager] WSAAccept() failed with error: 10061
+22:56:21 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:21 [SocketManager] WSAAccept() failed with error: 10061
+22:56:21 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:21 [SocketManager] WSAAccept() failed with error: 10061
+22:56:32 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:32 [SocketManager] WSAAccept() failed with error: 10061
+22:56:32 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:32 [SocketManager] WSAAccept() failed with error: 10061
+22:56:42 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:42 [SocketManager] WSAAccept() failed with error: 10061
+22:56:42 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:42 [SocketManager] WSAAccept() failed with error: 10061
+22:56:52 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:52 [SocketManager] WSAAccept() failed with error: 10061
+22:56:52 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:56:52 [SocketManager] WSAAccept() failed with error: 10061
+22:57:02 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:02 [SocketManager] WSAAccept() failed with error: 10061
+22:57:02 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:02 [SocketManager] WSAAccept() failed with error: 10061
+22:57:12 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:12 [SocketManager] WSAAccept() failed with error: 10061
+22:57:12 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:12 [SocketManager] WSAAccept() failed with error: 10061
+22:57:22 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:22 [SocketManager] WSAAccept() failed with error: 10061
+22:57:22 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:22 [SocketManager] WSAAccept() failed with error: 10061
+22:57:32 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:32 [SocketManager] WSAAccept() failed with error: 10061
+22:57:32 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:32 [SocketManager] WSAAccept() failed with error: 10061
+22:57:42 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:42 [SocketManager] WSAAccept() failed with error: 10061
+22:57:42 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:42 [SocketManager] WSAAccept() failed with error: 10061
+22:57:53 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:53 [SocketManager] WSAAccept() failed with error: 10061
+22:57:53 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:57:53 [SocketManager] WSAAccept() failed with error: 10061
+22:58:03 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:03 [SocketManager] WSAAccept() failed with error: 10061
+22:58:03 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:03 [SocketManager] WSAAccept() failed with error: 10061
+22:58:13 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:13 [SocketManager] WSAAccept() failed with error: 10061
+22:58:13 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:13 [SocketManager] WSAAccept() failed with error: 10061
+22:58:23 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:23 [SocketManager] WSAAccept() failed with error: 10061
+22:58:23 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:23 [SocketManager] WSAAccept() failed with error: 10061
+22:58:33 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:33 [SocketManager] WSAAccept() failed with error: 10061
+22:58:33 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:33 [SocketManager] WSAAccept() failed with error: 10061
+22:58:43 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:43 [SocketManager] WSAAccept() failed with error: 10061
+22:58:43 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:43 [SocketManager] WSAAccept() failed with error: 10061
+22:58:53 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:53 [SocketManager] WSAAccept() failed with error: 10061
+22:58:53 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:58:53 [SocketManager] WSAAccept() failed with error: 10061
+22:59:03 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:03 [SocketManager] WSAAccept() failed with error: 10061
+22:59:03 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:03 [SocketManager] WSAAccept() failed with error: 10061
+22:59:13 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:13 [SocketManager] WSAAccept() failed with error: 10061
+22:59:13 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:13 [SocketManager] WSAAccept() failed with error: 10061
+22:59:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:24 [SocketManager] WSAAccept() failed with error: 10061
+22:59:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:24 [SocketManager] WSAAccept() failed with error: 10061
+22:59:34 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:34 [SocketManager] WSAAccept() failed with error: 10061
+22:59:34 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:34 [SocketManager] WSAAccept() failed with error: 10061
+22:59:44 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:44 [SocketManager] WSAAccept() failed with error: 10061
+22:59:44 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:44 [SocketManager] WSAAccept() failed with error: 10061
+22:59:54 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:54 [SocketManager] WSAAccept() failed with error: 10061
+22:59:54 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+22:59:54 [SocketManager] WSAAccept() failed with error: 10061
+23:00:04 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:04 [SocketManager] WSAAccept() failed with error: 10061
+23:00:04 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:04 [SocketManager] WSAAccept() failed with error: 10061
+23:00:14 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:14 [SocketManager] WSAAccept() failed with error: 10061
+23:00:14 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:14 [SocketManager] WSAAccept() failed with error: 10061
+23:00:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:24 [SocketManager] WSAAccept() failed with error: 10061
+23:00:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:24 [SocketManager] WSAAccept() failed with error: 10061
+23:00:34 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:34 [SocketManager] WSAAccept() failed with error: 10061
+23:00:34 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:34 [SocketManager] WSAAccept() failed with error: 10061
+23:00:45 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:45 [SocketManager] WSAAccept() failed with error: 10061
+23:00:45 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:45 [SocketManager] WSAAccept() failed with error: 10061
+23:00:55 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:55 [SocketManager] WSAAccept() failed with error: 10061
+23:00:55 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:00:55 [SocketManager] WSAAccept() failed with error: 10061
+23:01:05 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:05 [SocketManager] WSAAccept() failed with error: 10061
+23:01:05 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:05 [SocketManager] WSAAccept() failed with error: 10061
+23:01:15 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:15 [SocketManager] WSAAccept() failed with error: 10061
+23:01:15 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:15 [SocketManager] WSAAccept() failed with error: 10061
+23:01:25 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:25 [SocketManager] WSAAccept() failed with error: 10061
+23:01:25 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:25 [SocketManager] WSAAccept() failed with error: 10061
+23:01:35 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:35 [SocketManager] WSAAccept() failed with error: 10061
+23:01:35 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:35 [SocketManager] WSAAccept() failed with error: 10061
+23:01:45 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:45 [SocketManager] WSAAccept() failed with error: 10061
+23:01:45 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:45 [SocketManager] WSAAccept() failed with error: 10061
+23:01:55 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:55 [SocketManager] WSAAccept() failed with error: 10061
+23:01:55 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:01:55 [SocketManager] WSAAccept() failed with error: 10061
+23:02:06 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:06 [SocketManager] WSAAccept() failed with error: 10061
+23:02:06 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:06 [SocketManager] WSAAccept() failed with error: 10061
+23:02:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:16 [SocketManager] WSAAccept() failed with error: 10061
+23:02:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:16 [SocketManager] WSAAccept() failed with error: 10061
+23:02:26 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:26 [SocketManager] WSAAccept() failed with error: 10061
+23:02:26 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:26 [SocketManager] WSAAccept() failed with error: 10061
+23:02:36 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:36 [SocketManager] WSAAccept() failed with error: 10061
+23:02:36 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:36 [SocketManager] WSAAccept() failed with error: 10061
+23:02:46 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:46 [SocketManager] WSAAccept() failed with error: 10061
+23:02:46 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:46 [SocketManager] WSAAccept() failed with error: 10061
+23:02:56 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:02:56 [SocketManager] WSAAccept() failed with error: 10061
+23:03:06 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:06 [SocketManager] WSAAccept() failed with error: 10061
+23:03:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:16 [SocketManager] WSAAccept() failed with error: 10061
+23:03:16 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:16 [SocketManager] WSAAccept() failed with error: 10061
+23:03:27 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:27 [SocketManager] WSAAccept() failed with error: 10061
+23:03:27 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:27 [SocketManager] WSAAccept() failed with error: 10061
+23:03:37 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:37 [SocketManager] WSAAccept() failed with error: 10061
+23:03:37 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:37 [SocketManager] WSAAccept() failed with error: 10061
+23:03:47 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:47 [SocketManager] WSAAccept() failed with error: 10061
+23:03:47 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:47 [SocketManager] WSAAccept() failed with error: 10061
+23:03:57 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:57 [SocketManager] WSAAccept() failed with error: 10061
+23:03:57 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:03:57 [SocketManager] WSAAccept() failed with error: 10061
+23:04:07 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:07 [SocketManager] WSAAccept() failed with error: 10061
+23:04:07 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:07 [SocketManager] WSAAccept() failed with error: 10061
+23:04:17 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:17 [SocketManager] WSAAccept() failed with error: 10061
+23:04:17 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:17 [SocketManager] WSAAccept() failed with error: 10061
+23:04:27 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:27 [SocketManager] WSAAccept() failed with error: 10061
+23:04:27 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:27 [SocketManager] WSAAccept() failed with error: 10061
+23:04:37 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:37 [SocketManager] WSAAccept() failed with error: 10061
+23:04:37 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:37 [SocketManager] WSAAccept() failed with error: 10061
+23:04:48 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:48 [SocketManager] WSAAccept() failed with error: 10061
+23:04:48 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:48 [SocketManager] WSAAccept() failed with error: 10061
+23:04:58 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:58 [SocketManager] WSAAccept() failed with error: 10061
+23:04:58 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:04:58 [SocketManager] WSAAccept() failed with error: 10061
+23:05:08 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:08 [SocketManager] WSAAccept() failed with error: 10061
+23:05:08 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:08 [SocketManager] WSAAccept() failed with error: 10061
+23:05:18 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:18 [SocketManager] WSAAccept() failed with error: 10061
+23:05:18 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:18 [SocketManager] WSAAccept() failed with error: 10061
+23:05:28 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:28 [SocketManager] WSAAccept() failed with error: 10061
+23:05:28 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:28 [SocketManager] WSAAccept() failed with error: 10061
+23:05:38 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:38 [SocketManager] WSAAccept() failed with error: 10061
+23:05:48 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:05:48 [SocketManager] WSAAccept() failed with error: 10061
+23:09:41 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:09:41 [SocketManager] WSAAccept() failed with error: 10061
+23:12:33 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:12:33 [SocketManager] WSAAccept() failed with error: 10061
+23:12:53 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:12:53 [SocketManager] WSAAccept() failed with error: 10061
+23:13:04 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:13:04 [SocketManager] WSAAccept() failed with error: 10061
+23:13:14 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:13:14 [SocketManager] WSAAccept() failed with error: 10061
+23:13:24 [AntiFlood] SYN FLOOD attack(45.235.21.69)
+23:13:24 [SocketManager] WSAAccept() failed with error: 10061

@@ -1,0 +1,84 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Selupan"		0		10000			3				0				0				0			0
+end
+
+2
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Ancient	Socket	Comment
+//RF
+7		44		0		0		1		1		1		2	0		3	// Tigris Helm
+8		44		0		0		1		1		1		2	0		3	// Tigris Armor
+9		44		0		0		1		1		1		2	0		3	// Tigris Pants
+11		44		0		0		1		1		1		2	0		3	// Tigris Boots
+//sum
+7		44		0		0		1		1		1		2	0		3	// Lilium Helm
+8		44		0		0		1		1		1		2	0		3	// Lilium Armor
+9		44		0		0		1		1		1		2	0		3	// Lilium Pants
+10		44		0		0		1		1		1		2	0		3	// Lilium Gloves
+11		44		0		0		1		1		1		2	0		3	// Lilium Boots
+//dl
+7		38		0		0		1		1		1		2	0		3	// Glorious Mask
+8		38		0		0		1		1		1		2	0		3	// Glorious Armor
+9		38		0		0		1		1		1		2	0		3	// Glorious Pants
+10		38		0		0		1		1		1		2	0		3	// Glorious Gloves
+11		38		0		0		1		1		1		2	0		3	// Glorious Boots
+//mg
+8		48		0		0		1		1		1		2	0		3	// Destroy Armor
+9		48		0		0		1		1		1		2	0		3	// Destroy Pants
+10		48		0		0		1		1		1		2	0		3	// Destroy Gloves
+11		48		0		0		1		1		1		2	0		3	// Destroy Boots
+//elf
+7		50		0		0		1		1		1		2	0		3	// Divine Helm
+8		50		0		0		1		1		1		2	0		3	// Divine Armor
+9		50		0		0		1		1		1		2	0		3	// Divine Pants
+10		50		0		0		1		1		1		2	0		3	// Divine Gloves
+11		50		0		0		1		1		1		2	0		3	// Divine Boots
+//bk
+7		46		0		0		1		1		1		2	0		3	// Brave Helm
+8		46		0		0		1		1		1		2	0		3	// Brave Armor
+9		46		0		0		1		1		1		2	0		3	// Brave Pants
+10		46		0		0		1		1		1		2	0		3	// Brave Gloves
+11		46		0		0		1		1		1		2	0		3	// Brave Boots
+//sm
+7		52		0		0		1		1		1		2	0		3	// Hades Helm
+8		52		0		0		1		1		1		2	0		3	// Hades Armor
+9		52		0		0		1		1		1		2	0		3	// Hades Pants
+10		52		0		0		1		1		1		2	0		3	// Hades Gloves
+11		52		0		0		1		1		1		2	0		3	// Hades Boots
+end
+//	7		29		0		0		0		1		1		2	0		0	// Dragon Knight Helm
+//	7		30		0		0		0		1		1		2	0		0	// Venom Mist Helm
+//	7		31		0		0		0		1		1		2	0		0	// Sylphid Ray Helm
+//	7		33		0		0		0		1		1		2	0		0	// Sunlight Mask
+//	7		43		0		0		0		1		1		2	0		0	// Storm Blitz Helm
+//	7		73		0		0		0		1		1		2	0		0	// Phoenix Soul Helm
+//	8		29		0		0		0		1		1		2	0		0	// Dragon Knight Helm
+//	8		30		0		0		0		1		1		2	0		0	// Venom Mist Helm
+//	8		31		0		0		0		1		1		2	0		0	// Sylphid Ray Helm
+//	8		32		0		0		0		1		1		2	0		0	// Volcano Ray Helm
+//	8		33		0		0		0		1		1		2	0		0	// Sunlight Mask
+//	8		43		0		0		0		1		1		2	0		0	// Storm Blitz Helm
+//	8		73		0		0		0		1		1		2	0		0	// Phoenix Soul Helm
+//	9		29		0		0		0		1		1		2	0		0	// Dragon Knight 
+//	9		30		0		0		0		1		1		2	0		0	// Venom Mist 
+//	9		31		0		0		0		1		1		2	0		0	// Sylphid Ray 
+//	9		33		0		0		0		1		1		2	0		0	// Sunlight 
+//	8		32		0		0		0		1		1		2	0		0	// Volcano
+//	9		43		0		0		0		1		1		2	0		0	// Storm Blitz 
+//	9		73		0		0		0		1		1		2	0		0	// Phoenix Soul 
+//	10		29		0		0		0		1		1		2	0		0	// Dragon Knight Helm
+//	10		30		0		0		0		1		1		2	0		0	// Venom Mist Helm
+//	10		31		0		0		0		1		1		2	0		0	// Sylphid Ray Helm
+//	10		32		0		0		0		1		1		2	0		0	// Volcano Ray Helm
+//	10		33		0		0		0		1		1		2	0		0	// Sunlight Mask
+//	10		43		0		0		0		1		1		2	0		0	// Storm Blitz Helm
+//	11		29		0		0		0		1		1		2	0		0	// Dragon Knight Helm
+//	11		30		0		0		0		1		1		2	0		0	// Venom Mist Helm
+//	11		31		0		0		0		1		1		2	0		0	// Sylphid Ray Helm
+//	11		32		0		0		0		1		1		2	0		0	// Volcano Ray Helm
+//	11		33		0		0		0		1		1		2	0		0	// Sunlight Mask
+//	11		43		0		0		0		1		1		2	0		0	// Storm Blitz Helm
+//	11		73		0		0		0		1		1		2	0		0	// Phoenix Soul Helm

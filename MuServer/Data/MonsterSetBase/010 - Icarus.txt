@@ -1,0 +1,54 @@
+0
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+600            10             00        010             017            03             //QUEST ICARUS
+end
+
+//=========================================================================================================================================
+// [SPOTS] ICARUS
+//=========================================================================================================================================
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+069            10             4          016            040            016            040          -1             10             //Aquamos
+071            10             4          016            040            016            040          -1             1             //Aquamos
+069            10             4          046            027            046            027          -1             10             //Aquamos
+069            10             4          074            045            074            045          -1             10             //Aquamos
+069            10             4          086            086            086            086          -1             10             //Aquamos
+069            10             4          062            084            062            084          -1             10             //Aquamos
+069            10             4          061            067            061            067          -1             10             //Aquamos
+069            10             4          046            068            046            068          -1             10             //Aquamos
+73            10             4          041            088            041            088          -1             10             //Aquamos
+069            10             4          038            122            038            122          -1             10             //Aquamos
+069            10             4          058            182            058            182          -1             10             //Aquamos
+074            10             4          055            035            055            035          -1             10             //Mega Crust
+070            10             4          088            044            088            044          -1             6             //Queen Rainier
+073            10             4          073            075            073            075          -1             10             //Drakan
+071            10             4          073            075            073            075          -1             1             //Drakan
+073            10             4          051            133            051            133          -1             10             //Drakan
+071            10             4          051            133            051            133          -1             1             //Drakan
+073            10             4          059            158            059            158          -1             10             //Drakan
+074            10             4          035            072            035            072          -1             6             //alpha Crust
+071            10             4          035            072            035            072          -1             1             //alpha Crust
+072            10             4          036            106            036            106          -1             6             //Phantom Knight
+071            10             4          036            106            036            106          -1             1             //Phantom Knight
+072            10             4          047            148            047            148          -1             6             //Phantom Knight
+071            10             4          047            148            047            148          -1             1             //Phantom Knight
+072            10             4          034            034            034            034          -1             10             //Phantom Knight
+071            10             4          034            034            034            034          -1             1             //Phantom Knight
+072            10             4          061            027            061            027          -1             10             //Phantom Knight
+072            10             4          085            037            085            037          -1             10             //Phantom Knight
+071            10             4          085            037            085            037          -1             1             //Phantom Knight
+072            10             4          090            066            090            066          -1             10             //Phantom Knight
+072            10             4          046            194            046            194          -1             10             //Phantom Knight
+073            10             4          052            170            052            170          -1             10             //Phantom Knight
+071            10             4          052            170            052            170          -1             1             //Phantom Knight
+839            10             30         45             127             50          140          -1             1             //Great Drakan
+839            10             30         54             168             44          209          -1             1             //Great Drakan
+839            10             30         36             235             43          239          -1             1             //Great Drakan
+839            10             30         93             51             93           65          -1             1              //Great Drakan
+839            10             30         39             80              60          73           -1             1             //Great Drakan
+839            10             30         78             36              19          32           -1             1             //Great Drakan
+839            10             30         36             34              55          36           -1             1             //Great Drakan
+075            10             4          040            228            040            228          -1             10             //Great Drakan
+071            10             4          040            228            040            228          -1             1             //Great Drakan
+077          10             15         034            223            034            223          -1             1             //Dark Phoenix
+end

@@ -1,0 +1,17 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=========================================================================================================================================
+// Guild						
+//=========================================================================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+1
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+052            113             3          043            077           043          077          -1             0            // Silver Valkyrie
+052            113             3          044            021           044          021          -1             0            // Silver Valkyrie
+end
+

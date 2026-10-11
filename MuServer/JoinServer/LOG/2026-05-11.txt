@@ -1,0 +1,37 @@
+07:15:38 Account hellder logged with global password!
+07:50:48 [ServerManager][0] DelServer (127.0.0.1)
+07:52:27 [SocketManager] Server started at port [55970]
+07:52:33 [ServerManager][0] AddServer (127.0.0.1)
+07:52:33 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+07:52:39 [ServerManager][1] AddServer (127.0.0.1)
+07:52:39 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+07:52:48 [ServerManager][2] AddServer (127.0.0.1)
+07:52:48 [ServerManager][2] ServerInfo (Speed) (55902) (1)
+07:53:02 Account hellder logged with global password!
+08:38:28 Account hellder logged with global password!
+08:39:52 Account hellder logged with global password!
+09:19:24 Account vithor logged with global password!
+09:19:29 Account vithor logged with global password!
+09:20:38 Account hellder logged with global password!
+09:22:31 Account hellder logged with global password!
+09:31:08 Account hellder logged with global password!
+09:32:17 Account hellder logged with global password!
+09:32:41 Account vithor logged with global password!
+09:32:48 Account vithor logged with global password!
+09:35:05 Account vithor logged with global password!
+09:35:09 Account vithor logged with global password!
+09:35:43 Account vithor logged with global password!
+09:44:17 Account hellder logged with global password!
+11:04:46 Account hellder logged with global password!
+12:19:50 Account hellder logged with global password!
+12:21:03 Account hellder logged with global password!
+12:29:18 [SocketManager] Server started at port [55970]
+12:29:27 [ServerManager][0] AddServer (127.0.0.1)
+12:29:27 [ServerManager][0] ServerInfo (Geral) (55901) (0)
+12:29:36 [ServerManager][1] AddServer (127.0.0.1)
+12:29:36 [ServerManager][1] ServerInfo (Geral) (55919) (19)
+12:29:39 Account hellder logged with global password!
+12:29:48 [ServerManager][2] AddServer (127.0.0.1)
+12:29:48 [ServerManager][2] ServerInfo (Speed) (55902) (1)
+21:31:00 [ServerManager][3] AddServer (127.0.0.1)
+21:31:00 [ServerManager][3] ServerInfo (Test) (55903) (2)

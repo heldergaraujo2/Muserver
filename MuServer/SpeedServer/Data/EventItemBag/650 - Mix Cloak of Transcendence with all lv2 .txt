@@ -1,0 +1,51 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Chaos Mix Capes"	0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+12	3	0	0	0	0	0	0	// Wings of Spirits
+12	3	0	0	0	0	0	1	// Wings of Spirits
+12	3	0	0	0	1	0	0	// Wings of Spirits
+12	3	0	0	0	0	1	0	// Wings of Spirits
+12	3	0	0	0	0	0	1	// Wings of Spirits
+12	3	0	0	0	1	1	0	// Wings of Spirits
+12	3	0	0	0	1	1	1	// Wings of Spirits
+12	3	0	0	0	1	1	2	// Wings of Spirits
+12	4	0	0	0	0	0	0	// Wings of Soul
+12	4	0	0	0	0	0	1	// Wings of Soul
+12	4	0	0	0	1	0	0	// Wings of Soul
+12	4	0	0	0	0	1	0	// Wings of Soul
+12	4	0	0	0	0	0	1	// Wings of Soul
+12	4	0	0	0	1	1	0	// Wings of Soul
+12	4	0	0	0	1	1	1	// Wings of Soul
+12	4	0	0	0	1	1	2	// Wings of Soul
+12	5	0	0	0	0	0	0	// Wings of Dragon
+12	5	0	0	0	0	0	1	// Wings of Dragon
+12	5	0	0	0	1	0	0	// Wings of Dragon
+12	5	0	0	0	0	1	0	// Wings of Dragon
+12	5	0	0	0	0	0	1	// Wings of Dragon
+12	5	0	0	0	1	1	0	// Wings of Dragon
+12	5	0	0	0	1	1	1	// Wings of Dragon
+12	5	0	0	0	1	1	2	// Wings of Dragon
+12	6	0	0	0	0	0	0	// Wings of Darkness
+12	6	0	0	0	0	0	1	// Wings of Darkness
+12	6	0	0	0	1	0	0	// Wings of Darkness
+12	6	0	0	0	0	1	0	// Wings of Darkness
+12	6	0	0	0	0	0	1	// Wings of Darkness
+12	6	0	0	0	1	1	0	// Wings of Darkness
+12	6	0	0	0	1	1	1	// Wings of Darkness
+12	6	0	0	0	1	1	2	// Wings of Darkness
+12	42	0	0	0	0	0	0	// Wind of Despair
+12	42	0	0	0	0	0	1	// Wind of Despair
+12	42	0	0	0	1	0	0	// Wind of Despair
+12	42	0	0	0	0	1	0	// Wind of Despair
+12	42	0	0	0	0	0	1	// Wind of Despair
+12	42	0	0	0	1	1	0	// Wind of Despair
+12	42	0	0	0	1	1	1	// Wind of Despair
+12	42	0	0	0	1	1	2	// Wind of Despair
+end

@@ -1,0 +1,240 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Battle Royale"		1000	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+0	3	6	15	1	1	4	1	// Katana
+0	5	6	15	1	1	4	1	// Blade
+0	7	6	15	1	1	4	1	// Falchion
+0	8	6	15	1	1	4	1	// Serpent Sword
+0	9	6	15	1	1	4	1	// Sword of Salamander
+0	11	6	15	1	1	4	1	// Legendary Sword
+0	12	6	15	1	1	4	1	// Heliacal Sword
+0	16	6	15	1	1	4	1	// Sword of Destruction
+0	17	6	15	1	1	4	1	// Dark Breaker
+0	18	6	15	1	1	4	1	// Thunder Blade
+0	20	6	15	1	1	4	1	// Knight Blade
+0	31	6	15	1	1	4	1	// Rune Blade
+0	32	6	15	1	1	4	1	// Sacred Glove
+0	33	6	15	1	1	4	1	// Holly Storm Claws
+0	34	6	15	1	1	4	1	// Piercing Glove
+0	3	6	15	0	1	4	0	// Katana
+0	5	6	15	0	1	4	0	// Blade
+0	7	6	15	0	1	4	0	// Falchion
+0	8	6	15	0	1	4	0	// Serpent Sword
+0	9	6	15	0	1	4	0	// Sword of Salamander
+0	11	6	15	0	1	4	0	// Legendary Sword
+0	12	6	15	0	1	4	0	// Heliacal Sword
+0	16	6	15	0	1	4	0	// Sword of Destruction
+0	17	6	15	0	1	4	0	// Dark Breaker
+0	18	6	15	0	1	4	0	// Thunder Blade
+0	20	6	15	0	1	4	0	// Knight Blade
+0	31	6	15	0	1	4	0	// Rune Blade
+0	32	6	15	0	1	4	0	// Sacred Glove
+0	33	6	15	0	1	4	0	// Holly Storm Claws
+0	34	6	15	0	1	4	0	// Piercing Glove
+2	1	6	15	1	1	4	1	// Morning Star
+2	3	6	15	1	1	4	1	// Great Hammer
+2	4	6	15	1	1	4	1	// Crystal Morning Star
+2	5	6	15	1	1	4	1	// Crystal Sword
+2	6	6	15	1	1	4	1	// Chaos Dragon Axe
+2	7	6	15	1	1	4	1	// Elemental Mace
+2	8	6	15	1	1	4	1	// Battle Scepter
+2	9	6	15	1	1	4	1	// Master Scepter
+2	10	6	15	1	1	4	1	// Great Scepter
+2	11	6	15	1	1	4	1	// Lord Scepter
+2	12	6	15	1	1	4	1	// Great Lord Scepter
+2	13	6	15	1	1	4	1	// Divine Scepter of Archangel
+2	1	6	15	0	1	4	0	// Morning Star
+2	3	6	15	0	1	4	0	// Great Hammer
+2	4	6	15	0	1	4	0	// Crystal Morning Star
+2	5	6	15	0	1	4	0	// Crystal Sword
+2	6	6	15	0	1	4	0	// Chaos Dragon Axe
+2	7	6	15	0	1	4	0	// Elemental Mace
+2	8	6	15	0	1	4	0	// Battle Scepter
+2	9	6	15	0	1	4	0	// Master Scepter
+2	10	6	15	0	1	4	0	// Great Scepter
+2	11	6	15	0	1	4	0	// Lord Scepter
+2	12	6	15	0	1	4	0	// Great Lord Scepter
+2	13	6	15	0	1	4	0	// Divine Scepter of Archangel
+3	0	6	15	1	1	4	1	// Light Spear
+3	6	6	15	1	1	4	1	// Halberd
+3	8	6	15	1	1	4	1	// Great Scythe
+3	9	6	15	1	1	4	1	// Bill of Balrog
+3	10	6	15	1	1	4	1	// Dragon Spear
+3	0	6	15	0	1	4	0	// Light Spear
+3	6	6	15	0	1	4	0	// Halberd
+3	8	6	15	0	1	4	0	// Great Scythe
+3	9	6	15	0	1	4	0	// Bill of Balrog
+3	10	6	15	0	1	4	0	// Dragon Spear
+4	0	6	15	1	1	4	1	// Short Bow
+4	2	6	15	1	1	4	1	// Elven Bow
+4	3	6	15	1	1	4	1	// Battle Bow
+4	4	6	15	1	1	4	1	// Tiger Bow
+4	5	6	15	1	1	4	1	// Silver Bow
+4	6	6	15	1	1	4	1	// Chaos Nature Bow
+4	9	6	15	1	1	4	1	// Golden Crossbow
+4	13	6	15	1	1	4	1	// Bluewing Crossbow
+4	14	6	15	1	1	4	1	// Aquagold Crossbow
+4	17	6	15	1	1	4	1	// Celestial Bow
+4	18	6	15	1	1	4	1	// Divine Crossbow of Archangel
+4	7	1	3	0	0	0	0	// Quiver (Bolt)
+4	15	1	3	0	0	0	0	// Quiver (Arrow)
+4	0	6	15	0	1	4	0	// Short Bow
+4	2	6	15	0	1	4	0	// Elven Bow
+4	3	6	15	0	1	4	0	// Battle Bow
+4	4	6	15	0	1	4	0	// Tiger Bow
+4	5	6	15	0	1	4	0	// Silver Bow
+4	6	6	15	0	1	4	0	// Chaos Nature Bow
+4	9	6	15	0	1	4	0	// Golden Crossbow
+4	13	6	15	0	1	4	0	// Bluewing Crossbow
+4	14	6	15	0	1	4	0	// Aquagold Crossbow
+4	17	6	15	0	1	4	0	// Celestial Bow
+4	18	6	15	0	1	4	0	// Divine Crossbow of Archangel
+4	7	1	3	0	0	0	0	// Quiver (Bolt)
+4	15	1	3	0	0	0	0	// Quiver (Arrow)
+5	0	6	15	0	1	4	1	// Skull Staff
+5	2	6	15	0	1	4	1	// Serpent Staff
+5	3	6	15	0	1	4	1	// Thunder Staff
+5	4	6	15	0	1	4	1	// Gorgon Staff
+5	5	6	15	0	1	4	1	// Legendary Staff
+5	6	6	15	0	1	4	1	// Staff of Resurrection
+5	7	6	15	0	1	4	1	// Chaos Lighting Staff
+5	8	6	15	0	1	4	1	// Staff of Destruction
+5	9	6	15	0	1	4	1	// Dragon Soul Staff
+5	14	6	15	0	1	4	1	// Mystery Stick
+5	15	6	15	0	1	4	1	// Violent Wind Stick
+5	16	6	15	0	1	4	1	// Red Wing Stick
+5	17	6	15	0	1	4	1	// Ancient Stick
+5	18	6	15	0	1	4	1	// Demonic Stick
+5	36	6	15	0	1	4	1	// Divine Stick of Archangel
+5	0	6	15	0	1	4	0	// Skull Staff
+5	2	6	15	0	1	4	0	// Serpent Staff
+5	3	6	15	0	1	4	0	// Thunder Staff
+5	4	6	15	0	1	4	0	// Gorgon Staff
+5	5	6	15	0	1	4	0	// Legendary Staff
+5	6	6	15	0	1	4	0	// Staff of Resurrection
+5	7	6	15	0	1	4	0	// Chaos Lighting Staff
+5	8	6	15	0	1	4	0	// Staff of Destruction
+5	9	6	15	0	1	4	0	// Dragon Soul Staff
+5	14	6	15	0	1	4	0	// Mystery Stick
+5	15	6	15	0	1	4	0	// Violent Wind Stick
+5	16	6	15	0	1	4	0	// Red Wing Stick
+5	17	6	15	0	1	4	0	// Ancient Stick
+5	18	6	15	0	1	4	0	// Demonic Stick
+5	36	6	15	0	1	4	0	// Divine Stick of Archangel
+6	10	6	15	1	1	4	1	// Large Round Shield
+6	11	6	15	1	1	4	1	// Serpent Shield
+6	12	6	15	1	1	4	1	// Bronze Shield
+6	13	6	15	1	1	4	1	// Dragon Shield
+6	14	6	15	1	1	4	1	// Legendary Shield
+6	15	6	15	1	1	4	1	// Grand Soul Shield
+6	16	6	15	1	1	4	1	// Elemental Shield
+6	10	6	15	0	1	4	0	// Large Round Shield
+6	11	6	15	0	1	4	0	// Serpent Shield
+6	12	6	15	0	1	4	0	// Bronze Shield
+6	13	6	15	0	1	4	0	// Dragon Shield
+6	14	6	15	0	1	4	0	// Legendary Shield
+6	15	6	15	0	1	4	0	// Grand Soul Shield
+6	16	6	15	0	1	4	0	// Elemental Shield
+12	0	6	15	0	1	4	1	// Wings of Elf
+12	1	6	15	0	1	4	1	// Wings of Heaven
+12	2	6	15	0	1	4	1	// Wings of Satan
+12	3	6	15	0	1	4	1	// Wings of Spirits
+12	4	6	15	0	1	4	1	// Wings of Soul
+12	5	6	15	0	1	4	1	// Wings of Dragon
+12	6	6	15	0	1	4	1	// Wings of Darkness
+12	41	6	15	0	1	4	1	// Wing of Curse
+12	42	6	15	0	1	4	1	// Wind of Despair
+12	49	6	15	0	1	4	1	// Warrior's Cloak
+13	30	6	15	0	1	4	1	// Cape of Lord
+13	0	0	0	0	0	0	0	// Guardian Angel
+13	1	0	0	0	0	0	0	// Imp
+13	64	0	0	0	0	0	0	// Demon
+13	65	0	0	0	0	0	0	// Spirit of Guardian
+12	7	0	0	0	0	0	0	// Orb of Twisting Slash
+12	8	0	0	0	0	0	0	// Healing Orb
+12	9	0	0	0	0	0	0	// Orb of Greater Defense
+12	10	0	0	0	0	0	0	// Orb of Greater Damage
+12	13	0	0	0	0	0	0	// Orb of Impale
+12	13	0	0	0	0	0	0	// Orb of Impale
+12	14	0	0	0	0	0	0	// Orb of Greater Fortitude
+12	16	0	0	0	0	0	0	// Orb of Fire Slash
+12	17	0	0	0	0	0	0	// Orb of Penetration
+12	18	0	0	0	0	0	0	// Orb of Ice Arrow
+12	19	0	0	0	0	0	0	// Orb of Death Stab
+12	20	0	0	0	0	0	0	// 
+12	23	0	0	0	0	0	0	// Scroll of Critical Damage
+12	35	0	0	0	0	0	0	// Scroll of Fire Scream
+12	7	0	0	0	0	0	0	// Orb of Twisting Slash
+12	8	0	0	0	0	0	0	// Healing Orb
+12	9	0	0	0	0	0	0	// Orb of Greater Defense
+12	10	0	0	0	0	0	0	// Orb of Greater Damage
+12	13	0	0	0	0	0	0	// Orb of Impale
+12	13	0	0	0	0	0	0	// Orb of Impale
+12	14	0	0	0	0	0	0	// Orb of Greater Fortitude
+12	16	0	0	0	0	0	0	// Orb of Fire Slash
+12	17	0	0	0	0	0	0	// Orb of Penetration
+12	18	0	0	0	0	0	0	// Orb of Ice Arrow
+12	19	0	0	0	0	0	0	// Orb of Death Stab
+12	20	0	0	0	0	0	0	// 
+12	23	0	0	0	0	0	0	// Scroll of Critical Damage
+12	35	0	0	0	0	0	0	// Scroll of Fire Scream
+15	0	0	0	0	0	0	0	// Scroll of Poison
+15	1	0	0	0	0	0	0	// Scroll of Meteorite
+15	2	0	0	0	0	0	0	// Scroll of Lighting
+15	3	0	0	0	0	0	0	// Scroll of Fire Ball
+15	4	0	0	0	0	0	0	// Scroll of Flame
+15	5	0	0	0	0	0	0	// Scroll of Teleport
+15	6	0	0	0	0	0	0	// Scroll of Ice
+15	7	0	0	0	0	0	0	// Scroll of Twister
+15	8	0	0	0	0	0	0	// Scroll of Evil Spirit
+15	9	0	0	0	0	0	0	// Scroll of Hellfire
+15	10	0	0	0	0	0	0	// Scroll of Power Wave
+15	11	0	0	0	0	0	0	// Scroll of Aqua Beam
+15	12	0	0	0	0	0	0	// Scroll of Cometfall
+15	13	0	0	0	0	0	0	// Scroll of Inferno
+15	15	0	0	0	0	0	0	// Scroll of Soul Barrier
+15	16	0	0	0	0	0	0	// Scroll of Decay
+15	17	0	0	0	0	0	0	// Scroll of Ice Storm
+15	19	0	0	0	0	0	0	// Chain Lightning Parchment
+15	20	0	0	0	0	0	0	// Drain Life Parchment
+15	21	0	0	0	0	0	0	// Lightning Shock Parchment
+15	22	0	0	0	0	0	0	// Damage Reflection Parchment
+15	23	0	0	0	0	0	0	// Berserker Parchment
+15	24	0	0	0	0	0	0	// Sleep Parchment
+15	26	0	0	0	0	0	0	// Weakness Parchment
+15	27	0	0	0	0	0	0	// Innovation Parchment
+15	28	0	0	0	0	0	0	// Scroll of Wizardry Enhance
+15	29	0	0	0	0	0	0	// Scroll of Gigantic Storm
+15	30	0	0	0	0	0	0	// Chain Driver Parchment
+15	31	0	0	0	0	0	0	// Dark Side Parchment
+15	32	0	0	0	0	0	0	// Dragon Lore Parchment
+15	33	0	0	0	0	0	0	// Dragon Slayer Parchment
+15	34	0	0	0	0	0	0	// Red Armor Ignore Parchment
+15	35	0	0	0	0	0	0	// Fitness Parchment
+15	36	0	0	0	0	0	0	// Defense Rate Parchment
+14	1	0	0	0	0	0	0	// Small Healing Potion
+14	1	0	0	0	0	0	0	// Small Healing Potion
+14	1	0	0	0	0	0	0	// Small Healing Potion
+14	2	0	0	0	0	0	0	// Healing Potion
+14	2	0	0	0	0	0	0	// Healing Potion
+14	2	0	0	0	0	0	0	// Healing Potion
+14	3	0	0	0	0	0	0	// Large Healing Potion
+14	3	0	0	0	0	0	0	// Large Healing Potion
+14	3	0	0	0	0	0	0	// Large Healing Potion
+14	4	0	0	0	0	0	0	// Small Mana Potion
+14	4	0	0	0	0	0	0	// Small Mana Potion
+14	4	0	0	0	0	0	0	// Small Mana Potion
+14	5	0	0	0	0	0	0	// Mana Potion
+14	5	0	0	0	0	0	0	// Mana Potion
+14	5	0	0	0	0	0	0	// Mana Potion
+14	6	0	0	0	0	0	0	// Large Mana Potion
+14	6	0	0	0	0	0	0	// Large Mana Potion
+14	6	0	0	0	0	0	0	// Large Mana Potion
+end

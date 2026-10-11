@@ -1,0 +1,37 @@
+09:22:48 [Obj][13005] AddClient (213.156.149.188)
+09:22:50 [Obj][13005] DelClient (213.156.149.188)
+09:56:07 [FAKE ONLINE LOG] Start
+09:56:07 [ServerInfo] CashShop loaded successfully
+09:56:07 [ServerInfo] ChaosMix loaded successfully
+09:56:07 [ServerInfo] Character loaded successfully
+09:56:07 [FakeOnline] Loaded successfully
+09:56:08 [ServerInfo] Custom loaded successfully
+09:56:08 [ServerInfo] Command loaded successfully
+09:56:08 [ServerInfo] Common loaded successfully
+09:56:08 [ServerInfo] Discord loaded successfully
+09:56:08 [ServerInfo] Effect loaded successfully
+09:56:08 [ServerInfo] Event loaded successfully
+09:56:08 [ServerInfo] EventItemBag loaded successfully
+09:56:08 [ServerInfo] Hack loaded successfully
+09:56:08 [ServerInfo] Item loaded successfully
+09:56:08 [ServerInfo] Message loaded successfully
+09:56:08 [ServerInfo] Map loaded successfully
+09:56:08 [ServerInfo] Terrain loaded successfully
+09:56:08 [ServerInfo] Monster loaded successfully
+09:56:08 [ServerInfo] Move loaded successfully
+09:56:08 [ServerInfo] Quest loaded successfully
+09:56:08 [ServerInfo] Script loaded successfully
+09:56:08 [ServerInfo] Shop loaded successfully
+09:56:08 [ServerInfo] Skill loaded successfully
+09:56:08 [ServerInfo] Util loaded successfully
+09:56:08 [ReadBotInfo] BotSystem loaded successfully
+09:56:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+09:56:08 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+09:56:08 [ServerInfo] Custom Attack offline restored successfully
+09:56:08 [ServerInfo] Custom Store offline restored successfully
+09:56:08 [Discord] Connection successfully
+09:56:09 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+10:10:53 [Obj][13000] AddClient (186.194.50.50)
+10:11:09 [Obj][13000] DelClient (186.194.50.50)
+12:06:41 [Obj][13000] AddClient (177.75.55.116)
+12:06:42 [Obj][13000] DelClient (177.75.55.116)

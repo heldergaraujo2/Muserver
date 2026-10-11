@@ -1,0 +1,21 @@
+0
+//Section   Type   Level   Dur   Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5  SocketBonus  Duration
+	14	     1	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Healing Potion
+	14	     2	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Healing Potion
+	14	     3	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Healing Potion
+	14	     4	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Small Mana Potion
+	14	     5	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Mana Potion
+	14	     6	     0	   255	   0	  0	      0	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	7	     0	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	8	     0	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	9	     0	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	10	     0	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	11	     0	     0	   255	   0	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	0	     4	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	6	     4	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	12	     16	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	12	     47	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	15	     29	     0	   255	   1	  0	      1	       0	  0	     0	 0	255	255	255	255	255	 255	      0  	//Large Mana Potion
+	
+	
+end

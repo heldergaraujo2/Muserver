@@ -1,0 +1,8 @@
+12:14:38 [SETCOIN LOG] Start
+12:49:57 [pvp02][PVPRF] WZ_SetCoin(ExclusiveGlow) Val1: -100, Val2: 0, Val3: 0
+12:50:00 [pvp02][PVPRF] WZ_SetCoin(ExclusiveGlow) Val1: -100, Val2: 0, Val3: 0
+12:50:02 [pvp02][PVPRF] WZ_SetCoin(ExclusiveGlow) Val1: -100, Val2: 0, Val3: 0
+12:50:04 [pvp02][PVPRF] WZ_SetCoin(ExclusiveGlow) Val1: -100, Val2: 0, Val3: 0
+14:57:32 [hellder][Saffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 10
+15:00:01 [hellder][Saffe] WZ_SetCoin(Lottery) Val1: 25, Val2: 0, Val3: 0
+15:03:36 [videodv][AdmSaffe] WZ_SetCoin(OnlineReward) Val1: 0, Val2: 0, Val3: 5

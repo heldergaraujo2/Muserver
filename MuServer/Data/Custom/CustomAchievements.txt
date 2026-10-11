@@ -1,0 +1,110 @@
+// Custom Achievements by louis
+
+// Bonus Configuration (DON'T CHANGE THE BONUS INDEX)
+0
+// Index   Enable   MaxLevel   CostPoints  PointsByLevel
+   0       1        5          1           100            //Increase HP
+   1       1        5          2           5              //Increase Experience Rate
+   2       1        5          3           10             //Increase Base Defense Value
+   3       1        5          1           1              //Increase Full Damage Reflect Rate
+   4       1        5          1           1              //Increase Critical Damage Rate
+   5       1        5          2           1              //Increase Excellent Damage Rate
+   6       1        5          1           1              //Increase Double Damage
+   7       1        5          1           1              //Increase Triple Damage
+   8       1        5          1           1              //Increase Ignore Defense Rate
+   9       1        5          1           1              //Resist Critical Damage Rate
+   10      1        5          1           1              //Resist Excellent Damage Rate
+   11      1        5          1           1              //Resist Double Damage
+   12      1        5          1           1              //Resist Triple Damage
+   13      1        5          1           1              //Resist Ignore Defense
+   14      1        5          1           1              //Increase Weapon Durability Rate
+   15      1        5          1           1              //Increase Armor Durability Rate
+   16      1        5          1           1              //Increase Guardian Durability Rate(Pet/Custom Pet)
+   17      1        5          1           1              //Increase Offensive Full HP Restore Rate
+   18      1        5          1           1              //Increase Defensive Full HP Restore Rate
+   19      1        5          1           1              //Resist Stun Rate
+end
+
+// General Achievements
+//  Index:
+//  0- Custom Quest
+//  1- Custom Npc Quest
+//  2- Playing time(Minutes)
+//  3- Reset
+//  4- Master Reset
+//  5- Complete Blood Castle
+//  6- Complete Devil Square
+//  7- Complete Chaos Castle
+//  8- Win Guild War/Battle soccer
+//  9- Success Chaos Mix
+//  10-Failed Chaos Mix
+//  11-Pick up Zen
+//  12-PvP
+//  13-PvM
+//  14-Gift Code Redeem
+//  15-Custom Luck Wheel spins
+//  16-Kill Golden mobs
+//  17-Kill on self-defense
+//  18-Kill a PK
+//  19-Duel Win
+1
+// Index   Count   PointByLevel   MaxLevel
+   0       10      1              5
+   1       10      1              5
+   2       10      2              5
+   3       10      1              5
+   4       10      1              5
+   5       10      1              5
+   6       10      1              5
+   7       10      1              5
+   8       10      1              5
+   9       10      1              5
+   10      10      1              5
+   11      1000000000     1              5
+   12      10      1              5
+   13      10      1              5
+   14      10      1              5
+   15      10      1              5
+   16      10      1              5
+   17      10      1              5
+   18      10      1              5
+   19      10      1              5
+end
+
+// Monster Achievements (Max 20)
+2
+// Index   MonsterIndex   MonsterCount   PointByLevel   MaxLevel
+   0       03            10             1              5
+   1       03            10             1              5
+   2       03            10             1              5
+   3       03            10             1              5
+   4       03            10             1              5
+   5       03            10             1              5
+   6       03            10             1              5
+   7       03            10             1              5
+   8       03            10             1              5
+   9       03            10             1              5
+   10      03            10             1              5
+   11      03            10             1              5
+end
+
+// Consumibles/Drop/Get Achievements (Max 20)
+// Type:
+// 1 - ItemUse (jewels use on items)
+// 2 - Drop (Like event item bag)
+// 3 - Pick (All items type)
+3
+// Index   Type   ItemIndex   ItemLevel   ItemCount   PointByLevel   MaxLevel
+   0       1      7181        *           10          3              5    
+   1       1      7182        *           10          1              5
+   2       3      7181        *           10          1              5
+   3       3      7182        *           10          1              5
+   4       3      0005        11          10          1              5
+   5       2      7168        *           10          1              5
+   6       2      7179        8           10          1              5
+   7       2      7179        9           10          1              5
+   8       2      7179        10          10          1              5
+   9       2      7179        11          10          1              5
+   10      2      7179        12          10          1              5
+end
+

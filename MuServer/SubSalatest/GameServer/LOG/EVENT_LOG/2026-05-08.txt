@@ -1,0 +1,103 @@
+00:13:24 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:28:25 [ MarlonMove ] Map: 7, X: 17 Y: 25
+00:35:00 [CustomQuiz] Start
+00:40:00 [CustomQuiz] Finish
+00:43:26 [ MarlonMove ] Map: 0, X: 137 Y: 87
+00:58:27 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:13:28 [ MarlonMove ] Map: 0, X: 137 Y: 87
+01:28:29 [ MarlonMove ] Map: 2, X: 198 Y: 47
+01:35:00 [CustomQuiz] Start
+01:39:35 [Guild Reign] DataLoad Send
+01:39:35 [Guild Reign] DataLoad OK
+01:39:35 [Guild Reign] Map(6) Start Npc Error #2
+01:39:35 [Guild Reign] Map(113) Start Npc Error #2
+01:43:30 [ MarlonMove ] Map: 3, X: 169 Y: 89
+01:58:31 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:13:32 [ MarlonMove ] Map: 2, X: 198 Y: 47
+02:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+02:28:33 [ MarlonMove ] Map: 3, X: 169 Y: 89
+02:35:00 [CustomQuiz] Start
+02:40:00 [CustomQuiz] Finish
+02:43:34 [ MarlonMove ] Map: 0, X: 137 Y: 87
+02:58:35 [ MarlonMove ] Map: 7, X: 17 Y: 25
+03:13:36 [ MarlonMove ] Map: 3, X: 169 Y: 89
+03:28:37 [ MarlonMove ] Map: 0, X: 137 Y: 87
+03:35:00 [CustomQuiz] Start
+03:40:00 [CustomQuiz] Finish
+03:43:38 [ MarlonMove ] Map: 2, X: 198 Y: 47
+03:58:39 [ MarlonMove ] Map: 7, X: 17 Y: 25
+04:13:40 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:28:41 [ MarlonMove ] Map: 7, X: 17 Y: 25
+04:35:00 [CustomQuiz] Start
+04:40:00 [CustomQuiz] Finish
+04:43:42 [ MarlonMove ] Map: 2, X: 198 Y: 47
+04:58:43 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:13:44 [ MarlonMove ] Map: 0, X: 137 Y: 87
+05:28:45 [ MarlonMove ] Map: 3, X: 169 Y: 89
+05:35:00 [CustomQuiz] Start
+05:40:00 [CustomQuiz] Finish
+05:43:46 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:35:46 [EVENT LOG] Start
+16:35:48 [Guild Reign] DataLoad Send
+16:35:48 [Guild Reign] DataLoad OK
+16:35:48 [Guild Reign] Map(6) Start Npc Error #2
+16:35:48 [Guild Reign] Map(113) Start Npc Error #2
+16:50:48 [ MarlonMove ] Map: 7, X: 17 Y: 25
+17:05:49 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:20:50 [ MarlonMove ] Map: 2, X: 198 Y: 47
+17:35:00 [CustomQuiz] Start
+17:35:43 [CustomQuiz] Winner: PVPMG
+17:35:43 [CustomQuiz] Finish
+17:35:51 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:50:52 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:05:53 [ MarlonMove ] Map: 0, X: 137 Y: 87
+18:20:54 [ MarlonMove ] Map: 7, X: 17 Y: 25
+18:35:00 [CustomQuiz] Start
+18:35:55 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:40:00 [CustomQuiz] Finish
+18:50:56 [ MarlonMove ] Map: 7, X: 17 Y: 25
+19:05:57 [ MarlonMove ] Map: 2, X: 198 Y: 47
+19:20:58 [ MarlonMove ] Map: 7, X: 17 Y: 25
+19:35:00 [CustomQuiz] Start
+19:35:59 [ MarlonMove ] Map: 3, X: 169 Y: 89
+19:40:00 [CustomQuiz] Finish
+19:51:00 [ MarlonMove ] Map: 0, X: 137 Y: 87
+20:06:01 [ MarlonMove ] Map: 2, X: 198 Y: 47
+20:21:02 [ MarlonMove ] Map: 3, X: 169 Y: 89
+20:35:00 [CustomQuiz] Start
+20:36:03 [ MarlonMove ] Map: 2, X: 198 Y: 47
+20:40:00 [CustomQuiz] Finish
+20:50:00 [Pandora Event] Started (Map: Atlans X: 231, Y: 64)
+20:51:04 [ MarlonMove ] Map: 7, X: 17 Y: 25
+20:55:00 [Pandora Event] Finished (No Winner)
+21:06:05 [ MarlonMove ] Map: 3, X: 169 Y: 89
+21:21:06 [ MarlonMove ] Map: 7, X: 17 Y: 25
+21:35:00 [CustomQuiz] Start
+21:36:07 [ MarlonMove ] Map: 0, X: 137 Y: 87
+21:40:00 [CustomQuiz] Finish
+21:51:08 [ MarlonMove ] Map: 2, X: 198 Y: 47
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 0 X: 150 Y: 127)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 23 Y: 17)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 20 Y: 60)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 49 Y: 94)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 103 Y: 51)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 236 Y: 18)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 230 Y: 71)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 83 Y: 143)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 147 Y: 168)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 176 Y: 177)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 124 Y: 206)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 28 Y: 228)
+22:06:09 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:21:10 [ MarlonMove ] Map: 0, X: 137 Y: 87
+22:35:00 [CustomQuiz] Start
+22:36:11 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:40:00 [CustomQuiz] Finish
+22:51:12 [ MarlonMove ] Map: 0, X: 137 Y: 87
+23:06:13 [ MarlonMove ] Map: 2, X: 198 Y: 47
+23:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+23:21:14 [ MarlonMove ] Map: 7, X: 17 Y: 25
+23:35:00 [CustomQuiz] Start
+23:36:15 [ MarlonMove ] Map: 2, X: 198 Y: 47
+23:40:00 [CustomQuiz] Finish
+23:51:16 [ MarlonMove ] Map: 0, X: 137 Y: 87

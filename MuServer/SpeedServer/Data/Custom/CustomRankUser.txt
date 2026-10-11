@@ -1,0 +1,49 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//=================================================================================================================
+//-- Definições do Ranking
+//=================================================================================================================
+//  RankIndex ->  Index do Ranking
+//  Name      ->  Titulo do Rank
+//  ResetMin  ->  Minimo de Resets para determinado Rank
+//  ResetMin  ->  Maximo de Resets para determinado Rank
+//  Cash      ->  Premiação em Cash ao antigir a patente
+//  Gold      ->  Premiação em Gold ao antigir a patente
+//  PcPoint   ->  Premiação em PcPoint ao antigir a patente
+//=================================================================================================================
+//-- Obs: Obrigatorio o Ultimo Rank o ResetMax ter o valor (-1)
+// -- CONFIRA EM IMAGEM : https://forum.season6.mudarkspace.com.br/showthread.php?tid=209&pid=229#pid229
+//=================================================================================================================
+
+//=================================================================================================================
+//     #RankIndex        #Name            		#ResetMin        #ResetMax        #WC       #WP          #GP		 
+//=================================================================================================================
+0
+            0            "Noob"             	1                 200               05         0           0		
+            1            "Recruta"          		201               400               10         0           0	
+            2            "Soldado"        	 	401               600               10         0           0	
+            3            "Desbravador"            	601               800               10         0           0	
+            4            "Especialista"         801               1000              10         0           0	
+            5            "Cabo"           		1001              1200              10         0           0	
+            6            "Sagento"           	1201              1400              10         0           0	
+            7            "Comandante"          	1401              1600              10         0           0	
+            8            "Intendente"           1601              1800              10         0           0	
+            9            "Aspirante"            1801              2000              10         0           0	
+            10           "Subtenente"           2001              2200              10         0           0	
+            11           "Tenente"          	2201              2400              15         0           0	
+            12           "Feneral"            	2401              2600              15         0           0	
+            13           "Capitão"      		2601              2800              15         0           0	
+            14           "Corenel"         		2801              3000              15         0           0	
+            15           "Marechal"             3001              3200              15         0           0	
+            16           "Major"                3201              3400              15         0           0	
+            17           "Morrigan"             3401              3600              15         0           0	
+            18           "Warface"              3601              3800              15         0           0	
+            19           "Invencível"           3801              3999              15         0           0	
+            20           "Supremo"              4000             -1               15         0           0
+/////21           "GodOfWar"            	2000             -1               15         0           0
+end

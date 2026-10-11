@@ -1,0 +1,67 @@
+08:38:12 [CommandMake][videodv][AdmSaffe] Section: 5, Type: 12, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:39:03 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+08:42:53 [CommandReAdd][videodv][AdmSaffe] - OK
+08:42:58 [CommandAddPoint][videodv][AdmSaffe] - (Type: 0, Amount: 1000)
+08:43:02 [CommandAddPoint][videodv][AdmSaffe] - (Type: 1, Amount: 5000)
+08:43:04 [CommandAddPoint][videodv][AdmSaffe] - (Type: 2, Amount: 1000)
+08:43:06 [CommandAddPoint][videodv][AdmSaffe] - (Type: 3, Amount: 5000)
+08:43:14 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+08:43:35 [CommandAddPoint][videodv][AdmSaffe] - (Type: 0, Amount: 1700)
+08:43:50 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+08:44:34 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+08:46:49 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+08:54:04 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+09:04:52 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:06:18 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:08:27 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:14:32 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+09:19:28 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 54, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+09:19:43 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 54, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+09:20:01 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 54, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+09:20:27 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+09:40:37 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+09:41:00 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:43:46 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 401)
+09:47:19 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:47:38 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+09:48:16 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:48:32 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 400)
+09:52:38 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+09:54:18 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:54:27 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 400)
+09:58:40 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:58:45 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+09:58:57 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:01:05 [CustomMove][hellder][Saffe] - (MoveIndex: 121)
+10:05:24 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:11:14 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+10:13:56 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:14:58 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 119)
+10:16:37 [CustomMove][videodv][AdmSaffe] - (MoveIndex: 121)
+10:17:34 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:28:24 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 240)
+10:32:13 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 390)
+10:39:32 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:39:41 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 398)
+10:41:42 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 398)
+10:41:45 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 398)
+10:42:32 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 399)
+10:42:41 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 400)
+10:42:47 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 400)
+10:43:31 [CommandTrace][hellder][Saffe] - (Name: AdmSaffe)
+10:44:22 [CommandTrack][hellder][Saffe] - (Name: AdmSaffe)
+10:44:53 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 398)
+10:53:24 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 400)
+11:35:50 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 33, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:35:55 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 30, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:02 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:07 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:09 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:12 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:15 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 30, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:36:58 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 38, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+11:37:03 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 37, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+13:27:00 [CommandTrack][videodv][AdmSaffe] - (Name: Saffe)
+18:26:29 [CommandHide][hellder][Saffe] - (State: 1)
+19:17:34 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 5, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:17:48 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 4, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

@@ -1,0 +1,27 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Chaos Mix Capes"	0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+13	30	0	0	0	0	0	0	// Cape of Lord
+13	30	0	0	0	0	0	1	// Cape of Lord
+13	30	0	0	0	1	0	0	// Cape of Lord
+13	30	0	0	0	0	1	0	// Cape of Lord
+13	30	0	0	0	0	0	1	// Cape of Lord
+13	30	0	0	0	1	1	0	// Cape of Lord
+13	30	0	0	0	1	1	1	// Cape of Lord
+13	30	0	0	0	1	1	2	// Cape of Lord
+12	49	0	0	0	0	0	0	// Warrior's Cloak
+12	49	0	0	0	0	0	1	// Warrior's Cloak
+12	49	0	0	0	1	0	0	// Warrior's Cloak
+12	49	0	0	0	0	1	0	// Warrior's Cloak
+12	49	0	0	0	0	0	1	// Warrior's Cloak
+12	49	0	0	0	1	1	0	// Warrior's Cloak
+12	49	0	0	0	1	1	1	// Warrior's Cloak
+12	49	0	0	0	1	1	2	// Warrior's Cloak
+end

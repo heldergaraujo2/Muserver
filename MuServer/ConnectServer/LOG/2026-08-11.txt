@@ -1,0 +1,39 @@
+11:46:20 [SocketManager] Protocol header error (Index: 44, Header: 47)
+14:07:20 [SocketManager] Protocol header error (Index: 12, Header: 47)
+14:07:21 [SocketManager] Protocol header error (Index: 2, Header: 16)
+14:50:09 [SocketManager] Protocol header error (Index: 19, Header: 47)
+15:51:44 [SocketManager] Protocol header error (Index: 21, Header: 47)
+15:51:44 [SocketManager] Protocol header error (Index: 49, Header: 47)
+15:51:44 [SocketManager] Protocol header error (Index: 25, Header: 47)
+15:52:50 [SocketManager] Protocol header error (Index: 3, Header: 47)
+15:52:50 [SocketManager] Protocol header error (Index: 7, Header: 47)
+16:15:42 [SocketManager] Protocol header error (Index: 10, Header: 47)
+16:15:43 [SocketManager] Protocol header error (Index: 12, Header: 47)
+16:15:45 [SocketManager] Protocol header error (Index: 3, Header: 42)
+16:15:47 [SocketManager] Protocol header error (Index: 19, Header: 45)
+16:15:49 [SocketManager] Protocol header error (Index: 30, Header: 45)
+18:28:30 [ServerList] GameServer offline (GameServer) (0)
+18:28:41 [SocketManager] Server started at port [44406]
+18:28:41 [ServerList] ServerList loaded successfully
+18:28:41 [ServerList] GameServer online (GameServer) (2)
+18:28:44 [ServerList] JoinServer online
+18:28:52 [SocketManager] Protocol header error (Index: 2, Header: e0)
+18:28:53 [SocketManager] Protocol header error (Index: 0, Header: e0)
+18:28:54 [SocketManager] Protocol header error (Index: 3, Header: e2)
+18:28:56 [ServerList] GameServer online (GameServerCS) (19)
+18:29:15 [SocketManager] Server started at port [44406]
+18:29:15 [ServerList] ServerList loaded successfully
+18:29:16 [ServerList] GameServer online (GameServer) (2)
+18:29:19 [ServerList] JoinServer online
+18:29:24 [SocketManager] Protocol header error (Index: 37, Header: e2)
+18:29:25 [ServerList] GameServer online (GameServer) (0)
+18:29:29 [SocketManager] Protocol header error (Index: 36, Header: e2)
+18:29:31 [ServerList] GameServer online (GameServerCS) (19)
+18:29:34 [SocketManager] Protocol header error (Index: 16, Header: e2)
+21:02:42 [SocketManager] Server started at port [44406]
+21:02:42 [ServerList] ServerList loaded successfully
+21:02:43 [ServerList] GameServer online (GameServer) (2)
+21:02:45 [ServerList] JoinServer online
+21:02:52 [ServerList] GameServer online (GameServer) (0)
+21:02:58 [ServerList] GameServer online (GameServerCS) (19)
+22:41:42 [SocketManager] WSARecv() failed with error: 10053

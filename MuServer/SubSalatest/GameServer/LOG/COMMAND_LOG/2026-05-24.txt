@@ -1,0 +1,21 @@
+21:08:03 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [videodv][AdmSaffe] (Buff: 1)
+21:08:06 [CommandSetBuff][videodv][AdmSaffe] - DelBuff [videodv][AdmSaffe] (Buff: 2)
+21:08:19 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:08:23 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 233, Level: 13, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:08:37 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:08:39 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:08:42 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:08:45 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 233, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:09:10 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:09:46 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 750)
+21:09:53 [CommandSetLevel][videodv][AdmSaffe] - (Player: AdmSaffe,Level: 450)
+21:11:49 [Command Clear Iventory] Use for:[hellder][Saffe]
+21:18:51 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+21:18:58 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:19:01 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:19:04 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:19:43 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:19:45 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 232, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:21:56 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 38, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:22:04 [CommandMake][videodv][AdmSaffe] Section: 12, Type: 37, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:22:39 [CommandMake][hellder][Saffe] Section: 12, Type: 5, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]

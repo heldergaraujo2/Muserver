@@ -1,0 +1,619 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// MAX 5000
+//
+// Groups
+// 0 - Swords
+// 1 - Axes
+// 2 - Scepters
+// 3 - Spears
+// 4 - Bows
+// 5 - Staffs
+// 6 - Shield
+// 7 - Helms
+// 8 - Armors
+// 9 - Pants
+// 10- Gloves
+// 11- Boots
+// 12- Others1
+// 13- Others2
+// 14- Others3
+
+//ItemIndex   ItemGroup    ItemPosX   ItemPosY   ItemScale
+0000          0            0          0          1.0  //Kris
+0001          0            0          0          1.0  //Short Sword
+0002          0            0          0          1.0  //Rapier
+0003          0            0          0          1.0  //Katana
+0004          0            0          0          1.0  //Sword of Assassin
+0005          0            0          0          1.0  //Blade
+0006          0            0          0          1.0  //Gladius
+0007          0            0          0          1.0  //Falchion
+0008          0            0          0          1.0  //Serpent Sword
+0009          0            0          0          1.0  //Sword of Salamander
+0010          0            0          0          1.0  //Light Saber
+0011          0            0          0          1.0  //Legendary Sword
+0012          0            0          0          1.0  //Heliacal Sword
+0013          0            0          0          1.0  //Double Blade
+0014          0            0          0          1.0  //Lighting Sword
+0015          0            0          0          1.0  //Giant Sword
+0016          0            0          0          1.0  //Sword of Destruction
+0017          0            0          0          1.0  //Dark Breaker
+//0018          0            0          0          1.0  //Thunder Blade
+//0019          0            0          0          1.0  //Divine Sword of Archangel
+//0020          0            0          0          1.0  //Knight Blade
+//0021          0            0          0          1.0  //Dark Reign Blade
+//0022          0            0          0          1.0  //Bone Blade
+//0023          0            0          0          1.0  //Explosion Blade
+//0024          0            0          0          1.0  //Daybreak
+//0025          0            0          0          1.0  //Sword Dancer
+//0026          0            0          0          1.0  //Flameberge
+//0027          0            0          0          1.0  //Sword Breaker
+//0028          0            0          0          1.0  //Rune Bastard Sword
+//0029          0            0          0          1.0  //Sonic Blade
+//0030          0            0          0          1.0  //Asura
+//0031          0            0          0          1.0  //Rune Blade
+0032          0            0          -10        1.0  //Sacred Glove
+//0033          0            0          -10        1.0  //Holly Storm Claws
+//0034          0            0          -10        1.0  //Piercing Glove
+//0035          0            0          -10        1.0  //Phoenix Soul Star
+//0037          0            0          0          1.0  //Blast Break
+//0042          0            0          0          1.0  //Bloodangel Sword
+//0044          0            0          0          1.0  //Bloodangel Magic Sword
+//0100          0            0          0          1.0  //Bloodangel Claw
+// 2 - Scepters
+1024          2            0          0          1.0  //Mace                      
+1025          2            0          0          1.0  //Morning Star             
+1026          2            0          0          1.0  //Flail                     
+1027          2            0          0          1.0  //Great Hammer
+1028          2            0          0          1.0  //Crystal Morning Star
+1029          2            0          0          1.0  //Crystal Sword
+//1030          2            0          0          1.0  //Chaos Dragon Axe
+//1031          2            0          0          1.0  //Elemental Mace
+1032          2            0          0          1.0  //Battle Scepter
+1033          2            0          0          1.0  //Master Scepter
+//1034          2            0          0          1.0  //Great Scepter
+//1035          2            0          0          1.0  //Lord Scepter
+//1036          2            0          0          1.0  //Great Lord Scepter
+//1037          2            0          0          1.0  //Divine Scepter of Archangel
+//1038          2            0          0          1.0  //Soleil Sceptor         
+//1039          2            0          0          1.0  //Shining Scepter          
+//1040          2            0          0          1.0  //Frost Mace
+//1041          2            0          0          1.0  //Absolute Scepter
+//1042          2            0          0          1.0  //Striker Scepter
+//1043          2            0          0          1.0  //Thunderbolt
+//1044          2            0          0          1.0  //Horn of Steal
+//1046          2            0          0          1.0  //Bloodangel Scepter
+// 3 - Spears
+1536          3            0          0          1.0  //Light Spear
+1537          3            0          0          1.0  //Spear
+1538          3            0          0          1.0  //Dragon Lance
+1539          3            0          0          1.0  //Giant Trident
+1540          3            0          0          1.0  //Serpent Spear
+1541          3            0          0          1.0  //Double Poleaxe
+1542          3            0          0          1.0  //Halberd
+1543          3            0          0          1.0  //Berdysh
+1544          3            0          0          1.0  //Great Scythe
+1545          3            0          0          1.0  //Bill of Balrog
+//1546          3            0          0          1.0  //Dragon Spear
+//1547          3            0          0          1.0  //Brova
+//1548          3            0          0          1.0  //Magmus Peer
+//1549          3            0          0          1.0  //Lapid Lance
+//1550          3            0          0          1.0  //Conmocion Lance
+//1551          3            0          0          1.0  //Pluma Lance
+//1552          3            0          0          1.0  //Vis Lance
+//1553          3            0          0          1.0  //Prickle Lance
+//1554          3            0          0          1.0  //Alacran Lance
+// 4 - Bows
+2048          4            0          -6         1.0  //Short Bow
+2049          4            0          -9         1.0  //Bow
+2050          4            0          -12        1.0  //Elven Bow
+2051          4            0          -10        1.2  //Battle Bow
+2052          4            0          -12        1.2  //Tiger Bow
+2053          4            0          -10        1.3  //Silver Bow
+//2054          4            0          -9         1.4  //Chaos Nature Bow
+2056          4            0          -2         1.0  //Crossbow
+2057          4            0          0          1.0  //Golden Crossbow
+2058          4            0          -3         1.0  //Arquebus
+2059          4            0          0          1.0  //Light Crossbow
+2060          4            0          0          1.0  //Serpent Crossbow
+2061          4            0          0          1.0  //Bluewing Crossbow
+2062          4            0          0          1.0  //Aquagold Crossbow
+2064          4            0          0          1.0  //Saint Crossbow
+2065          4            0          -12        1.2  //Celestial Bow
+//2066          4            0          0          1.0  //Divine Crossbow of Archangel
+//2067          4            0          0          1.0  //Great Reign Crossbow
+//2068          4            0          -3         1.2  //Arrow Viper Bow
+//2069          4            0          0          1.0  //Sylph Wind Bow
+//2070          4            0          0          1.0  //Albatross Bow
+//2071          4            0          0          1.0  //Dark Stinger
+//2072          4            0          0          1.0  //Aileen Bow
+//2073          4            0          0          1.0  //Angelic Bow
+//2074          4            0          0          1.0  //Devil Crossbow
+//2076          4            0          0          1.0  //Bloodangel Bow
+// 5 - Staffs
+2560          5            0          -5         1.0  //Skull Staff
+2561          5            0          -5         1.0  //Angelic Staff
+2562          5            0          0          1.0  //Serpent Staff
+2563          5            0          0          1.0  //Thunder Staff
+2564          5            0          0          1.0  //Gorgon Staff
+2565          5            0          0          1.0  //Legendary Staff
+2566          5            0          0          1.0  //Staff of Resurrection
+//2567          5            0          0          1.0  //Chaos Lighting Staff
+2568          5            0          -8         1.3  //Staff of Destruction
+//2569          5            0          0          1.0  //Dragon Soul Staff
+//2570          5            0          0          1.0  //Divine Staff of Archangel
+//2571          5            0          0          1.0  //Staff of Kundun
+//2572          5            0          0          1.0  //Grand Viper Staff
+//2573          5            0          0          1.0  //Platina Staff
+2574          5            0          0          1.0  //Mystery Stick
+2575          5            0          0          1.0  //Violent Wind Stick
+2576          5            0          0          1.0  //Red Wing Stick
+2577          5            0          0          1.0  //Ancient Stick
+//2578          5            0          0          1.0  //Demonic Stick
+//2579          5            0          0          1.0  //Storm Blitz Stick
+//2580          5            0          0          1.0  //Lilium Stick
+2581          5            0          -8         1.0  //Book of Samut
+//2582          5            0          -8         1.0  //Book of Neil
+//2583          5            0          -8         1.0  //Book of Lagle
+//2590          5            0          0          1.0  //Deadly Staff
+//2591          5            0          0          1.0  //Inberial Staff
+//2592          5            0          0          1.0  //Summon Spirit Stick
+//2593          5            0          0          1.0  //Chromatic Staff
+//2594          5            0          0          1.0  //Raven Stick
+//2595          5            0          0          1.0  //Miracle Staff
+//2596          5            0          0          1.0  //Divine Stick of Archangel
+//2597          5            0          0          1.0  //Spite Staff
+//2601          5            0          -8         1.2  //Bloodangel Staff
+//2603          5            0          -8         1.2  //Bloodangel Stick
+//2620          5            0          -13        0.8  //Book of Bloodangel
+// 6 - Shield
+3072          6            0          -5         1.0  //Small Shield
+3073          6            0          -5         1.0  //Horn Shield
+3074          6            0          -5         1.0  //Kite Shield
+3075          6            0          -7         1.0  //Elven Shield
+3076          6            0          -7         1.0  //Buckler
+3077          6            0          -9         1.0  //Dragon Slayer Shield
+3078          6            0          -5         1.0  //Skull Shield
+3079          6            0          -5         1.0  //Spiked Shield
+3080          6            0          -7         1.0  //Tower Shield
+3081          6            0          -7         1.0  //Plate Shield
+3082          6            0          -8         1.0  //Large Round Shield
+3083          6            0          -7         1.0  //Serpent Shield
+3084          6            0          -11        1.0  //Bronze Shield
+//3085          6            0          -5         1.0  //Dragon Shield
+//3086          6            0          -5         1.0  //Legendary Shield
+//3087          6            0          -5         1.0  //Grand Soul Shield
+//3088          6            0          -2         1.0  //Elemental Shield
+//3089          6            0          -13        1.0  //Crimson Glory
+//3090          6            0          -9         1.0  //Salamander Shield
+//3091          6            0          -9         1.0  //Frost Barrier
+//3092          6            0          -9         1.0  //Guardian Shield
+//3093          6            0          -11        1.0  //Cross Shield
+//3094          6            0          -9         1.0  //Lazy Wind Shield
+//3095          6            0          -9         1.0  //Light Lord Shield
+//3096          6            0          -12        1.0  //Dark Devil Shield
+//3097          6            0          -13        1.0  //Magic Knight Shield
+//3098          6            0          -13        1.0  //Ambition Shield
+//3102          6            0          -13        1.0  //Bloodangel Shield
+// 7 - Helms
+3584          7            0          0          1.0  //Bronze Helm          
+3585          7            0          0          1.0  //Dragon Helm          
+3586          7            0          0          1.0  //Pad Helm             
+3587          7            0          0          1.0  //Legendary Helm       
+3588          7            0          0          1.0  //Bone Helm            
+3589          7            0          0          1.0  //Leather Helm         
+3590          7            0          0          1.0  //Scale Helm           
+3591          7            0          0          1.0  //Sphinx Mask          
+3592          7            0          0          1.0  //Brass Helm           
+3593          7            0          0          1.0  //Plate Helm           
+3594          7            0          0          1.0  //Vine Helm            
+3595          7            0          0          1.0  //Silk Helm            
+3596          7            0          0          1.0  //Wind Helm            
+3597          7            0          0          1.0  //Spirit Helm          
+3598          7            0          0          1.0  //Guardian Helm        
+3600          7            0          0          1.0  //Black Dragon Helm    
+3601          7            0          0          1.0  //Dark Phoenix Helm    
+3602          7            0          0          1.0  //Grand Soul Helm      
+3603          7            0          0          1.0  //Divine Helm          
+//3605          7            0          0          1.0  //Great Dragon Helm    
+//3606          7            0          0          1.0  //Dark Soul Helm       
+//3608          7            0          0          1.0  //Red Spirit Helm      
+3609          7            0          0          1.0  //Light Plate Mask     
+3610          7            0          0          1.0  //Adamantine Mask      
+//3611          7            0          0          1.0  //Dark Steel Mask      
+//3612          7            0          0          1.0  //Dark Master Mask     
+//3613          7            0          0          1.0  //Dragon Knight Helm   
+//3614          7            0          0          1.0  //Venom Mist Helm      
+//3615          7            0          0          1.0  //Sylphid Ray Helm     
+//3617          7            0          0          1.0  //Sunlight Mask        
+3618          7            0          0          1.0  //Ashcrow Helm         
+3619          7            0          0          1.0  //Eclipse Helm         
+3620          7            0          0          1.0  //Iris Helm            
+3622          7            0          0          1.0  //Glorious Mask        
+3623          7            0          0          1.0  //Violent Wind Helm    
+3624          7            0          0          1.0  //Red Wing Helm        
+3625          7            0          0          1.0  //Ancient Helm         
+//3626          7            0          0          1.0  //Demonic Helm         
+//3627          7            0          0          1.0  //Storm Blitz Helm     
+//3628          7            0          0          1.0  //Lilium Helm          
+//3629          7            0          0          1.0  //Titan Helm           
+//3630          7            0          0          1.0  //Brave Helm           
+//3633          7            0          0          1.0  //Seraphim Helm        
+//3634          7            0          0          1.0  //Divine Helm          
+//3635          7            0          0          1.0  //Royal Mask           
+//3636          7            0          0          1.0  //Hades Helm           
+//3637          7            0          0          1.0  //Succubus Helm        
+//3638          7            0          0          1.0  //Lazy Wind Helm       
+//3639          7            0          0          1.0  //Dark Devil Helm      
+//3640          7            0          0          1.0  //Sticky Helm          
+//3642          7            0          0          1.0  //Ambition Mask        
+3643          7            0          0          1.0  //Sacred Helm          
+//3644          7            0          0          1.0  //Storm Hard Helm      
+//3645          7            0          0          1.0  //Piercing Helm        
+//3657          7            0          0          1.0  //Phoenix Soul Helm
+
+//3682          7            0          0          1.0  //Bloodangel Knight Helm
+//3683          7            0          0          1.0  //Bloodangel Wizard Helm
+//3684          7            0          0          1.0  //Bloodangel Elf Helm  
+//3685          7            0          0          1.0  //Bloodangel Summoner Helm
+//3687          7            0          0          1.0  //Bloodangel Lord Helm
+//3688          7            0          0          1.0  //Bloodangel Fighter Helm
+
+// 8 - Armors
+4096          8            0          0          1.0  //Bronze Armor         
+4097          8            0          0          1.0  //Dragon Armor         
+4098          8            0          0          1.0  //Pad Armor            
+4099          8            0          0          1.0  //Legendary Armor      
+4100          8            0          0          1.0  //Bone Armor           
+4101          8            0          0          1.0  //Leather Armor        
+4102          8            0          0          1.0  //Scale Armor          
+4103          8            0          0          1.0  //Sphinx Armor         
+4104          8            0          0          1.0  //Brass Armor          
+4105          8            0          0          1.0  //Plate Armor          
+4106          8            0          0          1.0  //Vine Armor           
+4107          8            0          0          1.0  //Silk Armor           
+4108          8            0          0          1.0  //Wind Armor           
+4109          8            0          0          1.0  //Spirit Armor         
+4110          8            0          0          1.0  //Guardian Armor       
+4111          8            0          0          1.0  //Storm Crow Armor     
+4112          8            0          0          1.0  //Black Dragon Armor   
+//4113          8            0          0          1.0  //Dark Phoenix Armor   
+4114          8            0          0          1.0  //Grand Soul Armor     
+4115          8            0          0          1.0  //Divine Armor         
+4116          8            0          0          1.0  //Thunder Hawk Armor   
+//4117          8            0          0          1.0  //Great Dragon Armor   
+//4118          8            0          0          1.0  //Dark Soul Armor      
+//4119          8            0          0          1.0  //Hurricane Armor      
+//4120          8            0          0          1.0  //Red Sprit Armor      
+4121          8            0          0          1.0  //Light Plate Armor    
+4122          8            0          0          1.0  //Adamantine Armor     
+4123          8            0          0          1.0  //Dark Steel Armor     
+//4124          8            0          0          1.0  //Dark Master Armor    
+//4125          8            0          0          1.0  //Dragon Knight Armor  
+//4126          8            0          0          1.0  //Venom Mist Armor     
+//4127          8            0          0          1.0  //Sylphid Ray Armor    
+//4128          8            0          0          1.0  //Volcano Armor        
+//4129          8            0          0          1.0  //Sunlight Armor       
+4130          8            0          0          1.0  //Ashcrow Armor        
+4131          8            0          0          1.0  //Eclipse Armor        
+4132          8            0          0          1.0  //Iris Armor           
+4133          8            0          0          1.0  //Valiant Armor        
+4134          8            0          0          1.0  //Glorious Armor       
+4135          8            0          0          1.0  //Violent Wind Armor   
+4136          8            0          0          1.0  //Red Wing Armor       
+4137          8            0          0          1.0  //Ancient Armor        
+//4138          8            0          0          1.0  //Demonic Armor        
+//4139          8            0          0          1.0  //Storm Blitz Armor    
+//4140          8            0          0          1.0  //Lilium Armor         
+//4141          8            0          0          1.0  //Titan Armor          
+//4142          8            0          0          1.0  //Brave Armor          
+//4143          8            0          0          1.0  //Phantom Armor        
+//4144          8            0          0          1.0  //Destroy Armor        
+//4145          8            0          0          1.0  //Seraphim Armor       
+//4146          8            0          0          1.0  //Divine Armor         
+//4147          8            0          0          1.0  //Royal Armor          
+//4148          8            0          0          1.0  //Hades Armor          
+//4149          8            0          0          1.0  //Succubus Armor       
+//4150          8            0          0          1.0  //Lazy Wind Armor      
+//4151          8            0          0          1.0  //Dark Devil Armor     
+//4152          8            0          0          1.0  //Sticky Armor         
+//4153          8            0          0          1.0  //Hell Night Armor     
+//4154          8            0          0          1.0  //Ambition Armor       
+//4155          8            0          0          1.0  //Sacred Armor         
+//4156          8            0          0          1.0  //Storm Hard Armor     
+//4157          8            0          0          1.0  //Piercing Armor       
+//4169          8            0          0          1.0  //Phoenix Soul Armor
+//4194          8            0          0          1.0  //Bloodangel Knight Armor
+//4195          8            0          0          1.0  //Bloodangel Wizard Armor
+//4196          8            0          0          1.0  //Bloodangel Elf Armor  
+//4197          8            0          0          1.0  //Bloodangel Summoner Armor
+//4198          8            0          0          1.0  //Bloodangel Magic Armor  
+//4199          8            0          0          1.0  //Bloodangel Lord Armor
+//4200          8            0          0          1.0  //Bloodangel Fighter Armor
+// 9 - Pants
+4608          9            0          0          1.0  //Bronze Pants                 
+4609          9            0          0          1.0  //Dragon Pants                 
+4610          9            0          0          1.0  //Pad Pants                    
+4611          9            0          0          1.0  //Legendary Pants              
+4612          9            0          0          1.0  //Bone Pants                   
+4613          9            0          0          1.0  //Leather Pants                
+4614          9            0          0          1.0  //Scale Pants                  
+4615          9            0          0          1.0  //Sphinx Pants                 
+4616          9            0          0          1.0  //Brass Pants                  
+4617          9            0          0          1.0  //Plate Pants                  
+4618          9            0          0          1.0  //Vine Pants                   
+4619          9            0          0          1.0  //Silk Pants                   
+4620          9            0          0          1.0  //Wind Pants                   
+4621          9            0          0          1.0  //Spirit Pants                 
+4622          9            0          0          1.0  //Guardian Pants               
+4623          9            0          0          1.0  //Storm Crow Pants             
+4624          9            0          0          1.0  //Black Dragon Pants           
+//4625          9            0          0          1.0  //Dark Phoenix Pants           
+4626          9            0          0          1.0  //Grand Soul Pants             
+4627          9            0          0          1.0  //Divine Pants                 
+4628          9            0          0          1.0  //Thunder Hawk Pants           
+//4629          9            0          0          1.0  //Great Dragon Pants           
+//4630          9            0          0          1.0  //Dark Soul Pants              
+//4631          9            0          0          1.0  //Hurricane Pants              
+//4632          9            0          0          1.0  //Red Spirit Pants             
+4633          9            0          0          1.0  //Light Plate Pants            
+4634          9            0          0          1.0  //Adamantine Pants             
+4635          9            0          0          1.0  //Dark Steel Pants             
+//4636          9            0          0          1.0  //Dark Master Pants            
+//4637          9            0          0          1.0  //Dragon Knight Pants          
+//4638          9            0          0          1.0  //Venom Mist Pants             
+//4639          9            0          0          1.0  //Sylphid Ray Pants            
+//4640          9            0          0          1.0  //Volcano Pants                
+//4641          9            0          0          1.0  //Sunlight Pants               
+4642          9            0          0          1.0  //Ashcrow Pants                
+4643          9            0          0          1.0  //Eclipse Pants                
+4644          9            0          0          1.0  //Iris Pants                   
+4645          9            0          0          1.0  //Valiant Pants                
+4646          9            0          0          1.0  //Glorious Pants               
+4647          9            0          0          1.0  //Violent Wind Pants           
+4648          9            0          0          1.0  //Red Wing Pants               
+4649          9            0          0          1.0  //Ancient Pants                
+//4650          9            0          0          1.0  //Demonic Pants                
+//4651          9            0          0          1.0  //Storm Blitz Pants            
+//4652          9            0          0          1.0  //Lilium Pants                 
+//4653          9            0          0          1.0  //Titan  Pants                 
+//4654          9            0          0          1.0  //Brave Pants                  
+//4655          9            0          0          1.0  //Phantom  Pants               
+//4656          9            0          0          1.0  //Destroy Pants                
+//4657          9            0          0          1.0  //Seraphim Pants               
+//4658          9            0          0          1.0  //Divine Pants                 
+//4659          9            0          0          1.0  //Royal Pants                  
+//4660          9            0          0          1.0  //Hades Pants                  
+//4661          9            0          0          1.0  //Succubus Pants               
+//4662          9            0          0          1.0  //Lazy Wind Pants              
+//4663          9            0          0          1.0  //Dark Devil Pants             
+//4664          9            0          0          1.0  //Sticky Pants                 
+//4665          9            0          0          1.0  //Hell Night Pants             
+//4666          9            0          0          1.0  //Ambition Pants               
+4667          9            0          0          1.0  //Sacred Pants                 
+//4668          9            0          0          1.0  //Storm Hard Pants             
+//4669          9            0          0          1.0  //Piercing Pants               
+//4681          9            0          0          1.0  //Phoenix Soul Pants
+//4706          9            0          0          1.0  //Bloodangel Knight Pants
+//4707          9            0          0          1.0  //Bloodangel Wizard Pants
+//4708          9            0          0          1.0  //Bloodangel Elf Pants  
+//4709          9            0          0          1.0  //Bloodangel Summoner Pants
+//4710          9            0          0          1.0  //Bloodangel Magic Pants  
+//4711          9            0          0          1.0  //Bloodangel Lord Pants
+//4712          9            0          0          1.0  //Bloodangel Fighter Pants
+// 10 - Gloves
+5120          10           0          0          1.0  //Bronze Gloves
+5121          10           0          0          1.0  //Dragon Gloves
+5122          10           0          0          1.0  //Pad Gloves
+5123          10           0          0          1.0  //Legendary Gloves
+5124          10           0          0          1.0  //Bone Gloves
+5125          10           0          0          1.0  //Leather Gloves
+5126          10           0          0          1.0  //Scale Gloves
+5127          10           0          0          1.0  //Sphinx Gloves
+5128          10           0          0          1.0  //Brass Gloves
+5129          10           0          0          1.0  //Plate Gloves
+5130          10           0          0          1.0  //Vine Gloves
+5131          10           0          0          1.0  //Silk Gloves
+5132          10           0          0          1.0  //Wind Gloves
+5133          10           0          0          1.0  //Spirit Gloves
+5134          10           0          0          1.0  //Guardian Gloves
+5135          10           0          0          1.0  //Storm Crow Gloves
+5136          10           0          0          1.0  //Black Dragon Gloves
+//5137          10           0          0          1.0  //Dark Phoenix Gloves
+5138          10           0          0          1.0  //Grand Soul Gloves
+5139          10           0          0          1.0  //Divine Gloves
+5140          10           0          0          1.0  //Thunder Hawk Gloves
+//5141          10           0          0          1.0  //Great Dragon Gloves
+//5142          10           0          0          1.0  //Dark Soul Gloves
+//5143          10           0          0          1.0  //Hurricane Gloves
+//5144          10           0          0          1.0  //Red Spirit Gloves
+5145          10           0          0          1.0  //Light Plate Gloves
+5146          10           0          0          1.0  //Adamantine Gloves
+5147          10           0          0          1.0  //Dark Steel Gloves
+//5148          10           0          0          1.0  //Dark Master Gloves
+//5149          10           0          0          1.0  //Dragon Knight Gloves
+//5150          10           0          0          1.0  //Venom Mist Gloves
+//5151          10           0          0          1.0  //Sylphid Ray Gloves
+//5152          10           0          0          1.0  //Volcano Gloves
+//5153          10           0          0          1.0  //Sunlight Gloves
+5154          10           0          0          1.0  //Ashcrow Gloves
+5155          10           0          0          1.0  //Eclipse Gloves
+5156          10           0          0          1.0  //Iris Gloves
+5157          10           0          0          1.0  //Valiant Gloves
+5158          10           0          0          1.0  //Glorious Gloves
+5159          10           0          0          1.0  //Violent Wind Gloves
+5160          10           0          0          1.0  //Red Wing Gloves
+5161          10           0          0          1.0  //Ancient Gloves
+//5162          10           0          0          1.0  //Demonic Gloves
+//5163          10           0          0          1.0  //Storm Blitz Gloves
+//5164          10           0          0          1.0  //Lilium Gloves
+//5165          10           0          0          1.0  //Titan  Gloves
+//5166          10           0          0          1.0  //Brave Gloves
+//5167          10           0          0          1.0  //Phantom  Gloves
+//5168          10           0          0          1.0  //Destroy Gloves
+//5169          10           0          0          1.0  //Seraphim Gloves
+//5170          10           0          0          1.0  //Divine Gloves
+//5171          10           0          0          1.0  //Royal Gloves
+//5172          10           0          0          1.0  //Hades Gloves
+//5173          10           0          0          1.0  //Succubus Gloves
+//5174          10           0          0          1.0  //Lazy Wind Gloves
+//5175          10           0          0          1.0  //Dark Devil Gloves
+//5176          10           0          0          1.0  //Sticky Gloves
+//5177          10           0          0          1.0  //Hell Night Gloves
+//5178          10           0          0          1.0  //Ambition Gloves
+//5218          10           0          0          1.0  //Bloodangel Knight Gloves
+//5219          10           0          0          1.0  //Bloodangel Wizard Gloves
+//5220          10           0          0          1.0  //Bloodangel Elf Gloves  
+//5221          10           0          0          1.0  //Bloodangel Summoner Gloves
+//5222          10           0          0          1.0  //Bloodangel Magic Gloves  
+//5223          10           0          0          1.0  //Bloodangel Lord Gloves
+// 11 - Boots
+5632          11           0          0          1.0  //Bronze Boots          
+5633          11           0          0          1.0  //Dragon Boots          
+5634          11           0          0          1.0  //Pad Boots             
+5635          11           0          0          1.0  //Legendary Boots       
+5636          11           0          0          1.0  //Bone Boots            
+5637          11           0          0          1.0  //Leather Boots         
+5638          11           0          0          1.0  //Scale Boots           
+5639          11           0          0          1.0  //Sphinx Boots          
+5640          11           0          0          1.0  //Brass Boots           
+5641          11           0          0          1.0  //Plate Boots           
+5642          11           0          0          1.0  //Vine Boots            
+5643          11           0          0          1.0  //Silk Boots            
+5644          11           0          0          1.0  //Wind Boots            
+5645          11           0          0          1.0  //Spirit Boots          
+5646          11           0          0          1.0  //Guardian Boots        
+5647          11           0          0          1.0  //Storm Crow Boots      
+5648          11           0          0          1.0  //Black Dragon Boots    
+//5649          11           0          0          1.0  //Dark Phoenix Boots    
+5650          11           0          0          1.0  //Grand Soul Boots      
+5651          11           0          0          1.0  //Divine Boots          
+5652          11           0          0          1.0  //Thunder Hawk Boots    
+//5653          11           0          0          1.0  //Great Dragon Boots    
+//5654          11           0          0          1.0  //Dark Soul Boots       
+//5655          11           0          0          1.0  //Hurricane Boots       
+//5656          11           0          0          1.0  //Red Spirit Boots      
+5657          11           0          0          1.0  //Light Plate Boots     
+5658          11           0          0          1.0  //Adamantine Boots      
+5659          11           0          0          1.0  //Dark Steel Boots      
+//5660          11           0          0          1.0  //Dark Master Boots     
+//5661          11           0          0          1.0  //Dragon Knight Boots   
+//5662          11           0          0          1.0  //Venom Mist Boots      
+//5663          11           0          0          1.0  //Sylphid Ray Boots     
+//5664          11           0          0          1.0  //Volcano Boots         
+//5665          11           0          0          1.0  //Sunlight Boots        
+5666          11           0          0          1.0  //Ashcrow Boots         
+5667          11           0          0          1.0  //Eclipse Boots         
+5668          11           0          0          1.0  //Iris Boots            
+5669          11           0          0          1.0  //Valiant Boots         
+5670          11           0          0          1.0  //Glorious Boots        
+5671          11           0          0          1.0  //Violent Wind Boots
+5672          11           0          0          1.0  //Red Wing Boots
+5673          11           0          0          1.0  //Ancient Boots
+//5674          11           0          0          1.0  //Demonic Boots
+//5675          11           0          0          1.0  //Storm Blitz Boots
+//5676          11           0          0          1.0  //Lilium Boots
+//5677          11           0          0          1.0  //Titan Boots
+//5678          11           0          0          1.0  //Brave Boots
+//5679          11           0          0          1.0  //Phantom Boots
+//5680          11           0          0          1.0  //Destroy Boots
+//5681          11           0          0          1.0  //Seraphim Boots
+//5682          11           0          0          1.0  //Divine Boots
+//5683          11           0          0          1.0  //Royal Boots
+//5684          11           0          0          1.0  //Hades Boots
+//5685          11           0          0          1.0  //Succubus Boots        
+//5686          11           0          0          1.0  //Lazy Wind Boots       
+//5687          11           0          0          1.0  //Dark Devil Boots      
+//5688          11           0          0          1.0  //Sticky Boots          
+//5689          11           0          0          1.0  //Hell Night Boots      
+//5690          11           0          0          1.0  //Ambition Boots        
+5691          11           0          0          1.0  //Sacred Boots          
+//5692          11           0          0          1.0  //Storm Hard Boots      
+//5693          11           0          0          1.0  //Piercing Boots        
+//5705          11           0          0          1.0  //Phoenix Soul Boots
+//5730          11           0          0          1.0  //Bloodangel Knight Boots
+//5731          11           0          0          1.0  //Bloodangel Wizard Boots
+//5732          11           0          0          1.0  //Bloodangel Elf Boots  
+//5733          11           0          0          1.0  //Bloodangel Summoner Boots
+//5734          11           0          0          1.0  //Bloodangel Magic Boots  
+//5735          11           0          0          1.0  //Bloodangel Lord Boots
+//5736          11           0          0          1.0  //Bloodangel Fighter Boots
+// 12- Wings
+
+//6147          12           0          -12        1.1  //Wings of Spirits  // LVL 2
+//6148          12           0          -12        1.1  //Wings of Soul     // LVL 2
+//6149          12           0          -12        1.1  //Wings of Dragon   // LVL 2
+//6150          12           0          -12        1.1  //Wings of Darkness // LVL 2
+//6186          12           0          -12        1.1  //Wind of Despair   // LVL 2
+//6193          12           0          -12        1.1  //Cape of Fighter   // LVL 2
+//6686          12           0          -12        1.1  //Cape of Lord      // LVL 2
+
+
+//6424          12           0          -12        1.1  //Cloak of Death
+//6425          12           0          -11        1.2  //Wings of Chaos
+//6426          12           0          -8         1.2  //Wings of Magic
+//6427          12           0          -16        1.2  //Wings of Life
+//6180          12           0          -4         1.1  //Wing of Storm
+//6181          12           0          -10        1.2  //Wing of Eternal
+//6182          12           0          -5         1.2  //Wing of Illusion
+//6183          12           0          -2         1.0  //Wing of Ruin
+//6184          12           0          -11        1.0  //Emperor's Cape
+//6187          12           0          -11        1.3  //Wing of Dimension
+//6194          12           0          -18        1.0  //Cape of Overrule
+//6412          12           0          -15        1.3  //Wings of Elysium
+//6413          12           0          -9         1.3  //Wings of Flame God
+//6414          12           0          -18        1.3  //Wing of Celestial Body
+//6415          12           0          -13        1.3  //Wings of Annihilation
+//6416          12           0          -19        1.2  //Cloak of Dominator
+//6417          12           0          -16        1.3  //Wings of Other World
+//6418          12           0          -20        1.2  //Cloak of Judgment
+//6428          12           0          -9         1.3  //Wings of Conqueror
+//6429          12           0          -9         1.2  //Wings of Angel and Devil
+//6430          12           0          -15        1.4  //Wings of Power
+//6450          12           0          -10        1.5  //Wings of Virtue
+//6451          12           0          -10        1.4  //Wings of Destruction
+//6452          12           0          -10        1.5  //Wings of Fantasy
+//6453          12           0          -10        1.4  //Wings of Punishment
+//6454          12           0          -13        1.3  //Cloack of Zero
+//6455          12           0          0          1.4  //Wings of Barrier
+//6456          12           0          -7         1.2  //Cloack of Oath
+// 13- Pet
+//6693            13           0          -5         1.0  //Horn of Fenrir
+//6856          13           0          0          1.0  //Ghost Horse
+//6872          13           0          -6         1.0  //Tibetton (Mount)
+//6873          13           0          -6         1.0  //Tibetton (Mount Evolved)
+//6882          13           0          -6         1.0  //Repen (Mount)
+//6883          13           0          -6         1.0  //Repen (Mount Evolved)
+//6902          13           0          0          1.0  //Ice Dragon
+//6903          13           0          0          1.0  //Ice Dragon (Rare)
+//6932          13           0          0          1.0  //Pierce Ryan
+//6933          13           0          0          1.0  //Pierce Ryan (Rare)
+//6948          13           0          0          1.0  //Shining Tail
+//6949          13           0          0          1.0  //Shining Tail (Rare)
+//6950          13           0          -3         1.0  //Ur
+//6951          13           0          -3         1.0  //Ur (Rare)
+//6957          13           0          -5         1.0  //Divine Horse
+//6958          13           0          -5         1.0  //Fire Divine Spirit
+//6959          13           0          -5         1.0  //Ice Divine Spirit
+//6960          13           0          -5         1.0  //Holy Divine Spirit
+//6962          13           0          -8         1.0  //Leviathan
+//6963          13           0          -8         1.0  //Leviathan (Rare)
+// 14 - Rings
+//6664          14           0          -5         1.0  //Ring of Ice
+//6665          14           0          -5         1.0  //Ring of Poison
+//6668          14           0          -5         1.0  //Pendant of Lighting
+//6669          14           0          -5         1.0  //Pendant of Fire
+//6677          14           0          -5         1.0  //Ring of Fire
+//6678          14           0          -5         1.0  //Ring of Earth
+//6679          14           0          -5         1.0  //Ring of Wind
+//6680          14           0          -5         1.0  //Ring of Magic
+//6680          14           0          -5         1.0  //Pendant of Ice
+//6681          14           0          -5         1.0  //Pendant of Wind 
+//6682          14           0          -5         1.0  //Pendant of Water
+//6683          14           0          -5         1.0  //Pendant of Ability
+end

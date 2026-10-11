@@ -1,0 +1,18 @@
+04:00:21 [SocketManager] WSASend() failed with error: 10054
+06:38:22 [SocketManager] Protocol header error (Index: 13015, Header: 66)
+06:50:25 [SocketManager] Protocol header error (Index: 13003, Header: 35)
+06:50:26 [SocketManager] Protocol header error (Index: 13000, Header: 35)
+06:50:26 [SocketManager] Protocol header error (Index: 13014, Header: 72)
+06:53:09 [SocketManager] Protocol header error (Index: 13008, Header: 35)
+06:53:10 [SocketManager] Protocol header error (Index: 13004, Header: 35)
+06:53:13 [SocketManager] Protocol header error (Index: 13006, Header: 72)
+17:54:20 [SocketManager] Server started at port [55902]
+22:01:12 [SocketManager] Protocol header error (Index: 13002, Header: 35)
+22:01:12 [SocketManager] Protocol header error (Index: 13003, Header: 66)
+22:01:13 [SocketManager] Protocol header error (Index: 13006, Header: 72)
+22:01:13 [SocketManager] Protocol header error (Index: 13008, Header: 28)
+22:01:13 [SocketManager] Protocol header error (Index: 13009, Header: 27)
+22:01:15 [SocketManager] Protocol header error (Index: 13012, Header: 5b)
+22:01:15 [SocketManager] Protocol header error (Index: 13013, Header: 5e)
+22:01:15 [SocketManager] Protocol header error (Index: 13014, Header: 63)
+22:01:15 [SocketManager] Protocol header error (Index: 13015, Header: 23)

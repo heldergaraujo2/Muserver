@@ -1,0 +1,248 @@
+00:34:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+00:35:00 [CustomQuiz] Start
+00:40:00 [CustomQuiz] Finish
+01:34:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+01:35:00 [CustomQuiz] Start
+01:40:00 [CustomQuiz] Finish
+02:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+02:35:00 [CustomQuiz] Start
+02:35:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+02:40:00 [CustomQuiz] Finish
+03:35:00 [CustomQuiz] Start
+03:35:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+03:40:00 [CustomQuiz] Finish
+04:35:00 [CustomQuiz] Start
+04:36:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+04:40:00 [CustomQuiz] Finish
+05:35:00 [CustomQuiz] Start
+05:36:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+05:40:00 [CustomQuiz] Finish
+06:35:00 [CustomQuiz] Start
+06:37:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+06:40:00 [CustomQuiz] Finish
+07:35:00 [CustomQuiz] Start
+07:37:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+07:40:00 [CustomQuiz] Finish
+08:04:28 [EVENT LOG] Start
+08:04:29 [Auction Event Index 1] Started
+08:04:30 [Auction 1] Checking Data
+08:04:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+08:04:30 [Auction 1] Ended
+08:04:30 [Guild Reign] DataLoad Send
+08:04:30 [Guild Reign] DataLoad OK
+08:04:30 [Guild Reign] Map(6) Start Npc Error #2
+08:04:30 [Guild Reign] Map(113) Start Npc Error #2
+08:07:54 [Set BC Start] At 08:09:00
+08:08:04 [Blood Castle 8][hellder][Saffe] entered event (1/10)
+08:10:19 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:10:29 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:10:37 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:10:53 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:11:28 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+08:12:05 [Set BC Start] At 08:14:00
+08:12:07 [Blood Castle 8][hellder][Saffe] entered event (1/10)
+08:15:10 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:15:19 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:15:27 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:16:05 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+08:19:30 [ MarlonMove ] Map: 7, X: 17 Y: 25
+08:34:31 [ MarlonMove ] Map: 3, X: 169 Y: 89
+08:35:00 [CustomQuiz] Start
+08:40:00 [CustomQuiz] Finish
+08:42:42 [Set BC Start] At 08:44:00
+08:42:45 [Blood Castle 8][hellder][Saffe] entered event (1/10)
+08:42:48 [Blood Castle 8][videodv][AdmSaffe] entered event (2/10)
+08:45:04 [hellder][Saffe] Add BattlePass Star(Master Level Up) Value: 1
+08:48:22 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+08:48:22 [videodv][AdmSaffe] Add BattlePass Star(Blood Castle) Value: 1
+08:49:32 [ MarlonMove ] Map: 0, X: 137 Y: 87
+09:04:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+09:04:33 [ MarlonMove ] Map: 2, X: 198 Y: 47
+09:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+09:19:34 [ MarlonMove ] Map: 3, X: 169 Y: 89
+09:34:35 [ MarlonMove ] Map: 2, X: 198 Y: 47
+09:35:00 [CustomQuiz] Start
+09:40:00 [CustomQuiz] Finish
+09:49:36 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:04:37 [ MarlonMove ] Map: 7, X: 17 Y: 25
+10:05:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+10:19:38 [ MarlonMove ] Map: 0, X: 137 Y: 87
+10:34:39 [ MarlonMove ] Map: 7, X: 17 Y: 25
+10:35:00 [CustomQuiz] Start
+10:40:00 [CustomQuiz] Finish
+10:49:40 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:04:41 [ MarlonMove ] Map: 7, X: 17 Y: 25
+11:05:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+11:19:38 [Set BC Start] At 11:21:00
+11:19:42 [ MarlonMove ] Map: 2, X: 198 Y: 47
+11:19:44 [Blood Castle 8][hellder][Saffe] entered event (1/10)
+11:19:46 [Blood Castle 8][videodv][AdmSaffe] entered event (2/10)
+11:23:41 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+11:23:41 [videodv][AdmSaffe] Add BattlePass Star(Blood Castle) Value: 1
+11:34:43 [ MarlonMove ] Map: 7, X: 17 Y: 25
+11:35:00 [CustomQuiz] Start
+11:36:39 [Set BC Start] At 11:38:00
+11:36:43 [Blood Castle 8][pvp04][PVPRF01] entered event (1/10)
+11:36:46 [Blood Castle 8][pvp03][PVPELF01] entered event (2/10)
+11:36:49 [Blood Castle 8][pvp02][PVPSUM] entered event (3/10)
+11:36:56 [Blood Castle 8][pvp01][PVPBK] entered event (4/10)
+11:36:59 [Blood Castle 8][hellder][Saffe] entered event (5/10)
+11:37:04 [Blood Castle 8][videodv][AdmSaffe] entered event (6/10)
+11:40:00 [CustomQuiz] Finish
+11:41:58 [pvp04][PVPRF01] Add BattlePass Star(Blood Castle) Value: 1
+11:41:58 [pvp03][PVPELF01] Add BattlePass Star(Blood Castle) Value: 1
+11:41:58 [pvp02][PVPSUM] Add BattlePass Star(Blood Castle) Value: 1
+11:41:58 [pvp01][PVPBK] Add BattlePass Star(Blood Castle) Value: 1
+11:41:58 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+11:41:58 [videodv][AdmSaffe] Add BattlePass Star(Blood Castle) Value: 1
+11:47:05 [Set BC Start] At 11:49:00
+11:47:09 [Blood Castle 8][hellder][Saffe] entered event (1/10)
+11:47:22 [Blood Castle 8][videodv][AdmSaffe] entered event (2/10)
+11:47:27 [Blood Castle 8][pvp01][PVPBK] entered event (3/10)
+11:47:52 [Blood Castle 8][pvp02][PVPSUM] entered event (4/10)
+11:47:57 [Blood Castle 8][pvp03][PVPELF01] entered event (5/10)
+11:48:13 [Blood Castle 8][pvp04][PVPRF01] entered event (6/10)
+11:49:44 [ MarlonMove ] Map: 3, X: 169 Y: 89
+11:52:28 [hellder][Saffe] Add BattlePass Star(Blood Castle) Value: 1
+11:52:28 [videodv][AdmSaffe] Add BattlePass Star(Blood Castle) Value: 1
+11:52:28 [pvp01][PVPBK] Add BattlePass Star(Blood Castle) Value: 1
+11:52:28 [pvp02][PVPSUM] Add BattlePass Star(Blood Castle) Value: 1
+11:52:28 [pvp03][PVPELF01] Add BattlePass Star(Blood Castle) Value: 1
+11:52:28 [pvp04][PVPRF01] Add BattlePass Star(Blood Castle) Value: 1
+12:04:45 [ MarlonMove ] Map: 0, X: 137 Y: 87
+12:06:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+12:19:46 [ MarlonMove ] Map: 2, X: 198 Y: 47
+12:34:47 [ MarlonMove ] Map: 3, X: 169 Y: 89
+12:35:00 [CustomQuiz] Start
+12:40:00 [CustomQuiz] Finish
+12:49:48 [ MarlonMove ] Map: 2, X: 198 Y: 47
+13:04:49 [ MarlonMove ] Map: 3, X: 169 Y: 89
+13:06:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+13:19:50 [ MarlonMove ] Map: 7, X: 17 Y: 25
+13:34:51 [ MarlonMove ] Map: 3, X: 169 Y: 89
+13:35:00 [CustomQuiz] Start
+13:40:00 [CustomQuiz] Finish
+13:49:52 [ MarlonMove ] Map: 0, X: 137 Y: 87
+14:04:53 [ MarlonMove ] Map: 2, X: 198 Y: 47
+14:05:00 [Pandora Event] Started (Map: Noria X: 180, Y: 180)
+14:07:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+14:10:00 [Pandora Event] Finished (No Winner)
+14:19:54 [ MarlonMove ] Map: 7, X: 17 Y: 25
+14:34:55 [ MarlonMove ] Map: 3, X: 169 Y: 89
+14:35:00 [CustomQuiz] Start
+14:40:00 [CustomQuiz] Finish
+14:49:56 [ MarlonMove ] Map: 7, X: 17 Y: 25
+15:04:57 [ MarlonMove ] Map: 3, X: 169 Y: 89
+15:07:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+15:19:58 [ MarlonMove ] Map: 0, X: 137 Y: 87
+15:34:59 [ MarlonMove ] Map: 2, X: 198 Y: 47
+15:35:00 [CustomQuiz] Start
+15:40:00 [CustomQuiz] Finish
+15:50:00 [ MarlonMove ] Map: 7, X: 17 Y: 25
+16:05:01 [ MarlonMove ] Map: 0, X: 137 Y: 87
+16:08:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+16:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+16:20:02 [ MarlonMove ] Map: 2, X: 198 Y: 47
+16:35:00 [CustomQuiz] Start
+16:35:03 [ MarlonMove ] Map: 3, X: 169 Y: 89
+16:40:00 [CustomQuiz] Finish
+16:50:04 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:05:05 [ MarlonMove ] Map: 7, X: 17 Y: 25
+17:08:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+17:20:06 [ MarlonMove ] Map: 0, X: 137 Y: 87
+17:35:00 [CustomQuiz] Start
+17:35:07 [ MarlonMove ] Map: 3, X: 169 Y: 89
+17:40:00 [CustomQuiz] Finish
+17:50:08 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:05:09 [ MarlonMove ] Map: 7, X: 17 Y: 25
+18:09:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+18:20:10 [ MarlonMove ] Map: 3, X: 169 Y: 89
+18:35:00 [CustomQuiz] Start
+18:35:11 [ MarlonMove ] Map: 2, X: 198 Y: 47
+18:35:21 [Guild Reign] DataLoad Send
+18:35:21 [Guild Reign] DataLoad OK
+18:35:21 [Guild Reign] Map(6) Start Npc Error #2
+18:35:21 [Guild Reign] Map(113) Start Npc Error #2
+19:09:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+20:10:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+20:50:00 [Pandora Event] Started (Map: Lorencia X: 15, Y: 222)
+20:55:00 [Pandora Event] Finished (No Winner)
+21:10:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+21:43:21 [DailyReward][pvp01][PVPSM] - Got the prize (Month 4 Day 16 )
+21:54:02 [EVENT LOG] Start
+21:54:03 [Auction Event Index 1] Started
+21:54:04 [Auction 1] Checking Data
+21:54:04 [Auction 1] Ended
+21:54:04 [Guild Reign] DataLoad Send
+21:54:04 [Guild Reign] DataLoad OK
+21:54:04 [Guild Reign] Map(6) Start Npc Error #2
+21:54:04 [Guild Reign] Map(113) Start Npc Error #2
+21:54:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 0 X: 150 Y: 127)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 23 Y: 17)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 20 Y: 60)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 49 Y: 94)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 103 Y: 51)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 236 Y: 18)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 230 Y: 71)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 83 Y: 143)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 147 Y: 168)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 176 Y: 177)
+22:05:00 [Marathon Event] Index(0) Start Npc Position (Map: 7 X: 124 Y: 206)
+22:05:00 [Marathon Event] Index(0) Final Npc Position (Map: 7 X: 28 Y: 228)
+22:09:04 [ MarlonMove ] Map: 7, X: 17 Y: 25
+22:24:05 [ MarlonMove ] Map: 3, X: 169 Y: 89
+22:35:00 [CustomQuiz] Start
+22:39:06 [ MarlonMove ] Map: 0, X: 137 Y: 87
+22:40:00 [CustomQuiz] Finish
+22:50:26 [Guild Reign] DataLoad Send
+22:50:27 [Guild Reign] DataLoad OK
+22:50:27 [Guild Reign] Map(6) Start Npc Error #2
+22:50:27 [Guild Reign] Map(113) Start Npc Error #2
+22:54:31 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)
+23:11:51 [Guild Reign] DataLoad Send
+23:11:52 [Guild Reign] DataLoad OK
+23:11:52 [Guild Reign] Map(6) Start Npc Error #2
+23:11:52 [Guild Reign] Map(113) Start Npc Error #2
+23:11:57 [Guild Reign] DataLoad Send
+23:11:57 [Guild Reign] DataLoad Send
+23:11:57 [Guild Reign] DataLoad OK
+23:11:57 [Guild Reign] Map(6) Start Npc Error #2
+23:11:57 [Guild Reign] Map(113) Start Npc Error #2
+23:11:57 [Guild Reign] DataLoad OK
+23:11:57 [Guild Reign] Map(6) Start Npc Error #2
+23:11:57 [Guild Reign] Map(113) Start Npc Error #2
+23:15:00 [Moss Merchant] Start - Map: 51 PosX: 22 PosY: 225
+23:16:03 [Guild Reign] DataLoad Send
+23:16:03 [Guild Reign] DataLoad OK
+23:16:03 [Guild Reign] Map(6) Start Npc Error #2
+23:16:03 [Guild Reign] Map(113) Start Npc Error #2
+23:17:58 [Guild Reign] DataLoad Send
+23:17:58 [Guild Reign] DataLoad OK
+23:17:58 [Guild Reign] Map(6) Start Npc Error #2
+23:17:58 [Guild Reign] Map(113) Start Npc Error #2
+23:22:57 [Guild Reign] DataLoad Send
+23:22:57 [Guild Reign] DataLoad OK
+23:22:57 [Guild Reign] Map(6) Start Npc Error #2
+23:22:57 [Guild Reign] Map(113) Start Npc Error #2
+23:23:59 [Guild Reign] DataLoad Send
+23:23:59 [Guild Reign] DataLoad Send
+23:23:59 [Guild Reign] DataLoad OK
+23:23:59 [Guild Reign] Map(6) Start Npc Error #2
+23:23:59 [Guild Reign] Map(113) Start Npc Error #2
+23:23:59 [Guild Reign] DataLoad OK
+23:23:59 [Guild Reign] Map(6) Start Npc Error #2
+23:23:59 [Guild Reign] Map(113) Start Npc Error #2
+23:24:16 [Guild Reign] DataLoad Send
+23:24:16 [Guild Reign] DataLoad OK
+23:24:16 [Guild Reign] Map(6) Start Npc Error #2
+23:24:16 [Guild Reign] Map(113) Start Npc Error #2
+23:36:34 [Guild Reign] DataLoad Send
+23:36:34 [Guild Reign] DataLoad OK
+23:36:34 [Guild Reign] Map(6) Start Npc Error #2
+23:36:34 [Guild Reign] Map(113) Start Npc Error #2
+23:53:30 [Guild Reign] DataLoad Send
+23:53:31 [Guild Reign] DataLoad OK
+23:53:31 [Guild Reign] Map(6) Start Npc Error #2
+23:53:31 [Guild Reign] Map(113) Start Npc Error #2
+23:55:30 [Invasion Manager] Index(18) Boss Position (Map: 36 X: 26 Y: 76)

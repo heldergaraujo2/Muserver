@@ -1,0 +1,25 @@
+23:38:42 [SCRIPT LOG] Start
+23:38:42 [Loader] Lua Gameserver socket ready!
+23:38:42 [Loader] Load success System\ScriptCore
+23:38:42 [Loader] Load success System\ProtocolCore
+23:38:42 [Loader] Load success Utils\Database
+23:38:42 [Loader] Load success Utils\DatabaseAsync
+23:38:42 [Loader] Load success Utils\Cron
+23:38:42 [Loader] Load success Utils\Functions
+23:38:42 [Loader] Load success Utils\Schedule
+23:38:42 [Loader] Could not load:
+23:38:42 [Loader] ata\\Script\Scripts\ReaddRequirement.lua: No such file or directory
+23:38:42 [Loader] Load success Scripts\CalCharacter
+23:38:42 [Loader] Load success Scripts\Musaffe\Config
+23:38:42 [MusaffeDungeon1] Script carregado. FlowEnabled: false | Mapa: 10
+23:38:42 [MusaffeDungeon2] Script carregado. FlowEnabled: false | Mapa: 1
+23:38:42 [MusaffeDungeon3] Script carregado. FlowEnabled: false | Mapa: 2
+23:38:42 [MusaffeDungeon4] Script carregado. FlowEnabled: false | Mapa: 8
+23:38:42 [Loader] Load success Scripts\Musaffe\Config
+23:38:42 [MusaffeTimewindows] Script carregado. Mapa padrao: 6
+23:38:42 [Loader] Load success Scripts\Musaffe\Config
+23:38:42 [Loader] Load folder success Scripts\Musaffe\
+23:38:42 Connected to database
+23:38:42 Connected to Async database
+23:38:42 Teste query: ZZZZZZZZZZ
+23:38:42 [ServerInfo] Script loaded successfully

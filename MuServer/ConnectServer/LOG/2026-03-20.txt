@@ -1,0 +1,9 @@
+10:33:37 [SocketManager] Protocol header error (Index: 57, Header: 3)
+10:33:38 [SocketManager] Protocol header error (Index: 16, Header: 3)
+10:47:03 [SocketManager] WSAAccept() failed with error: 10061
+12:30:10 [SocketManager] Protocol header error (Index: 22, Header: 3)
+12:30:11 [SocketManager] Protocol header error (Index: 35, Header: 3)
+15:03:28 [SocketManager] Protocol header error (Index: 34, Header: 3)
+15:03:28 [SocketManager] Protocol header error (Index: 42, Header: 3)
+21:16:52 [SocketManager] Protocol header error (Index: 25, Header: 3)
+21:16:52 [SocketManager] Protocol header error (Index: 34, Header: 3)

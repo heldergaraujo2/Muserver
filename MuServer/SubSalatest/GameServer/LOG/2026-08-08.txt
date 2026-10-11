@@ -1,0 +1,1758 @@
+00:19:13 [FakeOnline] Loaded successfully
+00:19:13 [ServerInfo] Custom loaded successfully
+00:19:16 [ServerInfo] EventItemBag loaded successfully
+00:23:15 [Obj][13000] AddClient (177.200.37.190)
+00:23:29 [Obj][13000] AddAccount (hellder)
+00:23:32 [Obj][13000] LogInCharacter (Saffe)
+00:24:00 [Obj][13000] LogOutCharacter (Saffe)
+00:24:00 [Obj][13000] DelAccount (hellder)
+00:24:00 [Obj][13000] DelClient (177.200.37.190)
+00:24:27 [Obj][13000] AddClient (177.200.37.190)
+00:24:28 [Obj][13000] AddAccount (hellder)
+00:24:29 [Obj][13000] LogInCharacter (Saffe)
+00:26:13 [FakeOnline] Loaded successfully
+00:26:13 [ServerInfo] Custom loaded successfully
+00:26:15 [ServerInfo] Monster loaded successfully
+00:26:16 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+00:26:21 [ServerInfo] Event loaded successfully
+00:26:23 [ServerInfo] EventItemBag loaded successfully
+00:26:34 [Obj][13000] LogOutCharacter (Saffe)
+00:26:34 [Obj][13000] DelAccount (hellder)
+00:26:34 [Obj][13000] DelClient (177.200.37.190)
+00:27:05 [Obj][13000] AddClient (177.200.37.190)
+00:27:06 [Obj][13000] AddAccount (hellder)
+00:27:08 [Obj][13000] LogInCharacter (Saffe)
+00:27:21 [Obj][13000] LogOutCharacter (Saffe)
+00:27:21 [Obj][13000] DelAccount (hellder)
+00:27:21 [Obj][13000] DelClient (177.200.37.190)
+00:28:37 [ServerInfo] EventItemBag loaded successfully
+00:28:39 [FakeOnline] Loaded successfully
+00:28:39 [ServerInfo] Custom loaded successfully
+00:31:52 [Obj][13000] AddClient (177.200.37.190)
+00:31:54 [Obj][13000] AddAccount (hellder)
+00:31:56 [Obj][13000] LogInCharacter (Saffe)
+00:32:30 [FakeOnline] Loaded successfully
+00:32:30 [ServerInfo] Custom loaded successfully
+00:32:31 [ServerInfo] EventItemBag loaded successfully
+00:46:39 [ServerInfo] EventItemBag loaded successfully
+00:46:44 [FakeOnline] Loaded successfully
+00:46:44 [ServerInfo] Custom loaded successfully
+00:47:01 [Obj][13000] LogOutCharacter (Saffe)
+00:47:01 [Obj][13000] DelAccount (hellder)
+00:47:01 [Obj][13000] DelClient (177.200.37.190)
+00:47:46 [Obj][13000] AddClient (177.200.37.190)
+00:47:48 [Obj][13000] AddAccount (hellder)
+00:47:50 [Obj][13000] LogInCharacter (Saffe)
+00:50:00 [FakeOnline] Loaded successfully
+00:50:00 [ServerInfo] Custom loaded successfully
+00:50:02 [ServerInfo] EventItemBag loaded successfully
+00:51:18 [FakeOnline] Loaded successfully
+00:51:18 [ServerInfo] Custom loaded successfully
+00:51:20 [ServerInfo] EventItemBag loaded successfully
+00:53:34 [ServerInfo] EventItemBag loaded successfully
+00:56:27 [Obj][13000] LogOutCharacter (Saffe)
+00:56:27 [Obj][13000] DelAccount (hellder)
+00:56:27 [Obj][13000] DelClient (177.200.37.190)
+01:06:42 [ServerInfo] Common loaded successfully
+01:06:44 [ServerInfo] EventItemBag loaded successfully
+01:07:09 [Obj][13000] AddClient (177.200.37.190)
+01:07:10 [Obj][13000] AddAccount (hellder)
+01:07:12 [Obj][13000] LogInCharacter (Saffe)
+01:08:31 [ServerInfo] EventItemBag loaded successfully
+01:08:34 [FakeOnline] Loaded successfully
+01:08:34 [ServerInfo] Custom loaded successfully
+01:33:17 [ServerInfo] EventItemBag loaded successfully
+01:33:27 [FakeOnline] Loaded successfully
+01:33:27 [ServerInfo] Custom loaded successfully
+01:33:29 [ServerInfo] EventItemBag loaded successfully
+01:40:31 [Obj][13000] LogOutCharacter (Saffe)
+01:40:31 [Obj][13000] DelAccount (hellder)
+01:40:31 [Obj][13000] DelClient (177.200.37.190)
+01:41:21 [Obj][13000] AddClient (177.200.37.190)
+01:41:25 [Obj][13000] AddAccount (hellder)
+01:41:26 [Obj][13000] LogInCharacter (Saffe)
+01:43:23 [Obj][13000] LogOutCharacter (Saffe)
+01:43:23 [Obj][13000] DelAccount (hellder)
+01:43:23 [Obj][13000] DelClient (177.200.37.190)
+01:49:14 [FakeOnline] Loaded successfully
+01:49:14 [ServerInfo] Custom loaded successfully
+01:49:16 [ServerInfo] EventItemBag loaded successfully
+01:50:04 [Obj][13000] AddClient (177.200.37.190)
+01:50:05 [Obj][13000] AddAccount (hellder)
+01:50:06 [Obj][13000] LogInCharacter (Saffe)
+01:53:36 [FakeOnline] Loaded successfully
+01:53:36 [ServerInfo] Custom loaded successfully
+01:53:38 [ServerInfo] EventItemBag loaded successfully
+01:54:39 [FakeOnline] Loaded successfully
+01:54:40 [ServerInfo] Custom loaded successfully
+02:08:59 [FakeOnline] Loaded successfully
+02:08:59 [ServerInfo] Custom loaded successfully
+02:09:02 [ServerInfo] EventItemBag loaded successfully
+02:09:58 [Obj][13001] AddClient (177.200.37.190)
+02:10:00 [Obj][13000] LogOutCharacter (Saffe)
+02:10:00 [Obj][13000] DelAccount (hellder)
+02:10:00 [Obj][13000] DelClient (177.200.37.190)
+02:10:01 [Obj][13001] AddAccount (hellder)
+02:10:02 [Obj][13001] LogInCharacter (Saffe)
+02:16:37 [Obj][13001] LogOutCharacter (Saffe)
+02:16:37 [Obj][13001] DelAccount (hellder)
+02:16:37 [Obj][13001] DelClient (177.200.37.190)
+03:12:52 [Obj][13000] AddClient (177.200.37.190)
+03:12:53 [Obj][13000] AddAccount (hellder)
+03:12:54 [Obj][13000] LogInCharacter (Saffe)
+03:14:06 [FakeOnline] Loaded successfully
+03:14:06 [ServerInfo] Custom loaded successfully
+03:14:09 [ServerInfo] EventItemBag loaded successfully
+03:24:11 [Obj][13000] LogOutCharacter (Saffe)
+03:24:11 [Obj][13000] DelAccount (hellder)
+03:24:11 [Obj][13000] DelClient (177.200.37.190)
+03:37:55 [FakeOnline] Loaded successfully
+03:37:55 [ServerInfo] Custom loaded successfully
+03:37:57 [ServerInfo] EventItemBag loaded successfully
+03:42:27 [Obj][13001] AddClient (177.200.37.190)
+03:42:30 [Obj][13001] AddAccount (hellder)
+03:42:31 [Obj][13001] LogInCharacter (Saffe)
+03:56:54 [Obj][13001] LogOutCharacter (Saffe)
+03:56:54 [Obj][13001] DelAccount (hellder)
+03:56:54 [Obj][13001] DelClient (177.200.37.190)
+10:18:48 [Obj][13000] AddClient (177.200.37.190)
+10:18:56 [Obj][13000] AddAccount (hellderr)
+10:19:00 [Obj][13000] LogInCharacter (DdarK)
+10:22:48 [Obj][13000] LogOutCharacter (DdarK)
+10:22:48 [Obj][13000] DelAccount (hellderr)
+10:22:48 [Obj][13000] DelClient (177.200.37.190)
+11:07:29 [Obj][13001] AddClient (45.170.89.93)
+11:07:30 [Obj][13001] DelClient (45.170.89.93)
+16:08:54 [Obj][13000] AddClient (177.200.37.190)
+16:08:55 [Obj][13000] AddAccount (hellder)
+16:08:57 [Obj][13000] LogInCharacter (Saffe)
+16:09:00 [CustomAttackSkillDebug] Skill: 17 | Delay: 312 ms | Type: 1
+16:09:00 [CustomAttackSkillDebug] Skill: 17 | Delay: 313 ms | Type: 1
+16:09:01 [CustomAttackSkillDebug] Skill: 17 | Delay: 329 ms | Type: 1
+16:09:02 [CustomAttackSkillDebug] Skill: 17 | Delay: 312 ms | Type: 1
+16:09:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:09:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:09:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:09:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:09:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:09:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:09:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:09:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 4141 ms | Type: 3
+16:09:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:09:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 516 ms | Type: 3
+16:09:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:09:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:09:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:09:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:09:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 438 ms | Type: 3
+16:09:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:10:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 4578 ms | Type: 3
+16:10:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:10:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 187 ms | Type: 3
+16:10:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:10:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 4485 ms | Type: 3
+16:10:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:10:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 453 ms | Type: 3
+16:10:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:10:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:10:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:10:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:10:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:10:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 4235 ms | Type: 3
+16:10:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:10:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:10:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 265 ms | Type: 3
+16:10:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:10:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 407 ms | Type: 3
+16:10:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:10:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 4563 ms | Type: 3
+16:10:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:10:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:10:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:10:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:10:36 [ServerInfo] Item loaded successfully
+16:10:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 4469 ms | Type: 3
+16:10:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:10:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:10:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:10:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:10:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 406 ms | Type: 3
+16:10:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:10:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 171 ms | Type: 3
+16:10:47 [ServerInfo] Monster loaded successfully
+16:10:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+16:10:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+16:10:48 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+16:10:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 16 ms | Type: 3
+16:10:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:10:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:10:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:11:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 5281 ms | Type: 3
+16:11:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:11:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:11:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:11:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:11:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:11:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:11:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:11:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:11:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:11:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:11:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 860 ms | Type: 3
+16:11:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:11:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:11:28 [ServerInfo] Item loaded successfully
+16:11:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:11:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:11:35 [ServerInfo] Monster loaded successfully
+16:11:35 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+16:11:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 5547 ms | Type: 3
+16:11:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:11:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:11:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:11:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:11:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:11:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:11:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 5500 ms | Type: 3
+16:11:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:11:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:11:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:11:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:12:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 5313 ms | Type: 3
+16:12:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 157 ms | Type: 3
+16:12:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 5547 ms | Type: 3
+16:12:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:12:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 5469 ms | Type: 3
+16:12:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:12:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 187 ms | Type: 3
+16:12:18 [ServerInfo] Item loaded successfully
+16:12:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:12:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:12:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:12:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:12:30 [ServerInfo] Monster loaded successfully
+16:12:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+16:12:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+16:12:31 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+16:12:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 6485 ms | Type: 3
+16:12:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:12:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 188 ms | Type: 3
+16:12:36 [ServerInfo] Monster loaded successfully
+16:12:36 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+16:12:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:12:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:12:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:12:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:12:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 5532 ms | Type: 3
+16:12:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:12:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 5360 ms | Type: 3
+16:12:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:12:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:13:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:13:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:13:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 5313 ms | Type: 3
+16:13:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:13:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 5532 ms | Type: 3
+16:13:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:13:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 5485 ms | Type: 3
+16:13:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:13:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:13:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:13:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:13:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:13:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:13:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:13:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 281 ms | Type: 3
+16:13:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 5391 ms | Type: 3
+16:13:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:13:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 5437 ms | Type: 3
+16:13:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:13:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 5515 ms | Type: 3
+16:13:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:13:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:14:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:14:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:14:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 5359 ms | Type: 3
+16:14:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:14:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 5766 ms | Type: 3
+16:14:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:14:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 5406 ms | Type: 3
+16:14:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:14:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:14:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:14:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:14:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 5328 ms | Type: 3
+16:14:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:14:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 5610 ms | Type: 3
+16:14:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:14:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:14:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:14:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:14:48 [ServerInfo] Map loaded successfully
+16:14:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 5250 ms | Type: 3
+16:14:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:14:50 [ServerInfo] Monster loaded successfully
+16:14:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:14:51 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+16:14:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:14:56 [ServerInfo] Item loaded successfully
+16:14:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:14:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 5313 ms | Type: 3
+16:15:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:15:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 10109 ms | Type: 3
+16:15:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:15:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:15:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:15:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 937 ms | Type: 3
+16:15:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:15:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 46 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:15:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:15:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:15:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 422 ms | Type: 3
+16:15:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:15:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:15:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 3547 ms | Type: 3
+16:15:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:15:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:15:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 312 ms | Type: 3
+16:15:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 3359 ms | Type: 3
+16:15:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:15:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 265 ms | Type: 3
+16:15:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 266 ms | Type: 3
+16:15:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:15:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:15:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:15:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:15:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:15:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 3547 ms | Type: 3
+16:15:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:15:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:15:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:15:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:15:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:15:51 [ServerInfo] Item loaded successfully
+16:15:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:15:53 [ServerInfo] Monster loaded successfully
+16:15:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+16:15:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+16:15:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 2265 ms | Type: 3
+16:15:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+16:15:54 [MonsterSetBase] Incorrect Monster Position: (Monster: 148, Map: 24, X: 69, Y: 7)
+16:15:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:15:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:15:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:16:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:16:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:16:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 5265 ms | Type: 3
+16:16:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 187 ms | Type: 3
+16:16:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:16:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:16:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:16:16 [ServerInfo] Item loaded successfully
+16:16:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 5172 ms | Type: 3
+16:16:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:16:18 [ServerInfo] Monster loaded successfully
+16:16:18 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 154, Y: 76)
+16:16:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:16:19 [MonsterSetBase] Incorrect Monster Position: (Monster: 194, Map: 27, X: 69, Y: 7)
+16:16:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:16:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:16:23 [ServerInfo] Map loaded successfully
+16:16:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 4953 ms | Type: 3
+16:16:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:16:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:16:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 0 ms | Type: 3
+16:16:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:16:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:16:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:16:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:16:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 5234 ms | Type: 3
+16:16:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:16:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 5641 ms | Type: 3
+16:16:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:16:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:16:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 4954 ms | Type: 3
+16:16:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:16:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:17:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:17:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 5469 ms | Type: 3
+16:17:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:17:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:17:09 [ServerInfo] Item loaded successfully
+16:17:10 [ServerInfo] Monster loaded successfully
+16:17:10 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+16:17:11 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 58, Y: 7)
+16:17:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 4328 ms | Type: 3
+16:17:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:17:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:17:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:17:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:17:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 5343 ms | Type: 3
+16:17:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:17:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:17:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:17:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:17:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 282 ms | Type: 3
+16:17:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:17:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 5375 ms | Type: 3
+16:17:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:17:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:17:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:17:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:17:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:17:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:17:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 5359 ms | Type: 3
+16:17:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:17:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:18:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:18:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:18:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 5407 ms | Type: 3
+16:18:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:18:17 [ServerInfo] Item loaded successfully
+16:18:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 5531 ms | Type: 3
+16:18:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:18:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:18:23 [ServerInfo] Monster loaded successfully
+16:18:24 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 61, Y: 7)
+16:18:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:18:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:18:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:18:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 860 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 46 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:18:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:18:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:18:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:18:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:18:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:18:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:18:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 5406 ms | Type: 3
+16:18:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:18:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 5625 ms | Type: 3
+16:18:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:18:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:18:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:18:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:19:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 5391 ms | Type: 3
+16:19:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:19:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:19:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:19:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:19:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 5235 ms | Type: 3
+16:19:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:19:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 5656 ms | Type: 3
+16:19:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 188 ms | Type: 3
+16:19:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:19:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:19:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:19:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 5312 ms | Type: 3
+16:19:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:19:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 5437 ms | Type: 3
+16:19:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:19:48 [FAKE ONLINE LOG] Start
+16:19:48 [ServerInfo] CashShop loaded successfully
+16:19:48 [ServerInfo] ChaosMix loaded successfully
+16:19:48 [ServerInfo] Character loaded successfully
+16:19:48 [FakeOnline] Loaded successfully
+16:19:48 [ServerInfo] Custom loaded successfully
+16:19:48 [ServerInfo] Command loaded successfully
+16:19:48 [ServerInfo] Common loaded successfully
+16:19:48 [ServerInfo] Discord loaded successfully
+16:19:48 [ServerInfo] Effect loaded successfully
+16:19:48 [ServerInfo] Event loaded successfully
+16:19:49 [ServerInfo] EventItemBag loaded successfully
+16:19:49 [ServerInfo] Hack loaded successfully
+16:19:49 [ServerInfo] Item loaded successfully
+16:19:49 [ServerInfo] Message loaded successfully
+16:19:49 [ServerInfo] Map loaded successfully
+16:19:49 [ServerInfo] Terrain loaded successfully
+16:19:49 [ServerInfo] Monster loaded successfully
+16:19:49 [ServerInfo] Move loaded successfully
+16:19:49 [ServerInfo] Quest loaded successfully
+16:19:49 [ServerInfo] Script loaded successfully
+16:19:49 [ServerInfo] Shop loaded successfully
+16:19:49 [ServerInfo] Skill loaded successfully
+16:19:49 [ServerInfo] Util loaded successfully
+16:19:49 [ReadBotInfo] BotSystem loaded successfully
+16:19:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+16:19:49 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 211, Y: 246)
+16:19:49 [ServerInfo] Custom Attack offline restored successfully
+16:19:49 [ServerInfo] Custom Store offline restored successfully
+16:19:49 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:20:07 [Obj][13000] AddClient (177.200.37.190)
+16:20:17 [Obj][13000] AddAccount (hellder)
+16:20:17 [Obj][13000] LogInCharacter (Saffe)
+16:20:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:20:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:20:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:20:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:20:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:20:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 266 ms | Type: 3
+16:20:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:20:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:20:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 1297 ms | Type: 3
+16:20:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:20:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:20:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:20:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 2422 ms | Type: 3
+16:20:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:20:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:20:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:20:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:20:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:20:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 484 ms | Type: 3
+16:20:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:20:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 4594 ms | Type: 3
+16:20:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:20:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:20:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:20:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 4469 ms | Type: 3
+16:20:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 188 ms | Type: 3
+16:20:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:20:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:20:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:20:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 4515 ms | Type: 3
+16:20:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:20:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 469 ms | Type: 3
+16:20:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:20:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 4578 ms | Type: 3
+16:21:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:21:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:21:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 453 ms | Type: 3
+16:21:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:21:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 437 ms | Type: 3
+16:21:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:21:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:21:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 421 ms | Type: 3
+16:21:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:21:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:21:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 531 ms | Type: 3
+16:21:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:21:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:21:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:21:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:21:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:21:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:21:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:21:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:21:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:21:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 1140 ms | Type: 3
+16:21:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:21:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 2734 ms | Type: 3
+16:21:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:21:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 46 ms | Type: 3
+16:21:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:21:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:21:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:21:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:21:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:21:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:21:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:21:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:21:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:21:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:22:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 8125 ms | Type: 3
+16:22:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:22:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 1813 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:22:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 31 ms | Type: 3
+16:22:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:22:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:22:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:22:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:22:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 2422 ms | Type: 3
+16:22:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:22:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:22:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:22:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:22:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:22:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:22:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:22:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 75281 ms | Type: 3
+16:23:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:23:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:23:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:23:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 5391 ms | Type: 3
+16:23:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:23:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:23:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:23:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 5047 ms | Type: 3
+16:23:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:23:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:23:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:23:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:23:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 469 ms | Type: 3
+16:23:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:23:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:23:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 188 ms | Type: 3
+16:23:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 3094 ms | Type: 3
+16:23:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:23:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:24:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:24:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:24:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 5391 ms | Type: 3
+16:24:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:24:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:24:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:24:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:24:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 5297 ms | Type: 3
+16:24:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:24:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 5687 ms | Type: 3
+16:24:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:24:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:24:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:24:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:24:43 [ServerInfo] Item loaded successfully
+16:24:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 5235 ms | Type: 3
+16:24:45 [ServerInfo] Monster loaded successfully
+16:24:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:24:46 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 151, Y: 76)
+16:24:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:24:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 281 ms | Type: 3
+16:24:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:24:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:24:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:24:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:24:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:24:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:24:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:24:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:24:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:24:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:25:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:25:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 5422 ms | Type: 3
+16:25:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:25:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:25:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:25:18 [ServerInfo] Item loaded successfully
+16:25:20 [ServerInfo] Monster loaded successfully
+16:25:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+16:25:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 150, Y: 76)
+16:25:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 281 ms | Type: 3
+16:25:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:25:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 140 ms | Type: 3
+16:25:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:25:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:25:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:25:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:25:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:25:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:25:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:25:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:25:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:25:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 2313 ms | Type: 3
+16:25:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:25:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:25:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 5328 ms | Type: 3
+16:25:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:25:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:26:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:26:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:26:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:26:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 266 ms | Type: 3
+16:26:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 5484 ms | Type: 3
+16:26:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 250 ms | Type: 3
+16:26:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:26:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 266 ms | Type: 3
+16:26:21 [ServerInfo] Common loaded successfully
+16:26:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 5375 ms | Type: 3
+16:26:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:26:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:26:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 7516 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:26:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:26:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:26:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 5328 ms | Type: 3
+16:26:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:26:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:26:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 5407 ms | Type: 3
+16:26:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:26:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:27:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:27:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 5422 ms | Type: 3
+16:27:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:27:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 218 ms | Type: 3
+16:27:14 [ServerInfo] Item loaded successfully
+16:27:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:27:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:27:20 [ServerInfo] Monster loaded successfully
+16:27:20 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+16:27:21 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+16:27:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 4250 ms | Type: 3
+16:27:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 141 ms | Type: 3
+16:27:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:27:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:27:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:27:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 5829 ms | Type: 3
+16:27:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:27:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:27:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 188 ms | Type: 3
+16:27:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:27:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 3579 ms | Type: 3
+16:27:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:27:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:27:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:27:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 422 ms | Type: 3
+16:27:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:27:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:27:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:27:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:27:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:27:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:27:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 204 ms | Type: 3
+16:27:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 1515 ms | Type: 3
+16:27:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:27:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:27:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 281 ms | Type: 3
+16:27:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:27:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 156 ms | Type: 3
+16:27:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:27:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:27:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:27:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 219 ms | Type: 3
+16:28:00 [ServerInfo] Item loaded successfully
+16:28:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:28:03 [ServerInfo] Monster loaded successfully
+16:28:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+16:28:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 190, Y: 143)
+16:28:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+16:28:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 2265 ms | Type: 3
+16:28:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:28:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 203 ms | Type: 3
+16:28:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 15 ms | Type: 3
+16:28:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:28:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:28:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 234 ms | Type: 3
+16:28:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:28:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:28:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 1469 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 235 ms | Type: 3
+16:28:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:28:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:28:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 5875 ms | Type: 3
+16:28:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:28:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:28:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 31 ms | Type: 3
+16:28:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:28:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:28:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:28:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:28:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:28:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:28:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:28:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:28:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:29:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:29:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:29:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 31 ms | Type: 3
+16:29:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:29:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:29:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:29:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:29:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:29:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:29:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:29:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:29:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:29:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 9875 ms | Type: 3
+16:30:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:30:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:30:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:30:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:30:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:30:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:30:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:30:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:30:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:30:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:30:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:30:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:31:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:31:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:31:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:31:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:31:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:31:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:31:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 65516 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:32:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:32:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:32:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:32:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:32:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:32:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:32:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:32:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:33:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:33:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:33:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 735 ms | Type: 3
+16:33:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:38 [ServerInfo] Item loaded successfully
+16:33:39 [ServerInfo] Monster loaded successfully
+16:33:39 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+16:33:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:33:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:33:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:33:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:33:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:33:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:33:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:34:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:34:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:34:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:34:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:34:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:34:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:34:59 [ServerInfo] Item loaded successfully
+16:35:02 [ServerInfo] Monster loaded successfully
+16:35:02 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 211, Y: 246)
+16:35:03 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 61, Y: 7)
+16:35:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:06 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:11 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 125 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:12 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:13 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:14 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:15 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:16 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:17 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:18 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:19 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:20 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:21 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:22 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:23 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:24 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:25 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:26 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:27 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:28 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:29 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:30 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:31 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:32 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 31 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:33 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:34 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:35 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:36 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:37 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 0 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:38 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:39 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:40 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:41 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:42 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:43 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 16 ms | Type: 3
+16:35:44 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:45 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 31 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:46 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:47 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:48 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:49 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:50 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 172 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:51 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:52 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:53 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:54 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:55 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:35:56 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:57 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:35:58 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 47 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:35:59 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:00 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 110 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:01 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 16 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:02 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:03 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 109 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:04 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:36:05 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:07 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 79 ms | Type: 3
+16:36:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:36:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:08 [CustomAttackSkillDebug] Skill: 38 | Delay: 94 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 63 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 93 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:36:09 [CustomAttackSkillDebug] Skill: 38 | Delay: 78 ms | Type: 3
+16:36:10 [CustomAttackSkillDebug] Skill: 38 | Delay: 62 ms | Type: 3
+16:52:35 [Obj][13000] LogOutCharacter (Saffe)
+16:52:35 [Obj][13000] DelAccount (hellder)
+16:52:35 [Obj][13000] DelClient (177.200.37.190)
+19:31:39 [Obj][13000] AddClient (177.4.185.75)
+19:31:41 [Obj][13000] DelClient (177.4.185.75)

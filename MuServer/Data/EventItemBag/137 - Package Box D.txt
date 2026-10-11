@@ -1,0 +1,16 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Package Box D"		0	100		1		0		0		0		0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+7	42	0	0	0	1	7	2	// Demonic Helm
+8	42	0	0	0	1	7	2	// Demonic Armor
+9	42	0	0	0	1	7	2	// Demonic Pants
+10	42	0	0	0	1	7	2	// Demonic Gloves
+11	42	0	0	0	1	7	2	// Demonic Boots
+end

@@ -1,0 +1,4 @@
+00:46:30 [ServerManager][3] DelServer (127.0.0.1)
+00:46:42 [ServerManager][0] AddServer (127.0.0.1)
+00:46:42 [ServerManager][0] ServerInfo (Test) (55902) (1)
+00:46:58 [SocketManager] WSAAccept() failed with error: 10061

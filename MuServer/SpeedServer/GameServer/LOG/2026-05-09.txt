@@ -1,0 +1,324 @@
+00:25:39 [FAKE ONLINE LOG] Start
+00:25:39 [ServerInfo] CashShop loaded successfully
+00:25:39 [ServerInfo] ChaosMix loaded successfully
+00:25:40 [ServerInfo] Character loaded successfully
+00:25:40 [FakeOnline] Loaded successfully
+00:25:40 [ServerInfo] Custom loaded successfully
+00:25:40 [ServerInfo] Command loaded successfully
+00:25:40 [ServerInfo] Common loaded successfully
+00:25:40 [ServerInfo] Discord loaded successfully
+00:25:40 [ServerInfo] Effect loaded successfully
+00:25:40 [ServerInfo] Event loaded successfully
+00:25:40 [ServerInfo] EventItemBag loaded successfully
+00:25:40 [ServerInfo] Hack loaded successfully
+00:25:40 [ServerInfo] Item loaded successfully
+00:25:40 [ServerInfo] Message loaded successfully
+00:25:40 [ServerInfo] Map loaded successfully
+00:25:40 [ServerInfo] Terrain loaded successfully
+00:25:40 [ServerInfo] Monster loaded successfully
+00:25:40 [ServerInfo] Move loaded successfully
+00:25:40 [ServerInfo] Quest loaded successfully
+00:25:40 [ServerInfo] Script loaded successfully
+00:25:40 [ServerInfo] Shop loaded successfully
+00:25:40 [ServerInfo] Skill loaded successfully
+00:25:40 [ServerInfo] Util loaded successfully
+00:25:40 [ReadBotInfo] BotSystem loaded successfully
+00:25:40 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+00:25:40 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+00:25:40 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 60, Y: 7)
+00:25:40 [ServerInfo] Custom Attack offline restored successfully
+00:25:40 [ServerInfo] Custom Store offline restored successfully
+00:25:40 [Discord] Connection successfully
+00:25:41 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+00:31:53 [FAKE ONLINE LOG] Start
+00:31:53 [ServerInfo] CashShop loaded successfully
+00:31:53 [ServerInfo] ChaosMix loaded successfully
+00:31:53 [ServerInfo] Character loaded successfully
+00:31:53 [FakeOnline] Loaded successfully
+00:31:53 [ServerInfo] Custom loaded successfully
+00:31:53 [ServerInfo] Command loaded successfully
+00:31:53 [ServerInfo] Common loaded successfully
+00:31:53 [ServerInfo] Discord loaded successfully
+00:31:53 [ServerInfo] Effect loaded successfully
+00:31:53 [ServerInfo] Event loaded successfully
+00:31:53 [ServerInfo] EventItemBag loaded successfully
+00:31:53 [ServerInfo] Hack loaded successfully
+00:31:53 [ServerInfo] Item loaded successfully
+00:31:53 [ServerInfo] Message loaded successfully
+00:31:53 [ServerInfo] Map loaded successfully
+00:31:53 [ServerInfo] Terrain loaded successfully
+00:31:53 [ServerInfo] Monster loaded successfully
+00:31:53 [ServerInfo] Move loaded successfully
+00:31:53 [ServerInfo] Quest loaded successfully
+00:31:53 [ServerInfo] Script loaded successfully
+00:31:53 [ServerInfo] Shop loaded successfully
+00:31:53 [ServerInfo] Skill loaded successfully
+00:31:53 [ServerInfo] Util loaded successfully
+00:31:53 [ReadBotInfo] BotSystem loaded successfully
+00:31:53 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+00:31:53 [ServerInfo] Custom Attack offline restored successfully
+00:31:53 [ServerInfo] Custom Store offline restored successfully
+00:31:53 [Discord] Connection successfully
+00:31:54 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+01:14:22 [Obj][13000] AddClient (152.233.45.27)
+01:14:23 [Obj][13000] DelClient (152.233.45.27)
+01:46:46 [Obj][13000] AddClient (66.132.195.83)
+01:46:47 [Obj][13000] DelClient (66.132.195.83)
+01:46:47 [Obj][13001] AddClient (66.132.195.83)
+01:46:48 [Obj][13001] DelClient (66.132.195.83)
+01:46:49 [Obj][13002] AddClient (66.132.195.83)
+01:46:52 [Obj][13002] DelClient (66.132.195.83)
+01:46:58 [Obj][13000] AddClient (66.132.195.83)
+01:47:09 [Obj][13000] DelClient (66.132.195.83)
+05:30:26 [Obj][13001] AddClient (179.63.44.169)
+05:30:27 [Obj][13001] DelClient (179.63.44.169)
+05:30:28 [Obj][13002] AddClient (179.63.44.169)
+05:30:29 [Obj][13002] DelClient (179.63.44.169)
+05:32:52 [Obj][13000] AddClient (179.63.44.169)
+05:32:55 [Obj][13000] AddAccount (gordo00)
+05:33:07 [Obj][13000] LogInCharacter (BruxaDo71)
+06:04:43 [BotBuffer] CharName: BruxaDo71 -ADD_GREATER_DEFENSE Time: 720
+06:04:43 [BotBuffer] CharName: BruxaDo71 - ADD_GREATER_DAMAGE Time: 720
+06:04:45 [BotBuffer] CharName: BruxaDo71 - ADD_SKILL_MANA Time: 720
+06:04:48 [BotBuffer] CharName: BruxaDo71 - ADD_GREATER_LIFE Time: 720
+06:17:13 [Obj][13001] AddClient (179.63.44.169)
+06:17:18 [Obj][13001] AddAccount (gordo3)
+06:17:20 [Obj][13001] LogInCharacter (Pain)
+06:21:18 Flood Packet: Index: 13000 Head: 0X30 Sub: 0000
+06:45:36 [Obj][13001] LogOutCharacter (Pain)
+06:45:36 [Obj][13001] DelAccount (gordo3)
+06:45:36 [Obj][13001] DelClient (179.63.44.169)
+06:46:01 [Obj][13002] AddClient (179.63.44.169)
+06:46:01 [Obj][13002] AddAccount (gordo3)
+06:46:01 [Obj][13002] LogInCharacter (Pain)
+06:46:08 [Obj][13002] LogOutCharacter (Pain)
+06:46:08 [Obj][13002] DelAccount (gordo3)
+06:46:08 [Obj][13002] DelClient (179.63.44.169)
+06:46:12 [Obj][13001] AddClient (179.63.44.169)
+06:46:13 [Obj][13001] DelClient (179.63.44.169)
+06:46:18 [Obj][13003] AddClient (179.63.44.169)
+06:46:19 [Obj][13003] DelClient (179.63.44.169)
+06:50:42 [Obj][13002] AddClient (45.170.89.88)
+06:50:52 [Obj][13002] DelClient (45.170.89.88)
+06:57:21 [Obj][13001] AddClient (179.63.44.169)
+06:57:23 [Obj][13001] AddAccount (gordo3)
+06:57:24 [Obj][13001] LogInCharacter (Pain)
+07:06:49 [Obj][13003] AddClient (143.0.7.239)
+07:07:08 [Obj][13003] DelClient (143.0.7.239)
+07:07:35 [Obj][13002] AddClient (143.0.7.239)
+07:07:49 [Obj][13002] DelClient (143.0.7.239)
+07:09:59 [Obj][13003] AddClient (143.0.7.239)
+07:10:33 [Obj][13003] DelClient (143.0.7.239)
+07:15:39 [Obj][13002] AddClient (143.0.7.239)
+07:15:49 [Obj][13002] DelClient (143.0.7.239)
+07:18:35 [Obj][13003] AddClient (177.200.33.234)
+07:18:38 [Obj][13003] AddAccount (marco)
+07:18:47 [Obj][13003] LogOutCharacter (LorencianA)
+07:18:57 [Obj][13003] LogOutCharacter (LorencianA)
+07:19:10 [Obj][13003] DelAccount (marco)
+07:19:10 [Obj][13003] DelClient (177.200.33.234)
+07:20:40 [Obj][13002] AddClient (143.0.7.239)
+07:20:42 [Obj][13002] DelClient (143.0.7.239)
+07:21:23 [Obj][13003] AddClient (177.200.33.234)
+07:21:28 [Obj][13003] AddAccount (mamm)
+07:21:41 [Obj][13003] LogOutCharacter (7777)
+07:27:17 [Obj][13003] LogInCharacter (Lalamusa)
+07:27:29 [Obj][13002] AddClient (189.63.4.42)
+07:27:35 [Obj][13002] DelClient (189.63.4.42)
+07:27:47 [Obj][13002] AddClient (189.63.4.42)
+07:27:50 [Obj][13002] DelClient (189.63.4.42)
+07:28:56 [Obj][13002] AddClient (152.233.45.27)
+07:28:59 [Obj][13002] DelClient (152.233.45.27)
+07:29:00 [Obj][13004] AddClient (152.233.45.27)
+07:29:01 [Obj][13004] DelClient (152.233.45.27)
+07:30:59 [Obj][13002] AddClient (152.233.45.27)
+07:31:07 [Obj][13002] DelClient (152.233.45.27)
+07:33:45 [Obj][13004] AddClient (177.200.33.234)
+07:34:01 [Obj][13002] AddClient (152.233.45.27)
+07:34:03 [Obj][13004] AddAccount (marco)
+07:34:04 [Obj][13002] DelClient (152.233.45.27)
+07:34:21 [Obj][13004] LogInCharacter (Noriano)
+07:37:29 [Obj][13002] AddClient (152.233.45.27)
+07:37:33 [Obj][13002] DelClient (152.233.45.27)
+07:42:18 [Obj][13002] AddClient (45.184.244.115)
+07:42:19 [Obj][13002] AddAccount (leuzzzz)
+07:42:28 [Obj][13002] LogOutCharacter (YujiBK)
+07:42:38 [Obj][13002] DelAccount (leuzzzz)
+07:42:38 [Obj][13002] DelClient (45.184.244.115)
+07:42:51 [Obj][13002] AddClient (45.184.244.115)
+07:42:58 [Obj][13002] AddAccount (leuzzzz)
+07:43:24 [Obj][13002] LogInCharacter (NamiSUM)
+08:01:27 [Obj][13005] AddClient (177.200.34.5)
+08:01:29 [Obj][13005] DelClient (177.200.34.5)
+08:02:45 [Obj][13000] LogOutCharacter (BruxaDo71)
+08:02:45 [Obj][13000] DelAccount (gordo00)
+08:02:45 [Obj][13000] DelClient (179.63.44.169)
+08:03:29 [FAKE ONLINE LOG] Start
+08:03:29 [ServerInfo] CashShop loaded successfully
+08:03:29 [ServerInfo] ChaosMix loaded successfully
+08:03:29 [ServerInfo] Character loaded successfully
+08:03:29 [FakeOnline] Loaded successfully
+08:03:29 [ServerInfo] Custom loaded successfully
+08:03:29 [ServerInfo] Command loaded successfully
+08:03:29 [ServerInfo] Common loaded successfully
+08:03:29 [ServerInfo] Discord loaded successfully
+08:03:29 [ServerInfo] Effect loaded successfully
+08:03:29 [ServerInfo] Event loaded successfully
+08:03:29 [ServerInfo] EventItemBag loaded successfully
+08:03:29 [ServerInfo] Hack loaded successfully
+08:03:29 [ServerInfo] Item loaded successfully
+08:03:29 [ServerInfo] Message loaded successfully
+08:03:29 [ServerInfo] Map loaded successfully
+08:03:29 [ServerInfo] Terrain loaded successfully
+08:03:30 [ServerInfo] Monster loaded successfully
+08:03:30 [ServerInfo] Move loaded successfully
+08:03:30 [ServerInfo] Quest loaded successfully
+08:03:30 [ServerInfo] Script loaded successfully
+08:03:30 [ServerInfo] Shop loaded successfully
+08:03:30 [ServerInfo] Skill loaded successfully
+08:03:30 [ServerInfo] Util loaded successfully
+08:03:30 [ReadBotInfo] BotSystem loaded successfully
+08:03:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 144)
+08:03:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+08:03:30 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+08:03:30 [ServerInfo] Custom Attack offline restored successfully
+08:03:30 [ServerInfo] Custom Store offline restored successfully
+08:03:30 [Discord] Connection successfully
+08:03:31 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+08:03:45 [Obj][13000] AddClient (179.63.44.169)
+08:03:46 [Obj][13001] AddClient (177.200.33.234)
+08:03:47 [Obj][13002] AddClient (179.63.44.169)
+08:03:47 [Obj][13003] AddClient (177.200.33.234)
+08:03:55 [Obj][13000] AddAccount (gordo00)
+08:03:55 [Obj][13000] LogInCharacter (BruxaDo71)
+08:03:56 [Obj][13001] AddAccount (mamm)
+08:03:56 [Obj][13001] LogInCharacter (Lalamusa)
+08:03:57 [Obj][13002] AddAccount (gordo3)
+08:03:57 [Obj][13003] AddAccount (marco)
+08:03:57 [Obj][13002] LogInCharacter (Pain)
+08:03:57 [Obj][13003] LogInCharacter (Noriano)
+08:08:19 [Obj][13002] LogOutCharacter (Pain)
+08:08:19 [Obj][13002] DelAccount (gordo3)
+08:08:19 [Obj][13002] DelClient (179.63.44.169)
+08:13:06 [Obj][13000] LogOutCharacter (BruxaDo71)
+08:13:06 [Obj][13000] DelAccount (gordo00)
+08:13:06 [Obj][13000] DelClient (179.63.44.169)
+08:13:34 [Obj][13002] AddClient (179.63.44.169)
+08:13:34 [Obj][13002] AddAccount (gordo00)
+08:13:34 [Obj][13002] LogInCharacter (BruxaDo71)
+08:15:33 [Obj][13002] LogOutCharacter (BruxaDo71)
+08:15:33 [Obj][13002] DelAccount (gordo00)
+08:15:33 [Obj][13002] DelClient (179.63.44.169)
+08:16:24 [Obj][13000] AddClient (179.63.44.169)
+08:16:24 [Obj][13000] AddAccount (gordo00)
+08:16:24 [Obj][13000] LogInCharacter (BruxaDo71)
+08:39:50 [ServerInfo] Common loaded successfully
+08:49:53 [ServerInfo] Common loaded successfully
+08:54:22 [ServerInfo] Common loaded successfully
+09:04:12 [Obj][13002] AddClient (177.200.34.5)
+09:04:13 [Obj][13002] DelClient (177.200.34.5)
+09:04:18 [Obj][13004] AddClient (177.200.34.5)
+09:04:20 [Obj][13004] DelClient (177.200.34.5)
+09:07:44 [Obj][13002] AddClient (177.200.34.5)
+09:07:45 [Obj][13002] DelClient (177.200.34.5)
+09:24:25 [ServerInfo] Script loaded successfully
+10:11:56 [Obj][13004] AddClient (177.37.183.186)
+10:11:58 [Obj][13004] DelClient (177.37.183.186)
+10:19:38 [Obj][13001] LogOutCharacter (Lalamusa)
+10:19:38 [Obj][13001] DelAccount (mamm)
+10:19:38 [Obj][13001] DelClient (177.200.33.234)
+10:19:47 [Obj][13003] LogOutCharacter (Noriano)
+10:19:47 [Obj][13003] DelAccount (marco)
+10:19:47 [Obj][13003] DelClient (177.200.33.234)
+13:32:36 [Obj][13000] LogOutCharacter (BruxaDo71)
+14:15:33 [Obj][13002] AddClient (45.237.102.248)
+14:15:35 [Obj][13002] AddAccount (maiconj3)
+14:15:38 [Obj][13002] LogInCharacter (ELcAbOnG)
+14:15:50 [BotBuffer] CharName: ELcAbOnG -ADD_GREATER_DEFENSE Time: 720
+14:15:50 [BotBuffer] CharName: ELcAbOnG - ADD_GREATER_DAMAGE Time: 720
+14:15:52 [BotBuffer] CharName: ELcAbOnG - ADD_SKILL_MANA Time: 720
+14:15:54 [BotBuffer] CharName: ELcAbOnG - ADD_GREATER_LIFE Time: 720
+14:15:56 [BotBuffer] CharName: ELcAbOnG - ADD_DAMAGE_REFLECT Time: 720
+14:15:58 [BotBuffer] CharName: ELcAbOnG - ADD_CRITICAL_DAMAGE Time: 720
+14:16:01 [BotBuffer] CharName: ELcAbOnG - ADD_FITNESS Time: 720
+14:17:07 [Obj][13004] AddClient (45.237.102.248)
+14:17:09 [Obj][13004] AddAccount (maiconj5)
+14:17:13 [Obj][13004] LogInCharacter (PIRILAMPO)
+14:17:31 [BotBuffer] CharName: PIRILAMPO -ADD_GREATER_DEFENSE Time: 720
+14:17:31 [BotBuffer] CharName: PIRILAMPO - ADD_GREATER_DAMAGE Time: 720
+14:17:33 [BotBuffer] CharName: PIRILAMPO - ADD_SKILL_MANA Time: 720
+14:17:35 [BotBuffer] CharName: PIRILAMPO - ADD_GREATER_LIFE Time: 720
+14:17:37 [BotBuffer] CharName: PIRILAMPO - ADD_DAMAGE_REFLECT Time: 720
+14:17:40 [BotBuffer] CharName: PIRILAMPO - ADD_CRITICAL_DAMAGE Time: 720
+14:17:41 [BotBuffer] CharName: PIRILAMPO - ADD_FITNESS Time: 720
+14:30:48 [Obj][13001] AddClient (189.40.89.72)
+14:30:50 [Obj][13001] DelClient (189.40.89.72)
+14:53:23 [Obj][13000] LogOutCharacter (BruxaDo71)
+14:53:31 [Obj][13000] DelAccount (gordo00)
+14:53:31 [Obj][13000] DelClient (179.63.44.169)
+14:55:02 [Obj][13003] AddClient (179.63.44.169)
+14:55:06 [Obj][13003] AddAccount (gordo3)
+14:55:07 [Obj][13003] LogInCharacter (Pain)
+14:55:55 [Obj][13003] LogOutCharacter (Pain)
+14:55:55 [Obj][13003] DelAccount (gordo3)
+14:55:55 [Obj][13003] DelClient (179.63.44.169)
+14:55:57 [Obj][13001] AddClient (179.63.44.169)
+14:55:58 [Obj][13001] AddAccount (gordo3)
+14:56:00 [Obj][13001] LogInCharacter (Pain)
+14:56:37 [Obj][13001] LogOutCharacter (Pain)
+14:56:37 [Obj][13001] DelAccount (gordo3)
+14:56:37 [Obj][13001] DelClient (179.63.44.169)
+15:56:42 [Obj][13000] AddClient (45.237.102.248)
+15:56:45 [Obj][13000] AddAccount (maiconj4)
+15:57:04 [Obj][13000] LogInCharacter (XalingO)
+18:22:29 [BotBuffer] CharName: XalingO - ADD_FITNESS Time: 720
+18:22:31 [BotBuffer] CharName: XalingO - ADD_CRITICAL_DAMAGE Time: 720
+18:22:33 [BotBuffer] CharName: XalingO - ADD_DAMAGE_REFLECT Time: 720
+18:22:35 [BotBuffer] CharName: XalingO - ADD_GREATER_LIFE Time: 720
+18:22:37 [BotBuffer] CharName: XalingO - ADD_SKILL_MANA Time: 720
+18:22:41 [BotBuffer] CharName: XalingO -ADD_GREATER_DEFENSE Time: 720
+18:22:41 [BotBuffer] CharName: XalingO - ADD_GREATER_DAMAGE Time: 720
+19:17:48 [Obj][13003] AddClient (170.0.222.144)
+19:17:49 [Obj][13003] DelClient (170.0.222.144)
+19:50:07 [Obj][13001] AddClient (45.238.1.52)
+19:50:09 [Obj][13001] AddAccount (boss)
+19:50:11 [Obj][13001] LogInCharacter (cumelao)
+21:07:31 [Obj][13002] LogOutCharacter (ELcAbOnG)
+21:07:31 [Obj][13002] DelAccount (maiconj3)
+21:07:31 [Obj][13002] DelClient (45.237.102.248)
+22:10:03 [Obj][13000] LogOutCharacter (XalingO)
+22:10:03 [Obj][13000] DelAccount (maiconj4)
+22:10:03 [Obj][13000] DelClient (45.237.102.248)
+22:10:04 [Obj][13004] LogOutCharacter (PIRILAMPO)
+22:10:04 [Obj][13004] DelAccount (maiconj5)
+22:10:04 [Obj][13004] DelClient (45.237.102.248)
+22:18:36 [Obj][13001] LogOutCharacter (cumelao)
+22:34:24 [Obj][13003] AddClient (179.63.44.169)
+22:34:28 [Obj][13003] AddAccount (gordo3)
+22:34:30 [Obj][13003] LogInCharacter (Pain)
+22:39:14 [Obj][13003] LogOutCharacter (Pain)
+22:39:14 [Obj][13003] DelAccount (gordo3)
+22:39:14 [Obj][13003] DelClient (179.63.44.169)
+22:40:02 [Obj][13002] AddClient (179.63.44.169)
+22:40:02 [Obj][13002] AddAccount (gordo3)
+22:40:02 [Obj][13002] LogInCharacter (Pain)
+22:40:15 [Obj][13002] LogOutCharacter (Pain)
+22:40:15 [Obj][13002] DelAccount (gordo3)
+22:40:15 [Obj][13002] DelClient (179.63.44.169)
+22:50:33 [Obj][13001] DelAccount (boss)
+22:50:33 [Obj][13001] DelClient (45.238.1.52)
+22:51:11 [Obj][13000] AddClient (179.63.44.169)
+22:51:14 [Obj][13000] AddAccount (gordo3)
+22:51:15 [Obj][13000] LogInCharacter (Pain)
+22:52:01 [Obj][13000] LogOutCharacter (Pain)
+22:52:01 [Obj][13000] DelAccount (gordo3)
+22:52:01 [Obj][13000] DelClient (179.63.44.169)
+22:54:18 [Obj][13004] AddClient (179.63.44.169)
+22:54:18 [Obj][13004] AddAccount (gordo3)
+22:54:18 [Obj][13004] LogInCharacter (Pain)
+23:02:30 [Obj][13004] LogOutCharacter (Pain)
+23:02:30 [Obj][13004] DelAccount (gordo3)
+23:02:30 [Obj][13004] DelClient (179.63.44.169)
+23:06:07 [Obj][13003] AddClient (179.63.44.169)
+23:06:07 [Obj][13003] AddAccount (gordo3)
+23:06:07 [Obj][13003] LogInCharacter (Pain)

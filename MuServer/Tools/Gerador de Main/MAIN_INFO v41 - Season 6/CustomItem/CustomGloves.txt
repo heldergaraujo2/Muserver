@@ -1,0 +1,39 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+// ------------------------------------------------------------------------------------------------------------------------------------------
+// ItemIndex 	  ModelName           IndexLeft	          TextureLeft	        IndexRight	  TextureRight 	    		ColorR  ColorG   ColorB	
+// ------------------------------------------------------------------------------------------------------------------------------------------
+   100	     	"BloodangelClo"		  1552		          "BloodangelClo_L"     1553	      "BloodangelClo_R"    		205		192      176
+   101		    "PrickleGlove"		  1554		          "PrickleGlove_left"   1555	      "PrickleGlove_right" 		255		229	 	 153  
+   102	     	"Sword39"			  1556		          "Sword39_L"	    	1557	      "Sword39_R" 	     		125		125      150
+   103	     	"Sword40"			  1558		          "Sword40_L"	    	1559	      "Sword40_R"          		84      129      107
+   104	     	"Sword43"			  1560		          "Sword43_L"	    	1561	      "Sword43_R" 	     		137		77       0
+   105	     	"Sword41"			  1562		          "Sword41_L"	    	1563	      "Sword41_R"         		219		34	 	 17  
+   106	     	"Sword42"			  1564		          "Sword42_L"	    	1565	      "Sword42_R" 	     		0  		19       189  
+   107	     	"Sword37"			  1566		          "Sword37_L"	    	1567	      "Sword37_R"         		71      163      233
+   108	     	"Sword38"			  1568		          "Sword38_L"	    	1569	      "Sword38_R" 	     		236		198      140
+   109	     	"Sword44"			  1570		          "Sword44_L"	    	1571	      "Sword44_R" 	     		122		139      168
+   110	     	"Sword45"			  1572		          "Sword45_L"	    	1573	      "Sword45_R" 	     		78 		17       166 
+   111	     	"sword46_"			  1574		          "Sword46_L_"	    	1575	      "Sword46_R_" 	     		159     150      102
+   112	     	"sword47"			  1576		          "Sword47_L"	    	1577	      "Sword47_R" 	     		45	    108	 	 171 
+   113	     	"sword48"			  1578		          "Sword48_L"	    	1579	      "Sword48_R" 	     		200		160	 	 100 
+   114	     	"sword49"			  1580		          "Sword49_L"	    	1581	      "Sword49_R" 	     		60	    110	 	 150
+   115	     	"sword50"			  1582		          "Sword50_L"	    	1583	      "Sword50_R" 	     		128     100      30
+   116	     	"Sword116"			  1584		          "Sword116L"	    	1585	      "Sword116R" 	     		255     250      250
+   117	     	"Sword117"			  1586		          "Sword117L"	    	1587	      "Sword117R" 	     		139     000      000
+   118	     	"Sword118"			  1588		          "Sword118L"	    	1589	      "Sword118R" 	     		248     248      255
+   119	     	"Sword119"			  1590		          "Sword119L"	    	1591	      "Sword119R" 	     		000     000      128
+   134	     	"Sword120"			  1592		          "Sword120L"	    	1593	      "Sword120R" 	     		154 255 154
+   135	     	"Sword121"			  1594		          "Sword121L"	    	1595	      "Sword121R" 	     		028 028 028
+   136	     	"Sword122"			  1596		          "Sword122L"	    	1597	      "Sword122R" 	     		139     139      139
+   137	     	"Sword123"			  1598		          "Sword123L"	    	1599	      "Sword123R" 	     		139 069 019
+   138	     	"Sword124"			  1600		          "Sword124L"	    	1601	      "Sword124R" 	     		058 095 205
+   139	     	"Sword125"			  1602		          "Sword125L"	    	1603	      "Sword125R" 	     		240 230 140
+   141	     	"Sword127"			  1606		          "Sword127L"	    	1607	      "Sword127R" 	     		062 047 208
+   142	     	"Sword128"			  1608		          "Sword128L"	    	1609	      "Sword128R" 	     		238 233 191
+   144	     	"Sword129"			  1610		          "Sword129L"	    	1611	      "Sword129R" 	     		173   216   230

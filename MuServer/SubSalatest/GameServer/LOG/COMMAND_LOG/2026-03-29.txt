@@ -1,0 +1,39 @@
+10:20:34 [CommandMake][hellder][Saffe] Section: 0, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:20:48 [CommandMake][hellder][Saffe] Section: 0, Type: 18, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:22:04 [CommandAddPoint][thecrims4][ExitLag] - (Type: 3, Amount: 3000)
+10:22:06 [CommandAddPoint][thecrims4][ExitLag] - (Type: 0, Amount: 3000)
+10:22:09 [CommandAddPoint][thecrims4][ExitLag] - (Type: 1, Amount: 3000)
+10:31:00 [CommandSpot][hellder][Saffe] - (Monster: 51, Qtd: 1)
+10:31:12 [CommandSpot][hellder][Saffe] - (Monster: 51, Qtd: 1)
+10:31:46 [CommandSpot][hellder][Saffe] - (Monster: 51, Qtd: 1)
+10:31:57 [CommandSpot][hellder][Saffe] - (Monster: 51, Qtd: 1)
+10:34:17 [CommandSpot][hellder][Saffe] - (Monster: 37, Qtd: 1)
+10:34:26 [CommandSpot][hellder][Saffe] - (Monster: 73, Qtd: 1)
+10:34:41 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+10:34:47 [CommandSpot][hellder][Saffe] - (Monster: 353, Qtd: 1)
+10:34:54 [CommandSpot][hellder][Saffe] - (Monster: 304, Qtd: 1)
+10:35:08 [CommandSpot][hellder][Saffe] - (Monster: 350, Qtd: 1)
+10:35:14 [CommandSpot][hellder][Saffe] - (Monster: 360, Qtd: 1)
+10:35:21 [CommandSpot][hellder][Saffe] - (Monster: 458, Qtd: 1)
+10:35:48 [CommandSpot][hellder][Saffe] - (Monster: 77, Qtd: 1)
+10:35:57 [CommandReAdd][thecrims4][ExitLag] - OK
+10:43:21 [CommandAddPoint][thecrims4][ExitLag] - (Type: 0, Amount: 13675)
+10:43:23 [CommandSetLevel][hellder][Saffe] - (Player: ExitLag,Level: 1)
+10:43:34 [CommandSetFull][hellder][Saffe] - (Player: ExitLag, Str: 15, Dex: 15, Vit: 15, Ene: 15, Com: 0)
+10:44:01 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 1)
+10:44:25 [CommandSetLevel][hellder][Saffe] - (Player: ExitLag,Level: 400)
+10:45:02 [CommandSetFull][hellder][Saffe] - (Player: ExitLag, Str: 6960, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:45:16 [CommandReAdd][thecrims4][ExitLag] - OK
+10:50:34 [Command Clear Iventory] Use for:[hellder][Saffe]
+10:50:49 [CommandMake][hellder][Saffe] Section: 0, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:51:10 [CommandMake][hellder][Saffe] Section: 0, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:18:40 [CommandHide][hellder][Saffe] - (State: 1)
+16:18:46 [CommandMake][hellder][Saffe] Section: 7, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:18:50 [CommandMake][hellder][Saffe] Section: 8, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:18:53 [CommandMake][hellder][Saffe] Section: 9, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:18:55 [CommandMake][hellder][Saffe] Section: 10, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:18:58 [CommandMake][hellder][Saffe] Section: 11, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 44, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:19:10 [CommandHide][hellder][Saffe] - (State: 0)
+22:19:21 [CommandChange][hellder][Saffe] - (ChangeUp: 2)
+22:19:54 [CommandNotice][hellder][Saffe] - (Message: Galera os horarios sao esses)
+22:33:23 [CommandChange][hellder][Saffe] - (ChangeUp: 0)

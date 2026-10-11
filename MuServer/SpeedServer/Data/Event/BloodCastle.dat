@@ -1,0 +1,90 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+5               1            15          4         
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+*        *       *     *     6      1        0
+*        *       *     *     8      0        0
+*        *       *     *     10      0        0
+*        *       *     *     12     0        0
+*        *       *     *     14     0        0
+*        *       *     *     16     0        0
+*        *       *     *     18     0        0
+*        *       *     *     20     0        0
+*        *       *     *     22     0        0
+*        *       *     *     00     0        0
+*        *       *     *     02     0        0
+*        *       *     *     04     0        0
+end
+
+2
+//Level   ExperienceTable1   ExperienceTable2
+0         5000              5000
+1         9999              9999
+2         9999              9999
+3         9999              9999
+4         9999              9999
+5         9999              9999
+6         9999              9999
+7         9999              9999
+end
+
+3
+//Level   MoneyTable1   MoneyTable2
+0         20000	        10000
+1         50000	        25000
+2         100000	    50000
+3         150000	    80000
+4         200000	    100000
+5         250000	    120000
+6         300000	    140000
+7         350000	    160000
+end
+
+4
+//Level   GateNpcLife   StatueNpcLife  
+0	  	  60000	        60000	
+1	  	  70000 	    70000 
+2	  	  80000 	    80000 
+3	  	  90000 	    90000 
+4	  	  100000 	    100000
+5	  	  110000	    110000
+6	  	  120000	    120000
+7	  	  200000	    200000
+end
+
+//Reward 
+5
+//Level   	WC	HP	GP 
+0			0	0	100		
+1			0	0	100
+2			0	0	100
+3			0	0	100
+4			0	0	100
+5			0	0	100
+6			0	0	100
+7			0	0	100
+end
+
+6
+//BC enter level/reset/mreset(Change the type in the GameServerInfo - Event.dat)
+//Normal:  DW,DK,ELF,SU
+//Special: MG,DL,RF
+//Level   NormalMin  NormalMax  SpecialMin SpecialMax
+0         15         80         10         60
+1         81         130        61         110
+2         131        180        111        160
+3         181        230        161        210
+4         231        280        211        260
+5         281        330        261        310
+6         331        400        311        400
+end

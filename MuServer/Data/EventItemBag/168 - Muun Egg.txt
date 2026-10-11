@@ -1,0 +1,29 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+3
+//Index	DropRate	DropInventory
+0	10000		0
+end
+
+4
+//Index	Section	Rate	Money	OptionValue	DW	DK	FE	MG	DL	SU	RF
+0	5	2000	0	0		1	1	1	1	1	1	1
+0	6	1000	0	0		1	1	1	1	1	1	1
+0	-1	7000	100000	0		1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+//6860	0	0	*	*	*	*	*	*	*	0		// Luki
+//6862	0	0	*	*	*	*	*	*	*	0		// William
+//6864	0	0	*	*	*	*	*	*	*	0		// Tibetton
+//6866	0	0	*	*	*	*	*	*	*	0		// Wooparoo
+//6868	0	0	*	*	*	*	*	*	*	0		// Chiron
+//6870	0	0	*	*	*	*	*	*	*	0		// Desmodus
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+//6854	0	0	*	*	*	*	*	*	*	0		// Evolution Stone
+end

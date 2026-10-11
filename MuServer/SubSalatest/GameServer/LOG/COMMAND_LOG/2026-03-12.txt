@@ -1,0 +1,179 @@
+08:30:58 [Command Clear Iventory] Use for:[hellder][Saffe]
+08:31:13 [CommandMake][hellder][Saffe] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+08:31:47 [CommandMake][hellder][Saffe] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+08:36:36 [CommandMake][hellder][Saffe] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+08:44:46 [CommandMake][hellder][Saffe] Section: 14, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+08:44:51 [Command Clear Iventory] Use for:[hellder][Saffe]
+08:44:58 [CommandMake][hellder][Saffe] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 10]
+10:04:50 [CommandMake][hellder][Saffe] Section: 13, Type: 261, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+10:21:09 [Command Clear Iventory] Use for:[hellder][Saffe]
+10:54:52 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 265, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:55:20 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+10:55:32 [CommandAddPoint][hellder][Saffe] - (Type: 3, Amount: 30000)
+10:55:35 [CommandAddPoint][hellder][Saffe] - (Type: 1, Amount: 30000)
+10:55:38 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+10:55:56 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 265)
+10:56:43 [CommandSetFull][hellder][Saffe] - (Player: Saffe, Str: 360, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+10:56:55 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 360)
+10:56:57 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+10:57:11 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 265)
+10:57:33 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 360)
+10:57:36 [CustomMove][hellder][Saffe] - (MoveIndex: 120)
+10:57:38 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 265)
+12:47:52 [CommandMake][hellder][Saffe] Section: 0, Type: 21, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+12:50:26 [Command Clear Iventory] Use for:[hellder][Saffe]
+12:50:35 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 30]
+12:55:05 [CommandMake][hellder][Saffe] Section: 12, Type: 326, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+12:55:14 [CommandSetLevel][hellder][Saffe] - (Player: Saffe,Level: 400)
+12:55:20 [CustomMove][hellder][Saffe] - (MoveIndex: 48)
+12:55:28 [CustomMove][hellder][Saffe] - (MoveIndex: 49)
+13:31:07 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+13:34:08 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+13:37:43 [Command Clear Iventory] Use for:[hellder][Saffe]
+13:40:26 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+13:44:22 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+13:55:12 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+14:12:18 [CommandSetLevel][hellder][Saffe] - (Player: SimSalabim,Level: 360)
+14:14:03 [CommandDrop][hellder][Saffe] Section: 12, Type: 48, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+14:14:10 [CommandDrop][hellder][Saffe] Section: 13, Type: 4, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+14:15:18 [CommandSetLevel][hellder][Saffe] - (Player: SimSalabim,Level: 260)
+14:15:42 [CommandSetFull][hellder][Saffe] - (Player: SimSalabim, Str: 25000, Dex: 5000, Vit: 3000, Ene: 25000, Com: 0)
+14:40:47 [CommandMake][hellder][Saffe] Section: 13, Type: 4, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+14:40:57 [CommandTrack][hellder][Saffe] - (Name: SimSalabim)
+14:49:37 [CommandChange][thecrims1][ExitLag] - (ChangeUp: 0)
+14:49:46 [CommandPost][thecrims1][ExitLag] - (Message: alooow heldao)
+14:51:20 [CommandTrack][hellder][Saffe] - (Name: ExitLag)
+14:51:43 [Command Clear Iventory] Use for:[hellder][Saffe]
+15:03:49 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 8, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:03:56 [CommandMake][hellder][Saffe] Section: 8, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 8, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:03:59 [CommandMake][hellder][Saffe] Section: 9, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 8, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:04:02 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 8, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:10:36 [CommandMake][hellder][Saffe] Section: 12, Type: 49, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:19:16 [CommandMake][hellder][Saffe] Section: 12, Type: 49, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:20 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 12, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:27 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 13, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:32 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:38 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 15, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:45 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 16, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:51 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 11, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:21:56 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 10, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:10 [Command Clear Iventory] Use for:[hellder][Saffe]
+15:22:15 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 12, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:21 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:33 [CommandMake][hellder][Saffe] Section: 11, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:37 [CommandMake][hellder][Saffe] Section: 9, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:40 [CommandMake][hellder][Saffe] Section: 8, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:22:43 [CommandMake][hellder][Saffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 14, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:01 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 7, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:09 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 7, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:18 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 7, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:26 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 8, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:30 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 9, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:35 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 10, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:53 [CommandMake][hellder][Saffe] Section: 13, Type: 8, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 10, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:28:57 [CommandMake][hellder][Saffe] Section: 13, Type: 23, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 10, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:29:10 [CommandMake][hellder][Saffe] Section: 13, Type: 25, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 10, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:29:19 [CommandMake][hellder][Saffe] Section: 13, Type: 25, Level: 0, Skill: 1, Luck: 1, Option: 1, Exc: 12, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:44:45 [Command Clear Iventory] Use for:[hellder][Saffe]
+15:45:07 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:45:08 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:45:44 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:45:58 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:48:57 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:50:06 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:52:06 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:52:42 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:55:29 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+15:58:45 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+15:58:53 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 3, Skill: 2, Luck: 1, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:04 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:20 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 3, Skill: 5, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:26 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 1, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:32 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 9, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:38 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 9, Skill: 1, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:43 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 9, Skill: 2, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:00:48 [CommandMake][thecrims1][ExitLag] Section: 6, Type: 15, Level: 9, Skill: 3, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:01:00 [Command Clear Iventory] Use for:[hellder][Saffe]
+16:01:01 [Command Clear Iventory] Use for:[thecrims1][ExitLag]
+16:01:03 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+16:01:05 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+16:02:57 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+16:03:07 [CommandMake][hellder][Saffe] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+16:05:03 [CommandMake][thecrims1][ExitLag] Section: 14, Type: 11, Level: 12, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 50]
+16:07:21 [CommandSetLevel][thecrims1][ExitLag] - (Player: ExitLag,Level: 280)
+16:09:00 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 0, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+16:09:20 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 6800, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+16:09:25 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 6800, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+16:09:33 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 6800, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+16:09:38 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 6800, Dex: 0, Vit: 0, Ene: 0, Com: 0)
+16:09:48 [CommandSetFull][thecrims1][ExitLag] - (Player: ExitLag, Str: 6800, Dex: 15, Vit: 15, Ene: 15, Com: 15)
+16:09:56 [CommandReAdd][thecrims1][ExitLag] - OK
+16:10:03 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 570)
+16:10:08 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 1300)
+16:10:11 [CommandAddPoint][thecrims1][ExitLag] - (Type: 2, Amount: 1000)
+16:10:14 [CommandAddPoint][thecrims1][ExitLag] - (Type: 3, Amount: 4000)
+16:10:37 [CommandMake][thecrims1][ExitLag] Section: 12, Type: 7, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:10:53 [CommandMake][thecrims1][ExitLag] Section: 12, Type: 19, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:11:24 [CommandMake][thecrims1][ExitLag] Section: 12, Type: 12, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:11:44 [CommandMake][thecrims1][ExitLag] Section: 12, Type: 14, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:19:33 [Command Clear Iventory] Use for:[hellderr][LapadaSeca]
+16:20:34 [CommandReAdd][thecrims1][ExitLag] - OK
+16:20:41 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 911)
+16:20:45 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 2000)
+16:20:50 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 2000)
+16:20:55 [CommandAddPoint][thecrims1][ExitLag] - (Type: 3, Amount: 1959)
+16:20:59 [CommandReAdd][thecrims1][ExitLag] - OK
+16:21:06 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 911)
+16:21:09 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 2000)
+16:21:13 [CommandAddPoint][thecrims1][ExitLag] - (Type: 2, Amount: 2000)
+16:21:18 [CommandAddPoint][thecrims1][ExitLag] - (Type: 3, Amount: 1959)
+16:24:07 [CommandMake][hellder][Saffe] Section: 12, Type: 5, Level: 9, Skill: 1, Luck: 1, Option: 7, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:29:43 [CommandMake][thecrims1][ExitLag] Section: 12, Type: 44, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+16:47:31 [CommandDrop][videodv][AdmSaffe] Section: 12, Type: 12, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:47:52 [CommandChange][hellderr][Admin] - (ChangeUp: 0)
+16:47:58 [CommandChange][hellderr][Admin] - (ChangeUp: 1)
+16:50:31 [CommandSetFull][videodv][AdmSaffe] - (Player: Admin, Str: 926, Dex: 2000, Vit: 2000, Ene: 1974, Com: 0)
+16:54:35 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 1000, Dex: 2000, Vit: 1000, Ene: 3000, Com: 0)
+16:55:15 [CommandDrop][videodv][AdmSaffe] Section: 14, Type: 22, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+16:55:34 [CommandDrop][videodv][AdmSaffe] Section: 14, Type: 141, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0
+17:00:20 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+17:00:27 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 34, Level: 1, Skill: 1, Luck: 7, Option: 63, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:00:34 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:00:37 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 34, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:00:59 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:01:02 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:01:05 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:01:09 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 61, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:03:32 [CommandReAdd][thecrims1][ExitLag] - OK
+17:04:07 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 6870)
+17:04:49 [CommandReAdd][thecrims1][ExitLag] - OK
+17:04:54 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 1000)
+17:04:58 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 3000)
+17:05:05 [CommandAddPoint][thecrims1][ExitLag] - (Type: 3, Amount: 2000)
+17:05:09 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 870)
+17:05:35 [CommandSetFull][videodv][AdmSaffe] - (Player: AdmSaffe, Str: 65000, Dex: 65000, Vit: 65000, Ene: 65000, Com: 0)
+17:13:23 [CommandMake][videodv][AdmSaffe] Section: 7, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:13:26 [CommandMake][videodv][AdmSaffe] Section: 8, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:13:29 [CommandMake][videodv][AdmSaffe] Section: 9, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:13:32 [CommandMake][videodv][AdmSaffe] Section: 10, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:13:36 [CommandMake][videodv][AdmSaffe] Section: 11, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:13:52 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 21, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:14:07 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 20, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:14:10 [CommandMake][videodv][AdmSaffe] Section: 0, Type: 20, Level: 15, Skill: 1, Luck: 1, Option: 7, Exc: 63, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+17:15:04 [CommandReAdd][thecrims1][ExitLag] - OK
+17:15:12 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 1231)
+17:15:53 [CommandAddPoint][thecrims1][ExitLag] - (Type: 1, Amount: 1000)
+17:15:56 [CommandAddPoint][thecrims1][ExitLag] - (Type: 2, Amount: 2000)
+17:16:17 [CommandAddPoint][thecrims1][ExitLag] - (Type: 3, Amount: 1000)
+17:16:27 [CommandAddPoint][thecrims1][ExitLag] - (Type: 0, Amount: 1539)
+17:26:41 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:26:49 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:26:55 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:00 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:04 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:07 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:11 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:14 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:17 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:21 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)
+17:27:26 [CommandRewardAll][videodv][AdmSaffe] - (Type: 1, Value: 100)

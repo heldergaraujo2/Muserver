@@ -1,0 +1,41 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+//Shop: 010 - Elf Lala
+0
+//Group Type    Level   Dur     Skill   Luck    Option  ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5 SocketBonus  Duration   Info
+7	13	9	67	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Spirit Helm
+7	14	9	74	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Guardian Helm
+7	19	9	103	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Divine Helm
+7	188	9	109	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Red Spirit Helm
+8	13	9	67	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Spirit Armor
+8	14	9	74	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Guardian Armor
+8	19	9	103	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Divine Armor
+8	188	9	109	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Red Sprit Armor
+9	13	9	67	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Spirit Pants
+9	14	9	74	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Guardian Pants
+9	19	9	103	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Divine Pants
+9	188	9	109	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Red Spirit Pants
+10	13	9	67	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Spirit Gloves
+10	14	9	74	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Guardian Gloves
+10	19	9	103	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Divine Gloves
+10	188	9	109	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Red Spirit Gloves
+11	13	9	67	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Spirit Boots
+11	14	9	74	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Guardian Boots
+11	19	9	103	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Divine Boots
+11	188	9	109	0	1	1	8	0	0	0	255	255	255	255	255	255		0		//Red Spirit Boots
+14	3	0	100	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Large Healing Potion
+14	6	0	100	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Large Mana Potion
+14	8	0	100	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Antidote
+4	7	0	255	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Bolt
+4	15	0	255	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Arrow
+12	8	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Healing Orb
+12	9	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Greater Fortitude
+12	10	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Greater Damage
+12	11	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	1	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	2	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	11	3	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Summoning
+12	17	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Penetration
+12	18	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Orb of Ice Arrow
+12	45	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Crystal of Multi-Shot
+12	46	0	1	0	1	1	0	0	0	0	255	255	255	255	255	255	     0          //Crystal of Recovery
+end

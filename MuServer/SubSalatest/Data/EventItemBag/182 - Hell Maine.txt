@@ -1,0 +1,29 @@
+//# -- 3DServers MUONLINE SERVER EMULATOR 
+
+
+0
+//EventName		DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	DropInventory
+"Boss Zaikan"		0	10000			1				0				0				0			0
+end
+
+1
+//Index	Type	MinLlv	MaxLvl	Skill	Luck	Option	Exc	Comment
+
+14	66	0	0	1	1	1	1	// Hell Maine's Leather 
+ 
+ 
+
+
+
+
+//	5	8	0	0	0	1	1	2	// Staff of Destruction
+//	5	8	0	0	0	1	1	1	// Staff of Destruction
+//	5	8	0	0	0	0	0	1	// Staff of Destruction
+//	5	8	7	9	0	1	1	0	// Staff of Destruction
+//	13	109	0	0	0	0	0	0	// Sapphire Ring
+//	13	110	0	0	0	0	0	0	// Ruby Ring
+//	13	111	0	0	0	0	0	0	// Topaz Ring
+//	13	112	0	0	0	0	0	0	// Amethyst Ring
+//	14	13	0	0	0	1	0	0	// Jewel of Bless
+//	14	14	0	0	0	1	0	0	// Jewel of Soul
+end

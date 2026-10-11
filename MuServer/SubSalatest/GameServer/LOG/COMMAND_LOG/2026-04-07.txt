@@ -1,0 +1,32 @@
+17:21:43 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+17:33:51 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+17:37:31 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+17:48:19 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+18:39:25 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+18:42:45 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+18:51:40 [CommandSpot][videodv][AdmSaffe] - (Monster: 413, Qtd: 1)
+18:55:34 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+19:03:19 [CommandSpot][videodv][AdmSaffe] - (Monster: 275, Qtd: 1)
+19:05:15 [CommandSpot][videodv][AdmSaffe] - (Monster: 365, Qtd: 1)
+19:14:11 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 404, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+19:16:59 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 72)
+19:59:26 [Command Clear Iventory] Use for:[videodv][AdmSaffe]
+19:59:32 [CommandMake][videodv][AdmSaffe] Section: 14, Type: 144, Level: 0, Skill: 0, Luck: 0, Option: 0, Exc: 0, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:58:42 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 14, Level: 0, Skill: 1, Luck: 1, Option: 7, Exc: 36, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:58:49 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 14, Level: 0, Skill: 1, Luck: 1, Option: 7, Exc: 46, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:58:54 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 14, Level: 0, Skill: 1, Luck: 1, Option: 7, Exc: 26, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+20:58:59 [CommandMake][videodv][AdmSaffe] Section: 2, Type: 14, Level: 0, Skill: 1, Luck: 1, Option: 7, Exc: 24, Set: 0, Sockets: 0, JoH: 0, 380: 0, [Amount: 1]
+21:01:37 [CommandGMMove][videodv][AdmSaffe] - (Name: AdmSaffe, Map: 36, X: 26, Y: 76)
+21:19:16 [CommandAddPoint][hellderrrr][Suavera] - (Type: 0, Amount: 6500)
+21:20:54 [CommandSetLevel][hellder][Saffe] - (Player: Suavera,Level: 300)
+22:32:52 [CommandReAdd][hellderrrr][Suavera] - OK
+22:32:59 [CommandAddPoint][hellderrrr][Suavera] - (Type: 0, Amount: 2000)
+22:33:02 [CommandAddPoint][hellderrrr][Suavera] - (Type: 1, Amount: 2000)
+22:33:06 [CommandAddPoint][hellderrrr][Suavera] - (Type: 2, Amount: 2000)
+22:33:10 [CommandAddPoint][hellderrrr][Suavera] - (Type: 3, Amount: 2000)
+22:33:13 [CommandAddPoint][hellderrrr][Suavera] - (Type: 4, Amount: 2000)
+22:33:42 [CommandReAdd][hellder][Saffe] - OK
+22:33:46 [CommandAddPoint][hellder][Saffe] - (Type: 0, Amount: 2000)
+22:33:54 [CommandAddPoint][hellder][Saffe] - (Type: 1, Amount: 2000)
+22:33:59 [CommandAddPoint][hellder][Saffe] - (Type: 2, Amount: 2000)
+22:34:02 [CommandAddPoint][hellder][Saffe] - (Type: 3, Amount: 2000)

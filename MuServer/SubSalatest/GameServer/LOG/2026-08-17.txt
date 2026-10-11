@@ -1,0 +1,73 @@
+13:14:28 [Obj][13001] AddClient (177.200.38.91)
+13:14:29 [Obj][13001] AddAccount (hellder)
+13:14:30 [Obj][13001] LogInCharacter (Saffe)
+13:15:14 [CustomAttackSkillDebug] Skill: 269 | Delay: 24781 ms | Type: 1
+13:16:13 [CustomAttackSkillDebug] Skill: 269 | Delay: 44890 ms | Type: 1
+13:16:24 [CustomAttackSkillDebug] Skill: 269 | Delay: 5453 ms | Type: 1
+13:16:35 [CustomAttackSkillDebug] Skill: 269 | Delay: 5843 ms | Type: 1
+13:16:44 [CustomAttackSkillDebug] Skill: 269 | Delay: 4844 ms | Type: 1
+13:16:57 [CustomAttackSkillDebug] Skill: 269 | Delay: 5156 ms | Type: 1
+13:17:12 [CustomAttackSkillDebug] Skill: 269 | Delay: 8094 ms | Type: 1
+13:17:18 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+13:17:18 [CustomAttackSkillDebug] Skill: 269 | Delay: 312 ms | Type: 1
+13:17:27 [ServerInfo] Monster loaded successfully
+13:17:27 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 189, Y: 143)
+13:17:28 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+13:17:35 [CustomAttackSkillDebug] Skill: 269 | Delay: 16250 ms | Type: 1
+13:17:36 [CustomAttackSkillDebug] Skill: 269 | Delay: 312 ms | Type: 1
+13:18:11 [ServerInfo] Monster loaded successfully
+13:18:11 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 186, Y: 143)
+13:18:11 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 166)
+13:18:42 [ServerInfo] Monster loaded successfully
+13:18:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 197, Y: 114)
+13:18:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 188, Y: 143)
+13:18:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 165)
+13:18:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 152, Y: 76)
+13:18:42 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 202, Y: 132)
+13:18:43 [MonsterSetBase] Incorrect Monster Position: (Monster: 147, Map: 24, X: 62, Y: 7)
+13:18:49 [CustomAttackSkillDebug] Skill: 269 | Delay: 359 ms | Type: 1
+13:18:50 [CustomAttackSkillDebug] Skill: 269 | Delay: 329 ms | Type: 1
+13:19:25 [CustomAttackSkillDebug] Skill: 269 | Delay: 34657 ms | Type: 1
+13:19:25 [CustomAttackSkillDebug] Skill: 269 | Delay: 359 ms | Type: 1
+13:19:26 [CustomAttackSkillDebug] Skill: 269 | Delay: 297 ms | Type: 1
+13:19:26 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+13:19:27 [CustomAttackSkillDebug] Skill: 269 | Delay: 360 ms | Type: 1
+13:19:28 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+13:19:28 [CustomAttackSkillDebug] Skill: 269 | Delay: 328 ms | Type: 1
+13:19:29 [CustomAttackSkillDebug] Skill: 269 | Delay: 282 ms | Type: 1
+13:19:35 [ServerInfo] Monster loaded successfully
+13:19:35 [MonsterSetBase] Incorrect Monster Position: (Monster: 15, Map: 1, X: 187, Y: 143)
+13:19:36 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 164)
+13:19:37 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 59, Y: 7)
+13:20:13 [ServerInfo] Monster loaded successfully
+13:20:14 [MonsterSetBase] Incorrect Monster Position: (Monster: 105, Map: 38, X: 153, Y: 76)
+13:25:02 [Obj][13001] LogOutCharacter (Saffe)
+13:25:02 [Obj][13001] DelAccount (hellder)
+13:25:02 [Obj][13001] DelClient (177.200.38.91)
+13:59:54 [Obj][13000] AddClient (177.37.142.43)
+13:59:55 [Obj][13000] DelClient (177.37.142.43)
+14:05:42 [Obj][13001] AddClient (177.200.38.91)
+14:05:44 [Obj][13001] AddAccount (hellder)
+14:05:47 [Obj][13001] LogInCharacter (Saffe)
+14:15:06 [Obj][13000] AddClient (38.56.81.210)
+14:15:07 [Obj][13000] DelClient (38.56.81.210)
+14:16:05 [Obj][13001] LogOutCharacter (Saffe)
+14:16:13 [Obj][13001] LogInCharacter (TijoliN)
+14:18:15 [Obj][13001] LogOutCharacter (TijoliN)
+14:18:18 [Obj][13001] LogInCharacter (Saffe)
+14:18:32 [Obj][13001] LogOutCharacter (Saffe)
+14:18:32 [Obj][13001] DelAccount (hellder)
+14:18:32 [Obj][13001] DelClient (177.200.38.91)
+15:27:06 [Obj][13000] AddClient (177.200.38.91)
+15:27:12 [Obj][13000] AddAccount (hellder)
+15:27:14 [Obj][13000] LogInCharacter (Saffe)
+15:32:29 [ServerInfo] Monster loaded successfully
+15:35:30 [ServerInfo] Monster loaded successfully
+15:36:05 [ServerInfo] Monster loaded successfully
+15:38:46 [ServerInfo] Monster loaded successfully
+15:38:46 [MonsterSetBase] Incorrect Monster Position: (Monster: 11, Map: 1, X: 200, Y: 114)
+15:38:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 106, Map: 38, X: 146, Y: 165)
+15:38:47 [MonsterSetBase] Incorrect Monster Position: (Monster: 193, Map: 27, X: 62, Y: 7)
+22:09:29 [Obj][13000] LogOutCharacter (Saffe)
+22:09:29 [Obj][13000] DelAccount (hellder)
+22:09:29 [Obj][13000] DelClient (177.200.38.91)

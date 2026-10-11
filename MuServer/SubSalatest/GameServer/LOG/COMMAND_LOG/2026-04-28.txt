@@ -1,0 +1,43 @@
+00:02:56 [CommandReAdd][pvp03][PVPELF01] - OK
+00:03:02 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 29985)
+00:03:15 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:03:22 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:03:28 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 9000)
+00:03:39 [CommandHide][hellder][Saffe] - (State: 1)
+00:08:53 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 1006)
+00:12:10 [CommandReAdd][pvp03][PVPELF01] - OK
+00:12:23 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:12:33 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 25000)
+00:12:38 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:12:49 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 10000)
+00:13:52 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 4991)
+00:14:20 [CommandReAdd][pvp03][PVPELF01] - OK
+00:14:23 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:14:28 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 10000)
+00:14:32 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:14:36 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 29985)
+00:14:39 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 6)
+00:21:33 [CommandReAdd][pvp03][PVPELF01] - OK
+00:21:40 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 29985)
+00:21:43 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:21:46 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:21:50 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 10000)
+00:28:35 [CommandReAdd][pvp03][PVPELF01] - OK
+00:28:42 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 29985)
+00:30:25 [CommandReAdd][pvp03][PVPELF01] - OK
+00:30:46 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 29985)
+00:30:48 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:30:51 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:30:55 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 10000)
+00:31:00 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 6)
+00:39:49 [CommandReAdd][pvp03][PVPELF01] - OK
+00:39:55 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 29985)
+00:39:57 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:40:01 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 1000)
+00:40:04 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 9307)
+00:40:09 [CommandReAdd][pvp03][PVPELF01] - OK
+00:40:13 [CommandAddPoint][pvp03][PVPELF01] - (Type: 1, Amount: 29985)
+00:40:16 [CommandAddPoint][pvp03][PVPELF01] - (Type: 0, Amount: 301)
+00:40:21 [CommandAddPoint][pvp03][PVPELF01] - (Type: 2, Amount: 10000)
+00:40:26 [CommandAddPoint][pvp03][PVPELF01] - (Type: 3, Amount: 10006)
+14:24:10 [CustomMove][mamm][ElMarcolaa] - (MoveIndex: 2)

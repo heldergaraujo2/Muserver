@@ -1,0 +1,106 @@
+//#############################################################
+//# -- 3DServers MUONLINE SERVER EMULATOR                     #
+//# -- https://3dservers.com.br/                              #
+//# -- © 2025 Bruno3D Development                             #
+//# ----------------------------------------------------------#
+//# -- File is a part of 3DServers MuOnline Server files.     #
+//#############################################################
+//Index   MaxStack   ShowNumber CanSplit   Comment
+2055      255        0			0           //Bolt
+2063      255        0			0           //Arrow
+7168      255        1          0           //Apple
+7169      255        1          0           //Small Healing Potion
+7170      125        1          0           //Healing Potion
+7171      30         1          0           //Large Healing Potion
+7172      255        1          0           //Small Mana Potion
+7173      125        1          0           //Mana Potion
+7174      100        1          0           //Large Mana Potion
+7175      5          1          0           //Siege Potion
+7176      5          1          0           //Antidote
+7189      255        1          0           //Rena
+7197      5          0          0           //Symbol of Kundun
+7203      5        1          0           //Small SD Potion
+7204      5        1          0           //SD Potion
+7205      5        1          0           //Large SD Potion
+7206      5        1          0           //Small Complex Potion
+7207      5        1          0           //Complex Potion
+7208      5        1          0           //Large Complex Potion
+7214      3          1          0           //Jack O'Lantern Blessings
+7215      3          1          0           //Jack O'Lantern Wrath
+7216      3          1          0           //Jack O'Lantern Cry
+7217      3          1          0           //Jack O'Lantern Food
+7218      3          1          0           //Jack O'Lantern Drink
+7238      10        1          0           //Elite Healing Potion
+7239      10        1          0           //Elite Mana Potion
+7253      3          1          0           //Cherry Blossom Wine
+7254      3          1          0           //Cherry Blossom Rice Cake
+7255      3          1          0           //Cherry Blossom Flower Petal
+7256      10         1          0           //White Cherry Blossom Branch
+7257      30         1          0           //Red Cherry Blossom Branch
+7258      255        1          0           //Golden Cherry Blossom Branch
+7268      10         1          0           //Lucky Coin
+7269      5          0          0           //Suspicious Scrap of Paper
+7278      5          0          0           //Sign of Dimensions
+7301      1        1          0           //Elite SD Potion
+6159      255        1          1           //Jewel of Chaos
+7181      255        1          1           //Jewel of Bless
+7182      255        1          1           //Jewel of Soul
+7184      255        1          1           //Jewel of Life
+7190      255        1          1           //Jewel of Creation
+7199      255        1          1           //Jewel of Guardian
+7209      255        1          1           //Gemstone
+7210      255        1          1           //Jewel of Harmony
+7211      255        1          1           //Lower refining stone
+7212      255        1          1           //Higher refining stone
+7413      1        1          1           //Jewel of Skill
+7414      1        1          1           //Jewel of Luck
+7415      1        1          1           //Jewel of Adicional
+7416      1        1          1           //Jewel of Excelent
+7417      1        1          1           //Jewel of Socket
+7418      1        1          1           //Jewel of Ancient 1
+7419      1        1          1           //Jewel of Ancient 2
+7420      1        1          1           //Jewel of Full
+7421      1        1          1           //Jewel of Level
+7377      5          1          0           //Upgrade Note
+7572      255        1          1           //Greater Spirit Stone
+7575      255        1          1           //Golden Sentence
+7599      10         1          1
+7179      255        1          1
+7280      255        1          1
+7281      255        1          1
+7289      255        1          1
+7290      255        1          1   
+6176      255        1          1
+6177      255        1          1
+6178      255        1          1
+7179      255        1          1
+7231      255        1          1
+7200      255        1          1
+7201      255        1          1
+7202      255        1          1
+7222      255        1          1
+7213      255        1          1
+7179      255        1          1
+6722      255        1          1
+7325      255        1          1
+7326      255        1          1
+7327      255        1          1
+7338      255        1          1
+7339      255        1          1
+7340      255        1          1
+7423      255        1          1
+7425      255        1          1
+7426      255        1          1
+7427      255        1          1
+7428      255        1          1
+7429      255        1          1
+7340      255        1          1
+7270      255        1          1
+7599      255        1          1
+7605      255        1          1
+7590      10         1          1
+7433      5          1          1
+7316      255          1          1
+7312      255          1          1
+7309      255          1          1
+end
