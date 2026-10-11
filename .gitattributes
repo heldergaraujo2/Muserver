@@ -1,0 +1,54 @@
+# Politica de fim de linha, MEDIDA no proprio pack (2026-10-11), nao presumida.
+#
+# A amostragem dos 10 021 arquivos deu:
+#   .lua 148 arquivos -> 0 com CRLF puro (10 tem CRLF misturado no meio do texto)
+#   .ini  19 -> 0 CRLF       .txt 7 230 -> 0 CRLF
+#   .dat 118 -> 0 CRLF       .sql   4 -> 0 CRLF (os 2 do MuOnline sao UTF-16LE)
+# Exemplo que mais parece CRLF (e o que o GameServer le):
+#   MuServer/GameServer/Data/GameServerInfo - Common.dat  ->  0 CRLF, 881 LF
+# Ou seja: o pack do fornecedor e LF em todo texto. A regra importante aqui e
+# portanto NAO converter nada - uma politica de eol que "pareca certa para
+# Windows" reescreveria milhares de arquivos na primeira checkout limpa.
+
+# texto do jogo: bytes preservados exatamente como estao no indice
+*.ini  -text
+*.dat  -text
+*.txt  -text
+*.lua  -text
+*.sql  -text
+
+# .reg e UTF-16LE com BOM: tratar como texto corromperia o arquivo no checkout
+*.reg  binary
+
+# binarios de fato (nunca diff/merge, nunca conversao)
+*.exe  binary
+*.dll  binary
+*.pdb  binary
+*.dmp  binary
+*.bak  binary
+*.ozt  binary
+*.ozj  binary
+*.OZT  binary
+*.OZJ  binary
+*.att  binary
+*.bmd  binary
+*.smd  binary
+*.hit  binary
+*.ssul binary
+*.ps   binary
+*.rar  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tga  binary
+*.gif  binary
+*.ico  binary
+*.lnk  binary
+
+# dados de jogo: quando alguem quiser ver diff de .dat/.txt, um diff de texto
+# simples e melhor que "Binary files differ". Nao altera o conteudo armazenado.
+MuServer/Data/**  diff=text
+
+# os entregaveis desta auditoria (fora de MuServer/) usam LF; aqui a
+# normalizacao e inofensiva e mantem os docs consistentes entre plataformas
+workspace/**  text eol=lf

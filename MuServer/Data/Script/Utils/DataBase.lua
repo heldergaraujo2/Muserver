@@ -23,15 +23,19 @@ function DataBase.Connect(iType,ODBC,User,Password)
 	end
 
 	-- TESTE QUERY
-	local Query = string.format("SELECT top 1 Name from character order by name desc", codigo, itemid)
+	-- [FIX DB-1] removidos os argumentos espurios de string.format: a query nao
+	-- tem especificadores %, entao `codigo`/`itemid` eram lidos como globais
+	-- nunca definidas (nil). Inofensivo em Lua 5.x, mas mascara variaveis
+	-- inexistentes e quebraria num Lua com strict globals.
+	local Query = "SELECT top 1 Name from character order by name desc"
 	local ret = SQLQuery(Query)
-	
+
 	if ret == 0 then
 		SQLClose()
 		LogColor(2,string.format("No query DATA"))
 		return
 	end
-	
+
 	local nFecth = SQLFetch()
 
 	if nFecth == 100 then
@@ -40,10 +44,12 @@ function DataBase.Connect(iType,ODBC,User,Password)
 		return
 	end
 
+	-- [FIX DB-2] SQLGetString pode devolver nil; string.format("...%s", nil) e
+	-- erro em Lua 5.1/5.3 e derrubaria DataBase.Connect no boot do GameServer.
 	local Name = SQLGetString("Name")
 	SQLClose()
 
-	LogColor(2,string.format("Teste query: %s",Name))
+	LogColor(2,string.format("Teste query: %s", tostring(Name)))
 
 end
 
