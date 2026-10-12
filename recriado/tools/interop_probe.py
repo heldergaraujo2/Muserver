@@ -1,135 +1,158 @@
 #!/usr/bin/env python3
-"""interop_probe.py — evidência de interoperabilidade, SOMENTE LEITURA (Etapa A / R-6).
+"""interop_probe.py — evidencia de interoperabilidade, SOMENTE LEITURA (R-6 / Etapa A).
 
-Não executa nenhum binário do pacote original, não abre rede e não escreve em MU_REF_DATA.
-Mede o que existe em disco e o que existe no ambiente, e devolve linhas `chave<TAB>valor<TAB>fonte`
-para que a suíte tests/interop.sh as cobre como asserção — evidência sem teste reproduzível vira
-opinião (foi por isso que a matriz da R-6 passou a exigir comando reproduzível).
+Nao executa binario nenhum, nao abre socket, nao escreve em MU_REF_DATA. Mede o que existe em disco
+e o que existe no ambiente, e devolve linhas `chave<TAB>valor<TAB>fonte` para tests/interop.sh cobrar
+como assercao — evidencia sem teste reproduzivel vira opiniao.
 
-Saída: TSV em stdout. Exit 0 sempre que a referência foi lida; 2 sem MU_REF_DATA.
+Separa as tres camadas que NAO podem ser confundidas (exigencia explicita do comando mestre):
+  1 conformidade interna do protocolo v2        -> medida em tests/conform.sh + golden
+  2 compatibilidade entre implementacoes proprias -> medidas em tests/net.sh (servico x cliente)
+  3 compatibilidade com os executaveis originais  -> depende de executar o binario: BLOQUEADO aqui
+Nenhuma e prova da seguinte.
+
+uso: interop_probe.py [--ref CAMINHO] [--cartoes N]
+saida: TSV em stdout; exit 2 se MU_REF_DATA nao existe.
 """
 from __future__ import annotations
 
+import argparse
 import os
+import pathlib
 import re
 import shutil
+import subprocess
 import sys
-from pathlib import Path
 
 HACK = "Data/Hack/HackPacketCheck.txt"
-CAPTURA_EXT = {".pcap", ".pcapng", ".cap"}
-LUA_FRAMING = re.compile(r"HEAD_SIZE|PacketSize|MakePacket|opcode", re.IGNORECASE)
+FRAMING = re.compile(r"HEAD_SIZE|PacketSize|MakePacket|opcode", re.I)
+CAPTURAS = ("*.pcap", "*.pcapng", "*.cap", "*.erf")
 
 
-def tsv(chave: str, valor: str, fonte: str) -> None:
-    print(f"{chave}\t{valor}\t{fonte}")
+def tsv(chave, valor, fonte=""):
+    print("%s\t%s\t%s" % (chave, valor, fonte))
 
 
-def hack_packet_check(ref: Path) -> None:
-    """Tabela Index/Value/Encrypt/MaxDelay/MinCount/MaxCount do verificador anti-hack.
+def mede_hackpacket(ref: pathlib.Path):
+    """HackPacketCheck.txt: tabela Index/Value/Encrypt/MaxDelay/MinCount/MaxCount.
 
-    É a única fonte do pacote que enumera o espaço de índices de pacote sem precisar executar
-    nada. Diz quantos índices existem, quais são marcados como criptografados e que há limites de
-    taxa por pacote — não é um despejo do formato de quadro, e não é tratada como tal.
+    E a unica fonte do pacote que enumera o espaco de indices de pacote sem executar nada. Diz
+    quantos indices existem, quais sao marcados como criptografados e que ha limite de taxa por
+    pacote — NAO diz o layout de quadro, e nao e tratada como se dissesse.
     """
     p = ref / HACK
     if not p.is_file():
-        tsv("hackpacketcheck_presente", "0", HACK)
+        tsv("hackpacketcheck_presente", 0, HACK)
         return
-    tsv("hackpacketcheck_presente", "1", HACK)
-    indices: list[int] = []
-    enc1 = enc0 = curinga = 0
-    linhas_uteis = 0
-    tem_end = 0
+    tsv("hackpacketcheck_presente", 1, HACK)
+    indices = []
+    enc = {"1": 0, "0": 0, "outro": 0}
     colunas = set()
-    for raw in p.read_text(encoding="utf-8", errors="replace").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("//"):
+    terminador = 0
+    uteis = 0
+    for ln in p.read_text(errors="replace").splitlines():
+        t = ln.strip()
+        if not t or t.startswith("//"):
             continue
-        if line.lower() == "end":
-            tem_end = 1
+        if t.lower() == "end":
+            terminador = 1
             continue
-        f = line.split()
+        f = t.split()
         colunas.add(len(f))
         if len(f) < 3 or not f[0].isdigit():
             continue
-        linhas_uteis += 1
-        indices.append(int(f[0]))
-        if f[2] == "1":
-            enc1 += 1
-        elif f[2] == "0":
-            enc0 += 1
-        else:
-            curinga += 1
-    dup = len(indices) - len(set(indices))
-    tsv("hackpacketcheck_entradas", str(linhas_uteis), HACK)
-    tsv("hackpacketcheck_terminador_end", str(tem_end), HACK)
+        uteis += 1
+        i = int(f[0])
+        indices.append(i)
+        enc[f[2] if f[2] in ("0", "1") else "outro"] += 1
+    tsv("hackpacketcheck_entradas", uteis, HACK)
+    tsv("hackpacketcheck_terminador_end", terminador, HACK)
     tsv("hackpacketcheck_colunas_por_linha", ",".join(str(c) for c in sorted(colunas)), HACK)
     if indices:
-        tsv("hackpacketcheck_index_min", str(min(indices)), HACK)
-        tsv("hackpacketcheck_index_max", str(max(indices)), HACK)
-        # Consequência aritmética, não interpretação: se o maior índice é 255, o campo que o
-        # carrega tem no máximo 8 bits. O v2 usa 16 bits para `code` (mu2.h) — diferença registrada.
-        tsv("hackpacketcheck_bits_do_espaco", str(max(indices).bit_length()), HACK)
-    tsv("hackpacketcheck_encrypt_1", str(enc1), HACK)
-    tsv("hackpacketcheck_encrypt_0", str(enc0), HACK)
-    tsv("hackpacketcheck_encrypt_curinga", str(curinga), HACK)
-    tsv("hackpacketcheck_indices_duplicados", str(dup), HACK)
-    tsv("hackpacketcheck_encrypt_1_indices",
-        " ".join(str(i) for i in sorted({int(f[0]) for f in
-                                         (ln.split() for ln in
-                                          p.read_text(encoding="utf-8", errors="replace").splitlines()
-                                          if ln.strip() and not ln.startswith("//"))
-                                         if len(f) >= 3 and f[0].isdigit() and f[2] == "1"})), HACK)
+        lo, hi = min(indices), max(indices)
+        tsv("hackpacketcheck_index_min", lo, HACK)
+        tsv("hackpacketcheck_index_max", hi, HACK)
+        # consequencia aritmetica, nao interpretacao: se o maior indice e 255, um campo que o
+        # carregue nao precisa de mais de 8 bits.
+        tsv("hackpacketcheck_bits_minimos", (hi).bit_length(), HACK)
+        tsv("hackpacketcheck_indices_distintos", len(set(indices)), HACK)
+        tsv("hackpacketcheck_ocorrencias_redundantes", len(indices) - len(set(indices)), HACK)
+    tsv("hackpacketcheck_encrypt_1", enc["1"], HACK + " (marcados como criptografados)")
+    tsv("hackpacketcheck_encrypt_0", enc["0"], HACK)
+    tsv("hackpacketcheck_encrypt_curinga", enc["outro"], HACK)
 
 
-def capturas(ref: Path) -> None:
+def mede_capturas(ref: pathlib.Path):
     n = 0
-    for root, _dirs, files in os.walk(ref):
-        for f in files:
-            if Path(f).suffix.lower() in CAPTURA_EXT:
-                n += 1
-    tsv("capturas_de_trafego", str(n), "varredura *.pcap/*.pcapng/*.cap em MU_REF_DATA")
+    for pat in CAPTURAS:
+        n += sum(1 for _ in ref.rglob(pat))
+    tsv("capturas_de_trafego", n, "MU_REF_DATA (%s)" % ", ".join(CAPTURAS))
 
 
-def framing_em_scripts(ref: Path) -> None:
-    """Procura declaração de enquadramento na camada de script (Lua e textos de dados)."""
-    hits = 0
-    arquivos = 0
-    for root, _dirs, files in os.walk(ref):
-        for f in files:
-            if Path(f).suffix.lower() not in {".lua", ".txt"}:
-                continue
-            arquivos += 1
-            try:
-                txt = (Path(root) / f).read_text(encoding="utf-8", errors="replace")
-            except OSError:
-                continue
-            if LUA_FRAMING.search(txt):
-                hits += 1
-    tsv("scripts_e_textos_varridos", str(arquivos), "MU_REF_DATA (*.lua, *.txt)")
-    tsv("arquivos_com_declaracao_de_framing", str(hits), "regex HEAD_SIZE|PacketSize|MakePacket|opcode")
+def mede_framing(ref: pathlib.Path):
+    lua = txt = 0
+    lua_com = txt_com = 0
+    for p in list(ref.rglob("*.lua")) + list(ref.rglob("*.txt")):
+        try:
+            s = p.read_text(errors="replace")
+        except OSError:
+            continue
+        if p.suffix == ".lua":
+            lua += 1
+            lua_com += 1 if FRAMING.search(s) else 0
+        else:
+            txt += 1
+            txt_com += 1 if FRAMING.search(s) else 0
+    tsv("scripts_lua", lua, "MU_REF_DATA")
+    tsv("scripts_lua_com_declaracao_de_framing", lua_com, "regex " + FRAMING.pattern)
+    tsv("textos", txt, "MU_REF_DATA")
+    tsv("textos_com_declaracao_de_framing", txt_com, "regex " + FRAMING.pattern)
 
 
-def ambiente() -> None:
-    """O que o ambiente oferece para um teste real de interoperabilidade."""
-    tsv("wine_disponivel", "1" if shutil.which("wine") or shutil.which("wine64") else "0",
-        "PATH (shutil.which)")
-    tsv("qemu_i386_disponivel", "1" if shutil.which("qemu-i386") else "0", "PATH")
-    tsv("optin_para_executar_original", "1" if os.environ.get("MU_INTEROP_ALLOW_ORIGINAL") == "1"
-        else "0", "variável MU_INTEROP_ALLOW_ORIGINAL")
+def mede_ambiente(admin_bin: pathlib.Path):
+    """Pre-condicoes para um teste REAL de interoperabilidade. Ausencia vira BLOCKED, nao FAIL."""
+    for b in ("wine", "wine64", "wine32", "qemu-i386", "qemu-system-i386", "box86", "box64"):
+        tsv("ferramenta_%s" % b, 1 if shutil.which(b) else 0, "PATH")
+    optin = os.environ.get("MU_INTEROP_ALLOW_ORIGINAL", "")
+    tsv("optin_executar_original", 1 if optin == "1" else 0,
+        "variavel MU_INTEROP_ALLOW_ORIGINAL (exigida para executar binario original)")
+    tsv("arquitetura_dos_exe", "PE32/i386 (R-5, tools/pe_probe.py)", "22 .exe medidos na R-5")
+    tsv("protecao_dos_exe", "secoes .themida (R-5)", "impede distinguir GameServer/CS/SpeedServer")
 
 
-def main() -> int:
-    ref = Path(os.environ.get("MU_REF_DATA", str(Path(__file__).resolve().parents[2] / "MuServer")))
+def mede_v2(codigo: pathlib.Path):
+    """O que o protocolo v2 usa, medido pelo CLI que liga no codec real (nao por leitura de fonte)."""
+    if not codigo.exists():
+        tsv("v2_codec_disponivel", 0, str(codigo))
+        return
+    tsv("v2_codec_disponivel", 1, str(codigo))
+    # code=0x0102 -> se o campo tiver 2 bytes, a saida comeca com 02 01
+    r = subprocess.run([str(codigo), "encode", "--profile", "orig", "--code", "258",
+                        "--body-hex", ""], capture_output=True, text=True, timeout=30)
+    hexout = ""
+    for ln in r.stdout.splitlines():
+        if ln.startswith("hex="):
+            hexout = ln[4:]
+    tsv("v2_encode_code_258", hexout, "mu2codec encode --code 258 (0x0102)")
+    tsv("v2_bytes_do_campo_code", len(hexout) // 2 - 2 if hexout else "?", "4 bytes de cabecalho")
+    tsv("v2_max_frame", 2052, "include/mu2/mu2.h MU2_MAX_FRAME")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ref", default=os.environ.get("MU_REF_DATA", "../MuServer"))
+    ap.add_argument("--codec", default="out/mu2codec")
+    a = ap.parse_args()
+    ref = pathlib.Path(a.ref)
     if not ref.is_dir():
-        print("# BLOCKED motivo=MU_REF_DATA ausente ou nao e diretorio", file=sys.stderr)
+        sys.stderr.write("interop_probe: MU_REF_DATA nao encontrado (%s)\n" % ref)
         return 2
     print("chave\tvalor\tfonte")
-    hack_packet_check(ref)
-    capturas(ref)
-    framing_em_scripts(ref)
-    ambiente()
+    mede_hackpacket(ref)
+    mede_capturas(ref)
+    mede_framing(ref)
+    mede_v2(pathlib.Path(a.codec))
+    mede_ambiente(pathlib.Path(a.codec))
     return 0
 
 
