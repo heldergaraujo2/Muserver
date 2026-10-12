@@ -53,3 +53,16 @@
   `net`, `golden`, `interop`, `conform`, `data`, `fuzz`, `pe`, `bench`, `gate_state` e o
   `scripts/run_all.sh`. Sem laço de rede sem fio: nada do contrato de backpressure foi exercitado
   ainda; isso e a R-4.
+
+### R-3, fechamento com a copia independente consertada por medida
+- Realocar o bundle para `workspace/backups/` e troca-lo por snapshot orphan (`git commit-tree
+  HEAD:recriado`): 134 694 → 31 771 bytes, e custo constante (a arvore do snapshot nao contem o
+  proprio bundle). Registrado como D2-15.
+- Defeito grave encontrado ao conferir o blob publicado, nao o do worktree: o `* text=auto` do
+  `.gitattributes` da raiz aplicava `text: set` ao `*.bundle`, e o bundle **comitado** nao batia com
+  o arquivo em disco (`be79f094… != 1ec952bd…`) — restauracao por clone daria arquivo corrompido.
+  Corrigido com `workspace/backups/.gitattributes` (`*.bundle binary`).
+- `verify-backup.sh` ganhou modo `FULL=1`: clona a branch **publicada** e la dentro confere bundle
+  byte a byte, `git bundle verify`, restauracao da arvore a partir do bundle clonado e presenca do
+  HEAD local no remoto. Resultado apos o fix: **10 verificacoes, 0 falhas**.
+- Portao da fase re-execuido no fim: `unit=106 falhas=0`, `make-sintaxe=5 falhas=0`.

@@ -71,7 +71,7 @@ fi
 
 # 7) FULL=1: a prova que importa — o bundle como ele existe DEPOIS do push, lido de um clone do
 #    remoto. Foi assim que apareceu o CRLF que corrompia o blob comitado sem tocar no worktree.
-if [ "\${FULL:-0}" = 1 ]; then
+if [ "${FULL:-0}" = 1 ]; then
   tf=$(mktemp -d)
   if git clone -q --depth 2 --single-branch -b "$branch" "https://github.com/heldergaraujo2/Muserver.git" "$tf/remote" 2>/dev/null; then
     rsha=$(cd "$tf/remote" && sha256sum workspace/backups/mu2-v2.bundle 2>/dev/null | cut -c1-16)
