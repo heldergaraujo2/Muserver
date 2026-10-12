@@ -65,8 +65,8 @@ em `ENVIRONMENT.md`). **R-3 em diante: nada comecado.** `src/`, `include/`, `tes
 | chave | valor |
 |---|---|
 | branch da sessao | `arena/cf1de8ce-muserver` |
-| remoto conferido | `origin/arena/cf1de8ce-muserver` == HEAD local (ver `backup/MANIFEST.md`) |
-| fase atual | R-2 fechada; proxima executavel = **R-3** |
+| remoto conferido | `origin/arena/cf1de8ce-muserver` == HEAD local; na abertura da R-0 foi `fccaeaa` (a branch avanca a cada rodada, o que vale e a conferencia `ls-remote`) |
+| fase atual | R-0/R-1/R-2 fechadas (backup verificado: 6/6); proxima executavel = **R-3** |
 | bloqueio de publicacao | App GitHub sem `MuserverRecriado` na selecao de repositorios |
 | bloqueio de recuperacao | plano de controle inalcancavel do sandbox; depende da plataforma |
 | `MU_REF_DATA` | `/home/user/Muserver/MuServer` (presente e conferido) |
