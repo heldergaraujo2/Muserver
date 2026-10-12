@@ -122,3 +122,22 @@ sem mudar teste nenhum. Licao medida nesta fase: o caso 4 era **flaky por constr
 `-B`, um `out/` ja atualizado fazia o `make -n` imprimir so `./out/unit`, e o caso passava a
 falhar por ambiente. Agora usa `make -s -B -n` e foi conferido em tres situacoes de estado
 (saida limpa, saida quente, quente duas vezes).
+
+## D2-14 — o laço do servico registra `POLLOUT` sempre que ha resposta pendente (abre a R-4)
+O enunciado da N-T5.3d2 pedia para verificar, no codigo do v1, se o laço de `poll()` pedia
+`POLLOUT` quando havia resposta pendente — e o v1 nao registrou a resposta. Como o v1 nao foi
+recuperado, a pergunta nao e de arqueologia: ela vira decisao de projeto do v2, e a decisao e
+**sim**, sempre:
+- `poll()` e chamado com `POLLOUT` no `events` de toda conexao cujo `out_len != out_off`;
+- quando `write` devolve `EAGAIN`, a resposta pendente **continua na fila de 1 vaga** e o laço
+  volta a tenta-la no próximo `POLLOUT`; o fechamento por fila ocupada so acontece quando um
+  **novo** pedido chega com a vaga ainda ocupada (politica de D2-05, mantida);
+- isso fecha a unica via pela qual um quadro pendente poderia virar starvation permanente, que e
+  justamente o defeito que a pergunta procurava achar. O experimento da R-4 tem de poder
+  distinguir os quatro casos (fila cheia / bloqueio normal de TCP / timeout ocioso / erro de
+  socket) e a assercao de que `POLLOUT` e registrado e verificada por teste, nao por comentário:
+  um cliente que le atrasado e depois le tudo tem de receber **todas** as respostas, com
+  `queue_full_closes == 0`, e um cliente que nao le nada e faz novo pedido tem de produzir o
+  fechamento com a linha de log propria.
+Nao decide: aumentar a fila nem os buffers. Se a R-4 mostrar perda ou contrato violado, a mudanca
+de politica vem em commit isolado, com regressao e `bench` antes/depois (D2-05).

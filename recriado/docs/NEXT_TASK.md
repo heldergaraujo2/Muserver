@@ -10,9 +10,12 @@ Escopo: laço de aceitacao + `poll()` + `feed()` + fila de resposta + `queue_rep
    contam `frames` +2); `queue_reply` recusa com fechamento + `LOGW` dedicado quando h
    a resposta anterior pendente (D2-05), e **incrementa `queue_full_closes`** (novo, aditivo: o
    v1 deixava essa capacidade invisivel no contador de erros).
-2. Pergunta a responder **antes** de escrever o laço, e a registrar no commit: o laço pede
-   `POLLOUT` quando existe resposta pendente? Se nao, resposta pendente nunca e retomada —
-   starvation demonstravel, e isso muda a decisao de fila (com causa, nao por preferencia).
+2. A pergunta que a N-T5.3d2 deixou em aberto sobre o v1 (o laço pede `POLLOUT` com resposta
+   pendente?) chegou a v2 resolvida como decisao: **pede, sempre** (D2-14). Portanto o laço nasce
+   com `POLLOUT` no `events` de toda conexao com `out_len != out_off`, `EAGAIN` mantem a resposta
+   na vaga ate o proximo `POLLOUT`, e o fechamento so ocorre quando um **novo** pedido encontra a
+   vaga ocupada. Ha assercao especifica para isso no `net.sh` (item 5), porque decisao sem teste e
+   comentario no repositorio.
 3. `src/mu2ctl.c` com `stats` (mesma linha do contrato: `STATS registros= usados= conns= frames=
    rejects= queue_full_closes= uptime_ms= slotsz= maxbody=`) para o experimento ler de fora.
 4. `tests/net.sh` (variante por perfil `orig`/`mur0`), com os knobs do cliente **antes do
@@ -24,6 +27,10 @@ Escopo: laço de aceitacao + `poll()` + `feed()` + fila de resposta + `queue_rep
    amplitude publicadas, `reports/net-<perfil>.tsv`.
 5. Classificacao obrigatoria de cada desconexao pela linha do log do servidor — fila cheia !=
    bloqueio normal de TCP != timeout ocioso != erro de socket. Sem classificacao, o caso nao vale.
+   E a assercao da decisao D2-14, no mesmo arquivo: cliente que le atrasado (3 x 50 ms) e depois
+   le o resto recebe **todas** as respostas com `queue_full_closes == 0`; cliente que nao le nada
+   e emite pedido novo produz fechamento com a linha de log propria e `queue_full_closes`
+   incrementado. As duas juntas sao o que impede o laço de voltar a ter vaga ocupada eterna.
 
 Criterios de saida: `make -s check` verde (unit + make-sintaxe); `net` executado com a matriz
 acima e os efetivos de buffer registrados; **falsificacoes**: (i) `break` no `feed()` (um quadro por
