@@ -20,18 +20,20 @@ SRC   := src/wire.c
 SRV   := src/mud2.c
 CTL   := src/mu2ctl.c
 NCLI  := tests/netclient.c
+CODEC := tools/mu2codec.c
 HDR   := include/mu2/mu2.h include/mu2/proto.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
 MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
+CODECBIN:= $(BUILD)/mu2codec
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI)
+build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
@@ -53,6 +55,11 @@ $(MU2CTL): $(CTL) $(OBJ) $(HDR) | $(BUILD)
 
 $(NETCLI): $(NCLI) $(OBJ) $(HDR) | $(BUILD)
 	$(CC) $(CFLAGS) $(NCLI) $(OBJ) -o $@ $(LDFLAGS)
+
+# CLI de teste do codec: liga contra o MESMO wire.o do servico, para que golden test exercite o
+# caminho real em vez de uma reimplementacao. Nao sobe servico nem abre socket.
+$(CODECBIN): $(CODEC) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) $(CODEC) $(OBJ) -o $@ $(LDFLAGS)
 
 unit: $(UNIT)
 	./$(UNIT)
@@ -106,6 +113,11 @@ matriz:
 # O portao (`make gate`) a executa como etapa obrigatoria.
 bench: $(MUD2) $(MU2CTL) $(NETCLI)
 	@bash tests/bench.sh
+
+# Golden: corpus byte a byte do codec, exercitado pela CLI que liga contra o mesmo wire.o do
+# servico. Inclui as falsificacoes F20 (1 byte corrompido) e F21 (perfil trocado).
+golden: $(CODECBIN)
+	@bash tests/golden.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
