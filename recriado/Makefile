@@ -29,7 +29,7 @@ MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 CODECBIN:= $(BUILD)/mu2codec
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -118,6 +118,11 @@ bench: $(MUD2) $(MU2CTL) $(NETCLI)
 # servico. Inclui as falsificacoes F20 (1 byte corrompido) e F21 (perfil trocado).
 golden: $(CODECBIN)
 	@bash tests/golden.sh
+
+# Interop: as tres camadas separadas. A camada 3 (binario original) sai BLOCKED com a causa exata
+# enquanto nao houver wine/qemu-i386 E autorizacao explicita; nada original e executado aqui.
+interop:
+	@bash tests/interop.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
