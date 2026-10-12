@@ -22,7 +22,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 |---|---|
 | estado detalhado da última rodada | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | próxima tarefa executável | [NEXT_TASK.md](NEXT_TASK.md) |
-| decisões técnicas D2-01…D2-21 | [DECISIONS.md](DECISIONS.md) |
+| decisões técnicas D2-01…D2-24 | [DECISIONS.md](DECISIONS.md) |
 | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
 | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
 | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
@@ -31,8 +31,10 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | incidente e buscas do v1 perdido | [../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md](../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md) · [../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md](../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md) |
 | pedido de recuperação à plataforma | [../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md](../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md) |
 | identidade do backup e restauração | [../../workspace/backups/MANIFEST.md](../../workspace/backups/MANIFEST.md) |
-| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `net-<perfil>.tsv` |
+| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
 | sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
+| portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
+| contrato e resultado do portão | [../reports/r8-relatorio.md](../reports/r8-relatorio.md) · [../reports/r8-gate.tsv](../reports/r8-gate.tsv) · [../reports/r8-gate-state.tsv](../reports/r8-gate-state.tsv) |
 | relatório da R-5 (observação × hipótese × conclusão) | [../reports/r5-relatorio.md](../reports/r5-relatorio.md) |
 | porta de entrada humana (build/run) | [../README.md](../README.md) |
 
@@ -41,10 +43,12 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 Concluídas: **R-0** ambiente · **R-1** inventário · **R-2** baseline · **R-3** codec · **R-4** serviço
 de rede + controlador + suíte de rede · **R-5** investigação de formatos por medição (sondas + suítes
 `pe`/`data`; nada decodificado, nada compatível afirmado).
-Próxima: **R-8** — portão único (`scripts/run_all.sh` + `tests/gate_state.sh`, `gate-selftest`
-primeiro). Antecipada porque R-6 depende de evidência de protocolo inexistente e R-7 segue BLOCKED.
-Depois: **R-6** interoperabilidade/golden · **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e
-publicação (contínuas, não fim de fila).
+· **R-8** portão único (`run_all.sh` + `gate_state.sh` + `ref_check.sh`; 9 PASS/0 FAIL/194 asserções,
+`gate-selftest` 18/18).
+Próxima: **R-6** — protocolo e interoperabilidade (três camadas separadas: conformidade interna do
+v2, compatibilidade observada, compatibilidade comprovada por interop; a terceira segue `BLOCKED`
+sem cliente original em execução).
+Depois: **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e publicação (contínuas, não fim de fila).
 
 ## 5. Testes — o que roda, o que não existe
 
@@ -57,11 +61,15 @@ publicação (contínuas, não fim de fila).
 | pe | `make -s pe` | 14 casos, 0 falhas (`blocked=0` com a referência presente) |
 | data | `make -s data` | 19 casos, 0 falhas |
 | pe-selftest / data-selftest | `make -s pe-selftest` | 4/4 cada, **`blocked=1`** (rodam sem a referência) |
-| portão completo | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0, 19,4 s |
+| portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0 |
+| **portão único** | `make -s gate` | **9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED, 194 asserções, 19,7 s** |
+| teste do portão | `make -s gate-selftest` | **18/18**, exit 0 — inclui F12/F13/F14 |
+| integridade da referência | `bash tests/ref_check.sh` | 6/6 |
 | persistência | `bash scripts/verify-backup.sh` (`FULL=1`) | 9/9 (13/13) |
 
-**Não existem** — não tratar como aprovadas: `golden`, `interop`, `conform`, `fuzz`,
-`gate_state`, `run_all.sh`. `bench`: **BLOCKED**. `e2e`: não é suíte separada, está em `tests/net.sh`.
+**Não existem** — não tratar como aprovadas: `golden`, `interop`, `conform`, `fuzz`, `bench`
+(no portão aparecem como `NOT_IMPLEMENTED`, nunca como `PASS`). `e2e`: não é suíte separada, está em
+`tests/net.sh`.
 
 ## 6. Último commit e publicação
 
@@ -110,3 +118,7 @@ publicada — por isso a publicação conferida por `ls-remote` faz parte do bac
   `recriado/out/`): conferir que o arquivo aparece no `git diff --cached`.
 - Binário versionado exige atributo `binary` e conferência **depois** do push (`FULL=1`).
 - Matar processo de teste por **PID**, nunca por `pkill -f` com padrão que apareça no próprio script.
+- Prazo de etapa por `timeout(1)` + grupo de processo próprio; nunca watchdog de fundo (D2-24:
+  processo de controle que sobrevive à etapa já travou uma corrida inteira).
+- Falsificação de mecanismo é **diferencial**, em cópia temporária; mutar arquivo real exige
+  restauração conferida por sha256 (D2-23).

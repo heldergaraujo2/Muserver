@@ -1,0 +1,20 @@
+ok 1 - F-portao: suite que falha ⇒ estado FAIL e exit do portao != 0
+ok 2 - blocked=1 ⇒ BLOCKED (nunca PASS) e nao derruba o portao
+ok 3 - etapa prevista sem arquivo ⇒ NOT_IMPLEMENTED, nao PASS
+ok 4 - GATE_SKIP ⇒ SKIPPED (dispensa explicita, nao silencio)
+ok 5 - ferramenta ausente ⇒ BLOCKED (indisponibilidade ambiental != falha real)
+ok 6 - timeout ⇒ FAIL(motivo=timeout) e nenhum processo orphan do grupo
+ok 7 - suite que morre no fim (exit 3) com resumo limpo ⇒ FAIL(motivo=exit=3)
+ok 8 - suite que sai 0 sem imprimir resumo ⇒ FAIL (resumo ausente nao e verde)
+ok 9 - SIGTERM no portao ⇒ exit 130 (interrupcao e visivel, nao vira 0)
+ok 10 - roda de cwd=/ e com espaco no caminho de saida, mesmo resultado
+ok 11 - relatorio pre-existente e sobrescrito (sem anexar execucao anterior)
+ok 12 - execucao repetida e comparavel (TSV identico salvo a duracao)
+ok 13 - portao real: 9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 194 assercoes, exit 0
+ok 14 - MU_REF_DATA inexistente ⇒ pe/data BLOCKED, selftests PASS, portao exit 0
+ok 15 - F12: ignorar o exit code da suite quebra a deteccao (real exit!=0, mutada exit=0)
+ok 16 - F13: tratar blocked como PASS e detectavel (mutada=PASS, real=BLOCKED)
+ok 17 - F14: suite real forçada a falhar ⇒ portao exit!=0; restauracao confere por sha256
+ok 18 - apos a reversao da F14 a etapa volta a PASS
+1..18
+# gate_state=18 falhas=0 blocked=0

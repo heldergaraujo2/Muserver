@@ -35,3 +35,13 @@ precisa ser refeita antes de qualquer numero ser comparado com alvo antigo.
 - `MU_REF_DATA` do v2: `/home/user/Muserver/MuServer` (o pacote de referencia conferido bit a bit:
   `ConnectServer.exe` sha256 `f25eecb6…`, 92 `.att` de 65 539 B, 99 arquivos em
   `Data/MonsterSetBase`, 71 binarios, `MuEditor.exe` em `Tools/Editores/MuEditor/`).
+
+## R-8 — dependências do portão (medidas)
+
+Disponíveis e usados por `tests/run_all.sh`: `timeout` (`/usr/bin/timeout`, exit 124 no prazo),
+`setsid`, `realpath` (GNU coreutils 9.1), `date +%s%3N`, `ps -o pgid=`, bash 5.2 com `set -m`.
+Ausentes: `valgrind`, `gdb`, `column`, `bc` (aritmética vai por `awk`).
+
+Observação que virou regra (D2-24): processo de controle em segundo plano **sobrevive** à etapa se o
+`wait` do pai não o recolher. Medido: `build.timeout` criado 600 s depois e `sleep 420` órfão com
+`PPID 1`. O portão passou a usar `timeout(1)` + grupo de processo próprio, sem fundo.

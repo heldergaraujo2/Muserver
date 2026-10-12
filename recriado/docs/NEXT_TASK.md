@@ -1,54 +1,66 @@
 # NEXT_TASK — v2 — próxima rodada
 
-## Tarefa executável: R-8 — portão único (por que antes da R-6)
+## Tarefa executável: R-6 — protocolo e interoperabilidade
 
-A ordem do `ROADMAP.md` é execução, não aprovação: a R-6 (`interop`/`golden`) depende de evidência
-de protocolo que ainda não existe, e a R-7 continua **BLOCKED** pelos critérios de validade. O que
-dá para fechar agora, com dependência só do que já está verde, é o **portão único** — e ele é
-pré-requisito para confiar em qualquer rodada seguinte.
+O portão (R-8) está no lugar, então agora toda afirmação nova tem de passar por ele. O objetivo da
+R-6 **não** é declarar compatibilidade: é descobrir e provar o que for provável, e manter `BLOCKED`
+o que depender de binário original em execução.
 
 ### Estado inicial a verificar antes de escrever qualquer linha
 1. `git status --porcelain` limpo; `git rev-parse HEAD` == `git ls-remote origin <branch>`.
-2. `make -s check` verde: `unit=106`, `make-sintaxe=7`, `net=34`, `pe=14`, `data=19` (180 asserções).
-3. `MuServer/` intacta: `git ls-tree HEAD MuServer` = `fade04615fab…`, 10 021 arquivos.
+2. `make -s gate` → `PASS=9 FAIL=0`, 194 asserções; `make -s gate-selftest` → 18/18.
+3. `MuServer/` intacta: `bash tests/ref_check.sh` = 6/6.
 4. `bash scripts/verify-backup.sh` = 9/9.
 
-### O que construir
-- **`scripts/run_all.sh`** — roda cada suíte em ordem fixa, captura `exit code` e a linha de resumo
-  (`# <nome>=<n> falhas=<f> blocked=<b>`) de cada uma, e imprime uma mesa final
-  `nome | estado | asserções | falhas | bloqueado | segundos`.
-  Estados: `PASS` (exit 0 e `falhas=0` e `blocked=0`) · `FAIL` (exit ≠ 0 ou `falhas>0`) ·
-  `BLOCKED` (exit 0 com `blocked>0`, ou suíte que declara o bloqueio) · `NOT_IMPLEMENTED`
-  (suíte listada no plano mas inexistente — `golden`, `interop`, `conform`, `fuzz`, `bench`).
-  **Regras herdadas:** sem `set -e`; `blocked != aprovado`; `FAIL` obrigatório ⇒ exit ≠ 0 do portão;
-  nada de `pkill -f` (usar `PID=$!` + `kill -TERM "$PID"` + `wait "$PID"`).
-- **`tests/gate_state.sh`** — testa **o próprio portão**, nesta ordem:
-  1. `gate-selftest` primeiro: injeta uma suíte sintética que falha e verifica que `run_all.sh`
-     sai ≠ 0 e marca `FAIL` (portão que não sabe falhar não é portão);
-  2. injeta suíte que declara `blocked=1` e verifica que o estado sai `BLOCKED`, **não** `PASS`, e
-     que o portão **não** sai ≠ 0 por isso;
-  3. injeta suíte inexistente e verifica `NOT_IMPLEMENTED`;
-  4. roda o portão real e verifica que a mesa bate com os números das suítes (180 asserções).
-- Alvo `make gate` (e `gate-selftest`), sem colocar `gate` dentro de `check` para não recursão.
+### 6.1 Inventário de evidências (o que já está medido e o que falta)
+Partir de `reports/r5-*.tsv` e listar, por componente, o que pode esclarecer pacote/cabeçalho/opcode/
+sessão/handshake/framing/criptografia/encerramento:
+- `ConnectServer` (IOCP medido por import, `WSARecv`/`WSASend`), `GameServer` (`.themida` ⇒ análise
+  estática limitada), `GameServerCS`, `DataServer`, `JoinServer`, `DiscordServer`, `SpeedServer`,
+  `MHPServer`, `SubSalatest`;
+- `.ini`/`.dat` de configuração (`ServerList.dat` e `MapServerInfo.dat` **são texto**, medido na R-5);
+- scripts Lua (`ProtocolCore.lua`: 0 ocorrências de `HEAD_SIZE`/`PacketSize`/`opcode`, medido na R-3);
+- portas conhecidas: TCP 44406 / UDP 55557 (ConnectServer), 55960 (DataServer), 55970 (JoinServer),
+  1433 (SQL).
+**Diferenciar os papéis por evidência, não pelo nome** — a dúvida `GameServerCS` × `GameServer` ×
+`SpeedServer` continua aberta e deve virar linha da matriz, não suposição.
 
-### Critérios de pronto (todos mensuráveis)
-- `make -s gate` imprime a mesa e sai 0 com o estado atual do repositório.
-- `bash tests/gate_state.sh` verde, com o `gate-selftest` executado **antes** do portão real.
-- Uma suíte listada e inexistente aparece como `NOT_IMPLEMENTED` — nunca como `PASS`.
-- Relatório `reports/r8-gate.tsv` + `reports/r8-relatorio.md` com comando, saída, exit code e estado.
-- `MuServer/` intacta no diff; `verify-backup.sh` 9/9; push conferido por `git ls-remote`.
+### 6.2 Análise estática segura (somente leitura)
+Só ferramentas presentes no host; nada de executar binário do pacote. Ampliar `tools/pe_probe.py`
+somente com o que for mensurável (tabela de imports completa, strings por seção, referências
+cruzadas entre `.exe`/`.ini`/`.dat`). Onde houver `.themida`, registrar a limitação em vez de
+concluir. Ausência de string nunca vira ausência de recurso (D2-20).
+
+### 6.3 Testes de protocolo — três camadas, sem confusão
+1. **conformidade interna do v2** (`tests/conform.sh`): o que o nosso codec/serviço garante. É o que
+   dá para implementar e testar agora, e entra no portão como etapa nova.
+2. **compatibilidade observada**: coincidências medidas entre o v2 e artefatos do pacote.
+3. **compatibilidade comprovada por interop**: exige cliente/servidor original em execução ⇒
+   `BLOCKED` (Windows/Wine/licença), documentado com o que falta.
+A camada 1 nunca é apresentada como prova da 3.
+
+### 6.4 Matriz de evidências (entregável obrigatório)
+`reports/r6-matriz.tsv` com colunas: hipótese · fonte · método de medição · resultado observado ·
+limitações · confiança · teste reproduzível · conclusão permitida · próxima investigação.
+Cada linha aponta para o comando que a reproduz. Linha sem comando reproduzível não entra.
+
+### Critérios de pronto
+- `tests/conform.sh` implementado, com autos-teste, e listado no registro do portão (`PASS`).
+- `reports/r6-matriz.tsv` + `r6-relatorio.md` com as três camadas separadas.
+- `interop`/`golden` continuam `NOT_IMPLEMENTED` ou `BLOCKED` com motivo — nunca `PASS` sem evidência.
+- `make -s gate` e `make -s gate-selftest` verdes; `ref_check.sh` 6/6; `verify-backup.sh` 9/9.
+- Push conferido por `git ls-remote`; snapshot regravado.
 
 ### Proibido nesta rodada
-- Declarar `golden`/`interop`/`conform` como aprovados (não existem).
-- Transformar `BLOCKED` em `PASS` para a mesa ficar bonita.
-- Mexer em `MU2_MAX_BODY`, buffers ou limiares para suíte passar.
-- `git add -A`, `reset --hard`, `clean -fd`, `push --force`.
+- Executar binário do pacote original; escrever em `MuServer/`.
+- Declarar compatibilidade de protocolo sem teste de interoperabilidade.
+- Transformar `BLOCKED`/`NOT_IMPLEMENTED` em `PASS`; inflar limites para teste passar.
+- `git add -A`, `reset --hard`, `clean -fd`, `push --force`, merge do PR #1.
 
-### Falsificações obrigatórias da R-8
-- F12: `run_all.sh` ignora o exit code de uma suíte ⇒ `gate_state.sh` tem de falhar.
-- F13: `run_all.sh` trata `blocked=1` como `PASS` ⇒ tem de falhar.
-- F14: uma suíte real é forçada a falhar (mutação revertida em seguida, com sha256 conferido) ⇒
-  o portão sai ≠ 0.
+### Falsificações previstas
+- F15: `conform.sh` com expectativa trocada ⇒ o próprio autos-teste falha.
+- F16: linha da matriz sem comando reproduzível ⇒ verificador de matriz falha.
+- F17: portão deixando `conform` como `NOT_IMPLEMENTED` depois de implementado ⇒ `gate-selftest` falha.
 
 ## Ação do dono (manual) — para o v2 ter repositório próprio e publicável
 

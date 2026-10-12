@@ -1,5 +1,24 @@
 # CHANGELOG do v2
 
+## R-8 — 2026-10-12
+- **Portão único** `tests/run_all.sh`: 16 etapas em ordem determinística, cinco estados
+  (`PASS`/`FAIL`/`BLOCKED`/`NOT_IMPLEMENTED`/`SKIPPED`), mesa legível + TSV, log por etapa,
+  exit ≠ 0 somente com `FAIL`. Resultado real: **9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED,
+  194 asserções, 19,7 s**.
+- **`tests/gate_state.sh`** — 18 casos sobre o próprio portão (estados, timeout sem órfão,
+  SIGTERM → 130, cwd `/` e caminho com espaço, relatório pré-existente, repetibilidade,
+  referência ausente, resumo ausente, suíte que morre no fim) + F12/F13/F14. **18/18, exit 0**.
+- **`tests/ref_check.sh`** — integridade de `MuServer/` medida de dentro do portão (árvore git,
+  ausência de alterações e de untracked, contagem, e âncoras de conteúdo de 4 PE lidas de
+  `reports/r5-pe.tsv`): 6/6.
+- Alvos `make gate` e `make gate-selftest`; `gate` não entra em `check` (sem recursão).
+- **Defeito real achado e corrigido:** o watchdog de fundo da primeira versão sobrevivia à etapa
+  (`build.timeout` 600 s depois, `sleep 420` órfão com `PPID 1`), bloqueava a corrida e podia
+  sinalizar grupo alheio — substituído por `timeout(1)` + grupo próprio (`set -m`). Decisão D2-24.
+- `pe`/`data` passam a distinguir `escopo=selftest` de `blocked=1` (D2-22).
+- Decisões D2-22, D2-23, D2-24. Evidências `reports/r8-gate.tsv`, `r8-gate-state.tsv`,
+  `r8-relatorio.md`.
+
 ## R-5 — 2026-10-12
 - **Sondas de formato** em `tools/` (D2-19): `pe_probe.py` (parser PE próprio: DOS/NT/COFF/optional,
   seções, entropia, imports, `--keywords`), `att_probe.py`, `mb_probe.py`, `data_probe.py`. Python

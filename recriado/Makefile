@@ -27,7 +27,7 @@ MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -86,6 +86,15 @@ pe-selftest:
 
 data-selftest:
 	@SELFTEST_ONLY=1 bash tests/data.sh
+
+# R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
+# proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
+# nao sabe falhar nao e portao. `gate` nao entra em `check` para nao haver recursao.
+gate:
+	@bash tests/run_all.sh
+
+gate-selftest:
+	@bash tests/gate_state.sh
 
 check: unit make-sintaxe net pe data
 

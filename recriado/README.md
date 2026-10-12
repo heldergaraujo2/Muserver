@@ -19,8 +19,9 @@ backup e regras.
 
 ## Estado (medido, não relatado)
 
-Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · **R-5 formatos por medição**.
-Portão: `make -s check` → `unit=106`, `make-sintaxe=7`, `net=34`, `pe=14`, `data=19` — 180 asserções, 0 falhas.
+Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · R-5 formatos por medição · **R-8 portão único**.
+Portão único: `make -s gate` → 9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED (194 asserções).
+Portão de build: `make -s check` → 180 asserções, 0 falhas. Teste do portão: `make -s gate-selftest` → 18/18.
 Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`reports/`](reports/).
 
 ## Compilar, rodar, testar
@@ -28,7 +29,9 @@ Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`repor
 ```sh
 cd recriado
 make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient (ASAN+UBSAN+-Werror)
-make -s check          # unit + make-sintaxe + net + pe + data  (o portao da fase)
+make -s gate           # PORTAO UNICO: 16 etapas, mesa de estados, 194 assercoes
+make -s gate-selftest  # testa o proprio portao (18 casos, inclui F12-F14)
+make -s check          # unit + make-sintaxe + net + pe + data  (portao de build, sem recursao)
 make -s pe             # PE da referencia: 22 .exe, arquitetura, secoes, imports (MU_REF_DATA)
 make -s data           # .att/.bmd/.ozj/.smd, dados, Lua, backups: invariantes medidos
 make -s pe-selftest    # so a recusa de entrada invalida, sem tocar na referencia de 615 MB
@@ -73,5 +76,7 @@ scripts/    verify-backup.sh
 out/        build (ignorado pelo git)
 ```
 
-Ainda **não** existem, e não devem ser tratados como aprovados: `golden`, `interop`, `conform`, `data`,
-`pe`, `fuzz`, `gate_state`, `run_all.sh`. `bench` está **BLOCKED** (critérios de validade ausentes).
+Existem e rodam: `unit`, `make-sintaxe`, `net`, `net-matrix`, `pe`, `data`, `pe-selftest`,
+`data-selftest`, `gate` (portão), `gate-selftest` (teste do portão), `ref-intacta`.
+Ainda **não** existem — no portão aparecem como `NOT_IMPLEMENTED`, nunca como aprovados: `golden`,
+`interop`, `conform`, `fuzz`, `bench` (este último **BLOCKED** por critérios de validade ausentes).

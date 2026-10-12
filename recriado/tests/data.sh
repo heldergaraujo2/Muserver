@@ -20,12 +20,15 @@ ck() {
 
 # SELFTEST_ONLY=1 roda só a recusa de entrada inválida (t16-t19): funciona sem a referencia,
 # que e o caso de um restore de bundle. Sem isso o portao ficaria mudo em ambiente minimo.
-REF=1
-if [ ! -d "$MU_REF_DATA" ] || [ -n "${SELFTEST_ONLY:-}" ]; then
-  REF=0
-  if [ -n "${SELFTEST_ONLY:-}" ]; then printf '# nota=SELFTEST_ONLY: casos da referencia omitidos\n'
-  else printf '# BLOCKED motivo=MU_REF_DATA nao encontrado (%s)\n' "$MU_REF_DATA"; fi
+REF=0; REFMODE=ausente
+if [ -n "${SELFTEST_ONLY:-}" ]; then
+  REFMODE=selftest
+  printf '# nota=SELFTEST_ONLY: casos da referencia omitidos por decisao desta execucao\n'
+elif [ ! -d "$MU_REF_DATA" ]; then
+  REFMODE=ausente
+  printf '# BLOCKED motivo=MU_REF_DATA nao encontrado (%s): a referencia nao viaja no bundle\n' "$MU_REF_DATA"
 else
+  REF=1; REFMODE=referencia
   python3 tools/att_probe.py  > "$OUT/att.tsv"  2>"$OUT/att.err";  ATT_EXIT=$?
   python3 tools/mb_probe.py   > "$OUT/mb.tsv"   2>"$OUT/mb.err";   MB_EXIT=$?
   python3 tools/data_probe.py > "$OUT/data.tsv" 2>"$OUT/data.err"; DATA_EXIT=$?
@@ -108,7 +111,16 @@ ck 18 "selftest: MU_REF_DATA inexistente sai 2 nos tres probes" t18
 ck 19 "autos-teste: expectativa errada e detectada" t19
 rm -rf "$T"
 
+# blocked=1 so quando a referencia FALTA (bloqueio ambiental). Em SELFTEST_ONLY os casos da
+# referencia sao omitidos por decisao desta execucao: isso e escopo declarado, nao bloqueio, e o
+# portao trata como PASS de cobertura reduzida. Confundir os dois faria um selftest "aprovado"
+# parecer que cobriu a referencia.
 BL=0
-[ "$REF" = 1 ] || BL=1
-printf '1..%d\n# data=%d falhas=%d blocked=%d\n' "$n" "$n" "$bad" "$BL"
+case "$REFMODE" in
+  referencia) SCOPO=referencia ;;
+  selftest)   SCOPO=selftest ;;
+  *)          SCOPO=ausente; BL=1 ;;
+esac
+printf '1..%d\n# escopo=data:%s\n# data=%d falhas=%d blocked=%d\n' \
+  "$n" "$SCOPO" "$n" "$bad" "$BL"
 [ "$bad" -eq 0 ] || exit 1

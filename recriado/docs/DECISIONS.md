@@ -260,3 +260,59 @@ suposição.
 **Consequência.** Regra geral para as próximas rodadas: medir a distribuição antes de escrever o
 `grep`. Vale também para o inverso: `.bmd` não é um formato só (XOR-3 vale para o banco do
 MuEditor, mediana −0,16 no conjunto), então nenhum decodificador pode depender só da extensão.
+
+## D2-22 — o portão é a única definição de "verde", e resumo ausente é FAIL
+
+**Contexto (R-8).** Com cinco suítes e cinco previstas, "o projeto está verde?" passou a depender de
+quem lembrava de rodar o quê. Havia também um risco concreto: suíte que sai 0 sem imprimir nada
+conta como aprovada em qualquer agregador ingênuo.
+
+**Decisão.** `tests/run_all.sh` é o único ponto que declara estado. Cinco estados, não equivalentes:
+`PASS` (exit 0 + `falhas=0` + `blocked=0` + linha de resumo presente com o rótulo da etapa) ·
+`FAIL` (exit ≠ 0, ou `falhas>0`, ou **resumo ausente**, ou timeout) · `BLOCKED` (dependência externa
+concreta ausente) · `NOT_IMPLEMENTED` (etapa prevista sem arquivo) · `SKIPPED` (dispensa explícita
+com motivo). Só `FAIL` derruba o portão; a mesa imprime `testado_de_fato=` e `nao_testado=` com
+nomes, para que ninguém leia 0 falhas como cobertura total.
+
+**Motivo medido.** `gate-selftest` caso 7: suíte que sai 0 sem resumo ⇒ `FAIL`. Sem essa regra,
+`golden`/`interop`/`conform` poderiam "passar" vazios no dia em que alguém criar os arquivos.
+
+**Consequência.** `make check` continua existindo (é o portão de build+suítes rápidas) e `gate` não
+entra nele, para não haver recursão. `pe-selftest`/`data-selftest` passaram a distinguir
+`escopo=selftest` (cobertura reduzida por decisão) de `blocked=1` (referência ausente): antes os
+dois saíam `blocked=1` e um selftest aprovado parecia ter coberto a referência.
+
+## D2-23 — falsificação de mecanismo é diferencial, em cópia temporária
+
+**Contexto (R-8).** As falsificações F12–F14 precisam provar que o portão detecta o defeito. O
+método da R-3/R-4 era mutar o arquivo real e reverter depois.
+
+**Decisão.** F12 e F13 rodam contra uma **cópia mutada em diretório temporário** e afirmam a
+*diferença* de comportamento entre a cópia e o portão verdadeiro. Só F14 muta arquivo real
+(`tests/make_parse.sh`), com restauração conferida por sha256 e re-execução da etapa.
+
+**Motivo medido.** Na R-4, o `pkill -f` do teste de mecanismo matou o próprio shell, a reversão não
+rodou e três medições seguintes foram feitas contra binário mutado. Mútuo: se a detecção deixar de
+depender do mecanismo, cópia e original concordam e o caso falha — a falsificação continua valendo
+como teste, não só como demonstração.
+
+**Consequência.** A fixture da F12 sai ≠ 0 **com resumo limpo**; se reportasse `falhas>0`, a contagem
+detectaria sozinha e a falsificação não isolaria o exit code. Esse cenário (`exit=3` com resumo
+limpo) virou caso permanente do `gate-selftest`.
+
+## D2-24 — prazo de etapa por `timeout(1)` + grupo próprio, nunca watchdog de fundo
+
+**Contexto (R-8).** A primeira versão do portão implementava o prazo com `( sleep $tmo; kill ) &`.
+
+**Decisão.** Prazo vem do `timeout(1)`; cada etapa roda como job com `set -m` (grupo de processo
+próprio); ao estourar o prazo, o grupo inteiro é varrido (`TERM` → 1 s → `KILL`); interrupção do
+portão varre o grupo da etapa corrente e sai 130. Nenhum processo de fundo de controle.
+
+**Motivo medido.** Artefato da versão anterior: `out/gate/build.timeout` criado **600 s depois** da
+etapa e `sleep 420` órfão com `PPID 1` vivo no host. O watchdog sobrevivia à etapa, o `wait` dele
+bloqueava a corrida (uma execução completa travou) e um grupo alheio podia ser sinalizado no meio de
+outro teste — na mesma corrida, `net` reportou 3 falhas em S4 que não se reproduzem isoladamente
+(`make -s net` 34/0, `GATE_ONLY=net` 34/0, `setsid` direto 34/0).
+
+**Consequência.** Regra para qualquer mecanismo de prazo daqui em diante: testar **o que ele deixa
+vivo**, não apenas se dispara no tempo certo.

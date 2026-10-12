@@ -20,13 +20,15 @@ ck() {  # ck <n> <descrição> <função>
 
 # SELFTEST_ONLY=1 roda só os casos de recusa (t11-t14), sem tocar na referencia de 615 MB:
 # e o que o portao usa quando a referencia nao esta presente (o bundle nao a carrega).
-REF=1
-if [ ! -d "$MU_REF_DATA" ] || [ -n "${SELFTEST_ONLY:-}" ]; then
-  REF=0
-  if [ -n "${SELFTEST_ONLY:-}" ]; then printf '# nota=SELFTEST_ONLY: casos da referencia omitidos\n'
-  else printf '# BLOCKED motivo=MU_REF_DATA nao encontrado (%s): a referencia nao viaja no bundle\n' "$MU_REF_DATA"
-  fi
+REF=0; REFMODE=ausente
+if [ -n "${SELFTEST_ONLY:-}" ]; then
+  REFMODE=selftest
+  printf '# nota=SELFTEST_ONLY: casos da referencia omitidos por decisao desta execucao\n'
+elif [ ! -d "$MU_REF_DATA" ]; then
+  REFMODE=ausente
+  printf '# BLOCKED motivo=MU_REF_DATA nao encontrado (%s): a referencia nao viaja no bundle\n' "$MU_REF_DATA"
 else
+  REF=1; REFMODE=referencia
   # uma passada completa; a segunda (t09) só existe para provar determinismo
   python3 tools/pe_probe.py --keywords > "$OUT/pe.tsv" 2>"$OUT/pe.err"
   PE_EXIT=$?
@@ -87,7 +89,16 @@ ck 13 "selftest: MU_REF_DATA inexistente sai 2 (erro de uso visivel)" t13
 ck 14 "autos-teste: expectativa errada e detectada (senao esta suite nao vale nada)" t14
 rm -rf "$T"
 
+# blocked=1 so quando a referencia FALTA (bloqueio ambiental). Em SELFTEST_ONLY os casos da
+# referencia sao omitidos por decisao desta execucao: isso e escopo declarado, nao bloqueio, e o
+# portao trata como PASS de cobertura reduzida. Confundir os dois faria um selftest "aprovado"
+# parecer que cobriu a referencia.
 BL=0
-[ "$REF" = 1 ] || BL=1
-printf '1..%d\n# pe=%d falhas=%d blocked=%d\n' "$n" "$n" "$bad" "$BL"
+case "$REFMODE" in
+  referencia) SCOPO=referencia ;;
+  selftest)   SCOPO=selftest ;;
+  *)          SCOPO=ausente; BL=1 ;;
+esac
+printf '1..%d\n# escopo=pe:%s\n# pe=%d falhas=%d blocked=%d\n' \
+  "$n" "$SCOPO" "$n" "$bad" "$BL"
 [ "$bad" -eq 0 ] || exit 1
