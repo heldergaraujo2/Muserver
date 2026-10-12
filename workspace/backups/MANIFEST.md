@@ -3,12 +3,12 @@
 | campo | valor |
 |---|---|
 | conteudo | historia do v2 (somente a arvore `recriado/`, com o `recriado/.gitignore` como raiz) |
-| origem | subtree split de `recriado/` no commit `d19550d` (R-3 fechada, R-4 aberta por D2-14) |
-| branch local criada | `mu2-v2` @ `01dc99c` |
-| arquivo | `mu2-v2.bundle` (134694 bytes) |
+| origem | subtree split de `recriado/` (arquivo fora da arvore dividida, ver D2-15) |
+| branch local criada | `mu2-v2` @ `a97d8b6` |
+| arquivo | `mu2-v2.bundle` (204585 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 489298dc43a53620d142661d121690d7e47983060cfad67487975e781cd04213
+sha256: 83454231af911d85eb2ce1d4e51c0a7edd8f502a1b0a07660e78e6cc58691e51
 
 ## Como restaurar (teste real, ja executado por `scripts/verify-backup.sh`)
 
@@ -24,6 +24,10 @@ O v1 morreu com os unicos 20 commits num clone irmao nao rastreado e num bundle 
 `/home/user/` (fora da arvore persistida). Entao aqui a copia independente mora **dentro** do
 caminho rastreado: o `git push` da branch da sessao leva o bundle junto, e ele sobrevive a
 qualquer recriacao de sandbox.
+
+## Tamanho e por que ele agora e constante
+
+17 225 (R-0) -> 38 233 -> 66 195 -> 134 694 (antes da D2-15) -> atual, e nao cresce mais por recursao.
 
 ## O que o verificador ja pegou (e por que ele existe)
 

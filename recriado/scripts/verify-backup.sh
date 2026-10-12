@@ -24,23 +24,28 @@ dirty=$(git status --porcelain -- recriado | head -3)
 if [ -z "$dirty" ]; then st=ok; else st=bad; fi
 chk "arvore recriado/ limpa" "$st" "${dirty:-}"
 
-# 4) o bundle de backup existe, verifica, e o hash bate com o MANIFEST
-bundle=recriado/backup/mu2-v2.bundle
+# 4) o bundle de backup existe, verifica, e o hash bate com o MANIFEST.
+#    Ele mora em workspace/backups/ e NAO dentro de recriado/: o bundle e gerado a partir
+#    do subtree split de recriado/, entao aloja-lo la dentro faria cada regravacao embutir a
+#    anterior (medido: 17 225 -> 38 233 -> 66 195 -> 134 694 bytes, ~2x por rodada, e o limite de
+#    persistencia da plataforma e ~128 MB somados). Fora da arvore dividida o custo e constante.
+bundle=workspace/backups/mu2-v2.bundle
 if [ -f "$bundle" ]; then
   if out=$(git bundle verify "$bundle" 2>&1); then st=ok; else st=bad; fi
   chk "bundle: git bundle verify" "$st" "$(printf '%s' "$out" | grep -aoE '[0-9]+ objects?.*' | head -1)"
-  want=$(awk '/^sha256:/{print $2}' recriado/backup/MANIFEST.md 2>/dev/null)
+  want=$(awk '/^sha256:/{print $2}' workspace/backups/MANIFEST.md 2>/dev/null)
   got=$(sha256sum "$bundle" | cut -d' ' -f1)
   if [ -n "$want" ] && [ "$want" = "$got" ]; then st=ok; else st=bad; fi
   chk "bundle: sha256 do MANIFEST" "$st" "${got:0:16}..."
-  # 5) restauracao real: clonar o bundle num diretorio descartavel e comparar a arvore v2.
+  # 5) restauracao real: clonar o bundle (snapshot orphan, branch mu2-snapshot) num diretorio
+#    descartavel e comparar o conjunto de arquivos rastreados.
 #    O proprio diretorio backup/ fica de fora da comparacao: ele contem o bundle, e o
 #    bundle nao pode conter a si mesmo (o historico coberto e ate o commit anterior).
   tmp=$(mktemp -d /tmp/mu2-restore.XXXXXX)
   a=""; b=""
   # -b mu2-v2 e obrigatorio: o bundle leva so esse ref, e o HEAD remoto do clone apontaria
       # para um main inexistente (a ausencia deste -b deixou o clone sem arvore na 1a versao do teste).
-      if git clone -q --no-hardlinks -b mu2-v2 "$bundle" "$tmp/clone" 2>/dev/null; then
+      if git clone -q --no-hardlinks -b mu2-snapshot "$bundle" "$tmp/clone" 2>/dev/null; then
     # o bundle carrega a arvore do subtree split (recriado/ vira a raiz). Compara-se o CONJUNTO de
     # arquivos rastreados: o conteudo do commit do bundle e o commit anterior, por construcao (o
     # bundle nao pode conter a si mesmo) - por isso a integridade de conteudo e conferida pelo
@@ -56,7 +61,7 @@ if [ -f "$bundle" ]; then
   fi
   # 6) ponta do bundle == SHA registrado no MANIFEST (integridade de conteudo do snapshot)
   tip=$(git bundle list-heads "$bundle" 2>/dev/null | awk '{print $1}')
-  want_tip=$(awk -F'`' '/branch local criada/{print $4}' recriado/backup/MANIFEST.md 2>/dev/null)
+  want_tip=$(awk -F'`' '/branch local criada/{print $4}' workspace/backups/MANIFEST.md 2>/dev/null)
   if [ -n "$tip" ] && [ -n "$want_tip" ] && case "$tip" in "$want_tip"*) true;; *) false;; esac; then st=ok; else st=bad; fi
   chk "bundle: ponta == MANIFEST" "$st" "${tip:0:7} vs ${want_tip:-?}"
   rm -rf "$tmp"

@@ -141,3 +141,18 @@ recuperado, a pergunta nao e de arqueologia: ela vira decisao de projeto do v2, 
   fechamento com a linha de log propria.
 Nao decide: aumentar a fila nem os buffers. Se a R-4 mostrar perda ou contrato violado, a mudanca
 de politica vem em commit isolado, com regressao e `bench` antes/depois (D2-05).
+
+## D2-15 — a copia viva do backup mora em `workspace/backups/`, nao dentro de `recriado/backup/`
+Descoberto por medida nesta rodada, nao por gosto: o bundle e gerado do `git subtree split -P
+recriado`, entao enquanto ele morava dentro de `recriado/backup/` cada regravacao embutia o bundle
+anterior. Tamanhos seguidos: **17 225 → 38 233 → 66 195 → 134 694 bytes**. Crescendo ~2× por
+rodada, o mecanismo de seguranca estouraria o teto de persistencia da plataforma (≈128 MB somados)
+e o backup passaria a *causar* a perda que existe para evitar.
+Regra, com o passo a mais que a medida exigiu: so realocar nao resolveu — o bundle refeito
+depois de mover ainda deu **204 585 bytes**, porque o `subtree split` reproduz os commits
+historicos de `recriado/`, e esses commits continham os bundles antigos. A copia independente
+passou entao a ser um **snapshot orphan** (`git commit-tree` da arvore `HEAD:recriado`, um unico
+commit): restaura o estado atual em tamanho constante, e a *historia* fica onde ela pertence, no
+`git push` (e no branch local `mu2-v2`, que e a semente de migracao para o repo proprio). Nada foi apagado: os blobs antigos seguem no
+historico e voltam com `git checkout 5c9e318 -- recriado/backup` se alguem precisar da copia
+congelada de uma rodada especifica — e `scripts/verify-backup.sh` passa a conferir o caminho novo.
