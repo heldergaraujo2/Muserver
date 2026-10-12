@@ -31,7 +31,7 @@ NETCLI:= $(BUILD)/netclient
 CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -136,6 +136,10 @@ interop:
 # FUZZ_ITERS ajusta o volume (padrao 50000 por rodada).
 fuzz: $(FUZZBIN) $(CODECBIN)
 	@bash tests/fuzz.sh
+
+# Etapa D: malformacao na porta, estabilidade de fd/RSS, higiene de log, decisao sobre TSan.
+seguranca: $(MUD2)
+	@bash tests/seguranca.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
