@@ -22,6 +22,7 @@ CTL   := src/mu2ctl.c
 NCLI  := tests/netclient.c
 CODEC := tools/mu2codec.c
 FUZZ  := tools/mu2fuzz.c
+ADMIN := tools/mu2admin.c
 HDR   := include/mu2/mu2.h include/mu2/proto.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
@@ -30,12 +31,13 @@ MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
+ADMINBIN:=$(BUILD)/mu2admin
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN)
+build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN) $(ADMINBIN)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
@@ -68,6 +70,11 @@ $(CODECBIN): $(CODEC) $(OBJ) $(HDR) | $(BUILD)
 # documentada na saida da ferramenta e no relatorio.
 $(FUZZBIN): $(FUZZ) $(OBJ) $(HDR) | $(BUILD)
 	$(CC) $(CFLAGS) $(FUZZ) $(OBJ) -o $@ $(LDFLAGS)
+
+# Etapa E: console administrativo local. Nao toca o mud2 (ABI/contrato intactos); le o estado dele
+# pelo protocolo v2. Desenho em docs/ADMIN_CONSOLE.md, escrito antes do codigo.
+$(ADMINBIN): $(ADMIN) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) -D_GNU_SOURCE $(ADMIN) $(OBJ) -o $@ $(LDFLAGS)
 
 unit: $(UNIT)
 	./$(UNIT)
@@ -140,6 +147,10 @@ fuzz: $(FUZZBIN) $(CODECBIN)
 # Etapa D: malformacao na porta, estabilidade de fd/RSS, higiene de log, decisao sobre TSan.
 seguranca: $(MUD2)
 	@bash tests/seguranca.sh
+
+# Etapa E: console administrativo local (desenho em docs/ADMIN_CONSOLE.md, escrito antes do codigo).
+admin: $(ADMINBIN) $(MUD2)
+	@bash tests/admin.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
