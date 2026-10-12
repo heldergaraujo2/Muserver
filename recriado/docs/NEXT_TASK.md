@@ -1,7 +1,17 @@
 # NEXT_TASK — o que vem agora
 
-Estado de partida (medido nesta rodada, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
-0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
+## Passo zero (bloqueado no proprietário): publicar o destino
+
+O destino está preparado, verificado e reprodutível (`workspace/migracao/`), mas **não publicado**:
+`git push` responde `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`
+e a API responde `Resource not accessible by integration` **no destino** (no repo de origem,
+normal). É a seleção de repositórios da **instalação do GitHub App**, não a ACL do usuário
+(`push=true` nos dois). Ação do proprietário: incluir `MuserverRecriado` na instalação com
+*Contents: Read and write*; depois, `bash workspace/migracao/publicar-destino.sh` (push + `ls-remote`
++ clone independente + portão). Nada é afirmado publicado antes do `ls-remote` conferir.
+
+Estado de partida (medido em ambiente limpo, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
+0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
 `make -s check` 180 asserções; `FULL=1 verify-backup.sh` 13/13. Branch `arena/cf1de8ce-muserver`.
 
 As etapas que a rodada anterior listava como pendentes **foram fechadas**: `golden` (42/42),

@@ -1,5 +1,31 @@
 # CHANGELOG do v2
 
+## Publicação no `MuserverRecriado` — 2026-10-12
+
+- **Destino preparado e conferido; publicação BLOQUEADA por permissão.** `git push` para
+  `heldergaraujo2/MuserverRecriado.git` → `403 Permission to heldergaraujo2/MuserverRecriado.git
+  denied to heldergaraujo2`, e a API responde `Resource not accessible by integration` **no destino**
+  (no repositório de origem responde normalmente). A ACL do usuário diz `push=true` nos dois: o que
+  falta é a **instalação do GitHub App** incluir o destino com *Contents: Read and write*. Sem
+  contorno, sem force push, sem retentativa em laço.
+- **Histórico preservado** por `git subtree split --prefix=recriado`: **34 commits** com as mensagens
+  originais. O destino nasce de `git init` + `git fetch file://…` (não de `git clone`, que levaria o
+  pack de 134 MB com os blobs de `MuServer/` para dentro de um repositório que não deve carregá-los).
+- **Build bit-reprodutível**: duas construções independentes deram o mesmo HEAD (`587ba4f`), a mesma
+  árvore (`8f1e0f35…`) e o mesmo sha256 de bundle (`e30fd48a…`). Pacote em `workspace/migracao/`.
+- **Portão no destino**: `PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2`, 281 asserções,
+  exit 0 — as 6 BLOCKED são exatamente as etapas que exigem a referência `MuServer/` (`pe`, `data`,
+  `cfg`, `ref-intacta`, `interop`, `lua`). Num clone independente do destino, árvore e inventário
+  idênticos e o mesmo perfil de portão.
+- **Quatro defeitos medidos e corrigidos** (aparecem quando se roda o portão num ambiente
+  reprovisionado, com `out/` vazio — o estado anterior os mascarava): a sonda de malformação media o
+  processo errado; a asserção de descritores era corrida (imediato 9,9,8,8,8 / estabilizado 8 em
+  0–20 ms); `tests/admin.sh` dependia de `out/gate.tsv` residual; e a etapa `build` do portão exigia
+  o **próprio produto** (`out/wire.o`), virando `NOT_IMPLEMENTED` em clone limpo — a rodada
+  degradava para PASS=10/BLOCKED=9 **sem falhar**.
+- Medidas em `reports/migracao-destino.tsv`; relatório completo no destino em
+  `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
+
 ## R-7 — 2026-10-12
 - **Baseline exploratória** (não é critério de aceitação: não existe requisito de desempenho do
   dono). `tests/bench.sh` com 5 cenários e critérios de validade declarados antes de rodar

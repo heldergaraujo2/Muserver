@@ -1,0 +1,605 @@
+diff --git a/.gitattributes b/.gitattributes
+new file mode 100644
+index 0000000..b2352c3
+--- /dev/null
++++ b/.gitattributes
+@@ -0,0 +1,22 @@
++# Politica de bytes do repositorio publicado (migracao de 2026-10-12).
++# O texto do v2 e LF; a medicao que sustenta isso (10 021 arquivos do pack original, 0 CRLF puro
++# em .lua/.ini/.txt/.dat) esta no monorepo heldergaraujo2/Muserver. Aqui a regra e simples e
++# conservadora: NAO converter nada (uma politica "que parece certa para Windows" reescreveria
++# arquivos de evidencia na primeira checkout limpa).
++
++* -text
++
++# binarios de fato
++*.bundle binary
++*.exe binary
++*.dll binary
++*.dmp binary
++*.bak binary
++*.png binary
++*.jpg binary
++*.jpeg binary
++*.gif binary
++*.ico binary
++
++# o bundle de backup sai byte a byte do clone: o sha256 e conferido por scripts/verify-backup.sh
++workspace/backups/*.bundle binary
+diff --git a/.gitignore b/.gitignore
+index 38501c2..cf5319d 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,6 +1,11 @@
+-# Saidas de build (build/ e out/) e lixo de execucao: o v2 trabalha com `git add` de caminhos
+-# explicitos, mas este arquivo existe para que um `git add -A` futuro (de outra
+-# pessoa/outra rodada) nunca leve binario para dentro do indice.
++# ============================================================
++# MuserverRecriado — artefatos que NAO devem ser versionados
++# Adaptado do monorepo heldergaraujo2/Muserver na migracao de 2026-10-12.
++# As regras de MuServer/ sairam de proposito: a referencia original (~615 MB, do
++# fornecedor) NAO viaja para este repositorio. Ver docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md.
++# ============================================================
++
++# saidas de build e de execucao do v2
+ build/
+ out/
+ *.o
+@@ -8,8 +13,23 @@ out/
+ *.so
+ *.tmp
+ *.log
++
++# lixo de interpretador
+ __pycache__/
+ *.pyc
+-# Relatorio intermediario de ferramenta so e versionado quando vira evidenci
+-# (ver reports/README.md); o resto fica fora.
++
++# relatorio intermediario de ferramenta so e versionado quando vira evidencia (ver reports/README.md)
+ reports/*.raw
++
++# saidas regeneraveis das ferramentas de auditoria
++workspace/reports/*.json
++workspace/reports/*.txt
++workspace/reports/*.err
++workspace/recovered/
++
++# sistema / editores
++desktop.ini
++Thumbs.db
++.DS_Store
++*.user
++.vs/
+diff --git a/Makefile b/Makefile
+index ef6dafe..8982c4a 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-# Makefile do v2 (mu2). Build sempre fora da raiz (build/, ignorado por recriado/.gitignore),
++# Makefile do v2 (mu2). Build sempre fora da raiz (out/, ignorado por .gitignore),
+ # sanitizadores ligados por padrao: `make SAN=0` e a unica forma de desliga-los, e serve para
+ # comparar custo, nao para publicar resultado.
+ CC       ?= cc
+diff --git a/README.md b/README.md
+index 4fb23c8..17223eb 100644
+--- a/README.md
++++ b/README.md
+@@ -20,16 +20,15 @@ backup e regras.
+ ## Estado (medido, não relatado)
+ 
+ Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · R-5 formatos por medição · R-8 portão único · R-6 protocolo (camada 1 comprovada; interop BLOCKED) · **R-7 desempenho (baseline exploratória; capacidade absoluta BLOCKED)**.
+-Portão único: `make -s gate` → 18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED (336 asserções, 22 etapas).
++Portão único: `make -s gate` → 18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED (339 asserções, 22 etapas).
+ Portão de build: `make -s check` → 180 asserções, 0 falhas. Teste do portão: `make -s gate-selftest` → 19/19.
+ Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`reports/`](reports/).
+ 
+ ## Compilar, rodar, testar
+ 
+ ```sh
+-cd recriado
+ make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient (ASAN+UBSAN+-Werror)
+-make -s gate           # PORTAO UNICO: 22 etapas, mesa de estados, 336 assercoes
++make -s gate           # PORTAO UNICO: 22 etapas, mesa de estados, 339 assercoes
+ make -s bench          # baseline EXPLORATORIA de desempenho (nao e criterio de aceitacao)
+ make -s conform        # conformidade do protocolo v2, byte a byte (15 clausulas)
+ make -s cfg            # endpoints da configuracao original (segredos redigidos)
+@@ -54,36 +53,54 @@ Opcodes do serviço (`include/mu2/proto.h`): `PING` 0x0001, `ECHO` 0x0002, `STAT
+ v2. Motivos de fechamento no log, um por linha: `queue_full`, `client_eof`, `client_hup`,
+ `socket_error`, `write_error`, `bad_frame`, `idle_timeout`, `max_clients`, `shutdown`.
+ 
+-## Por que mora dentro de `Muserver/` (e não num clone irmão)
++## Por que este repositório é a continuação (e não um clone solto)
+ 
+ O v1 morreu exatamente por morar num clone não rastreado (`/home/user/MuserverRecriado`): o mecanismo
+-de persistência da sessão grava o diff da árvore do repositório da sessão, e o irmão ficou de fora.
+-Evidência em `../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md`. Portanto:
++de persistência da sessão grava o diff da árvore do repositório **da sessão** (`Muserver`), e o irmão
++ficou de fora. Evidência em `workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md`. Esta publicação é a
++resposta a isso: a reconstrução sai do diretório irmão e passa a ter repositório próprio, com a
++história dos commits (`git subtree split --prefix=recriado`, 34 commits) — ver
++`docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
+ 
+ 1. toda rodada termina com `git add <caminhos explícitos>` (nunca `git add -A`), commit, `git push` e
+    `git ls-remote` **lido de volta** para conferir o SHA remoto;
+-2. uma cópia independente é regravada a cada rodada em `../workspace/backups/` (bundle + manifesto com
++2. uma cópia independente é regravada a cada rodada em `workspace/backups/` (bundle + manifesto com
+    sha256), e `scripts/verify-backup.sh` é o que atesta — com `FULL=1` conferindo o que foi **publicado**,
+    não só o que está no worktree;
+-3. se e quando `heldergaraujo2/MuserverRecriado` for autorizado ao App do GitHub, `recriado/` vira
+-   repositório próprio a partir do branch local `mu2-v2`, levando esta história junto.
++3. **`workspace/` mantém o caminho relativo do monorepo de origem** porque o bundle de backup mora ali
++   e é ele que carrega a árvore restauravel; mover a evidência quebraria o manifesto e a restauração.
++
++### Estado da publicação (2026-10-12)
++
++`heldergaraujo2/MuserverRecriado` **continua vazio**: o `git push` responde
++`403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`, e a API responde
++`Resource not accessible by integration` no repositório de destino (funciona em `Muserver`). Isso é
++seleção de repositórios da **instalação do GitHub App**, não permissão do usuário (a ACL do usuário
++diz `push=true`). O proprietário precisa incluir `MuserverRecriado` na instalação com *Contents: Read
++and write*. O conteúdo está pronto e testado neste diretório; publicação não foi afirmada.
+ 
+ ## Layout
+ 
+ ```
+ docs/       CONTINUITY (índice) CURRENT_STATE NEXT_TASK DECISIONS ROADMAP ENVIRONMENT CHANGELOG
++            ADMIN_CONSOLE (desenho do console)  MIGRACAO-MUSERVERRECRIADO-2026-10-12
+ include/    mu2/mu2.h  mu2/proto.h
+ src/        wire.c (codec)  mud2.c (serviço)  mu2ctl.c (métricas)
+-tests/      unit.c  netclient.c  net.sh  make_parse.sh
+-reports/    r3-*.tsv  r4-*.tsv  net-<perfil>.tsv  (regra de extensão em reports/README.md)
++tools/      sondas (pe/data/cfg/att/mb/lua/interop/malform), CLI do codec, fuzzer, console
++tests/      unit.c  netclient.c  *.sh (unit, net, pe, data, cfg, conform, golden, fuzz,
++            seguranca, admin, lua, interop, bench, ref_check, gate_state)  golden/quadros.tsv
++reports/    evidência publicada: *.tsv (dados) e *.md (análise) — regra em reports/README.md
+ scripts/    verify-backup.sh
+-out/        build (ignorado pelo git)
++workspace/  evidência do monorepo de origem: backups/ (bundle + MANIFEST), changes/ (Lua),
++            reports/ (auditorias e recuperação), tools/ e tests/ da fase de auditoria
++out/        build e saídas de execução (ignorado pelo git)
+ ```
+ 
+ Existem e rodam: `unit`, `make-sintaxe`, `net`, `net-matrix`, `pe`, `data`, `cfg`, `conform`,
+-`matriz`, `bench`, `*-selftest`, `gate` (portão), `gate-selftest` (teste do portão), `ref-intacta`.
+-Ainda **não** existem — no portão aparecem como `NOT_IMPLEMENTED`, nunca como aprovados: `golden`,
+-`interop`, `fuzz`. `interop` exige binário original em execução (**BLOCKED**).
++`matriz`, `bench`, `golden`, `fuzz`, `seguranca`, `admin`, `lua`, `*-selftest`, `gate` (portão) e
++`gate-selftest` (teste do portão) — 22 etapas, mesa de estados em `out/gate.tsv`. Neste repositório
++publicado, `pe`, `data`, `cfg`, `lua` e `ref-intacta` saem **BLOCKED** (`MU_REF_DATA` ausente: a
++referência não viaja) e `interop` camada 3 sai BLOCKED (sem binário original em execução).
+ `bench` mede uma **baseline exploratória**: não há requisito de desempenho do dono, então nenhum
+ número ali é meta. Critérios de validade declarados antes, juiz separado e limites rotulados —
+ detalhe em [`reports/r7-relatorio.md`](reports/r7-relatorio.md).
+diff --git a/docs/CHANGELOG.md b/docs/CHANGELOG.md
+index 6b12f5c..f5fc470 100644
+--- a/docs/CHANGELOG.md
++++ b/docs/CHANGELOG.md
+@@ -1,5 +1,12 @@
+ # CHANGELOG do v2
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ ## R-7 — 2026-10-12
+ - **Baseline exploratória** (não é critério de aceitação: não existe requisito de desempenho do
+   dono). `tests/bench.sh` com 5 cenários e critérios de validade declarados antes de rodar
+@@ -90,7 +97,7 @@
+   (D2-01..D2-10), `ENVIRONMENT`.
+ - Tentativa de recuperacao do v1 encerrada com veredito (Etapa 1): nenhum mecanismo
+   autorizado disponivel do sandbox; solicitacao pronta em
+-  `../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`.
++  `../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`.
+ - Permissao do GitHub diagnosticada com discriminador de API + `push --dry-run` (nenhum
+   ref criado): o App de autenticacao **nao tem** `MuserverRecriado` na selecao de
+   repositorios. Instrucao manual em `NEXT_TASK.md` secao "acao do dono".
+diff --git a/docs/CONTINUITY.md b/docs/CONTINUITY.md
+index 0fd068a..a83c1aa 100644
+--- a/docs/CONTINUITY.md
++++ b/docs/CONTINUITY.md
+@@ -1,5 +1,12 @@
+ # CONTINUITY — MU Server v2 (leia isto primeiro)
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ Índice central. O detalhe mora nos arquivos apontados abaixo; aqui ficam só os ponteiros, o último
+ estado conferido e as regras que não podem ser quebradas. Se este arquivo divergir do código, dos
+ testes ou do git, **a evidência vence** — e a divergência deve ser registrada, não escondida.
+@@ -26,11 +33,11 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
+ | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
+ | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
+ | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
+-| plano original de reconstrução | [../../workspace/reports/PLANO-RECONSTRUCAO-MU2-2026-10-12.md](../../workspace/reports/PLANO-RECONSTRUCAO-MU2-2026-10-12.md) |
+-| auditoria completa (2026-10-12) | [../../workspace/reports/AUDITORIA-CONTINUIDADE-2026-10-12.md](../../workspace/reports/AUDITORIA-CONTINUIDADE-2026-10-12.md) |
+-| incidente e buscas do v1 perdido | [../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md](../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md) · [../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md](../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md) |
+-| pedido de recuperação à plataforma | [../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md](../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md) |
+-| identidade do backup e restauração | [../../workspace/backups/MANIFEST.md](../../workspace/backups/MANIFEST.md) |
++| plano original de reconstrução | [../workspace/reports/PLANO-RECONSTRUCAO-MU2-2026-10-12.md](../workspace/reports/PLANO-RECONSTRUCAO-MU2-2026-10-12.md) |
++| auditoria completa (2026-10-12) | [../workspace/reports/AUDITORIA-CONTINUIDADE-2026-10-12.md](../workspace/reports/AUDITORIA-CONTINUIDADE-2026-10-12.md) |
++| incidente e buscas do v1 perdido | [../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md](../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md) · [../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md](../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md) |
++| pedido de recuperação à plataforma | [../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md](../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md) |
++| identidade do backup e restauração | [../workspace/backups/MANIFEST.md](../workspace/backups/MANIFEST.md) |
+ | evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r6-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
+ | sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
+ | portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
+@@ -87,23 +94,25 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
+ 
+ ## 6. Último commit e publicação
+ 
+-Preencher no fim de cada rodada (é dado volátil, junto com §7):
+-
+-- HEAD de partida desta rodada: `2ca5a04` (R-6/Etapa A), na branch `arena/cf1de8ce-muserver`.
+-  A rodada das lacunas produziu, em ordem: `f58ebb6` (fuzz), `f1d259d` (formatos), `531a8ec`
+-  (segurança), `206fa14` (console), `a300000` (golden), `04ac99d` (Lua + retratações), `2ca5a04`
+-  (interop) e `ee9510f` (rastreabilidade + documentação).
+-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → conferido no fim da rodada
+-- snapshot: `mu2-snapshot` @ `b609577` (**82 arquivos**), bundle `workspace/backups/mu2-v2.bundle`
+-  com **247 621 B** e sha256 `cff7baea43fab189…`; regenerado nesta rodada a partir de
+-  `ee9510f:recriado`, `git bundle verify` ok
+-- `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
+-- `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
++Este repositório (`heldergaraujo2/MuserverRecriado`) é o destino da reconstrução. Ele nasceu de
++`git subtree split --prefix=recriado` do monorepo `heldergaraujo2/Muserver` (34 commits, mensagens
++preservadas) e recebeu, por cima, a evidência `workspace/` e a adaptação de caminhos — ver
++`docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`, que traz origem, destino, exclusões e hashes.
++
++- **publicação: NÃO feita.** `git push` no destino →
++  `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`, com
++  `Resource not accessible by integration` na API **do destino** (no repo de origem respondendo
++  normal). É a seleção de repositórios da instalação do GitHub App, não a ACL do usuário.
++  Desbloqueio: o proprietário inclui `MuserverRecriado` na instalação com *Contents: Read and write*;
++  depois, `bash workspace/migracao/publicar-destino.sh`.
++- histórico do monorepo: branch `arena/cf1de8ce-muserver` (o v2 vivia lá dentro para não repetir o
++  v1, que morreu num clone não rastreado; essa razão deixou de valer agora que existe repo próprio).
++- nada aqui é declarado publicado antes de `git ls-remote` conferir o SHA remoto.
+ 
+ ## 7. Backup e restauração
+ 
+-`../../workspace/backups/mu2-v2.bundle` — snapshot orphan da árvore `recriado/`, checksum e tamanho no
+-[MANIFEST](../../workspace/backups/MANIFEST.md). Restauração:
++`../workspace/backups/mu2-v2.bundle` — snapshot orphan da árvore do projeto, checksum e tamanho no
++[MANIFEST](../workspace/backups/MANIFEST.md). Restauração:
+ 
+ ```sh
+ git bundle verify workspace/backups/mu2-v2.bundle
+@@ -112,12 +121,13 @@ git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle "$D/
+ (cd "$D/r" && make -s check)
+ ```
+ 
+-O bundle contém **apenas** a árvore `recriado/`. Relatórios em `workspace/` vivem só na branch
++O bundle contém **apenas** a árvore do projeto (o v2). Relatórios em `workspace/` vivem só na branch
+ publicada — por isso a publicação conferida por `ls-remote` faz parte do backup, não é opcional.
+ 
+ ## 8. Bloqueios externos e decisões do proprietário
+ 
+ 1. Incluir `MuserverRecriado` na seleção da instalação do App GitHub (Contents: Read and write).
++   Erro medido: `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`.
+ 2. Decidir o `PR #1` (aberto; nenhum merge é feito por conta do agente).
+ 3. Enviar o pedido de recuperação do ambiente anterior ao suporte da plataforma.
+ 4. Prover host adequado quando `bench` e medições de cliente forem necessários.
+@@ -131,7 +141,7 @@ publicada — por isso a publicação conferida por `ls-remote` faz parte do bac
+ - `blocked != aprovado`; diretório vazio ou especificação não é implementação.
+ - Não inflar `MU2_MAX_BODY`, buffers ou limites para fazer teste passar.
+ - Evidência não pode morar em caminho ignorado pelo git (`.json`/`.raw` em `workspace/reports`,
+-  `recriado/out/`): conferir que o arquivo aparece no `git diff --cached`.
++  `out/`): conferir que o arquivo aparece no `git diff --cached`.
+ - Binário versionado exige atributo `binary` e conferência **depois** do push (`FULL=1`).
+ - Matar processo de teste por **PID**, nunca por `pkill -f` com padrão que apareça no próprio script.
+ - Prazo de etapa por `timeout(1)` + grupo de processo próprio; nunca watchdog de fundo (D2-24:
+diff --git a/docs/CURRENT_STATE.md b/docs/CURRENT_STATE.md
+index 9efa3e4..a781ed9 100644
+--- a/docs/CURRENT_STATE.md
++++ b/docs/CURRENT_STATE.md
+@@ -1,5 +1,12 @@
+ # CURRENT_STATE — v2 (estado medido, nao relato)
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). Índice curto e ponto de entrada: `CONTINUITY.md`.
+ 
+ ## Mesa da rodada
+@@ -8,11 +15,12 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua).
+ |---|---|
+ | unidade fechada | **lacunas cobertas** — golden, fuzz, segurança, console administrativo, Lua (inventário), auditoria de formatos e auditoria de rastreabilidade |
+ | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
+-| próxima tarefa | **`enc`** — formato de cifragem do script Lua do cliente (`NEXT_TASK.md`) |
++| próxima tarefa | **publicar no `MuserverRecriado`** (bloqueado: 403 do App GitHub — `NEXT_TASK.md`) e, depois, **`enc`** — cifragem do script Lua do cliente |
+ | branch | `arena/cf1de8ce-muserver` |
+-| HEAD / remoto | `2ca5a04` — iguais, conferido por `git ls-remote` |
+-| portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas** |
+-| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` 12/12 · `admin` 22/22 · `lua` 13/13 (`blocked=1`) |
++| HEAD / remoto | no monorepo de origem: branch `arena/cf1de8ce-muserver`; **neste repositório**: `main`, a publicar (403 no destino) |
++| portão único (monorepo de origem) | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas** |
++| portão único (aqui) | `make -s gate` → **14 PASS, 0 FAIL, 6 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 281 asserções** — as 6 BLOCKED exigem a referência `MuServer/`, que não viaja |
++| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` 13/13 · `admin` 24/24 · `lua` 13/13 (`blocked=1`) |
+ | ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, `malform_probe` |
+ | portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
+ | teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
+@@ -21,7 +29,7 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua).
+ | capacidade absoluta | **BLOCKED** — 2 vCPUs, cliente e serviço competindo, binário com ASan/UBSan |
+ | compatibilidade com o original | **não testada, não afirmada** — camada 3 BLOCKED, com causa e caminho de desbloqueio |
+ | `MuServer/` | inalterada desde `b5b84da`; **6 `.lua` diferem do upload `6eabb45`**; baseline e reversão conferidos por `ref-intacta` 8/8 |
+-| integridade | `FULL=1 scripts/verify-backup.sh` → 13/13 |
++| integridade | `FULL=1 scripts/verify-backup.sh` → 13/13 no monorepo; aqui, `scripts/verify-backup.sh` acusa **a publicação em falta** (falha honesta) e a referência ausente (BLOCKED) |
+ 
+ ## O que existe no código
+ 
+@@ -122,6 +130,6 @@ Regra: **resumo ausente é `FAIL`**, e `BLOCKED`/`NOT_IMPLEMENTED` nunca viram `
+ 
+ - `MuserverRecriado`: fora da seleção da instalação do App GitHub (403). Nenhuma tentativa de contorno.
+ - Recuperação do v1 (`c5706a5`): esgotada e negativa; pedido pronto em
+-  `../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`, não enviado (exige humano).
++  `../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`, não enviado (exige humano).
+ - `PR #1` (`arena/cf1de8ce-muserver` → `main`): aberto, decisão do dono; nenhum merge feito aqui.
+ - `bench`: sem critérios de validade e sem host adequado.
+diff --git a/docs/DECISIONS.md b/docs/DECISIONS.md
+index 3824c22..993505c 100644
+--- a/docs/DECISIONS.md
++++ b/docs/DECISIONS.md
+@@ -1,5 +1,12 @@
+ # DECISOES DO v2 (D2-xx)
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ Toda decisao abaixo e **reafirmada no v2**, com a evidenci desta rodada. Nenhuma foi
+ herdada do v1 como fato medido: o que o v1 media so aparece aqui como alvo ou como
+ contrato escolhido de novo. Marcacao obrigatoria: `[alvo]` = numero do v1 que precisa
+diff --git a/docs/ENVIRONMENT.md b/docs/ENVIRONMENT.md
+index ae76a13..1012055 100644
+--- a/docs/ENVIRONMENT.md
++++ b/docs/ENVIRONMENT.md
+@@ -1,5 +1,12 @@
+ # Ambiente de medida — verificado em 2026-10-12 (nao assumido)
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ Tudo abaixo foi executado neste sandbox nesta rodada; se o host trocar, a tabela
+ precisa ser refeita antes de qualquer numero ser comparado com alvo antigo.
+ 
+diff --git a/docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md b/docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md
+new file mode 100644
+index 0000000..1b57252
+--- /dev/null
++++ b/docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md
+@@ -0,0 +1,102 @@
++# Relatório de migração — `recriado/` → `MuserverRecriado`
++
++Máquina de origem: monorepo `heldergaraujo2/Muserver`, branch `arena/cf1de8ce-muserver`.
++Destino: `heldergaraujo2/MuserverRecriado`. Data: 2026-10-12.
++
++> **Estado da publicação: NÃO publicada.** O `git push` para o destino responde
++> `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2` e a API responde
++> `Resource not accessible by integration` **no destino** (no repo de origem responde normalmente).
++> A ACL do usuário diz `push=true` nos dois; o que falta é a instalação do GitHub App incluir o
++> `MuserverRecriado` com *Contents: Read and write*. Ver §"Bloqueios" e `../workspace/migracao/README.md`.
++
++## 1. Origem e destino
++
++| | |
++|---|---|
++| origem | `heldergaraujo2/Muserver`, árvore `recriado/` (o v2 morava dentro do repo da sessão) |
++| commit de origem da migração | `9ea61fe` (correção dos três defeitos medidos em ambiente limpo) + `docs/CHANGELOG.md` da rodada |
++| destino | `heldergaraujo2/MuserverRecriado` (público, criado 2026-10-11, **vazio** na verificação: `size=0`, `GET /git/refs` → 409 "Git Repository is empty") |
++| histórico publicado no destino | 34 commits, tip `b1a3719` (split de `9ea61fe`) + os commits da migração |
++| branch do destino | `main` (é a *default branch* do repo vazio) |
++
++## 2. Estratégia de preservação do histórico
++
++`git subtree split --prefix=recriado -b mu2-import HEAD`, executado num **clone temporário** com
++`sparse-checkout` (o split exige o diretório no worktree; a árvore de 615 MB não é materializada).
++Resultado: **34 commits** com as mensagens originais intactas (`R-3`, `R-4`, `R-5`, `R-8`, `R-6`,
++`R-7`, golden/fuzz/segurança/admin/Lua/interop, as auditorias e os backups de cada rodada) e os
++caminhos reescritos para a raiz.
++
++O destino foi criado por `git init` + `git fetch file://<clone> mu2-import:main` e **não** por
++`git clone`: o clone local copia o pack inteiro do monorepo (134 MB, incluindo os blobs do
++`MuServer/`) para dentro de um repositório que não deve carregá-los — medido. Com o `fetch` por
++protocolo, o `.git` do destino ficou em **619 KB**.
++
++Nada foi reescrito no histórico compartilhado: o split cria objetos **novos** num repositório
++descartável; a origem não ganhou ref e o push (bloqueado) não chegou a acontecer.
++
++## 3. O que foi transferido
++
++| conjunto | arquivos | origem |
++|---|---|---|
++| árvore do v2 (via split, com história) | 82 | `recriado/` |
++| evidência do workspace | 89 | `workspace/` (backups, changes, docs, inventory, reports, tests, tools) |
++| arquivos de layout do destino | 2 | `.gitignore` e `.gitattributes` adaptados (as regras de `MuServer/` saíram) |
++| este relatório | 1 | escrito para a migração |
++
++`workspace/` mantém o **mesmo caminho relativo** dos dois lados por uma razão técnica, não por
++estética: `scripts/verify-backup.sh`, `tests/lua.sh`, `tests/ref_check.sh` e `tools/lua_probe.py`
++resolvem `workspace/...` a partir da raiz do projeto, e o bundle de backup (que mora em
++`workspace/backups/`) é o que carrega a árvore restaurável.
++
++## 4. Exclusões intencionais (e por quê)
++
++1. **`MuServer/`** — 10 021 arquivos, ~615 MB, é o pacote **do fornecedor**, não a reconstrução.
++   Não é publicado aqui (não é nosso, e o destino é público). Consequência declarada: `pe`, `data`,
++   `cfg`, `lua` e `ref-intacta` saem **BLOCKED** neste repositório — bloqueado, não aprovado.
++2. **`workspace/reports/*.{json,txt,err}`, `workspace/recovered/`, `out/`, `build/`,
++   `__pycache__/`** — saídas regeneráveis, já ignoradas pelo `.gitignore` da origem; não existem como
++   arquivo rastreado, logo não havia o que transferir.
++3. **`.gitignore`/`.gitattributes` da origem** — não copiados literalmente: as regras de `MuServer/**`
++   não têm objeto aqui. O objetivo da política (não converter bytes de evidência) foi preservado.
++4. **Bloqueios e stashes locais** — não existiam na origem no momento da migração.
++5. **Nenhum relatório de `reports/` foi reescrito.** Eles são evidência do que foi medido no layout
++   do monorepo e continuam escrevendo `recriado/...`; reescrever seria falsificar registro. O
++   mapeamento está no cabeçalho dos documentos canônicos e em §2.
++
++## 5. Resultado dos testes no destino (clone independente, medido)
++
++| verificação | resultado |
++|---|---|
++| `make -s gate` | **PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2**, 281 asserções, 22 etapas, exit 0 |
++| `make -s check` | sem falhas (unit 106, net 34, pe/data BLOCKED por ausência da referência) |
++| `make -s fuzz` | 12/12, 150 000 iterações, 52 sementes |
++| `make -s gate-selftest` | 19/19 |
++| `bash scripts/verify-backup.sh` | conferido no §7 |
++
++As 6 etapas BLOCKED são exatamente as que dependem da referência original
++(`pe`, `data`, `cfg`, `ref-intacta`, `interop`, `lua`); no monorepo de origem o mesmo portão dá
++PASS=18 BLOCKED=2 com 339 asserções. A diferença é 100 % atribuída à referência ausente — nenhuma
++etapa "passou por ter sido ignorada".
++
++## 6. Defeitos encontrados durante a migração (corrigidos na origem e no destino)
++
++Rodar o portão num ambiente **reprovisionado** (sem `out/` residual) expôs três defeitos que o
++estado anterior mascarava:
++
++1. `tools/malform_probe.py` media o processo **errado** (varredura de `/proc/*/cmdline` por "mud2");
++   a asserção de descritores comparava fd de outro processo. Corrigido para `--srv-pid`/inode do
++   socket que escuta, com asserção de procedência.
++2. A asserção `fd_antes == fd_depois` era **corrida**, não vazamento (medido: imediato 9,9,8,8,8 e
++   estabilizado 8 em 0–20 ms). Passou a medir acúmulo entre duas rodadas após estabilizar.
++3. `tests/admin.sh` dependia de `out/gate.tsv` de uma execução anterior (estado residual). Passou a
++   usar fixture própria com números conhecidos e a cobrir o caso de TSV ausente (503).
++4. A etapa `build` do portão exigia o **próprio produto** (`out/wire.o`) e virava `NOT_IMPLEMENTED`
++   em clone limpo — a rodada degradava para PASS=10/BLOCKED=9 sem falhar. Passou a exigir
++   `src/wire.c` e a construir de fato.
++
++## 7. Backup, hashes e restauração
++
++Ver `../workspace/backups/MANIFEST.md` para o snapshot do v2 (`mu2-snapshot`) e
++`../workspace/migracao/README.md` para o transporte do destino. O bundle do destino é conferido por
++`git bundle verify` + clone em diretório temporário + `make -s gate` (resultados acima).
+diff --git a/docs/NEXT_TASK.md b/docs/NEXT_TASK.md
+index 313d138..cdcb071 100644
+--- a/docs/NEXT_TASK.md
++++ b/docs/NEXT_TASK.md
+@@ -1,8 +1,29 @@
+ # NEXT_TASK — o que vem agora
+ 
+-Estado de partida (medido nesta rodada, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
+-0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
++## Passo zero (bloqueado no proprietário): publicar este repositório
++
++O conteúdo está pronto e testado aqui; o que falta é **permissão**. `git push` para
++`heldergaraujo2/MuserverRecriado` responde
++`403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`, e a API do GitHub
++responde `Resource not accessible by integration` no destino (no repo de origem responde normal).
++Isso é a **seleção de repositórios da instalação do GitHub App**, não a ACL do usuário (que diz
++`push=true`). Ação do proprietário: incluir `MuserverRecriado` na instalação com *Contents: Read and
++write*. Depois disso: `bash workspace/migracao/publicar-destino.sh` (faz push, confere `ls-remote`,
++clona de volta e roda o portão). Nada é afirmado publicado antes do `ls-remote` conferir.
++
++Estado de partida no monorepo de origem (medido, não relato): `make -s gate` → **18 PASS, 0 FAIL,
++2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
+ `make -s check` 180 asserções; `FULL=1 verify-backup.sh` 13/13. Branch `arena/cf1de8ce-muserver`.
++Neste repositório publicado, o mesmo portão dá **14 PASS, 0 FAIL, 6 BLOCKED, 281 asserções** — as 6
++BLOCKED são as etapas que exigem a referência `MuServer/`, que não viaja (ver
++`docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`).
+ 
+ As etapas que a rodada anterior listava como pendentes **foram fechadas**: `golden` (42/42),
+ `interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (12/12), `admin` (22/22) e `lua`
+diff --git a/docs/ROADMAP.md b/docs/ROADMAP.md
+index ba7d6dd..a400e82 100644
+--- a/docs/ROADMAP.md
++++ b/docs/ROADMAP.md
+@@ -1,5 +1,12 @@
+ # ROADMAP — v2: fases e metas
+ 
++> **Layout desta publicação (migração de 2026-10-12).** Este repositório é a árvore `recriado/` do
++> monorepo `heldergaraujo2/Muserver` publicada na **raiz**. Onde um destes documentos escrever
++> `recriado/X` (inclusive em registros históricos), leia-se `X`; `workspace/` mantém o mesmo caminho
++> relativo. A referência `MuServer/` (~615 MB, do fornecedor) **não** viaja com a reconstrução: as
++> etapas que dependem dela (`pe`, `data`, `lua`, `interop`) saem **BLOCKED** — e bloqueado não é
++> aprovado. Detalhes, exclusões, hashes e como publicar: `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
++
+ Duas leituras do mesmo caminho: as **fases** (ordem de execução, com portão) e as **metas** (o que o
+ projeto precisa entregar, agrupadas por assunto). Estado por meta no fim da rodada das lacunas: A parcial (interop e cliente BLOCKED), B e C
+ parciais (limites do original e execução Lua BLOCKED), D parcial, E fechada como linha de base,
+@@ -47,7 +54,7 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
+ 
+ ### C. Lua e scripts maiores
+ - **Existe (medido):** 148 `.lua` + 3 `.enc` na referência; originais e patches preservados em
+-  `../../workspace/changes/`; `LuaEncryptorTool.exe` no pacote.
++  `../workspace/changes/`; `LuaEncryptorTool.exe` no pacote.
+ - **Investigar:** se existe **algum** limite real de tamanho/carregamento (hoje não há medição);
+   formato `.enc`; tratamento de script inválido; loops infinitos.
+ - **Depende de:** R-5 (`data_probe.py`), suíte `data`.
+diff --git a/reports/README.md b/reports/README.md
+index b0f65eb..d6f58d8 100644
+--- a/reports/README.md
++++ b/reports/README.md
+@@ -6,9 +6,13 @@ Convencao obrigatoria, escolhida por uma razao medida e nao estilistica: o
+ projeto inteiro por ele viver fora do caminho persistido; entao aqui vale:
+ 
+ - saida de ferramenta que precisa virar evidenci versionada: **`.tsv`** (dados) e
+-  **`.md`** (prosa), ambos dentro de `recriado/reports/`;
++  **`.md`** (prosa), ambos dentro de `reports/`;
+ - saida descartavel, regeneravel ou de um unico run sem valor: **`.raw`** (esta
+-  ignorada por `recriado/.gitignore`);
++  ignorada por `.gitignore`);
++- **os relatorios aqui sao evidencia historica**: foram escritos quando o v2 morava em `recriado/`
++  dentro do monorepo `heldergaraujo2/Muserver`, e por isso citam `recriado/...` e `../workspace/...`.
++  Nao foram reescritos na migracao de 2026-10-12 (reescrever evidencia seria adulterar registro):
++  o mapeamento de caminhos esta em `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
+ - `.json`/`.txt`/`.err` **nao** vao para `workspace/reports/` — nesse caminho eles
+   sao engolidos pelo ignore e deixam de existir na persistencia;
+ - nenhum numero e publicado sem o comando que o gerou na mesma linha do documento
+diff --git a/scripts/verify-backup.sh b/scripts/verify-backup.sh
+index 7dfca38..b8272e3 100755
+--- a/scripts/verify-backup.sh
++++ b/scripts/verify-backup.sh
+@@ -94,6 +94,11 @@ if [ -f "$bundle" ]; then
+     div_ok=${DIV_OK:-'docs/ README.md reports/README.md reports/rf-lua-protocolo.md tests/admin.sh tests/fuzz.sh scripts/verify-backup.sh'}
+     div=""
+     for p in $(printf '%s\n' "$snap"); do
++      # workspace/backups/ fica fora por construcao: o snapshot e' um commit ANTERIOR ao proprio
++      # bundle, entao o bundle (e o MANIFEST que o descreve) sempre divergem dele. Isso nao e'
++      # deriva silenciosa — e' a razao de o snapshot nao conter a si mesmo. A integridade desses
++      # dois arquivos e' provada pelo sha256 do caso 4 e pela ponta conferida no caso 6.
++      case "$p" in workspace/backups/*) continue;; esac
+       h=$(git rev-parse "HEAD:${PFX}${p}" 2>/dev/null) || continue
+       s=$(cd "$tmp/clone" && git rev-parse "HEAD:$p" 2>/dev/null) || continue
+       [ "$h" = "$s" ] || div="$div $p"
+diff --git a/tests/run_all.sh b/tests/run_all.sh
+index 88f71b0..25ccc32 100755
+--- a/tests/run_all.sh
++++ b/tests/run_all.sh
+@@ -53,7 +53,11 @@ mkdir -p "$LOGDIR"
+ # nome | tipo | rotulo_do_resumo | arquivo_exigido | obrigatoria | ferramenta | timeout_s | comando
+ #   tipo=suite  exige a linha `# <rotulo>=<n> falhas=<f> [blocked=<b>]`; resumo ausente e FAIL
+ #   tipo=cmd    e pre-condicao (compilar, por exemplo): vale o exit code, nao ha assercao
+-DEFAULT_SUITES='build	cmd	build	out/wire.o	1	cc	600	make -s build
++# A etapa `build` exige um ARQUIVO-FONTE, nao o proprio produto: com `out/wire.o` como exigencia ela
++# virava NOT_IMPLEMENTED em arvore limpa (clone novo, out/ vazio) e a rodada degradava em silencio —
++# medido no repositorio publicado: PASS=10, BLOCKED=9, 203 assercoes, exit 0. Um portao que passa por
++# nao ter construido nada e' exatamente o verde falso que este contrato existe para impedir.
++DEFAULT_SUITES='build	cmd	build	src/wire.c	1	cc	600	make -s build
+ unit	suite	unit	tests/unit.c	1	cc	180	make -s unit
+ make-sintaxe	suite	make-sintaxe	Makefile	1	make	120	make -s make-sintaxe
+ net	suite	net	tests/net.sh	1	cc	420	make -s net

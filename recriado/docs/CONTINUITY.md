@@ -87,18 +87,22 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ## 6. Último commit e publicação
 
-Preencher no fim de cada rodada (é dado volátil, junto com §7):
-
-- HEAD de partida desta rodada: `2ca5a04` (R-6/Etapa A), na branch `arena/cf1de8ce-muserver`.
-  A rodada das lacunas produziu, em ordem: `f58ebb6` (fuzz), `f1d259d` (formatos), `531a8ec`
-  (segurança), `206fa14` (console), `a300000` (golden), `04ac99d` (Lua + retratações), `2ca5a04`
-  (interop) e `ee9510f` (rastreabilidade + documentação).
-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → conferido no fim da rodada
-- snapshot: `mu2-snapshot` @ `b609577` (**82 arquivos**), bundle `workspace/backups/mu2-v2.bundle`
-  com **247 621 B** e sha256 `cff7baea43fab189…`; regenerado nesta rodada a partir de
-  `ee9510f:recriado`, `git bundle verify` ok
-- `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
-- `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
+- Rodada de partida: `arena/cf1de8ce-muserver` em `08e2c86` (fim da rodada das lacunas). Esta
+  unidade produziu `9ea61fe` (os 3 defeitos medidos + testes agnósticos de layout), a correção da
+  etapa `build` do portão, os documentos desta unidade e a regeneração do snapshot.
+- **Destino `heldergaraujo2/MuserverRecriado`: preparado, conferido e NÃO publicado.** `git push` →
+  `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`; a API responde
+  `Resource not accessible by integration` **no destino** (no repo de origem, `role_name=admin`).
+  É a seleção de repositórios da **instalação do GitHub App** — a ACL do usuário já diz `push=true`.
+  Ação do proprietário: incluir o destino na instalação (*Contents: Read and write*); depois,
+  `bash workspace/migracao/publicar-destino.sh`.
+- Artefatos do destino (medidos em `reports/migracao-destino.tsv`): histórico de **34 commits** por
+  `git subtree split`; destino com **173 arquivos** e árvore `8f1e0f35…`, **build bit-reprodutível**
+  (`587ba4f` em duas construções independentes); cópia independente de 645 549 B (`e30fd48a…`);
+  transporte `workspace/migracao/destino-muserverrecriado.bundle` (1 326 974 B, `0744b9a5…`).
+- Portão: **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, exit 0** aqui,
+  e **14 PASS / 6 BLOCKED / 281 asserções** no destino (as 6 BLOCKED exigem a referência, que não
+  viaja). `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`.
 
 ## 7. Backup e restauração
 
@@ -112,7 +116,9 @@ git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle "$D/
 (cd "$D/r" && make -s check)
 ```
 
-O bundle contém **apenas** a árvore `recriado/`. Relatórios em `workspace/` vivem só na branch
+O bundle contém **apenas** a árvore `recriado/`. A cópia independente do repositório
+publicado é outra (escopo diferente, decisão D2-38): ela é regravada **dentro** do destino por
+`workspace/migracao/preparar-destino.sh` e restaura a árvore publicada, não o monorepo. Relatórios em `workspace/` vivem só na branch
 publicada — por isso a publicação conferida por `ls-remote` faz parte do backup, não é opcional.
 
 ## 8. Bloqueios externos e decisões do proprietário

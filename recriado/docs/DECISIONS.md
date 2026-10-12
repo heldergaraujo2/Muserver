@@ -508,3 +508,42 @@ precondições existirem, o teste real é manual e supervisionado e deposita
 `reports/r6-interop-real.tsv` com 8 chaves obrigatórias; a suíte **valida essa evidência** e só então
 reporta `camada3=evidencia-manual-validada`. Sem o arquivo, o estado é `BLOCKED` — nunca `PASS` por
 omissão, nunca conexão simulada.
+
+## D2-36 — a reconstrução sai do monorepo e passa a ter repositório próprio
+
+**Decisão.** `recriado/` é publicado como repositório `heldergaraujo2/MuserverRecriado`, com o
+histórico levado por `git subtree split`. **Motivo.** A razão de o v2 morar dentro do repo da sessão
+era a persistência: o v1 morreu num clone irmão não rastreado. Essa razão deixa de valer quando
+existe (a) repositório próprio autorizado, (b) pacote de migração reprodutível e (c) transporte por
+bundle — três caminhos independentes em vez de um. **Limite.** Enquanto o push respondendo 403 não
+for resolvido no App, o monorepo continua sendo o único lugar onde o trabalho *publicado* existe; a
+migração não é declarada concluída.
+
+## D2-37 — testes agnósticos de layout (o prefixo é medido, não constante)
+
+**Decisão.** `tests/admin.sh`, `tests/fuzz.sh` e `scripts/verify-backup.sh` derivam o prefixo da
+árvore dentro do repositório por `git rev-parse --show-toplevel` (`PFX=''` no repo publicado,
+`'recriado/'` no monorepo). **Motivo.** Um teste que falha por layout não prova nada sobre o código:
+o caso `git diff --quiet -- recriado/src` falhava no repositório publicado, onde essa árvore **é** a
+raiz. **Limite declarado.** O `verify-backup.sh` mantém a referência `MuServer/` como **BLOCKED** no
+layout publicado (nunca `ok`), e a divergência de conteúdo em relação ao snapshot é conferida contra
+uma lista declarada e curta.
+
+## D2-38 — a cópia independente passa a ser regravada dentro do repositório publicado
+
+**Decisão.** No destino, o snapshot é um commit **orphan** da própria árvore e o bundle vive em
+`workspace/backups/`; o monorepo mantém a sua própria cópia (do `recriado/`). **Motivo.** A cópia
+tem de restaurar **o que foi publicado**, e o repositório publicado tem de restaurar a si mesmo sem
+depender do monorepo — que é justamente o que se perdeu no incidente do v1. **Medido:** bundle de
+645 549 B, sha256 `e30fd48a…`, ponta `75a5d2f`, restauração por `git clone -b mu2-snapshot` +
+`make -s check` sem falhas. **Não confundir:** são duas cópias com escopos diferentes, como o bundle
+e os relatórios de auditoria já eram.
+
+## D2-39 — o bundle de transporte é artefato versionado do monorepo
+
+**Decisão.** `workspace/migracao/destino-muserverrecriado.bundle` (1 326 974 B, sha256
+`0744b9a5…`) fica versionado no monorepo, com o pacote `workspace/migracao/`. **Motivo.** Se a
+publicação continuar bloqueada, o destino inteiro (histórico + evidência) tem de sobreviver a uma
+recriação de sandbox fora do caminho que depende do push. **Verificação obrigatória do artefato:**
+`git clone -b main` a partir do bundle → árvore idêntica (`8f1e0f35…`) e `make -s check` sem falhas.
+**Limite.** Ele é transporte, não publicação: nada aqui afirma que o remoto foi atualizado.

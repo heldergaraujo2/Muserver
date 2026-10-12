@@ -6,13 +6,13 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). 
 
 | campo | valor |
 |---|---|
-| unidade fechada | **lacunas cobertas** — golden, fuzz, segurança, console administrativo, Lua (inventário), auditoria de formatos e auditoria de rastreabilidade |
+| unidade fechada | **publicação preparada e conferida, push BLOQUEADO por permissão** (403 do GitHub App no destino) + 4 defeitos reais corrigidos, medidos em ambiente reprovisionado |
 | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
-| próxima tarefa | **`enc`** — formato de cifragem do script Lua do cliente (`NEXT_TASK.md`) |
+| próxima tarefa | **destravar a publicação** (ação do proprietário: incluir o repo na instalação do App) e, depois, **`enc`** — cifragem do script Lua do cliente (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |
-| HEAD / remoto | `2ca5a04` — iguais, conferido por `git ls-remote` |
-| portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas** |
-| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` 12/12 · `admin` 22/22 · `lua` 13/13 (`blocked=1`) |
+| HEAD / remoto | atualizado no fim desta unidade (ver §6 do `CONTINUITY.md`); monorepo `arena/cf1de8ce-muserver` == remoto conferido por `git ls-remote` |
+| portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas** (medido em ambiente limpo, sem `out/` residual) |
+| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) |
 | ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, `malform_probe` |
 | portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
 | teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
