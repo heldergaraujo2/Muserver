@@ -61,12 +61,38 @@ if [ -f "$bundle" ]; then
   fi
   # 6) ponta do bundle == SHA registrado no MANIFEST (integridade de conteudo do snapshot)
   tip=$(git bundle list-heads "$bundle" 2>/dev/null | awk '{print $1}')
-  want_tip=$(awk -F'`' '/branch local criada/{print $4}' workspace/backups/MANIFEST.md 2>/dev/null)
+  want_tip=$(awk -F'`' '/branch (local criada|do snapshot)/{print $4}' workspace/backups/MANIFEST.md 2>/dev/null)
   if [ -n "$tip" ] && [ -n "$want_tip" ] && case "$tip" in "$want_tip"*) true;; *) false;; esac; then st=ok; else st=bad; fi
   chk "bundle: ponta == MANIFEST" "$st" "${tip:0:7} vs ${want_tip:-?}"
   rm -rf "$tmp"
 else
   chk "bundle presente" bad "$bundle ausente"
+fi
+
+# 7) FULL=1: a prova que importa — o bundle como ele existe DEPOIS do push, lido de um clone do
+#    remoto. Foi assim que apareceu o CRLF que corrompia o blob comitado sem tocar no worktree.
+if [ "\${FULL:-0}" = 1 ]; then
+  tf=$(mktemp -d)
+  if git clone -q --depth 2 --single-branch -b "$branch" "https://github.com/heldergaraujo2/Muserver.git" "$tf/remote" 2>/dev/null; then
+    rsha=$(cd "$tf/remote" && sha256sum workspace/backups/mu2-v2.bundle 2>/dev/null | cut -c1-16)
+    lsha=$(sha256sum "$bundle" | cut -c1-16)
+    if [ -n "$rsha" ] && [ "$rsha" = "$lsha" ]; then st=ok; else st=bad; fi
+    chk "publicado: bundle byte a byte" "$st" "remoto=${rsha:-?} local=${lsha:0:16}"
+    if (cd "$tf/remote" && git bundle verify workspace/backups/mu2-v2.bundle >/dev/null 2>&1); then st=ok; else st=bad; fi
+    chk "publicado: bundle verify no clone" "$st"
+    if (cd "$tf/remote" && git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle restored 2>/dev/null && [ -f restored/src/wire.c ]); then
+      st=ok
+    else
+      st=bad
+    fi
+    chk "publicado: restaurar arvore a partir do bundle clonado" "$st"
+    rsha_head=$(cd "$tf/remote" && git rev-parse HEAD)
+    if [ "${rsha_head#"$local_sha"}" != "$rsha_head" ]; then st=ok; else st=bad; fi
+    chk "publicado: HEAD local esta no remoto" "$st" "${rsha_head:0:7}"
+  else
+    chk "clone do remoto para FULL" bad "falhou (sem rede ou sem autorizacao: registrar bloqueio, nao afirmar publicacao)"
+  fi
+  rm -rf "$tf"
 fi
 
 echo "——— ok=$ok falhas=$bad ———"

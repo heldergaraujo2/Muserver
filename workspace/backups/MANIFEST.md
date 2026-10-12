@@ -3,12 +3,20 @@
 | campo | valor |
 |---|---|
 | conteudo | arvore `recriado/` inteira, num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree $(git rev-parse --short=7 HEAD):recriado` no commit `b6ff48f` |
+| origem | `git commit-tree HEAD:recriado` no commit `d0dfdaa` |
 | branch do snapshot | `mu2-snapshot` @ `9bd5ef4` (a semente de migracao `mu2-v2` segue local, com historia) |
 | arquivo | `mu2-v2.bundle` (31771 bytes) |
 | sha256 | ver abaixo |
 
 sha256: 1ec952bd7f89bbdc1c889117013efd4ceb2f1a18f8c6e95848ce308d13cff126
+
+## Como o backup e conferido (e o buraco que o `binary` tapou)
+
+Um `* text=auto` no `.gitattributes` da raiz aplicava `text: set` ao `*.bundle`: o blob comitado
+divergia do arquivo em disco (`be79f094… != 1ec952bd…`), ou seja, **o bundle publicado estava
+corrompido para qualquer pessoa que o recuperasse por clone**, e o verificador nao via isso porque
+media o arquivo do worktree. Corrigido com `workspace/backups/.gitattributes` (`*.bundle binary`) e
+com a verificacao `FULL=1`, que clona a branch publicada e re-confere o bundle la dentro.
 
 ## Como restaurar (teste real, ja executado por `scripts/verify-backup.sh`)
 
