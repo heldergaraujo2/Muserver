@@ -1,0 +1,6 @@
+05fa962ec3353e4e74b98b5720a66b6e  MuServer/Data/Script/ScriptMain.lua
+9f371219805cbe52187e4b2e66f83c8a  MuServer/Data/Script/System/ProtocolCore.lua
+68cc56f9b9bfc4ed6841eeee2ef14e2c  MuServer/Data/Script/System/ScriptCore.lua
+30e65d98f2dfbe98f378a4c4fa460d2d  MuServer/Data/Script/Utils/DataBase.lua
+69e19c27099b727da0f90b281fde9341  MuServer/SpeedServer/Data/Script/ScriptMain.lua
+a633713ffe11c4ff6a06cb539f2702e9  MuServer/SubSalatest/Data/Script/ScriptMain.lua

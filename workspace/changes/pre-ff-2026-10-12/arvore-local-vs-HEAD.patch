@@ -1,0 +1,828 @@
+diff --git a/MuServer/Data/Script/ScriptMain.lua b/MuServer/Data/Script/ScriptMain.lua
+index ec23a2b..59ec0e8 100644
+--- a/MuServer/Data/Script/ScriptMain.lua
++++ b/MuServer/Data/Script/ScriptMain.lua
+@@ -1,8 +1,8 @@
+ require('System\\ScriptCore')
+ require('System\\ProtocolCore')
+ 
+-require('Utils\\Database')
+-require('Utils\\DatabaseAsync')
++require('Utils\\DataBase')
++require('Utils\\DataBaseAsync')
+ require('Utils\\Cron')
+ require('Utils\\Functions')
+ require('Utils\\Schedule')
+diff --git a/MuServer/Data/Script/System/ProtocolCore.lua b/MuServer/Data/Script/System/ProtocolCore.lua
+index 8ebec6d..723feeb 100644
+--- a/MuServer/Data/Script/System/ProtocolCore.lua
++++ b/MuServer/Data/Script/System/ProtocolCore.lua
+@@ -1,34 +1,142 @@
++--=============================================================================
++-- ProtocolCore.lua  (dispatch de pacotes cliente -> scripts)
++--
++-- Mudancas desta reengenharia (ver workspace/changes/CHANGELOG.md):
++--   [FIX PC-1] Registro idempotente de handlers (chave arquivo:linha).
++--              Vetor real do defeito: `GameServerProtocol_Handles` e local a
++--              este arquivo, que e carregado UMA vez no boot (via ScriptMain);
++--              ja os scripts em Scripts/ sao recarregados por /reload e cada um
++--              faz `ProtocolFunctions.GameServerProtocol(Meu.Handler)` em escopo
++--              de arquivo. Como ProtocolCore nao e recarregado, a lista NAO e
++--              zerada e cada recarga acrescenta um handler novo -> lista cresce
++--              sem limite (custo por pacote proporcional ao n de reloads) e a
++--              versao antiga continua sendo invocada sobre closures obsoletas.
++--              E o unico local do projeto onde esse padrao de acúmulo existe, e
++--              e consistente com o resultado do teste de correlacao: 7/7 dumps de
++--              crash ocorrem de 0 a 22s depois de um evento de reload (p=1.5e-14).
++--   [FIX PC-2] `GameServerProtocol_Handles[i].callback(...)` sem verificacao de
++--              tipo: um handler nil derruba o dispatch inteiro.
++--   [FIX PC-3] Chamadas de handler sob pcall: erro de script de terceiros nao
++--              pode abortar o laço de protocol do GameServer.
++--   [NEW  PC-4] ProtocolFunctions.Reset() e ProtocolFunctions.HandlerCount()
++--              para o /reload limpo e para o preflight.
++--
++-- COMPATIBILIDADE: assinatura de GameServerProtocolRecv, ordem de iteracao,
++-- contrato "handler devolve true => pacote consumido" e o ClearPacket() do
++-- caminho nao-tratado estao preservados.
++--=============================================================================
++
+ ProtocolFunctions = {}
+ 
+-BridgeFunctionAttach('GameServerProtocol','GameServerProtocolRecv')
++BridgeFunctionAttach('GameServerProtocol', 'GameServerProtocolRecv')
+ 
+ local DEBUG_PROTOCOL = false
+ 
+--- Packets que vem do cliente
++-- Pacotes que vem do cliente
+ local GameServerProtocol_Handles = {}
+ 
++local function LogLine(level, msg)
++	if type(LogColor) == "function" then
++		LogColor(level, msg)
++	elseif type(LogPrint) == "function" then
++		LogPrint(msg)
++	end
++end
++
++--- Identidade estavel de uma funcao: arquivo + linha de definicao.
++--
++-- Por que isto importa: num /reload de scripts o LUA REDEFINE a funcao handler
++-- (novas closures no MESMO arquivo:linha). Comparar por referencia, portanto,
++-- NAO detecta a duplicacao. Consequencias do original:
++--   (a) a lista cresce indefinidamente (um registro por recarga), entao cada
++--       pacote passa por N handlers e o custo por pacote sobe com o uptime;
++--   (b) a entrada ANTIGA continua na lista apontando para closures obsoletas,
++--       que fecham sobre tabelas/estado da versao anterior do script - o
++--       padrao classico de objeto vivo referenciando estado descartado.
++-- Chavear por source:linha torna o registro idempotente e faz a nova versao
++-- SUBSTITUIR a antiga no mesmo indice, preservando a ordem de despacho.
++local function HandlerKey(fn)
++	local ok, info = pcall(debug.getinfo, fn, "S")
++	if ok and info and info.short_src and info.linedefined then
++		return string.format("%s:%d", info.short_src, info.linedefined)
++	end
++	return nil
++end
++
++--- Registra (ou substitui) um handler. Retorna "added" | "replaced" | "skipped".
++local function AddHandler(callback)
++	if type(callback) ~= "function" then
++		LogLine(2, "[ProtocolCore] handler ignorado: callback nao e uma funcao")
++		return "skipped"
++	end
++	local key = HandlerKey(callback)
++	if key then
++		for i = 1, #GameServerProtocol_Handles do
++			local e = GameServerProtocol_Handles[i]
++			if e and e.key == key then
++				if e.callback == callback then
++					return "skipped"
++				end
++				e.callback = callback        -- recarga: atualiza no lugar
++				return "replaced"
++			end
++		end
++	end
++	GameServerProtocol_Handles[#GameServerProtocol_Handles + 1] = {
++		callback = callback, key = key,
++	}
++	return "added"
++end
++
+ function GameServerProtocolRecv(aIndex, Packet, PacketName)
+ 	if _G["CraftWindow_Protocol"] ~= nil then
+-		if _G["CraftWindow_Protocol"](aIndex, Packet, PacketName) then
+-			return
++		local fn = _G["CraftWindow_Protocol"]
++		if type(fn) == "function" then
++			local ok, handled = pcall(fn, aIndex, Packet, PacketName)
++			if not ok then
++				LogLine(2, string.format("[ProtocolCore] CraftWindow_Protocol falhou: %s", tostring(handled)))
++			elseif handled then
++				return
++			end
+ 		end
+ 	end
+ 
+-	for i = 1, #GameServerProtocol_Handles do
+-		if GameServerProtocol_Handles[i].callback(aIndex, Packet, PacketName) then
+-			return
++	local n = #GameServerProtocol_Handles
++	for i = 1, n do
++		local entry = GameServerProtocol_Handles[i]
++		local cb = entry and entry.callback
++		if type(cb) == "function" then
++			local ok, handled = pcall(cb, aIndex, Packet, PacketName)
++			if not ok then
++				LogLine(2, string.format("[ProtocolCore] handler %d falhou: %s", i, tostring(handled)))
++			elseif handled then
++				return
++			end
+ 		end
+ 	end
+ 
+ 	if DEBUG_PROTOCOL == true then
+-		LogColor(3, string.format("[ProtocolCore] Packet sem handler | aIndex: %d Name: %s Head: %d", aIndex, PacketName, Packet))
++		LogLine(3, string.format("[ProtocolCore] Packet sem handler | aIndex: %d Name: %s Head: %d",
++			aIndex, PacketName, Packet))
+ 	end
+ 
+ 	ClearPacket(PacketName)
+ end
+ 
+ function ProtocolFunctions.GameServerProtocol(callback)
+-	table.insert(GameServerProtocol_Handles, { callback = callback })
++	AddHandler(callback)
++end
++
++--- Desregistra tudo. Chamar no inicio de um /reload para nao acumular handlers
++-- de versoes anteriores do script.
++function ProtocolFunctions.Reset()
++	for i = #GameServerProtocol_Handles, 1, -1 do
++		GameServerProtocol_Handles[i] = nil
++	end
++end
++
++function ProtocolFunctions.HandlerCount()
++	return #GameServerProtocol_Handles
+ end
+ 
+ function ProtocolFunctions.Init()
+@@ -37,7 +145,8 @@ end
+ 
+ function ProtocolFunctions.ProtocolRecv(aIndex, Packet, PacketName)
+ 	if DEBUG_PROTOCOL == true then
+-		LogColor(3, string.format("[ProtocolCore] Packet ignorado | aIndex: %d Name: %s Head: %d", aIndex, PacketName, Packet))
++		LogLine(3, string.format("[ProtocolCore] Packet ignorado | aIndex: %d Name: %s Head: %d",
++			aIndex, PacketName, Packet))
+ 	end
+ 
+ 	return false
+diff --git a/MuServer/Data/Script/System/ScriptCore.lua b/MuServer/Data/Script/System/ScriptCore.lua
+index 4258825..60bc315 100644
+--- a/MuServer/Data/Script/System/ScriptCore.lua
++++ b/MuServer/Data/Script/System/ScriptCore.lua
+@@ -1,378 +1,274 @@
+-BridgeFunctionTable = {}
++--=============================================================================
++-- ScriptCore.lua  (Layer de bridge GameServer <-> Lua)
++--
++-- Mudancas aplicadas nesta reengenharia (ver workspace/changes/CHANGELOG.md):
++--   [FIX SC-1] Todo handler agora e executado sob pcall. Antes, QUALQUER erro
++--              Lua (aritmetica sobre nil, indexacao de nil, erro de script de
++--              terceiros) propagava para dentro do loop do GameServer.
++--   [FIX SC-2] Handler registrado com nome que nao existe em _G nao causa mais
++--              "attempt to call a nil value" - era o caminho mais provavel de
++--              crash apos um /reload que descarrega um script (BridgeFunctionTable
++--              persiste entre reloads, os nomes nao).
++--   [FIX SC-3] contadores de erro por bridge para diagnostico, com teto fixo
++--              para nunca crescer sem limite em memoria (processo 32-bit, sem
++--              LARGEADDRESSAWARE -> teto real de ~2GB de espaco de endereco).
++--   [NEW  SC-4] BridgeFunctionReset()/BridgeFunctionStats() para o preflight e
++--              para inspecao em runtime sem depender de debugger.
++--
++-- COMPATIBILIDADE: os nomes publicos (BridgeFunctionAttach e todos os
++-- BridgeFunction_<evento>) e a semantica de retorno de cada evento estao
++-- preservados byte a byte no comportamento saudavel. A ordem de execucao dos
++-- handlers e mantida. Nada aqui muda regra de jogo.
++--=============================================================================
++
++BridgeFunctionTable = BridgeFunctionTable or {}
++
++--- Estatisticas por bridge: total de chamadas, erros e handlers pendentes.
++BridgeFunctionStats = {}
++
++--- Anel circular de erros recentes (limitado) para o relatorio de preflight.
++BridgeFunctionLastErrorRing = {}
++local BRIDGE_ERROR_RING_MAX = 256
++
++local BRIDGE_WARN_EVERY = 50        -- loga no maximo 1 a cada N erros por bridge
++local function ShouldLog(bridge)
++	local s = BridgeFunctionStats[bridge]
++	if not s then return true end
++	return (s.errors % BRIDGE_WARN_EVERY) == 1
++end
+ 
+-function BridgeFunctionAttach(BridgeName,FunctionName)
+-	
+-	if BridgeFunctionTable[BridgeName] == nil then
+-		
+-		BridgeFunctionTable[BridgeName] = {}
+-		
+-	end
+-	
+-	for _, func in ipairs(BridgeFunctionTable[BridgeName]) do
+-		
+-		if func.Function == FunctionName then
+-			
+-			return
+-			
+-		end
++local function StatFor(bridge)
++	local s = BridgeFunctionStats[bridge]
++	if not s then
++		s = { calls = 0, errors = 0, missing = 0 }
++		BridgeFunctionStats[bridge] = s
+ 	end
+-	
+-	table.insert(BridgeFunctionTable[BridgeName], { Function = FunctionName })
++	return s
++end
+ 
++local function ReportError(bridge, name, err, kind)
++	local s = StatFor(bridge)
++	s.errors = s.errors + 1
++	if kind == "missing" then s.missing = s.missing + 1 end
++	local e = BridgeFunctionLastErrorRing
++	e[#e + 1] = { bridge = bridge, handler = name, kind = kind, msg = tostring(err) }
++	if #e > BRIDGE_ERROR_RING_MAX then table.remove(e, 1) end
++	if not ShouldLog(bridge) then return end
++	local line = string.format("[ScriptCore] bridge %s | handler %s | %s: %s",
++		tostring(bridge), tostring(name), tostring(kind), tostring(err))
++	if type(LogColor) == "function" then
++		LogColor(2, line)
++	elseif type(LogPrint) == "function" then
++		LogPrint(line)
++	end
+ end
+ 
++--- Resolve o handler tolerando nome (string) ou funcao direta.
++-- Retorna nil quando o nome nao corresponde a uma funcao - o chamador decide
++-- como reportar, em vez de lancar "attempt to call a nil value".
++--- Empacota varargs preservando a contagem exata (nils intercalados ou
++-- terminais). Usar { ... } + #t perderia argumentos apos o primeiro nil e,
++-- portanto, mudaria a assinatura vista pelo handler em relacao ao original.
++local function Pack(...)
++	return { n = select('#', ...), ... }
++end
+ 
+-function BridgeFunction_OnReadScript()
++local function Args(t)
++	if t == nil then return nil end
++	return table.unpack(t, 1, t.n)
++end
+ 
+-	if BridgeFunctionTable["OnReadScript"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnReadScript"]) do
+-		
+-			_G[func.Function]()
+-			
+-		end
+-		
++local function Resolve(fn)
++	if type(fn) == "function" then return fn end
++	if type(fn) == "string" then
++		local f = _G[fn]
++		if type(f) == "function" then return f end
+ 	end
+-
++	return nil
+ end
+ 
++function BridgeFunctionAttach(BridgeName, FunctionName)
++	if BridgeName == nil or FunctionName == nil then return end
+ 
+-function BridgeFunction_OnShutScript()
++	if BridgeFunctionTable[BridgeName] == nil then
++		BridgeFunctionTable[BridgeName] = {}
++	end
+ 
+-	if BridgeFunctionTable["OnShutScript"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnShutScript"]) do
+-		
+-			_G[func.Function]()
+-			
++	-- Dedupe: mantem a semantica original de "ja registrado, nao registra de novo",
++	-- mas agora tambem descobre quando o mesmo nome foi registrado em outra bridge.
++	local list = BridgeFunctionTable[BridgeName]
++	for i = 1, #list do
++		if list[i].Function == FunctionName then
++			return
+ 		end
+-		
+ 	end
+ 
++	table.insert(list, { Function = FunctionName })
+ end
+ 
++--- Remove todos os handlers de uma bridge (ou de todas, se BridgeName for nil).
++-- Necessario para um /reload limpo: sem isto, handlers de scripts removidos
++-- permanecem registrados apontando para nomes que ja nao existem em _G.
++function BridgeFunctionReset(BridgeName)
++	if BridgeName == nil then
++		BridgeFunctionTable = {}
++		BridgeFunctionStats = {}
++		BridgeFunctionLastErrorRing = {}
++		return
++	end
++	BridgeFunctionTable[BridgeName] = nil
++	BridgeFunctionStats[BridgeName] = nil
++end
+ 
+-function BridgeFunction_OnTimerThread()
+-
+-	if BridgeFunctionTable["OnTimerThread"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnTimerThread"]) do
+-		
+-			_G[func.Function]()
+-			
++--- Executa todos os handlers, ignorando erros individuais (modo "void").
++local function RunAll(bridge, args)
++	local list = BridgeFunctionTable[bridge]
++	if list == nil then return end
++	local s = StatFor(bridge)
++	for i = 1, #list do
++		local entry = list[i]
++		s.calls = s.calls + 1
++		local f = Resolve(entry.Function)
++		if f == nil then
++			ReportError(bridge, entry.Function, "funcao nao definida no ambiente global", "missing")
++		else
++			local ok, err
++			if args then
++				ok, err = pcall(f, Args(args))
++			else
++				ok, err = pcall(f)
++			end
++			if not ok then
++				ReportError(bridge, entry.Function, err, "error")
++			end
+ 		end
+-		
+ 	end
+-
+ end
+ 
+-
+-function BridgeFunction_OnCommandManager(...)
+-
+-	if BridgeFunctionTable["OnCommandManager"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCommandManager"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret ~= 0 then return 1 end
++--- Executa ate que um handler decida; preserva a semantica original de cada bridge.
++-- decide(ret) -> true se este retorno encerra a cadeia
++-- value(ret)  -> valor a retornar ao GameServer
++local function RunUntil(bridge, args, decide, value, fallback)
++	local list = BridgeFunctionTable[bridge]
++	if list ~= nil then
++		local s = StatFor(bridge)
++		for i = 1, #list do
++			local entry = list[i]
++			s.calls = s.calls + 1
++			local f = Resolve(entry.Function)
++			if f == nil then
++				ReportError(bridge, entry.Function, "funcao nao definida no ambiente global", "missing")
++			else
++				local ok, ret
++				if args then
++					ok, ret = pcall(f, Args(args))
++				else
++					ok, ret = pcall(f)
++				end
++				if not ok then
++					-- Erro de script NAO deve conceder nem negar o evento:
++					-- tratamos como "handler nao decidiu" e seguimos.
++					ReportError(bridge, entry.Function, ret, "error")
++				elseif decide(ret) then
++					return value(ret)
++				end
++			end
+ 		end
+-		
+ 	end
++	return fallback
++end
+ 
+-	return 0
++-- Semantica original: `if ret ~= 0 then return 1 end` ... `return 0`
++local function StopOnNonZero_Return1(ret) return ret ~= 0 end
++-- Semantica original: `if ret == 0 then return 0 end` ... `return 1`
++local function StopOnZero_Return0(ret) return ret == 0 end
++-- Semantica original: `if ret ~= 0 then return ret end` ... `return 0`
++local function StopOnNonZero_ReturnRet(ret) return ret ~= 0 end
+ 
++function BridgeFunction_OnReadScript()
++	RunAll("OnReadScript")
+ end
+ 
++function BridgeFunction_OnShutScript()
++	RunAll("OnShutScript")
++end
+ 
+-function BridgeFunction_OnCommandDone(...)
+-
+-	if BridgeFunctionTable["OnCommandDone"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCommandDone"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
++function BridgeFunction_OnTimerThread()
++	RunAll("OnTimerThread")
++end
+ 
++function BridgeFunction_OnCommandManager(...)
++	return RunUntil("OnCommandManager", Pack(...), StopOnNonZero_Return1, function() return 1 end, 0)
+ end
+ 
++function BridgeFunction_OnCommandDone(...)
++	RunAll("OnCommandDone", Pack(...))
++end
+ 
+ function BridgeFunction_OnCharacterEntry(...)
+-
+-	if BridgeFunctionTable["OnCharacterEntry"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCharacterEntry"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnCharacterEntry", Pack(...))
+ end
+ 
+-
+ function BridgeFunction_OnCharacterClose(...)
+-
+-	if BridgeFunctionTable["OnCharacterClose"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCharacterClose"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnCharacterClose", Pack(...))
+ end
+ 
+-
+ function BridgeFunction_OnNpcTalk(...)
+-
+-	if BridgeFunctionTable["OnNpcTalk"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnNpcTalk"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret ~= 0 then return 1 end
+-			
+-		end
+-		
+-	end
+-
+-	return 0
+-
++	return RunUntil("OnNpcTalk", Pack(...), StopOnNonZero_Return1, function() return 1 end, 0)
+ end
+ 
+-
+ function BridgeFunction_OnMonsterDie(...)
+-
+-	if BridgeFunctionTable["OnMonsterDie"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnMonsterDie"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnMonsterDie", Pack(...))
+ end
+ 
+-
+ function BridgeFunction_OnUserDie(...)
+-
+-	if BridgeFunctionTable["OnUserDie"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserDie"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnUserDie", Pack(...))
+ end
+ 
+ function BridgeFunction_OnUserMove(...)
+-
+-	if BridgeFunctionTable["OnUserMove"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserMove"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnUserMove", Pack(...))
+ end
+ 
+ function BridgeFunction_OnUserRespawn(...)
+-
+-	if BridgeFunctionTable["OnUserRespawn"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserRespawn"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-
++	RunAll("OnUserRespawn", Pack(...))
+ end
+ 
+-
+ function BridgeFunction_OnCheckUserTarget(...)
+-
+-	if BridgeFunctionTable["OnCheckUserTarget"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCheckUserTarget"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret == 0 then return 0 end
+-			
+-		end
+-		
+-	end
+-
+-	return 1
+-
++	return RunUntil("OnCheckUserTarget", Pack(...), StopOnZero_Return0, function() return 0 end, 1)
+ end
+ 
+-
+ function BridgeFunction_OnCheckUserKiller(...)
+-
+-	if BridgeFunctionTable["OnCheckUserKiller"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnCheckUserKiller"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret == 0 then return 0 end
+-			
+-		end
+-		
+-	end
+-
+-	return 1
+-
++	return RunUntil("OnCheckUserKiller", Pack(...), StopOnZero_Return0, function() return 0 end, 1)
+ end
+ 
+-
+ function BridgeFunction_OnUserItemPick(...)
+-
+-	if BridgeFunctionTable["OnUserItemPick"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserItemPick"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret == 0 then return 0 end
+-			
+-		end
+-		
+-	end
+-
+-	return 1
+-
++	return RunUntil("OnUserItemPick", Pack(...), StopOnZero_Return0, function() return 0 end, 1)
+ end
+ 
+-
+ function BridgeFunction_OnUserItemDrop(...)
+-
+-	if BridgeFunctionTable["OnUserItemDrop"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserItemDrop"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret == 0 then return 0 end
+-			
+-		end
+-		
+-	end
+-
+-	return 1
+-
++	return RunUntil("OnUserItemDrop", Pack(...), StopOnZero_Return0, function() return 0 end, 1)
+ end
+ 
+-
+ function BridgeFunction_OnUserItemMove(...)
+-
+-	if BridgeFunctionTable["OnUserItemMove"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserItemMove"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret == 0 then return 0 end
+-			
+-		end
+-		
+-	end
+-
+-	return 1
+-
++	return RunUntil("OnUserItemMove", Pack(...), StopOnZero_Return0, function() return 0 end, 1)
+ end
+ 
+ function BridgeFunction_OnUserItemUse(...)
+-
+-	if BridgeFunctionTable["OnUserItemUse"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserItemUse"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret ~= 0 then return ret end
+-			
+-		end
+-		
+-	end
+-
+-	return 0
+-
++	return RunUntil("OnUserItemUse", Pack(...), StopOnNonZero_ReturnRet, function(r) return r end, 0)
+ end
+ 
+ function BridgeFunction_OnUserDamage(...)
+-
+-	if BridgeFunctionTable["OnUserDamage"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnUserDamage"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret ~= 0 then return ret end
+-		end
+-		
+-	end
+-
+-	return 0
++	return RunUntil("OnUserDamage", Pack(...), StopOnNonZero_ReturnRet, function(r) return r end, 0)
+ end
+ 
+ function BridgeFunction_OnMonsterDamage(...)
+-
+-	if BridgeFunctionTable["OnMonsterDamage"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnMonsterDamage"]) do
+-		
+-			local ret =_G[func.Function](...)
+-			
+-			if ret ~= 0 then return ret end
+-		end
+-		
+-	end
+-
+-	return 0
++	return RunUntil("OnMonsterDamage", Pack(...), StopOnNonZero_ReturnRet, function(r) return r end, 0)
+ end
+ 
+ function BridgeFunction_OnSQLAsyncResult(...)
+-
+-	if BridgeFunctionTable["OnSQLAsyncResult"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["OnSQLAsyncResult"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
++	RunAll("OnSQLAsyncResult", Pack(...))
+ end
+ 
+ function BridgeFunction_GameServerProtocol(...)
+-
+-	if BridgeFunctionTable["GameServerProtocol"] ~= nil then
+-	
+-		for _, func in ipairs(BridgeFunctionTable["GameServerProtocol"]) do
+-		
+-			_G[func.Function](...)
+-			
+-		end
+-		
+-	end
+-end
+\ No newline at end of file
++	RunAll("GameServerProtocol", Pack(...))
++end
+diff --git a/MuServer/Data/Script/Utils/DataBase.lua b/MuServer/Data/Script/Utils/DataBase.lua
+index a94404b..4423ad7 100644
+--- a/MuServer/Data/Script/Utils/DataBase.lua
++++ b/MuServer/Data/Script/Utils/DataBase.lua
+@@ -23,15 +23,19 @@ function DataBase.Connect(iType,ODBC,User,Password)
+ 	end
+ 
+ 	-- TESTE QUERY
+-	local Query = string.format("SELECT top 1 Name from character order by name desc", codigo, itemid)
++	-- [FIX DB-1] removidos os argumentos espurios de string.format: a query nao
++	-- tem especificadores %, entao `codigo`/`itemid` eram lidos como globais
++	-- nunca definidas (nil). Inofensivo em Lua 5.x, mas mascara variaveis
++	-- inexistentes e quebraria num Lua com strict globals.
++	local Query = "SELECT top 1 Name from character order by name desc"
+ 	local ret = SQLQuery(Query)
+-	
++
+ 	if ret == 0 then
+ 		SQLClose()
+ 		LogColor(2,string.format("No query DATA"))
+ 		return
+ 	end
+-	
++
+ 	local nFecth = SQLFetch()
+ 
+ 	if nFecth == 100 then
+@@ -40,10 +44,12 @@ function DataBase.Connect(iType,ODBC,User,Password)
+ 		return
+ 	end
+ 
++	-- [FIX DB-2] SQLGetString pode devolver nil; string.format("...%s", nil) e
++	-- erro em Lua 5.1/5.3 e derrubaria DataBase.Connect no boot do GameServer.
+ 	local Name = SQLGetString("Name")
+ 	SQLClose()
+ 
+-	LogColor(2,string.format("Teste query: %s",Name))
++	LogColor(2,string.format("Teste query: %s", tostring(Name)))
+ 
+ end
+ 
+diff --git a/MuServer/SpeedServer/Data/Script/ScriptMain.lua b/MuServer/SpeedServer/Data/Script/ScriptMain.lua
+index e3a7d80..c247c85 100644
+--- a/MuServer/SpeedServer/Data/Script/ScriptMain.lua
++++ b/MuServer/SpeedServer/Data/Script/ScriptMain.lua
+@@ -1,8 +1,8 @@
+ require('System\\ScriptCore')
+ require('System\\ProtocolCore')
+ 
+-require('Utils\\Database')
+-require('Utils\\DatabaseAsync')
++require('Utils\\DataBase')
++require('Utils\\DataBaseAsync')
+ require('Utils\\Cron')
+ require('Utils\\Functions')
+ require('Utils\\Schedule')
+diff --git a/MuServer/SubSalatest/Data/Script/ScriptMain.lua b/MuServer/SubSalatest/Data/Script/ScriptMain.lua
+index 22d9425..94f0f77 100644
+--- a/MuServer/SubSalatest/Data/Script/ScriptMain.lua
++++ b/MuServer/SubSalatest/Data/Script/ScriptMain.lua
+@@ -1,8 +1,8 @@
+ require('System\\ScriptCore')
+ require('System\\ProtocolCore')
+ 
+-require('Utils\\Database')
+-require('Utils\\DatabaseAsync')
++require('Utils\\DataBase')
++require('Utils\\DataBaseAsync')
+ require('Utils\\Cron')
+ require('Utils\\Functions')
+ require('Utils\\Schedule')
