@@ -37,9 +37,16 @@ if [ -f "$bundle" ]; then
 #    O proprio diretorio backup/ fica de fora da comparacao: ele contem o bundle, e o
 #    bundle nao pode conter a si mesmo (o historico coberto e ate o commit anterior).
   tmp=$(mktemp -d /tmp/mu2-restore.XXXXXX)
-  if git clone -q --no-hardlinks "$bundle" "$tmp/clone" 2>/dev/null; then
-    a=$(git ls-tree -r --name-only HEAD -- recriado | grep -v "^recriado/backup/" | sort | sha256sum | cut -c1-16)
-    b=$(cd "$tmp/clone" && git ls-tree -r --name-only HEAD -- recriado 2>/dev/null | grep -v "^recriado/backup/" | sort | sha256sum | cut -c1-16)
+  a=""; b=""
+  # -b mu2-v2 e obrigatorio: o bundle leva so esse ref, e o HEAD remoto do clone apontaria
+      # para um main inexistente (a ausencia deste -b deixou o clone sem arvore na 1a versao do teste).
+      if git clone -q --no-hardlinks -b mu2-v2 "$bundle" "$tmp/clone" 2>/dev/null; then
+    # o bundle carrega a arvore do subtree split (recriado/ vira a raiz). Compara-se o CONJUNTO de
+    # arquivos rastreados: o conteudo do commit do bundle e o commit anterior, por construcao (o
+    # bundle nao pode conter a si mesmo) - por isso a integridade de conteudo e conferida pelo
+    # SHA de ponta do bundle contra o MANIFEST, logo abaixo.
+    a=$(git ls-tree -r --name-only HEAD -- recriado | grep -v "^recriado/backup/" | sed 's|^recriado/||' | sort | sha256sum | cut -c1-16)
+    b=$(cd "$tmp/clone" && git ls-tree -r --name-only HEAD 2>/dev/null | grep -v "^backup/" | sort | sha256sum | cut -c1-16)
     if [ -n "$b" ] && [ "$a" = "$b" ]; then st=ok; else st=bad; fi
     chk "restauracao por clone" "$st" "arvore=$a"
     n=$(git ls-tree -r --name-only HEAD -- recriado | grep -vc "^recriado/backup/")
@@ -47,6 +54,11 @@ if [ -f "$bundle" ]; then
   else
     chk "restauracao por clone" bad "git clone do bundle falhou"
   fi
+  # 6) ponta do bundle == SHA registrado no MANIFEST (integridade de conteudo do snapshot)
+  tip=$(git bundle list-heads "$bundle" 2>/dev/null | awk '{print $1}')
+  want_tip=$(awk -F'`' '/branch local criada/{print $4}' recriado/backup/MANIFEST.md 2>/dev/null)
+  if [ -n "$tip" ] && [ -n "$want_tip" ] && case "$tip" in "$want_tip"*) true;; *) false;; esac; then st=ok; else st=bad; fi
+  chk "bundle: ponta == MANIFEST" "$st" "${tip:0:7} vs ${want_tip:-?}"
   rm -rf "$tmp"
 else
   chk "bundle presente" bad "$bundle ausente"
