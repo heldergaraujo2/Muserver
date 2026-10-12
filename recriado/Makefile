@@ -21,6 +21,7 @@ SRV   := src/mud2.c
 CTL   := src/mu2ctl.c
 NCLI  := tests/netclient.c
 CODEC := tools/mu2codec.c
+FUZZ  := tools/mu2fuzz.c
 HDR   := include/mu2/mu2.h include/mu2/proto.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
@@ -28,12 +29,13 @@ MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 CODECBIN:= $(BUILD)/mu2codec
+FUZZBIN:= $(BUILD)/mu2fuzz
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN)
+build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
@@ -60,6 +62,12 @@ $(NETCLI): $(NCLI) $(OBJ) $(HDR) | $(BUILD)
 # caminho real em vez de uma reimplementacao. Nao sobe servico nem abre socket.
 $(CODECBIN): $(CODEC) $(OBJ) $(HDR) | $(BUILD)
 	$(CC) $(CFLAGS) $(CODEC) $(OBJ) -o $@ $(LDFLAGS)
+
+# Fuzzing deterministico do codec: mesmo wire.o, oraculo de invariantes do contrato. Nao ha motor
+# de fuzz neste host (sem afl/clang), entao nao ha cobertura guiada por feedback — a diferenca esta
+# documentada na saida da ferramenta e no relatorio.
+$(FUZZBIN): $(FUZZ) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) $(FUZZ) $(OBJ) -o $@ $(LDFLAGS)
 
 unit: $(UNIT)
 	./$(UNIT)
@@ -123,6 +131,11 @@ golden: $(CODECBIN)
 # enquanto nao houver wine/qemu-i386 E autorizacao explicita; nada original e executado aqui.
 interop:
 	@bash tests/interop.sh
+
+# Fuzz deterministico do codec: sementes do corpus golden, oraculo de invariantes, F22 diferencial.
+# FUZZ_ITERS ajusta o volume (padrao 50000 por rodada).
+fuzz: $(FUZZBIN) $(CODECBIN)
+	@bash tests/fuzz.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
