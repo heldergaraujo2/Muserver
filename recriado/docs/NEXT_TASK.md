@@ -1,93 +1,97 @@
-# NEXT_TASK — o que vem depois da R-7
+# NEXT_TASK — o que vem agora
 
-Estado de partida (medido, não relato): `make -s gate` → **14 PASS, 0 FAIL, 0 BLOCKED,
-3 NOT_IMPLEMENTED, 2 SKIPPED, 244 asserções, 32,6 s, exit 0**; `gate-selftest` 19/19;
-`make -s check` 180 asserções. Branch `arena/cf1de8ce-muserver`.
+Estado de partida (medido nesta rodada, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
+0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
+`make -s check` 180 asserções; `FULL=1 verify-backup.sh` 13/13. Branch `arena/cf1de8ce-muserver`.
 
-Ordem do comando mestre: R-8 ✔ → R-6 ✔ → R-7 ✔ → **cobertura completa das lacunas** →
-auditoria de rastreabilidade do roadmap inteiro.
+As etapas que a rodada anterior listava como pendentes **foram fechadas**: `golden` (42/42),
+`interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (12/12), `admin` (22/22) e `lua`
+(13/13, execução BLOCKED). A auditoria de rastreabilidade do roadmap inteiro está em
+`../reports/auditoria-rastreabilidade.md`.
+
+Restam três frentes. As duas primeiras **não dependem de nada externo**:
 
 ---
 
-## Próxima tarefa: `golden` — testes de referência byte a byte (etapa `NOT_IMPLEMENTED` no portão)
+## Próxima tarefa: `enc` — formato de cifragem do script Lua do cliente
 
 ### Por que esta primeiro
 
-Das três etapas `NOT_IMPLEMENTED` (`golden`, `interop`, `fuzz`), é a única que **não depende de
-nada externo**:
+É a única lacuna técnica com **material de ataque completo dentro do pacote**: existe um par
+conhecido. Se a cifragem for determinística e sem IV (o que é testável), há um ataque de texto
+conhecido clássico, e o resultado é verificável byte a byte.
 
-- `interop` está **BLOCKED** por decisão registrada — exige binário original em execução, e
-  executá-lo automaticamente é proibido pelas regras do projeto. Não adianta começar por ela.
-- `fuzz` precisa de um **corpus versionado e seguro**, e o corpus só é confiável se houver
-  referência byte a byte do que é válido. Sem golden, o fuzzing não tem como distinguir
-  "achou um defeito" de "achou um byte que ninguém sabe o que é".
+### O que existe (medido)
 
-### O que significa "golden" aqui
+| Material | Caminho | Evidência |
+|---|---|---|
+| texto claro | `Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System/ProtocolCore.lua` | 40 linhas legíveis, com `ClientProtocolRecv(Packet, PacketName)` |
+| texto cifrado | `.../ClientEncrypted/System/ProtocolCore.lua` | começa em `28 aa 21 91 a6 dd 35 f7` |
+| ferramenta | `.../LuaEncryptorTool.exe` + `.pdb` | não executada (regra do projeto) |
+| configuração | `.../EncryptorTool.ini` | a ler |
+| segundo par | `ServerDecrypted/` × `ServerEncrypted/` | confirma ou refuta hipótese em outro arquivo |
 
-Pares **versão-controlados** de `entrada → saída esperada`, comparados **byte a byte**, cobrindo:
+### Hipóteses a testar, em ordem
 
-1. codec nos **dois perfis** (`orig` e `mur0`) — inclusive a equivalência obrigatória entre eles;
-2. quadro completo: `code(2 LE) + size(2 LE) + corpo`, com `size` = total;
-3. fronteiras: corpo 0, corpo 2048 (máximo), 2049 (recusado), `size` 2 e 3 (recusados),
-   `size` 3000 (recusado), `size` little-endian trocado;
-4. a linha `STATS` com seus 9 campos na ordem (D2-16) e o prefixo `STATS ` (D2-17);
-5. pelo menos um vetor por código de erro: `MU2_E_ARG/SIZE/DST_SMALL/INCOMPLETE/BAD_LEN/PROFILE`.
+1. **XOR com chave derivada da ferramenta** (mesmo padrão da camada `.bmd`: a chave `ab fc cf`
+   foi confirmada na Etapa C com âncora de conteúdo). Testar se o par satisfaz
+   `claro[i] ^ cifrado[i] == chave[i % k]` para `k` pequeno.
+2. **XOR com chave constante de 1 byte** (caso particular de 1).
+3. **Rotação/transposição** por bloco (4 ou 8 bytes), verificável por periodicidade do XOR entre
+   claro e cifrado.
+4. **Stream com estado** (exige chave; se a chave não estiver em disco, `BLOCKED` com a causa).
+5. **Não determinística** (IV/sal) — refutável comparando dois arquivos cifrados com o mesmo claro
+   em posições diferentes.
 
-### Critérios de aceite
+### Critérios de aceitação
 
-- `tests/golden.sh` roda no portão como etapa **obrigatória** e imprime
-  `# golden=N falhas=F blocked=B`.
-- Cada caso imprime o que comparou (nome do vetor + hex esperado/obtido em caso de divergência).
-  Divergência tem de ser **legível**: golden test que só diz "falhou" não serve.
-- Os vetores ficam em arquivo versionado (`tests/golden/*.tsv` ou `.hex`), com uma linha de
-  cabeçalho declarando o formato. Nada de vetor gerado em tempo de execução sem referência.
-- **O caminho medido tem de ser o código real.** Está proibido reimplementar o codec num
-  `golden_check.py` e comparar a reimplementação com ela mesma — isso seria um *stand-in*, não um
-  teste. Se não existir CLI que exercite o codec sem subir o serviço, **criar o CLI** (ou um
-  subcomando de `mu2ctl`, preservando ABI e com teste) é parte da tarefa, não obstáculo.
-- Registrar no portão **removendo o placeholder `NOT_IMPLEMENTED` no mesmo ato** — a guarda de
-  nome duplicado faz o portão sair 2 se a linha antiga ficar (D2-26).
+- Cada hipótese é testada por um critério declarado **antes** de olhar o resultado, e o resultado é
+  registrado com o número medido (não "parece").
+- Se uma hipótese decodificar o arquivo, a prova é: **o texto decifrado bate byte a byte com o
+  `ClientDecrypted`** do mesmo caminho — não imprimibilidade, não semelhança.
+- Confirmado o algoritmo, criar golden test com vetor de `(claro, cifrado)` e **F23**: alterar um
+  byte do cifrado tem de fazer o decodificador acusar divergência no offset exato.
+- Se nenhuma hipótese fechar: `BLOCKED` com o que foi testado, o que foi descartado e por qual
+  medição. **Proibido** afirmar "cifragem identificada" sem casar o texto claro.
 
-### Falsificações (propósito declarado antes, como sempre)
+### Falsificação F23 (declarada desde já)
 
-- **F20** — corromper **um byte** de um vetor golden em cópia temporária: a suíte tem de apontar
-  **qual** vetor e **qual** byte. Se a suíte continuar verde, ela não compara byte a byte.
-- **F21** — trocar o perfil de um caso (comparar saída `orig` com esperado `mur0`): a suíte tem de
-  falhar. Se não falhar, os dois perfis estão sendo confundidos e a equivalência obrigatória é
-  decoração.
-
-Ambas devem ficar **permanentes** na suíte (mutação em cópia temporária + reversão conferida),
-não como experimento de uma fase.
-
-### O que **não** fazer nesta tarefa
-
-- não declarar formato decodificado só por bytes iniciais identificados;
-- não usar como vetor nenhum dado do pacote original que seja credencial ou segredo
-  (D2-25: 26 valores sensíveis em claro no pacote; `cfg_probe.py` redige, e a redação é testada);
-- não inflar `MU2_MAX_BODY` para vetor caber;
-- não remover caso que falha para o portão ficar verde — corrigir a causa raiz;
-- não marcar `golden` como `PASS` se ele apenas "não falhou": `PASS` exige resumo com
-  `falhas=0` **e** `blocked=0`.
+`F23` — decodificador de `.enc`: dado o par conhecido, corromper exatamente um byte do arquivo
+cifrado deve produzir falha apontando o offset alterado, e o arquivo original do pacote permanece
+intacto (sha256 conferido antes e depois). Se o decodificador engolir a corrupção, F23 reprova.
 
 ---
 
-## Depois de `golden`, nesta ordem
+## Depois: `ozt` — estrutura interna das texturas
 
-1. **corpus versionado e seguro** + `fuzz` (`NOT_IMPLEMENTED`): entradas malformadas dirigidas ao
-   codec e ao serviço, com sanitizadores já ligados no build; cada achado vira caso de regressão
-   nomeado, não número solto.
-2. **auditoria do laço do produto** — `mud2`/`mu2ctl`/framing/leitura incremental/escrita
-   parcial/backpressure/limits/timeout/desconexões/concorrência/logs/estatísticas, preservando
-   ABI. A R-7 já deixou dois achados para essa auditoria: a fila de **uma vaga** fecha conexões
-   que fazem pipeline além dos buffers (medido: 551 quadros de 2048 B com `rcvbuf` efetivo de
-   2 304 B) e o `netclient` contava iterações de `poll` como tempo (D2-28).
-3. **segurança e estabilidade**: validação de entrada, limites, overflow, corridas, encerramento
-   limpo, logs sem dados sensíveis.
-4. **`interop`**: continua **BLOCKED** até haver binário original em execução autorizada. Registrar
-   o que falta, nunca simular.
-5. **só então** console administrativo e assistente de publicação, com arquitetura, autenticação,
-   permissões, API, estados, validações e erros documentados **antes**. Proibido interface sem
-   backend, botão sem função, publicação simulada.
-6. **auditoria de rastreabilidade** do roadmap inteiro: tabela por requisito com implementação,
-   teste, evidência, documentação, estado e próximo passo. Nada de "concluído porque o código
-   existe".
+Hoje só existem dois prefixos medidos (`00 00 02 00 00 00 02 00` em 286 arquivos;
+`00 4b 6d 4b 00 00 02 00` em 26; 1 sem prefixo). Nada além disso foi determinado, e **não** se deve
+inventar campo, largura ou semântica.
+
+Método: medir o que é medível sem especificação — distribuição de tamanhos, entropia por região,
+periodicidade, coerência entre o tamanho do arquivo e os inteiros do cabeçalho, correlação com o
+`.ozj` (JPEG) do mesmo diretório. Conclusão só até onde a medição alcançar; formato decodificado
+exige reconstruir a imagem, e isso depende do cliente (meta D, hoje `BLOCKED`).
+
+---
+
+## Depois: `regressao-lua` — regressão dos 6 `.lua` patcheados
+
+Os 6 arquivos de `MuServer/` que diferem do upload (`b5b84da`) têm baseline em
+`workspace/changes/originals/` e patch em `workspace/changes/patches/`. `tests/ref_check.sh` casos
+7–8 já fixam a contagem e a recuperabilidade. Falta o que a meta C pedia: **casos de teste sobre o
+comportamento corrigido** (PC-1..PC-4), com checksum e diff por arquivo. Bloqueio parcial: sem
+interpretador Lua não há execução; o que é testável sem interpretador é a integridade
+(baseline ↔ patch ↔ árvore) e a presença das correções por análise estática.
+
+---
+
+## Etapas que permanecem bloqueadas (não começar por elas)
+
+| Etapa | Bloqueio | Condição de desbloqueio |
+|---|---|---|
+| `interop` camada 3 | sem `wine`/`qemu-i386`; binários PE32/i386 com `.themida`; sem autorização | ambiente PE32/i386 + autorização + procedimento; evidência em `reports/r6-interop-real.tsv` |
+| cliente original | o pacote não contém cliente; `main.exe` é saída do *Gerador de Main* | obter o cliente e autorização para executá-lo |
+| `lua` execução | nenhum interpretador Lua no host | `lua`/`luajit` disponível |
+| capacidade absoluta | 2 vCPUs compartilhadas + ASan | host dedicado com requisito declarado |
+| publicação real | sem alvo autorizado (403 em `MuserverRecriado`, não contornado) | decisão do proprietário |

@@ -1,8 +1,10 @@
 # ROADMAP — v2: fases e metas
 
 Duas leituras do mesmo caminho: as **fases** (ordem de execução, com portão) e as **metas** (o que o
-projeto precisa entregar, agrupadas por assunto). Nenhuma meta abaixo está implementada; o que já
-existe está marcado como medido.
+projeto precisa entregar, agrupadas por assunto). Estado por meta no fim da rodada das lacunas: A parcial (interop e cliente BLOCKED), B e C
+parciais (limites do original e execução Lua BLOCKED), D parcial, E fechada como linha de base,
+F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a linha em
+`reports/auditoria-rastreabilidade.md`.
 
 ## Fases
 
@@ -14,10 +16,10 @@ existe está marcado como medido.
 | R-3 | codec de enquadramento | `unit` 106/0 + `make-sintaxe` + falsificações | fechada |
 | R-4 | serviço `mud2` + `mu2ctl` + `tests/net.sh` | `check` verde + matriz + F5/F6/F7 detectadas | **fechada** |
 | R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=19/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
-| R-6 | interoperabilidade e golden | camada 1 comprovada (`conform` 15/15) + matriz de 12 linhas; `interop`/`golden` seguem `NOT_IMPLEMENTED`/`BLOCKED` por falta de binário original em execução | **fechada no que é verificável** 2026-10-12 |
-| R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | baseline exploratória rotulada como tal: `make -s bench` 15/15, critérios declarados antes (5 reps, drift 25 %), juiz separado (`tools/bench_check.py`), limites B5 medidos; capacidade absoluta **BLOCKED** (2 vCPUs + ASan); 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
-| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=9 PASS/0 FAIL/194 asserções; `gate-selftest`=18/18 com F12–F14 detectadas | **fechada** 2026-10-12 |
-| R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` atualizado a cada rodada | em curso |
+| R-6 | interoperabilidade e golden | camada 1 (**conform** 15/15) e camada 2 (implementações próprias) comprovadas; camada 3 com evidência medida (`HackPacketCheck`: 272 entradas, 256 índices, 8 bits; code do v2 = 16 bits ⇒ fator 256) e **BLOCKED** com causa e caminho de desbloqueio; `golden` 42/42 com 38 vetores versionados e F20/F21 | **fechada no que é verificável** 2026-10-12 |
+| R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | `make -s bench` 15/15, critérios declarados antes, juiz separado (`tools/bench_check.py`); capacidade absoluta **BLOCKED**; 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
+| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/336 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14 | **fechada** 2026-10-12 |
+| R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` a cada rodada | em curso |
 
 ## Metas por categoria
 

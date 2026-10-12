@@ -177,3 +177,46 @@ classificacao e zero perda sem fechamento em 200 corridas.
 Ausentes de proposito, como antes: `bench` (BLOCKED), `golden`/`interop`/`conform`/`data`/`pe`/`fuzz`/
 `gate_state`/`run_all.sh` (nao implementados). Nenhuma compatibilidade com o cliente original foi
 testada ou afirmada.
+
+---
+
+## Rodada das lacunas (2026-10-12) — golden, fuzz, segurança, console, Lua e rastreabilidade
+
+Estado de partida medido: `gate` 14 PASS / 244 asserções; 3 etapas `NOT_IMPLEMENTED`.
+Estado final medido: `gate` **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 336
+asserções, 22 etapas, exit 0**; `gate-selftest` 19/19; `check` 180; `FULL=1 verify-backup.sh` 13/13.
+
+**Duas correções de afirmações publicadas** (retratações, com histórico preservado):
+1. "0 declarações de framing em `.lua`" (R-6) — medição certa, **conclusão errada** por tokens
+   estreitos demais. Medido: 148 `.lua`, 20 com termos de pacote, 8 `ProtocolCore.lua`. D2-31.
+2. "MuServer/ intacta" — impreciso: 6 `.lua` dentro de `MuServer/` diferem do upload `6eabb45`
+   (commit `b5b84da`). Reversão verificada por blob-idempotência dos baselines. D2-32.
+
+**Unidades entregues:**
+- `golden` (42/42): `tools/mu2codec.c` (CLI sobre o `wire.o` real), corpus de 38 vetores
+  versionados com cláusula e origem, F20 (1 byte corrompido ⇒ nomeia vetor e offset) e F21 (perfil
+  trocado ⇒ falha discriminante).
+- `fuzz` (12/12): motor determinístico próprio, 150 000 iterações, 0 violações; F22 (codec mutado
+  numa cópia temporária é pego; entrada replayada é recusada no codec real).
+- `seguranca` (12/12): 15 casos de malformação **na porta**, serviço vivo em todos; fd estável em
+  1 000 ciclos; RSS plano (6 968 kB); higiene de log; decisão sobre TSan registrada (produto
+  single-threaded, 0 primitivas).
+- `admin` (22/22): console local com desenho prévio, fail closed, papéis, 501 para publicação.
+- `lua` (13/13, execução BLOCKED): inventário e evidência estática; `ProtocolCore.lua` com
+  `GameServerProtocolRecv(aIndex, Packet, PacketName)`; tipos medidos (Head numérico, PacketName
+  string); par cifrado/decifrado em `LuaEncTool/`.
+- `interop` (12/12, `blocked=1`): três camadas separadas; evidência nova do `HackPacketCheck.txt`
+  (272 entradas, 256 índices 0..255, 8 bits, 37 criptografados) e divergência medida (code de 16 bits
+  × 256 índices = fator 256).
+- `rc-formatos-auditoria.md`: classificação em assinatura identificada × parcialmente reconhecido ×
+  efetivamente decodificado, com a evidência nova da camada XOR-3 (`Data\Item\` no offset 12; 4 de
+  56 `.bmd`; maior corrida de NUL = 255 exato).
+- `auditoria-rastreabilidade.md`: roadmap inteiro mapeado por requisito × implementação × teste ×
+  evidência × estado, com causa, dependência e condição de desbloqueio para cada bloqueio.
+
+**Defeitos corrigidos na raiz** (não escondidos, não contornados): D2-28 (prazo por relógio, não por
+iterações), D2-27 (janela de medição), D2-29 e D2-30 (testes que apostavam em corrida — B5 e net S4),
+e o bug do próprio console (`mu2_frame_body` devolve bytes, não `MU2_OK`).
+
+**O que não foi afirmado:** nenhuma compatibilidade com binário ou cliente original; nenhum número de
+desempenho como requisito de produção; nenhum formato "decodificado" além da camada demonstrada.

@@ -1,24 +1,27 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada **R-7**. Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
 | campo | valor |
 |---|---|
-| fase fechada | **R-7** — desempenho: baseline exploratória + limites medidos |
-| fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (interop BLOCKED) |
-| próxima fase | **lacunas** — golden tests → corpus/fuzz → auditoria do laço (`NEXT_TASK.md`) |
+| unidade fechada | **lacunas cobertas** — golden, fuzz, segurança, console administrativo, Lua (inventário), auditoria de formatos e auditoria de rastreabilidade |
+| fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
+| próxima tarefa | **`enc`** — formato de cifragem do script Lua do cliente (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |
-| portão único | `make -s gate` → **14 PASS, 0 FAIL, 0 BLOCKED, 3 NOT_IMPLEMENTED, 2 SKIPPED, 244 asserções, 32,6 s** |
+| HEAD / remoto | `2ca5a04` — iguais, conferido por `git ls-remote` |
+| portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas** |
+| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` 12/12 · `admin` 22/22 · `lua` 13/13 (`blocked=1`) |
+| ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, `malform_probe` |
 | portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
-| teste do portão | `make -s gate-selftest` → **19/19**, exit 0 (F12/F13/F14 + duplicação de etapa) |
-| conformidade do v2 | `make -s conform` → **15/15** cláusulas C-01…C-15 (camada 1; **não** é compatibilidade) |
-| matriz de evidências | `reports/r6-matriz.tsv` — 12 linhas × 9 colunas, validada por `make -s matriz` |
-| falsificações da rodada | F18 (validador sem critério de drift) e F19 (contabilidade STATS) no portão |
-| desempenho | `make -s bench` → **15/15**, exit 0; baseline exploratória, **não** é critério de aceitação |
+| teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
+| conformidade do v2 | `make -s conform` → **15/15** (camada 1; **não** é compatibilidade) |
+| falsificações permanentes | F12–F14 (portão), F15/F16 (R-6), F18/F19 (R-7), **F20/F21** (golden), **F22** (fuzz × codec mutado) |
 | capacidade absoluta | **BLOCKED** — 2 vCPUs, cliente e serviço competindo, binário com ASan/UBSan |
-| compatibilidade com o original | **não testada, não afirmada** (pergunta da R-6) |
+| compatibilidade com o original | **não testada, não afirmada** — camada 3 BLOCKED, com causa e caminho de desbloqueio |
+| `MuServer/` | inalterada desde `b5b84da`; **6 `.lua` diferem do upload `6eabb45`**; baseline e reversão conferidos por `ref-intacta` 8/8 |
+| integridade | `FULL=1 scripts/verify-backup.sh` → 13/13 |
 
 ## O que existe no código
 

@@ -417,3 +417,94 @@ cabiam, e o `queue_full` simplesmente não acontecia (a conexão terminava em `s
 **Consequência.** O limite medido é condicional e está rotulado como tal: "com `rcvbuf` efetivo de
 2 304 B e corpo de 2048 B, 551 quadros passam antes do fechamento". Sem o `rcvbuf` no rótulo, o
 número não significa nada.
+
+## D2-30 — flakiness real se corrige na raiz: volume contra capacidade, não critério afrouxado
+
+**Contexto.** `tests/net.sh` S4 ("cliente que não lê e pede mais acaba desconectado") falhava 1 vez
+em ~8 execuções do portão. O cenário enviava 60 quadros de 64 B, ou seja **4 080 B** de respostas,
+contra capacidade efetiva medida de ~7 kB neste host (`rcvbuf` 1024 → 2 304; `sndbuf` 1024 → 4 608).
+Quando tudo cabia nos buffers, o `queue_full` não acontecia, o cliente não via o FIN em 3 s e a
+asserção `eof=1` falhava.
+
+**Decisão.** Corrigir a **margem do cenário** (600 quadros = 40 800 B, ~6× a capacidade), nunca o
+critério. Depois: `net` 15/15 execuções com 34 asserções e 0 falhas.
+
+**Consequência.** `gate_state.sh` passou a **preservar evidência em falha**: se qualquer caso falhar,
+o diretório temporário inteiro é copiado para `out/gate-selftest-falha/` antes de ser apagado. Um
+teste que falha e não deixa nada para examinar é indiagnosticável — foi assim que esta falha ficou
+sem causa identificada por uma rodada inteira.
+
+## D2-31 — retratação: "0 declarações de framing em .lua" era concluão errada
+
+**Contexto.** A R-6 publicou que a busca por `HEAD_SIZE|PacketSize|MakePacket|opcode` em `.lua`/`.txt`
+devolveu zero ocorrências, e daí concluiu que a camada Lua nada tinha a ver com pacotes.
+
+**Decisão.** A **medição** estava correta e continua valendo para framing de bytes; a **conclusão**
+estava errada, porque os tokens eram estreitos demais. Medido agora: `148` arquivos `.lua` (o `7 378`
+da R-6 somava `.lua` **e** `.txt`), **20** com termos de pacote, **5** chamando `SendPacket`, e
+**8** cópias de `ProtocolCore.lua` (3 de servidor, 5 do cliente). A afirmação correta é: não há
+declaração de *framing de bytes* nos scripts, mas **há** uma camada real de despacho de pacotes por
+nome.
+
+**Consequência.** `tests/lua.sh` fixa os números medidos, e a retratação está em
+`reports/rf-lua-protocolo.md`. O histórico não foi apagado: a afirmação antiga continua visível nos
+relatórios da R-6, com a correção ao lado.
+
+## D2-32 — "referência intacta" passa a significar o que de fato verifica
+
+**Contexto.** `tests/ref_check.sh` comparava `HEAD:MuServer` com `fade04615fab…` e passava; a
+afirmação usada nos resumos era "MuServer/ intacta". Mas essa árvore é a **pós-endurecimento-Lua**:
+o commit `b5b84da` modificou **6 arquivos `.lua` dentro de `MuServer/`** (`ScriptMain.lua`,
+`ProtocolCore.lua`, `ScriptCore.lua`, `DataBase.lua` e os `ScriptMain` de `SpeedServer` e
+`SubSalatest`; 327+/316−).
+
+**Decisão.** A verificação continua válida e ganhou dois casos: (7) exatamente 6 `.lua` diferem do
+upload `6eabb45` e nenhum outro arquivo; (8) os baselines em `workspace/changes/originals/` são
+**blob-idênticos** aos do upload, ou seja a reversão é real, não prometida. "Intacta" passa a
+significar, explicitamente, "não mudou desde `b5b84da`".
+
+**Consequência.** Qualquer evidência sobre o **original** tem de vir do baseline ou das cópias não
+tocadas (`SpeedServer`, `SubSalatest`) — nunca do arquivo patcheado. Foi essa regra que permitiu
+extrair a assinatura `GameServerProtocolRecv(aIndex, Packet, PacketName)` de fonte legítima.
+
+## D2-33 — fuzzing sem motor dedicado: alternativa determinística, com a diferença declarada
+
+**Contexto.** Medido: não há `afl-fuzz`, `afl++`, `honggfuzz`, `radamsa`, `zzuf` nem `clang` neste
+host, e o gcc 12 rejeita `-fsanitize=fuzzer`.
+
+**Decisão.** `tools/mu2fuzz.c` é um motor **próprio e determinístico**: sementes extraídas do corpus
+golden, 10 operadores de mutação, julgamento por **oráculo de invariantes** derivado do contrato, com
+os sanitizadores do build ligados e a entrada em heap de tamanho exato (a redzone do ASan pega
+leitura fora do fim). 150 000 iterações, 0 violações, 0 mortes por sinal.
+
+**Consequência.** A saída da ferramenta **declara** a limitação: não há cobertura guiada por feedback
+de bordas, e não se afirma equivalência a fuzzer dedicado. `F22` prova que o oráculo tem dentes: com
+o codec mutado numa cópia temporária (piso `size < 4` removido), o fuzzer acusa violações; a entrada
+que derrubou o mutante é replayada no codec real e recusada com `MU2_E_BAD_LEN`.
+
+## D2-34 — console administrativo como processo separado, falhando fechado
+
+**Contexto.** O comando mestre proíbe interface sem backend, botão sem função e publicação simulada,
+e exige desenho documentado **antes** do código.
+
+**Decisão.** `docs/ADMIN_CONSOLE.md` foi escrito primeiro. O console é `tools/mu2admin.c`, processo
+separado, single-threaded, **somente loopback**, que lê o estado do `mud2` pelo protocolo v2 (como o
+`mu2ctl`) e não toca no produto. O produto não ganha HTTP nem thread. Token de arquivo `0600` (nunca
+de `argv`, que aparece em `ps`), mínimo 32 caracteres, papéis `leitor`/`admin`, comparação em tempo
+constante, **fail closed**: sem token válido o servidor não sobe. Publicação é `501` com motivo —
+não existe alvo autorizado, e simular é proibido.
+
+**Consequência.** `tests/admin.sh` cobre os 17 itens da tabela de testes do desenho (22 asserções).
+`git diff` vazio em `recriado/src` e `recriado/include`: o ABI e o protocolo comprovados em 15/15
+permanecem intactos.
+
+## D2-35 — evidência manual supervisionada no lugar de execução automática de binário original
+
+**Contexto.** A camada 3 de interoperabilidade exige executar o `ConnectServer.exe`. A regra do
+projeto proíbe executar binário original automaticamente, e não há `wine`/`qemu-i386` no host.
+
+**Decisão.** `tests/interop.sh` **não tem caminho de execução** de binário original. Quando as
+precondições existirem, o teste real é manual e supervisionado e deposita
+`reports/r6-interop-real.tsv` com 8 chaves obrigatórias; a suíte **valida essa evidência** e só então
+reporta `camada3=evidencia-manual-validada`. Sem o arquivo, o estado é `BLOCKED` — nunca `PASS` por
+omissão, nunca conexão simulada.
