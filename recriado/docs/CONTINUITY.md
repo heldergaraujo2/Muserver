@@ -67,8 +67,12 @@ publicação (contínuas, não fim de fila).
 
 Preencher no fim de cada rodada (é dado volátil, junto com §7):
 
-- HEAD: `<sha>` na branch `arena/cf1de8ce-muserver`
-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → **igual ao HEAD local** (conferido)
+- HEAD: `03dcaa6` na branch `arena/cf1de8ce-muserver` (commit de conteúdo da R-5; o commit de
+  backup/documentação vem logo depois, como em toda rodada)
+- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → `03dcaa6…` **igual ao HEAD local**
+  (conferido no fim da rodada)
+- snapshot: `mu2-snapshot` @ `0e3abcf` (40 arquivos), bundle 112 020 B,
+  sha256 `4f2190f19d3b1e15…`; `verify-backup.sh` 9/9 e `FULL=1` 13/13
 - `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
 - `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
 
