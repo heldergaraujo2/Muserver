@@ -1,7 +1,8 @@
-# Saidas de build e lixo de execucao: o v2 trabalha com `git add` de caminhos
+# Saidas de build (build/ e out/) e lixo de execucao: o v2 trabalha com `git add` de caminhos
 # explicitos, mas este arquivo existe para que um `git add -A` futuro (de outra
 # pessoa/outra rodada) nunca leve binario para dentro do indice.
 build/
+out/
 *.o
 *.a
 *.so
