@@ -154,3 +154,23 @@ repositório (e, se o token estiver em “Only select repositories”, adicionar
 lista). Com a árvore restaurada e essa permissão, os 20 commits sobem do estado que já existe —
 sem re-medir nada. O `MuServer` (deste repositório) tem a branch `arena/cf1de8ce-muserver`
 publicada em `b5b84da` ✓.
+
+## 6. O pacote de referência está aqui, e confere com o que as suítes pinavam
+
+A restauração não precisa trazer dados, só código — o `MU_REF_DATA` sobreviveu e bate com as
+afirmações medidas no projeto perdido:
+
+| conferido | esperado (docs perdidos) | medido agora |
+|---|---|---|
+| `MuServer/ConnectServer/ConnectServer.exe` | sha256 `f25eecb6…` (baseline do `pe_probe`) | `f25eecb6c65214b7…` ✓ |
+| `.att` em `MuServer/Data/Terrain` | 92 arquivos de 65 539 B, `slack=0` | 92 arquivos, 92 com 65 539 B ✓ |
+| `MuServer/Data/MonsterSetBase` | 99 arquivos | 99 ✓ |
+| binários `.exe`/`.dll` no pacote | 71 (varredura por classe: 58 nativos, 2 .NET, 11 protegidos) | 71 ✓ |
+| `MuEditor.exe` | `MuServer/Tools/Editores/MuEditor/MuEditor.exe` (caminho *corrigido* na rodada passada, porque o `NEXT_TASK` apontava para outro) | presente nesse caminho ✓ |
+| `GameServer/GameServer.exe` | 13 MB, `.themida` | 13 M ✓ |
+
+Duas observações de método que o próprio teste deste relatório ilustrou: eu escrevi primeiro
+`MuEditor/MuEditor.exe` e `Data/Local/MonsterSetBase` no checklist e os dois deram “FALTA” — eram
+caminhos **meus**, não do pacote; `MonsterSetBase` é diretório (`Data/MonsterSetBase`) e `MuEditor`
+mora em `Tools/Editores/`. Ou seja: um “falta” em ferramenta também é afirmação sobre a ferramenta,
+e a tabela acima só saiu depois de medir com `find`.
