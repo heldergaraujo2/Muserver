@@ -1,80 +1,83 @@
-# NEXT_TASK — v2 — proxima rodada
+# NEXT_TASK — v2 — próxima rodada
 
-## Tarefa executavel: R-4 — servico `mud2` e o experimento de backpressure (N-T5.3d2)
-Escopo: laço de aceitacao + `poll()` + `feed()` + fila de resposta + `queue_reply`, e a suíte
-`tests/net.sh`. Nada de `bench`, nada de `conform`/`data` (sao R-5/R-7).
+## Tarefa executável: R-5 — inspeção reproduzível do pacote original
 
-1. `src/mud2.c`: `--listen`, `--max-clients`, `--sndbuf` (minimo 1024), `--idle-ms`, `--profile`,
-   `--log-level`; `feed()` consome **todos** os quadros do buffer lido (premissa contraria foi
-   refutada no v1 e o teste tem de continuar provendo isso por fora: dois quadros em um `write`
-   contam `frames` +2); `queue_reply` recusa com fechamento + `LOGW` dedicado quando h
-   a resposta anterior pendente (D2-05), e **incrementa `queue_full_closes`** (novo, aditivo: o
-   v1 deixava essa capacidade invisivel no contador de erros).
-2. A pergunta que a N-T5.3d2 deixou em aberto sobre o v1 (o laço pede `POLLOUT` com resposta
-   pendente?) chegou a v2 resolvida como decisao: **pede, sempre** (D2-14). Portanto o laço nasce
-   com `POLLOUT` no `events` de toda conexao com `out_len != out_off`, `EAGAIN` mantem a resposta
-   na vaga ate o proximo `POLLOUT`, e o fechamento so ocorre quando um **novo** pedido encontra a
-   vaga ocupada. Ha assercao especifica para isso no `net.sh` (item 5), porque decisao sem teste e
-   comentario no repositorio.
-3. `src/mu2ctl.c` com `stats` (mesma linha do contrato: `STATS registros= usados= conns= frames=
-   rejects= queue_full_closes= uptime_ms= slotsz= maxbody=`) para o experimento ler de fora.
-4. `tests/net.sh` (variante por perfil `orig`/`mur0`), com os knobs do cliente **antes do
-   `connect()`**: `socket()` → `setsockopt(SO_RCVBUF,1024)` → `connect()`, e `getsockopt` impresso
-   (pedido **e** efetivo: 1024 → 2304/4608 neste kernel, e sem `CAP_NET_ADMIN` nao ha `SO_*BUFFORCE`).
-   Matriz: `N_conn ∈ {1,4,16}`, `N_frames ∈ {10,29,30,31,60,120}`, `t_sem_ler ∈ {0,1s,5s}`,
-   `delay_entre_leituras ∈ {0,50ms}`, `--sndbuf ∈ {0,1024}`, corpo pequeno (`ping`) e grande
-   (corpo proximo de 2048 por `--serverlist` de teste). 5 repeticoes por configuracao, mediana e
-   amplitude publicadas, `reports/net-<perfil>.tsv`.
-5. Classificacao obrigatoria de cada desconexao pela linha do log do servidor — fila cheia !=
-   bloqueio normal de TCP != timeout ocioso != erro de socket. Sem classificacao, o caso nao vale.
-   E a assercao da decisao D2-14, no mesmo arquivo: cliente que le atrasado (3 x 50 ms) e depois
-   le o resto recebe **todas** as respostas com `queue_full_closes == 0`; cliente que nao le nada
-   e emite pedido novo produz fechamento com a linha de log propria e `queue_full_closes`
-   incrementado. As duas juntas sao o que impede o laço de voltar a ter vaga ocupada eterna.
+Objetivo: **descobrir, não supor**. Tudo o que a reconstrução afirma sobre o MU Server original tem de
+sair de ferramenta reproduzível rodando sobre `MU_REF_DATA` (padrão: `/home/user/Muserver/MuServer`),
+**somente leitura**. Nenhum arquivo da referência é modificado, movido ou executado.
 
-Criterios de saida: `make -s check` verde (unit + make-sintaxe); `net` executado com a matriz
-acima e os efetivos de buffer registrados; **falsificacoes**: (i) `break` no `feed()` (um quadro por
-`recv`) deve mudar o resultado, (ii) remover o `drain()` imediato deve aumentar fechamentos,
-(iii) inverter a politica de `queue_reply` para "enfileirar sempre" deve sumir com os fechamentos —
-e, se com (iii) **nenhuma** perda aparecer, a politica atual e mantida e os limites do experimento
- sao escritos (D2-05), sem inflar `MU2_MAX_BODY` nem buffers para forcar resultado. Reverter e
-conferir `git status --porcelain` vazio em `src/`.
+### Escopo (nesta ordem)
 
-Se (e somente se) a R-4 mostrar perda ou incompatibilidade com o contrato documentado, a mudanca de
-fila vem em commit isolado, com regressao e `bench` antes/depois — e o `bench` continua `BLOCKED`
-ate os criterios de validade dele (R-7) existirem neste host de 2 vCPUs.
+1. `tools/pe_probe.py` — cabeçalho PE dos executáveis: máquina, timestamp, seções com tamanho/entropia,
+   imports/exports, e procura por strings e constantes que interessem ao protocolo (tamanhos de
+   cabeçalho, opcodes, nomes de função de rede). Saída determinística em TSV.
+2. `tools/att_probe.py`, `tools/mb_probe.py`, `tools/data_probe.py` — formatos `.att`, `.bmd`/`.smd` e
+   dados de `Data/` (itens, monstros, mapas, Lua): assinatura, tamanho, estrutura aparente, relações
+   entre arquivos. Sem alterar nada.
+3. `tests/pe.sh` (`pe` + `pe-selftest`) e `tests/data.sh` (`data` + `data-selftest`) — o autos-teste é
+   obrigatório: cada probe tem de falhar de forma visível quando recebe entrada inválida.
+4. `reports/r5-pe.tsv`, `reports/r5-formatos.tsv`, `reports/r5-dados.tsv` — com comando, hash do
+   arquivo de entrada e o que é **observação**, **hipótese** e **conclusão**, separados.
 
-## Acao do dono (manual) — para o v2 ter repositorio proprio e publicavel
-Nada disto e bloqueante: com a opcao A (esta arvore dentro de `Muserver` na branch da sessao) o
-trabalho ja esta persistido e publicado. Faixa abaixo so se voce quiser o `MuserverRecriado` ativo.
+### Regras da fase
+
+- Ausência de string **não** é ausência de recurso no binário (pode estar ofuscado, comprimido ou
+  construído em tempo de execução). Escrever isso explicitamente onde ocorrer.
+- Tamanho de arquivo **não** é limite de formato. Nenhum limite é declarado sem evidência de estrutura.
+- Os 4 `.bak` de `DB/` são inventariados (tamanho, cabeçalho, hash) — **não** restaurados nem abertos
+  como banco.
+- Nada de executar binário do pacote (nem sob Wine) nesta fase.
+- Saída determinística: sem timestamps nem caminhos absolutos do host no conteúdo dos relatórios.
+
+### Critérios de saída
+
+`make -s check` continua verde (unit 106/0, make-sintaxe 7/0, net 34/0); `pe`/`pe-selftest` e
+`data`/`data-selftest` verdes; relatórios com evidência e limitações; e **falsificações**:
+(i) apontar o probe para uma cópia truncada em diretório temporário tem de produzir recusa, não
+inventar estrutura; (ii) entregar um arquivo que não é PE tem de ser recusado como não-PE;
+(iii) o autos-teste tem de falhar quando o valor esperado é trocado de propósito.
+Reverter qualquer mutação e conferir `git status --porcelain` vazio.
+
+### Fora de escopo da R-5
+
+`interop`/`golden` (R-6), `bench` (R-7, continua BLOCKED), `run_all.sh`/`gate_state` (R-8), painel
+administrativo e assistente de publicação (só depois de R-5/R-6, e nunca com controle sobre
+`MuServer/`).
+
+---
+
+## Ação do dono (manual) — para o v2 ter repositório próprio e publicável
+
+Nada disto é bloqueante: com a árvore `recriado/` dentro de `Muserver` na branch da sessão, o trabalho
+já está persistido e publicado. A faixa abaixo só importa se você quiser o `MuserverRecriado` ativo.
 
 1. Abra <https://github.com/settings/installations> (logado como `heldergaraujo2`).
 2. No App que a Arena usa para este workspace, clique em **Configure**.
-3. Em **Repository access**, se estiver "Only select repositories", clique em **Add repository**
-   e escolha `MuserverRecriado`. (Se estiver "All repositories", o problema nao e a selecao —
-   me avise, porque ai a causa e outra e eu reabro a investigacao com essa informacao.)
-4. Confirme que o App tem **Contents: Read and write** (permissao de conteudo de codigo).
-5. Volte para a conversa e escreva "autorizado". Eu testo com `git ls-remote` e `push --dry-run`,
-   e so depois disso crio o remote de verdade — nunca antes de a conferencia passar.
-6. Publicacao: `git subtree split -P recriado -b mu2-v2` → push da branch resultante. A historia
-   do v2 vai junto; nenhum commit se perde e o repo de referencia fica intacto.
+3. Em **Repository access**, se estiver "Only select repositories", clique em **Add repository** e
+   escolha `MuserverRecriado`. (Se estiver "All repositories", o problema não é a seleção — me avise,
+   porque aí a causa é outra e eu reabro a investigação com essa informação.)
+4. Confirme que o App tem **Contents: Read and write**.
+5. Volte para a conversa e escreva "autorizado". Eu testo com `git ls-remote` e `push --dry-run`, e só
+   depois disso crio o remote de verdade — nunca antes de a conferência passar.
+6. Publicação: o branch local `mu2-v2` já é a semente (`git push <novo-remote> mu2-v2:main`), com a
+   história preservada; o bundle serve de transporte se a rede não permitir push.
 
-Nao faco por voce: nao tenho como alterar App, token nem visibilidade de repositorio a partir do
-sandbox (a autenticacao acontece fora daqui), e nao toco em permissao de conta.
+Não faço por você: não há como alterar App, token nem visibilidade de repositório a partir do sandbox.
 
-## Acao do dono — pedido de recuperacao ao suporte da plataforma
-O texto esta pronto em `../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`.
-Envie o conteudo pelo canal de suporte/feedback da sessao Arena (a interface onde esta conversa
-acontece); **nao ha como, de dentro do sandbox, descobrir ou chamar o canal da plataforma** —
-a saida e limitada a uma allowlist que nao inclui nenhum servico da Arena/e2b, e os tokens de
-ambiente sao dummy. Nao inventei endpoint nem tentei contornar: foi verificado e registrado.
-Se o volume anterior voltar, esta arvore vira destino de copia (backup primeiro, depois `git
-rev-parse HEAD == c5706a5`, `git bundle verify`, portao de baseline com `MU_REF_DATA=/home/user/Muserver/MuServer`)
-e o v2 passa a ser comparacao, nao substituto.
+## Ação do dono — pedido de recuperação ao suporte da plataforma
+
+O texto está pronto em
+[`../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`](../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md).
+Envie pelo canal de suporte/feedback da sessão Arena: **de dentro do sandbox não há como descobrir nem
+chamar esse canal** (a saída é limitada a uma allowlist que não inclui serviço da plataforma). Nenhum
+endpoint foi inventado nem contornado.
+Se o volume anterior voltar, esta árvore vira destino de cópia (backup primeiro, depois
+`git rev-parse HEAD == c5706a5`, `git bundle verify`, portão de baseline com
+`MU_REF_DATA=/home/user/Muserver/MuServer`) e o v2 passa a ser comparação, não substituto.
 
 ## Sobre o `PR #1` (aberto, `arena/cf1de8ce-muserver` → `main`, autor `heldergaraujo2`)
-Enquanto o v2 viver nesta branch, ele aparece dentro desse PR — o que mistura a auditoria da
-camada Lua com um projeto novo em `recriado/`. Duas saidas, sua escolha:
-(a) fundir o PR #1 (conteudo == `main` + a auditoria Lua + os relatorios) e seguir com o v2 na
-branch; (b) manter o v2 na branch e segregar depois por `subtree split`. Eu **nao** fundo nem
-reorganiz o PR por conta propria.
+
+Enquanto o v2 viver nesta branch, ele aparece dentro desse PR — o que mistura a auditoria da camada Lua
+com um projeto novo em `recriado/`. Duas saídas, sua escolha: (a) fundir o PR #1 e seguir com o v2 na
+branch; (b) manter o v2 na branch e segregar depois por `subtree split` (o branch `mu2-v2` já existe
+localmente para isso). **Não fundo nem reorganizo o PR por conta própria.**

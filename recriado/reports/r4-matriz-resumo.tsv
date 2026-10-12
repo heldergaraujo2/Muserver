@@ -1,0 +1,16 @@
+# resumo da matriz de backpressure da R-4 (detalhe linha a linha em reports/net-<perfil>.tsv)
+# gerado em 2026-10-12T17:55:17Z por make -s net-matrix: 100 configuracoes x 5 repeticoes por perfil, binario conferido
+# O que os dados dizem:
+#  1) buffers padrao (--sndbuf 0): 50/50 configuracoes sem perda e sem fila cheia, nos dois perfis.
+#  2) --sndbuf 1024 + SO_RCVBUF 1024 no cliente: fila cheia em 50/50 configuracoes dos dois perfis;
+#     a mediana de respostas entregues fica em 7..16 — o limite e a janela de recepcao do cliente
+#     (2304 B efetivos contra 1024 pedidos), nao o numero de quadros nem o --sndbuf do servico
+#     (efetivo 4608; socket aceito herda 2626560 quando nao se pede nada).
+#  3) o '29/30 respostas de 64 B' da D2-05 e medida historica do v1 e NAO se reproduziu aqui:
+#     registrado como divergencia, nao como meta nem como regressao.
+#  4) zero fechamentos sem classificacao e zero perda sem fechamento em 200 corridas de configuracao.
+#  5) amplitude entre repeticoes chega a 104 respostas sob pressao: qualquer conclusao tem de ser
+#     estatistica (mediana), nunca uma corrida unica. Relevante para os criterios de validade da R-7.
+perfil	configs	reps	configs_sndbuf0	perda_em_sndbuf0	qfull_em_sndbuf0	configs_sndbuf1024	perda_em_sndbuf1024	qfull_em_sndbuf1024	fechamentos_nao_classificados	perda_sem_fechamento	rcvbuf_pedido	rcvbuf_efetivo	sndbuf_efetivo_quando_1024	amplitude_max_entre_reps	configs_com_amplitude	total_close_queue_full	total_close_client_eof
+orig	100	5	50	0	0	50	39	50	0	0	1024	2304	4608	104	41	526	994
+mur0	100	5	50	0	0	50	36	50	0	0	1024	2304	4608	68	45	509	1011

@@ -77,7 +77,13 @@ int mu2_frame_decode(mu2_frame *f, const uint8_t **body_out, const uint8_t *src,
                      mu2_profile p);
 
 /* Copia o corpo do quadro decodificado para dst, desfazendo a transformacao do perfil.
- * dst_len deve ser >= f->body_len. dst == src e permitido (transforma no lugar). */
+ * dst_len deve ser >= f->body_len. dst == src e permitido (transforma no lugar).
+ *
+ * ATENCAO (D2-17): `src` e o INICIO DO QUADRO, o mesmo ponteiro passado a mu2_frame_decode —
+ * a funcao soma MU2_HEADER_SIZE internamente. NAO passe aqui o `body_out` que o decode devolve:
+ * o corpo sai deslocado 4 bytes e o comprimento continua certo, entao testes que conferem so
+ * tamanho nao pegam. Foi exatamente assim que a primeira subida do servico imprimiu a linha de
+ * metricas como "S registros=...". */
 int mu2_frame_body(uint8_t *dst, size_t dst_len, const mu2_frame *f, const uint8_t *src,
                    mu2_profile p);
 

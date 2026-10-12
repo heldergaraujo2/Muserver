@@ -156,3 +156,55 @@ commit): restaura o estado atual em tamanho constante, e a *historia* fica onde 
 `git push` (e no branch local `mu2-v2`, que e a semente de migracao para o repo proprio). Nada foi apagado: os blobs antigos seguem no
 historico e voltam com `git checkout 5c9e318 -- recriado/backup` se alguem precisar da copia
 congelada de uma rodada especifica — e `scripts/verify-backup.sh` passa a conferir o caminho novo.
+
+## D2-16 — protocolo do servico de ensaio: opcodes, motivos de fechamento e a linha de metricas
+O servico da R-4 precisa de um vocabulario proprio, e ele fica em `include/mu2/proto.h`:
+`MU2_CODE_PING 0x0001` (resposta de corpo vazio), `MU2_CODE_ECHO 0x0002` (devolve o corpo),
+`MU2_CODE_STATS 0x0003` (devolve a linha de metricas). **Sao codigos do v2.** Nao ha aqui nenhuma
+afirmacao de compatibilidade com o MU Server original — a comparacao com o protocolo real continua
+sendo trabalho da R-6, a partir do binario.
+Tres escolhas que precisaram de decisao explicita:
+- **Opcode desconhecido e descartado, nao punido.** Fechar a conexao por lixo deixaria um cliente
+  derrubar a propria conexao de proposito e sujaria a classificacao de causa nos testes de rede.
+  O evento conta em `unknown` (visivel no resumo de saida) e a conexao segue.
+- **O motivo do fechamento e um token `close=<motivo>` no log, UMA linha por evento.** A primeira
+  subida emitia duas (o `WARN` de fila cheia e o `close_conn`), o que dobraria qualquer contagem
+  feita por log — medido: 2 linhas para contador 1. Motivos: `queue_full`, `client_eof`,
+  `client_hup`, `socket_error`, `write_error`, `bad_frame`, `idle_timeout`, `max_clients`,
+  `shutdown`. A suite de rede exige que toda linha `close=` caia num motivo conhecido.
+- **A linha `STATS` conta a si mesma em `frames`** (o incremento acontece antes de a linha ser
+  montada). Nao e off-by-one a consertar: e o comportamento, e ha assercao que o trava, para que
+  ninguem o "corrija" sem perceber que os relatorios mudariam junto.
+`slotsz` na linha de metricas e o tamanho em bytes da vaga unica de resposta (`MU2_MAX_FRAME`), e
+`maxbody` e `MU2_MAX_BODY`. A linha e lida de fora por `mu2ctl stats`, pelo proprio protocolo: um
+segundo consumidor do codec, que falha junto se o enquadramento estiver torto.
+
+## D2-17 — `mu2_frame_body` recebe o INICIO do quadro, nao o ponteiro do corpo
+`mu2_frame_decode` devolve em `body_out` o endereco do corpo (`src + 4`), mas `mu2_frame_body` soma
+`MU2_HEADER_SIZE` internamente: o `src` dele e o **inicio do quadro**. Passar o corpo desloca tudo
+em 4 bytes. O v2 caiu exatamente nisso na primeira subida do servico, e o sintoma foi uma linha de
+metricas impressa como `S registros=64 ...` com lixo no fim — o teste de comprimento continuava
+passando, porque o comprimento estava certo.
+Decisao: **nao mudar a assinatura** (a R-3 esta testada contra ela e mudar ABI por conveniencia de
+leitura trocara um defeito visivel por um risco invisivel). O comentario do cabecalho foi
+esclarecido e o erro fica registrado aqui. Licao para as suites: conferir **conteudo**, nao so
+tamanho — o cliente de ensaio passou a comparar byte a byte o corpo do `ECHO`.
+
+## D2-18 — a vaga unica so e viavel com `drain()` imediato, e o limite de backpressure e a janela do cliente
+Duas coisas medidas na R-4, nenhuma das duas obvia antes de medir:
+1. **Sem o `drain()` imediato, a fila de 1 vaga nao funciona com pedidos encadeados.** Falsificacao
+   F6: removida a tentativa imediata de escrita, o segundo quadro do **mesmo** `recv` encontra a
+   vaga ocupada e o servidor fecha a conexao (log: `queue_full pending=4`), e o cliente recebe zero
+   respostas. A suite caiu em 8 verificacoes. O `drain()` imediato nao e otimizacao: e o que torna a
+   politica de D2-05 compativel com pipelining.
+2. **O limite observavel nao e o numero de quadros, e a janela de recepcao do cliente.** Na matriz
+   (100 configuracoes x 5 repeticoes por perfil): com buffers padrao, **0 perdas e 0 filas cheias em
+   50/50 configuracoes**; com `--sndbuf 1024` no servico **e** `SO_RCVBUF 1024` no cliente antes do
+   `connect()`, fila cheia em **50/50**, com mediana de 7 a 16 respostas entregues. Pedidos 1024 →
+   efetivos 2304 no cliente e 4608 no servico; sem pedir nada, o socket aceito herda 2 626 560.
+   O registro historico do v1 ("~29 respostas de 64 B antes do `EAGAIN`", D2-05) **nao se reproduziu
+   neste host**: fica como divergencia documentada, nao como meta nem como regressao.
+Duas regras que saem daqui: (a) o orcamento do cliente de teste tem de ser maior que o pior cenario
+— com 5 s uma configuracao deu 107/120 e com 20 s deu 120/120 nas cinco repeticoes, ou seja, a
+"perda" era do instrumento, e a matriz passou a usar `--timeout-ms 20000`; (b) **nada disso justifica
+aumentar `MU2_MAX_BODY` ou buffers** — o comportamento observado e o contrato funcionando.

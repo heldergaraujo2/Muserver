@@ -66,3 +66,31 @@
   byte a byte, `git bundle verify`, restauracao da arvore a partir do bundle clonado e presenca do
   HEAD local no remoto. Resultado apos o fix: **10 verificacoes, 0 falhas**.
 - Portao da fase re-execuido no fim: `unit=106 falhas=0`, `make-sintaxe=5 falhas=0`.
+
+## R-4 — servico de rede `mud2`, controlador `mu2ctl` e suite de rede (medido nesta arvore)
+Novos: `src/mud2.c` (585 linhas), `src/mu2ctl.c`, `include/mu2/proto.h`, `tests/netclient.c`,
+`tests/net.sh`; `Makefile` com alvos `mud2`/`mu2ctl`/`netclient`/`net`/`net-matrix` e `check` agora
+incluindo a suite de rede; `tests/make_parse.sh` com 2 casos novos (7 no total).
+Portao: **unit=106 falhas=0**, **make-sintaxe=7 falhas=0**, **net=34 falhas=0** (matriz reduzida),
+**net-matrix=36 falhas=0** (100 configuracoes x 5 repeticoes por perfil, 10m12s). ASAN+UBSAN+`-Werror`
+em tudo, zero violacao de sanitizador. Detalhes em `reports/r4-check.tsv`.
+Falsificacoes (todas detectadas, `reports/r4-falsificacao.tsv`): **F5** `break` no `feed()` → a suite
+nao termina em 300 s e >=4 verificacoes caem; **F6** sem `drain()` imediato → 8 falhas; **F7**
+`queue_reply` invertido → 3 falhas.
+Tres defeitos achados durante a subida e corrigidos antes de fechar: (1) `mu2_frame_body` recebe o
+inicio do quadro, nao o corpo — a linha STATS saia como `S registros=...` (D2-17); (2) `close=queue_full`
+saia em dobro, o que dobraria qualquer classificacao por log; (3) `mu2ctl --profile` errado imprimia
+lixo com exit 0, porque o perfil nao e detectavel no stream — agora o prefixo `STATS ` e conferido.
+Um quarto defeito foi do **processo**, nao do codigo: a reversao da mutacao F6 foi perdida porque o
+comando de limpeza usava `pkill -f` com um padrao que casava com a linha de comando do proprio shell
+(exit -1, reversao nunca executada). Tres medicoes seguintes foram feitas contra o binario mutado,
+detectadas pela contradicao com a matriz, e **refeitas**. Regra nova: matar por PID, nunca por
+`pkill -f` com padrao presente no proprio script.
+Achados tecnicos: a vaga unica so funciona com `drain()` imediato (F6); com buffers padrao nao houve
+perda nem fila cheia em 50/50 configuracoes por perfil; com `--sndbuf 1024` + `SO_RCVBUF 1024` a fila
+cheia apareceu em 50/50 e o limite e a janela do cliente (1024 pedido → 2304 efetivo), nao o numero de
+quadros — o "~29 respostas de 64 B" do v1 nao se reproduziu (D2-18). Zero fechamentos sem
+classificacao e zero perda sem fechamento em 200 corridas.
+Ausentes de proposito, como antes: `bench` (BLOCKED), `golden`/`interop`/`conform`/`data`/`pe`/`fuzz`/
+`gate_state`/`run_all.sh` (nao implementados). Nenhuma compatibilidade com o cliente original foi
+testada ou afirmada.

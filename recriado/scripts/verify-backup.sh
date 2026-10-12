@@ -69,7 +69,31 @@ else
   chk "bundle presente" bad "$bundle ausente"
 fi
 
-# 7) FULL=1: a prova que importa — o bundle como ele existe DEPOIS do push, lido de um clone do
+# 7) a referencia original esta intacta? Ela e somente leitura e nenhuma rodada pode toca-la.
+mu_want=fade04615fabd17778a0e2fd7adf032c8386c924
+mu_tree=$(git rev-parse HEAD:MuServer 2>/dev/null)
+mu_dirty=$(git status --porcelain -- MuServer | wc -l)
+if [ "$mu_tree" = "$mu_want" ] && [ "$mu_dirty" = 0 ]; then st=ok; else st=bad; fi
+chk "referencia MuServer/ intacta" "$st" "tree=${mu_tree:0:7} alteracoes=$mu_dirty"
+
+# 8) documentos de continuidade presentes: um agente novo tem de achar o estado sem ler chat.
+missing=""
+for d in recriado/docs/CONTINUITY.md recriado/docs/CURRENT_STATE.md recriado/docs/NEXT_TASK.md \
+         recriado/docs/DECISIONS.md recriado/docs/CHANGELOG.md recriado/docs/ENVIRONMENT.md \
+         recriado/docs/ROADMAP.md workspace/backups/MANIFEST.md; do
+  [ -f "$d" ] || missing="$missing ${d#recriado/docs/}"
+done
+if [ -z "$missing" ]; then st=ok; else st=bad; fi
+chk "documentos de continuidade" "$st" "${missing:-todos presentes}"
+
+# 9) evidencia nao pode morar em caminho ignorado pelo git (a armadilha ja custou trabalho antes:
+#    workspace/reports/*.json e recriado/reports/*.raw sao ignorados e simplesmente nao persistem).
+lost=$(git status --porcelain --ignored=matching -- recriado/reports workspace/reports 2>/dev/null \
+       | grep '^!!' | grep -v '/$' | head -3)
+if [ -z "$lost" ]; then st=ok; else st=bad; fi
+chk "nenhuma evidencia em caminho ignorado" "$st" "${lost:-}"
+
+# 10) FULL=1: a prova que importa — o bundle como ele existe DEPOIS do push, lido de um clone do
 #    remoto. Foi assim que apareceu o CRLF que corrompia o blob comitado sem tocar no worktree.
 if [ "${FULL:-0}" = 1 ]; then
   tf=$(mktemp -d)

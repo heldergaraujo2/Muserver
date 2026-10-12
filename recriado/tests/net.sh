@@ -258,7 +258,11 @@ for PROFILE in $PROFILES; do
     for _ in $(seq 1 "$REPS"); do
       CPIDS=""
       for c in $(seq 1 "$NC"); do
-        A=(--port "$SRV_PORT" --rcvbuf 1024 --frames "$NF" --code 2 --body-size 64 --expect "$NF")
+        # --timeout-ms generoso de proposito: com o padrao de 5 s o orcamento do CLIENTE aparecia
+        # como perda do servico (medido: 1 config deu 107/120 com 5 s e 120/120 com 20 s, com um
+        # close=write_error do servidor ao escrever para um par que ja tinha desistido).
+        A=(--port "$SRV_PORT" --rcvbuf 1024 --frames "$NF" --code 2 --body-size 64 --expect "$NF"
+           --timeout-ms 20000)
         [ "$T" -gt 0 ] && A+=(--no-read-ms "$T")
         [ "$D" -gt 0 ] && A+=(--read-delay-ms "$D")
         "$CLI" "${A[@]}" > "$TMP/c.$c.out" 2>&1 &

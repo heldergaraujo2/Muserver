@@ -220,8 +220,13 @@ static void drain(conn *c)
             c->out_off += (size_t)n;
             continue;
         }
-        if (n < 0 && (errno == EAGAIN || errno == EWOULDBLOCK || errno == EINTR))
+        if (n < 0 && (errno == EAGAIN || errno == EWOULDBLOCK || errno == EINTR)) {
+            /* Diagnostico de backpressure: sem isto, "a vaga ficou ocupada" e indistinguivel de
+             * "o socket travou", e foi essa ambiguidade que a R-4 teve de resolver na pratica. */
+            logmsg(3, "DEBUG", c->id, "drain bloqueou escrito=%zu pendente=%zu errno=%d", c->out_off,
+                   c->out_len - c->out_off, errno);
             return;
+        }
         C.rejects++;
         close_conn(c, "write_error");
         return;

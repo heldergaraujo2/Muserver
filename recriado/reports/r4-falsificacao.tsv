@@ -1,0 +1,14 @@
+# falsificacao obrigatoria da R-4: cada mutacao do servico tem de derrubar a suite de rede
+# metodo: mutar src/mud2.c, make -s build, bash tests/net.sh, reverter com
+#   git show 09a65d2:recriado/src/mud2.c > recriado/src/mud2.c
+# reversao conferida por git status --porcelain vazio em src/ e portao verde de novo (106/0, 7/0, 34/0)
+mutacao	o_que_muda	resultado	primeira_assercao_que_cai	mecanismo
+F0	estado de referencia	net=34 falhas=0	-	-
+F5	break no feed(): um quadro por recv	suite NAO terminou em 300s; >=4 falhas visiveis	not ok 5 - S2 quatro quadros num unico write	o 2o quadro fica no buffer esperando um recv que nao vem; clientes esgotam --timeout-ms
+F6	removido o drain() imediato de queue_reply	net=34 falhas=8	not ok 5 - S2 quatro quadros num unico write	medido no log: sem o drain, o 2o quadro do MESMO recv acha a vaga ocupada e o servidor fecha (queue_full pending=4); cliente recebe 0 respostas
+F7	queue_reply invertido: sobrescreve a vaga ocupada	net=34 falhas=3	not ok 12 - S4 cliente que nao le e pede mais acaba desconectado	sem fechamento, a resposta anterior some em silencio e queue_full_closes fica 0
+# Licao registrada: a reversao de F6 foi perdida numa rodada porque o comando de limpeza usou
+# `pkill -f "out/mud2 ... /tmp/f6.log"`, e esse padrao casava com a linha de comando do PROPRIO
+# shell que executava o script (exit -1, reversao nunca executada). Tres medicoes seguintes
+# (120 quadros com buffers padrao) foram feitas contra o binario mutado e tiveram de ser refeitas.
+# Regra: matar processo por PID ($!), nunca por pkill -f com padrao que aparece no proprio script.
