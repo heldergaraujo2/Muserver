@@ -75,12 +75,12 @@ Depois: **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e publicação 
 
 Preencher no fim de cada rodada (é dado volátil, junto com §7):
 
-- HEAD: `03dcaa6` na branch `arena/cf1de8ce-muserver` (commit de conteúdo da R-5; o commit de
+- HEAD: `9119d34` na branch `arena/cf1de8ce-muserver` (commit de conteúdo da R-8; o commit de
   backup/documentação vem logo depois, como em toda rodada)
-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → `03dcaa6…` **igual ao HEAD local**
+- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → `9119d34…` **igual ao HEAD local**
   (conferido no fim da rodada)
-- snapshot: `mu2-snapshot` @ `0e3abcf` (40 arquivos), bundle 112 020 B,
-  sha256 `4f2190f19d3b1e15…`; `verify-backup.sh` 9/9 e `FULL=1` 13/13
+- snapshot: `mu2-snapshot` @ `78b1a81` (46 arquivos), bundle 131 462 B,
+  sha256 `25c2f411d5fd230d…`; `verify-backup.sh` 9/9 e `FULL=1` 13/13
 - `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
 - `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
 
