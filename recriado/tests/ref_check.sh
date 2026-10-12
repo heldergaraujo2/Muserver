@@ -17,7 +17,9 @@ V2=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 ROOT=$(cd "$V2/.." && pwd)
 REF=${MU_REF_DATA:-$ROOT/MuServer}
 n=0; bad=0
-ESPERADA=fade04615fabd17778a0e2fd7adf032c8386c924   # árvore publicada: contrato fixo
+ESPERADA=fade04615fabd17778a0e2fd7adf032c8386c924   # árvore publicada: contrato fixo.
+# ATENCAO: essa arvore e a POS-endurecimento-Lua (b5b84da). "Intacta" aqui = nao mudou desde
+# entao; 6 .lua diferem do upload original. O caso 7/8 abaixo fixa essa divergencia e a reversao.
 ESPERADOS_ARQ=10021
 EVID=$V2/reports/r5-pe.tsv
 
@@ -56,6 +58,28 @@ ck 3 "git diff HEAD -- MuServer vazio" t03
 ck 4 "contagem de arquivos rastreados == $ESPERADOS_ARQ" t04
 ck 5 "ancoras de conteudo (tamanho+sha256_16 de 4 PE) batem com reports/r5-pe.tsv" t05
 ck 6 "nenhum arquivo novo dentro da referencia" t06
+
+# ---- O que "intacta" quer dizer, com precisao -----------------------------------------------
+# Os casos 1..6 provam que MuServer/ nao mudou DESDE a arvore publicada ($ESPERADA). Nao provam que
+# esta igual ao upload original do dono: o commit b5b84da ("Auditoria e endurecimento da camada
+# Lua") modificou 6 arquivos .lua DENTRO da referencia, na branch de trabalho. O baseline esta em
+# workspace/changes/originals/ com md5 em ORIGINALS.md5. Este caso fixa o fato e a reversibilidade,
+# para que "referencia intacta" nunca seja lido como "referencia pristina".
+UPLOAD=6eabb45b9e7939a3061f4757ed6791efef7c5c3b
+t07() { [ "$($G diff --name-only $UPLOAD..HEAD -- MuServer | wc -l)" = 6 ] &&
+        [ "$($G diff --name-only $UPLOAD..HEAD -- MuServer | grep -vc '\.lua$')" = 0 ]; }
+ck 7 "divergencia registrada: 6 .lua em MuServer/ diferem do upload $UPLOAD (trabalho da branch)" t07
+t08() { local ok=0 par o l
+  for par in "MuServer/Data/Script/System/ProtocolCore.lua:ProtocolCore.lua" \
+             "MuServer/Data/Script/System/ScriptCore.lua:ScriptCore.lua" \
+             "MuServer/Data/Script/ScriptMain.lua:ScriptMain.lua" \
+             "MuServer/Data/Script/Utils/DataBase.lua:DataBase.lua"; do
+    o=$($G rev-parse "$UPLOAD:${par%%:*}" 2>/dev/null)
+    l=$($G hash-object "$V2/../workspace/changes/originals/${par##*:}" 2>/dev/null)
+    [ -n "$o" ] && [ "$o" = "$l" ] && ok=$((ok+1))
+  done
+  [ "$ok" = 4 ]; }
+ck 8 "reversao real: os 4 baselines em workspace/changes/originals/ sao identicos aos blobs do upload" t08
 
 printf '1..%d\n# ref-intacta=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

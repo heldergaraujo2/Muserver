@@ -33,7 +33,7 @@ CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
 ADMINBIN:=$(BUILD)/mu2admin
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -151,6 +151,10 @@ seguranca: $(MUD2)
 # Etapa E: console administrativo local (desenho em docs/ADMIN_CONSOLE.md, escrito antes do codigo).
 admin: $(ADMINBIN) $(MUD2)
 	@bash tests/admin.sh
+
+# Etapa F: inventario e evidencia estatica da camada Lua (BLOCKED: sem interpretador no host).
+lua:
+	@bash tests/lua.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
