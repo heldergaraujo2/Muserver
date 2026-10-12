@@ -17,21 +17,27 @@ LDFLAGS  ?= $(if $(filter 1,$(SAN)),-fsanitize=address,undefined,)
 
 BUILD := out
 SRC   := src/wire.c
-HDR   := include/mu2/mu2.h
+SRV   := src/mud2.c
+CTL   := src/mu2ctl.c
+NCLI  := tests/netclient.c
+HDR   := include/mu2/mu2.h include/mu2/proto.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
+MUD2  := $(BUILD)/mud2
+MU2CTL:= $(BUILD)/mu2ctl
+NETCLI:= $(BUILD)/netclient
 
-.PHONY: all build unit make-sintaxe check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ)
+build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
 
-$(OBJ): $(SRC) $(HDR) | $(BUILD)
-	$(CC) $(CFLAGS) -c $(SRC) -o $@
+$(OBJ): src/wire.c include/mu2/mu2.h | $(BUILD)
+	$(CC) $(CFLAGS) -c src/wire.c -o $@
 
 $(BUILD)/unit.o: tests/unit.c $(HDR) | $(BUILD)
 	$(CC) $(CFLAGS) -c tests/unit.c -o $@
@@ -39,13 +45,30 @@ $(BUILD)/unit.o: tests/unit.c $(HDR) | $(BUILD)
 $(UNIT): $(OBJ) $(BUILD)/unit.o | $(BUILD)
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
+$(MUD2): $(SRV) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) $(SRV) $(OBJ) -o $@ $(LDFLAGS)
+
+$(MU2CTL): $(CTL) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) $(CTL) $(OBJ) -o $@ $(LDFLAGS)
+
+$(NETCLI): $(NCLI) $(OBJ) $(HDR) | $(BUILD)
+	$(CC) $(CFLAGS) $(NCLI) $(OBJ) -o $@ $(LDFLAGS)
+
 unit: $(UNIT)
 	./$(UNIT)
 
 make-sintaxe:
 	@bash tests/make_parse.sh
 
-check: unit make-sintaxe
+# net: a matriz reduzida, rapida o bastante para morar dentro do portao.
+# net-matrix: a matriz completa (5 repeticoes por configuracao), para publicar em reports/.
+net: $(MUD2) $(MU2CTL) $(NETCLI)
+	@NET_QUICK=1 bash tests/net.sh
+
+net-matrix: $(MUD2) $(MU2CTL) $(NETCLI)
+	@NET_QUICK=0 bash tests/net.sh
+
+check: unit make-sintaxe net
 
 # Introspecao usada por tests/make_parse.sh: o Makefile e contrato tambem, e tem de ser lido.
 dump-CC:
