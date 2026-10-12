@@ -140,12 +140,16 @@ ck 11 "execucao repetida e comparavel (TSV identico salvo a duracao)" t11
 
 # --------------------------------------------------------------- portao real
 mkdir -p "$T/real"; env -u GATE_SUITES GATE_OUT="$T/real" bash "$GATE" > "$T/real/stdout" 2>&1; REAL_RC=$?
+# O portao real e cobrado por INVARIANTES, nao por totais exatos: prender "194 assercoes" fazia o
+# caso falhar toda vez que uma suite nova entrava (aconteceu na R-6). O que nao pode mudar e:
+# nenhuma FAIL, nenhum estado desconhecido, e o piso de cobertura da R-8 nunca regredir.
 t12() { [ "$REAL_RC" -eq 0 ] &&
-        [ "$(awk -F'\t' '$2=="PASS"' "$T/real/gate.tsv" | wc -l)" = 9 ] &&
-        [ "$(awk -F'\t' '$2=="FAIL"' "$T/real/gate.tsv" | wc -l)" = 0 ] &&
-        [ "$(awk -F'\t' '$2=="NOT_IMPLEMENTED"' "$T/real/gate.tsv" | wc -l)" = 5 ] &&
-        [ "$(awk -F'\t' 'NR>1{s+=$4} END{print s}' "$T/real/gate.tsv")" = 194 ]; }
-ck 12 "portao real: 9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 194 assercoes, exit 0" t12
+        [ "$(awk -F'\t' 'NR>1 && $2=="FAIL"' "$T/real/gate.tsv" | wc -l)" = 0 ] &&
+        [ "$(awk -F'\t' 'NR>1 && $2!~/^(PASS|FAIL|BLOCKED|NOT_IMPLEMENTED|SKIPPED)$/' \
+             "$T/real/gate.tsv" | wc -l)" = 0 ] &&
+        [ "$(awk -F'\t' 'NR>1 && $2=="PASS"' "$T/real/gate.tsv" | wc -l)" -ge 9 ] &&
+        [ "$(awk -F'\t' 'NR>1{s+=$4} END{print s+0}' "$T/real/gate.tsv")" -ge 194 ]; }
+ck 12 "portao real: exit 0, zero FAIL, estados conhecidos, >=9 PASS e >=194 assercoes (piso R-8)" t12
 
 # referencia ausente: pe/data viram BLOCKED, os selftests continuam PASS, portao nao falha
 mkdir -p "$T/semref"; env -u GATE_SUITES GATE_OUT="$T/semref" MU_REF_DATA="$T/nao-existe" \
@@ -202,6 +206,16 @@ mkdir -p "$T/pos"; env -u GATE_SUITES GATE_OUT="$T/pos" GATE_ONLY=make-sintaxe b
 RC_POS=$?
 t17() { [ "$RC_POS" -eq 0 ] && [ "$(row make-sintaxe "$T/pos")" = PASS ]; }
 ck 17 "apos a reversao da F14 a etapa volta a PASS" t17
+
+# caso 19: etapa duplicada no registro (defeito real que aconteceu: `conform` foi criada sem
+# remover o placeholder NOT_IMPLEMENTED e as assercoes foram contadas em dobro)
+printf 'dup\tsuite\tdup\tMakefile\t1\t-\t30\ttrue\ndup\tsuite\tdup\tMakefile\t1\t-\t30\ttrue\n' \
+  > "$T/reg_dup.tsv"
+mkdir -p "$T/c19"
+env GATE_SUITES="$T/reg_dup.tsv" GATE_OUT="$T/c19" GATE_ROOT="$V2" bash "$GATE" \
+  > "$T/c19/stdout" 2>&1; RC_DUP=$?
+t19() { [ "$RC_DUP" -eq 2 ] && grep -qi 'duplicad' "$T/c19/stdout"; }
+ck 19 "etapa duplicada no registro ⇒ portao sai 2 com erro (nao conta assercao em dobro)" t19
 
 printf '1..%d\n# gate_state=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

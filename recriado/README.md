@@ -19,8 +19,8 @@ backup e regras.
 
 ## Estado (medido, não relatado)
 
-Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · R-5 formatos por medição · **R-8 portão único**.
-Portão único: `make -s gate` → 9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED (194 asserções).
+Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · R-5 formatos por medição · R-8 portão único · **R-6 protocolo (camada 1 comprovada; interop BLOCKED)**.
+Portão único: `make -s gate` → 13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED (229 asserções).
 Portão de build: `make -s check` → 180 asserções, 0 falhas. Teste do portão: `make -s gate-selftest` → 18/18.
 Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`reports/`](reports/).
 
@@ -29,8 +29,11 @@ Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`repor
 ```sh
 cd recriado
 make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient (ASAN+UBSAN+-Werror)
-make -s gate           # PORTAO UNICO: 16 etapas, mesa de estados, 194 assercoes
-make -s gate-selftest  # testa o proprio portao (18 casos, inclui F12-F14)
+make -s gate           # PORTAO UNICO: 19 etapas, mesa de estados, 229 assercoes
+make -s conform        # conformidade do protocolo v2, byte a byte (15 clausulas)
+make -s cfg            # endpoints da configuracao original (segredos redigidos)
+make -s matriz         # valida a matriz de evidencias (linha sem teste reproduzivel = falha)
+make -s gate-selftest  # testa o proprio portao (19 casos, inclui F12-F14)
 make -s check          # unit + make-sintaxe + net + pe + data  (portao de build, sem recursao)
 make -s pe             # PE da referencia: 22 .exe, arquitetura, secoes, imports (MU_REF_DATA)
 make -s data           # .att/.bmd/.ozj/.smd, dados, Lua, backups: invariantes medidos
@@ -76,7 +79,7 @@ scripts/    verify-backup.sh
 out/        build (ignorado pelo git)
 ```
 
-Existem e rodam: `unit`, `make-sintaxe`, `net`, `net-matrix`, `pe`, `data`, `pe-selftest`,
-`data-selftest`, `gate` (portão), `gate-selftest` (teste do portão), `ref-intacta`.
+Existem e rodam: `unit`, `make-sintaxe`, `net`, `net-matrix`, `pe`, `data`, `cfg`, `conform`,
+`matriz`, `*-selftest`, `gate` (portão), `gate-selftest` (teste do portão), `ref-intacta`.
 Ainda **não** existem — no portão aparecem como `NOT_IMPLEMENTED`, nunca como aprovados: `golden`,
-`interop`, `conform`, `fuzz`, `bench` (este último **BLOCKED** por critérios de validade ausentes).
+`interop`, `fuzz`, `bench`. `interop` exige binário original em execução (**BLOCKED**).

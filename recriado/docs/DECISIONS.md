@@ -316,3 +316,39 @@ outro teste — na mesma corrida, `net` reportou 3 falhas em S4 que não se repr
 
 **Consequência.** Regra para qualquer mecanismo de prazo daqui em diante: testar **o que ele deixa
 vivo**, não apenas se dispara no tempo certo.
+
+## D2-25 — nenhum segredo entra em arquivo versionado, e a redação é testada
+
+**Contexto (R-6).** A configuração original guarda credenciais em claro: senha global
+(`JoinServer.ini`), token de bot (`DiscordServer.ini`), hardware id e chaves `EncDecKey1/2`
+(`MHPServer.ini`). Medido: 26 valores sensíveis em 19 arquivos. Qualquer inventário de configuração
+que imprimisse valores copiaria segredo para dentro do repositório.
+
+**Decisão.** `tools/cfg_probe.py` substitui valor de chave sensível por
+`<REDACTED bytes=N forma=...>`. A detecção é por **nome de chave** (substring: `pass`, `senha`,
+`token`, `secret`, `key`, `hardwareid`, `license`, …) **e por forma do valor** (token/GUID com nome
+inocente também cai). `tests/cfg.sh` afirma que todas as linhas sensíveis estão redigidas e que
+nenhuma credencial em claro aparece na saída, com fixture sintética no selftest.
+
+**Motivo.** Regra do projeto: sem token/segredo em arquivo. E a redação não pode ser promessa —
+se ela falhar uma vez, o segredo fica no histórico do git para sempre.
+
+**Consequência.** Os relatórios publicados foram conferidos: 0 linhas sensíveis não redigidas.
+Ação do dono registrada: rotacionar as credenciais do pacote antes de qualquer exposição.
+
+## D2-26 — o registro do portão é contrato: etapa duplicada é erro, e totais exatos não viram asserção
+
+**Contexto (R-6).** Ao criar a etapa `conform`, o placeholder `NOT_IMPLEMENTED` da R-8 não foi
+removido. A mesa imprimiu `conform` duas vezes e contou as 15 asserções em dobro (244 em vez de
+229) — com `PASS` nas duas linhas, nada parecia errado.
+
+**Decisão.** Duas regras:
+1. `run_all.sh` valida o registro antes de rodar: nome de etapa duplicado ⇒ **exit 2** com erro
+   explícito (`gate_state.sh` caso 19 cobra isso).
+2. Teste sobre o portão real não prende totais exatos. Prender "194 asserções" fazia o caso falhar
+   toda vez que uma suíte nova entrava. O caso 12 do `gate-selftest` cobra invariantes: exit 0,
+   zero `FAIL`, nenhum estado fora do conjunto conhecido, e **piso** de cobertura (≥9 `PASS`,
+   ≥194 asserções) para que a R-8 nunca regrida em silêncio.
+
+**Motivo medido.** Contagem em dobro é o tipo de erro que ninguém vê numa mesa verde; e asserção que
+quebra por crescimento de cobertura treina todo mundo a ignorar teste vermelho.

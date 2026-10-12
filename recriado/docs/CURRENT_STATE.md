@@ -1,20 +1,21 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada **R-8**. Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada **R-6**. Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
 | campo | valor |
 |---|---|
-| fase fechada | **R-8** — portão único de qualidade (`run_all.sh` + `gate_state.sh` + `ref_check.sh`) |
-| fases fechadas antes | R-0 (ambiente), R-1 (inventário), R-2 (baseline), R-3 (codec), R-4 (serviço de rede), R-5 (formatos por medição) |
-| próxima fase | **R-6** — protocolo e interoperabilidade (`NEXT_TASK.md`) |
+| fase fechada | **R-6** — protocolo e interoperabilidade (3 camadas separadas; interop BLOCKED) |
+| fases fechadas antes | R-0…R-5, **R-8** portão único |
+| próxima fase | **R-7** — desempenho e limites, com baseline exploratória (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |
-| portão único | `make -s gate` → **9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED, 194 asserções, 19,7 s** |
-| portão de build | `make -s check` → `unit=106`, `make-sintaxe=7`, `net=34`, `pe=14`, `data=19` (180 asserções) |
-| teste do portão | `make -s gate-selftest` → **18/18**, exit 0 (F12/F13/F14 detectadas) |
-| matriz completa | `make -s net-matrix` → `net=36 falhas=0`, 100 conf × 5 reps por perfil, 10m12s (opt-in no portão) |
-| falsificações da rodada | F12/F13/F14 detectadas (ver `reports/r8-relatorio.md` §4) |
+| portão único | `make -s gate` → **13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED, 229 asserções, 31,5 s** |
+| portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
+| teste do portão | `make -s gate-selftest` → **19/19**, exit 0 (F12/F13/F14 + duplicação de etapa) |
+| conformidade do v2 | `make -s conform` → **15/15** cláusulas C-01…C-15 (camada 1; **não** é compatibilidade) |
+| matriz de evidências | `reports/r6-matriz.tsv` — 12 linhas × 9 colunas, validada por `make -s matriz` |
+| falsificações da rodada | F15 (comparador da sonda) e F16 (matriz sem comando) detectadas |
 | benchmark | **BLOCKED** (critérios de validade ausentes; host de 2 vCPUs) |
 | compatibilidade com o original | **não testada, não afirmada** (pergunta da R-6) |
 
@@ -41,6 +42,11 @@ Atualizado no fim da rodada **R-8**. Índice curto e ponto de entrada: `CONTINUI
 | `tests/run_all.sh` | ~230 | **portão**: 16 etapas, 5 estados, mesa + TSV, log por etapa, grupos próprios, `timeout(1)` |
 | `tests/gate_state.sh` | ~200 | 18 casos sobre o próprio portão + falsificações diferenciais F12–F14 |
 | `tests/ref_check.sh` | ~60 | integridade de `MuServer/` medida (árvore git + âncoras de conteúdo de 4 PE) |
+| `tools/cfg_probe.py` | ~150 | inventário de `.ini`: seções, chaves, portas/IPv4, **segredos redigidos** |
+| `tools/wire_probe.py` | ~130 | cliente de conformidade: envia bytes exatos, inclusive quadros inválidos |
+| `tools/matrix_check.py` | ~90 | validador da matriz de evidências (linha sem teste reproduzível ⇒ falha) |
+| `tests/conform.sh` | ~180 | 15 cláusulas do contrato v2 + F15 diferencial |
+| `tests/cfg.sh` | ~120 | 15 casos: endpoints medidos + redação de segredos + autos-teste |
 
 ## Testes: o que roda e o que não existe
 
@@ -62,11 +68,18 @@ opcode desconhecido descartado sem derrubar a conexão.
 Mais as duas asserções da D2-14: leitor atrasado recebe tudo com `queue_full_closes == 0`, e quem não
 lê nada e pede de novo produz o fechamento com `close=queue_full` e contador incrementado.
 
-## Estados do portão (R-8) — o que foi testado e o que não foi
+## Estados do portão (R-6) — o que foi testado e o que não foi
 
-`PASS`: `build`, `unit`, `make-sintaxe`, `net`, `pe`, `data`, `pe-selftest`, `data-selftest`,
-`ref-intacta`. `SKIPPED` (opt-in `GATE_FULL=1`): `net-matrix`, `persistencia`.
-`NOT_IMPLEMENTED`: `golden`, `interop`, `conform`, `fuzz`, `bench`.
+`PASS`: `build`, `unit`, `make-sintaxe`, `net`, `conform`, `matriz`, `cfg`, `cfg-selftest`, `pe`,
+`data`, `pe-selftest`, `data-selftest`, `ref-intacta`. `SKIPPED` (opt-in `GATE_FULL=1`):
+`net-matrix`, `persistencia`. `NOT_IMPLEMENTED`: `golden`, `interop`, `fuzz`, `bench`.
+
+## Endpoints medidos na configuração original (R-6)
+
+ConnectServer **44406 TCP / 55557 UDP** · DataServer 55960 · JoinServer 55970 (aponta
+`127.0.0.1:55557`) · DiscordServer 55990 · MHPServer 55999 · PSGuard 55998 · SQL 1433.
+**Cliente (`MainInfo.ini`) aponta 44405** — divergência registrada como hipótese, não resolvida.
+26 valores sensíveis em claro no pacote original; a sonda redige e o teste cobra a redação.
 Regra: **resumo ausente é `FAIL`**, e `BLOCKED`/`NOT_IMPLEMENTED` nunca viram `PASS`.
 
 ## Medidas da R-5 (todas reproduzíveis pelos probes; ver `reports/r5-*.tsv`)

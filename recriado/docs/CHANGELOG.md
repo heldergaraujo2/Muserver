@@ -1,5 +1,25 @@
 # CHANGELOG do v2
 
+## R-6 — 2026-10-12
+- **Camada 1 (conformidade interna do v2) comprovada**: `tests/conform.sh` com 15 cláusulas
+  C-01…C-15 verificadas byte a byte por `tools/wire_probe.py` (quadros inválidos incluídos):
+  limite 2048, rejeição por `size`, little-endian, opcode desconhecido sem derrubar conexão,
+  fragmentação, D2-17, formato da linha STATS, equivalência `orig`/`mur0`. 15/15.
+- **Camada 2 (compatibilidade observada)**: `tools/cfg_probe.py` mede 19 `.ini`, 655 pares,
+  endpoints 44406/55557 (ConnectServer), 55960, 55970, 55990, 55998, 55999, 1433; **cliente
+  aponta 44405 enquanto o ConnectServer escuta 44406** — divergência registrada como hipótese.
+- **Camada 3 (interop)**: **BLOCKED** — exige binário original em execução; `interop` continua
+  `NOT_IMPLEMENTED` no portão, nunca `PASS`.
+- **Segurança**: 26 valores sensíveis em claro no pacote original; `cfg_probe.py` redige por nome
+  de chave **e** por forma do valor, e `tests/cfg.sh` (15 casos) cobra a redação. Nenhum segredo
+  em arquivo versionado (conferido: 0 linhas não redigidas). Decisão D2-25.
+- **Matriz de evidências** `reports/r6-matriz.tsv` (12 linhas × 9 colunas), validada no portão por
+  `tools/matrix_check.py`: linha sem comando reproduzível ⇒ falha.
+- **Defeito real**: etapa `conform` criada sem remover o placeholder fez a mesa imprimi-la duas
+  vezes e contar asserções em dobro (244 vs 229). Corrigido + guarda de duplicação (exit 2) e
+  invariantes no lugar de totais exatos no `gate-selftest`. Decisão D2-26.
+- Portão: **13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED, 229 asserções**; `gate-selftest` 19/19.
+
 ## R-8 — 2026-10-12
 - **Portão único** `tests/run_all.sh`: 16 etapas em ordem determinística, cinco estados
   (`PASS`/`FAIL`/`BLOCKED`/`NOT_IMPLEMENTED`/`SKIPPED`), mesa legível + TSV, log por etapa,

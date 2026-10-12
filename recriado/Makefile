@@ -27,7 +27,7 @@ MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -81,11 +81,25 @@ pe:
 data:
 	@bash tests/data.sh
 
+# R-6: endpoints e segredos da configuracao original (sonda redige credencial por regra)
+cfg:
+	@bash tests/cfg.sh
+
+cfg-selftest:
+	@SELFTEST_ONLY=1 bash tests/cfg.sh
+
 pe-selftest:
 	@SELFTEST_ONLY=1 bash tests/pe.sh
 
 data-selftest:
 	@SELFTEST_ONLY=1 bash tests/data.sh
+
+# R-6: conformidade do protocolo v2 (byte a byte) e validacao da matriz de evidencias
+conform: $(MUD2) $(MU2CTL) $(NETCLI)
+	@bash tests/conform.sh
+
+matriz:
+	@python3 tools/matrix_check.py reports/r6-matriz.tsv
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que

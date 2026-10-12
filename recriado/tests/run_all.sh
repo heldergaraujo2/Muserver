@@ -61,12 +61,15 @@ pe	suite	pe	tools/pe_probe.py	1	python3	300	make -s pe
 data	suite	data	tools/data_probe.py	1	python3	300	make -s data
 pe-selftest	suite	pe	tests/pe.sh	1	python3	120	make -s pe-selftest
 data-selftest	suite	data	tests/data.sh	1	python3	120	make -s data-selftest
+conform	suite	conform	tests/conform.sh	1	python3	300	make -s conform
+matriz	cmd	-	reports/r6-matriz.tsv	1	python3	60	make -s matriz
+cfg	suite	cfg	tools/cfg_probe.py	1	python3	180	make -s cfg
+cfg-selftest	suite	cfg	tests/cfg.sh	1	python3	120	make -s cfg-selftest
 ref-intacta	suite	ref-intacta	tests/ref_check.sh	1	git	120	bash tests/ref_check.sh
 net-matrix	suite	net	tests/net.sh	0	cc	1800	make -s net-matrix
 persistencia	cmd	-	scripts/verify-backup.sh	0	git	600	bash scripts/verify-backup.sh
 golden	suite	golden	tests/golden.sh	1	-	120	bash tests/golden.sh
 interop	suite	interop	tests/interop.sh	1	-	120	bash tests/interop.sh
-conform	suite	conform	tests/conform.sh	1	-	120	bash tests/conform.sh
 fuzz	suite	fuzz	tests/fuzz.sh	1	-	300	bash tests/fuzz.sh
 bench	cmd	-	bench/bench.c	0	cc	600	make -s bench'
 
@@ -80,6 +83,14 @@ fi
 OPTIN="net-matrix persistencia"
 
 in_list() { case " $1 " in *" $2 "*) return 0;; esac; return 1; }
+
+# Nome duplicado contaria assercoes em dobro e faria a mesa mentir (aconteceu de verdade quando a
+# etapa `conform` foi criada sem remover o placeholder NOT_IMPLEMENTED). Falha alto, antes de rodar.
+DUP=$(printf '%s\n' "$SUITES" | awk -F'\t' 'NF && $1 !~ /^#/ {c[$1]++} END{for (k in c) if (c[k]>1) print k}')
+if [ -n "$DUP" ]; then
+  printf 'run_all: etapas duplicadas no registro: %s\n' "$(printf '%s' "$DUP" | tr '\n' ' ')" >&2
+  exit 2
+fi
 
 # ---------------------------------------------------------------- execução isolada
 # Cada etapa roda como job de fundo com controle de trabalho ligado (`set -m`): o bash coloca o

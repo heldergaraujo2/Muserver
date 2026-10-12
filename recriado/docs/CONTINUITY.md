@@ -22,7 +22,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 |---|---|
 | estado detalhado da última rodada | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | próxima tarefa executável | [NEXT_TASK.md](NEXT_TASK.md) |
-| decisões técnicas D2-01…D2-24 | [DECISIONS.md](DECISIONS.md) |
+| decisões técnicas D2-01…D2-26 | [DECISIONS.md](DECISIONS.md) |
 | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
 | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
 | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
@@ -31,9 +31,11 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | incidente e buscas do v1 perdido | [../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md](../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md) · [../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md](../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md) |
 | pedido de recuperação à plataforma | [../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md](../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md) |
 | identidade do backup e restauração | [../../workspace/backups/MANIFEST.md](../../workspace/backups/MANIFEST.md) |
-| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
+| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r6-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
 | sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
 | portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
+| sondas e suítes da R-6 | [../tools/cfg_probe.py](../tools/cfg_probe.py) · [../tools/wire_probe.py](../tools/wire_probe.py) · [../tools/matrix_check.py](../tools/matrix_check.py) · [../tests/conform.sh](../tests/conform.sh) · [../tests/cfg.sh](../tests/cfg.sh) |
+| matriz de evidências (R-6) | [../reports/r6-matriz.tsv](../reports/r6-matriz.tsv) · [../reports/r6-relatorio.md](../reports/r6-relatorio.md) |
 | contrato e resultado do portão | [../reports/r8-relatorio.md](../reports/r8-relatorio.md) · [../reports/r8-gate.tsv](../reports/r8-gate.tsv) · [../reports/r8-gate-state.tsv](../reports/r8-gate-state.tsv) |
 | relatório da R-5 (observação × hipótese × conclusão) | [../reports/r5-relatorio.md](../reports/r5-relatorio.md) |
 | porta de entrada humana (build/run) | [../README.md](../README.md) |
@@ -45,10 +47,12 @@ de rede + controlador + suíte de rede · **R-5** investigação de formatos por
 `pe`/`data`; nada decodificado, nada compatível afirmado).
 · **R-8** portão único (`run_all.sh` + `gate_state.sh` + `ref_check.sh`; 9 PASS/0 FAIL/194 asserções,
 `gate-selftest` 18/18).
-Próxima: **R-6** — protocolo e interoperabilidade (três camadas separadas: conformidade interna do
-v2, compatibilidade observada, compatibilidade comprovada por interop; a terceira segue `BLOCKED`
-sem cliente original em execução).
-Depois: **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e publicação (contínuas, não fim de fila).
+· **R-6** protocolo e interoperabilidade: camada 1 comprovada (`conform` 15/15), camada 2 em matriz
+de 12 linhas, **camada 3 BLOCKED** (exige binário original em execução).
+Próxima: **R-7** — desempenho e limites. Sem requisito de produção definido pelo dono, a entrega é
+uma **baseline exploratória** claramente rotulada, nunca critério de aceitação; host de 2 vCPUs
+limita conclusões e isso deve constar do relatório.
+Depois: **R-9** documentação e publicação (contínuas) + lacunas de §7 (golden, fuzz, painel).
 
 ## 5. Testes — o que roda, o que não existe
 
@@ -62,12 +66,15 @@ Depois: **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e publicação 
 | data | `make -s data` | 19 casos, 0 falhas |
 | pe-selftest / data-selftest | `make -s pe-selftest` | 4/4 cada, **`blocked=1`** (rodam sem a referência) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **9 PASS, 0 FAIL, 5 NOT_IMPLEMENTED, 2 SKIPPED, 194 asserções, 19,7 s** |
-| teste do portão | `make -s gate-selftest` | **18/18**, exit 0 — inclui F12/F13/F14 |
+| **portão único** | `make -s gate` | **13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED, 229 asserções, 31,5 s** |
+| teste do portão | `make -s gate-selftest` | **19/19**, exit 0 — inclui F12/F13/F14 e etapa duplicada |
+| conformidade v2 | `make -s conform` | **15/15** cláusulas (camada 1; não afirma compatibilidade) |
+| configuração/segredos | `make -s cfg` (`cfg-selftest`) | **15/15** (5/5) — 26 segredos redigidos |
+| matriz de evidências | `make -s matriz` | 12 linhas válidas |
 | integridade da referência | `bash tests/ref_check.sh` | 6/6 |
 | persistência | `bash scripts/verify-backup.sh` (`FULL=1`) | 9/9 (13/13) |
 
-**Não existem** — não tratar como aprovadas: `golden`, `interop`, `conform`, `fuzz`, `bench`
+**Não existem** — não tratar como aprovadas: `golden`, `interop`, `fuzz`, `bench`
 (no portão aparecem como `NOT_IMPLEMENTED`, nunca como `PASS`). `e2e`: não é suíte separada, está em
 `tests/net.sh`.
 
