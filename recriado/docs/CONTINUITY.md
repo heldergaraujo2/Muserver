@@ -22,7 +22,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 |---|---|
 | estado detalhado da última rodada | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | próxima tarefa executável | [NEXT_TASK.md](NEXT_TASK.md) |
-| decisões técnicas D2-01…D2-26 | [DECISIONS.md](DECISIONS.md) |
+| decisões técnicas D2-01…D2-29 | [DECISIONS.md](DECISIONS.md) |
 | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
 | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
 | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
@@ -36,6 +36,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
 | sondas e suítes da R-6 | [../tools/cfg_probe.py](../tools/cfg_probe.py) · [../tools/wire_probe.py](../tools/wire_probe.py) · [../tools/matrix_check.py](../tools/matrix_check.py) · [../tests/conform.sh](../tests/conform.sh) · [../tests/cfg.sh](../tests/cfg.sh) |
 | matriz de evidências (R-6) | [../reports/r6-matriz.tsv](../reports/r6-matriz.tsv) · [../reports/r6-relatorio.md](../reports/r6-relatorio.md) |
+| desempenho e limites (R-7) | [../tests/bench.sh](../tests/bench.sh) · [../tools/bench_check.py](../tools/bench_check.py) · [../tools/rtt_probe.py](../tools/rtt_probe.py) · [../reports/r7-baseline.tsv](../reports/r7-baseline.tsv) · [../reports/r7-relatorio.md](../reports/r7-relatorio.md) |
 | contrato e resultado do portão | [../reports/r8-relatorio.md](../reports/r8-relatorio.md) · [../reports/r8-gate.tsv](../reports/r8-gate.tsv) · [../reports/r8-gate-state.tsv](../reports/r8-gate-state.tsv) |
 | relatório da R-5 (observação × hipótese × conclusão) | [../reports/r5-relatorio.md](../reports/r5-relatorio.md) |
 | porta de entrada humana (build/run) | [../README.md](../README.md) |
@@ -49,10 +50,12 @@ de rede + controlador + suíte de rede · **R-5** investigação de formatos por
 `gate-selftest` 18/18).
 · **R-6** protocolo e interoperabilidade: camada 1 comprovada (`conform` 15/15), camada 2 em matriz
 de 12 linhas, **camada 3 BLOCKED** (exige binário original em execução).
-Próxima: **R-7** — desempenho e limites. Sem requisito de produção definido pelo dono, a entrega é
-uma **baseline exploratória** claramente rotulada, nunca critério de aceitação; host de 2 vCPUs
-limita conclusões e isso deve constar do relatório.
-Depois: **R-9** documentação e publicação (contínuas) + lacunas de §7 (golden, fuzz, painel).
+· **R-7** desempenho e limites: baseline **exploratória** (`bench` 15/15) com critérios declarados
+antes e juiz separado; capacidade absoluta **BLOCKED** (2 vCPUs + ASan); 3 defeitos reais
+corrigidos (D2-27 janela, D2-28 relógio do harness, D2-29 corrida no teste de limite).
+Próxima: **lacunas** — `golden` primeiro (única `NOT_IMPLEMENTED` sem dependência externa), depois
+corpus + `fuzz`, auditoria do laço, segurança; `interop` segue **BLOCKED**; painel só por último.
+**R-9** documentação e publicação continuam a cada rodada.
 
 ## 5. Testes — o que roda, o que não existe
 
@@ -66,7 +69,8 @@ Depois: **R-9** documentação e publicação (contínuas) + lacunas de §7 (gol
 | data | `make -s data` | 19 casos, 0 falhas |
 | pe-selftest / data-selftest | `make -s pe-selftest` | 4/4 cada, **`blocked=1`** (rodam sem a referência) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED, 229 asserções, 31,5 s** |
+| **portão único** | `make -s gate` | **14 PASS, 0 FAIL, 0 BLOCKED, 3 NOT_IMPLEMENTED, 2 SKIPPED, 244 asserções, 32,6 s** |
+| desempenho | `make -s bench` | **15/15**, exit 0 — baseline exploratória, **não** é critério de aceitação |
 | teste do portão | `make -s gate-selftest` | **19/19**, exit 0 — inclui F12/F13/F14 e etapa duplicada |
 | conformidade v2 | `make -s conform` | **15/15** cláusulas (camada 1; não afirma compatibilidade) |
 | configuração/segredos | `make -s cfg` (`cfg-selftest`) | **15/15** (5/5) — 26 segredos redigidos |
@@ -74,9 +78,9 @@ Depois: **R-9** documentação e publicação (contínuas) + lacunas de §7 (gol
 | integridade da referência | `bash tests/ref_check.sh` | 6/6 |
 | persistência | `bash scripts/verify-backup.sh` (`FULL=1`) | 9/9 (13/13) |
 
-**Não existem** — não tratar como aprovadas: `golden`, `interop`, `fuzz`, `bench`
+**Não existem** — não tratar como aprovadas: `golden`, `interop`, `fuzz`
 (no portão aparecem como `NOT_IMPLEMENTED`, nunca como `PASS`). `e2e`: não é suíte separada, está em
-`tests/net.sh`.
+`tests/net.sh`. `bench` deixou de ser placeholder na R-7 e roda como etapa obrigatória.
 
 ## 6. Último commit e publicação
 

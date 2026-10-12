@@ -15,7 +15,7 @@ existe está marcado como medido.
 | R-4 | serviço `mud2` + `mu2ctl` + `tests/net.sh` | `check` verde + matriz + F5/F6/F7 detectadas | **fechada** |
 | R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=19/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
 | R-6 | interoperabilidade e golden | camada 1 comprovada (`conform` 15/15) + matriz de 12 linhas; `interop`/`golden` seguem `NOT_IMPLEMENTED`/`BLOCKED` por falta de binário original em execução | **fechada no que é verificável** 2026-10-12 |
-| R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | baseline exploratória rotulada como tal (sem requisito de produção do dono); medições locais válidas + limitação de host registrada; `BLOCKED` só onde o ambiente impedir | **próxima** |
+| R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | baseline exploratória rotulada como tal: `make -s bench` 15/15, critérios declarados antes (5 reps, drift 25 %), juiz separado (`tools/bench_check.py`), limites B5 medidos; capacidade absoluta **BLOCKED** (2 vCPUs + ASan); 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
 | R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=9 PASS/0 FAIL/194 asserções; `gate-selftest`=18/18 com F12–F14 detectadas | **fechada** 2026-10-12 |
 | R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` atualizado a cada rodada | em curso |
 

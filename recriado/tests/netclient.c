@@ -25,6 +25,19 @@
 #include "mu2/mu2.h"
 #include "mu2/proto.h"
 
+/* Relogio monotônico em ms. Existe porque contar iterações de poll NÃO mede tempo: quando há
+ * dados prontos o poll volta na hora e o orçamento some 100 ms por leitura. Foi medido na R-7:
+ * com --timeout-ms 60000 e 2000 quadros, o cliente desistia depois de ~600 leituras (≈1300 de
+ * 2000 quadros) e o serviço registrava close=write_error — o harness fabricava "perda do
+ * serviço". Prazo é relógio; iteração é iteração. */
+static long mono_ms(void)
+{
+    struct timespec ts;
+    if (clock_gettime(CLOCK_MONOTONIC, &ts) != 0)
+        return 0;
+    return (long)ts.tv_sec * 1000L + ts.tv_nsec / 1000000L;
+}
+
 static void nap_ms(int ms)
 {
     struct timespec ts;
@@ -247,8 +260,8 @@ int main(int argc, char **argv)
     if (expect > 0) {
         uint8_t buf[4 * MU2_MAX_FRAME];
         size_t len = 0;
-        int elapsed = 0;
-        while (got_frames < expect && eof_seen == 0 && elapsed < timeout_ms) {
+        const long t0 = mono_ms();
+        while (got_frames < expect && eof_seen == 0 && (mono_ms() - t0) < (long)timeout_ms) {
             struct pollfd pfd;
             ssize_t n;
             int pr;
@@ -257,7 +270,6 @@ int main(int argc, char **argv)
             pfd.fd = fd;
             pfd.events = POLLIN;
             pr = poll(&pfd, 1, 100);
-            elapsed += 100;
             if (pr <= 0)
                 continue;
             n = recv(fd, buf + len, sizeof buf - len, 0);
@@ -311,8 +323,8 @@ int main(int argc, char **argv)
             }
         }
     } else if (eof_wait_ms > 0) {
-        int waited = 0;
-        while (waited < eof_wait_ms && eof_seen == 0) {
+        const long w0 = mono_ms(); /* mesmo critério do laço de leitura: relógio, não iteração */
+        while ((mono_ms() - w0) < (long)eof_wait_ms && eof_seen == 0) {
             struct pollfd pfd;
             pfd.fd = fd;
             pfd.events = (short)(POLLIN | POLLRDHUP);
@@ -332,7 +344,6 @@ int main(int argc, char **argv)
                 else if (n > 0 && never_read == 0)
                     bytes_in += n; /* respostas que couberam no buffer antes do fechamento */
             }
-            waited += never_read ? 20 : 50;
         }
     }
 

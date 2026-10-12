@@ -71,7 +71,7 @@ persistencia	cmd	-	scripts/verify-backup.sh	0	git	600	bash scripts/verify-backup
 golden	suite	golden	tests/golden.sh	1	-	120	bash tests/golden.sh
 interop	suite	interop	tests/interop.sh	1	-	120	bash tests/interop.sh
 fuzz	suite	fuzz	tests/fuzz.sh	1	-	300	bash tests/fuzz.sh
-bench	cmd	-	bench/bench.c	0	cc	600	make -s bench'
+bench	suite	bench	tests/bench.sh	1	-	600	bash tests/bench.sh'
 
 SUITES=$DEFAULT_SUITES
 if [ -n "${GATE_SUITES:-}" ]; then

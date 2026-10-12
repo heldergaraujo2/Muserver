@@ -1,22 +1,23 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada **R-6**. Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada **R-7**. Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
 | campo | valor |
 |---|---|
-| fase fechada | **R-6** — protocolo e interoperabilidade (3 camadas separadas; interop BLOCKED) |
-| fases fechadas antes | R-0…R-5, **R-8** portão único |
-| próxima fase | **R-7** — desempenho e limites, com baseline exploratória (`NEXT_TASK.md`) |
+| fase fechada | **R-7** — desempenho: baseline exploratória + limites medidos |
+| fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (interop BLOCKED) |
+| próxima fase | **lacunas** — golden tests → corpus/fuzz → auditoria do laço (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |
-| portão único | `make -s gate` → **13 PASS, 0 FAIL, 4 NOT_IMPLEMENTED, 2 SKIPPED, 229 asserções, 31,5 s** |
+| portão único | `make -s gate` → **14 PASS, 0 FAIL, 0 BLOCKED, 3 NOT_IMPLEMENTED, 2 SKIPPED, 244 asserções, 32,6 s** |
 | portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
 | teste do portão | `make -s gate-selftest` → **19/19**, exit 0 (F12/F13/F14 + duplicação de etapa) |
 | conformidade do v2 | `make -s conform` → **15/15** cláusulas C-01…C-15 (camada 1; **não** é compatibilidade) |
 | matriz de evidências | `reports/r6-matriz.tsv` — 12 linhas × 9 colunas, validada por `make -s matriz` |
-| falsificações da rodada | F15 (comparador da sonda) e F16 (matriz sem comando) detectadas |
-| benchmark | **BLOCKED** (critérios de validade ausentes; host de 2 vCPUs) |
+| falsificações da rodada | F18 (validador sem critério de drift) e F19 (contabilidade STATS) no portão |
+| desempenho | `make -s bench` → **15/15**, exit 0; baseline exploratória, **não** é critério de aceitação |
+| capacidade absoluta | **BLOCKED** — 2 vCPUs, cliente e serviço competindo, binário com ASan/UBSan |
 | compatibilidade com o original | **não testada, não afirmada** (pergunta da R-6) |
 
 ## O que existe no código
@@ -39,24 +40,29 @@ Atualizado no fim da rodada **R-6**. Índice curto e ponto de entrada: `CONTINUI
 | `tools/data_probe.py` | ~170 | inventário por extensão, Lua (bytes/linhas), `.txt` de dados, `.dat`, `.bak`, `luaenc` |
 | `tests/pe.sh` | ~90 | 14 casos: invariantes medidos + recusa de entrada inválida + autos-teste |
 | `tests/data.sh` | ~115 | 19 casos: idem para formatos nativos, dados e scripts |
-| `tests/run_all.sh` | ~230 | **portão**: 16 etapas, 5 estados, mesa + TSV, log por etapa, grupos próprios, `timeout(1)` |
-| `tests/gate_state.sh` | ~200 | 18 casos sobre o próprio portão + falsificações diferenciais F12–F14 |
+| `tests/run_all.sh` | ~230 | **portão**: 19 etapas, 5 estados, mesa + TSV, log por etapa, grupos próprios, `timeout(1)`, guarda de etapa duplicada |
+| `tests/gate_state.sh` | ~210 | 19 casos sobre o próprio portão + falsificações diferenciais F12–F14 |
 | `tests/ref_check.sh` | ~60 | integridade de `MuServer/` medida (árvore git + âncoras de conteúdo de 4 PE) |
 | `tools/cfg_probe.py` | ~150 | inventário de `.ini`: seções, chaves, portas/IPv4, **segredos redigidos** |
 | `tools/wire_probe.py` | ~130 | cliente de conformidade: envia bytes exatos, inclusive quadros inválidos |
 | `tools/matrix_check.py` | ~90 | validador da matriz de evidências (linha sem teste reproduzível ⇒ falha) |
 | `tests/conform.sh` | ~180 | 15 cláusulas do contrato v2 + F15 diferencial |
 | `tests/cfg.sh` | ~120 | 15 casos: endpoints medidos + redação de segredos + autos-teste |
+| `tests/bench.sh` | ~210 | **baseline exploratória** (R-7): B1 throughput, B2 agregado, B3 latência, B4 custo por corpo, B5 limite; contabilidade F19 + F18 diferencial |
+| `tools/bench_check.py` | ~120 | juiz dos critérios de validade: drift acima ⇒ `BLOCKED`, perda de quadro ⇒ falha real |
+| `tools/rtt_probe.py` | ~95 | latência ida-e-volta em passo-trancado, p50/p95/p99, aquecimento descartado, rótulo de limite superior |
 
 ## Testes: o que roda e o que não existe
 
-Rodam e passam: `unit` (106/0), `make-sintaxe` (7/0), `net` (34/0), `net-matrix` (36/0),
-`pe` (14/0), `data` (19/0), `pe-selftest`/`data-selftest` (4/4 cada, `escopo=selftest` —
-cobertura reduzida por decisão, não bloqueio), `gate` (9 PASS/0 FAIL), `gate-selftest` (18/18),
-`ref-intacta` (6/6), `verify-backup.sh` (9/9 e `FULL=1` 13/13).
-**Não existem** (não marcar como aprovados): `golden`, `interop`, `conform`, `fuzz`,
-`gate_state`, `run_all.sh`. `bench` existe como intenção e está **BLOCKED**. `e2e` não é suíte
-separada: os cenários ponta a ponta estão dentro de `tests/net.sh`.
+Rodam e passam (medido nesta rodada): `unit` (106/0), `make-sintaxe` (7/0), `net` (34/0),
+`pe` (14/0), `data` (19/0), `pe-selftest`/`data-selftest`/`cfg-selftest` (4/4, 4/4, 5/5),
+`conform` (15/15), `cfg` (15/15), `matriz` (validador, exit 0), `bench` (15/15),
+`ref-intacta` (6/6), `gate` (**14 PASS/0 FAIL/244 asserções**), `gate-selftest` (19/19),
+`verify-backup.sh` (9/9 e `FULL=1` 13/13). `net-matrix` (36/0) e `persistencia` existem mas são
+*opt-in* (`GATE_FULL=1`) — no portão aparecem como `SKIPPED`, nunca como `PASS`.
+**Não existem** (não marcar como aprovados): `golden`, `interop`, `fuzz`. Os três estão no
+registro do portão como `NOT_IMPLEMENTED` — estado que nunca vira `PASS`.
+`e2e` não é suíte separada: os cenários ponta a ponta estão dentro de `tests/net.sh`.
 
 ## Cenários de rede cobertos (S1…S13)
 

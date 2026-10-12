@@ -27,7 +27,7 @@ MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -100,6 +100,12 @@ conform: $(MUD2) $(MU2CTL) $(NETCLI)
 
 matriz:
 	@python3 tools/matrix_check.py reports/r6-matriz.tsv
+
+# R-7: baseline EXPLORATORIA de desempenho. Nao faz parte de `check` de proposito: e sensivel ao
+# ruido do host e pode sair BLOCKED por drift, o que atrapalharia um alvo de verificacao rapida.
+# O portao (`make gate`) a executa como etapa obrigatoria.
+bench: $(MUD2) $(MU2CTL) $(NETCLI)
+	@bash tests/bench.sh
 
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que

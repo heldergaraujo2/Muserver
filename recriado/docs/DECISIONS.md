@@ -352,3 +352,68 @@ removido. A mesa imprimiu `conform` duas vezes e contou as 15 asserções em dob
 
 **Motivo medido.** Contagem em dobro é o tipo de erro que ninguém vê numa mesa verde; e asserção que
 quebra por crescimento de cobertura treina todo mundo a ignorar teste vermelho.
+
+## D2-27 — baseline de desempenho é exploratória, com critérios declarados antes e juiz separado de quem mede
+
+**Contexto (R-7).** Não existe requisito de desempenho definido pelo dono. Sem critério declarado,
+qualquer número vira meta de facto, e um host de 2 vCPUs produz spread de 40 % entre repetições.
+
+**Decisão.** Três regras:
+1. Os critérios de validade ficam **no topo do roteiro e são declarados antes de rodar**: 5
+   repetições, 1ª descartada como aquecimento, drift máximo de 25 % em relação à mediana.
+2. Quem mede não julga: `tools/bench_check.py` é um programa separado de `tests/bench.sh`, com
+   códigos de saída que distinguem natureza — `1` drift acima do declarado ⇒ **`BLOCKED`** por
+   ambiente (número não publicado, portão continua verde), `3` perda de quadro ⇒ **falha real**.
+   Perda **e** drift alto é falha, não ambiente: classificar como `BLOCKED` esconderia o defeito.
+3. Afrouxar critério para o número passar é falsificação. Quando a janela de 2 000 quadros deu
+   drift de 40,4 %, o que se corrigiu foi a **janela** (20 000 quadros ⇒ 4,3–17,2 %), não o limite
+   de 25 %. O número antigo ficou registrado em `reports/r7-relatorio.md` §5, D-2.
+
+**Motivo.** `BLOCKED` por ambiente é informação; um número instável publicado como baseline é
+mentira com casa decimal. A F18 existe para provar que o critério está lá: com a comparação do
+drift neutralizada em cópia temporária, o validador deixa passar um drift de 300 %.
+
+**Consequência.** ~1 execução em 15 sai `BLOCKED` por drift (medido). Isso é o comportamento
+projetado, não instabilidade a esconder.
+
+## D2-28 — prazo é relógio, nunca contagem de iterações
+
+**Contexto (R-7).** `tests/netclient.c` somava o *timeout* do `poll` a um contador de prazo:
+
+```c
+pr = poll(&pfd, 1, 100);
+elapsed += 100;      /* com dados prontos o poll volta na hora: 100 ms de orçamento por leitura */
+```
+
+Com `--timeout-ms 60000` e 2 000 quadros, o cliente desistia após ~600 leituras. Medido: 3 de 5
+repetições terminaram com 1 371, 1 311 e 1 238 quadros de 2 000, e o serviço registrou
+`close=write_error` com `rejects=4`. **O harness fabricava "perda do serviço"**: o cliente
+desistia, o socket fechava, e a escrita seguinte do serviço falhava.
+
+**Decisão.** Prazo se mede com `clock_gettime(CLOCK_MONOTONIC)` nos dois laços que tinham o padrão
+(leitura e espera de EOF). Contador de iteração não é relógio, e o mesmo padrão foi procurado e
+corrigido nos dois lugares, não só no que falhou.
+
+**Motivo.** A classe já tinha aparecido na R-4 (`--timeout-ms 5000` → 107/120) e foi tratada como
+"orçamento apertado". Era causa raiz: qualquer teste de carga com este cliente media o harness.
+
+**Consequência.** Depois da correção: 5/5 repetições com 20 000 quadros completos, `rejects=0`,
+zero `write_error`. As 34 asserções de `net` e as 15 de `conform` — que dependem deste cliente —
+continuam verdes.
+
+## D2-29 — teste que aposta em corrida não é teste: condição de contorno se fixa
+
+**Contexto (R-7).** O cenário de limite B5 (pipeline além do que os buffers absorvem) falhou 1 vez
+em 15 execuções: sem limitar o buffer de recepção do cliente, os 4 104 000 B do pipeline às vezes
+cabiam, e o `queue_full` simplesmente não acontecia (a conexão terminava em `socket_error`).
+
+**Decisão.** A condição que produz o fenômeno medido é **parâmetro do teste**, não aposta: B5 fixa
+`--rcvbuf 1024` (efetivo 2 304 B). Com isso, 8 de 8 e depois 15 de 15 execuções reproduzem
+`close=queue_full`.
+
+**Motivo.** Um teste intermitente treina todo mundo a reexecutar até ficar verde — e é assim que
+`gate-selftest` caso 13 (que roda o portão real) passou a falhar 1 vez em 3.
+
+**Consequência.** O limite medido é condicional e está rotulado como tal: "com `rcvbuf` efetivo de
+2 304 B e corpo de 2048 B, 551 quadros passam antes do fechamento". Sem o `rcvbuf` no rótulo, o
+número não significa nada.

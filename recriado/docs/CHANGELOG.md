@@ -1,5 +1,31 @@
 # CHANGELOG do v2
 
+## R-7 — 2026-10-12
+- **Baseline exploratória** (não é critério de aceitação: não existe requisito de desempenho do
+  dono). `tests/bench.sh` com 5 cenários e critérios de validade declarados antes de rodar
+  (5 repetições, 1ª descartada, drift máximo 25 %), julgados por `tools/bench_check.py` —
+  separado de quem mede: drift acima ⇒ `BLOCKED` por ambiente; perda de quadro ⇒ falha real.
+- **Números** (`reports/r7-baseline.tsv`): B1 1 conexão ≈ **215 000 quadros/s** (20 000/20 000 em
+  5 de 5); B2 8 conexões ≈ **250 000 quadros/s** agregados — **não** é 8×, quem limita são as
+  2 vCPUs; B3 latência **p50 39,5 / p95 60,7 / p99 75,3 µs** (limite superior: inclui o cliente
+  Python); B4 corpo 64 vs 2048 **não separável** com este cliente (49,7 vs 55,7 µs);
+  B5 **limite**: 551 quadros de 2048 B antes de `close=queue_full`, com resposta parcial
+  (`out=684/2052`), cliente vendo o FIN e serviço sobrevivendo.
+- **Defeito real corrigido (D2-28)**: `netclient` somava o *timeout* do `poll` ao contador de
+  prazo, então desistia após ~600 leituras e o serviço registrava `close=write_error` — o harness
+  **fabricava perda do serviço** (3 de 5 repetições com 1 371/1 311/1 238 de 2 000 quadros).
+  Relógio monotônico nos dois laços; depois, 5/5 e `rejects=0`.
+- **Método corrigido (D2-27)**: janela de 2 000 quadros (~20 ms) deu drift de **40,4 %**; o que se
+  corrigiu foi a janela (20 000 quadros ⇒ 4,3–17,2 %), **não** o limite declarado de 25 %.
+- **Teste intermitente corrigido (D2-29)**: B5 falhava 1 em 15 porque apostava em corrida; com
+  `--rcvbuf 1024` fixado, 8/8 e depois 15/15. Era o que fazia o caso 13 do `gate-selftest` falhar.
+- **Falsificações**: **F18** (validador sem o critério de drift deixa passar drift de 300 %) e
+  **F19** (contabilidade exata: o quadro STATS conta no `frames` — B1 `100 001 = 100 000 + 1`),
+  ambas permanentes no portão.
+- Etapa `bench` entrou no portão **removendo o placeholder no mesmo ato** (guarda de duplicação).
+  Portão: **14 PASS, 0 FAIL, 0 BLOCKED, 3 NOT_IMPLEMENTED, 2 SKIPPED, 244 asserções, 32,6 s**;
+  `gate-selftest` 19/19.
+
 ## R-6 — 2026-10-12
 - **Camada 1 (conformidade interna do v2) comprovada**: `tests/conform.sh` com 15 cláusulas
   C-01…C-15 verificadas byte a byte por `tools/wire_probe.py` (quadros inválidos incluídos):
