@@ -53,7 +53,11 @@ mkdir -p "$LOGDIR"
 # nome | tipo | rotulo_do_resumo | arquivo_exigido | obrigatoria | ferramenta | timeout_s | comando
 #   tipo=suite  exige a linha `# <rotulo>=<n> falhas=<f> [blocked=<b>]`; resumo ausente e FAIL
 #   tipo=cmd    e pre-condicao (compilar, por exemplo): vale o exit code, nao ha assercao
-DEFAULT_SUITES='build	cmd	build	out/wire.o	1	cc	600	make -s build
+# A etapa `build` exige um ARQUIVO-FONTE, nao o proprio produto: com `out/wire.o` como exigencia ela
+# virava NOT_IMPLEMENTED em arvore limpa (clone novo, out/ vazio) e a rodada degradava em silencio —
+# medido no repositorio publicado: PASS=10, BLOCKED=9, 203 assercoes, exit 0. Um portao que passa por
+# nao ter construido nada e' exatamente o verde falso que este contrato existe para impedir.
+DEFAULT_SUITES='build	cmd	build	src/wire.c	1	cc	600	make -s build
 unit	suite	unit	tests/unit.c	1	cc	180	make -s unit
 make-sintaxe	suite	make-sintaxe	Makefile	1	make	120	make -s make-sintaxe
 net	suite	net	tests/net.sh	1	cc	420	make -s net

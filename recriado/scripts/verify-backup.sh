@@ -94,6 +94,11 @@ if [ -f "$bundle" ]; then
     div_ok=${DIV_OK:-'docs/ README.md reports/README.md reports/rf-lua-protocolo.md tests/admin.sh tests/fuzz.sh scripts/verify-backup.sh'}
     div=""
     for p in $(printf '%s\n' "$snap"); do
+      # workspace/backups/ fica fora por construcao: o snapshot e' um commit ANTERIOR ao proprio
+      # bundle, entao o bundle (e o MANIFEST que o descreve) sempre divergem dele. Isso nao e'
+      # deriva silenciosa — e' a razao de o snapshot nao conter a si mesmo. A integridade desses
+      # dois arquivos e' provada pelo sha256 do caso 4 e pela ponta conferida no caso 6.
+      case "$p" in workspace/backups/*) continue;; esac
       h=$(git rev-parse "HEAD:${PFX}${p}" 2>/dev/null) || continue
       s=$(cd "$tmp/clone" && git rev-parse "HEAD:$p" 2>/dev/null) || continue
       [ "$h" = "$s" ] || div="$div $p"
