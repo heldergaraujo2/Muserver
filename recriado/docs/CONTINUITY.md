@@ -90,12 +90,13 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 Preencher no fim de cada rodada (é dado volátil, junto com §7):
 
 - HEAD de partida desta rodada: `2ca5a04` (R-6/Etapa A), na branch `arena/cf1de8ce-muserver`.
-  A rodada das lacunas produziu, em ordem: `a300000` (golden), `04ac99d` (Etapa F/Lua + retratações),
-  `2ca5a04` (interop) — e o commit de conteúdo desta rodada vem depois do documento de
-  rastreabilidade e das atualizações de `docs/`.
-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` conferido no fim da rodada
-- snapshot: `mu2-snapshot`, bundle em `workspace/backups/mu2-v2.bundle` (63 arquivos na rodada da
-  R-7; regenerado nesta rodada — base, tamanho e sha256 no `MANIFEST.md`)
+  A rodada das lacunas produziu, em ordem: `f58ebb6` (fuzz), `f1d259d` (formatos), `531a8ec`
+  (segurança), `206fa14` (console), `a300000` (golden), `04ac99d` (Lua + retratações), `2ca5a04`
+  (interop) e `ee9510f` (rastreabilidade + documentação).
+- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → conferido no fim da rodada
+- snapshot: `mu2-snapshot` @ `b609577` (**82 arquivos**), bundle `workspace/backups/mu2-v2.bundle`
+  com **247 621 B** e sha256 `cff7baea43fab189…`; regenerado nesta rodada a partir de
+  `ee9510f:recriado`, `git bundle verify` ok
 - `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
 - `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
 
