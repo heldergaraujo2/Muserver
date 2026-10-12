@@ -109,6 +109,42 @@ ck 16 "selftest: .att invalido (tamanho e marcador) e recusado, exit 1" t16
 ck 17 "selftest: o probe reporta tamanho real de cada arquivo recusado" t17
 ck 18 "selftest: MU_REF_DATA inexistente sai 2 nos tres probes" t18
 ck 19 "autos-teste: expectativa errada e detectada" t19
+
+# ---- Etapa C: a chave XOR-3 do .bmd do MuEditor passou de "plausivel" a "confirmada".
+# A evidencia nova nao e imprimibilidade (isso o caso 7 ja media): e uma ancora de conteudo que nao
+# aparece por acaso — o caminho "Data\Item\" no offset 12 — mais a estrutura de banco de registros
+# fixos (corridas longas de NUL). O que continua NAO decodificado e o layout dos registros: nem
+# campos, nem tamanhos, nem semantica. Decodificar a camada de ofuscacao nao e decodificar o formato.
+if [ "$REF" = 1 ]; then
+t20() { python3 - "$MU_REF_DATA/Tools/Editores/MuEditor/Data/Item.bmd" <<'PY'
+import pathlib, sys
+b = pathlib.Path(sys.argv[1]).read_bytes()
+k = bytes.fromhex("abfccf")
+d = bytes(b[i] ^ k[i % 3] for i in range(len(b)))
+sys.exit(0 if d[12:22] == b"Data\\Item\\" else 1)
+PY
+}
+ck 20 "bmd: XOR-3 com abfccf revela o caminho 'Data\Item\' no offset 12 (ancora de conteudo)" t20
+t21() { python3 - "$MU_REF_DATA/Tools/Editores/MuEditor/Data/Item.bmd" <<'PY'
+import collections, pathlib, sys
+b = pathlib.Path(sys.argv[1]).read_bytes()
+k = bytes.fromhex("abfccf")
+d = bytes(b[i] ^ k[i % 3] for i in range(len(b)))
+imp = sum(1 for c in d if 32 <= c < 127) / len(d)
+run = best = 0
+for c in d:
+    run = run + 1 if c == 0 else 0
+    best = max(best, run)
+c3 = collections.Counter(d[i:i + 3] for i in range(0, len(d) - 3, 3))
+top, qt = c3.most_common(1)[0]
+# valores medidos do artefato: imprimivel 0.6715, maior corrida de NUL 255, padrao dominante
+# 64 57 33 ("dW3", rotacao do preenchimento "W3d") com 108504 ocorrencias. O 255 exato SUGERE
+# comprimento, mas isso e hipotese: o layout de registros continua nao decodificado.
+sys.exit(0 if imp >= 0.60 and best == 255 and top == b"dW3" and qt > 100000 else 1)
+PY
+}
+ck 21 "bmd: decodificado = 67,2% imprimível, 30% NUL, maior corrida 255 (medido; layout segue não decodificado)" t21
+fi
 rm -rf "$T"
 
 # blocked=1 so quando a referencia FALTA (bloqueio ambiental). Em SELFTEST_ONLY os casos da
