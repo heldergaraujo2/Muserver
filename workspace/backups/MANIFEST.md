@@ -2,7 +2,7 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (22 arquivos), num commit orphan unico (branch local `mu2-snapshot`) |
+| conteudo | arvore `recriado/` inteira (29 arquivos), num commit orphan unico (branch local `mu2-snapshot`) |
 | origem | `git commit-tree 5f453d4:recriado` (fim da rodada R-4) |
 | branch do snapshot | `mu2-snapshot` @ `79969ff` (semente de migracao `mu2-v2` segue local, com historia) |
 | arquivo | `mu2-v2.bundle` (66075 bytes) |
