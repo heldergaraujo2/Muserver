@@ -1,5 +1,23 @@
 # CHANGELOG do v2
 
+## R-5 — 2026-10-12
+- **Sondas de formato** em `tools/` (D2-19): `pe_probe.py` (parser PE próprio: DOS/NT/COFF/optional,
+  seções, entropia, imports, `--keywords`), `att_probe.py`, `mb_probe.py`, `data_probe.py`. Python
+  3.11 só com stdlib, somente leitura sobre `MU_REF_DATA`, saída TSV determinística e sem caminho
+  absoluto do host.
+- **Suítes novas:** `tests/pe.sh` (14 casos) e `tests/data.sh` (19 casos), cada uma com invariantes
+  medidos + recusa de entrada inválida + autos-teste; modo `SELFTEST_ONLY=1` roda sem a referência
+  e declara `blocked=1`. Alvos `pe`, `data`, `pe-selftest`, `data-selftest`; `check` agora é
+  `unit make-sintaxe net pe data` → **180 asserções, 0 falhas, 19,4 s**.
+- **Medidas publicadas:** `reports/r5-pe.tsv`, `r5-formatos-att.tsv`, `r5-formatos-modelo.tsv`,
+  `r5-dados.tsv` e o relatório `r5-relatorio.md` (observação × hipótese × conclusão × limitação).
+- **Falsificações F8–F11** (sonda fingindo conformidade, aceitando não-PE, vazando caminho
+  absoluto, perdendo determinismo): todas detectadas com exit ≠ 0 e revertidas com sha256 conferido.
+- **Decisões novas:** D2-19, D2-20, D2-21.
+- **Correção de documentação:** a auditoria da R-3 registrava "3 `.enc`"; mediu-se **0 arquivos
+  `.enc`** — eram 3 *matches* de `*luaenc*`, hoje 2 (`LuaEncryptorTool.exe` + `.pdb`).
+- **Nada alterado em `MuServer/`** (árvore `fade04615fab`, 10 021 arquivos, somente leitura).
+
 ## R-0/R-1/R-2 — 2026-10-12
 - Aberta a arvore `recriado/` (v2) dentro do repositorio rastreado da sessao, com
   `.gitignore` proprio, `reports/README.md` (regra de extensao por causa dos padroes de

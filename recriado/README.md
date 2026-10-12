@@ -19,8 +19,8 @@ backup e regras.
 
 ## Estado (medido, não relatado)
 
-Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · **R-4 serviço de rede**.
-Portão: `make -s check` → `unit=106 falhas=0`, `make-sintaxe=7 falhas=0`, `net=34 falhas=0`.
+Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · **R-5 formatos por medição**.
+Portão: `make -s check` → `unit=106`, `make-sintaxe=7`, `net=34`, `pe=14`, `data=19` — 180 asserções, 0 falhas.
 Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`reports/`](reports/).
 
 ## Compilar, rodar, testar
@@ -28,7 +28,11 @@ Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`repor
 ```sh
 cd recriado
 make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient (ASAN+UBSAN+-Werror)
-make -s check          # unit + make-sintaxe + net  (o portão da fase)
+make -s check          # unit + make-sintaxe + net + pe + data  (o portao da fase)
+make -s pe             # PE da referencia: 22 .exe, arquitetura, secoes, imports (MU_REF_DATA)
+make -s data           # .att/.bmd/.ozj/.smd, dados, Lua, backups: invariantes medidos
+make -s pe-selftest    # so a recusa de entrada invalida, sem tocar na referencia de 615 MB
+make MU_REF_DATA=/caminho/do/pacote -s data   # a referencia e externa ao v2 por decisao
 make -s net-matrix     # matriz completa de backpressure (100 conf x 5 reps por perfil, ~10 min)
 make SAN=0 build       # sem sanitizadores: só para comparar custo, nunca para publicar resultado
 

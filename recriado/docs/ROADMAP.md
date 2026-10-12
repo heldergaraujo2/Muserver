@@ -13,10 +13,10 @@ existe está marcado como medido.
 | R-2 | baseline e ritual de persistência | `verify-backup.sh` verde | fechada |
 | R-3 | codec de enquadramento | `unit` 106/0 + `make-sintaxe` + falsificações | fechada |
 | R-4 | serviço `mud2` + `mu2ctl` + `tests/net.sh` | `check` verde + matriz + F5/F6/F7 detectadas | **fechada** |
-| R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`, `mu2ctl` de dados) | `pe`/`data`/`conform` com autos-teste, `MU_REF_DATA` apontando para a referência | próxima |
+| R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=19/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
 | R-6 | interoperabilidade e golden | `interop` + `golden` verdes, dourados regenerados do pacote conferido, nada copiado do v1 | pendente |
 | R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | vermelho é aceitável **se for recusa por ambiente**, reportando `BLOCKED` e a causa | BLOCKED |
-| R-8 | portão único (`scripts/run_all.sh` + `tests/gate_state.sh`) | `gate-selftest` verde primeiro: portão que não sabe falhar não é portão | pendente |
+| R-8 | portão único (`scripts/run_all.sh` + `tests/gate_state.sh`) | `gate-selftest` verde primeiro: portão que não sabe falhar não é portão | **próxima** |
 | R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` atualizado a cada rodada | em curso |
 
 ## Metas por categoria

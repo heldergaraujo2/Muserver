@@ -1,50 +1,54 @@
 # NEXT_TASK — v2 — próxima rodada
 
-## Tarefa executável: R-5 — inspeção reproduzível do pacote original
+## Tarefa executável: R-8 — portão único (por que antes da R-6)
 
-Objetivo: **descobrir, não supor**. Tudo o que a reconstrução afirma sobre o MU Server original tem de
-sair de ferramenta reproduzível rodando sobre `MU_REF_DATA` (padrão: `/home/user/Muserver/MuServer`),
-**somente leitura**. Nenhum arquivo da referência é modificado, movido ou executado.
+A ordem do `ROADMAP.md` é execução, não aprovação: a R-6 (`interop`/`golden`) depende de evidência
+de protocolo que ainda não existe, e a R-7 continua **BLOCKED** pelos critérios de validade. O que
+dá para fechar agora, com dependência só do que já está verde, é o **portão único** — e ele é
+pré-requisito para confiar em qualquer rodada seguinte.
 
-### Escopo (nesta ordem)
+### Estado inicial a verificar antes de escrever qualquer linha
+1. `git status --porcelain` limpo; `git rev-parse HEAD` == `git ls-remote origin <branch>`.
+2. `make -s check` verde: `unit=106`, `make-sintaxe=7`, `net=34`, `pe=14`, `data=19` (180 asserções).
+3. `MuServer/` intacta: `git ls-tree HEAD MuServer` = `fade04615fab…`, 10 021 arquivos.
+4. `bash scripts/verify-backup.sh` = 9/9.
 
-1. `tools/pe_probe.py` — cabeçalho PE dos executáveis: máquina, timestamp, seções com tamanho/entropia,
-   imports/exports, e procura por strings e constantes que interessem ao protocolo (tamanhos de
-   cabeçalho, opcodes, nomes de função de rede). Saída determinística em TSV.
-2. `tools/att_probe.py`, `tools/mb_probe.py`, `tools/data_probe.py` — formatos `.att`, `.bmd`/`.smd` e
-   dados de `Data/` (itens, monstros, mapas, Lua): assinatura, tamanho, estrutura aparente, relações
-   entre arquivos. Sem alterar nada.
-3. `tests/pe.sh` (`pe` + `pe-selftest`) e `tests/data.sh` (`data` + `data-selftest`) — o autos-teste é
-   obrigatório: cada probe tem de falhar de forma visível quando recebe entrada inválida.
-4. `reports/r5-pe.tsv`, `reports/r5-formatos.tsv`, `reports/r5-dados.tsv` — com comando, hash do
-   arquivo de entrada e o que é **observação**, **hipótese** e **conclusão**, separados.
+### O que construir
+- **`scripts/run_all.sh`** — roda cada suíte em ordem fixa, captura `exit code` e a linha de resumo
+  (`# <nome>=<n> falhas=<f> blocked=<b>`) de cada uma, e imprime uma mesa final
+  `nome | estado | asserções | falhas | bloqueado | segundos`.
+  Estados: `PASS` (exit 0 e `falhas=0` e `blocked=0`) · `FAIL` (exit ≠ 0 ou `falhas>0`) ·
+  `BLOCKED` (exit 0 com `blocked>0`, ou suíte que declara o bloqueio) · `NOT_IMPLEMENTED`
+  (suíte listada no plano mas inexistente — `golden`, `interop`, `conform`, `fuzz`, `bench`).
+  **Regras herdadas:** sem `set -e`; `blocked != aprovado`; `FAIL` obrigatório ⇒ exit ≠ 0 do portão;
+  nada de `pkill -f` (usar `PID=$!` + `kill -TERM "$PID"` + `wait "$PID"`).
+- **`tests/gate_state.sh`** — testa **o próprio portão**, nesta ordem:
+  1. `gate-selftest` primeiro: injeta uma suíte sintética que falha e verifica que `run_all.sh`
+     sai ≠ 0 e marca `FAIL` (portão que não sabe falhar não é portão);
+  2. injeta suíte que declara `blocked=1` e verifica que o estado sai `BLOCKED`, **não** `PASS`, e
+     que o portão **não** sai ≠ 0 por isso;
+  3. injeta suíte inexistente e verifica `NOT_IMPLEMENTED`;
+  4. roda o portão real e verifica que a mesa bate com os números das suítes (180 asserções).
+- Alvo `make gate` (e `gate-selftest`), sem colocar `gate` dentro de `check` para não recursão.
 
-### Regras da fase
+### Critérios de pronto (todos mensuráveis)
+- `make -s gate` imprime a mesa e sai 0 com o estado atual do repositório.
+- `bash tests/gate_state.sh` verde, com o `gate-selftest` executado **antes** do portão real.
+- Uma suíte listada e inexistente aparece como `NOT_IMPLEMENTED` — nunca como `PASS`.
+- Relatório `reports/r8-gate.tsv` + `reports/r8-relatorio.md` com comando, saída, exit code e estado.
+- `MuServer/` intacta no diff; `verify-backup.sh` 9/9; push conferido por `git ls-remote`.
 
-- Ausência de string **não** é ausência de recurso no binário (pode estar ofuscado, comprimido ou
-  construído em tempo de execução). Escrever isso explicitamente onde ocorrer.
-- Tamanho de arquivo **não** é limite de formato. Nenhum limite é declarado sem evidência de estrutura.
-- Os 4 `.bak` de `DB/` são inventariados (tamanho, cabeçalho, hash) — **não** restaurados nem abertos
-  como banco.
-- Nada de executar binário do pacote (nem sob Wine) nesta fase.
-- Saída determinística: sem timestamps nem caminhos absolutos do host no conteúdo dos relatórios.
+### Proibido nesta rodada
+- Declarar `golden`/`interop`/`conform` como aprovados (não existem).
+- Transformar `BLOCKED` em `PASS` para a mesa ficar bonita.
+- Mexer em `MU2_MAX_BODY`, buffers ou limiares para suíte passar.
+- `git add -A`, `reset --hard`, `clean -fd`, `push --force`.
 
-### Critérios de saída
-
-`make -s check` continua verde (unit 106/0, make-sintaxe 7/0, net 34/0); `pe`/`pe-selftest` e
-`data`/`data-selftest` verdes; relatórios com evidência e limitações; e **falsificações**:
-(i) apontar o probe para uma cópia truncada em diretório temporário tem de produzir recusa, não
-inventar estrutura; (ii) entregar um arquivo que não é PE tem de ser recusado como não-PE;
-(iii) o autos-teste tem de falhar quando o valor esperado é trocado de propósito.
-Reverter qualquer mutação e conferir `git status --porcelain` vazio.
-
-### Fora de escopo da R-5
-
-`interop`/`golden` (R-6), `bench` (R-7, continua BLOCKED), `run_all.sh`/`gate_state` (R-8), painel
-administrativo e assistente de publicação (só depois de R-5/R-6, e nunca com controle sobre
-`MuServer/`).
-
----
+### Falsificações obrigatórias da R-8
+- F12: `run_all.sh` ignora o exit code de uma suíte ⇒ `gate_state.sh` tem de falhar.
+- F13: `run_all.sh` trata `blocked=1` como `PASS` ⇒ tem de falhar.
+- F14: uma suíte real é forçada a falhar (mutação revertida em seguida, com sha256 conferido) ⇒
+  o portão sai ≠ 0.
 
 ## Ação do dono (manual) — para o v2 ter repositório próprio e publicável
 

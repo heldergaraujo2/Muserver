@@ -27,7 +27,7 @@ MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
 
-.PHONY: all build unit make-sintaxe net net-matrix check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -68,7 +68,26 @@ net: $(MUD2) $(MU2CTL) $(NETCLI)
 net-matrix: $(MUD2) $(MU2CTL) $(NETCLI)
 	@NET_QUICK=0 bash tests/net.sh
 
-check: unit make-sintaxe net
+# R-5: sondas de formato. MU_REF_DATA e a referencia somente leitura (o pacote original).
+# Se ela nao existir, pe/data imprimem BLOCKED e saem 0: bloqueado nao e aprovado, mas tambem
+# nao e falha do codigo. Os alvos *-selftest rodam so a recusa de entrada invalida, sem tocar
+# na referencia, e por isso funcionam num restore de bundle.
+MU_REF_DATA ?= $(CURDIR)/../MuServer
+export MU_REF_DATA
+
+pe:
+	@bash tests/pe.sh
+
+data:
+	@bash tests/data.sh
+
+pe-selftest:
+	@SELFTEST_ONLY=1 bash tests/pe.sh
+
+data-selftest:
+	@SELFTEST_ONLY=1 bash tests/data.sh
+
+check: unit make-sintaxe net pe data
 
 # Introspecao usada por tests/make_parse.sh: o Makefile e contrato tambem, e tem de ser lido.
 dump-CC:

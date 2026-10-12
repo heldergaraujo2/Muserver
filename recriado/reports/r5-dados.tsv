@@ -1,0 +1,584 @@
+
+# === inventario de  ===
+diretorio	extensao	arquivos	bytes
+.	(sem)	1	92
+.	.ini	1	105
+ConnectServer	.dat	1	1109
+ConnectServer	.dll	2	1191584
+ConnectServer	.exe	2	760832
+ConnectServer	.ini	1	546
+ConnectServer/LOG	.txt	282	36091616
+DB	.bak	4	50373632
+DB	.rar	1	580612
+DB	.reg	2	1648
+Data	.dat	1	2453
+Data	.txt	5	183424
+Data/CashShop	.txt	2	23147
+Data/Character	.txt	2	5085
+Data/Custom	.txt	51	1080048
+Data/Custom/BotSystem	.txt	1	4697
+Data/Effect	.txt	2	22911
+Data/Event	.dat	23	123822
+Data/Event	.rar	1	2931
+Data/EventItemBag	.txt	1193	986937
+Data/Hack	.dat	2	108
+Data/Hack	.txt	2	15521
+Data/Item	.rar	1	30714
+Data/Item	.txt	23	1077130
+Data/Message	.txt	6	209645
+Data/Monster	.txt	12	421526
+Data/Monster/MovePath	.dat	1	4343
+Data/MonsterSetBase	.txt	40	390369
+Data/MonsterSetBase/Event	.txt	37	293294
+Data/MonsterSetBase/Invasion	.txt	1	37082
+Data/MonsterSetBase/Mapas por temporada	.txt	21	196779
+Data/Move	.txt	3	167607
+Data/Quest	.txt	3	15404
+Data/QuestWorld	.txt	3	68418
+Data/Script	.lua	1	586
+Data/Script/Scripts	.lua	4	19590
+Data/Script/Scripts/AutoPost	.lua	2	4254
+Data/Script/Scripts/Musaffe	.lua	3	40113
+Data/Script/Scripts/ReaddRequirement	.lua	1	1964
+Data/Script/Scripts/TesteProtocol	.lua	2	1012
+Data/Script/Scripts/Transformation	.lua	2	3296
+Data/Script/Scripts/TransformationRing	.lua	2	7219
+Data/Script/Scripts/UpgradeMachine	.lua	2	158135
+Data/Script/Scripts/ssUpgradeMachine	.lua	2	37872
+Data/Script/System	.lua	2	14908
+Data/Script/Utils	.lua	5	16958
+Data/Shop	.txt	30	33820
+Data/Shop/Backup	.txt	30	96023
+Data/Skill	.hit	1	15876
+Data/Skill	.txt	4	205970
+Data/Terrain	.att	92	6029588
+Data/Util	.txt	10	8513
+DataServer	.dll	2	1191584
+DataServer	.exe	1	1476608
+DataServer	.ini	1	581
+DataServer	.txt	2	29
+DataServer/LOG	.txt	149	159928
+DiscordServer	.dll	6	5798400
+DiscordServer	.exe	1	12027408
+DiscordServer	.ini	2	774
+DiscordServer	.txt	3	7863
+GameServer	.dll	2	1191584
+GameServer	.dmp	18	5765751
+GameServer	.exe	1	13449744
+GameServer	.ini	1	83
+GameServer	.tmp	190	2167316
+GameServer	.txt	1	13552
+GameServer/Data	.dat	9	107367
+GameServerCS	.dll	2	1191584
+GameServerCS	.dmp	2	410248
+GameServerCS	.exe	1	13716496
+GameServerCS	.ini	1	83
+GameServerCS	.tmp	65	685686
+GameServerCS	.txt	1	150905
+GameServerCS/DATA	.dat	9	107323
+JoinServer	.dll	2	1191584
+JoinServer	.exe	1	1228800
+JoinServer	.ini	1	670
+JoinServer	.txt	1	331
+JoinServer/LOG	.txt	223	367428
+JoinServer/LOG_ACCOUNT	.txt	238	11658094
+MHPServer	.dll	3	1248416
+MHPServer	.exe	1	495616
+MHPServer	.ini	1	543
+MHPServer	.txt	1	66
+MHPServer/Data	.db	4	123282
+MHPServer/Data	.rar	2	49185
+MHPServer/Data/Dump.List ORIGINAL	.db	1	122678
+MHPServer/Data/Dump.List ORIGINAL	.rar	1	15942
+MHPServer/LOG	.txt	1	742
+MHPServer/LOG/HACK_LOG	.txt	1	0
+PSGuard	.dll	4	20994048
+PSGuard	.exe	3	18378392
+PSGuard	.ini	1	727
+PSGuard	.txt	1	103486
+PSGuard/DLLS MYSQL WIN 32 BITS	.dll	2	25786880
+PSGuard/DLLS SSL WIN 32 BITS	.dll	2	1703936
+PSGuard/Logs	.txt	279	7123824
+PSGuard/ScreenShots	.png	35	7785776
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)	.exe	1	3196680
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)	.ini	1	24
+SpeedServer/Data	.dat	1	2446
+SpeedServer/Data	.txt	5	147571
+SpeedServer/Data/CashShop	.txt	2	26679
+SpeedServer/Data/Character	.txt	2	5085
+SpeedServer/Data/Custom	.txt	51	903604
+SpeedServer/Data/Custom/BotSystem	.txt	1	4697
+SpeedServer/Data/Effect	.txt	2	22911
+SpeedServer/Data/Event	.dat	23	125589
+SpeedServer/Data/Event	.rar	1	2931
+SpeedServer/Data/EventItemBag	.txt	801	595224
+SpeedServer/Data/Hack	.dat	2	108
+SpeedServer/Data/Hack	.txt	2	15521
+SpeedServer/Data/Item	.rar	1	30714
+SpeedServer/Data/Item	.txt	23	1198250
+SpeedServer/Data/Message	.txt	6	209324
+SpeedServer/Data/Monster	.txt	12	420036
+SpeedServer/Data/Monster/MovePath	.dat	1	4343
+SpeedServer/Data/MonsterSetBase	.txt	39	383611
+SpeedServer/Data/MonsterSetBase/Event	.txt	37	293254
+SpeedServer/Data/MonsterSetBase/Invasion	.txt	1	37084
+SpeedServer/Data/MonsterSetBase/Mapas por temporada	.txt	21	196779
+SpeedServer/Data/Move	.txt	3	118227
+SpeedServer/Data/Quest	.txt	3	15402
+SpeedServer/Data/QuestWorld	.txt	3	68418
+SpeedServer/Data/Script	.lua	1	503
+SpeedServer/Data/Script/Scripts	.lua	4	19590
+SpeedServer/Data/Script/Scripts/AutoPost	.lua	2	4254
+SpeedServer/Data/Script/Scripts/Musaffe	.lua	3	40113
+SpeedServer/Data/Script/Scripts/Musaffe	.txt	2	418
+SpeedServer/Data/Script/Scripts/ReaddRequirement	.lua	1	1964
+SpeedServer/Data/Script/Scripts/TesteProtocol	.lua	2	1012
+SpeedServer/Data/Script/Scripts/Transformation	.lua	2	3296
+SpeedServer/Data/Script/Scripts/TransformationRing	.lua	2	7219
+SpeedServer/Data/Script/System	.lua	2	7018
+SpeedServer/Data/Script/Utils	.lua	5	16544
+SpeedServer/Data/Shop	.txt	30	34672
+SpeedServer/Data/Shop/Backup	.txt	30	96023
+SpeedServer/Data/Skill	.hit	1	15876
+SpeedServer/Data/Skill	.txt	4	205972
+SpeedServer/Data/Terrain	.att	92	6029588
+SpeedServer/Data/Util	.txt	10	8465
+SpeedServer/GameServer	.dll	2	1191584
+SpeedServer/GameServer	.dmp	5	1070777
+SpeedServer/GameServer	.exe	1	13449744
+SpeedServer/GameServer	.ini	1	83
+SpeedServer/GameServer	.tmp	41	417060
+SpeedServer/GameServer	.txt	1	13552
+SpeedServer/GameServer/Data	.dat	9	107406
+SpeedServer/GameServer/LOG	.txt	68	482697
+SpeedServer/GameServer/LOG/CASH_SHOP_LOG	.txt	28	51905
+SpeedServer/GameServer/LOG/CHAOS_MIX_LOG	.txt	34	277772
+SpeedServer/GameServer/LOG/COMMAND_LOG	.txt	56	212622
+SpeedServer/GameServer/LOG/CONNECT_LOG	.txt	40	15711
+SpeedServer/GameServer/LOG/DROP_LOG	.txt	37	69197925
+SpeedServer/GameServer/LOG/EVENT_LOG	.txt	90	5196195
+SpeedServer/GameServer/LOG/GIFTCODE_LOG	.txt	21	1590
+SpeedServer/GameServer/LOG/GREMORY_LOG	.txt	21	1537
+SpeedServer/GameServer/LOG/HACK_LOG	.txt	29	5345
+SpeedServer/GameServer/LOG/MARKETPLACE_LOG	.txt	21	1696
+SpeedServer/GameServer/LOG/PICK_LOG	.txt	14	722239
+SpeedServer/GameServer/LOG/SCRIPT_LOG	.txt	26	48520
+SpeedServer/GameServer/LOG/SETCOIN_LOG	.txt	53	272694
+SpeedServer/GameServer/LOG/SMITHITEM_LOG	.txt	21	1696
+SpeedServer/GameServer/LOG/TRADE_LOG	.txt	33	277639
+SubSalatest	.lnk	1	1235
+SubSalatest/Data	.dat	1	2428
+SubSalatest/Data	.txt	5	183593
+SubSalatest/Data/CashShop	.txt	2	24179
+SubSalatest/Data/Character	.txt	2	5085
+SubSalatest/Data/Custom	.txt	51	1071595
+SubSalatest/Data/Custom/BotSystem	.txt	1	4658
+SubSalatest/Data/Effect	.txt	2	22911
+SubSalatest/Data/Event	.dat	23	124017
+SubSalatest/Data/Event	.rar	1	2931
+SubSalatest/Data/EventItemBag	.txt	1178	933254
+SubSalatest/Data/Hack	.dat	2	108
+SubSalatest/Data/Hack	.txt	2	15521
+SubSalatest/Data/Item	.rar	1	30714
+SubSalatest/Data/Item	.txt	23	1075049
+SubSalatest/Data/Message	.txt	6	209763
+SubSalatest/Data/Monster	.txt	12	421167
+SubSalatest/Data/Monster/MovePath	.dat	1	4343
+SubSalatest/Data/MonsterSetBase	.txt	40	385273
+SubSalatest/Data/MonsterSetBase/Event	.txt	37	293254
+SubSalatest/Data/MonsterSetBase/Invasion	.txt	1	37083
+SubSalatest/Data/MonsterSetBase/Mapas por temporada	.txt	21	196779
+SubSalatest/Data/Move	.txt	3	119941
+SubSalatest/Data/Quest	.txt	3	15402
+SubSalatest/Data/QuestWorld	.txt	3	68418
+SubSalatest/Data/Script	.lua	1	539
+SubSalatest/Data/Script/Scripts	.lua	4	19590
+SubSalatest/Data/Script/Scripts/AutoPost	.lua	2	4254
+SubSalatest/Data/Script/Scripts/Musaffe	.lua	4	53340
+SubSalatest/Data/Script/Scripts/ReaddRequirement	.lua	1	1964
+SubSalatest/Data/Script/Scripts/TesteProtocol	.lua	2	1012
+SubSalatest/Data/Script/Scripts/Transformation	.lua	2	3296
+SubSalatest/Data/Script/Scripts/TransformationRing	.lua	2	7219
+SubSalatest/Data/Script/System	.lua	2	7018
+SubSalatest/Data/Script/Utils	.lua	5	16544
+SubSalatest/Data/Shop	.txt	30	42972
+SubSalatest/Data/Shop/Backup	.txt	30	96023
+SubSalatest/Data/Skill	.hit	1	15876
+SubSalatest/Data/Skill	.txt	4	205970
+SubSalatest/Data/Terrain	.att	92	6029588
+SubSalatest/Data/Util	.txt	10	8462
+SubSalatest/GameServer	.dll	2	1191584
+SubSalatest/GameServer	.dmp	9	2187873
+SubSalatest/GameServer	.exe	1	13449744
+SubSalatest/GameServer	.ini	1	83
+SubSalatest/GameServer	.tmp	208	2361590
+SubSalatest/GameServer	.txt	1	28352
+SubSalatest/GameServer/Data	.dat	9	107402
+SubSalatest/GameServer/LOG	.txt	138	6576835
+SubSalatest/GameServer/LOG/CASH_SHOP_LOG	.txt	65	137831
+SubSalatest/GameServer/LOG/CHAOS_MIX_LOG	.txt	60	1322803
+SubSalatest/GameServer/LOG/COMMAND_LOG	.txt	120	977895
+SubSalatest/GameServer/LOG/CONNECT_LOG	.txt	87	65482
+SubSalatest/GameServer/LOG/DROP_LOG	.txt	109	77285628
+SubSalatest/GameServer/LOG/EVENT_LOG	.txt	154	3881586
+SubSalatest/GameServer/LOG/GIFTCODE_LOG	.txt	54	4500
+SubSalatest/GameServer/LOG/GREMORY_LOG	.txt	58	32755
+SubSalatest/GameServer/LOG/HACK_LOG	.txt	69	12468
+SubSalatest/GameServer/LOG/MARKETPLACE_LOG	.txt	55	6627
+SubSalatest/GameServer/LOG/PICK_LOG	.txt	25	30078
+SubSalatest/GameServer/LOG/SCRIPT_LOG	.txt	68	605944
+SubSalatest/GameServer/LOG/SETCOIN_LOG	.txt	114	101429
+SubSalatest/GameServer/LOG/SMITHITEM_LOG	.txt	55	6059
+SubSalatest/GameServer/LOG/TRADE_LOG	.txt	76	278245
+Tools	.exe	1	238592
+Tools	.ps	1	33525
+Tools	.txt	1	35
+Tools/Drop	.txt	1	3454
+Tools/Editores/Editor de conta Muemu	.exe	1	4577792
+Tools/Editores/Editor de conta Muemu	.ini	1	113
+Tools/Editores/MuEditor	.exe	1	844800
+Tools/Editores/MuEditor	.ini	1	272
+Tools/Editores/MuEditor	.rar	1	479959
+Tools/Editores/MuEditor/Data	.bmd	3	1212780
+Tools/Editores/MuEditor/Item	.db	1	127488
+Tools/Editores/MuEditor/Item	.jpg	1020	2171950
+Tools/Gerador de Main	.txt	1	713
+Tools/Gerador de Main/LuaEncTool	.exe	1	5782016
+Tools/Gerador de Main/LuaEncTool	.ini	1	38
+Tools/Gerador de Main/LuaEncTool	.pdb	1	8196096
+Tools/Gerador de Main/LuaEncTool	.premium	1	766
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted	.lua	1	497
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/NewWindow	.lua	2	9282
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/TesteProtocol	.lua	2	1091
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/WindowTitle	.lua	2	803
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System	.lua	3	4016
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Util	.lua	2	4710
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted	.lua	1	497
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/NewWindow	.lua	2	9549
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/TesteProtocol	.lua	2	1133
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/WindowTitle	.lua	2	834
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/System	.lua	3	4203
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Util	.lua	2	4968
+Tools/Gerador de Main/LuaEncTool/ServerDecrypted/Scripts/AutoPost	.lua	1	2493
+Tools/Gerador de Main/LuaEncTool/ServerEncrypted/Scripts/AutoPost	.lua	1	2603
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.dll	10	16045832
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.exe	2	6778880
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.ini	1	35765
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.pcd	1	100
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.premium	1	1792
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6	.txt	1	355
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script	.lua	1	447
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/Musaffe	.lua	3	41176
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/UpgradeMachine	.lua	2	26438
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/System	.lua	3	5143
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Util	.lua	3	14366
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptEffect	.lua	1	302
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptEffect/System	.lua	2	3280
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages	.bmd	1	902081
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages	.ozj	1	287921
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages	.ozt	13	3026180
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Eng	.bmd	2	1703944
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Por	.bmd	2	1703944
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Spn	.bmd	2	1703944
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Common	.txt	15	129752
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CustomItem	.txt	23	724297
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CustomMonster	.txt	7	106008
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CustomObject	.txt	3	2153
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CustomPet	.txt	4	113327
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium	.ini	1	999
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium	.premium	3	2920496
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom	.txt	1	2044
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser	.bmd	22	3057374
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser	.ozj	3	201780
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser	.ozt	2	1328717
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank01	.smd	2	941068
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank01	.tga	1	1048594
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank02	.jpg	1	19138
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank02	.smd	1	156319
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP1	.bmd	1	109540
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP1	.ozt	1	280119
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP2	.bmd	1	148652
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP2	.ozj	1	33576
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP3	.bmd	1	48364
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP3	.ozt	1	280119
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface	.ozj	28	333502
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface	.ozt	86	7474182
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements	.ozj	3	13108
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements	.ozt	50	2002600
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom	.ozt	14	27272
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat	.ozj	6	70833
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat	.ozt	8	636286
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/GFx	.ozt	4	140596
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu	.ozt	19	760988
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item	.bmd	3	762830
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item	.ozj	1	213796
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps	.ozj	25	6260623
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps	.ozt	33	2371496
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster	.bmd	9	3231622
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster	.ozj	26	2038399
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster	.ozt	6	3735840
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster	.rar	1	1212900
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01	.smd	5	1575118
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01	.tga	3	2359428
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script	.lua	1	519
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/NewWindow	.lua	2	9992
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/TesteProtocol	.lua	2	1091
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/WindowTitle	.lua	2	841
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/System	.lua	4	6995
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Util	.lua	3	14342
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptEffect	.lua	1	283
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptEffect/System	.lua	2	3152
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptImages	.ozt	1	1000052
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin	.bmd	5	5169307
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin	.ozj	11	719045
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin	.ozt	1	32816
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx	.ozt	6	420192
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName	.ozt	19	1136352
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por	.ozt	19	1136352
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn	.ozt	19	1136352
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/PS	.ps	1	361
+Tools/Gerador de Main/MAIN_INFOS6.20	.dll	8	15534344
+Tools/Gerador de Main/MAIN_INFOS6.20	.exe	1	2861056
+Tools/Gerador de Main/MAIN_INFOS6.20	.ini	1	35754
+Tools/Gerador de Main/MAIN_INFOS6.20	.premium	1	1792
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script	.lua	1	406
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Scripts/Musaffe	.lua	3	41176
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/System	.lua	3	5029
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Util	.lua	3	14366
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptEffect	.lua	1	302
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptEffect/System	.lua	2	3280
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages	.bmd	1	902081
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages	.ozj	1	287921
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages	.ozt	11	2675764
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Eng	.bmd	1	688132
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Por	.bmd	1	688132
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Spn	.bmd	1	688132
+Tools/Gerador de Main/MAIN_INFOS6.20/Common	.txt	15	118430
+Tools/Gerador de Main/MAIN_INFOS6.20/CustomItem	.txt	23	712554
+Tools/Gerador de Main/MAIN_INFOS6.20/CustomMonster	.txt	7	105386
+Tools/Gerador de Main/MAIN_INFOS6.20/CustomObject	.txt	3	2110
+Tools/Gerador de Main/MAIN_INFOS6.20/CustomPet	.txt	4	113326
+Tools/Gerador de Main/MAIN_INFOS6.20/Premium	.premium	3	2624254
+Tools/ResetRankingWeb	.sql	4	3985
+Tools/StartUp	.exe	1	281600
+Tools/StartUp/Configuration	.bak	1	772
+Tools/StartUp/Configuration	.xml	1	772
+Tools/StartUp/Logs	.ssul	30	146
+
+# === lua ===
+arquivo	bytes	linhas	maior_linha	crlf	non_ascii
+Data/Script/ScriptMain.lua	586	20	46	0	0
+Data/Script/Scripts/AutoPost/AutoPost.lua	2493	102	98	0	0
+Data/Script/Scripts/AutoPost/Config.lua	1761	34	101	0	36
+Data/Script/Scripts/CalCharacter.lua	11734	53	828	0	5926
+Data/Script/Scripts/Musaffe/Config.lua	10852	410	86	0	0
+Data/Script/Scripts/Musaffe/Timewindows.lua	6423	29	1157	0	3129
+Data/Script/Scripts/Musaffe/Windows.lua	22838	118	1034	1	11142
+Data/Script/Scripts/NpcTalk.lua	462	18	98	0	1
+Data/Script/Scripts/ReaddRequirement/ReaddRequirement.lua	1964	15	337	0	949
+Data/Script/Scripts/TemplateScript.lua	5885	189	118	0	0
+Data/Script/Scripts/TesteProtocol/Config.lua	266	8	101	0	0
+Data/Script/Scripts/TesteProtocol/TesteProtocol.lua	746	32	77	0	0
+Data/Script/Scripts/Transformation/Config.lua	179	9	30	0	0
+Data/Script/Scripts/Transformation/Transformation.lua	3117	12	795	0	1524
+Data/Script/Scripts/TransformationRing/Config.lua	776	42	58	0	0
+Data/Script/Scripts/TransformationRing/TransformationRing.lua	6443	39	850	0	3100
+Data/Script/Scripts/UpgradeMachine/Config.lua	131560	7318	77	0	0
+Data/Script/Scripts/UpgradeMachine/UpgradeMachine.lua	26575	154	775	0	12871
+Data/Script/Scripts/WelcomeMessage.lua	1509	52	94	0	0
+Data/Script/Scripts/ssUpgradeMachine/Config.lua	13304	626	77	0	0
+Data/Script/Scripts/ssUpgradeMachine/UpgradeMachine.lua	24568	118	983	1	11903
+Data/Script/System/ProtocolCore.lua	5783	155	98	0	4
+Data/Script/System/ScriptCore.lua	9125	274	100	0	0
+Data/Script/Utils/Cron.lua	2086	127	138	0	0
+Data/Script/Utils/DataBase.lua	10216	416	198	0	70
+Data/Script/Utils/DataBaseAsync.lua	1009	26	116	0	0
+Data/Script/Utils/Functions.lua	1353	49	64	0	0
+Data/Script/Utils/Schedule.lua	2294	107	136	0	1
+SpeedServer/Data/Script/ScriptMain.lua	503	18	46	0	0
+SpeedServer/Data/Script/Scripts/AutoPost/AutoPost.lua	2493	102	98	0	0
+SpeedServer/Data/Script/Scripts/AutoPost/Config.lua	1761	34	101	0	36
+SpeedServer/Data/Script/Scripts/CalCharacter.lua	11734	53	828	0	5926
+SpeedServer/Data/Script/Scripts/Musaffe/Config.lua	10852	410	86	0	0
+SpeedServer/Data/Script/Scripts/Musaffe/Timewindows.lua	6423	29	1157	0	3129
+SpeedServer/Data/Script/Scripts/Musaffe/Windows.lua	22838	118	1034	1	11142
+SpeedServer/Data/Script/Scripts/NpcTalk.lua	462	18	98	0	1
+SpeedServer/Data/Script/Scripts/ReaddRequirement/ReaddRequirement.lua	1964	15	337	0	949
+SpeedServer/Data/Script/Scripts/TemplateScript.lua	5885	189	118	0	0
+SpeedServer/Data/Script/Scripts/TesteProtocol/Config.lua	266	8	101	0	0
+SpeedServer/Data/Script/Scripts/TesteProtocol/TesteProtocol.lua	746	32	77	0	0
+SpeedServer/Data/Script/Scripts/Transformation/Config.lua	179	9	30	0	0
+SpeedServer/Data/Script/Scripts/Transformation/Transformation.lua	3117	12	795	0	1524
+SpeedServer/Data/Script/Scripts/TransformationRing/Config.lua	776	42	58	0	0
+SpeedServer/Data/Script/Scripts/TransformationRing/TransformationRing.lua	6443	39	850	0	3100
+SpeedServer/Data/Script/Scripts/WelcomeMessage.lua	1509	52	94	0	0
+SpeedServer/Data/Script/System/ProtocolCore.lua	1226	46	124	0	0
+SpeedServer/Data/Script/System/ScriptCore.lua	5792	377	75	0	0
+SpeedServer/Data/Script/Utils/Cron.lua	2086	127	138	0	0
+SpeedServer/Data/Script/Utils/DataBase.lua	9802	410	198	0	70
+SpeedServer/Data/Script/Utils/DataBaseAsync.lua	1009	26	116	0	0
+SpeedServer/Data/Script/Utils/Functions.lua	1353	49	64	0	0
+SpeedServer/Data/Script/Utils/Schedule.lua	2294	107	136	0	1
+SubSalatest/Data/Script/ScriptMain.lua	539	19	46	0	0
+SubSalatest/Data/Script/Scripts/AutoPost/AutoPost.lua	2493	102	98	0	0
+SubSalatest/Data/Script/Scripts/AutoPost/Config.lua	1761	34	101	0	36
+SubSalatest/Data/Script/Scripts/CalCharacter.lua	11734	53	828	0	5926
+SubSalatest/Data/Script/Scripts/Musaffe/Config.lua	10852	410	86	0	0
+SubSalatest/Data/Script/Scripts/Musaffe/Dungeon1.lua	13227	82	903	1	6424
+SubSalatest/Data/Script/Scripts/Musaffe/Timewindows.lua	6423	29	1157	0	3129
+SubSalatest/Data/Script/Scripts/Musaffe/Windows.lua	22838	118	1034	1	11142
+SubSalatest/Data/Script/Scripts/NpcTalk.lua	462	18	98	0	1
+SubSalatest/Data/Script/Scripts/ReaddRequirement/ReaddRequirement.lua	1964	15	337	0	949
+SubSalatest/Data/Script/Scripts/TemplateScript.lua	5885	189	118	0	0
+SubSalatest/Data/Script/Scripts/TesteProtocol/Config.lua	266	8	101	0	0
+SubSalatest/Data/Script/Scripts/TesteProtocol/TesteProtocol.lua	746	32	77	0	0
+SubSalatest/Data/Script/Scripts/Transformation/Config.lua	179	9	30	0	0
+SubSalatest/Data/Script/Scripts/Transformation/Transformation.lua	3117	12	795	0	1524
+SubSalatest/Data/Script/Scripts/TransformationRing/Config.lua	776	42	58	0	0
+SubSalatest/Data/Script/Scripts/TransformationRing/TransformationRing.lua	6443	39	850	0	3100
+SubSalatest/Data/Script/Scripts/WelcomeMessage.lua	1509	52	94	0	0
+SubSalatest/Data/Script/System/ProtocolCore.lua	1226	46	124	0	0
+SubSalatest/Data/Script/System/ScriptCore.lua	5792	377	75	0	0
+SubSalatest/Data/Script/Utils/Cron.lua	2086	127	138	0	0
+SubSalatest/Data/Script/Utils/DataBase.lua	9802	410	198	0	70
+SubSalatest/Data/Script/Utils/DataBaseAsync.lua	1009	26	116	0	0
+SubSalatest/Data/Script/Utils/Functions.lua	1353	49	64	0	0
+SubSalatest/Data/Script/Utils/Schedule.lua	2294	107	136	0	1
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/ScriptMain.lua	497	13	78	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/NewWindow/Config.lua	699	23	112	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/NewWindow/NewWindow.lua	8583	259	117	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/TesteProtocol/Config.lua	267	9	101	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/TesteProtocol/TesteProtocol.lua	824	34	69	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/WindowTitle/Config.lua	321	19	38	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Scripts/WindowTitle/WindowTitle.lua	482	23	67	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System/LoadImages.lua	262	11	67	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System/ProtocolCore.lua	944	40	79	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System/ScriptCore.lua	2810	112	75	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Util/Defines.lua	1648	62	563	0	0
+Tools/Gerador de Main/LuaEncTool/ClientDecrypted/Util/KeysValue.lua	3062	180	29	0	0
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/ScriptMain.lua	497	13	78	0	0
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/NewWindow/Config.lua	699	23	112	0	0
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/NewWindow/NewWindow.lua	8850	36	639	0	4460
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/TesteProtocol/Config.lua	267	9	101	0	0
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/TesteProtocol/TesteProtocol.lua	866	5	373	0	412
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/WindowTitle/Config.lua	321	19	38	0	0
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Scripts/WindowTitle/WindowTitle.lua	513	3	172	0	255
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/System/LoadImages.lua	281	3	223	0	144
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/System/ProtocolCore.lua	992	4	452	0	494
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/System/ScriptCore.lua	2930	8	1122	0	1427
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Util/Defines.lua	1718	10	527	0	867
+Tools/Gerador de Main/LuaEncTool/ClientEncrypted/Util/KeysValue.lua	3250	19	554	0	1631
+Tools/Gerador de Main/LuaEncTool/ServerDecrypted/Scripts/AutoPost/AutoPost.lua	2493	102	98	0	0
+Tools/Gerador de Main/LuaEncTool/ServerEncrypted/Scripts/AutoPost/AutoPost.lua	2603	15	638	0	1280
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/ScriptMain.lua	447	14	78	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/Musaffe/Config.lua	2556	119	93	0	4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/Musaffe/Timewindows.lua	3542	28	421	0	1699
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/Musaffe/Windows.lua	35078	175	1333	1	16961
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/UpgradeMachine/Config.lua	1862	102	72	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Scripts/UpgradeMachine/UpgradeMachine.lua	24576	122	1039	1	11890
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/System/LoadImages.lua	678	18	67	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/System/ProtocolCore.lua	1001	40	105	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/System/ScriptCore.lua	3464	16	558	0	1670
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Util/Defines.lua	1656	10	513	0	827
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Util/Json.lua	9640	43	984	0	4690
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/Script/Util/KeysValue.lua	3070	21	535	0	1557
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptEffect/ScriptEffectMain.lua	302	3	106	0	148
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptEffect/System/EffectItem.lua	2681	9	881	1	1364
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptEffect/System/ScriptCoreEffect.lua	599	2	361	0	286
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/ScriptMain.lua	519	14	78	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/NewWindow/Config.lua	699	23	112	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/NewWindow/NewWindow.lua	9293	290	117	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/TesteProtocol/Config.lua	267	9	101	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/TesteProtocol/TesteProtocol.lua	824	34	69	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/WindowTitle/Config.lua	321	19	38	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Scripts/WindowTitle/WindowTitle.lua	520	23	105	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/System/InterfaceCore.lua	2511	92	68	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/System/LoadImages.lua	261	10	67	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/System/ProtocolCore.lua	980	42	79	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/System/ScriptCore.lua	3243	128	75	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Util/Defines.lua	1648	62	563	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Util/Json.lua	9632	388	82	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Script/Util/KeysValue.lua	3062	180	29	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptEffect/ScriptEffectMain.lua	283	7	78	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptEffect/System/EffectItem.lua	2583	90	91	0	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptEffect/System/ScriptCoreEffect.lua	569	22	75	0	0
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/ScriptMain.lua	406	13	78	0	0
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Scripts/Musaffe/Config.lua	2556	119	93	0	4
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Scripts/Musaffe/Timewindows.lua	3542	28	421	0	1699
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Scripts/Musaffe/Windows.lua	35078	175	1333	1	16961
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/System/LoadImages.lua	564	4	281	0	269
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/System/ProtocolCore.lua	1001	40	105	0	0
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/System/ScriptCore.lua	3464	16	558	0	1670
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Util/Defines.lua	1656	10	513	0	827
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Util/Json.lua	9640	43	984	0	4690
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/Script/Util/KeysValue.lua	3070	21	535	0	1557
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptEffect/ScriptEffectMain.lua	302	3	106	0	148
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptEffect/System/EffectItem.lua	2681	9	881	1	1364
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptEffect/System/ScriptCoreEffect.lua	599	2	361	0	286
+# total: arquivos=148 bytes=761801 linhas=18971 maior_arquivo=Data/Script/Scripts/UpgradeMachine/Config.lua (131560 bytes)
+
+# === dados_texto (estrutura tabular medida, sem interpretar colunas) ===
+arquivo	linhas	delimitador	colunas_min	colunas_max	bytes
+Data/Command.txt	128	tab	1	57	17222
+Data/ConnectMember.txt	8	tab	1	1	200
+Data/EventItemBagManager.txt	1306	tab	1	18	130791
+Data/MapManager.txt	120	tab	1	51	33549
+Data/ShopManager.txt	40	tab	1	5	1662
+Data/CashShop/CashShopPackage.txt	74	tab	1	28	6657
+Data/CashShop/CashShopProduct.txt	178	tab	1	20	16490
+Data/Character/DefaultClassInfo.txt	9	tab	1	1	1060
+Data/Character/DefaultClassStatus.txt	9	tab	1	6	4025
+Data/Custom/CustomAccessory.txt	18	tab	1	2	775
+Data/Custom/CustomAchievements.txt	105	tab	1	1	5001
+Data/Custom/CustomArena.txt	52	tab	1	4	7400
+Data/Custom/CustomAttackSkill.txt	88	tab	1	6	4352
+Data/Custom/CustomBattlePass.txt	95	tab	1	2	12228
+Data/Custom/CustomBuyVip.txt	17	tab	1	13	1032
+Data/Custom/CustomCombo.txt	43	tab	1	3	2008
+Data/Custom/CustomCommandDescription.txt	23	tab	1	4	1610
+Data/Custom/CustomDailyReward.txt	177	tab	1	3	31858
+Data/Custom/CustomDeathMessage.txt	9	tab	1	1	467
+Data/Custom/CustomEventDrop.txt	42	tab	1	1	2677
+Data/Custom/CustomExchangeCoin.txt	11	tab	1	16	640
+Data/Custom/CustomFakeOnline.txt	36	tab	1	3	2742
+Data/Custom/CustomFakeOnlineMessage.txt	19	tab	1	1	715
+Data/Custom/CustomFlag.txt	68	tab	1	60	6729
+Data/Custom/CustomGuildBuff.txt	12	tab	1	2	843
+Data/Custom/CustomGuildReign.txt	15	,	1	2	1662
+Data/Custom/CustomItemBank.txt	46	tab	1	7	2312
+Data/Custom/CustomItemFusion.txt	24	tab	1	8	1525
+Data/Custom/CustomItemVip.txt	10	tab	1	18	797
+Data/Custom/CustomJewel.txt	212	tab	1	4	24817
+Data/Custom/CustomLuckyWheel.txt	38	tab	1	4	6073
+Data/Custom/CustomMapRequirement.txt	11	tab	1	1	740
+Data/Custom/CustomMarketPlaceCoinValue.txt	22	tab	1	2	1076
+Data/Custom/CustomMix.txt	5950	tab	1	13	633341
+Data/Custom/CustomMonster.txt	132	tab	1	21	28901
+Data/Custom/CustomMonsterTopHit.txt	12	tab	1	6	526
+Data/Custom/CustomMove.txt	188	tab	1	38	23888
+Data/Custom/CustomMoveAuto.txt	23	tab	1	3	827
+Data/Custom/CustomNpcCollector.txt	225	tab	1	11	16568
+Data/Custom/CustomNpcCommand.txt	13	tab	1	7	850
+# amostrados=40 (limite 40; o conjunto completo fica no bloco inventario)
+
+# === binarios_config (cabeçalho medido, formato não decodificado) ===
+arquivo	bytes	primeiros_32_hex
+ConnectServer/ServerList.dat	1109	2f2f232323232323232323232323232323232323232323232323232323232323
+Data/MapServerInfo.dat	2453	2f2f232323232323232323232323232323232323232323232323232323232323
+Data/MapManager.txt	33549	2f2f204974656d44726f70547970650a2f2f202a3a20416c6c2044726f700a2f
+
+# === db_backups (somente cabeçalho; nenhuma restauração) ===
+arquivo	bytes	primeiros_4_ascii	primeiros_16_hex	sha256_16
+DB/MuOnline.bak	16948736	TAPE	54415045000003008c000e0100000000	bb4ab3498c1059c0
+DB/MuOnline.reg	788	\xff\xfeW\x00	fffe570069006e0064006f0077007300	86a1ae166aed506f
+DB/MuOnline64.reg	860	\xff\xfeW\x00	fffe570069006e0064006f0077007300	3d692ad0066d0906
+DB/MuOnline_old.bak	9398784	TAPE	54415045000003008c000e0100000000	fb8efd4110ee7f11
+DB/back_hinet.bak	16949760	TAPE	54415045000003008c000e0100000000	5cf5945e6a19c79f
+DB/mw_v6.bak	7076352	TAPE	54415045000003008c000e0100000000	067885d9e56b1b75
+DB/mw_v6.rar	580612	Rar!	526172211a0701007fc01aa90c010508	0b213cc28792b02a
+
+# === ferramentas_lua (arquivos com 'luaenc' no nome; .enc puro nao existe no pacote) ===
+arquivo	bytes	primeiros_16_hex	parece_texto_lua
+Tools/Gerador de Main/LuaEncTool/LuaEncryptorTool.exe	5782016	4d5a90000300000004000000ffff0000	0
+Tools/Gerador de Main/LuaEncTool/LuaEncryptorTool.pdb	8196096	4d6963726f736f667420432f432b2b20	0
+# total=2

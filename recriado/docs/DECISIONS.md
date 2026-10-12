@@ -208,3 +208,55 @@ Duas regras que saem daqui: (a) o orcamento do cliente de teste tem de ser maior
 — com 5 s uma configuracao deu 107/120 e com 20 s deu 120/120 nas cinco repeticoes, ou seja, a
 "perda" era do instrumento, e a matriz passou a usar `--timeout-ms 20000`; (b) **nada disso justifica
 aumentar `MU2_MAX_BODY` ou buffers** — o comportamento observado e o contrato funcionando.
+
+## D2-19 — sondas de formato são somente leitura, determinísticas e sem dependência externa
+
+**Contexto (R-5).** A fase pede investigação de PE/Lua/dados/`.att`/`.bmd`/`.smd`/`.ozt`/`.ozj`/`.bak`
+*por medição*. As alternativas eram binários prontos (`objdump`, `pefile`, `radare2`) ou parser
+próprio; `objdump` existe no host, `pefile`/`radare2` não, e o pacote é somente leitura.
+
+**Decisão.** Quatro sondas em Python 3.11 **só com stdlib** (`struct`, `hashlib`, `collections`), em
+`tools/`, lendo `MU_REF_DATA` e imprimindo TSV com caminhos **relativos** e **sem timestamp**.
+Nenhuma escreve, executa ou abre banco: dos `.bak` lê-se só os 16 primeiros bytes.
+
+**Motivo medido.** Sem dependência externa a sonda roda em qualquer restore de bundle; sem timestamp
+a saída é comparável por `sha256` entre passadas (caso 13 de `tests/data.sh`); sem caminho absoluto
+o relatório não vaza o host (casos 10/15). Determinismo é o que transforma medição em evidência.
+
+**Consequência.** `pe` e `data` entram no `check`; os alvos `pe-selftest`/`data-selftest` rodam a
+mesma lógica de recusa **sem** a referência, para o portão não ficar mudo em ambiente mínimo.
+
+## D2-20 — achar string não é concluir recurso; não achar não é provar ausência
+
+**Contexto (R-5).** A busca por `PacketSize`, `HEAD_SIZE`, `opcode`, `IOCP` e pelas portas do
+pacote devolveu **zero** ocorrências nos binários.
+
+**Decisão.** Toda busca por palavra-chave entra no relatório com as duas ressalvas explícitas:
+*achar* só prova que o símbolo está lá (não que seja usado no caminho que interessa), e *não achar*
+não prova ausência (o nome pode ser montado em execução, vir de import sem string, ou estar em
+seção protegida). As asserções de ausência no teste dizem isso no próprio nome do caso.
+
+**Motivo medido.** `GameServer.exe`, `GameServerCS/GameServer.exe` e `DiscordServer.exe` têm seção
+`.themida`: neles a análise estática simplesmente para. Declarar "não usa IOCP" porque a string não
+apareceu seria inventar conclusão sobre binário ofuscado.
+
+**Consequência.** Nenhum formato é declarado decodificado nesta rodada. O que existe é invariante
+medido + hipótese nomeada.
+
+## D2-21 — invariante de formato só se afirma depois de medir a distribuição inteira
+
+**Contexto (R-5).** Com duas amostras de `.att` o prefixo parecia fixo em `00 ff ff`. Em 276
+arquivos, `byte0` tem **dois** valores (`0x00` e `0x20`); o que é constante em 276/276 é
+`bytes[1:3] == ff ff`, junto com o tamanho único de 65 539 B.
+
+**Decisão.** `att_probe.py` aceita `tamanho == 65539 && bytes[1:3] == ffff` e nada mais; `byte0` e
+`byte3` são **relatados como distribuição**, não cobrados como constante. Amostra pequena não vira
+invariante, e hipótese de estrutura (grade 256 × 256, bitmask) fica no relatório como hipótese.
+
+**Motivo medido.** A asserção com prefixo fixo falhou em 3 de 276 arquivos na primeira execução —
+defeito do teste, não do pacote. Se tivesse entrado no commit, o portão nasceria vermelho por
+suposição.
+
+**Consequência.** Regra geral para as próximas rodadas: medir a distribuição antes de escrever o
+`grep`. Vale também para o inverso: `.bmd` não é um formato só (XOR-3 vale para o banco do
+MuEditor, mediana −0,16 no conjunto), então nenhum decodificador pode depender só da extensão.

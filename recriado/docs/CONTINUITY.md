@@ -22,7 +22,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 |---|---|
 | estado detalhado da última rodada | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | próxima tarefa executável | [NEXT_TASK.md](NEXT_TASK.md) |
-| decisões técnicas D2-01…D2-18 | [DECISIONS.md](DECISIONS.md) |
+| decisões técnicas D2-01…D2-21 | [DECISIONS.md](DECISIONS.md) |
 | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
 | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
 | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
@@ -31,16 +31,20 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | incidente e buscas do v1 perdido | [../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md](../../workspace/reports/WORKTREE-PERDIDO-2026-10-12.md) · [../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md](../../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md) |
 | pedido de recuperação à plataforma | [../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md](../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md) |
 | identidade do backup e restauração | [../../workspace/backups/MANIFEST.md](../../workspace/backups/MANIFEST.md) |
-| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `net-<perfil>.tsv` |
+| evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `net-<perfil>.tsv` |
+| sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
+| relatório da R-5 (observação × hipótese × conclusão) | [../reports/r5-relatorio.md](../reports/r5-relatorio.md) |
 | porta de entrada humana (build/run) | [../README.md](../README.md) |
 
 ## 4. Fases
 
 Concluídas: **R-0** ambiente · **R-1** inventário · **R-2** baseline · **R-3** codec · **R-4** serviço
-de rede + controlador + suíte de rede.
-Próxima: **R-5** — inspeção reproduzível do pacote original (PE, `.att`/`.bmd`/`.ozt`, dados, Lua).
-Depois: **R-6** interoperabilidade/golden · **R-7** `bench` (hoje BLOCKED) · **R-8** portão único ·
-**R-9** documentação e publicação (contínuas, não fim de fila).
+de rede + controlador + suíte de rede · **R-5** investigação de formatos por medição (sondas + suítes
+`pe`/`data`; nada decodificado, nada compatível afirmado).
+Próxima: **R-8** — portão único (`scripts/run_all.sh` + `tests/gate_state.sh`, `gate-selftest`
+primeiro). Antecipada porque R-6 depende de evidência de protocolo inexistente e R-7 segue BLOCKED.
+Depois: **R-6** interoperabilidade/golden · **R-7** `bench` (hoje BLOCKED) · **R-9** documentação e
+publicação (contínuas, não fim de fila).
 
 ## 5. Testes — o que roda, o que não existe
 
@@ -50,10 +54,13 @@ Depois: **R-6** interoperabilidade/golden · **R-7** `bench` (hoje BLOCKED) · *
 | make-sintaxe | `make -s make-sintaxe` | 7 casos, 0 falhas |
 | net (portão) | `make -s net` | 34 verificações, 0 falhas |
 | net-matrix | `make -s net-matrix` | 36 verificações, 0 falhas (100 conf × 5 reps por perfil) |
-| portão completo | `make -s check` | unit + make-sintaxe + net, exit 0 |
-| persistência | `bash scripts/verify-backup.sh` (`FULL=1`) | 6/6 (10/10) |
+| pe | `make -s pe` | 14 casos, 0 falhas (`blocked=0` com a referência presente) |
+| data | `make -s data` | 19 casos, 0 falhas |
+| pe-selftest / data-selftest | `make -s pe-selftest` | 4/4 cada, **`blocked=1`** (rodam sem a referência) |
+| portão completo | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0, 19,4 s |
+| persistência | `bash scripts/verify-backup.sh` (`FULL=1`) | 9/9 (13/13) |
 
-**Não existem** — não tratar como aprovadas: `golden`, `interop`, `conform`, `data`, `pe`, `fuzz`,
+**Não existem** — não tratar como aprovadas: `golden`, `interop`, `conform`, `fuzz`,
 `gate_state`, `run_all.sh`. `bench`: **BLOCKED**. `e2e`: não é suíte separada, está em `tests/net.sh`.
 
 ## 6. Último commit e publicação
