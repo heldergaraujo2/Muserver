@@ -110,9 +110,13 @@ ck "S3b janela curta + leitor atrasado: 3 respostas entregues" 'printf "%s" "$R"
 ck "S3b queue_full_closes continua 0" '[ "$(stats_field "$PROFILE" queue_full_closes)" = 0 ]'
 stop_srv
 
-# S4 D2-14 (ii) / D2-05: quem nao le nada e continua pedindo provoca o fechamento da vaga
+# S4 D2-14 (ii) / D2-05: quem nao le nada e continua pedindo provoca o fechamento da vaga.
+# O volume TEM de exceder a capacidade com folga. Medido: com 60 quadros de 64 B sao 4 080 B de
+# respostas, e a capacidade efetiva deste host e ~7 kB (rcvbuf 1024 -> 2304, sndbuf 1024 -> 4608) —
+# ou seja, as vezes cabia tudo, o queue_full nao acontecia e o caso falhava 1 vez em ~8 (medido).
+# Nao e o criterio que esta errado, e a margem: 600 quadros = 40 800 B, ~6x a capacidade.
 start_srv --profile "$PROFILE" --sndbuf 1024
-R=$("$CLI" --port "$SRV_PORT" --rcvbuf 1024 --frames 60 --code 2 --body-size 64 \
+R=$("$CLI" --port "$SRV_PORT" --rcvbuf 1024 --frames 600 --code 2 --body-size 64 \
       --expect 0 --never-read --eof-wait-ms 3000 2>&1)
 ck "S4 cliente que nao le e pede mais acaba desconectado" 'printf "%s" "$R" | grep -q "eof=1"'
 ck "S4 queue_full_closes incrementou" '[ "$(stats_field "$PROFILE" queue_full_closes)" -ge 1 ]'

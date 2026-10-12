@@ -12,7 +12,14 @@ V2=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 ROOT=$(cd "$V2/.." && pwd)
 GATE=$V2/tests/run_all.sh
 T=$(mktemp -d)
-trap 'rm -rf "$T"' EXIT
+# Falha intermitente que some junto com o diretorio temporario e indiagnosticavel — aconteceu: o
+# caso do portao real falhou 1 vez em ~5 execucoes e nao deixou nada para examinar. Se qualquer
+# caso falhar, o temporario inteiro e copiado para out/gate-selftest-falha/ antes de ser apagado.
+EVID=$V2/out/gate-selftest-falha
+trap 'if [ "$bad" -gt 0 ]; then rm -rf "$EVID"; mkdir -p "$EVID"
+        cp -a "$T/." "$EVID/" 2>/dev/null
+        printf "# evidencia_preservada=out/gate-selftest-falha (casos_falharam=%d)\n" "$bad"
+      fi; rm -rf "$T"' EXIT
 n=0; bad=0
 ck() { n=$((n+1)); if "$3" >/dev/null 2>&1; then printf 'ok %d - %s\n' "$n" "$2"
   else bad=$((bad+1)); printf 'not ok %d - %s\n' "$n" "$2"; fi; }
