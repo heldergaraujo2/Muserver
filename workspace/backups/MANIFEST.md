@@ -2,19 +2,19 @@
 
 | campo | valor |
 |---|---|
-| conteudo | historia do v2 (somente a arvore `recriado/`, com o `recriado/.gitignore` como raiz) |
-| origem | subtree split de `recriado/` (arquivo fora da arvore dividida, ver D2-15) |
-| branch local criada | `mu2-v2` @ `a97d8b6` |
-| arquivo | `mu2-v2.bundle` (204585 bytes) |
+| conteudo | arvore `recriado/` inteira, num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree $(git rev-parse --short=7 HEAD):recriado` no commit `b6ff48f` |
+| branch do snapshot | `mu2-snapshot` @ `9bd5ef4` (a semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (31771 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 83454231af911d85eb2ce1d4e51c0a7edd8f502a1b0a07660e78e6cc58691e51
+sha256: 1ec952bd7f89bbdc1c889117013efd4ceb2f1a18f8c6e95848ce308d13cff126
 
 ## Como restaurar (teste real, ja executado por `scripts/verify-backup.sh`)
 
 ```sh
 git bundle verify recriado/backup/mu2-v2.bundle     # deve dizer que esta ok e listar 1 ponta
-git clone -b mu2-v2 recriado/backup/mu2-v2.bundle /tmp/mu2-v2-restaurado
+git clone -b mu2-snapshot workspace/backups/mu2-v2.bundle /tmp/mu2-v2-restaurado
 cd /tmp/mu2-v2-restaurado && git log --oneline | head -3   # sem -b, o clone nasce sem arvore
 ```
 
@@ -27,7 +27,8 @@ qualquer recriacao de sandbox.
 
 ## Tamanho e por que ele agora e constante
 
-17 225 (R-0) -> 38 233 -> 66 195 -> 134 694 (antes da D2-15) -> atual, e nao cresce mais por recursao.
+17 225 (R-0) -> 38 233 -> 66 195 -> 134 694 -> 204 585 (so realocar, nao bastou) -> 31 771 bytes
+com o snapshot orphan. Constancia vem de a arvore do snapshot nao conter o proprio bundle.
 
 ## O que o verificador ja pegou (e por que ele existe)
 
