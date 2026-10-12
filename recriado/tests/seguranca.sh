@@ -47,10 +47,13 @@ RSS() { awk '/VmRSS/{print $2}' "/proc/$SPID/status" 2>/dev/null || echo 0; }
 FD()  { ls "/proc/$SPID/fd" 2>/dev/null | wc -l; }
 RSS_ANTES=$(RSS); FD_ANTES=$(FD)
 
-python3 "$PROBE" --port "$PORT" --ciclos "$CICLOS" > "$OUTD/probe.tsv" 2>"$OUTD/probe.err"
+# --srv-pid "$SPID": a sonda NAO descobre o servico varrendo /proc (defeito medido em 2026-10-12:
+# a varredura por "mud2" no cmdline casava com o proprio shell do teste e media fd de outro
+# processo). O pid e' o `$!` deste script, e a assercao 4b abaixo prova a procedencia.
+python3 "$PROBE" --port "$PORT" --ciclos "$CICLOS" --srv-pid "$SPID" > "$OUTD/probe.tsv" 2>"$OUTD/probe.err"
 PROBE_EXIT=$?
 BF=$(grep -c 'close=bad_frame' "$LOG")     # tirado antes da 2a sonda: o log acumula
-python3 "$PROBE" --port "$PORT" --ciclos 50 > "$OUTD/probe2.tsv" 2>/dev/null
+python3 "$PROBE" --port "$PORT" --ciclos 50 --srv-pid "$SPID" > "$OUTD/probe2.tsv" 2>/dev/null
 RSS_DEPOIS=$(RSS)
 
 kill -TERM $SPID 2>/dev/null; wait $SPID 2>/dev/null; SRV_EXIT=$?
@@ -65,10 +68,20 @@ ck "sonda relata servico_morto_depois_de=nenhum e sai 0" \
       "[ '$MORTOS' = nenhum ] && [ '$PROBE_EXIT' = 0 ]"
 ck "serviço encerra com código 0 no SIGTERM depois de toda a bateria (sem abort de sanitizador)" \
       "[ '$SRV_EXIT' = 0 ]"
-FD_IGUAIS=$(sed -n 's/.*fd_antes=\([0-9]*\) fd_depois=\([0-9]*\).*/\1 \2/p' "$OUTD/probe.tsv" |
-            awk '{print ($1 == $2) ? 1 : 0}')
-ck "descritores estáveis em $CICLOS ciclos abrir/fechar (fd_antes == fd_depois)" \
-   "[ '$FD_IGUAIS' = 1 ]"
+# A medida que interessa é ACÚMULO, não o instante do último close: o close do cliente devolve o
+# socket de forma assíncrona, e contar fd logo depois de fechar o 1000º dá 9 mesmo sem vazamento
+# (medido). A sonda espera estabilizar (limite 2 s, custo real medido 0–20 ms) em DUAS rodadas: um
+# vazamento real não estabiliza e a rodada 2 soma sobre a 1 — a asserção continua podendo falhar.
+FD_A=$(sed -n 's/.*fd_antes=\([0-9]*\).*/\1/p'   "$OUTD/probe.tsv" | tail -1)
+FD_I=$(sed -n 's/.*fd_imed=\([0-9]*\).*/\1/p'    "$OUTD/probe.tsv" | tail -1)
+FD_D=$(sed -n 's/.*fd_depois=\([0-9]*\).*/\1/p'  "$OUTD/probe.tsv" | tail -1)
+FD_R2=$(sed -n 's/.*fd_rodada2=\([0-9]*\).*/\1/p' "$OUTD/probe.tsv" | tail -1)
+ck "sem acúmulo de descritores: base=$FD_A imediato=$FD_I estabilizado=$FD_D e 2a rodada=$FD_R2 (2x$CICLOS ciclos)" \
+   "[ -n '$FD_A' ] && [ '$FD_A' = '$FD_D' ] && [ '$FD_D' = '$FD_R2' ]"
+# 4b) procedência: a contagem acima só vale se tiver sido feita no processo do serviço. Um pid
+# errado dá "estável" por acidente (foi o que aconteceu) e a asserção viraria ruído verde.
+ck "a contagem de fd veio do processo do serviço (srv_pid=$SPID, pid_fonte=argumento)" \
+   "grep -q 'srv_pid=$SPID pid_fonte=argumento' '$OUTD/probe.tsv'"
 ck "RSS não cresce com a bateria + $CICLOS ciclos (medido: ${RSS_ANTES} kB -> ${RSS_DEPOIS} kB)" \
       "[ '$((RSS_DEPOIS - RSS_ANTES))' -le 512 ]"
 
@@ -95,7 +108,7 @@ ck "nenhuma linha de erro da sonda vazou para stderr" "[ ! -s '$OUTD/probe.err' 
 
 printf '1..%d\n' "$n"
 printf '# seguranca=%d falhas=%d blocked=%d\n' "$n" "$bad" "$BL"
-printf '# casos=%d rss_antes=%s rss_depois=%s fd_antes=%s close_bad_frame=%s\n' \
-  "$CASOS" "$RSS_ANTES" "$RSS_DEPOIS" "$FD_ANTES" "$BF"
+printf '# casos=%d rss_antes=%s rss_depois=%s fd_antes=%s fd_imed=%s fd_estabilizado=%s fd_rodada2=%s close_bad_frame=%s\n' \
+  "$CASOS" "$RSS_ANTES" "$RSS_DEPOIS" "$FD_A" "$FD_I" "$FD_D" "$FD_R2" "$BF"
 printf '# sanitizadores=address,undefined (-fno-sanitize-recover=all); thread NAO (produto sem threads)\n'
 [ "$bad" -eq 0 ] || exit 1

@@ -13,6 +13,13 @@
 set -u
 V2=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$V2" || exit 2
+# Layout: PFX e o prefixo da arvore do projeto dentro do repositorio git — '' quando o projeto E a
+# raiz do repo (repositorio publicado) e 'recriado/' no monorepo de origem. Medido, nao suposto.
+GITROOT=$(git -C "$V2" rev-parse --show-toplevel 2>/dev/null || true)
+case "$GITROOT" in
+  ""|"$V2") PFX=""; GITROOT=${GITROOT:-$V2} ;;
+  *)        PFX="${V2#"$GITROOT"/}/" ;;
+esac
 FZ=$V2/out/mu2fuzz; CLI=$V2/out/mu2codec; CORPUS=$V2/tests/golden/quadros.tsv
 OUTD=$V2/out/fuzz
 ITERS=${FUZZ_ITERS:-50000}
@@ -128,7 +135,7 @@ else
   printf '# BLOCKED motivo=F22 nao compilou o mutante (ver log abaixo)\n'
   sed 's/^/# cc: /' "$TMPD/cc.log" 2>/dev/null | head -5
 fi
-t12() { git -C "$V2/.." diff --quiet -- recriado/src/wire.c; }
+t12() { git -C "$GITROOT" diff --quiet -- "${PFX}src/wire.c"; }
 ck 12 "src/wire.c permanece inalterado (a mutação viveu só na cópia temporária)" t12
 
 soma() { sed -n 's/^iteracoes=\([0-9]*\).*/\1/p' "$1" 2>/dev/null | head -1; }

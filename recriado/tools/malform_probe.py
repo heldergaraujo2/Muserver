@@ -9,8 +9,17 @@ coisas diferentes e o relatório separa as duas.
 Somente leitura em relação ao repositório: nada é escrito no repo, a saída vai para stdout em TSV.
 Aleatoriedade com semente fixa (reproduzível).
 
-uso: malform_probe.py --port N [--host 127.0.0.1] [--timeout-s 2] [--ciclos N]
+uso: malform_probe.py --port N [--host 127.0.0.1] [--timeout-s 2] [--ciclos N] [--srv-pid N]
 saída: caso<TAB>enviado_bytes<TAB>respostas<TAB>vivo_depois<TAB>obs
+
+PROCEDÊNCIA DO PID (corrigido em 2026-10-12 por defeito medido). A primeira versão descobria o
+processo varrendo /proc/*/cmdline e pegando o PRIMEIRO que contivesse "mud2". Isso mede o processo
+errado em dois cenários reais: (a) qualquer shell cuja linha de comando mencione mud2 (o próprio
+bash que executa o teste entra nessa lista), e (b) um servidor antigo que ainda não saiu. O efeito
+observado foi uma asserção de vazamento de descritor que na verdade comparava fd de outro processo
+(fd_antes=8 fd_depois=9 com srv_pid≠pid real). Agora o pid vem, em ordem: de --srv-pid (o teste sabe
+o `$!`), ou do inode do socket que ESCUTA `--port` (/proc/net/tcp{,6} -> /proc/*/fd). O relatório
+imprime a fonte (`pid_fonte=`) para que a medição seja auditável.
 """
 import argparse
 import os
@@ -18,6 +27,7 @@ import random
 import socket
 import struct
 import sys
+import time
 
 PING = bytes.fromhex("01000400")          # code=1 size=4 (contrato v2)
 HDR = lambda code, size: struct.pack("<HH", code, size)
@@ -69,13 +79,58 @@ def ping_ok(conn_factory, timeout):
         s.close()
 
 
+def pid_escuta_porta(port):
+    """PID que ESCUTA `port`, via inode do socket em /proc/net/tcp{,6}. None se não achar.
+
+    Determinar o processo pelo socket (e não pelo texto da linha de comando) é o que impede medir
+    fd de outro processo — defeito real já observado nesta suíte.
+    """
+    inodes = set()
+    for arquivo in ("/proc/net/tcp", "/proc/net/tcp6"):
+        try:
+            with open(arquivo) as f:
+                linhas = f.read().splitlines()[1:]
+        except OSError:
+            continue
+        for ln in linhas:
+            c = ln.split()
+            if len(c) < 10 or c[3] != "0A":       # 0A = LISTEN
+                continue
+            try:
+                p = int(c[1].split(":")[1], 16)
+            except (IndexError, ValueError):
+                continue
+            if p == port:
+                inodes.add(c[9])
+    if not inodes:
+        return None
+    for p in sorted(os.listdir("/proc")):
+        if not p.isdigit():
+            continue
+        try:
+            fds = os.listdir("/proc/%s/fd" % p)
+        except OSError:
+            continue
+        for fd in fds:
+            try:
+                alvo = os.readlink("/proc/%s/fd/%s" % (p, fd))
+            except OSError:
+                continue
+            if alvo.startswith("socket:[") and alvo[8:-1] in inodes:
+                return p
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, required=True)
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--timeout-s", type=float, default=2.0)
     ap.add_argument("--ciclos", type=int, default=300,
-                    help="conexões abrir/fechar para o teste de estabilidade de descritores")
+                    help="conexões abrir/fechar POR RODADA (o teste faz 2 rodadas e compara o "
+                         "número estabilizado de descritores entre elas)")
+    ap.add_argument("--srv-pid", type=int, default=0,
+                    help="pid do serviço (o teste conhece o $!); sem ele, resolve pelo socket da porta")
     a = ap.parse_args()
 
     def conn():
@@ -112,40 +167,70 @@ def main():
     n, vivo, obs = caso(conn, gotejar, a.timeout_s)
     casos.append(("gotejamento_1_byte", 4, n, vivo, obs))
 
-    # estabilidade de descritores: muitos ciclos abrir/fechar, contando os fd do servico
+    # estabilidade de descritores: muitos ciclos abrir/fechar, contando os fd do servico.
+    # O pid vem de --srv-pid (fonte=argumento, o teste passa o seu $!) ou, sem ele, do socket que
+    # escuta a porta (fonte=porta). O valor medido e' auditavel: srv_pid e pid_fonte saem no TSV.
     fd_antes = fd_depois = -1
-    srv_pid = None
-    try:
-        for p in sorted(os.listdir("/proc")):
-            if not p.isdigit():
-                continue
+    if a.srv_pid:
+        srv_pid = str(a.srv_pid)
+        pid_fonte = "argumento"
+        try:
+            with open("/proc/%s/cmdline" % srv_pid, "rb") as f:
+                if b"mud2" not in f.read():
+                    pid_fonte = "argumento(aviso:cmdline sem mud2)"
+        except OSError:
+            srv_pid = None
+            pid_fonte = "argumento(pid inexistente)"
+    else:
+        srv_pid = pid_escuta_porta(a.port)
+        pid_fonte = "porta" if srv_pid else "nao_resolvido"
+    def conta_fd():
+        try:
+            return len(os.listdir("/proc/%s/fd" % srv_pid))
+        except OSError:
+            return -1
+
+    def rodada(n):
+        for _ in range(n):
             try:
-                with open("/proc/%s/cmdline" % p, "rb") as f:
-                    if b"mud2" in f.read():
-                        srv_pid = p
-                        break
+                s = conn()
+                s.close()
             except OSError:
-                continue
-    except OSError:
-        srv_pid = None
+                return
+
+    def estabiliza(alvo, limite_s=2.0):
+        """Espera o serviço voltar a `alvo` descritores; devolve (n, ms).
+
+        Isto NÃO afrouxa a asserção — remove uma corrida medida em 2026-10-12. O close() do cliente
+        devolve o socket ao servidor de forma assíncrona: contar fd no instante seguinte ao último
+        close dá 9 (ou 10 sob carga) mesmo sem vazamento algum. Medido com o pid correto: 5 rodadas
+        de 1000 ciclos deram imediato 9,9,8,8,8 e estabilizado 8 sempre, em 0–20 ms. Um vazamento
+        real não estabiliza, e por isso o teste continua podendo falhar — o que ele passa a medir é
+        ACÚMULO entre rodadas, não o instante do último close.
+        """
+        t0 = time.time()
+        n = conta_fd()
+        while n > alvo and time.time() - t0 < limite_s:
+            time.sleep(0.02)
+            n = conta_fd()
+        return n, int((time.time() - t0) * 1000)
+
     if srv_pid:
-        try:
-            fd_antes = len(os.listdir("/proc/%s/fd" % srv_pid))
-        except OSError:
-            fd_antes = -1
-    for _ in range(a.ciclos):
-        try:
-            s = conn()
-            s.close()
-        except OSError:
-            break
-    if srv_pid:
-        try:
-            fd_depois = len(os.listdir("/proc/%s/fd" % srv_pid))
-        except OSError:
-            fd_depois = -1
-    casos.append(("ciclos_abrir_fechar", a.ciclos, -1, ping_ok(conn, a.timeout_s),
-                  "fd_antes=%d fd_depois=%d srv_pid=%s" % (fd_antes, fd_depois, srv_pid)))
+        fd_antes = conta_fd()
+        rodada(a.ciclos)
+        fd_imed = conta_fd()
+        fd_depois, ms1 = estabiliza(fd_antes)
+        rodada(a.ciclos)                     # 2a rodada: vazamento acumula, corrida nao
+        fd_imed2 = conta_fd()
+        fd_rodada2, ms2 = estabiliza(fd_antes)
+    else:
+        fd_imed = fd_imed2 = -1
+        ms1 = ms2 = -1
+    casos.append(("ciclos_abrir_fechar", 2 * a.ciclos, -1, ping_ok(conn, a.timeout_s),
+                  "fd_antes=%d fd_imed=%d fd_depois=%d fd_rodada2=%d fd_imed2=%d "
+                  "settle_ms=%d/%d srv_pid=%s pid_fonte=%s" %
+                  (fd_antes, fd_imed, fd_depois, fd_rodada2, fd_imed2, ms1, ms2,
+                   srv_pid, pid_fonte)))
 
     print("caso\tenviado_bytes\trespostas\tvivo_depois\tobs")
     for c in casos:

@@ -9,6 +9,15 @@
 set -u
 V2=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$V2" || exit 2
+# Layout: PFX e o prefixo da arvore do projeto dentro do repositorio git — '' quando o projeto E a
+# raiz do repo (repositorio publicado) e 'recriado/' no monorepo de origem. E medido por git, nao
+# suposto: o caso 137 (git diff em src/ e include/) falharia num repo publicado se o prefixo fosse
+# constante, e um teste que falha por layout nao prova nada sobre o codigo.
+GITROOT=$(git -C "$V2" rev-parse --show-toplevel 2>/dev/null || true)
+case "$GITROOT" in
+  ""|"$V2") PFX=""; GITROOT=${GITROOT:-$V2} ;;
+  *)        PFX="${V2#"$GITROOT"/}/" ;;
+esac
 ADMIN=$V2/out/mu2admin; SRV=$V2/out/mud2; OUTD=$V2/out/admin
 TOKFIX="TESTE-FIXTURE-NAO-E-CREDENCIAL-REAL-0123456789abcdef"
 n=0; bad=0; BL=0
@@ -74,7 +83,17 @@ for _ in $(seq 1 100); do
 done
 [ -n "$MP" ] || { printf '1..0\n# admin=0 falhas=0 blocked=1\n# BLOCKED motivo=mud2 nao anunciou porta\n'; exit 0; }
 
-"$ADMIN" --token-file "$T/tok" --port 0 --mud2-port "$MP" --gate-tsv "$V2/out/gate.tsv" \
+# Fixture PROPRIA do relatorio do portao. A versao anterior apontava para out/gate.tsv, artefato de
+# uma execucao anterior do portao: num clone limpo o arquivo nao existe e a assercao falhava por
+# estado residual (defeito medido em 2026-10-12, num ambiente recem-provisionado). O contrato que
+# importa aqui e' o FORMATO do TSV, e ele e' fixado abaixo com numeros conhecidos.
+GEOF=$T/gate-fixture.tsv
+printf 'etapa\testado\tobrig\tassercoes\tfalhas\tblocked\texit\tms\tmotivo\tcomando\n' > "$GEOF"
+printf 'a\tPASS\t1\t10\t0\t0\t0\t5\tok\tx\n' >> "$GEOF"
+printf 'b\tFAIL\t1\t3\t2\t0\t1\t5\tfalhas=2\ty\n' >> "$GEOF"
+printf 'c\tBLOCKED\t1\t7\t0\t1\t0\t5\tblocked=1\tz\n' >> "$GEOF"
+
+"$ADMIN" --token-file "$T/tok" --port 0 --mud2-port "$MP" --gate-tsv "$GEOF" \
   --log-file "$OUTD/admin.log" >"$OUTD/admin.err" 2>&1 &
 APID=$!
 AP=""
@@ -103,8 +122,25 @@ ck "a resposta de token invalido NAO ecoa o token apresentado" \
    "! printf '%s' '$R_ERR' | grep -q 'token-errado-qualquer'"
 ck "/stats com leitor => 200 com a linha STATS real do mud2" \
    "[ \"\$(code -H '$H_OK' '$U/stats')\" = 200 ] && body -H '$H_OK' '$U/stats' | grep -q 'registros='"
-ck "/gate com leitor => 200 e conta de etapas > 0" \
-   "[ \"\$(code -H '$H_OK' '$U/gate')\" = 200 ] && body -H '$H_OK' '$U/gate' | grep -q '\"etapas\":[1-9]'"
+ck "/gate com leitor => 200 e etapas = 3 (fixture propria, sem estado residual)" \
+   "[ \"\$(code -H '$H_OK' '$U/gate')\" = 200 ] && body -H '$H_OK' '$U/gate' | grep -q '\"etapas\":3'"
+ck "/gate usa a convencao do portao: pass=1 fail=1 blocked=1 assercoes=13 (assercoes de BLOCKED nao somam)" \
+   "body -H '$H_OK' '$U/gate' | grep -q '\"pass\":1,\"fail\":1,\"blocked\":1,\"assercoes\":13'" 
+# Caminho de erro do leitor: TSV ausente NAO pode virar 200 com numeros zerados (isso seria um
+# relatorio verde que nao existe). Segunda instancia, so para este caso.
+"$ADMIN" --token-file "$T/tok" --port 0 --mud2-port "$MP" --gate-tsv "$T/nao-existe.tsv" \
+  --log-file "$OUTD/admin2.log" >"$OUTD/admin2.err" 2>&1 &
+A2PID=$!
+A2P=""
+for _ in $(seq 1 100); do
+  A2P=$(sed -n 's/.*listen .*port=\([0-9]*\).*/\1/p' "$OUTD/admin2.log" 2>/dev/null | head -1)
+  [ -n "$A2P" ] && break; sleep 0.05
+done
+ck "/gate com TSV ausente => 503 upstream_indisponivel (nao finge 200)" \
+   "[ \"\$(code -H '$H_OK' 'http://127.0.0.1:$A2P/gate')\" = 503 ] && \
+    body -H '$H_OK' 'http://127.0.0.1:$A2P/gate' | grep -q upstream_indisponivel"
+kill -TERM "$A2PID" 2>/dev/null; wait "$A2PID" 2>/dev/null
+
 ck "POST com leitor => 403 papel_insuficiente" \
    "[ \"\$(code -X POST -H '$H_OK' '$U/publicar')\" = 403 ] && \
     body -X POST -H '$H_OK' '$U/publicar' | grep -q papel_insuficiente"
@@ -134,7 +170,7 @@ ck "com o mud2 parado, /stats => 503 upstream_indisponivel e /health mostra degr
 kill -TERM "$APID" 2>/dev/null; wait "$APID" 2>/dev/null; RC_ADMIN=$?; APID=""
 ck "SIGTERM no mu2admin => exit 0 (encerramento limpo)" "[ '$RC_ADMIN' = 0 ]"
 ck "mud2 e mu2admin intactos no git: nenhuma alteracao em src/ nem em include/" \
-   "git -C '$V2/..' diff --quiet -- recriado/src recriado/include"
+   "git -C '$GITROOT' diff --quiet -- '${PFX}src' '${PFX}include'"
 
 printf '1..%d\n' "$n"
 printf '# admin=%d falhas=%d blocked=%d\n' "$n" "$bad" "$BL"
