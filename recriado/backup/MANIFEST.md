@@ -3,12 +3,12 @@
 | campo | valor |
 |---|---|
 | conteudo | historia do v2 (somente a arvore `recriado/`, com o `recriado/.gitignore` como raiz) |
-| origem | subtree split de `recriado/` no commit `7ec9ceb` |
-| branch local criada | `mu2-v2` @ `17f4f79` |
-| arquivo | `mu2-v2.bundle` (17225 bytes) |
+| origem | subtree split de `recriado/` no commit `33c708a` |
+| branch local criada | `mu2-v2` @ `5a6e80b` |
+| arquivo | `mu2-v2.bundle` (38233 bytes) |
 | sha256 | ver abaixo |
 
-sha256: d36c9f9864934184966d5788c231846513a45f0a36964b3f7fe1c62581d7e1bf
+sha256: 35c4cfc8302b43122ee65ff206f30289edd331d73f826eb67d4ee74bd47af223
 
 ## Como restaurar (teste real, ja executado por `scripts/verify-backup.sh`)
 
