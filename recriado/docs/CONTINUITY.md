@@ -86,12 +86,12 @@ corpus + `fuzz`, auditoria do laço, segurança; `interop` segue **BLOCKED**; pa
 
 Preencher no fim de cada rodada (é dado volátil, junto com §7):
 
-- HEAD: `48a8ee0` na branch `arena/cf1de8ce-muserver` (commit de conteúdo da R-6; o commit de
+- HEAD: `9b4a846` na branch `arena/cf1de8ce-muserver` (commit de conteúdo da R-7; o commit de
   backup/documentação vem logo depois, como em toda rodada)
-- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → `48a8ee0…` **igual ao HEAD local**
+- remoto: `git ls-remote --heads origin arena/cf1de8ce-muserver` → `9b4a846…` **igual ao HEAD local**
   (conferido no fim da rodada)
-- snapshot: `mu2-snapshot` @ `831a760` (57 arquivos), bundle 160 579 B,
-  sha256 `a959346c7f49c31c…`; `verify-backup.sh` 9/9 e `FULL=1` 13/13
+- snapshot: `mu2-snapshot` @ `bcba777` (63 arquivos), bundle 179 992 B,
+  sha256 `8a9e96034b274ffe…`; `verify-backup.sh` 9/9 e `FULL=1` 13/13
 - `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`
 - `MuserverRecriado`: **bloqueado** (403 na instalação do App); nada publicado lá
 

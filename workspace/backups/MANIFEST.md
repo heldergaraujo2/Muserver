@@ -2,13 +2,13 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (57 arquivos), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree 48a8ee0:recriado` (fim da rodada R-6) |
-| branch do snapshot | `mu2-snapshot` @ `831a760` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (160579 bytes) |
+| conteudo | arvore `recriado/` inteira (63 arquivos), num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree 9b4a846:recriado` (fim da rodada R-7) |
+| branch do snapshot | `mu2-snapshot` @ `bcba777` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (179992 bytes) |
 | sha256 | ver abaixo |
 
-sha256: a959346c7f49c31c3f131a14e0e8412d958e8fcba6dfb8b2319035131222f042
+sha256: 8a9e96034b274ffea12a372865e1b5977c4274c90c0091e8a6db89418269be73
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
