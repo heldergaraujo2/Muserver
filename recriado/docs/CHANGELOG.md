@@ -32,3 +32,24 @@
   `403 Resource not accessible by integration` em `MuserverRecriado` para o mesmo token
   autenticado como o dono => selecao de repositorios do App, nao scope. Sonda de escrita
   nao mutante (`push --dry-run`): 403. Nenhum ref criado no repo de desenvolvimento.
+
+## R-3 — 2026-10-12 (enquadramento, codec, Makefile, suíte unitária)
+- `include/mu2/mu2.h` + `src/wire.c`: quadro `code(2,LE) | size(2,LE) | corpo`, `MU2_MAX_BODY`
+  2048, `MU2_MAX_FRAME` 2052, dois perfis (`orig` cru, `mur0` involutivo), erros distintos por
+  causa (`E_ARG`/`E_SIZE`/`E_DST_SMALL`/`E_INCOMPLETE` com `needed`/`E_BAD_LEN`/`E_PROFILE`).
+  Layout e decisao do v2 (D2-11), nao compatibilidade afirmada com o `ConnectServer.exe`.
+- `Makefile` com ASAN+UBSAN e `-Werror` por padrao; saidas em `out/` (D2-13); `tests/make_parse.sh`.
+- `tests/unit.c`: **106 assercoes, 0 falhas** (`reports/r3-unit.tsv`). Contagem desta arvore; o
+  `unit=82` do v1 e [alvo] historico e nao foi usado como criterio de nada.
+- Falsificacoes executadas (`reports/r3-falsificacao.tsv`): F1 troca de campos do cabecalho →
+  45 falhas; F2 validacao de `size` afrouxada → 2 falhas; F3 `mur0` neutralizado → 18 falhas;
+  F4 `-Werror` removido do portao → `make-sintaxe` 2 falhas. Reversao conferida com
+  `git status --porcelain` vazio em `recriado/{src,tests,include,Makefile}`.
+- Dois defeitos de teste encontrados pelo proprio processo desta fase e corrigidos antes do commit:
+  (a) caso 4 do `make_parse` dependia do estado de `out/` (flaky) → `make -B -n`; (b) o alvo
+  `.PHONY build` colidia com o diretorio `build/` e o `make` descartava dependencia em silencio →
+  diretorio virou `out/`.
+- Suítes que ainda **nao existem** no v2 (registradas como ausentes, nao como aprovadas): `e2e`,
+  `net`, `golden`, `interop`, `conform`, `data`, `fuzz`, `pe`, `bench`, `gate_state` e o
+  `scripts/run_all.sh`. Sem laço de rede sem fio: nada do contrato de backpressure foi exercitado
+  ainda; isso e a R-4.

@@ -1,0 +1,10 @@
+# falsificacao obrigatoria da R-3: cada mutacao do produto (ou do portao) tem de derrubar assercao
+# metodo: aplicar a mutacao em src/wire.c ou Makefile, rodar a suíte, reverter com
+#   git show HEAD:recriado/src/wire.c > recriado/src/wire.c
+# e conferir git status --porcelain vazio em recriado/{src,tests,include,Makefile}.
+mutacao	o_que_muda	resultado	primeira_assercao_que_cai
+F0	estado de referencia (sem mutacao)	unit=106 falhas=0; make-sintaxe=5 falhas=0	-
+F1	cabecalho gravado como size|code em vez de code|size	unit=106 falhas=45	not ok 10 - T3 codificacao escreve code LE e size LE no cabecalho
+F2	decode aceita size < MU2_HEADER_SIZE (validacao afrouxada)	unit=106 falhas=2	not ok 86 - T7.2 tamanho declarado 0 e recusado
+F3	mur0 vira identidade (transformacao neutralizada)	unit=106 falhas=18	not ok 47 - T5.2 o corpo do mur0 nao sai cru do codec
+F4	-Werror removido do Makefile (portao, nao codigo)	make-sintaxe=5 falhas=2	not ok 1 - CFLAGS padrao carregam -Werror

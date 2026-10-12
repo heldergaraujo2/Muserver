@@ -1,0 +1,15 @@
+# suíte unitária do enquadramento (v2, fase R-3)
+# comando: cd recriado && make -s unit        # ASAN+UBSAN ligados por padrao no Makefile
+# commit sob teste: 90bbfea
+# flags: -std=c11 -O2 -g -Wall -Wextra -Werror -Wshadow -Wconversion -Wsign-conversion -fstack-protector-strong -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fsanitize=address,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer -Iinclude
+# compilador: cc (Debian 12.2.0-14+deb12u1) 12.2.0
+# host: kernel 6.1.158+, 2 CPUs, 4 GiB (ver docs/ENVIRONMENT.md)
+medida	valor
+suite	unit
+assercoes	106
+falhas	0
+sanitizadores	address,undefined (fno-sanitize-recover=all)
+erros_de_tempo_execucao	0
+perfil_orig	casos de round-trip e cabecalho incluidos
+perfil_mur0	incluido em todos os round-trips (D2-04)
+comparacao_com_v1	NAO FEITA: unit=82 do v1 e [alvo] histórico, não é meta nem nota de aprovação

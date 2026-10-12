@@ -1,32 +1,41 @@
 # NEXT_TASK — v2 — proxima rodada
 
-## Tarefa executavel: R-3 — `wire` (enquadramento/decodificacao) + suíte unitaria
-Escopo fechado, sem servico de rede ainda:
+## Tarefa executavel: R-4 — servico `mud2` e o experimento de backpressure (N-T5.3d2)
+Escopo: laço de aceitacao + `poll()` + `feed()` + fila de resposta + `queue_reply`, e a suíte
+`tests/net.sh`. Nada de `bench`, nada de `conform`/`data` (sao R-5/R-7).
 
-1. `include/mu2/mu2.h` — constantes do contrato (incluindo `MU2_MAX_BODY = 2048`, D2-03) e as
-   declaracoes do codec; dois perfis de quadro (`orig`, `mur0`) como tipo/enum explicito, nao
-   flag solta (D2-04).
-2. `src/wire.c` — `encode`/`decode` com contrato de erro por retorno (sem `assert` como
-   verificacao de entrada), e **recusa** documentada de quadro truncado, exageradamente longo e de
-   tamanho inconsistente.
-3. `Makefile` com alvos `build:`, `unit:`, `make-sintaxe:` (analise de sintaxe/estilo dos
-   arquivos de teste, que foi alvo proprio no v1), build com
-   `-g -O2 -Wall -Wextra -Werror -fsanitize=address,undefined -fstack-protector-strong -D_FORTIFY_SOURCE=3`.
-4. `tests/unit.c` — casos de ida e volta por perfil, e os quatro casos de borda acima.
-5. `tests/make_parse.sh` — parser do Makefile validado nos mesmos 5 formatos que o v1 usava
-   (o piso numerico do v1, `make-sintaxe=5`, e **[alvo]**: o v2 publica o que medir).
+1. `src/mud2.c`: `--listen`, `--max-clients`, `--sndbuf` (minimo 1024), `--idle-ms`, `--profile`,
+   `--log-level`; `feed()` consome **todos** os quadros do buffer lido (premissa contraria foi
+   refutada no v1 e o teste tem de continuar provendo isso por fora: dois quadros em um `write`
+   contam `frames` +2); `queue_reply` recusa com fechamento + `LOGW` dedicado quando h
+   a resposta anterior pendente (D2-05), e **incrementa `queue_full_closes`** (novo, aditivo: o
+   v1 deixava essa capacidade invisivel no contador de erros).
+2. Pergunta a responder **antes** de escrever o laço, e a registrar no commit: o laço pede
+   `POLLOUT` quando existe resposta pendente? Se nao, resposta pendente nunca e retomada —
+   starvation demonstravel, e isso muda a decisao de fila (com causa, nao por preferencia).
+3. `src/mu2ctl.c` com `stats` (mesma linha do contrato: `STATS registros= usados= conns= frames=
+   rejects= queue_full_closes= uptime_ms= slotsz= maxbody=`) para o experimento ler de fora.
+4. `tests/net.sh` (variante por perfil `orig`/`mur0`), com os knobs do cliente **antes do
+   `connect()`**: `socket()` → `setsockopt(SO_RCVBUF,1024)` → `connect()`, e `getsockopt` impresso
+   (pedido **e** efetivo: 1024 → 2304/4608 neste kernel, e sem `CAP_NET_ADMIN` nao ha `SO_*BUFFORCE`).
+   Matriz: `N_conn ∈ {1,4,16}`, `N_frames ∈ {10,29,30,31,60,120}`, `t_sem_ler ∈ {0,1s,5s}`,
+   `delay_entre_leituras ∈ {0,50ms}`, `--sndbuf ∈ {0,1024}`, corpo pequeno (`ping`) e grande
+   (corpo proximo de 2048 por `--serverlist` de teste). 5 repeticoes por configuracao, mediana e
+   amplitude publicadas, `reports/net-<perfil>.tsv`.
+5. Classificacao obrigatoria de cada desconexao pela linha do log do servidor — fila cheia !=
+   bloqueio normal de TCP != timeout ocioso != erro de socket. Sem classificacao, o caso nao vale.
 
-Criterios de saida (todos obrigatorios, na ordem):
-- `make -s build` limpo com `-Werror`; `make -s unit` verde sob ASAN+UBSAN.
-- **Falsificacao obrigatoria de cada assercao nova**: trocar a ordem de dois campos no encoder →
-  o teste tem de cair; corromper 1 byte do comprimento → o teste tem de cair. Restaurar e
-  conferir `git diff` vazio em `src/`.
-- `tests/gate_state.sh` ainda nao existe (R-8); enquanto ele nao existir, a rodada registra a
-  saida crua em `reports/r3-unit.tsv` (extensao `.tsv`, nunca `.txt` — D2-08).
-- Fim de rodada conforme D2-09: `git add` de caminhos explicitos → commit → push →
-  `git ls-remote` conferido → `bash recriado/scripts/verify-backup.sh` verde → bundle regravado.
+Criterios de saida: `make -s check` verde (unit + make-sintaxe); `net` executado com a matriz
+acima e os efetivos de buffer registrados; **falsificacoes**: (i) `break` no `feed()` (um quadro por
+`recv`) deve mudar o resultado, (ii) remover o `drain()` imediato deve aumentar fechamentos,
+(iii) inverter a politica de `queue_reply` para "enfileirar sempre" deve sumir com os fechamentos —
+e, se com (iii) **nenhuma** perda aparecer, a politica atual e mantida e os limites do experimento
+ sao escritos (D2-05), sem inflar `MU2_MAX_BODY` nem buffers para forcar resultado. Reverter e
+conferir `git status --porcelain` vazio em `src/`.
 
-Nao entra na R-3: laço de `poll()`, fila de resposta, `bench`, nada de numero comparativo.
+Se (e somente se) a R-4 mostrar perda ou incompatibilidade com o contrato documentado, a mudanca de
+fila vem em commit isolado, com regressao e `bench` antes/depois — e o `bench` continua `BLOCKED`
+ate os criterios de validade dele (R-7) existirem neste host de 2 vCPUs.
 
 ## Acao do dono (manual) — para o v2 ter repositorio proprio e publicavel
 Nada disto e bloqueante: com a opcao A (esta arvore dentro de `Muserver` na branch da sessao) o

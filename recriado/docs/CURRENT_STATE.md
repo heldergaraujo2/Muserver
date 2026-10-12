@@ -1,15 +1,23 @@
 # CURRENT_STATE — v2 — 2026-10-12 (mesa atual)
 
 ## Onde o projeto esta
-Fase **R-0 concluida** (persistencia + backup + verificacao), **R-1 concluida**
-(especificacao congelada como decisao `D2-01..D2-10`) e **R-2 concluida** (ambiente medido
-em `ENVIRONMENT.md`). **R-3 em diante: nada comecado.** `src/`, `include/`, `tests/`,
-`bench/`, `corpus/` e `scripts/run_all.sh` ainda nao existem — de proposito.
+Fases **R-0, R-1, R-2 e R-3 concluidas**. A R-3 entregou o enquadramento:
+`include/mu2/mu2.h` + `src/wire.c` (quadro `code|size|corpo`, dois perfis, erros por causa),
+`Makefile` com ASAN+UBSAN+`-Werror`, `tests/unit.c` e `tests/make_parse.sh`, com os tres
+relatorios em `reports/r3-*.tsv`.
+**R-4 em diante: nada comecado** — `bench/`, `corpus/`, `tools/`, `scripts/run_all.sh` e
+qualquer suíte além de `unit`/`make-sintaxe` ainda nao existem, de proposito.
 
 ## Estado do codigo e dos testes (declaracao, nao impressao)
-- Codigo do produto: **zero linhas escritas** nesta arvore.
-- Testes de C executados: **nenhum**. Portao unico (`scripts/run_all.sh`): **inexistente**.
-  Portao de baseline do v1: **inexistente** (a arvore dele nao foi recuperada).
+- Codigo do produto: `src/wire.c` (codec de enquadramento) e o unico codigo escrito ate aqui;
+  `src/mud2.c` e `src/mu2ctl.c` **nao existem** (R-4/R-5).
+- Testes executados nesta arvore [medido, rodada R-3]: `unit` **106 assercoes, 0 falhas** sob
+  ASAN+UBSAN; `make-sintaxe` **5 casos, 0 falhas**, conferido independente de estado;
+  falsificacao **F1..F4** todas capturadas (45, 2, 18 e 2 falhas) com reversao conferida.
+- Portao unico (`scripts/run_all.sh`): **inexistente** (e a R-8). Suítes `e2e`, `net`, `golden`,
+  `interop`, `conform`, `data`, `fuzz`, `pe`, `gate_state`: **inexistentes**, registradas como
+  ausentes, nunca como aprovadas. Portao de baseline do v1: **inexistente** (a arvore dele nao foi
+  recuperada).
 - Medicoes de rede/benchmark do v2: **nenhuma**. O `bench` comeca `BLOCKED` e assim fica ate
   os criterios de validade serem reaplicados e recalibrados para as 2 vCPUs deste host.
 - Numeros do v1 (round-trip, CPU/quadro, contagens de suíte) **nao** estao reproduzidos; onde
@@ -52,8 +60,9 @@ em `ENVIRONMENT.md`). **R-3 em diante: nada comecado.** `src/`, `include/`, `tes
   branch for atualizada — decisao do dono em `NEXT_TASK.md` (fundir, ou segregar o v2).
 
 ## Backups e publicacoes conferidos nesta rodada
-- Publicacao: commit do `recriado/**` empurrado na branch da sessao e **conferido de volta** por
-  `git ls-remote --heads` (SHA remoto == local). O valor fica na tabela abaixo.
+- Publicacao: cada commit do `recriado/**` empurrado na branch da sessao e **conferido de volta**
+  por `git ls-remote --heads` (SHA remoto == local). O repositorio `MuserverRecriado` continua sem
+  nenhuma publicacao nossa: sem autorizacao do App, nao se tenta contornar (D2-09).
 - Copia independente: `backup/mu2-v2.bundle` (historico limitado ao caminho `recriado/**`) +
   `backup/MANIFEST.md` com SHA-256, e **teste de restauracao real** (clone a partir do bundle em
   `/tmp`) executado por `scripts/verify-backup.sh`.
@@ -66,7 +75,9 @@ em `ENVIRONMENT.md`). **R-3 em diante: nada comecado.** `src/`, `include/`, `tes
 |---|---|
 | branch da sessao | `arena/cf1de8ce-muserver` |
 | remoto conferido | `origin/arena/cf1de8ce-muserver` == HEAD local; na abertura da R-0 foi `fccaeaa` (a branch avanca a cada rodada, o que vale e a conferencia `ls-remote`) |
-| fase atual | R-0/R-1/R-2 fechadas (backup verificado: 6/6); proxima executavel = **R-3** |
+| fase atual | R-3 fechada (unit 106/0, make-sintaxe 5/0, F1..F4 capturadas); proxima executavel = **R-4** |
+| baseline desta rodada | `90bbfea` (codigo da R-3); relatorios e docs vao no commit seguinte |
+| suítes ausentes | e2e, net, golden, interop, conform, data, fuzz, pe, bench, gate_state, run_all |
 | bloqueio de publicacao | App GitHub sem `MuserverRecriado` na selecao de repositorios |
 | bloqueio de recuperacao | plano de controle inalcancavel do sandbox; depende da plataforma |
 | `MU_REF_DATA` | `/home/user/Muserver/MuServer` (presente e conferido) |

@@ -1,0 +1,11 @@
+# validacao do Makefile como contrato (v2, fase R-3)
+# comando: cd recriado && make -s make-sintaxe      (bash tests/make_parse.sh)
+# commit sob teste: 90bbfea
+caso	assercao	estado
+1	CFLAGS padrao carregam -Werror e os dois sanitizadores	ok
+2	SAN=0 desliga sanitizadores e mantem -O2 e -Werror	ok
+3	out/ ignorado pelo git e src/ nao	ok
+4	dry-run -B compila src/wire.c e tests/unit.c e liga out/wire.o out/unit.o -o out/unit	ok
+5	alvo inexistente falha com erro proprio	ok
+total	5	0 falhas
+independencia_de_estado	conferida em 3 rodadas (saida limpa, saida quente, quente 2x); exigiu -B no caso 4

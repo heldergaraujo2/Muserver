@@ -86,3 +86,39 @@ avanco que depende dessa protecao para, e o bloqueio e registrado aqui.
 Nao se altera `MuServer/**`, nem os arquivos da linha Lua (`workspace/**` existente), nenhum merge e feito por conta propria: existe `PR #1` **aberto** (`arena/cf1de8ce-muserver` → `main`, 5 commits,
 autor `heldergaraujo2`) e a decisao de fundir e do proprietario. O `recriado/**` e um
 acrescimo de arvore nova; a unica escrita fora dele e em `workspace/reports/` (relatorios).
+
+## D2-11 — layout do quadro no v2: `code(2, LE) | size(2, LE) | corpo`
+Cabecalho de 4 bytes; `size` e o tamanho **total** do quadro (cabecalho incluido), entao o
+corpo e `size - 4`. Coerencia exigida na decodificacao: `4 <= size <= MU2_MAX_FRAME`, com
+`MU2_E_BAD_LEN` para o resto e `MU2_E_INCOMPLETE` + `needed` para quadro ainda a meio.
+Motivo de o comprimento ser de 16 bits [medido]: `MU2_MAX_BODY = 2048` (D2-03) nao cabe no
+campo de 1 byte do MU classico (maximo 255). Nao e escolha estetica nem heranca: e
+consequencia aritmetica do contrato.
+O que esta **decidido contra** a tentacao obvia: este layout e do v2. O pacote de referencia
+nao expoe enquadramento na camada Lua (procura por `HEAD_SIZE`/`PacketSize`/`opcode` em
+`MuServer/Data/Script/System/ProtocolCore.lua`: zero ocorrencias), e o codigo do v1 nao foi
+recuperado. Compatibilidade byte a byte com o `ConnectServer.exe` real e pergunta da fase
+R-6, a responder a partir do binario (o `pe_probe` e as sondas de dados), e ate la o `interop`
+do v2 nao existe — ausencia registrada, nao sucesso presumido.
+Precisao util para quem ler D2-04 depois: a "equivalencia funcional entre perfis" ali pedida e
+de **enquadramento** (mesmo `code`, mesmo `size`, mesmo consumo de stream, mesmas recusas), nao de
+bytes de corpo — os corpos dao bytes diferentes por design (D2-12).
+
+## D2-12 — `mur0` = corpo sob involucao posicional; `orig` = corpo cru
+`mu2_body_transform` aplica `b[i] ^= key[i % 3] ^ (byte do opcode)` com `key = {AE, EC, D8}`.
+Depende da posicao e do opcode, nunca do conteudo, por isso e involutiva (aplicar duas vezes
+restaura) — propriedade testada (T5.1). Nao e cifra e nao reivindica ser: o ponto e manter dois
+caminhos de enquadramento vivos (D2-04), e o codec recusa explicitamente ler quadro `mur0` como
+`orig` sem aviso: o enquadramento continua valido e o corpo sai errado, e isso esta escrito como
+assercao (T9.3) em vez de ficar como surpresa futura.
+
+## D2-13 — o Makefile e contrato, e e validado como tal
+Alvos `build`/`unit`/`make-sintaxe`/`check`; saidas em `out/` (nao em `build/`: o alvo `.PHONY`
+chamado `build` colidia com um diretorio de mesmo nome e o `make` descartava a dependencia com
+aviso que ninguem lia); flags `-Werror -Wshadow -Wconversion -Wsign-conversion` + ASAN/UBSAN por
+padrao, com `SAN=0` existe so para comparar custo, nunca para publicar numero.
+`tests/make_parse.sh` (5 casos) e obrigatorio porque flag que some silenciosamente muda o portao
+sem mudar teste nenhum. Licao medida nesta fase: o caso 4 era **flaky por construcao** — sem
+`-B`, um `out/` ja atualizado fazia o `make -n` imprimir so `./out/unit`, e o caso passava a
+falhar por ambiente. Agora usa `make -s -B -n` e foi conferido em tres situacoes de estado
+(saida limpa, saida quente, quente duas vezes).
