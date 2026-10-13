@@ -35,11 +35,11 @@ servidor de MU Online**; o v2 hoje é um serviço de ensaio com contrato própri
 | CLI de controle (`mu2ctl`) e CLI do codec (`mu2codec`) | `IMPLEMENTADO` + `TESTADO` | `src/mu2ctl.c`, `tools/mu2codec.c` → `net`, `conform`, `golden` |
 | fuzzer determinístico | `IMPLEMENTADO` + `TESTADO` (`PARCIAL` por não ter feedback de bordas) | `tools/mu2fuzz.c` → `fuzz` 12 (150 000 iterações, 0 violações) |
 | console administrativo (backend, só loopback) | `IMPLEMENTADO` + `TESTADO` | `tools/mu2admin.c` → `admin` 24 |
-| portão único + teste do portão | `IMPLEMENTADO` + `TESTADO` | `tests/run_all.sh` (23 etapas) → `gate_state.sh` 19/19 |
+| portão único + teste do portão | `IMPLEMENTADO` + `TESTADO` | `tests/run_all.sh` (25 etapas, 20 PASS) → `gate_state.sh` 21/21; `gate-full` para as opt-in |
 | backup restaurável do repositório | `IMPLEMENTADO` + `TESTADO` + `OPERACIONAL` | `scripts/verify-backup.sh` → 11/11 (15/15 com `FULL=1`) |
 | sondas de inspeção do pacote (PE, dados, config, Lua, cifragem, interop) | `IMPLEMENTADO` + `TESTADO` | `tools/*_probe.py` → `pe` 14, `data` 21, `cfg` 15, `lua` 13, `lua-enc` 27, `interop` 12 |
 | **sistemas de jogo** (login, sessão, personagem, mundo, combate, itens, guildas…) | **`AUSENTE`** | §2 — não há uma linha de código |
-| **banco de dados / persistência** | **`AUSENTE`** no v2 | `DATABASE.md` |
+| **banco de dados / persistência (própria do v2)** | `IMPLEMENTADO` + `TESTADO` + `OPERACIONAL` — **formato próprio, não o do original** | `include/mu2/db.h`, `src/db.c`, `tools/mu2dbctl.c` → `db` 99, `dbctl` 31; `DATABASE.md` §1; decisão D2-40 |
 | protocolo do cliente original | **`BLOCKED`** (camada 3) | `PROTOCOLS.md` §4 |
 | compatibilidade com o cliente original | **`NÃO VERIFICADO`** (não há cliente no pacote) | `reports/r6-interop-relatorio.md` §2.3 |
 | formatos `.ozt` / layout `.bmd` / cifragem dos `.lua` | `PARCIAL` + `BLOCKED` | `PROTOCOLS.md` §5 |
@@ -48,19 +48,22 @@ servidor de MU Online**; o v2 hoje é um serviço de ensaio com contrato própri
 
 | sistema (pedido na tarefa de auditoria) | no v2 (`recriado/`) | no pacote original (`MuServer/`) |
 |---|---|---|
-| login e autenticação | **AUSENTE** — o serviço não autentica (o próprio código declara; `SECURITY.md` §1) | existe só como **configuração/binário**: `JoinServer.ini` (porta 55970, senha global em claro), `JoinServer.exe` protegido por Themida; nenhuma fonte |
+| login e autenticação | **PARCIAL** — existe **autenticação local** de conta (PBKDF2-HMAC-SHA256, 20 000 iterações, comparação em tempo constante, inclusive para conta inexistente); **a rede não autentica ninguém** — o serviço `mud2` continua sem autenticação | existe só como **configuração/binário**: `JoinServer.ini` (porta 55970, senha global em claro), `JoinServer.exe` protegido por Themida; nenhuma fonte |
 | gerenciamento de sessões | **PARCIAL, e é outra coisa**: sessões de *conexão TCP de ensaio* (vagas, idle, fd/RSS) — não há sessão de jogador | sessão de jogador é lógica interna do binário; **não analisada** |
-| personagens | **AUSENTE** | tabelas/procedures de reset citam conta/personagem (`WZ_*ResetInfo.sql`); o schema completo está em `.bak` — **não restaurado** |
+| personagens | **PARCIAL** — existe **registro durável** (criação, limite de 5 por conta, nível, zen, posição, apagar, listar); **não existe** nenhuma lógica de jogo em cima disso | tabelas/procedures de reset citam conta/personagem (`WZ_*ResetInfo.sql`); o schema completo está em `.bak` — **não restaurado** |
 | mundo, mapas, movimentação | **AUSENTE** | `Data/Terrain/*.att` (276), `MapServerInfo.dat`, `MonsterSetBase/**` — **formatos só parcialmente reconhecidos** e 1 310 spawns sem terreno correspondente (achado da fase anterior) |
 | combate e monstros | **AUSENTE** | `MonsterSetBase/**` (99 arquivos, texto) — dados, não lógica |
-| inventário, equipamentos, drops | **AUSENTE** | `Item.bmd` (XOR-3 decodificado em camada, **layout não decodificado**), `ItemTooltip_*.bmd` |
+| inventário, equipamentos, drops | **PARCIAL** — existe **armazenamento** de 64 slots com transferência atômica entre personagens; **não existe** item real, equipamento nem drop | `Item.bmd` (XOR-3 decodificado em camada, **layout não decodificado**), `ItemTooltip_*.bmd` |
 | comércio e economia | **AUSENTE** | nada medido além de arquivos de configuração de evento |
 | guildas, grupos, eventos | **AUSENTE** | configs de eventos em `Data/**` (não analisadas a fundo) |
 | anti-cheat / licença | **AUSENTE** | `PSGuard/**` (proprietário), `MHPServer/**`, `HackPacketCheck.txt` (272 entradas, 256 índices — **medido**) |
 
 Consequência prática, sem eufemismo: **não existe servidor de MU Online neste repositório.** O que
 existe é (a) o pacote original de terceiros, usado como material de medição, e (b) um projeto novo
-que, por enquanto, implementa e prova apenas a **camada de rede de ensaio** e a **instrumentação**.
+que implementa e prova a **camada de rede de ensaio**, a **instrumentação** e, desde a R-11, uma
+**persistência de contas/personagens/inventário com formato próprio** — que não é o banco do
+original e não é integrada a nenhum serviço de jogo (a ligação entre `mud2` e o banco **não existe
+ainda**; é a próxima lacuna do caminho, não um detalhe).
 
 ## 3. O que o v2 tem, item por item (com o número do teste)
 

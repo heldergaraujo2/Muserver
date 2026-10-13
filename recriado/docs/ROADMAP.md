@@ -18,8 +18,10 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 | R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=21/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
 | R-6 | interoperabilidade e golden | camada 1 (**conform** 15/15) e camada 2 (implementações próprias) comprovadas; camada 3 com evidência medida (`HackPacketCheck`: 272 entradas, 256 índices, 8 bits; code do v2 = 16 bits ⇒ fator 256) e **BLOCKED** com causa e caminho de desbloqueio; `golden` 42/42 com 38 vetores versionados e F20/F21 | **fechada no que é verificável** 2026-10-12 |
 | R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | `make -s bench` 15/15, critérios declarados antes, juiz separado (`tools/bench_check.py`); capacidade absoluta **BLOCKED**; 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
-| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/339 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14; **+ etapa `lua-enc` em 2026-10-13 (23 etapas, 3 BLOCKED)** | **fechada** 2026-10-12 |
+| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate` verde com 3 BLOCKED nomeadas; `gate-selftest` 21/21 com F12–F14; etapas `lua-enc`, `matriz-artefatos`, `db` e `dbctl` acrescentadas depois | **fechada** 2026-10-12 |
 | R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` a cada rodada | em curso |
+| R-10 | fechamento dos artefatos do portão (A1/A2/A4) | `ref-intacta` com BLOCKED nomeado em clone raso; `net-matrix` sem regravar `reports/` (etapa `matriz-artefatos` 10/10); `serve-docs.py` com lista explícita (teste 35/35); alvo `gate-full` no lugar da variável errada | **fechada** 2026-10-13 |
+| R-11 | persistência própria do v2 (subsistema I) | `db` 99/0 + `dbctl` 31/0 no portão, **incluindo morte real de processo no meio da transação**; decisão D2-40; relatório `reports/r11-persistencia.md` | **fechada** 2026-10-13 |
 
 ## Metas por categoria
 
@@ -109,6 +111,19 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 - **Prova:** o próprio verificador + `gate-selftest` (R-8).
 - **Risco:** o histórico do projeto é uma perda de ambiente; trabalho fora da árvore rastreada morre.
 
+### I. Persistência e estado durável
+- **Existe (medido):** arquivo `MU2DB01` com CRC32C por registro, transações com `TX_COMMIT`,
+  PBKDF2-HMAC-SHA256 (20 000 iterações), `flock`, `schema_version`, limites explícitos; dois
+  consumidores independentes (`db` 99, `dbctl` 31) e recuperação provada por **morte real** de
+  processo, não por truncagem simulada (`reports/r11-persistencia.md`; D2-40).
+- **Investigado:** o que o original exige — DSN ODBC `MuOnline`, esquema `WZ_*` em `.bak` não
+  restaurado, nada disso copiado para o v2.
+- **Depende de:** decisão do proprietário para o acoplamento com o banco original (item 6b da fila).
+- **Prova:** `db` + `dbctl` no portão padrão; reinício do processo entre passos é o próprio desenho
+  do `dbctl`.
+- **Risco:** apresentar o formato próprio como compatível; migração de dados reais não testada (não
+  há dado real legítimo no ambiente).
+
 ---
 
 ## Etapas restantes até um servidor funcional (ordem de dependência real)
@@ -123,7 +138,9 @@ condição da linha anterior exista — e nenhum item é "quase pronto" por ter 
 | 3 | **Interpretador Lua** | sintaxe (`luac -p`) e execução controlada dos 148 scripts; fecha C parcial | `lua`/`luajit` no host (ou instalação autorizada) |
 | 4 | **`ozt` (estrutura), `.bmd` (layout), `.att` (semântica)** | meta D além da classificação | mais medição (entropia por região, coerência de cabeçalho, correlação com `.ozj`); decodificação plena depende do item 2 |
 | 5 | **`enc` (cifragem dos `.lua`)** | F23 e a leitura dos scripts cifrados | mais pares claro/cifrado **ou** desempacotar o `LuaEncryptorTool.exe` num host autorizado (sem executar) **ou** documentação do fornecedor |
-| 6 | **Persistência/banco** | contas, personagens e progressão | **decisão nova** registrada em `DECISIONS.md` (tecnologia, migrações, teste de reinício) e, para acoplar ao ecossistema original, o DSN ODBC `MuOnline` + convenção `SQL_NO_DATA=100` |
+| 6 | **Persistência/banco** — **metade feita na R-11 (2026-10-13)** | *do v2:* contas, personagens, inventário, transações, recuperação — `db` 99/0 + `dbctl` 31/0, decisão D2-40 | **feito** (formato próprio; migração e reinício cobertos por teste) |
+| 6b | **Persistência acoplada ao original** (ODBC `MuOnline`, esquema `WZ_*`, `SQL_NO_DATA=100`) | rodar com o banco do pacote | DSN ODBC + SQL Server no host **+** os `.bak` restaurados num ambiente autorizado; decidir esquema é decisão do proprietário, não do agente |
+| 6c | **Ligar `mud2` à persistência** (login de verdade na porta) | primeira ligação real entre rede e estado durável | contrato novo de opcode (o atual não tem nenhum) **+** decisão sobre autenticação na porta, que hoje é ausente por escopo declarado |
 | 7 | **Lógica de jogo** (login, sessão, mundo, combate, itens, guildas) | o que faz disso um servidor de MU | especificação do comportamento — **inexistente no pacote**; depende dos itens 1/2 para observar o original |
 | 8 | **`regressao-lua`** (6 `.lua` patcheados) | integridade baseline↔patch↔árvore + presença das correções | já testável sem interpretador (análise estática); execução depende do item 3 |
 | 9 | **Alvo de publicação do produto** | meta G deixa de ser `501` | alvo autorizado + contrato de destino + credencial (ação do proprietário) |

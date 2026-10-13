@@ -548,3 +548,40 @@ recriação de sandbox fora do caminho que depende do push. **Verificação obri
 `git clone -b main` a partir do bundle → árvore idêntica à do destino conferido e `make -s check`
 sem falhas.
 **Limite.** Ele é transporte, não publicação: nada aqui afirma que o remoto foi atualizado.
+
+
+## D2-40 — persistência do v2: formato próprio, e rollback é remoção física
+
+**Contexto.** O v2 não tinha nenhum estado durável (D2-16 declarava `AUSENTE`): reiniciar o serviço
+zerava tudo. A tarefa de auditoria lista persistência como subsistema próprio, e o pacote de
+referência exige SQL Server via ODBC — que não existe neste ambiente e cujo esquema não é conhecido
+(`DATABASE.md`).
+
+**Decisão (três partes).**
+1. **Formato próprio, declarado como próprio.** Arquivo append-only `MU2DB01`, cabeçalho de 64 B,
+   registro de 32 B + payload com CRC32C, 13 tipos de registro, `schema_version` no cabeçalho. O
+   cabeçalho de `db.h` diz, em uma linha, que isto **não** é compatível com o SQL Server original e
+   não tenta ser. Nenhuma alegação de compatibilidade com banco ou cliente original decorre daqui.
+2. **Transação só existe no arquivo depois do marcador.** As operações ficam em memória; o
+   `TX_COMMIT` é o que as torna visíveis para quem reabrir. Operação única sem transação explícita é
+   o próprio commit (um registro válido).
+3. **Rollback é remoção física, e número de transação não se repete.** A varredura devolve o fim do
+   último registro confirmado e o arquivo é truncado ali (na abertura e no `estado_rebuild()`); o
+   maior `tx` visto no arquivo vira o piso do próximo.
+
+**Motivo (medido, não hipotético).** A primeira versão descartava os registros sem commit só em
+memória e reiniciava a numeração de TX em 1 a cada abertura. O teste de **morte real** de processo
+(`MU2DB_TESTE_ABORTA_APOS`, gancho de teste em `src/db.c`) mostrou a consequência: uma transferência
+nova, também `tx=1`, fez a varredura reaplicar o `remove` da transação abandonada junto com a nova, e
+o arquivo ficou ilegível (`abrir: varredura: formato invalido`). Depois da correção: morte no ponto 1
+e no ponto 2 deixam o item na origem, `descartados=1` na primeira abertura, `0` na segunda, arquivo
+de volta **ao tamanho exato** de antes do corte e `verify` aprovando. Evidência:
+`reports/r11-persistencia.md`; regressão: `tests/dbctl.sh` casos 19–31.
+
+**Por que não "simular corte truncando o arquivo", como o teste fazia antes.** Truncar testa o que
+*nós* escrevemos. A morte do processo testa o que o sistema operacional já tinha em disco — e foi
+exatamente aí que o defeito apareceu, nas duas primeiras versões.
+
+**Limite declarado.** Concorrência de dois processos **escrevendo** ao mesmo tempo não está coberta
+(o teste cobre o conflito de trava); não há migração de dados de produção porque não existe dado de
+produção legítimo neste ambiente; e nada disso é o banco do original.

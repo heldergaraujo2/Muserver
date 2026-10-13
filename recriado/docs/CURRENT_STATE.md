@@ -1,22 +1,29 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada da etapa **`enc`** (cifragem dos scripts Lua do cliente): a estrutura foi medida, o algoritmo ficou **`BLOCKED` com causa** e `F23` também — relatório em `reports/enc-cifragem-lua.md`. A publicação anterior dentro do monorepo (`MuserverRecriado/`, 174 arquivos) **não foi tocada** nesta rodada; o repositório separado segue vazio (`403` da instalação do GitHub App). Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada **R-11 (persistência própria do v2) + Fase A (artefatos do portão)**.
+O v2 passou a ter **estado durável de verdade** — contas, personagens e inventário em arquivo
+`MU2DB01` com transações — e o caminho até aí **não** foi linear: o teste de morte real de processo
+encontrou um defeito grave de recuperação (registros abandonados reaplicados; arquivo ilegível) que a
+simulação por truncagem não pegava. Está corrigido, com regressão que morre de verdade no meio da
+transação. Relatório: `reports/r11-persistencia.md`; decisão: D2-40. Índice curto: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
 | campo | valor |
 |---|---|
-| unidade fechada | **projeto recriado publicado dentro do monorepo** (`MuserverRecriado/`, commit `a6ddf81`) a partir do artefato validado, conferido arquivo por arquivo e verde na nova localização; o repo separado `MuserverRecriado` segue vazio (`403` do GitHub App) |
+| unidade fechada | **R-11 — persistência própria do v2** (`src/db.c`, `include/mu2/db.h`, `tools/mu2dbctl.c`, `tests/db_test.c` 99/0, `tests/dbctl.sh` 31/0) e **R-10 — Fase A dos artefatos do portão** (A1 BLOCKED nomeado, A2 fim da corrida `net-matrix`×`persistencia`, A4 `serve-docs.py` com lista explícita 35/35, alvo `gate-full`) |
 | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
-| próxima tarefa | **`ozt`** — estrutura interna das texturas (`NEXT_TASK.md`); `enc` fechou em 2026-10-13 como **`BLOCKED` documentado** (estrutura medida, algoritmo não identificado, `F23` bloqueada) |
+| próxima tarefa | **A3 — regressão estática dos 6 `.lua` patcheados** (`tests/regressao-lua.sh`): hoje testável sem interpretador; depois, **ligar `mud2` à persistência** exige decisão de contrato (opcode novo) e não é feita por conta própria (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |
 | onde o projeto está publicado | **`MuserverRecriado/` na raiz deste monorepo** — cópia do artefato validado, 174/174 arquivos com modo+blob idênticos; `MuServer/` e o resto do monorepo intocados |
 | HEAD / remoto | atualizado no fim desta unidade (ver §6 do `CONTINUITY.md`); monorepo `arena/cf1de8ce-muserver` == remoto conferido por `git ls-remote` |
-| portão único | `make -s gate` → **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas, 339 asserções contadas** (391 somando todas as etapas, incluindo as 27 da etapa nova) |
+| portão único | `make -s gate` → **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 25 etapas, 448 asserções contadas**, exit 0 (78 365 ms) |
+| etapas opt-in | `make -s gate-full` → liga `net-matrix` + `persistencia`; **a variável é `GATE_FULL`** — `FULL=1` é do `verify-backup.sh` e não ligava nada (achado desta rodada; o alvo novo existe para isso) |
+| persistência | `make -s db` **99/0** · `make -s dbctl` **31/0** (inclui morte real de processo no meio da transação) — formato **próprio**, não o banco do original (D2-40) |
 | etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) · **`lua-enc` 27/27 (`blocked=2`: algoritmo + `F23`)** |
 | ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, **`enc_probe`** (etapa `enc`, somente leitura), `malform_probe` |
 | portão de build | `make -s check` → 182 asserções (unit/make-sintaxe/net/pe/data) |
-| teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
+| teste do portão | `make -s gate-selftest` → **21/21**, exit 0 |
 | conformidade do v2 | `make -s conform` → **15/15** (camada 1; **não** é compatibilidade) |
 | falsificações permanentes | F12–F14 (portão), F15/F16 (R-6), F18/F19 (R-7), **F20/F21** (golden), **F22** (fuzz × codec mutado) |
 | capacidade absoluta | **BLOCKED** — 2 vCPUs, cliente e serviço competindo, binário com ASan/UBSan |

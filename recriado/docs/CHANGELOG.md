@@ -1,5 +1,58 @@
 # CHANGELOG do v2
 
+## R-11 — persistência própria do v2 (contas, personagens, inventário, transações) — 2026-10-13
+
+- **O que existe agora:** `include/mu2/db.h` (148 linhas) + `src/db.c` (1590), arquivo append-only
+  `MU2DB01` com CRC32C por registro, 13 tipos, transações com `TX_COMMIT`, PBKDF2-HMAC-SHA256 local,
+  `flock`, `schema_version` e migração, limites explícitos (4096 contas/personagens, 16 384 itens, 64
+  slots, 5 personagens por conta). **Não é e não tenta ser o banco do original** (D2-40).
+- **CLI de operação:** `tools/mu2dbctl.c` (221 linhas), que é **segundo consumidor da mesma API** —
+  defeito de contrato aparece nos dois. Não abre porta, não fala rede, não toca em `MuServer/`.
+- **Testes:** `tests/db_test.c` (**99 asserções**, `# db=99 falhas=0`) e `tests/dbctl.sh` (**31
+  asserções**, `# dbctl=31 falhas=0 blocked=0`), ambos agora etapas do portão (`make -s db`,
+  `make -s dbctl`, alvos novos no `Makefile`). Vetores conhecidos conferidos: FIPS 180-4 (SHA-256),
+  RFC 7914 (PBKDF2 c=1 e c=2), RFC 3720 (CRC32C).
+- **Três defeitos reais encontrados e corrigidos — o terceiro só apareceu no teste de morte real:**
+  1. `TX_COMMIT` gravava `len=4` com payload de 8 B: o CRC do marcador de commit nunca conferia na
+     volta (sintoma: `CRC divergente no registro 1 (offset 161)`);
+  2. operação gravada com **payload zerado** (composto temporário sem `memcpy`) → `varredura: formato
+     invalido` ao reabrir;
+  3. **`rollback` que não removia nada:** os registros sem commit ficavam no arquivo e o número da
+     transação recomeçava em 1 a cada abertura, então uma transação nova fazia a varredura
+     **reaplicar registros abandonados** — o arquivo virava ilegível. Correção: truncagem no último
+     registro confirmado (`trunca_ate()`, usada na abertura **e** no `estado_rebuild()`) e numeração
+     monotônica de TX derivada do arquivo (D2-40).
+- **Gancho de teste, declarado:** `MU2DB_TESTE_ABORTA_APOS=<n>` mata o processo com `_exit()` depois
+  do n-ésimo registro gravado, sem `atexit`/`fflush`. Desligado por padrão; existe porque truncar o
+  arquivo testa o que *nós* escrevemos, não o que o sistema operacional tinha em disco.
+- **Medição do reparo, no mesmo cenário de antes:** item continua na origem, destino não recebe nada,
+  `verify` aprova, `descartados=1` na primeira abertura e `0` na segunda, e o arquivo volta ao
+  **tamanho exato** de antes do corte. Relatório: `reports/r11-persistencia.md`.
+
+## Fase A — os artefatos do portão passam a dizer a verdade (A1/A2/A4) — 2026-10-13
+
+- **A1 — `ref_check.sh` com BLOCKED nomeado.** Clone raso quebrava os casos 7–8 (integridade do
+  pacote) e o script acabava em falha sem causa. Agora o objeto do upload é conferido com
+  `git cat-file -e`: se falta, os casos ficam **BLOCKED com motivo** e o resumo sai
+  `# ref-intacta=6 falhas=0 blocked=2` (exit 0, sem `not ok`); conteúdo divergente com objeto
+  presente continua **FAIL**. Medido: repo real 8/0/0; raso 6/0/2.
+- **A2 — fim da corrida entre `net-matrix` e `persistencia`.** `net-matrix` regravava
+  `reports/net-*.tsv` e derrubava a etapa seguinte, que exige árvore limpa: com `GATE_FULL=1` o
+  portão ficava vermelho por artefato, não por código. Agora os TSV vão para `out/net-matrix` e a
+  publicação é explícita (`net-matrix-publish`); a etapa nova `matriz-artefatos` (10 asserções)
+  guarda a regressão — inclusive que nenhuma regravação acontece por acidente.
+- **A3/pendente —** regressão estática dos 6 `.lua` patcheados: ainda não feita (próxima tarefa).
+- **A4 — `serve-docs.py` com lista explícita.** O servidor de documentos passa a servir **30 caminhos
+  `.md` declarados um por um** (antes: glob), resolve por dicionário exato (nunca montando caminho a
+  partir da URL), sanitiza HTML e responde 405 a POST/PUT/DELETE/PATCH/OPTIONS. Teste novo
+  `workspace/tests/test_serve_docs.py` com **35 asserções**, incluindo 9 negativos 404 (`.tsv`,
+  `PSGG.ini`, `.bak`, `../`, documento novo não aprovado) e "sem `X-Frame-Options`".
+- **Achado da rodada:** o `Makefile` documentava `FULL=1` para ligar as etapas opt-in, mas o portão lê
+  **`GATE_FULL`** (`FULL=1` é do `scripts/verify-backup.sh`). Ou seja: quem seguia a documentação
+  rodava com `net-matrix` e `persistencia` **SKIPPED**, e o verde não cobria o que se queria testar.
+  Alvo novo `gate-full` (`make -s gate-full` → `GATE_FULL=1 bash tests/run_all.sh`); a documentação
+  passou a citar o alvo, não a variável.
+
 ## Etapa `enc` — cifragem dos scripts Lua do cliente: estrutura medida, algoritmo `BLOCKED` — 2026-10-13
 
 - **Resultado honesto: o algoritmo NÃO foi identificado.** A etapa fecha com o que a medição sustenta

@@ -1,5 +1,18 @@
 # NEXT_TASK — o que vem agora
 
+## Fila desta rodada (a primeira é a próxima tarefa executável)
+
+| # | tarefa | por que agora | critério objetivo de conclusão | bloqueio |
+|---|---|---|---|---|
+| 1 | **A3 — regressão estática dos 6 `.lua` patcheados** (`tests/regressao-lua.sh`) | é o resto combinado da Fase A e não depende de interpretador; hoje só existe `ref-intacta` provando que a árvore não mudou | suíte nova no portão conferindo baseline↔patch↔árvore, presença das correções e reversibilidade, com asserção por arquivo; sem `not ok` e sem afrouxar `ref-intacta` | nenhum |
+| 2 | **ligar `mud2` à persistência** (login na porta) | primeira ligação entre rede e estado durável — o que transforma "registro" em "servidor" | contrato de opcode novo **declarado** (não inferido do original), teste de ponta a ponta com reinício do serviço entre login e leitura, e `conform`/`golden` provando que o contrato antigo não mudou | **decisão de contrato**: o v2 não tem opcode de login e a autenticação na porta é ausente por escopo declarado — decidir isso não é operação reversível de rotina |
+| 3 | **publicação do destino** (`MuserverRecriado`) | está reconstruído e não publicado | `ls-remote` conferindo o SHA do destino | `403` da instalação do GitHub App — ação do proprietário |
+| 4 | **rodada de publicação nova** da pasta `MuserverRecriado/` | ela é snapshot da rodada anterior e não tem `db.c`, `mu2dbctl.c`, `dbctl.sh` nem os docs desta rodada | checklist do `workspace/migracao/` + portão verde dentro da pasta | depende de 3 (ou de decisão explícita de publicar dentro do monorepo de novo) |
+
+O que **não** entra nesta fila por decisão: interface gráfica do console; escrita em runtime no serviço
+através de opcode administrativo novo (invalidaria o contrato hoje provado); executar binário do
+pacote original; tocar em `MuServer/`.
+
 ## Passo zero (bloqueado no proprietário): publicar o destino
 
 O destino está preparado, verificado e reprodutível (`workspace/migracao/`), mas **não publicado**:

@@ -3,7 +3,7 @@
 | campo | valor |
 |---|---|
 | data das medições abaixo | **2026-10-13**, neste ambiente (Debian 12, 2 vCPUs, gcc 12.2.0, ASan+UBSan ligados) |
-| comando canônico | `cd recriado && make -s gate` (23 etapas) · `FULL=1 make -s gate` (inclui as opt-in caras) |
+| comando canônico | `cd recriado && make -s gate` (25 etapas) · `make -s gate-full` (inclui as opt-in caras). **Atenção, achado de 2026-10-13:** a variável que liga as opt-in é **`GATE_FULL`** — `FULL=1` é do `scripts/verify-backup.sh` e, se usado aqui, o portão roda com `net-matrix`/`persistencia` **SKIPPED** dando cara de verde. Por isso existe o alvo `gate-full`; use o alvo, não a variável |
 | política de honestidade | `BLOCKED`/`NOT_IMPLEMENTED`/`SKIPPED` **nunca** são contados como aprovados; resumo ausente é `FAIL` |
 
 ## 1. Resultados desta rodada (números reais, incluindo um FAIL explicado)
@@ -29,6 +29,8 @@
 |---|---|---|---|
 | `build` | a build completa compila/linka com `-Werror` + sanitizadores | `PASS` (cmd) | — |
 | `unit` | codec: 106 casos de unidade (limites, erros, perfis, involução) | `PASS` 106/0 | — |
+| `db` | persistência própria: vetores FIPS 180-4/RFC 7914/RFC 3720, ciclo de vida, transações, corrupção por CRC, limites, `flock`, inventário e transferência | `PASS` **99/0** | formato **próprio**; não é o banco do original (D2-40) |
+| `dbctl` | **integração por processos separados**: cada comando do CLI é um processo novo (o estado tem de vir do arquivo) + **morte real no meio da transação** (`MU2DB_TESTE_ABORTA_APOS`) | `PASS` **31/0** | não cobre dois escritores simultâneos |
 | `make-sintaxe` | **o Makefile como contrato** (flags, alvos, `out/` ignorado) | `PASS` 7/7 | — |
 | `net` | rede ponta a ponta contra `mud2` real (S1–S13): fragmentação, escrita parcial, backpressure, idle, max_clients, malformado, shutdown | `PASS` 34/34 | matriz rápida (`NET_QUICK=1`) |
 | `pe` | inspeção PE da referência (22 `.exe`, arquitetura, seções, imports) | `PASS` 14/14 | requer `MU_REF_DATA`; sem ele → `BLOCKED` |
@@ -53,10 +55,15 @@ Leitura da mesa: **o que está verde é o que foi executado**; `interop`, `lua` 
 como `BLOCKED` com causa, e `net-matrix`/`persistencia` como `SKIPPED` no portão padrão (opt-in
 explícito via `GATE_FULL=1`) — nunca como aprovadas.
 
-## 3. A etapa `persistencia` e a interação com `net-matrix` (transparência)
+## 3. A etapa `persistencia` e a interação com `net-matrix` (transparência, e como foi resolvida)
 
-Duas medições `FAIL` desta rodada, com causa medida — nenhuma delas é defeito do produto, e as duas
-ficam registradas porque a regra é não esconder resultado ruim:
+**Estado desta seção em 2026-10-13 (Fase A/A2): resolvida, com regressão versionada.** A causa era
+artefato, não código: `net-matrix` regravava `reports/net-{orig,mur0}.tsv` e a etapa seguinte exige
+árvore limpa. Agora os TSV vão para `out/net-matrix/` (ignorado pelo git) e a publicação em
+`reports/` é passo explícito (`make -s net-matrix-publish`); a etapa `matriz-artefatos` (10
+asserções) guarda a regressão — inclusive que `make -s gate-full` **não** regrava os relatórios de
+`reports/`. As duas medições `FAIL` abaixo ficam registradas como história: uma rodada que apaga o
+resultado ruim não deixa rastro de como o defeito foi encontrado.
 
 1. **1ª passada de `FULL=1`**, com a rodada em curso: `arvore recriado/ limpa → FALHA`
    (`M recriado/Makefile`, `M recriado/reports/net-*.tsv`). É a checagem de D2-09 funcionando: "fim de

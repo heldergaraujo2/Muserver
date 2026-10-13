@@ -3,25 +3,39 @@
 | campo | valor |
 |---|---|
 | data | 2026-10-13 |
-| resposta curta | **o v2 (`recriado/`) não tem banco de dados, nem persistência de estado**. O pacote de referência (`MuServer/`) exige **SQL Server via ODBC** e traz artefatos de banco versionados |
+| resposta curta | o v2 (`recriado/`) **tem persistência própria desde a R-11** — contas, personagens e inventário em arquivo append-only, formato `MU2DB01`, que **não é** o banco do original e não tenta ser (D2-40). O pacote de referência (`MuServer/`) exige **SQL Server via ODBC**, e esse continua **AUSENTE** aqui |
 | regra | nada aqui foi executado, restaurado ou testado com um servidor de banco real; o que está escrito é o que os arquivos **medidos** mostram |
 
-## 1. Estado no v2: AUSENTE (declarado no próprio código)
+## 1. Estado no v2: persistência PRÓPRIA (R-11), SQL Server continua AUSENTE
 
-`src/mud2.c`, cabeçalho, linha 15 — o serviço diz o que **não** faz:
+Duas coisas diferentes, que não podem ser confundidas:
 
-```
- * Nao faz: TLS, autenticacao, persistencia, nem qualquer compatibilidade com o cliente
-```
+| pergunta | resposta medida hoje |
+|---|---|
+| o v2 guarda estado durável? | **sim, desde a R-11** — `src/db.c` + `include/mu2/db.h`, arquivo `MU2DB01`, cabeçalho 64 B, registro 32 B + payload com CRC32C, 13 tipos, transações com `TX_COMMIT`, PBKDF2-HMAC-SHA256, `flock` |
+| o v2 fala com o banco do original? | **não** — nenhuma linha de ODBC, nenhum esquema do pacote usado, nenhum `.bak` restaurado |
+| há contas/personagens/itens duráveis? | **sim, como registro** (criar, autenticar, listar, apagar, nível, zen, posição, 64 slots, transferência atômica) — e **nada de lógica de jogo** em cima |
+| o serviço `mud2` usa o banco? | **ainda não** — a ligação rede↔persistência não existe; é a lacuna seguinte, nomeada em `ROADMAP.md` |
 
-Confirmado por medição: `grep -riE 'odbc|sqlite|sql|mysql|postgres'` em `src/`, `include/`,
-`tools/` e `tests/` retorna **0 ocorrências de uso de banco** (os únicos casamentos são a palavra
-"persistência" em comentário e o nome da etapa opt-in `persistencia` do portão, que é sobre *backup
-do repositório*, não sobre banco — ver `BUILD_AND_RUN.md` §6).
+O `src/mud2.c` continua dizendo, com razão, que não faz autenticação nem persistência: ele é o
+serviço de ensaio de rede. A persistência vive em módulo próprio e é exercitada por dois
+consumidores independentes (`tests/db_test.c`, `make -s db` → **99 asserções**; `tools/mu2dbctl.c` +
+`tests/dbctl.sh`, `make -s dbctl` → **31 asserções**).
 
-Consequências, sem eufemismo: **não existem contas, personagens, itens, progressão nem qualquer
-estado durável** no v2. Reiniciar o serviço zera os contadores. Isso é decisão de escopo da fase
-atual, não defeito oculto — e está listado como **AUSENTE** em `PROJECT_STATUS.md`.
+`grep -riE 'odbc|sqlite|sql|mysql|postgres'` em `src/`, `include/`, `tools/` e `tests/` continua
+mostrando **zero uso de banco relacional**; o nome da etapa opt-in `persistencia` do portão é sobre
+*backup do repositório*, não sobre banco (`BUILD_AND_RUN.md` §6).
+
+**Defeito encontrado e corrigido nesta rodada, porque muda o que se pode afirmar:** a primeira versão
+descartava registros sem commit apenas em memória e reiniciava a numeração de transação em cada
+abertura — uma transação nova fazia a varredura **reaplicar operações abandonadas** e o arquivo ficava
+ilegível. O teste de morte real de processo (`MU2DB_TESTE_ABORTA_APOS`, gancho de teste desligado por
+padrão) mostrou o caso; a correção trunca o arquivo no último registro confirmado e deriva a
+numeração do próprio arquivo (D2-40, `reports/r11-persistencia.md`).
+
+**Limite declarado.** Nada aqui é compatível com o SQL Server do original, com as tabelas
+`WZ_*`/`.bak` do pacote, nem com o cliente. Migração de dados de produção não foi testada porque não
+existe dado de produção legítimo neste ambiente.
 
 ## 2. O que o pacote de referência espera (medido nos arquivos)
 

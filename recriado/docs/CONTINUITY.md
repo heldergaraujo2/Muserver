@@ -33,7 +33,8 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | identidade do backup e restauração | [../../workspace/backups/MANIFEST.md](../../workspace/backups/MANIFEST.md) |
 | evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r6-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
 | sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
-| portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
+| portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) — alvo **`make -s gate-full`** para as etapas opt-in (**não** `FULL=1`, que é do backup) |
+| persistência própria do v2 (R-11) | [db.h](../include/mu2/db.h) · [db.c](../src/db.c) · [db_test.c](../tests/db_test.c) · [mu2dbctl.c](../tools/mu2dbctl.c) · [dbctl.sh](../tests/dbctl.sh) · [DATABASE.md](DATABASE.md) · [D2-40](DECISIONS.md) · [../reports/r11-persistencia.md](../reports/r11-persistencia.md) |
 | sondas e suítes da R-6 | [../tools/cfg_probe.py](../tools/cfg_probe.py) · [../tools/wire_probe.py](../tools/wire_probe.py) · [../tools/matrix_check.py](../tools/matrix_check.py) · [../tests/conform.sh](../tests/conform.sh) · [../tests/cfg.sh](../tests/cfg.sh) |
 | matriz de evidências (R-6) | [../reports/r6-matriz.tsv](../reports/r6-matriz.tsv) · [../reports/r6-relatorio.md](../reports/r6-relatorio.md) |
 | desempenho e limites (R-7) | [../tests/bench.sh](../tests/bench.sh) · [../tools/bench_check.py](../tools/bench_check.py) · [../tools/rtt_probe.py](../tools/rtt_probe.py) · [../reports/r7-baseline.tsv](../reports/r7-baseline.tsv) · [../reports/r7-relatorio.md](../reports/r7-relatorio.md) |
@@ -79,8 +80,10 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | bench | `make -s bench` | 15/15 — linha de base exploratória (R-7) |
 | persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas, 339 asserções contadas (391 somadas), exit 0** |
-| teste do portão | `make -s gate-selftest` | **19/19**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado) |
+| **portão único** | `make -s gate` | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 25 etapas, 448 asserções contadas, exit 0** |
+| etapas opt-in | `make -s gate-full` | liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9) |
+| persistência própria do v2 | `make -s db` · `make -s dbctl` | **99/0** · **31/0** (o segundo inclui morte real de processo no meio da transação) |
+| teste do portão | `make -s gate-selftest` | **21/21**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado, clone raso classificado) |
 
 Não existe, e por quê: `interop` camada 3 (BLOCKED — exige `wine`/`qemu-i386` + autorização; a suíte
 não tem caminho de execução de binário original); execução de Lua (sem interpretador no host);
@@ -164,6 +167,23 @@ publicada — por isso a publicação conferida por `ls-remote` faz parte do bac
 - Publicação só é afirmada depois de `git ls-remote` conferir o SHA remoto.
 - `blocked != aprovado`; diretório vazio ou especificação não é implementação.
 - Não inflar `MU2_MAX_BODY`, buffers ou limites para fazer teste passar.
+- **`GATE_FULL` é a variável do portão; `FULL` é do backup.** Usar `FULL=1 make -s gate` não liga nada
+  e o portão sai verde com `net-matrix`/`persistencia` **SKIPPED**. Use `make -s gate-full` (achado de
+  2026-10-13; o alvo existe para não depender de memória).
+- Teste de recuperação de estado se prova com **morte real** do processo (`MU2DB_TESTE_ABORTA_APOS`),
+  não truncando o arquivo: truncar testa o que *nós* escrevemos, não o que o SO tinha em disco.
+- **Nunca editar arquivo que um portão em execução está lendo.** O bash lê script por deslocamento em
+  bytes: editar `tests/run_all.sh` no meio de uma corrida fez o interpretador perder o fio e a corrida
+  morrer em `syntax error near unexpected token 'done'` (exit 2) **depois de 11 minutos**. Medido em
+  2026-10-13; a lição vale para qualquer script em execução.
+- **Suíte não apaga artefato de outra etapa.** `tests/matriz.sh` fazia `rm -rf out/net-matrix` e, com
+  `GATE_FULL=1`, apagava a matriz completa que `net-matrix` tinha acabado de produzir. Agora tira
+  retrato, restaura no fim e tem caso próprio (sentinela) provando que artefato de terceiros
+  sobrevive.
+- **Critério que mede a coisa errada reprova trabalho certo.** Três asserções do `matriz.sh` comparavam
+  `git status` com string vazia e falhavam por um relatório novo, legítimo e não commitado; passaram a
+  medir **mudança** (antes/depois) e, na metade que prova a detecção, o **arquivo versionado aparecer
+  marcado** — lido no instante certo, antes da restauração que apaga o sinal.
 - Evidência não pode morar em caminho ignorado pelo git (`.json`/`.raw` em `workspace/reports`,
   `recriado/out/`): conferir que o arquivo aparece no `git diff --cached`.
 - Binário versionado exige atributo `binary` e conferência **depois** do push (`FULL=1`).
