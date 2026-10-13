@@ -1,0 +1,97 @@
+arquivo	tamanho	sha256_16	maquina	pe32plus	secoes	entropia_media	subsystem	tem_exports	tabela_imports_bytes	timestamp_pe	lista_secoes
+ConnectServer/ConnectServer.exe	380416	f25eecb6c65214b7	i386	0	5	4.408	gui	0	160	1506998062	.text,.rdata,.data,.rsrc,.reloc
+ConnectServer/ConnectServer_old.exe	380416	84f421933564af80	i386	0	5	4.8163	gui	0	320	1628857048	.text,.rdata,.data,.rsrc,.reloc
+DataServer/DataServer.exe	1476608	177b5ce31e2f0b01	i386	0	6	4.1613	gui	0	140	1760374836	.text,.rdata,.data,.fptable,.rsrc,.reloc
+DiscordServer/DiscordServer.exe	12027408	af53b530822e5a09	i386	0	9	5.4233	gui	0	752	1722439634	        ,        ,        ,.rsrc,        ,.idata,.tls,.themida,.reloc
+GameServer/GameServer.exe	13449744	acc5cf86001af2dd	i386	0	11	5.4378	gui	1	248	1773640430	        ,        ,        ,        ,.rsrc,        ,.edata,.idata,.tls,.themida,.reloc
+GameServerCS/GameServer.exe	13716496	bcdb6740d2e0d776	i386	0	11	5.4445	gui	1	248	1773640477	        ,        ,        ,        ,.rsrc,        ,.edata,.idata,.tls,.themida,.reloc
+JoinServer/JoinServer.exe	1228800	ec4872a4505cc381	i386	0	5	5.0372	gui	0	340	1736950259	.text,.rdata,.data,.rsrc,.reloc
+MHPServer/MHPServer.exe	495616	3a4ced512f798b88	i386	0	5	4.5886	gui	0	140	1499092019	.text,.rdata,.data,.rsrc,.reloc
+PSGuard/Monitor.exe	4090472	804d73b48c60de29	i386	0	18	4.6911	gui	1	388	1632437559	        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,.edata,.idata,.tls,.rsrc,.themida,.boot,.reloc
+PSGuard/Servidor.32.exe	6203160	b9ac3772fbe83189	i386	0	18	4.5743	gui	1	528	1732483036	        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,.edata,.idata,.tls,.rsrc,.themida,.boot,.reloc
+PSGuard/Servidor.64.exe	8084760	eeaff3d7e2b53f44	x86_64	1	18	4.8289	gui	1	676	1732483043	        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,        ,.edata,.idata,.tls,.rsrc,.themida,.boot,.reloc
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Multi Functions Tools.exe	3196680	86fe397449d417bb	i386	0	11	3.9957	gui	1	15028	1717688622	.text,.itext,.data,.bss,.idata,.didata,.edata,.tls,.rdata,.reloc,.rsrc
+SpeedServer/GameServer/GameServer.exe	13449744	acc5cf86001af2dd	i386	0	11	5.4378	gui	1	248	1773640430	        ,        ,        ,        ,.rsrc,        ,.edata,.idata,.tls,.themida,.reloc
+SubSalatest/GameServer/GameServer.exe	13449744	acc5cf86001af2dd	i386	0	11	5.4378	gui	1	248	1773640430	        ,        ,        ,        ,.rsrc,        ,.edata,.idata,.tls,.themida,.reloc
+Tools/Editores/Editor de conta Muemu/Editor.exe	4577792	5fe9dd533a533a6f	i386	0	11	3.7907	gui	1	15142	1494549563	.text,.itext,.data,.bss,.idata,.didata,.edata,.tls,.rdata,.reloc,.rsrc
+Tools/Editores/MuEditor/MuEditor.exe	844800	4bbac6c09346f37b	i386	0	3	3.9132	gui	0	79	1626547314	.text,.rsrc,.reloc
+Tools/Gerador de Main/LuaEncTool/LuaEncryptorTool.exe	5782016	bf0656b11ecb65a3	i386	0	7	6.3365	console	0	80	1744200212	        ,        ,        ,.rsrc,        ,.idata,.themida
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/GetMainInfo-Premium.exe	3163648	ae3466318678d782	i386	0	6	4.008	console	0	60	1753204696	.text,.rdata,.data,.fptable,.rsrc,.reloc
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/main.exe	3615232	ff08a99195b843a0	i386	0	7	2.0935	gui	0	440	1332320018	.text,.rdata,.data,.vmp0,.vmp1,.reloc,.rsrc
+Tools/Gerador de Main/MAIN_INFOS6.20/GetMainInfo-Premium.exe	2861056	15c37b4b4f105ac1	i386	0	5	4.8235	console	0	60	1746793026	.text,.rdata,.data,.rsrc,.reloc
+Tools/GetHardwareId.exe	238592	95ccbf1425495f3c	i386	0	5	4.6736	console	0	60	1496365142	.text,.rdata,.data,.rsrc,.reloc
+Tools/StartUp/SSU_v1.0.4.164.exe	281600	968f03d20525a085	i386	0	3	3.9613	gui	0	75	1217331640	.text,.rsrc,.reloc
+
+# ocorrencias de palavras-chave (achar nao e concluir; nao achar nao prova ausencia)
+arquivo	sha256_16	palavra	ocorrencias
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	Recv	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	Send	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	WSARecv	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	WSASend	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	listen	1
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	CreateIoCompletionPort	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	ConnectServer	9
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	JoinServer	2
+ConnectServer/ConnectServer.exe	f25eecb6c65214b7	GameServer	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	Recv	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	Send	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	WSARecv	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	WSASend	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	listen	1
+ConnectServer/ConnectServer_old.exe	84f421933564af80	CreateIoCompletionPort	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	ConnectServer	9
+ConnectServer/ConnectServer_old.exe	84f421933564af80	JoinServer	2
+ConnectServer/ConnectServer_old.exe	84f421933564af80	GameServer	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	Recv	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	Send	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	WSARecv	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	WSASend	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	connect	1
+DataServer/DataServer.exe	177b5ce31e2f0b01	listen	1
+DataServer/DataServer.exe	177b5ce31e2f0b01	CreateIoCompletionPort	2
+DataServer/DataServer.exe	177b5ce31e2f0b01	DataServer	13
+DataServer/DataServer.exe	177b5ce31e2f0b01	GameServer	2
+GameServer/GameServer.exe	acc5cf86001af2dd	GameServer	1
+GameServer/GameServer.exe	acc5cf86001af2dd	Lua	3
+GameServer/GameServer.exe	acc5cf86001af2dd	luaL_	44
+GameServerCS/GameServer.exe	bcdb6740d2e0d776	GameServer	1
+GameServerCS/GameServer.exe	bcdb6740d2e0d776	luaL_	44
+JoinServer/JoinServer.exe	ec4872a4505cc381	Recv	2
+JoinServer/JoinServer.exe	ec4872a4505cc381	Send	3
+JoinServer/JoinServer.exe	ec4872a4505cc381	WSARecv	2
+JoinServer/JoinServer.exe	ec4872a4505cc381	WSASend	2
+JoinServer/JoinServer.exe	ec4872a4505cc381	connect	9
+JoinServer/JoinServer.exe	ec4872a4505cc381	listen	1
+JoinServer/JoinServer.exe	ec4872a4505cc381	CreateIoCompletionPort	2
+JoinServer/JoinServer.exe	ec4872a4505cc381	ConnectServer	2
+JoinServer/JoinServer.exe	ec4872a4505cc381	JoinServer	13
+JoinServer/JoinServer.exe	ec4872a4505cc381	GameServer	7
+MHPServer/MHPServer.exe	3a4ced512f798b88	Recv	2
+MHPServer/MHPServer.exe	3a4ced512f798b88	Send	2
+MHPServer/MHPServer.exe	3a4ced512f798b88	WSARecv	2
+MHPServer/MHPServer.exe	3a4ced512f798b88	WSASend	2
+MHPServer/MHPServer.exe	3a4ced512f798b88	connect	1
+MHPServer/MHPServer.exe	3a4ced512f798b88	listen	1
+MHPServer/MHPServer.exe	3a4ced512f798b88	CreateIoCompletionPort	2
+MHPServer/MHPServer.exe	3a4ced512f798b88	GameServer	1
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Multi Functions Tools.exe	86fe397449d417bb	Recv	7
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Multi Functions Tools.exe	86fe397449d417bb	Send	335
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Multi Functions Tools.exe	86fe397449d417bb	connect	19
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Multi Functions Tools.exe	86fe397449d417bb	select	2
+SpeedServer/GameServer/GameServer.exe	acc5cf86001af2dd	GameServer	1
+SpeedServer/GameServer/GameServer.exe	acc5cf86001af2dd	Lua	3
+SpeedServer/GameServer/GameServer.exe	acc5cf86001af2dd	luaL_	44
+SubSalatest/GameServer/GameServer.exe	acc5cf86001af2dd	GameServer	1
+SubSalatest/GameServer/GameServer.exe	acc5cf86001af2dd	Lua	3
+SubSalatest/GameServer/GameServer.exe	acc5cf86001af2dd	luaL_	44
+Tools/Editores/Editor de conta Muemu/Editor.exe	5fe9dd533a533a6f	Send	390
+Tools/Editores/Editor de conta Muemu/Editor.exe	5fe9dd533a533a6f	connect	23
+Tools/Editores/Editor de conta Muemu/Editor.exe	5fe9dd533a533a6f	select	2
+Tools/Editores/MuEditor/MuEditor.exe	4bbac6c09346f37b	Send	2
+Tools/Editores/MuEditor/MuEditor.exe	4bbac6c09346f37b	select	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/GetMainInfo-Premium.exe	ae3466318678d782	connect	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/main.exe	ff08a99195b843a0	Send	4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/main.exe	ff08a99195b843a0	WSASend	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/main.exe	ff08a99195b843a0	Lua	1
+Tools/Gerador de Main/MAIN_INFOS6.20/GetMainInfo-Premium.exe	15c37b4b4f105ac1	connect	2
+Tools/StartUp/SSU_v1.0.4.164.exe	968f03d20525a085	select	4

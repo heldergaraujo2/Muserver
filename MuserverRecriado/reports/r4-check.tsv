@@ -1,0 +1,18 @@
+# portao da fase R-4 (servico de rede) — resultados medidos nesta arvore, nao herdados do v1
+# commit base: 09a65d2 (+ diagnostico de drain e orcamento do cliente, ver CHANGELOG)
+# data: 2026-10-12T17:55:17Z  host: kernel 6.1.158+, 2 vCPUs Xeon 2.60GHz, 3939 MB RAM  compilador: cc (Debian 12.2.0-14+deb12u1) 12.2.0
+# flags (make -s dump-CFLAGS): -std=c11 -O2 -g -Wall -Wextra -Werror -Wshadow -Wconversion -Wsign-conversion -fstack-protector-strong -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 -fsanitize=address,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer -Iinclude
+suite	comando	resultado	falhas	status
+unit	make -s unit	106 assercoes (41 sites CHECK em 13 faixas T1..T13)	0	PASS
+make-sintaxe	make -s make-sintaxe	7 casos (2 novos: build do servico; net dentro do check)	0	PASS
+net (portao)	make -s net	34 verificacoes (S1..S13 + matriz reduzida 4 conf x 2 reps)	0	PASS
+net-matrix	make -s net-matrix	36 verificacoes; 100 conf x 5 reps por perfil (orig e mur0); 10m12s	0	PASS
+check	make -s check	unit + make-sintaxe + net	0	PASS
+e2e	-	nao existe como suite separada: os cenarios ponta a ponta estao em tests/net.sh	-	NAO-SEPARADO
+golden	-	-	-	NOT_IMPLEMENTED (R-6)
+interop	-	-	-	NOT_IMPLEMENTED (R-6; exige binario original e Wine/Windows)
+conform	-	-	-	NOT_IMPLEMENTED (R-5/R-6)
+data / pe	-	-	-	NOT_IMPLEMENTED (R-5)
+fuzz	-	-	-	NOT_IMPLEMENTED
+bench	-	-	-	BLOCKED (criterios de validade ausentes; host de 2 vCPUs)
+gate_state / run_all.sh	-	-	-	NOT_IMPLEMENTED (R-8)

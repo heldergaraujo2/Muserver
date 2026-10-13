@@ -1,0 +1,489 @@
+arquivo	ext	tamanho	sha256_16	classe	imprimivel_pct	xor3_chave	imprimivel_pos_xor_pct	linhas	delta_imprimivel
+Tools/Editores/MuEditor/Data/Item.bmd	.bmd	1134176	93a45492a4690a55	binario_nao_classificado	0.39	abfccf	67.04		66.65
+Tools/Editores/MuEditor/Data/Skill.bmd	.bmd	62404	bfd79ef5bd266b45	binario_nao_classificado	0.43	fccfab	13.52		13.09
+Tools/Editores/MuEditor/Data/socketitem.bmd	.bmd	16200	c279e44bbb258f76	binario_nao_classificado	0.0	fccfab	5.66		5.66
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/MonsterInfoPanel.ozt	.ozt	372848	b01590b4c7911476	ozt_prefixo_0000020000000200	16.48				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/bg500.ozt	.ozt	1000052	2e28f5edbbc5f4db	ozt_prefixo_0000020000000200	23.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/bg500b.ozt	.ozt	210052	6760434fba2c0e1d	ozt_prefixo_0000020000000200	12.97				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/buttondark.ozt	.ozt	6388	babfca65431d79e4	ozt_prefixo_0000020000000200	19.61				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/buttonentrar.ozt	.ozt	10972	465264530d4f8e60	ozt_prefixo_0000020000000200	35.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/buttonx.ozt	.ozt	5236	dc80a0eca9339dc9	ozt_prefixo_0000020000000200	28.19				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/cassanic1.bmd	.bmd	902081	4afe8d48f1c55ad1	binario_nao_classificado	38.32	e617c8	37.88		-0.44
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/comprarentrada.ozt	.ozt	10972	0adcdcec61c9740a	ozt_prefixo_0000020000000200	46.96				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/drawinfo.ozt	.ozt	75052	2ad89d2a38d91157	ozt_prefixo_0000020000000200	27.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/interface.ozt	.ozt	526452	ddee382855428026	ozt_prefixo_0000020000000200	22.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/interna.ozt	.ozt	174132	334fd618c7dff23b	ozt_prefixo_0000020000000200	27.69				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/luckyspin.ozt	.ozt	208252	c24645865a53a9f9	ozt_prefixo_0000020000000200	13.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/lulinha.ozj	.ozj	287921	4b818d927b18a746	jpeg_completo	38.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/newui_DuelWindow.OZT	.ozt	81744	a10ac477b40daa6e	ozt_prefixo_0000020000000200	30.17				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Custom/ScriptImages/upgrademachine.ozt	.ozt	344028	03dc0b8e1759d745	ozt_prefixo_0000020000000200	25.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Eng/ItemTooltip_eng.bmd	.bmd	1015812	1c6df96eedb7be1c	binario_nao_classificado	5.28	cfcfcf	62.24		56.96
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Eng/Item_eng.bmd	.bmd	688132	baf1dc10c389dbb9	binario_nao_classificado	0.27	fccfab	4.26		3.99
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Por/ItemTooltip_por.bmd	.bmd	1015812	1c6df96eedb7be1c	binario_nao_classificado	5.28	cfcfcf	62.24		56.96
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Por/Item_por.bmd	.bmd	688132	baf1dc10c389dbb9	binario_nao_classificado	0.27	fccfab	4.26		3.99
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Spn/ItemTooltip_spn.bmd	.bmd	1015812	1c6df96eedb7be1c	binario_nao_classificado	5.28	cfcfcf	62.24		56.96
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/CheckSum/Data/Local/Spn/Item_spn.bmd	.bmd	688132	baf1dc10c389dbb9	binario_nao_classificado	0.27	fccfab	4.26		3.99
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Emblem_gm_by_SChy.ozt	.ozt	280119	c9d548aad9e74122	ozt_prefixo_0000020000000200	56.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/FireMarcos_GM_Sign.ozj	.ozj	49142	ebc4abd0db5ed8da	jpeg_completo	41.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank01.bmd	.bmd	370396	6c6f7984bab061c9	binario_nao_classificado	38.09	7243c2	38.11		0.02
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank01/Rank01.smd	.smd	940102	19fdaad4698922d1	texto_smd	100.0			18894	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank01/Rank01_001.smd	.smd	966	9a71944e40634c26	texto_smd	100.0			28	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank02.bmd	.bmd	66902	ef66bdd1734c9fb7	binario_nao_classificado	37.86	9d0554	37.98		0.12
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank02/Rank02.smd	.smd	156319	8430cfc5fe39def3	texto_smd	100.0			3018	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank03.bmd	.bmd	600780	0591f65694d5460a	binario_nao_classificado	38.51	db7682	38.11		-0.4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank04.bmd	.bmd	47576	37c3e040dbd6092b	binario_nao_classificado	38.09	bd8885	38.34		0.25
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank05.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank06.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank07.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank08.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank09.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank10.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank11.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank12.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank13.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank14.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank15.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank16.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank17.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank18.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank19.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank20.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank21.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/Rank22.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/gmmubeat.ozj	.ozj	133476	341ac2c9390f91ad	jpeg_completo	40.98				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/logoforo.ozt	.ozt	1048598	e605c7ed3be30cc6	ozt_prefixo_0000020000000200	0.0				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/RankUser/so_puppet_darkout.ozj	.ozj	19162	d34bae598a4cf073	jpeg_completo	36.8				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP1/Emblem_gm_by_SChy.ozt	.ozt	280119	c9d548aad9e74122	ozt_prefixo_0000020000000200	56.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP1/musign.bmd	.bmd	109540	941e2dab82d7e60d	binario_nao_classificado	38.43	33a057	38.27		-0.16
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP2/Emblem_gm_by_SChy.ozj	.ozj	33576	316fcd3ab08cfc1d	jpeg_completo	36.77				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP2/musign.bmd	.bmd	148652	57b6b06d8348b48b	binario_nao_classificado	38.17	28f9ad	38.12		-0.05
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP3/Emblem_gm_by_SChy.ozt	.ozt	280119	d7552af35c74d79a	ozt_prefixo_0000020000000200	47.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Bmd/VIP3/musign.bmd	.bmd	48364	000e6ac3c78963f0	binario_nao_classificado	38.15	89a815	37.89		-0.26
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission1.ozt	.ozt	40052	9785e7fe32f65b5f	ozt_prefixo_0000020000000200	36.39				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission10.ozt	.ozt	40052	4ec97c13e207144f	ozt_prefixo_0000020000000200	39.39				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission11.ozt	.ozt	40052	b1454e9fae8362be	ozt_prefixo_0000020000000200	22.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission12.ozt	.ozt	40052	a243c3e63bd61424	ozt_prefixo_0000020000000200	32.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission13.ozt	.ozt	40052	d47c43c71c87d1d2	ozt_prefixo_0000020000000200	34.07				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission14.ozt	.ozt	40052	e5906d9bcc651d8b	ozt_prefixo_0000020000000200	31.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission15.ozt	.ozt	40052	c9790a3dd2f313b0	ozt_prefixo_0000020000000200	30.41				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission16.ozt	.ozt	40052	f1cdc60a697245e1	ozt_prefixo_0000020000000200	25.51				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission17.ozt	.ozt	40052	75846d9e059d519b	ozt_prefixo_0000020000000200	47.43				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission18.ozt	.ozt	40052	2d1da72693177061	ozt_prefixo_0000020000000200	30.75				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission19.ozt	.ozt	40052	1e1d6f15d68e7a9f	ozt_prefixo_0000020000000200	43.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission2.ozt	.ozt	40052	919492d4c6ae68ae	ozt_prefixo_0000020000000200	36.73				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission20.ozt	.ozt	40052	ab197bffe8670776	ozt_prefixo_0000020000000200	38.79				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission21.ozt	.ozt	40052	79423b02b42c5626	ozt_prefixo_0000020000000200	33.87				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission22.ozt	.ozt	40052	defafcfd83608aa3	ozt_prefixo_0000020000000200	28.58				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission23.ozt	.ozt	40052	b19b164e5b9d6b37	ozt_prefixo_0000020000000200	34.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission24.ozt	.ozt	40052	d82354566abe5dd9	ozt_prefixo_0000020000000200	37.61				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission25.ozt	.ozt	40052	01651c07f3fc5493	ozt_prefixo_0000020000000200	32.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission26.ozt	.ozt	40052	2fb5e6a75050ecac	ozt_prefixo_0000020000000200	37.7				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission27.ozt	.ozt	40052	27179fb9cf553dff	ozt_prefixo_0000020000000200	33.48				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission28.ozt	.ozt	40052	e9514dbf481291e4	ozt_prefixo_0000020000000200	31.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission29.ozt	.ozt	40052	479fdcc300c26ace	ozt_prefixo_0000020000000200	42.11				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission3.ozt	.ozt	40052	372aab850e73aab0	ozt_prefixo_0000020000000200	19.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission30.ozt	.ozt	40052	8b711b3583efb6ae	ozt_prefixo_0000020000000200	36.12				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission31.ozt	.ozt	40052	36d78321f0d2d02e	ozt_prefixo_0000020000000200	31.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission32.ozt	.ozt	40052	d2aa0104641a15f3	ozt_prefixo_0000020000000200	23.72				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission33.ozt	.ozt	40052	f9a8a36c5598198a	ozt_prefixo_0000020000000200	20.97				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission34.ozt	.ozt	40052	45a8fead564ea713	ozt_prefixo_0000020000000200	27.81				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission35.ozt	.ozt	40052	eb807bfab61a8db9	ozt_prefixo_0000020000000200	39.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission36.ozt	.ozt	40052	4909effaacaf5722	ozt_prefixo_0000020000000200	34.01				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission37.ozt	.ozt	40052	df5d66c8e52d915f	ozt_prefixo_0000020000000200	30.78				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission38.ozt	.ozt	40052	fb78566a0811c6e6	ozt_prefixo_0000020000000200	31.99				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission39.ozt	.ozt	40052	775ce38a27065976	ozt_prefixo_0000020000000200	38.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission4.ozt	.ozt	40052	52901f10fac519ce	ozt_prefixo_0000020000000200	29.76				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission40.ozt	.ozt	40052	52fa55ce914672e2	ozt_prefixo_0000020000000200	27.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission41.ozt	.ozt	40052	2a0630a698f8c156	ozt_prefixo_0000020000000200	36.85				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission42.ozt	.ozt	40052	ffe3135d7232f8ff	ozt_prefixo_0000020000000200	44.63				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission43.ozt	.ozt	40052	e858ee788338be52	ozt_prefixo_0000020000000200	36.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission44.ozt	.ozt	40052	833b31550dc6d5c4	ozt_prefixo_0000020000000200	36.6				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission45.ozt	.ozt	40052	fe4d6150322fa434	ozt_prefixo_0000020000000200	34.07				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission46.ozt	.ozt	40052	1bba478987882d71	ozt_prefixo_0000020000000200	36.49				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission47.ozt	.ozt	40052	0a5d9a0f71dcfa1d	ozt_prefixo_0000020000000200	39.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission48.ozt	.ozt	40052	70679aa427f38bd2	ozt_prefixo_0000020000000200	32.27				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission49.ozt	.ozt	40052	771fb84e9fff0ad4	ozt_prefixo_0000020000000200	42.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission5.ozt	.ozt	40052	0bdb8c369232ec52	ozt_prefixo_0000020000000200	31.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission50.ozt	.ozt	40052	aa2daebecd8ba62f	ozt_prefixo_0000020000000200	39.33				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission6.ozt	.ozt	40052	c5d355a68fba70e1	ozt_prefixo_0000020000000200	27.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission7.ozt	.ozt	40052	aa447d87eafa5a84	ozt_prefixo_0000020000000200	41.73				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission8.ozt	.ozt	40052	f9ed5b52fc006f51	ozt_prefixo_0000020000000200	28.14				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/ach_mission9.ozt	.ozt	40052	a47e1253d97611cf	ozt_prefixo_0000020000000200	38.08				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/achbg.ozj	.ozj	1833	815541392bc4cbe9	jpeg_sem_eoi	26.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/progress.ozj	.ozj	10034	6774aa5bacad2163	jpeg_completo	57.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Achievements/progressbg.ozj	.ozj	1241	554ddce6c1bc5c37	jpeg_sem_eoi	23.21				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Banner.ozt	.ozt	480022	3ddca0a903daac06	ozt_prefixo_0000020000000200	35.99				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Banner2.ozt	.ozt	640052	de731f20dcf2bcca	ozt_prefixo_0000020000000200	22.75				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Character1.ozt	.ozt	1204	0e3cb4aa029c3f25	ozt_prefixo_0000020000000200	44.93				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Character2.ozt	.ozt	1204	fd07767ebf198c28	ozt_prefixo_0000020000000200	39.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Community1.ozt	.ozt	1204	6aadfcb718d48ace	ozt_prefixo_0000020000000200	38.79				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Community2.ozt	.ozt	1204	fec083ae61ad5b72	ozt_prefixo_0000020000000200	26.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Inventory1.ozt	.ozt	1204	cf9070fbe70944b9	ozt_prefixo_0000020000000200	39.29				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Inventory2.ozt	.ozt	1204	557371cb79761c1a	ozt_prefixo_0000020000000200	32.72				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Quest1.ozt	.ozt	1204	21b3aec2b21f4f1e	ozt_prefixo_0000020000000200	45.6				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Quest2.ozt	.ozt	1204	8e88bca0555bc74a	ozt_prefixo_0000020000000200	33.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Shop1.ozt	.ozt	1204	04a412e1c7236683	ozt_prefixo_0000020000000200	45.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/Shop2.ozt	.ozt	1204	6a2dcdcc534893c6	ozt_prefixo_0000020000000200	35.63				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/System1.ozt	.ozt	1204	2f20d6645b5447bf	ozt_prefixo_0000020000000200	39.87				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/System2.ozt	.ozt	1204	6b14e45696dff9cf	ozt_prefixo_0000020000000200	31.73				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/b_create_mini.ozt	.ozt	11572	eda1c7f7161e37b3	ozt_prefixo_0000020000000200	45.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Buttom/ingame_pack_check_mini.ozt	.ozt	1252	fb780a3dff1dea6c	ozt_prefixo_0000020000000200	30.19				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Button.ozt	.ozt	3062	b18607223b58fc5b	ozt_prefixo_0000020000000200	64.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/ButtonAuction.ozt	.ozt	2552	94c5580b32593001	ozt_prefixo_0000020000000200	12.77				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/Chat_I5.ozt	.ozt	140246	f1b3d22e01bc3367	ozt_prefixo_0000020000000200	12.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/chat_bg01.ozt	.ozt	65558	42eec84eb7383a63	ozt_prefixo_0000020000000200	4.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/chat_bg02.ozt	.ozt	1590	f6874f1c306e23bb	ozt_prefixo_0000020000000200	15.09				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/chat_bg03.ozt	.ozt	262166	de2941426a05986e	ozt_prefixo_0000020000000200	10.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/dialogue1.ozt	.ozt	15450	6226a8b9024331de	ozt_prefixo_0000020000000200	11.11				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/dialogue2.ozt	.ozt	15450	74e188d870a60612	ozt_prefixo_0000020000000200	14.63				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/dialogue2_1.OZJ	.ozj	5230	c4e1ad3ae1fe3bcc	jpeg_completo	33.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/newui_chat_back.ozt	.ozt	134722	4bb806f952da558b	ozt_prefixo_0000020000000200	10.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_hframe.ozj	.ozj	18795	cb79d0db9075fe5d	jpeg_completo	48.51				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_rsframe.OZT	.ozt	1104	2fcfa69102259f5c	ozt_prefixo_0000020000000200	15.76				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_rsframe_down.ozj	.ozj	14947	ba82f78f50b8ff52	jpeg_completo	53.71				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_rsframe_m.ozj	.ozj	14514	d5068549093c7b14	jpeg_completo	53.63				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_rsframe_up.ozj	.ozj	14922	9b98b53d8702fd54	jpeg_completo	53.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Chat/nis_vframe.OZJ	.ozj	2425	76f9821586f8915f	jpeg_completo	24.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Elemental.ozt	.ozt	20528	b7396f9e2f96f0d2	ozt_prefixo_0000020000000200	26.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/GFx/CharacterSelect_Button01.ozt	.ozt	46848	fd4368093b11d2ad	ozt_prefixo_0000020000000200	24.18				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/GFx/CharacterSelect_Button02.ozt	.ozt	46848	be0612473d33f369	ozt_prefixo_0000020000000200	27.78				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/GFx/CharacterSelect_Button03.ozt	.ozt	46848	4cad55d7b699c9c7	ozt_prefixo_0000020000000200	23.58				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/GFx/none.ozt	.ozt	52	a23807a550b7cc33	ozt_prefixo_0000020000000200	34.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MU-logo.OZT	.ozt	68452	2c40e02d60945ec7	ozt_prefixo_0000020000000200	3.18				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Main_IE.ozt	.ozt	0	e3b0c44298fc1c14	ozt_prefixo_	0.0				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Menu1.OZT	.ozt	8142	3f1590c41a9315c7	ozt_prefixo_0000020000000200	30.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Menu2.OZT	.ozt	820	4c5feaced0647e83	ozt_prefixo_0000020000000200	38.29				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuML_Blue.ozt	.ozt	44976	9e2bcb76f828c0b1	ozt_prefixo_0000020000000200	33.51				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuML_Green.ozt	.ozt	42888	95a1bd3110c4a603	ozt_prefixo_0000020000000200	24.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuML_Main.ozt	.ozt	385040	71969ee6d6fde718	ozt_prefixo_0000020000000200	23.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuML_Red.ozt	.ozt	42888	cf42dd2f1775735f	ozt_prefixo_0000020000000200	27.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_AG.ozj	.ozj	10034	6774aa5bacad2163	jpeg_completo	57.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_Blue.ozt	.ozt	44976	80c773270ee63d82	ozt_prefixo_0000020000000200	23.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_Green.ozt	.ozt	42888	cfc491c51582caec	ozt_prefixo_0000020000000200	18.14				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_Main.ozt	.ozt	395936	e68737ed49e7d5a4	ozt_prefixo_0000020000000200	30.27				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_Red.ozt	.ozt	42888	308b377dbb1e553d	ozt_prefixo_0000020000000200	17.22				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuNB_SD.ozj	.ozj	10096	d0c8333bd0b66127	jpeg_completo	57.08				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS1_left.OZJ	.ozj	16701	22f8d1a64ae65e9a	jpeg_completo	36.65				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS1_right.OZJ	.ozj	19038	5a37d25889fd7951	jpeg_completo	37.41				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_AG.OZJ	.ozj	2875	90d8090823b6f7ff	jpeg_completo	26.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Blue.OZJ	.ozj	10269	9b98e093eea3ba81	jpeg_completo	36.28				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Character.OZJ	.ozj	5644	d245f7df4bb221bc	jpeg_completo	34.3				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Green.OZJ	.ozj	9940	b1594deed3c6047c	jpeg_completo	36.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Inventory.OZJ	.ozj	5811	12260fc87a89e710	jpeg_completo	34.49				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Party.OZJ	.ozj	5798	b1449bedbdf32656	jpeg_completo	34.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_Red.OZJ	.ozj	9892	74f3bcec39567e41	jpeg_completo	36.21				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_SD.OZJ	.ozj	14413	b5a439ed250978c7	jpeg_completo	62.96				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_dragon.OZT	.ozt	19488	b819a76efad4cc5c	ozt_prefixo_0000020000000200	17.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_fastmenu.OZJ	.ozj	10614	bf6d18de6a4f44d6	jpeg_completo	61.93				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_friend.OZJ	.ozj	10843	e627a2ccab5764bd	jpeg_completo	60.84				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_guild.OZJ	.ozj	6321	d9a05b4e1071e00a	jpeg_completo	34.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_left.OZJ	.ozj	30618	256ca512df01a5f2	jpeg_completo	48.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_middle.OZJ	.ozj	14907	6d7b661ed741582c	jpeg_completo	36.61				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS2_right.OZJ	.ozj	30590	711759a18c78cb67	jpeg_completo	44.3				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS3_cashshop.OZJ	.ozj	14145	9b8b2d1f5cfcde13	jpeg_completo	62.85				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS3_right.OZJ	.ozj	33699	a433c4eee2902842	jpeg_completo	48.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_AG.ozj	.ozj	10034	6774aa5bacad2163	jpeg_completo	57.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_LifeMana.ozt	.ozt	162768	fb24b644af3c8b3a	ozt_prefixo_0000020000000200	22.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_Main.ozt	.ozt	411448	4f18f64665b1feee	ozt_prefixo_0000020000000200	23.22				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_SD.ozj	.ozj	10096	d0c8333bd0b66127	jpeg_completo	57.08				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_black.ozt	.ozt	32452	1b1b137bbc12c45f	ozt_prefixo_0000020000000200	38.07				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_blue.ozt	.ozt	32452	e1424cd52ec41a56	ozt_prefixo_0000020000000200	22.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_btmenu.ozt	.ozt	3076	43ff49df7024f093	ozt_prefixo_0000020000000200	33.78				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_character.ozt	.ozt	3076	c5fd8fbb909f5dc4	ozt_prefixo_0000020000000200	43.01				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_friend.ozt	.ozt	3076	43a6c2ee78b301f7	ozt_prefixo_0000020000000200	33.22				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_green.ozt	.ozt	32452	5c90e0113969e463	ozt_prefixo_0000020000000200	23.01				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_inventory.ozt	.ozt	3076	c7c63c99d0478244	ozt_prefixo_0000020000000200	34.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_quest.ozt	.ozt	3076	4d59ac0396c1c997	ozt_prefixo_0000020000000200	38.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_red.ozt	.ozt	32452	f9282272639e93dc	ozt_prefixo_0000020000000200	19.68				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/MenuS8_shop.ozt	.ozt	3076	254f8c4b14f3c797	ozt_prefixo_0000020000000200	39.92				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Menu_BG.ozt	.ozt	2640	960b4219b3387b36	ozt_prefixo_0000020000000200	11.29				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Message.ozt	.ozt	1116	229e53f076d81e24	ozt_prefixo_0000020000000200	17.11				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico1.ozt	.ozt	40052	c312f717fa398ff1	ozt_prefixo_0000020000000200	8.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico10.ozt	.ozt	40052	8ddae936bd3ad0a2	ozt_prefixo_0000020000000200	35.41				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico11.ozt	.ozt	40052	6fb17a636abe39d8	ozt_prefixo_0000020000000200	30.55				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico12.ozt	.ozt	40052	b770f7fed177db7a	ozt_prefixo_0000020000000200	37.69				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico13.ozt	.ozt	40052	8a3466e4a54e0668	ozt_prefixo_0000020000000200	25.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico14.ozt	.ozt	40052	48a8f033c9d60fa1	ozt_prefixo_0000020000000200	23.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico15.ozt	.ozt	40052	782461cb2154a278	ozt_prefixo_0000020000000200	18.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico16.ozt	.ozt	40052	f7e295f8b9a33890	ozt_prefixo_0000020000000200	26.09				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico17.ozt	.ozt	40052	e67641dd973c5f9f	ozt_prefixo_0000020000000200	30.87				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico18.ozt	.ozt	40052	17b1d536c961b10e	ozt_prefixo_0000020000000200	28.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico19.ozt	.ozt	40052	0af326614dc9ab15	ozt_prefixo_0000020000000200	11.66				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico2.ozt	.ozt	40052	c50f006a87d63a2b	ozt_prefixo_0000020000000200	9.3				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico3.ozt	.ozt	40052	c7abb69e39be4a74	ozt_prefixo_0000020000000200	10.19				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico4.ozt	.ozt	40052	25204ccf2440d13c	ozt_prefixo_0000020000000200	12.27				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico5.ozt	.ozt	40052	d802eee65b2fa43f	ozt_prefixo_0000020000000200	28.49				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico6.ozt	.ozt	40052	11f00f0c6a55c020	ozt_prefixo_0000020000000200	30.76				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico7.ozt	.ozt	40052	f9bfe885cf7a2366	ozt_prefixo_0000020000000200	33.66				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico8.ozt	.ozt	40052	c2a6bc11724d9138	ozt_prefixo_0000020000000200	37.24				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/NewMenu/menuico9.ozt	.ozt	40052	93ebffb774909b06	ozt_prefixo_0000020000000200	23.49				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Next.OZT	.ozt	4022	a5b05a2272a7c654	ozt_prefixo_004b6d4b00000200	7.51				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/PartySearch_Title.ozt	.ozt	14302	cc01e3389aa6b0e4	ozt_prefixo_0000020000000200	19.27				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Previous.OZT	.ozt	4052	976f37854d045063	ozt_prefixo_0000020000000200	7.8				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/QuestWindow.ozj	.ozj	33584	55e445c8fc8c9f33	jpeg_sem_eoi	36.61				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank01.OZT	.ozt	24358	1e1c8dc7510adb7f	ozt_prefixo_004b6d4b00000200	8.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank02.OZT	.ozt	24358	7029b135d388201e	ozt_prefixo_004b6d4b00000200	9.14				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank03.OZT	.ozt	24358	0b07eee531763be8	ozt_prefixo_004b6d4b00000200	12.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank04.OZT	.ozt	24358	8eacc7f2271f9028	ozt_prefixo_004b6d4b00000200	18.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank05.OZT	.ozt	24358	e6b3ed9183a77e8f	ozt_prefixo_004b6d4b00000200	13.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank06.OZT	.ozt	24358	aabf6b40a93c2a2a	ozt_prefixo_004b6d4b00000200	12.85				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank07.OZT	.ozt	24358	75ff28c6f3edc4e1	ozt_prefixo_004b6d4b00000200	15.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank08.OZT	.ozt	24358	4f5b737e9e31df01	ozt_prefixo_004b6d4b00000200	20.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank09.OZT	.ozt	24358	e8c62f1a5e88c525	ozt_prefixo_004b6d4b00000200	8.24				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank10.OZT	.ozt	24358	c19e73702b3246a0	ozt_prefixo_004b6d4b00000200	15.2				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank11.OZT	.ozt	24358	bc7119af89b172bd	ozt_prefixo_004b6d4b00000200	9.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank12.OZT	.ozt	24358	32b4874258ba6480	ozt_prefixo_004b6d4b00000200	9.94				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank13.OZT	.ozt	24358	dee6cac4efd13a19	ozt_prefixo_004b6d4b00000200	17.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank14.OZT	.ozt	24358	c3a343f46ed90d6b	ozt_prefixo_004b6d4b00000200	9.11				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank15.OZT	.ozt	24358	d1e2880c893fd7ec	ozt_prefixo_004b6d4b00000200	6.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank16.OZT	.ozt	24358	2a7249ba5612a57d	ozt_prefixo_004b6d4b00000200	4.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank17.OZT	.ozt	24358	428009621acd9792	ozt_prefixo_004b6d4b00000200	13.05				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank18.OZT	.ozt	24358	381bd487cec8f866	ozt_prefixo_004b6d4b00000200	12.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank19.OZT	.ozt	24358	b49ba8b9d0787d32	ozt_prefixo_004b6d4b00000200	5.81				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank20.OZT	.ozt	24358	71d7581322c8255f	ozt_prefixo_004b6d4b00000200	18.44				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank21.OZT	.ozt	24358	32eb0cd30f29d0a0	ozt_prefixo_004b6d4b00000200	11.71				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Rank22.OZT	.ozt	24358	270a361747465ac0	ozt_prefixo_004b6d4b00000200	2.98				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/Ranking.OZT	.ozt	19384	4d36031e90a8d606	ozt_prefixo_0000020000000200	1.75				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/TimeBar.ozt	.ozt	36702	b5021b83600eef83	ozt_prefixo_0000020000000200	7.69				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/arrow.ozt	.ozt	90052	cf28cb8998657d56	ozt_prefixo_0000020000000200	4.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/auction-ico.ozt	.ozt	16436	c5111b087cb093fd	ozt_prefixo_0000020000000200	51.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/battlepass.ozt	.ozt	2252	3c62e230b400a310	ozt_prefixo_0000020000000200	18.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/bg250.ozt	.ozt	250052	ad909920818e5d84	ozt_prefixo_0000020000000200	18.93				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/bg500.ozt	.ozt	1000052	2e28f5edbbc5f4db	ozt_prefixo_0000020000000200	23.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/bg500buttom.ozt	.ozt	852052	06e2bba85375b40b	ozt_prefixo_0000020000000200	23.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/bg500top.ozt	.ozt	150052	7340031a0015c9c2	ozt_prefixo_0000020000000200	30.71				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/bt_reset.ozt	.ozt	2932	4b231995d25ffacf	ozt_prefixo_0000020000000200	29.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/button_close.ozt	.ozt	7078	d6c9baa08a59e8b5	ozt_prefixo_0000020000000200	30.45				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/character_ex2.ozt	.ozt	45052	822a2569a9bb4452	ozt_prefixo_0000020000000200	7.65				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/character_ex3.ozt	.ozt	53052	a0904ddf01efdbb7	ozt_prefixo_0000020000000200	8.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/decor.ozt	.ozt	37112	7dac82919d21eca7	ozt_prefixo_0000020000000200	36.6				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/info_block.ozt	.ozt	1720	92d07e6f5a5ed95f	ozt_prefixo_0000020000000200	51.28				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/info_lock.ozt	.ozt	1724	6849e767677b228b	ozt_prefixo_0000020000000200	47.91				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/itembackpanel.ozt	.ozt	75440	335918a393f35bf5	ozt_prefixo_0000020000000200	45.15				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/masterresetbutton.ozt	.ozt	28596	5f502792226eac76	ozt_prefixo_0000020000000200	28.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/menu.OZT	.ozt	54028	4b1aa7e3aecc0ca1	ozt_prefixo_0000020000000200	17.85				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/new_slot1.ozj	.ozj	1205	bed55a2c24bf029b	jpeg_sem_eoi	28.38				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/new_slot2.ozj	.ozj	1302	3230524a0d9cb809	jpeg_sem_eoi	29.95				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/new_slot3.OZJ	.ozj	1604	b11c77790f3f60ff	binario_nao_classificado	63.09				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/new_slot4.OZJ	.ozj	1695	95c276ae62eaed1d	binario_nao_classificado	61.89				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/new_slot5.OZJ	.ozj	1734	0960ecc45d4e5311	binario_nao_classificado	63.03				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/resetbutton.ozt	.ozt	28596	5f502792226eac76	ozt_prefixo_0000020000000200	28.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/star.ozt	.ozt	10052	a80570d306c31d78	ozt_prefixo_0000020000000200	12.53				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar.ozt	.ozt	28596	f5bfd3d69c75b5ce	ozt_prefixo_0000020000000200	30.82				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar2.ozt	.ozt	28596	37d7b349488aada3	ozt_prefixo_0000020000000200	27.77				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar3.ozt	.ozt	28596	81456dc747f9d600	ozt_prefixo_0000020000000200	27.71				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar4.ozt	.ozt	28596	37d7b349488aada3	ozt_prefixo_0000020000000200	27.77				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar5.ozt	.ozt	28596	5f502792226eac76	ozt_prefixo_0000020000000200	28.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/timerserver-bar6.ozt	.ozt	28596	5f502792226eac76	ozt_prefixo_0000020000000200	28.1				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/unavailable.ozt	.ozt	160052	6a09d8db9cabef8a	ozt_prefixo_0000020000000200	2.27				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Interface/wheelback.ozt	.ozt	810052	eb60b68a873bed4f	ozt_prefixo_0000020000000200	6.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item/Gauntlet18_B_diff.ozj	.ozj	213796	44b5225ee3198f48	jpeg_completo	40.44				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item/Sword34.bmd	.bmd	252542	8845c233f9d14e48	binario_nao_classificado	38.53	e6d591	38.16		-0.37
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item/SwordL34.bmd	.bmd	255144	3db71c5f70d262ee	binario_nao_classificado	38.28	74be62	38.64		0.36
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Item/SwordR34.bmd	.bmd	255144	e8c90a260342178d	binario_nao_classificado	38.18	5f81fc	38.15		-0.03
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Aida.ozt	.ozt	65584	0dab98a1d7b54d18	ozt_prefixo_0000020000000200	36.67				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Atlans.ozt	.ozt	65584	8dc5811ff0e74fe4	ozt_prefixo_0000020000000200	24.39				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Barracks.ozt	.ozt	65584	a213f413299a3a16	ozt_prefixo_0000020000000200	4.81				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Calmness.ozt	.ozt	65584	781cb73145bad277	ozt_prefixo_0000020000000200	25.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Crywolf.ozt	.ozt	65584	c64ef70bf760c861	ozt_prefixo_0000020000000200	40.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Devias.ozt	.ozt	65584	275999f55d89f738	ozt_prefixo_0000020000000200	18.66				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Dungeon.ozt	.ozt	65584	240c043c2e52a979	ozt_prefixo_0000020000000200	38.21				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Elbeland.ozt	.ozt	65584	37c8113cc781072d	ozt_prefixo_0000020000000200	20.32				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Icarus.ozt	.ozt	65584	06a1ad58d4a2091e	ozt_prefixo_0000020000000200	8.38				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Kalrutan.ozt	.ozt	65584	dd11148326493c74	ozt_prefixo_0000020000000200	18.89				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Kalrutan2.ozt	.ozt	65584	e57c995ab78df1eb	ozt_prefixo_0000020000000200	15.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Kantru.ozt	.ozt	65584	32b6afd0791c3992	ozt_prefixo_0000020000000200	28.21				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Kantru3.ozt	.ozt	65584	ee2a08b667d85937	ozt_prefixo_0000020000000200	7.17				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/LandofTrials.ozt	.ozt	65584	7a69005975a5dc7d	ozt_prefixo_0000020000000200	35.02				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Lorencia.ozt	.ozt	65584	d96d753ca4b5fa77	ozt_prefixo_0000020000000200	56.11				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Losttower.ozt	.ozt	65584	f649554bcd0bd5da	ozt_prefixo_0000020000000200	39.49				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/MiniMapFrame.ozt	.ozt	384948	4d15c509eb69f7f5	ozt_prefixo_0000020000000200	18.36				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Noria.ozt	.ozt	65584	be36a5e3d7c002e6	ozt_prefixo_0000020000000200	52.21				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Null.ozt	.ozt	59808	a68b85bac802dedc	ozt_prefixo_0000020000000200	0.03				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/PlayerPoint.ozj	.ozj	11434	fc3c9518d1386e76	jpeg_completo	55.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/PlayerPointNew.ozj	.ozj	11964	706bcf1e9acbf817	jpeg_completo	54.8				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Raklion.ozt	.ozt	65584	c5af5c6b561bb7c6	ozt_prefixo_0000020000000200	20.37				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Stadium.ozt	.ozt	80128	bd595c40005d714e	ozt_prefixo_0000020000000200	17.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Tarkan.ozt	.ozt	65584	dd9883da9b551a3c	ozt_prefixo_0000020000000200	23.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/Vulcanus.ozt	.ozt	65584	e3183c0e0f645c49	ozt_prefixo_0000020000000200	32.01				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World1.ozj	.ozj	901503	d806540b7da8a224	jpeg_completo	38.91				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World11.ozj	.ozj	85337	3a5a9d8ec98283c7	jpeg_completo	48.69				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World2.ozj	.ozj	493164	16a2e1910ccc4ec7	jpeg_completo	37.19				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World3.ozj	.ozj	225166	e5c38dda8567b4fc	jpeg_completo	48.01				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World32.ozj	.ozj	252673	3d9ed01aa336619e	jpeg_completo	47.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World34.ozj	.ozj	254622	570b1e57633e7f9c	jpeg_completo	48.18				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World35.ozj	.ozj	300824	d73c68b2cde84d5e	jpeg_completo	47.75				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World38.ozj	.ozj	223730	1588ad9af3780482	jpeg_completo	47.96				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World39.ozj	.ozj	71284	f39bff7e0356bbfa	jpeg_completo	47.09				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World4.ozj	.ozj	941443	0bdfe476810c30ed	jpeg_completo	37.93				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World42.ozj	.ozj	88912	29d853a719e1b939	jpeg_completo	49.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World5.ozj	.ozj	199049	04678663b01bc099	jpeg_completo	47.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World52.ozj	.ozj	236809	dc51c41d434a34fb	jpeg_completo	47.65				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World57.ozj	.ozj	176322	3a4b87bdb75df958	jpeg_completo	38.15				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World58.ozj	.ozj	192508	ae5dc97a2cf67f0c	jpeg_completo	47.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World63.ozj	.ozj	210769	0876d1569484412c	jpeg_completo	47.84				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World7.ozj	.ozj	252078	4a8482e345a45a96	jpeg_completo	47.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World8.ozj	.ozj	277398	a75858028d19cd59	jpeg_completo	47.58				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World80.ozj	.ozj	1051	aed8292517ef680f	jpeg_completo	22.17				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World81.ozj	.ozj	178577	9d739967983bb63d	jpeg_completo	50.94				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World82.ozj	.ozj	144530	868db7e2a59f4273	jpeg_completo	50.45				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World83.ozj	.ozj	277398	a75858028d19cd59	jpeg_completo	47.58				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/World9.ozj	.ozj	252078	4a8482e345a45a96	jpeg_completo	47.9				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/edBtUcx.ozt	.ozt	524310	b75c5dbc6a84195f	ozt_prefixo_0000020000000200	20.35				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_Potion.ozt	.ozt	1318	0c6d24f26cc4a98a	ozt_prefixo_0000020000000200	15.55				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_Que.ozt	.ozt	1318	66e318485a04acb6	ozt_prefixo_0000020000000200	16.92				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_baul.ozt	.ozt	1318	e0929b8ff6c583a5	ozt_prefixo_0000020000000200	14.57				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_blacksmith.ozt	.ozt	1318	61b587532fadfce4	ozt_prefixo_0000020000000200	14.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_cha.ozt	.ozt	1318	8a2e127d12fe2f32	ozt_prefixo_0000020000000200	49.47				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_npc.ozt	.ozt	1318	5084852d73697ea8	ozt_prefixo_0000020000000200	16.46				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_party.ozt	.ozt	1318	0dddd2acd2434c90	ozt_prefixo_0000020000000200	19.8				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/mini_map_ui_portal.OZT	.ozt	1344	52bd283825e956fa	ozt_prefixo_0000020000000200	22.17				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Maps/none.ozt	.ozt	52	a23807a550b7cc33	ozt_prefixo_0000020000000200	34.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/605_03_15copy.ozj	.ozj	19299	742efbcbb33115ae	jpeg_completo	35.99				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/AnubisathSkin01.ozj	.ozj	54796	f9528c86aa879916	jpeg_completo	40.95				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/AnubisathSkin02.ozj	.ozj	139834	183b7724711b6f6b	jpeg_completo	40.61				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Bokoblin00.ozj	.ozj	22141	1966302f5a969f23	jpeg_completo	46.79				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Bokoblin01.ozj	.ozj	27457	2b449754b3a581f6	jpeg_completo	43.77				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01.bmd	.bmd	658208	d405667be9bde649	binario_nao_classificado	38.33	e44df0	38.14		-0.19
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01/CustomNpc01.smd	.smd	933935	6268e12a9f731a7d	texto_smd	100.0			17916	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01/CustomNpc01_001.smd	.smd	145007	6b384de05c491097	texto_smd	100.0			2534	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01/CustomNpc01_002.smd	.smd	206162	835d8eb702c778ca	texto_smd	100.0			3569	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01/CustomNpc01_003.smd	.smd	145007	6b384de05c491097	texto_smd	100.0			2534	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc01/CustomNpc01_004.smd	.smd	145007	6b384de05c491097	texto_smd	100.0			2534	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc02.bmd	.bmd	255470	bd90d0c94082b01e	binario_nao_classificado	38.33	057e9c	38.39		0.06
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/CustomNpc03.bmd	.bmd	443253	b8493b540de4bbce	binario_nao_classificado	38.06	0be288	37.99		-0.07
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Dinofols Mob.bmd	.bmd	199543	20e2930a7958537f	binario_nao_classificado	38.21	258a17	38.02		-0.19
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Dinofols_M00.ozj	.ozj	49704	1c4161d8649aa37a	jpeg_completo	41.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Dinofols_M01.ozj	.ozj	10073	02e7694949917959	jpeg_completo	58.39				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/EsferaZanclair.ozt	.ozt	1048624	d687bcc902686294	ozt_prefixo_0000020000000200	20.74				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/JointSpirit01.OZJ	.ozj	10176	73408aaff169ed79	jpeg_completo	35.4				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Mat.002_.ozj	.ozj	204663	1b573dcf8678eab0	jpeg_completo	37.96				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Monster171.bmd	.bmd	295509	c329e96e7601d366	binario_nao_classificado	38.46	7209fd	38.27		-0.19
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Monster27.bmd	.bmd	151302	146349d28e15ee77	binario_nao_classificado	38.13	ad6624	37.92		-0.21
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/Monster_Anubis.bmd	.bmd	169338	87d3a4c5d6e953cd	binario_nao_classificado	38.05	be036c	37.79		-0.26
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/NPC01Zanclair.ozt	.ozt	1048624	f55c2671bc02bb08	ozt_prefixo_0000020000000200	30.59				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/NPC01Zanclair2.ozt	.ozt	262192	14637759d262691f	ozt_prefixo_0000020000000200	43.71				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/NPC01Zanclair3.ozt	.ozt	1048624	b084b0632f6b3d54	ozt_prefixo_0000020000000200	64.23				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/assassin_dier.bmd	.bmd	400791	911d0b3a1f59b881	binario_nao_classificado	38.51	849e44	38.44		-0.07
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/balog_a.ozj	.ozj	729998	2ae8855fc710eea5	jpeg_completo	38.64				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/balog_b.ozj	.ozj	47689	151affaa9432ab23	jpeg_completo	37.86				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/balog_blade.ozj	.ozj	63378	88fa3e290b53dcf6	jpeg_completo	35.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/healer.OZJ	.ozj	78372	3ffd953ee4ca73df	jpeg_completo	43.08				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/king_golem01.OZJ	.ozj	119406	c05c7381b824d10e	jpeg_completo	42.94				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/king_golem02.OZJ	.ozj	122134	c12029cb1bb9630b	jpeg_completo	43.28				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/king_golem03.OZJ	.ozj	40560	e0bc3c88ed9b0bec	jpeg_completo	47.16				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/king_golem04.OZJ	.ozj	11998	d8269fc7a6746106	jpeg_completo	69.12				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/magicstore_R.OZJ	.ozj	11472	02998b5837c08cf7	jpeg_completo	69.95				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/maginc_text.OZJ	.ozj	36872	011601c68473415d	jpeg_completo	47.04				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/master01.bmd	.bmd	658208	d405667be9bde649	binario_nao_classificado	38.33	e44df0	38.14		-0.19
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/pk_mon01.ozj	.ozj	46011	2d20940c4ab89add	jpeg_completo	46.05				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/pk_mon02.ozj	.ozj	31241	843f48d46dacc2e7	jpeg_completo	49.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/pk_mon03.ozt	.ozt	262192	6645010069e13457	ozt_prefixo_0000020000000200	40.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/pk_mon04.ozj	.ozj	10625	5ed343ee7e0b60d1	jpeg_completo	72.81				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/red_jewel.ozj	.ozj	4937	f6a0def177ef68b5	jpeg_completo	34.51				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/youmuk01aeff.OZJ	.ozj	10457	ae560230ea4f268c	jpeg_completo	72.85				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/youngza01.OZJ	.ozj	111085	ceee6469d5768182	jpeg_completo	43.07				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/youngza022.OZT	.ozt	65584	e3d8531cec29406a	ozt_prefixo_0000020000000200	47.23				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Monster/youngza03_R.OZJ	.ozj	24021	2225b7dd535f5b4b	jpeg_completo	53.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/ScriptImages/bg500.ozt	.ozt	1000052	2e28f5edbbc5f4db	ozt_prefixo_0000020000000200	23.13				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/Breeder.bmd	.bmd	180883	8a35fd9b7e3d8e1c	binario_nao_classificado	38.24	ca1de1	38.13		-0.11
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/Brendan_P3RS3UMakers.ozj	.ozj	131496	314169f586f496cf	jpeg_completo	39.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/FreddyKrueger.bmd	.bmd	1636849	5c52e85f729e33e4	binario_nao_classificado	38.43	4e4957	38.15		-0.28
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/HQhair_R.ozj	.ozj	29061	2ee64793116cc62a	jpeg_completo	43.76				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/HQskin_Class305.ozj	.ozj	87299	3a607c4ecf34876f	jpeg_completo	40.34				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/HQskin_Class305_2.ozt	.ozt	32816	3140cf819295c930	ozt_prefixo_0000020000000200	42.48				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/P3RS3UMakersBANNNT.ozj	.ozj	57820	4aff2b3105640b51	jpeg_completo	36.0				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/P3RS3UMakersBANNNT1.ozj	.ozj	31993	9336852c83e1b7e9	jpeg_completo	35.12				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/P3RS3UMakersFreddyBODY.ozj	.ozj	197606	a2f2d93c74424795	jpeg_completo	40.66				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/P3RS3UMakersFreddyHELM.ozj	.ozj	34298	fc0b748e120ef6e8	jpeg_completo	36.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/P3RS3UMakers_ZHANSHIM8.ozj	.ozj	109514	2ab9ea50faacc3fe	jpeg_completo	36.7				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/Teste.bmd	.bmd	454567	805c2eb784766310	binario_nao_classificado	38.57	599cf6	38.19		-0.38
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/bann.bmd	.bmd	1298793	727f140887b2f0b2	binario_nao_classificado	38.32	a62541	38.22		-0.1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/cloak_sasuke.ozj	.ozj	15581	d4f881c2b49bc542	jpeg_completo	37.45				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/eye_sasuke.ozj	.ozj	6174	28779b1dd53777e0	jpeg_completo	43.42				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/main_sasuke.ozj	.ozj	18203	7580f11d3d7f88f5	jpeg_completo	32.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Custom/Skin/sasuke.bmd	.bmd	1598215	ffb429c346c505ee	binario_nao_classificado	38.2	0190c1	38.34		0.14
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/CharacterSelect_Button01.ozt	.ozt	46848	fd4368093b11d2ad	ozt_prefixo_0000020000000200	24.18				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/CharacterSelect_Button02.ozt	.ozt	46848	be0612473d33f369	ozt_prefixo_0000020000000200	27.78				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/CharacterSelect_Button03.ozt	.ozt	46848	4cad55d7b699c9c7	ozt_prefixo_0000020000000200	23.58				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/item_pbtnbg.ozt	.ozt	17430	a0d88d2a22d441ca	ozt_prefixo_0000020000000200	37.98				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/none.ozt	.ozt	52	a23807a550b7cc33	ozt_prefixo_0000020000000200	34.62				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Interface/GFx/skill_render.ozt	.ozt	262166	2d5256a28e2a1949	ozt_prefixo_0000020000000200	19.31				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Abuss.ozt	.ozt	59808	0a3ab38ee91f8379	ozt_prefixo_0000020000000200	9.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Acheron.OZT	.ozt	59808	1cc306797c9e9ba7	ozt_prefixo_0000020000000200	8.84				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Arena.ozt	.ozt	59808	f95dec4b05fab9f1	ozt_prefixo_0000020000000200	7.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Arkania.ozt	.ozt	59808	3e77525a02b1cf18	ozt_prefixo_0000020000000200	11.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Dunes.OZT	.ozt	59808	07068751e0299f86	ozt_prefixo_004b6d4b00000200	8.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/Kalimdor.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap1.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap10.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap11.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap12.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap13.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap2.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap3.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap4.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap5.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap6.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap7.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap8.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Eng/ImgsMapName/NewMap9.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Abuss.ozt	.ozt	59808	0a3ab38ee91f8379	ozt_prefixo_0000020000000200	9.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Acheron.OZT	.ozt	59808	1cc306797c9e9ba7	ozt_prefixo_0000020000000200	8.84				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Arena.ozt	.ozt	59808	f95dec4b05fab9f1	ozt_prefixo_0000020000000200	7.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Arkania.ozt	.ozt	59808	3e77525a02b1cf18	ozt_prefixo_0000020000000200	11.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Dunes.OZT	.ozt	59808	07068751e0299f86	ozt_prefixo_004b6d4b00000200	8.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/Kalimdor.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap1.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap10.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap11.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap12.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap13.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap2.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap3.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap4.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap5.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap6.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap7.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap8.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Por/NewMap9.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Abuss.ozt	.ozt	59808	0a3ab38ee91f8379	ozt_prefixo_0000020000000200	9.88				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Acheron.OZT	.ozt	59808	1cc306797c9e9ba7	ozt_prefixo_0000020000000200	8.84				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Arena.ozt	.ozt	59808	f95dec4b05fab9f1	ozt_prefixo_0000020000000200	7.06				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Arkania.ozt	.ozt	59808	3e77525a02b1cf18	ozt_prefixo_0000020000000200	11.25				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Dunes.OZT	.ozt	59808	07068751e0299f86	ozt_prefixo_004b6d4b00000200	8.83				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/Kalimdor.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap1.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap10.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap11.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap12.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap13.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap2.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap3.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap4.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap5.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap6.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap7.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap8.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Data/Local/Spn/NewMap9.OZT	.ozt	59808	8e3b71077d1a142d	ozt_prefixo_0000020000000200	7.54				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/MonsterInfoPanel.ozt	.ozt	372848	b01590b4c7911476	ozt_prefixo_0000020000000200	16.48				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/bg500.ozt	.ozt	1000052	2e28f5edbbc5f4db	ozt_prefixo_0000020000000200	23.13				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/bg500b.ozt	.ozt	210052	6760434fba2c0e1d	ozt_prefixo_0000020000000200	12.97				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/buttonentrar.ozt	.ozt	10972	465264530d4f8e60	ozt_prefixo_0000020000000200	35.34				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/buttonx.ozt	.ozt	5236	dc80a0eca9339dc9	ozt_prefixo_0000020000000200	28.19				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/cassanic1.bmd	.bmd	902081	4afe8d48f1c55ad1	binario_nao_classificado	38.32	e617c8	37.88		-0.44
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/comprarentrada.ozt	.ozt	10972	0adcdcec61c9740a	ozt_prefixo_0000020000000200	46.96				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/drawinfo.ozt	.ozt	75052	2ad89d2a38d91157	ozt_prefixo_0000020000000200	27.53				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/interface.ozt	.ozt	526452	ddee382855428026	ozt_prefixo_0000020000000200	22.42				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/interna.ozt	.ozt	174132	334fd618c7dff23b	ozt_prefixo_0000020000000200	27.69				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/luckyspin.ozt	.ozt	208252	c24645865a53a9f9	ozt_prefixo_0000020000000200	13.16				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/lulinha.ozj	.ozj	287921	4b818d927b18a746	jpeg_completo	38.25				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Custom/ScriptImages/newui_DuelWindow.OZT	.ozt	81744	a10ac477b40daa6e	ozt_prefixo_0000020000000200	30.17				
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Eng/Item_eng.bmd	.bmd	688132	972c5cf36a7fe970	binario_nao_classificado	0.25	fccfab	3.74		3.49
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Por/Item_por.bmd	.bmd	688132	972c5cf36a7fe970	binario_nao_classificado	0.25	fccfab	3.74		3.49
+Tools/Gerador de Main/MAIN_INFOS6.20/CheckSum/Data/Local/Spn/Item_spn.bmd	.bmd	688132	972c5cf36a7fe970	binario_nao_classificado	0.25	fccfab	3.74		3.49
+
+# agregados
+# por_extensao={'.bmd': 56, '.ozt': 313, '.ozj': 106, '.smd': 8}
+# por_classe={'binario_nao_classificado': 59, 'ozt': 313, 'jpeg_completo': 98, 'texto_smd': 8, 'jpeg_sem_eoi': 5}
+# hipotese XOR3 em .bmd: delta_imprimivel min=-0.44 mediana=-0.16 max=66.65 (delta>0 sustenta a hipotese; delta~0 a descarta)
