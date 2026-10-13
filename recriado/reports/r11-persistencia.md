@@ -1,5 +1,13 @@
 # R-11 — persistência própria do v2: o que foi medido, inclusive o defeito que apareceu
 
+> **Nota de auditoria (2026-10-13, rodada P3) — o texto abaixo fica como registro da rodada R-11.**
+> Duas afirmações dele foram conferidas por medição e **não** se sustentam como estão escritas:
+> (1) a §5 lista "durabilidade" como coberta, mas a **operação implícita não sincronizava** antes de
+> retornar (só no `mu2db_fechar()`); o defeito foi corrigido e tem regressão (`tests/sincronia.sh`);
+> (2) a §1 fala em "migração por `schema_version`", mas o código **recusa** versão mais nova e não
+> tem caminho de migração nenhum. O que a auditoria mediu, e o que continua aberto, está em
+> `reports/r11b-veredito-auditoria-p3-2026-10-13.md`.
+
 Data: 2026-10-13 · branch `arena/cf1de8ce-muserver` · decisão de base: D2-30 (`docs/DECISIONS.md`)
 
 Este relatório existe porque a rodada terminou com **defeito real encontrado, corrigido e medido** —

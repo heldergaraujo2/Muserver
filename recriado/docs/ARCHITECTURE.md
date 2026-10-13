@@ -44,7 +44,7 @@ afirmada — a camada que poderia comprová-la está `BLOCKED` (§6).
 
 | arquivo | linhas | papel |
 |---|---|---|
-| `tests/run_all.sh` | 266 | **o portão único**: roda as 23 etapas, classifica cada uma (`PASS`/`FAIL`/`BLOCKED`/`NOT_IMPLEMENTED`/`SKIPPED`), grava `out/gate.tsv` + log por etapa |
+| `tests/run_all.sh` | 266 | **o portão único**: roda as 28 etapas, classifica cada uma (`PASS`/`FAIL`/`BLOCKED`/`NOT_IMPLEMENTED`/`SKIPPED`), grava `out/gate.tsv` + log por etapa |
 | `tests/unit.c` | 301 | testes de unidade do codec (106 asserções) |
 | `tests/{net,conform,golden,interop,fuzz,seguranca,admin,lua,lua-enc,cfg,data,pe,bench,ref_check,gate_state,make_parse}.sh` | 30–324 | suítes por área (§ `TESTING.md`) |
 | `scripts/verify-backup.sh` | 221 | verifica bundle/MANIFEST, restaura por clone e — com `FULL=1` — confere **o que foi publicado** no remoto |

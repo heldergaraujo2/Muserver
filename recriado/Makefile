@@ -37,7 +37,7 @@ CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
 ADMINBIN:=$(BUILD)/mu2admin
 
-.PHONY: all build db db-test dbctl unit make-sintaxe net net-matrix net-matrix-publish regressao-lua pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-full gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build db db-test dbctl unit make-sintaxe net net-matrix net-matrix-publish regressao-lua sincronia pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-full gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
@@ -131,6 +131,12 @@ net-matrix-publish: $(MUD2) $(MU2CTL) $(NETCLI)
 # So le a referencia: nao escreve nela. Depende de `git` (histórico/baselines), nao de interpretador.
 regressao-lua:
 	@bash tests/regressao_lua.sh
+
+# sincronia: garra de durabilidade da R-11 medida por sequencia de syscalls (tests/io_trace.c,
+# LD_PRELOAD). Nao altera o produto: observa o `mu2dbctl` e afirma que toda operacao confirmada
+# gravou E sincronizou antes de voltar (achado da auditoria P3: a operacao implicita nao fazia).
+sincronia: $(DBCTL)
+	@bash tests/sincronia.sh
 
 # R-5: sondas de formato. MU_REF_DATA e a referencia somente leitura (o pacote original).
 # Se ela nao existir, pe/data imprimem BLOCKED e saem 0: bloqueado nao e aprovado, mas tambem

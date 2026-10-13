@@ -68,25 +68,25 @@ recusado na partida; rotas de admin com papel `leitor` devolvem `403`; `/publica
 |---|---|---|
 | `make -s check` | `unit` + `make-sintaxe` + `net` + `pe` + `data` | **182 asserções, 0 falhas, exit 0** |
 | `make -s unit` | unidade do codec | 106/106 |
-| `make -s make-sintaxe` | o Makefile como contrato | 7/7 |
+| `make -s make-sintaxe` | o Makefile como contrato | 10/10 |
 | `make -s net` / `make -s net-matrix` | rede: matriz rápida / completa (100 config × 5 reps por perfil) | 34/34 · 36/36 (opt-in, ~11 min) |
 | `make -s conform` | conformidade byte a byte | 15/15 |
 | `make -s golden` | 38 vetores versionados + F20/F21 | 42/42 |
 | `make -s interop` | 3 camadas (3ª `BLOCKED`) | 12/12, `blocked=1` |
 | `make -s fuzz` | fuzzer determinístico (`FUZZ_ITERS`, padrão 50 000/rodada) | 12/12 |
 | `make -s seguranca` | malformados, fd/RSS, SIGTERM, log | 13/13 |
-| `make -s admin` | console: token, papéis, loopback | 24/24 |
+| `make -s admin` | console: token, papéis, loopback | 25/25 |
 | `make -s lua` / `make -s lua-enc` | camada Lua / cifragem do Lua | 13/13 (`blocked=1`) · 27/27 (`blocked=2`) |
 | `make -s cfg` / `make -s matriz` / `make -s bench` | configuração (segredos redigidos) / matriz de evidências / baseline exploratória | 15/15 · exit 0 · 15/15 |
 | `make -s pe` / `make -s data` | PE e dados da referência (`MU_REF_DATA`) | 14/14 · 21/21 |
 | `make -s pe-selftest data-selftest cfg-selftest` | só a recusa de entrada inválida (sem tocar 615 MB) | 4/4 · 4/4 · 5/5 |
-| `make -s gate` | **o portão único** (23 etapas) | ver `TESTING.md` |
+| `make -s gate` | **o portão único** (28 etapas) | **23 PASS / 0 FAIL / 3 BLOCKED / 2 SKIPPED, 553 asserções, exit 0** (2026-10-13) |
 | `make -s gate-selftest` | testa o próprio portão (F12–F14, etapa duplicada) | 19/19 |
 
 ## 6. O portão único (é ele que define "verde")
 
 ```sh
-make -s gate                       # 23 etapas; mesa de estados no stdout; TSV em out/gate.tsv
+make -s gate                       # 28 etapas; mesa de estados no stdout; TSV em out/gate.tsv
 GATE_FULL=1 make -s gate           # inclui net-matrix e persistencia (opt-in, caros)
 GATE_ONLY="golden fuzz" make -s gate   # roda só etapas nomeadas; o resto fica SKIPPED
 GATE_SKIP=bench make -s gate           # dispensa explícita

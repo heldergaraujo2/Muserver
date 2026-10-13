@@ -1,5 +1,55 @@
 # CHANGELOG do v2
 
+## Auditoria P3: a garra de durabilidade da R-11 estava aberta na operação implícita — 2026-10-13
+
+Rodada de auditoria do comportamento da persistência, medida em vez de lida. Relatório:
+`reports/r11b-veredito-auditoria-p3-2026-10-13.md` (o `r11-persistencia.md` **não** foi sobrescrito).
+
+- **Defeito real encontrado e corrigido:** o commit de transação explícita sincronizava antes de
+  voltar (`fsync` inline, `src/db.c:1077`), mas a **operação implícita** (`registra` → `grava_ops`)
+  gravava e retornava sem `fsync` — a sincronização só acontecia no `mu2db_fechar()`. Um servidor
+  que mantém o banco aberto recebia `MU2DB_OK` de `mu2db_conta_criar`/`dar-item` e, numa queda antes
+  do fechamento, podia perder o registro confirmado. Correção: `fsync` inline no ramo implícito,
+  com `estado_rebuild()` se o `fsync` falhar (o arquivo é a fonte de verdade; o erro avisa que não há
+  garantia). Custo medido: 10 operações implícitas = **76–78 ms**.
+- **Como foi medido (instrumento novo):** `strace` não existe no host e o conteúdo do arquivo não
+  distingue "sincronizado" de "no page cache" (a leitura acha a página suja). A prova é a **sequência
+  real de syscalls**, obtida por interposição: `tests/io_trace.c` + `LD_PRELOAD`, com
+  `ASAN_OPTIONS=verify_asan_link_order=0` (o runtime do ASan tem de vir primeiro). Nada foi compilado
+  dentro do produto.
+- **Regressão versionada:** `tests/sincronia.sh` (**15 casos**), alvo `make -s sincronia`, etapa
+  `sincronia` no portão. Ela afirma a *ordem*: existe `fsync` entre o fim dos registros e a reescrita
+  final do cabeçalho, com tamanho igual ao fim do último registro. **Sensibilidade a mutação medida:**
+  removendo o `fsync` inline e recompilando, `# sincronia=15 falhas=2` (casos 3 e 5); restaurado,
+  `15/0`.
+- **Afirmação de documento × código, medida:** o `r11-persistencia.md` §1 chama de "migração por
+  `schema_version`" o que o código não tem — arquivo com `schema=2` é **recusado** na abertura
+  (`schema 2 mais novo que o suportado (1)`) e `verificar` no mesmo arquivo diz `integridade=ok`
+  (não confere a versão). `REG_MIGRACAO` só existe no `enum` e num `case` da varredura: nunca é
+  gravado. `gravar_cabecalho` grava sempre a constante `MU2DB_SCHEMA_VERSION`, não
+  `db->schema_version` — latente hoje (só existe v1), defeito no dia em que a versão subir. Fica
+  aberto, com próximo passo escrito no relatório.
+- **Confirmado por medição (não mudou):** `flock` recusa o segundo escritor com erro nomeado
+  (`arquivo em uso`); ids de item e de personagem **nunca são reutilizados**; morte real de processo
+  no meio da TX deixa `descartados=1` e nada meio-aplicado; corrupção de cabeçalho e CRC divergente
+  são nomeados; bordas exatas de nome (3..20), senha (6..64), classe (0..5) e slots (64); PBKDF2 com
+  trabalho comparável em conta inexistente (110–114 ms × 113–130 ms); 536 `verificar` durante rajada
+  de gravação, 0 falhas.
+- **Reparos de teste (fiação, não produto):** `admin` acusava "serviço alterado" com
+  `git diff --quiet -- src include`, que falha por **qualquer** edição pendente em `src/` — foi o que
+  aconteceu com `src/db.c` da R-11. Passou a lista explícita dos arquivos de contrato do serviço
+  (24 → **25 casos**, verdes). E o `make-sintaxe` ganhou 3 casos (7 → **10**), incluindo "só
+  `net-matrix-publish` fala de `reports/`" (duas linhas dessa receita tinham ficado presas em
+  `regressao-lua` por um commit meu).
+- **Portão desta rodada:** `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED,
+  2 SKIPPED, 28 etapas, 553 asserções contadas (605 somadas), exit 0** (82 010 ms). Suítes:
+  `db` 99/0 · `dbctl` 31/0 · `sincronia` 15/0 · `make-sintaxe` 10/0 · `admin` 25/0 ·
+  `regressao-lua` 53/0. Continua **bloqueado** (não é aprovação): `interop` camada 3, `lua`,
+  `lua-enc`, `bench`; e `net-matrix`/`persistencia` seguem opt-in (`GATE_FULL=1`).
+- **Fase A/A3 registrada no portão:** a regressão estática dos 6 `.lua` (53 casos) passou a ser etapa
+  obrigatória (`make -s regressao-lua`), com o `ref_check.sh` intacto. Medido no commit da A3:
+  `PASS=22 FAIL=0 BLOCKED=3 SKIPPED=2`, 536 asserções, 27 etapas, exit 0.
+
 ## Ritual R-2: snapshot regravado, e as duas corridas completas medidas — 2026-10-13
 
 - **A etapa `persistencia` acusou o bundle velho com número:** `divergencia de conteudo dentro do

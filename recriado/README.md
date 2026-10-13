@@ -13,7 +13,7 @@ Reconstrução do serviço de rede `mu2` como **história nova**, depois de a im
 ## O que isto é, e o que não é
 
 - **É**: um projeto novo, com história própria, começando em R-0. O contrato do quadro é decisão
-  documentada do v2 (`docs/DECISIONS.md`, numeração `D2-xx`), coberto por 23 etapas de portão.
+  documentada do v2 (`docs/DECISIONS.md`, numeração `D2-xx`), coberto por 28 etapas de portão.
 - **Não é recuperação.** Nenhum arquivo do v1 existe aqui. Nenhum número do v1 é resultado deste
   projeto: valores antigos aparecem só como `[alvo]` histórico.
 - **Não é um servidor de MU Online jogável.** Não há login, contas, personagens, mundo, combate,
@@ -31,7 +31,7 @@ Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 se
 
 | medida | valor (2026-10-13) |
 |---|---|
-| portão único | `make -s gate` → **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas** (339 asserções contadas; 391 somando todas as etapas) |
+| portão único | `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas** (553 asserções contadas; 605 somando todas as etapas) — medido em 2026-10-13, auditoria P3 |
 | portão de build | `make -s check` → **182 asserções, 0 falhas** |
 | teste do portão | `make -s gate-selftest` → **19/19** |
 | backup | `scripts/verify-backup.sh` **11/11**; `FULL=1` **15/15** (confere o remoto) |
@@ -45,7 +45,7 @@ Detalhe, limites e o que **não** foi testado: [`docs/TESTING.md`](docs/TESTING.
 ```sh
 cd recriado
 make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient, out/mu2codec, out/mu2fuzz, out/mu2admin (ASan+UBSan, -Werror)
-make -s gate           # PORTAO UNICO: 23 etapas, mesa de estados, 339 assercoes contadas
+make -s gate           # PORTAO UNICO: 28 etapas, mesa de estados, 553 assercoes contadas
 make -s gate-selftest  # testa o proprio portao (19 casos, inclui F12-F14 e etapa duplicada)
 make -s check          # unit + make-sintaxe + net + pe + data (182 assercoes)
 make -s golden         # 38 vetores versionados + F20/F21
@@ -111,9 +111,10 @@ scripts/    verify-backup.sh
 out/        build e saidas de teste (IGNORADO pelo git)
 ```
 
-Existem e rodam (23 etapas no portão): `build`, `unit`, `make-sintaxe`, `net`, `net-matrix` (opt-in),
-`pe`, `data`, `cfg`, `conform`, `matriz`, `golden`, `interop`, `fuzz`, `seguranca`, `admin`, `lua`,
-`lua-enc`, `bench`, `*-selftest`, `ref-intacta`, `gate`, `gate-selftest`, `persistencia` (opt-in).
+Existem e rodam (28 etapas no portão): `build`, `unit`, `db`, `dbctl`, `sincronia`, `make-sintaxe`,
+`net`, `net-matrix` (opt-in), `pe`, `data`, `cfg`, `conform`, `matriz`, `matriz-artefatos`, `golden`,
+`interop`, `fuzz`, `seguranca`, `admin`, `lua`, `lua-enc`, `bench`, `*-selftest`, `ref-intacta`,
+`regressao-lua`, `gate`, `gate-selftest`, `persistencia` (opt-in).
 `interop` (camada 3), `lua` (execução) e `lua-enc` (algoritmo e `F23`) aparecem como **`BLOCKED`**
 com causa — nunca como aprovados. `bench` mede uma **baseline exploratória**: não há requisito de
 desempenho do dono, então nenhum número ali é meta.

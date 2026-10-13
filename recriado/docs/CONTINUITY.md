@@ -62,7 +62,7 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | suíte | comando | último resultado |
 |---|---|---|
 | unit | `make -s unit` | 106 asserções, 0 falhas |
-| make-sintaxe | `make -s make-sintaxe` | 7 casos, 0 falhas |
+| make-sintaxe | `make -s make-sintaxe` | 10 casos, 0 falhas |
 | net (portão) | `make -s net` | 34 verificações, 0 falhas |
 | net-matrix | `make -s net-matrix` | 36 verificações, 0 falhas (opt-in `GATE_FULL=1`) |
 | pe / data | `make -s pe` · `make -s data` | 14 e 21 casos, 0 falhas |
@@ -72,7 +72,7 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | **golden** | `make -s golden` | **42/42** — 38 vetores versionados + F20 + F21 |
 | **fuzz** | `make -s fuzz` | **12/12** — 150 000 iterações, 0 violações, F22 |
 | **seguranca** | `make -s seguranca` | **13/13** — 15 malformações na porta, fd e RSS estáveis |
-| **admin** | `make -s admin` | **24/24** — console local, fail closed, papéis, 501 |
+| **admin** | `make -s admin` | **25/25** — console local, fail closed, papéis, 501; o caso do git olha só os arquivos de contrato do serviço (reparo de acoplamento, auditoria P3) |
 | **interop** | `make -s interop` | **12/12, `blocked=1`** — camada 3 BLOCKED (sem wine/autorização) |
 | **lua** | `make -s lua` | **13/13, `blocked=1`** — inventário medido; sem interpretador no host |
 | **lua-enc** | `bash tests/lua-enc.sh` | **27/27, `blocked=2`** — cifragem do Lua do cliente: estrutura medida (janela de 3 B, sem padding, determinística); algoritmo e `F23` `BLOCKED` |
@@ -80,10 +80,12 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | bench | `make -s bench` | 15/15 — linha de base exploratória (R-7) |
 | persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 25 etapas, 448 asserções contadas, exit 0** |
-| etapas opt-in | `make -s gate-full` | liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9): **medido PASS=22 / FAIL=0 / BLOCKED=4 / 502 asserções / 26 etapas, exit 0** — `persistencia` deixa de ser SKIPPED e as três etapas de artefato passam juntas |
+| **portão único** | `make -s gate` | **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 553 asserções contadas (605 somadas), exit 0** — medido em 2026-10-13 (auditoria P3) |
+| etapas opt-in | `make -s gate-full` | **medido na R-2; não re-executado na auditoria P3** (custa ~12 min e exige árvore limpa). liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9): **medido PASS=22 / FAIL=0 / BLOCKED=4 / 502 asserções / 26 etapas, exit 0** — `persistencia` deixa de ser SKIPPED e as três etapas de artefato passam juntas |
 | ritual de backup | `bash scripts/verify-backup.sh` · `FULL=1 …` | **11/11** · **15/15** (bundle byte a byte igual ao remoto; `HEAD local esta no remoto`) |
 | persistência própria do v2 | `make -s db` · `make -s dbctl` | **99/0** · **31/0** (o segundo inclui morte real de processo no meio da transação) |
+| **sincronia** (auditoria P3) | `make -s sincronia` | **15/15** — durabilidade medida por sequência de syscalls (`tests/io_trace.c`, `LD_PRELOAD`); reintroduzindo o defeito, 2 casos reprovam |
+| **regressao-lua** (fase A/A3) | `make -s regressao-lua` | **53/53, `blocked=0`** — regressão estática dos 6 `.lua`; execução de Lua continua não observada (limite declarado) |
 | teste do portão | `make -s gate-selftest` | **21/21**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado, clone raso classificado) |
 
 Não existe, e por quê: `interop` camada 3 (BLOCKED — exige `wine`/`qemu-i386` + autorização; a suíte

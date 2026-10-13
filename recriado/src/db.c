@@ -1051,7 +1051,12 @@ static int registra(mu2db *db, uint32_t tipo, const uint8_t *payload, uint32_t l
         memcpy(o->payload, payload, len);
         return MU2DB_OK;
     }
-    /* transacao implicita: grava e aplica */
+    /* transacao implicita: grava, SINCRONIZA e aplica.
+     * O fsync inline (2026-10-13) fecha uma assimetria medida: o commit de transacao explicita
+     * sincronizava antes de retornar, mas a operacao implicita so era sincronizada no
+     * mu2db_fechar(). Um servidor que mantem o banco aberto recebia MU2DB_OK e, numa queda de
+     * energia antes do fechamento, podia perder o registro confirmado. Custo: 1 fsync por
+     * operacao; quem precisa de lote deve usar mu2db_tx_* (uma sincronizacao por transacao). */
     {
         op_t o;
         o.tipo = tipo;
@@ -1059,8 +1064,14 @@ static int registra(mu2db *db, uint32_t tipo, const uint8_t *payload, uint32_t l
         o.len = len;
         memcpy(o.payload, payload, len);
         r = grava_ops(db, &o, 1, 0);
-        if (r != MU2DB_OK)
+        if (r == MU2DB_OK && fsync(db->fd) != 0)
+            r = MU2DB_E_IO;
+        if (r != MU2DB_OK) {
+            /* o arquivo e a fonte de verdade: a memoria volta a refletir o que esta la (o registro
+             * pode estar gravado mesmo com o fsync falhando; o erro avisa que nao ha garantia). */
+            (void)estado_rebuild(db);
             return r;
+        }
     }
     return aplica_operacao(db, tipo, payload, len);
 }

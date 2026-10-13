@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # make_parse.sh — o Makefile e parte do contrato: se as flags mudam silenciosamente, o portao
-# de qualidade muda junto. 8 casos, cada um com o motivo escrito na saida.
+# de qualidade muda junto. 10 casos, cada um com o motivo escrito na saida.
 set -u
 cd "$(dirname "$0")/.." || exit 2
 n=0; bad=0
@@ -30,6 +30,12 @@ ck "7. check inclui a suíte de rede (nao so unit e make-sintaxe)" \
 # na receita do alvo novo. O `make -n` nao acusa: quem publica e quem nao publica. Este caso acusa.
 ck "8. so net-matrix-publish escreve em reports/ (alvo que nao publica nao fala de reports/)" \
    "make -s -n net-matrix-publish | grep -q 'NET_REPORT_DIR=reports' && ! make -s -n regressao-lua | grep -q 'reports/'"
+ck "9. sincronia roda a suíte de sincronia e e PHONY" \
+   "make -s -n sincronia | grep -q 'tests/sincronia.sh' && grep -q '^sincronia:' Makefile"
+# Portao que encolhe em silencio e o jeito mais barato de fingir qualidade: as etapas novas tem de
+# estar no registro do portao, nao so no Makefile.
+ck "10. o registro do portao lista regressao-lua e sincronia como etapas obrigatorias" \
+   "grep -q \$'^regressao-lua\tsuite' tests/run_all.sh && grep -q \$'^sincronia\tsuite' tests/run_all.sh"
 
 printf '1..%d\n# make-sintaxe=%d falhas=%d\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

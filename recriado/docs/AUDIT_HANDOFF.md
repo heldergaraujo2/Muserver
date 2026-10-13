@@ -41,7 +41,7 @@ achado, não escondida.
 ## 3. Estado real em uma página
 
 - **O que o v2 é**: serviço de ensaio (`mud2`) + codec com contrato próprio + CLI + console local +
-  fuzzer + sondas de auditoria do pacote. 23 etapas de portão, 339 asserções contadas (391 somadas),
+  fuzzer + sondas de auditoria do pacote. 28 etapas de portão, 553 asserções contadas (605 somadas),
   tudo medido (`docs/TESTING.md`).
 - **O que o v2 não é**: servidor de MU Online. Login, personagens, mundo, combate, itens, guildas e
   persistência são **`AUSENTE`** (`docs/PROJECT_STATUS.md` §2).
@@ -59,7 +59,7 @@ achado, não escondida.
 
 | evidência | onde | como reproduzir |
 |---|---|---|
-| mesa do portão (23 etapas: estado, asserções, falhas, blocked, exit, ms) | `recriado/out/gate.tsv` (regenerado a cada execução; `out/` é ignorado pelo git) | `cd recriado && make -s gate` |
+| mesa do portão (28 etapas: estado, asserções, falhas, blocked, exit, ms) | `recriado/out/gate.tsv` (regenerado a cada execução; `out/` é ignorado pelo git) | `cd recriado && make -s gate` |
 | resultado de cada suíte | `recriado/reports/*.tsv` (versionados) | `make -s check`, `make -s conform`, … |
 | conformidade byte a byte | `reports/r6-conform.tsv` | `make -s conform` |
 | matriz de rede completa (100 config × 5 reps por perfil) | `reports/net-orig.tsv`, `reports/net-mur0.tsv` | `make -s net-matrix` |
