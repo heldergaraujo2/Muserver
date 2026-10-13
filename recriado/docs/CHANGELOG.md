@@ -1,5 +1,31 @@
 # CHANGELOG do v2
 
+## Ritual R-2: snapshot regravado, e as duas corridas completas medidas — 2026-10-13
+
+- **A etapa `persistencia` acusou o bundle velho com número:** `divergencia de conteudo dentro do
+  declarado FALHA` (16 arquivos fora da lista declarada) e `arquivos fora do snapshot sao declarados
+  FALHA extras=7 declarados=0` — o bundle era da rodada da consolidação e não tinha `db.c`, `db.h`,
+  `mu2dbctl.c`, `db_test.c`, `dbctl.sh`, `matriz.sh` nem o relatório da R-11. Regravado:
+  `git commit-tree HEAD:recriado` → `mu2-snapshot` @ `cf0c09a1bbd914f23adbbe095aa30bce0ada9a84` →
+  bundle **366 445 bytes, 103 arquivos**, sha256 `a0fe917e429945bc…`, tudo no `MANIFEST.md`.
+- **`bash scripts/verify-backup.sh` → 11/11**; **`FULL=1 …` → 15/15**, incluindo
+  `publicado: bundle byte a byte OK remoto=a0fe917e… local=a0fe917e…` e
+  `publicado: HEAD local esta no remoto OK b2ffadd` (o bundle foi conferido **dentro do clone do
+  remoto**, não no worktree).
+- **`make -s gate-full` na árvore limpa: PASS=22, FAIL=0, BLOCKED=4, SKIPPED=0, 502 asserções, 26
+  etapas, exit 0 (694 850 ms).** `net-matrix`, `matriz-artefatos` e `persistencia` passam **na mesma
+  passada** — o defeito A2 está fechado com medição, não com promessa. `persistencia` sai de
+  `nao_testado`.
+- **A 4ª `BLOCKED` é o `bench`, e é honesto:** depois de 11 minutos de matriz de rede o host fica
+  carregado, o drift medido foi **31,1% > 25%** (o critério foi declarado antes de rodar) e o
+  validador recusou o número — `blocked=1`, 15/15 asserções, 0 falhas. No portão padrão, em host
+  ocioso, a mesma etapa é `PASS` 15/15 sem perdas. Número de host carregado não vira baseline.
+- **Dois defeitos de processo desta rodada, registrados porque a lição vale mais que o verde:** editar
+  `tests/run_all.sh` durante uma corrida matou o portão em `syntax error` **depois de 11 minutos**
+  (bash lê script por deslocamento em bytes); e o `matriz.sh` apagava `out/net-matrix/`, destruindo o
+  artefato que a etapa `net-matrix` tinha acabado de produzir. Os dois viraram regra no
+  `CONTINUITY.md` §9 e caso de teste no `matriz.sh` (12/12).
+
 ## R-11 — persistência própria do v2 (contas, personagens, inventário, transações) — 2026-10-13
 
 - **O que existe agora:** `include/mu2/db.h` (148 linhas) + `src/db.c` (1590), arquivo append-only

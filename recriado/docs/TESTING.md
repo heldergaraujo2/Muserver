@@ -21,6 +21,10 @@
 | **reprodução em clone limpo do remoto** (`git clone` completo do ramo publicado, sem estado local) | `make -s build` exit 0 · `make -s check` **182 asserções, 0 falhas** · `make -s gate-selftest` **19/19** · `make -s gate` **18 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 339 asserções, 23 etapas, exit 0** (71 317 ms) — os mesmos números da árvore de trabalho |
 | clone **raso** (`--depth 1`, fora do caminho documentado) | `make -s check` 182/182 igual, mas `ref-intacta` acusa **2 falhas** (casos 7–8: o commit do upload não existe no clone raso) e o caso 13 do `gate-selftest` falha por consequência. **Não é defeito do conteúdo** — é objeto ausente; `git fetch --unshallow` resolve. Registrado em `BUILD_AND_RUN.md` §9 e `AUDIT_HANDOFF.md` §5.5 |
 | `make -s lua-enc` (etapa nova) | **27/27, `blocked=2`** (`F23` + algoritmo não identificado), exit 0 |
+| `make -s gate` (pós-commit, árvore limpa) | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 448 asserções, 25 etapas, exit 0** (78 365 ms) — etapas novas `db` e `dbctl` incluídas |
+| `make -s db` · `make -s dbctl` (etapas novas) | **99/0** · **31/0** (o segundo mata o processo no meio da transação e prova a recuperação) |
+| `make -s gate-full` (árvore limpa, remoto sincronizado) | **PASS=22, FAIL=0, BLOCKED=4, SKIPPED=0, 502 asserções, 26 etapas, exit 0** (694 850 ms); `net-matrix` + `matriz-artefatos` + `persistencia` verdes **na mesma passada**; a 4ª `BLOCKED` é `bench` por **drift 31,1% > 25%** (host carregado pela matriz, critério declarado antes) |
+| `bash scripts/verify-backup.sh` · `FULL=1 …` | **11/11** · **15/15** — `bundle byte a byte OK remoto=a0fe917e…`, `HEAD local esta no remoto OK b2ffadd` |
 | `make -s make-sintaxe` | 7/7 após a adição do alvo `lua-enc` (o Makefile é contrato e continua válido) |
 
 ## 2. Mesa por etapa (o que cada uma prova, com o resultado medido)

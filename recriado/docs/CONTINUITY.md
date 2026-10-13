@@ -81,7 +81,8 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
 | **portão único** | `make -s gate` | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 25 etapas, 448 asserções contadas, exit 0** |
-| etapas opt-in | `make -s gate-full` | liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9) |
+| etapas opt-in | `make -s gate-full` | liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9): **medido PASS=22 / FAIL=0 / BLOCKED=4 / 502 asserções / 26 etapas, exit 0** — `persistencia` deixa de ser SKIPPED e as três etapas de artefato passam juntas |
+| ritual de backup | `bash scripts/verify-backup.sh` · `FULL=1 …` | **11/11** · **15/15** (bundle byte a byte igual ao remoto; `HEAD local esta no remoto`) |
 | persistência própria do v2 | `make -s db` · `make -s dbctl` | **99/0** · **31/0** (o segundo inclui morte real de processo no meio da transação) |
 | teste do portão | `make -s gate-selftest` | **21/21**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado, clone raso classificado) |
 
