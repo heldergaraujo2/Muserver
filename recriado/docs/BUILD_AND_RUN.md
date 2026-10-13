@@ -124,6 +124,9 @@ python3 tools/malform_probe.py | python3 tools/bench_check.py | python3 tools/ma
 ```sh
 git clone https://github.com/heldergaraujo2/Muserver.git && cd Muserver
 git checkout arena/cf1de8ce-muserver     # a consolidação vive nesta branch (PR #1 aberto para main)
+# ATENCAO: clone COMPLETO. Com `--depth 1` a etapa `ref-intacta` acusa 2 falhas (casos 7 e 8)
+# porque o commit do upload nao existe no clone raso — medido em 2026-10-13. Se ja clonou raso:
+#   git fetch --unshallow
 cd recriado
 make -s check ; make -s gate-selftest ; make -s gate     # 182 · 19/19 · portão único
 GATE_FULL=1 make -s gate                                 # com as etapas opt-in
@@ -139,4 +142,13 @@ python3 tools/enc_probe.py > /tmp/enc.tsv                # a evidência da etapa
 - sem Windows/SQL Server ⇒ o procedimento de banco do original (`DATABASE.md` §3) está
   **documentado, não executado**;
 - host de 2 vCPUs compartilhadas ⇒ `bench` pode reportar `BLOCKED` por drift de ambiente: é o juiz
-  funcionando (D2-27), não falha do código.
+  funcionando (D2-27), não falha do código;
+- **clone raso (`--depth 1`)**: as etapas `ref-intacta` (casos 7–8, que comparam com o commit do
+  upload `6eabb45`) e `gate-selftest` (caso 13, que roda o portão real) acusam falha — medido:
+  `ref-intacta=8 falhas=2` no clone raso contra `8 falhas=0` no clone completo. Não é defeito do
+  conteúdo: é objeto ausente. Rode `git fetch --unshallow` (ou clone completo). Melhoria pendente
+  registrada em `AUDIT_HANDOFF.md` §5: degradar para `BLOCKED` quando o objeto não existir.
+
+**Reproduzido em clone limpo (2026-10-13):** clone completo do remoto → `make -s build` exit 0;
+`make -s check` **182 asserções, 0 falhas**; `make -s gate-selftest` **19/19**; `make -s gate` (ver
+`TESTING.md`).

@@ -205,6 +205,15 @@ O que **não** roda neste ambiente (Lua, `wine`, `clang`/`valgrind`, SQL Server)
 | commits desta rodada | `578e7e1` (documentos) · `b465111` (backup do marco) · `2d121d9` (números finais + relatório) |
 | commits publicados | `git push` → `0f13c66..578e7e1` e `578e7e1..2d121d9` (branch) e a tag; **sem `--force`, sem apagar histórico, nenhuma outra branch** |
 
+**Reprodução em clone limpo do remoto** (feito depois do push, exatamente como o auditor fará):
+`git clone https://github.com/heldergaraujo2/Muserver.git` (completo) → `make -s build` exit 0 ·
+`make -s check` **182 asserções, 0 falhas** · `make -s gate-selftest` **19/19** · `make -s gate`
+**18 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 339 asserções, 23 etapas, exit 0** (71 317 ms) — os mesmos
+números da árvore de trabalho. Com clone **raso** (`--depth 1`) a etapa `ref-intacta` acusa 2 falhas
+(casos 7–8 precisam do commit do upload, ausente no clone raso) e o `gate-selftest` falha por
+consequência: é objeto ausente, não defeito do conteúdo — registrado em `TESTING.md` §1 e
+`AUDIT_HANDOFF.md` §5.5, com a solução (`git fetch --unshallow`).
+
 **Verificadores depois da publicação** (executados neste estado):
 
 | comando | resultado |

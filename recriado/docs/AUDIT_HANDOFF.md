@@ -79,7 +79,12 @@ achado, não escondida.
    não alterar contrato testado nesta consolidação.
 4. **Divergência de porta** do cliente (44405) contra o ConnectServer medido (44406): aberta, sem
    captura de tráfego não se resolve (`docs/PROTOCOLS.md` §3.1).
-5. **Formatos não decodificados**: `.ozt`, layout do `.bmd`, semântica do `.att`, algoritmo da
+5. **Clone raso (`git clone --depth 1`) quebra duas etapas**: `ref-intacta` (casos 7–8 comparam com o
+   commit do upload `6eabb45`, ausente no clone raso) e, por consequência, o caso 13 do
+   `gate-selftest`. Medido: `ref-intacta` 8/8 no clone completo × 8 com 2 falhas no raso. Solução
+   para o auditor: `git fetch --unshallow`. Melhoria pendente (não aplicada nesta consolidação):
+   essas comparações degradarem para `BLOCKED` quando o objeto não existir no repositório local.
+6. **Formatos não decodificados**: `.ozt`, layout do `.bmd`, semântica do `.att`, algoritmo da
    cifragem dos `.lua` — o que foi medido está dito; o resto é desconhecido.
 
 ## 6. Limites desta consolidação (declarados)
