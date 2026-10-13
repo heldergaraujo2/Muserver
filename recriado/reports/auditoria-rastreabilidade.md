@@ -5,6 +5,21 @@ Data: 2026-10-12. Estado de partida medido nesta rodada, não relatado: `make -s
 `gate-selftest` 19/19; `make -s check` 180 asserções; `FULL=1 scripts/verify-backup.sh` 13/13;
 HEAD = remoto = `2ca5a04`; `MuServer/` inalterada desde `b5b84da` (ver §5).
 
+## Atualização de 2026-10-13 (consolidação para auditoria) — o que mudou desde a redação acima
+
+O texto desta auditoria é um retrato datado de **2026-10-12** e foi preservado como está. O que
+mudou depois dele, medido hoje:
+
+| item | em 2026-10-12 (acima) | medido em 2026-10-13 |
+|---|---|---|
+| `gate` | 18 PASS / 0 FAIL / **2 BLOCKED** / 22 etapas / 336–339 asserções | 18 PASS / 0 FAIL / **3 BLOCKED** / **23 etapas** (339 contadas; 391 somadas) |
+| etapa nova | — | **`lua-enc`** (`enc`): 27/27, `blocked=2` |
+| meta C "formato de cifragem do script de cliente" | `NOT_IMPLEMENTED` | **`BLOCKED`** — estrutura medida, algoritmo não identificado, `F23` bloqueada (`reports/enc-cifragem-lua.md`) |
+| `check` | 180 asserções | **182** |
+| etapas verdes | interop/lua `blocked=1` | idem + `lua-enc blocked=2` |
+| backup/verificação | `FULL=1` 13/13 | **11/11** (padrão) e **15/15** (`FULL=1`, agora confere o remoto) |
+| repositório | monorepo `heldergaraujo2/Muserver` | idem; a árvore do produto passou a ser também publicada em `MuserverRecriado/` (174 arquivos) |
+
 Estados usados, sem hierarquia implícita: `PASS`, `FAIL`, `BLOCKED`, `NOT_IMPLEMENTED`,
 `IN_PROGRESS`, `SKIPPED`. **Nada é marcado como concluído porque o código existe.** Cada linha diz
 onde está a evidência; todo bloqueio diz causa, dependência e condição de desbloqueio.
@@ -76,7 +91,7 @@ evidência de que o original aceite mais, e não há alegação disso em lugar n
 | inventário e evidência estática | `tools/lua_probe.py` | `lua` 13/13 | 148 `.lua`; 20 com termos de pacote; 8 `ProtocolCore.lua` | `PASS` |
 | assinatura do ponto de entrada de pacote | — (evidência) | `lua` casos 7–8 | `GameServerProtocolRecv(aIndex, Packet, PacketName)` | `PASS` |
 | verificação de sintaxe dos scripts | — | — | nenhum interpretador Lua no host | `BLOCKED` |
-| formato de cifragem do script de cliente | — | — | par cifrado/decifrado em `LuaEncTool/`; formato não determinado | `NOT_IMPLEMENTED` |
+| cifragem do script de cliente | `tools/enc_probe.py` (somente leitura) | `lua-enc` 27/27, `blocked=2` | cabeçalho fixo de 8 B, sem padding, determinística, janela de 3 bytes fecha em 0/2 510; **algoritmo não identificado** | `BLOCKED` (ver `enc-cifragem-lua.md`); `F23` `BLOCKED` |
 | correção da afirmação "0 declarações de framing" | — | `lua` caso 2 | `reports/rf-lua-protocolo.md` | `PASS` (corrigida) |
 
 **Bloqueio C.1 — sintaxe.** Causa: `lua`, `lua5.1`, `lua5.3`, `lua5.4`, `luajit` ausentes e não
@@ -173,3 +188,13 @@ decisão do proprietário. Desbloqueio: alvo + contrato + credencial; então a r
 3. Interpretador Lua (bloqueio C.1) — sintaxe e execução controlada dos 148 scripts.
 4. Alvo de publicação (bloqueio G.1) — deixa de ser `NOT_IMPLEMENTED`.
 5. `net-matrix` e `persistencia` seguem `SKIPPED` no portao padrao por serem opt-in (`GATE_FULL=1`): a matriz completa custa ~20 min e `persistencia` faz operacao de git. Ambos ja rodaram com `FULL=1` (matriz 36/0; verificador 13/13); manter opt-in e decisao deliberada, nao esquecimento. Restauracao de bundle em ambiente minimo e exercitada por `SELFTEST_ONLY=1` nas suites pe/data/cfg.
+
+---
+
+## Documentos de auditoria desta consolidação (2026-10-13)
+
+Criados em `docs/` para leitura independente, todos ancorados na medição:
+
+`PROJECT_STATUS.md` (inventário por estado) · `ARCHITECTURE.md` · `BUILD_AND_RUN.md` · `DATABASE.md` ·
+`PROTOCOLS.md` · `TESTING.md` · `DEPENDENCIES_AND_LICENSES.md` · `SECURITY.md` · `ROADMAP.md`
+(revisado) · `AUDIT_HANDOFF.md` (transferência ao auditor).

@@ -108,3 +108,26 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 - **Depende de:** nada técnico — é processo.
 - **Prova:** o próprio verificador + `gate-selftest` (R-8).
 - **Risco:** o histórico do projeto é uma perda de ambiente; trabalho fora da árvore rastreada morre.
+
+---
+
+## Etapas restantes até um servidor funcional (ordem de dependência real)
+
+Revisado em **2026-10-13**, depois da etapa `enc`. Nada aqui está autorizado a começar sem que a
+condição da linha anterior exista — e nenhum item é "quase pronto" por ter documento.
+
+| # | etapa | o que destrava | condição concreta |
+|---|---|---|---|
+| 1 | **Interop real (camada 3)** | destrava B (limite de pacote do original), C parcialmente e D (validação com o binário) | ambiente PE32/i386 (`wine`/`qemu-i386`) **+** autorização **+** procedimento; depositar `reports/r6-interop-real.tsv` (8 chaves) e a suíte valida |
+| 2 | **Cliente original** | destrava E (FPS/fluidez) e fecha a meta D | obter o cliente e autorização para executá-lo (o pacote atual não o contém) |
+| 3 | **Interpretador Lua** | sintaxe (`luac -p`) e execução controlada dos 148 scripts; fecha C parcial | `lua`/`luajit` no host (ou instalação autorizada) |
+| 4 | **`ozt` (estrutura), `.bmd` (layout), `.att` (semântica)** | meta D além da classificação | mais medição (entropia por região, coerência de cabeçalho, correlação com `.ozj`); decodificação plena depende do item 2 |
+| 5 | **`enc` (cifragem dos `.lua`)** | F23 e a leitura dos scripts cifrados | mais pares claro/cifrado **ou** desempacotar o `LuaEncryptorTool.exe` num host autorizado (sem executar) **ou** documentação do fornecedor |
+| 6 | **Persistência/banco** | contas, personagens e progressão | **decisão nova** registrada em `DECISIONS.md` (tecnologia, migrações, teste de reinício) e, para acoplar ao ecossistema original, o DSN ODBC `MuOnline` + convenção `SQL_NO_DATA=100` |
+| 7 | **Lógica de jogo** (login, sessão, mundo, combate, itens, guildas) | o que faz disso um servidor de MU | especificação do comportamento — **inexistente no pacote**; depende dos itens 1/2 para observar o original |
+| 8 | **`regressao-lua`** (6 `.lua` patcheados) | integridade baseline↔patch↔árvore + presença das correções | já testável sem interpretador (análise estática); execução depende do item 3 |
+| 9 | **Alvo de publicação do produto** | meta G deixa de ser `501` | alvo autorizado + contrato de destino + credencial (ação do proprietário) |
+| 10 | **Capacidade absoluta (desempenho)** | metas de escala | host dedicado com requisito declarado — hoje 2 vCPUs + ASan |
+
+Fora da fila, por decisão: interface gráfica do console, escrita em runtime no serviço (exigiria
+opcode novo e invalidaria o contrato provado), `libFuzzer`/cobertura guiada (sem `clang`).

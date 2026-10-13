@@ -156,6 +156,10 @@ admin: $(ADMINBIN) $(MUD2)
 lua:
 	@bash tests/lua.sh
 
+# Etapa enc: cifragem dos scripts Lua do cliente — estrutura medida, algoritmo e F23 BLOCKED.
+lua-enc:
+	@bash tests/lua-enc.sh
+
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
 # nao sabe falhar nao e portao. `gate` nao entra em `check` para nao haver recursao.
