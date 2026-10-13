@@ -6,7 +6,7 @@ Atualizado no fim da rodada que corrigiu as defasagens numéricas e reconstruiu 
 
 | campo | valor |
 |---|---|
-| unidade fechada | **publicação preparada e conferida, push BLOQUEADO por permissão** (403 do GitHub App no destino) + 4 defeitos reais corrigidos, medidos em ambiente reprovisionado |
+| unidade fechada | **publicação preparada e conferida, push BLOQUEADO por permissão** (403 do GitHub App no destino) + 5 defeitos reais corrigidos e medidos (4 em ambiente reprovisionado + a corrida da linha de base do teste de descritores, 1 em 10 execuções) |
 | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
 | próxima tarefa | **destravar a publicação** (ação do proprietário: incluir o repo na instalação do App) e, depois, **`enc`** — cifragem do script Lua do cliente (`NEXT_TASK.md`) |
 | branch | `arena/cf1de8ce-muserver` |

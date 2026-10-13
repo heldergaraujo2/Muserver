@@ -215,8 +215,36 @@ def main():
             n = conta_fd()
         return n, int((time.time() - t0) * 1000)
 
+    def piso_fd(limite_s=2.0):
+        """Menor contagem de fd vista numa janela curta — o piso, nao uma leitura solta.
+
+        Corrida medida em 2026-10-12 (rodada de fechamento da publicacao): uma unica leitura logo
+        depois da bateria de malformacoes pega o close assincrono do servidor ainda em voo — 1 de 10
+        execucoes mediu base=9 com piso real 8 (as 10 estabilizaram em 8), e a assercao
+        `base == estabilizado` falhava por corrida, nao por vazamento. O piso converge em 0–20 ms
+        (medido); a janela fecha em ~120 ms com as tres ultimas leituras no piso, ou em 2 s.
+        """
+        t0 = time.time()
+        piso = conta_fd()
+        iguais = 0
+        leituras = 1
+        while time.time() - t0 < limite_s:
+            time.sleep(0.02)
+            n = conta_fd()
+            leituras += 1
+            if n < piso:
+                piso = n
+                iguais = 0
+            elif n == piso:
+                iguais += 1
+            else:
+                iguais = 0
+            if leituras >= 6 and iguais >= 3:
+                break
+        return piso, int((time.time() - t0) * 1000)
+
     if srv_pid:
-        fd_antes = conta_fd()
+        fd_antes, ms0 = piso_fd()            # piso observado; a corrida do close nao entra na base
         rodada(a.ciclos)
         fd_imed = conta_fd()
         fd_depois, ms1 = estabiliza(fd_antes)
@@ -225,11 +253,11 @@ def main():
         fd_rodada2, ms2 = estabiliza(fd_antes)
     else:
         fd_imed = fd_imed2 = -1
-        ms1 = ms2 = -1
+        ms0 = ms1 = ms2 = -1
     casos.append(("ciclos_abrir_fechar", 2 * a.ciclos, -1, ping_ok(conn, a.timeout_s),
                   "fd_antes=%d fd_imed=%d fd_depois=%d fd_rodada2=%d fd_imed2=%d "
-                  "settle_ms=%d/%d srv_pid=%s pid_fonte=%s" %
-                  (fd_antes, fd_imed, fd_depois, fd_rodada2, fd_imed2, ms1, ms2,
+                  "settle_ms=%d/%d base_ms=%d srv_pid=%s pid_fonte=%s" %
+                  (fd_antes, fd_imed, fd_depois, fd_rodada2, fd_imed2, ms1, ms2, ms0,
                    srv_pid, pid_fonte)))
 
     print("caso\tenviado_bytes\trespostas\tvivo_depois\tobs")

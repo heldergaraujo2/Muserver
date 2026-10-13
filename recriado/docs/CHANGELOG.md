@@ -6,8 +6,14 @@
   asserções, `gate` 336→**339**, `seguranca` 12→**13**, `admin` 22→**24**, `ref-intacta` 6→**8**
   casos. As contagens antigas sobreviviam em `README`, `CONTINUITY`, `CURRENT_STATE`, `NEXT_TASK` e
   `ROADMAP`, e foram refeitas em execução limpa (`out/` vazio).
+- **Quinto defeito, medido no destino validado:** a linha de base do teste de descritores
+  (`tests/seguranca.sh` × `tools/malform_probe.py`) era uma **leitura solta** logo depois da bateria
+  de malformações, e o close assíncrono do servidor ainda estava em voo: 1 de 10 execuções leu
+  `fd_antes=9` com piso real 8 (as 10 estabilizaram em 8), e o caso falhava por corrida, não por
+  vazamento. A base passou a ser o **piso observado numa janela curta**; a asserção
+  (`base == estabilizado == 2ª rodada`) continua estrita e um vazamento real ainda falha.
 - **Destino reconstruído do zero** com `workspace/migracao/adaptar-destino.py` sobre o split de
-  **38 commits** do histórico do v2 (mensagens preservadas), com a evidência `workspace/` e a
+  **39 commits** do histórico do v2 (mensagens preservadas), com a evidência `workspace/` e a
   adaptação de caminhos; conferido por portão (`14 PASS/0 FAIL/6 BLOCKED/2 SKIPPED`, 281 asserções),
   `make -s check`, `gate-selftest` 19/19, `fuzz` 12/12, clone independente e restauração do próprio
   bundle. Construções independentes deram o mesmo HEAD, a mesma árvore e o mesmo sha256 de bundle

@@ -66,7 +66,7 @@ Evidência em `../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md`. Portanto:
    sha256), e `scripts/verify-backup.sh` é o que atesta — com `FULL=1` conferindo o que foi **publicado**,
    não só o que está no worktree;
 3. `recriado/` **já tem** o repositório próprio pronto: `workspace/migracao/` reconstrói
-   `heldergaraujo2/MuserverRecriado` de forma reprodutível (histórico de 38 commits via
+   `heldergaraujo2/MuserverRecriado` de forma reprodutível (histórico de 39 commits via
    `git subtree split`, evidência `workspace/`, cópia restaurável) e `publicar-destino.sh` publica e
    confere. O que falta é **permissão**: o push responde 403 porque a instalação do GitHub App não
    inclui o destino — ação do proprietário, sem contorno daqui.

@@ -91,7 +91,9 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   (`check` 180→182 asserções, `gate` 336→339, `seguranca` 12→13, `admin` 22→24) e reconstruiu o
   destino do zero com `workspace/migracao/adaptar-destino.py` — cada substituição com asserção
   própria (falha nomeando o texto que não casou) — no lugar do patch, que ficava pinado na base
-  do split.
+  do split. A validação do destino achou e corrigiu um quinto defeito: a linha de base do teste de
+  descritores era leitura solta e pegava a corrida do close assíncrono (medido: 1 de 10 execuções
+  com `fd_antes=9` e piso real 8); passou a ser o piso observado numa janela curta.
 - **Destino `heldergaraujo2/MuserverRecriado`: reconstruído, conferido e NÃO publicado.** O `git push`
   foi tentado de novo nesta rodada e respondeu, igual,
   `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`; a API responde

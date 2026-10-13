@@ -70,8 +70,11 @@ ck "serviço encerra com código 0 no SIGTERM depois de toda a bateria (sem abor
       "[ '$SRV_EXIT' = 0 ]"
 # A medida que interessa é ACÚMULO, não o instante do último close: o close do cliente devolve o
 # socket de forma assíncrona, e contar fd logo depois de fechar o 1000º dá 9 mesmo sem vazamento
-# (medido). A sonda espera estabilizar (limite 2 s, custo real medido 0–20 ms) em DUAS rodadas: um
-# vazamento real não estabiliza e a rodada 2 soma sobre a 1 — a asserção continua podendo falhar.
+# (medido). A linha de base é o PISO observado numa janela curta: uma leitura solta logo depois da
+# bateria pegou 9 com piso real 8 em 1 de 10 execuções (medido nesta rodada) e fazia a asserção
+# falhar por corrida. A sonda espera estabilizar (limite 2 s, custo real medido 0–20 ms) em DUAS
+# rodadas: um vazamento real não estabiliza e a rodada 2 soma sobre a 1 — o teste continua podendo
+# falhar.
 FD_A=$(sed -n 's/.*fd_antes=\([0-9]*\).*/\1/p'   "$OUTD/probe.tsv" | tail -1)
 FD_I=$(sed -n 's/.*fd_imed=\([0-9]*\).*/\1/p'    "$OUTD/probe.tsv" | tail -1)
 FD_D=$(sed -n 's/.*fd_depois=\([0-9]*\).*/\1/p'  "$OUTD/probe.tsv" | tail -1)
