@@ -93,7 +93,28 @@ não tem caminho de execução de binário original); execução de Lua (sem int
 execução da suíte `golden` conter qualquer valor gerado pelo próprio programa — os 38 vetores foram
 derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
+### 5.1 Pendências medidas da auditoria P3 (cada uma com critério de aceitação)
+
+| # | pendência | evidência de que existe | critério de aceitação | próximo passo |
+|---|---|---|---|---|
+| 1 | **Migração de schema não existe** (`REG_MIGRACAO` nunca gravado; `gravar_cabecalho` grava a constante `MU2DB_SCHEMA_VERSION`) | `reports/r11b-…md` §4.1 + varredura do arquivo | ou a promessa sai do `db.h`/relatório e o texto diz "versão é aplicada, migração não existe", ou existe caminho com teste que migra v1→v2 e é medido | escrever a decisão (D2-xx) antes do código; trocar a constante por `db->schema_version` |
+| 2 | **`mu2db_verify` não toma `flock`** | medido: `verificar` exit 0 durante lock exclusivo; 536 amostras sem falso alarme | `verificar` durante um commit em curso não pode reportar corrupção; teste que force o cenário (escritor travado + verificação) | `LOCK_SH` no verify + caso em `tests/sincronia.sh` |
+| 3 | **Queda de energia não é reproduzível aqui** | declarado no §1 do relatório P3 | não é pendência de código: é limite de ambiente, e o texto tem de continuar dizendo "o `fsync` foi chamado antes de a API voltar", nunca "o dado sobreviveu a queda" | manter a redação; não promover a afirmação |
+| 4 | **Paridade de publicação (`MuserverRecriado/`)** | `diff -rq recriado/reports MuserverRecriado/reports` divergente | rodada de publicação com o checklist (`NEXT_TASK.md`), arquivo por arquivo, e `verify-backup.sh` verde | pedir autorização; não copiar à mão |
+
 ## 6. Último commit e publicação
+
+- **Rodada vigente (2026-10-13, auditoria P1 + A3 + P3).** HEAD `9111939` em
+  `arena/cf1de8ce-muserver` (blobs do remoto conferidos um a um por `gh api`). Entrou nesta ordem:
+  P1 (`5093ffe`, verificação anti-vazamento executável + avaliação de risco da exposição);
+  **A3** (`04bbaf6`, regressão estática dos 6 `.lua` como etapa obrigatória do portão — 53/0);
+  **P3/R-11b** (`9111939`, durabilidade da operação implícita + regressão por sequência de syscalls).
+  Portão vigente: **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 553
+  asserções contadas (605 somadas), exit 0**. Relatório: `reports/r11b-veredito-auditoria-p3-2026-10-13.md`.
+  **`MuserverRecriado/` não foi tocada** — a paridade com `recriado/` já estava divergente antes
+  desta rodada (faltavam `enc-*`, e `reports/` divergia) e republicar é rodada própria, com
+  autorização; o repositório separado segue `403`.
+  Os itens abaixo são de rodadas anteriores e ficam como registro.
 
 - **Rodada vigente (2026-10-13): etapa `enc` — cifragem dos scripts Lua do cliente.** O algoritmo
   **não** foi identificado e isso está declarado como `BLOCKED` (2 motivos: função da janela
