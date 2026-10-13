@@ -10,69 +10,52 @@ normal). É a seleção de repositórios da **instalação do GitHub App**, não
 *Contents: Read and write*; depois, `bash workspace/migracao/publicar-destino.sh` (push + `ls-remote`
 + clone independente + portão). Nada é afirmado publicado antes do `ls-remote` conferir.
 
-Estado de partida (medido em ambiente limpo, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
-0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
-`make -s check` 182 asserções; `FULL=1 verify-backup.sh` 15/15. Branch `arena/cf1de8ce-muserver`.
+**Pendência aberta pela etapa `enc` (2026-10-13):** a pasta `MuserverRecriado/` ficou **intocada de
+propósito** — é o snapshot da rodada anterior, o validador dela só admite arquivos novos que casem
+com padrões declarados, e levá-los para lá é uma rodada de publicação nova. Essa rodada precisa, no
+mínimo: espelhar `tools/enc_probe.py`, `tests/lua-enc.sh`, `tests/run_all.sh`,
+`reports/enc-probe.tsv`, `reports/enc-cifragem-lua.md` e os `docs/` atualizados; atualizar a contagem
+de arquivos no `README.md` da pasta; regravar o snapshot dela e o `MANIFEST.md`; e refixar as
+constantes do transporte em `workspace/migracao/preparar-destino.sh` (foi o que a rodada anterior fez
+quando o `workspace/` arquivado mudou). Nada disso acontece automaticamente.
+
+Estado de partida (medido em ambiente limpo, não relato): `make -s gate` → **18 PASS, 0 FAIL, 3 BLOCKED,
+0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas, 339 asserções contadas (391 somadas), exit 0**; `gate-selftest`
+19/19; `make -s check` 182 asserções; `FULL=1 verify-backup.sh` 15/15. Branch `arena/cf1de8ce-muserver`.
 
 As etapas que a rodada anterior listava como pendentes **foram fechadas**: `golden` (42/42),
-`interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (13/13), `admin` (24/24) e `lua`
-(13/13, execução BLOCKED). A auditoria de rastreabilidade do roadmap inteiro está em
+`interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (13/13), `admin` (24/24), `lua`
+(13/13, execução BLOCKED) e agora **`lua-enc`** (27/27, `blocked=2` — ver a seção da etapa abaixo). A auditoria de rastreabilidade do roadmap inteiro está em
 `../reports/auditoria-rastreabilidade.md`.
 
 Restam três frentes. As duas primeiras **não dependem de nada externo**:
 
 ---
 
-## Próxima tarefa: `enc` — formato de cifragem do script Lua do cliente
+## Etapa `enc` — executada em 2026-10-13: estrutura medida, algoritmo `BLOCKED`
 
-### Por que esta primeiro
+**Resultado: o algoritmo NÃO foi identificado.** A etapa foi executada até onde a medição alcança e
+fechou como `BLOCKED`, com o que foi testado, o que foi descartado e por qual medição — relatório em
+`../../reports/enc-cifragem-lua.md`, evidência em `../../reports/enc-probe.tsv`.
 
-É a única lacuna técnica com **material de ataque completo dentro do pacote**: existe um par
-conhecido. Se a cifragem for determinística e sem IV (o que é testável), há um ataque de texto
-conhecido clássico, e o resultado é verificável byte a byte.
+| pergunta | resposta medida |
+|---|---|
+| é determinística? | **sim** — 0 violações em 6 pares com prefixo de claro comum; `local CONFIG = r` → `14cca1192748a387fd51b74ba7a41574`, igual no arquivo do cliente e no do servidor |
+| cabeçalho e padding | **8 bytes fixos** `28aa2191a6dd35f7` em 9/9; **sem padding** (`len(cif) − 8 == len(claro) + nº de LF`) |
+| hipóteses 1–3 (XOR derivado, XOR 1 byte, rotação/transposição) | **refutadas** com número (0 chaves de período ≤ 512; `gcd(payloads)=1`) |
+| hipótese 4 (stream com estado) | **família confirmada, algoritmo não** — janela de 3 bytes do próprio cifrado: 0/2 510 (e 0/890 entre arquivos); com 2 bytes, 952/4 403; o keystream depende do claro |
+| hipótese 5 (não determinística) | **refutada** |
+| `F23` | **`BLOCKED`** — exige decodificador, e não existe |
 
-### O que existe (medido)
-
-| Material | Caminho | Evidência |
-|---|---|---|
-| texto claro | `Tools/Gerador de Main/LuaEncTool/ClientDecrypted/System/ProtocolCore.lua` | 40 linhas legíveis, com `ClientProtocolRecv(Packet, PacketName)` |
-| texto cifrado | `.../ClientEncrypted/System/ProtocolCore.lua` | começa em `28 aa 21 91 a6 dd 35 f7` |
-| ferramenta | `.../LuaEncryptorTool.exe` + `.pdb` | não executada (regra do projeto) |
-| configuração | `.../EncryptorTool.ini` | a ler |
-| segundo par | `ServerDecrypted/` × `ServerEncrypted/` | confirma ou refuta hipótese em outro arquivo |
-
-### Hipóteses a testar, em ordem
-
-1. **XOR com chave derivada da ferramenta** (mesmo padrão da camada `.bmd`: a chave `ab fc cf`
-   foi confirmada na Etapa C com âncora de conteúdo). Testar se o par satisfaz
-   `claro[i] ^ cifrado[i] == chave[i % k]` para `k` pequeno.
-2. **XOR com chave constante de 1 byte** (caso particular de 1).
-3. **Rotação/transposição** por bloco (4 ou 8 bytes), verificável por periodicidade do XOR entre
-   claro e cifrado.
-4. **Stream com estado** (exige chave; se a chave não estiver em disco, `BLOCKED` com a causa).
-5. **Não determinística** (IV/sal) — refutável comparando dois arquivos cifrados com o mesmo claro
-   em posições diferentes.
-
-### Critérios de aceitação
-
-- Cada hipótese é testada por um critério declarado **antes** de olhar o resultado, e o resultado é
-  registrado com o número medido (não "parece").
-- Se uma hipótese decodificar o arquivo, a prova é: **o texto decifrado bate byte a byte com o
-  `ClientDecrypted`** do mesmo caminho — não imprimibilidade, não semelhança.
-- Confirmado o algoritmo, criar golden test com vetor de `(claro, cifrado)` e **F23**: alterar um
-  byte do cifrado tem de fazer o decodificador acusar divergência no offset exato.
-- Se nenhuma hipótese fechar: `BLOCKED` com o que foi testado, o que foi descartado e por qual
-  medição. **Proibido** afirmar "cifragem identificada" sem casar o texto claro.
-
-### Falsificação F23 (declarada desde já)
-
-`F23` — decodificador de `.enc`: dado o par conhecido, corromper exatamente um byte do arquivo
-cifrado deve produzir falha apontando o offset alterado, e o arquivo original do pacote permanece
-intacto (sha256 conferido antes e depois). Se o decodificador engolir a corrupção, F23 reprova.
+O que desbloquearia, em ordem de custo: (1) **mais pares claro/cifrado** — a lacuna hoje é cobertura
+de contexto, não método; (2) desempacotar o `LuaEncryptorTool.exe` (Themida cobre o arquivo inteiro,
+e o magic do cabeçalho não existe no binário) num host autorizado, **sem executar** o binário — ou
+executá-lo com autorização explícita do proprietário; (3) documentação do fornecedor (o
+`EncryptorTool.ini` só traz `Customername = MuEmuS6`).
 
 ---
 
-## Depois: `ozt` — estrutura interna das texturas
+## Próxima tarefa: `ozt` — estrutura interna das texturas
 
 Hoje só existem dois prefixos medidos (`00 00 02 00 00 00 02 00` em 286 arquivos;
 `00 4b 6d 4b 00 00 02 00` em 26; 1 sem prefixo). Nada além disso foi determinado, e **não** se deve
@@ -103,5 +86,6 @@ interpretador Lua não há execução; o que é testável sem interpretador é a
 | `interop` camada 3 | sem `wine`/`qemu-i386`; binários PE32/i386 com `.themida`; sem autorização | ambiente PE32/i386 + autorização + procedimento; evidência em `reports/r6-interop-real.tsv` |
 | cliente original | o pacote não contém cliente; `main.exe` é saída do *Gerador de Main* | obter o cliente e autorização para executá-lo |
 | `lua` execução | nenhum interpretador Lua no host | `lua`/`luajit` disponível |
+| `enc` (algoritmo e `F23`) | função da janela não determinada (2³² de domínio contra 21 931 amostras) e `.exe` protegido por Themida (100% do arquivo) | mais pares claro/cifrado; desempacotar num host autorizado (sem executar) ou executar com autorização; documentação do fornecedor |
 | capacidade absoluta | 2 vCPUs compartilhadas + ASan | host dedicado com requisito declarado |
 | publicação real | sem alvo autorizado (403 em `MuserverRecriado`, não contornado) | decisão do proprietário |

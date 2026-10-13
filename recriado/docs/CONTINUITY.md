@@ -74,11 +74,12 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | **admin** | `make -s admin` | **24/24** — console local, fail closed, papéis, 501 |
 | **interop** | `make -s interop` | **12/12, `blocked=1`** — camada 3 BLOCKED (sem wine/autorização) |
 | **lua** | `make -s lua` | **13/13, `blocked=1`** — inventário medido; sem interpretador no host |
+| **lua-enc** | `bash tests/lua-enc.sh` | **27/27, `blocked=2`** — cifragem do Lua do cliente: estrutura medida (janela de 3 B, sem padding, determinística); algoritmo e `F23` `BLOCKED` |
 | ref-intacta | `bash tests/ref_check.sh` | **8/8** — inclui a divergência dos 6 `.lua` e a reversão |
 | bench | `make -s bench` | 15/15 — linha de base exploratória (R-7) |
 | persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0** |
+| **portão único** | `make -s gate` | **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas, 339 asserções contadas (391 somadas), exit 0** |
 | teste do portão | `make -s gate-selftest` | **19/19**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado) |
 
 Não existe, e por quê: `interop` camada 3 (BLOCKED — exige `wine`/`qemu-i386` + autorização; a suíte
@@ -88,6 +89,20 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ## 6. Último commit e publicação
 
+- **Rodada vigente (2026-10-13): etapa `enc` — cifragem dos scripts Lua do cliente.** O algoritmo
+  **não** foi identificado e isso está declarado como `BLOCKED` (2 motivos: função da janela
+  desconhecida; `F23` sem decodificador). O que ficou medido e versionado: 4 dos 13 pares são
+  byte-idênticos (não cifrados), cabeçalho fixo de 8 B `28aa2191a6dd35f7`, sem padding
+  (`len(cif) − 8 == len(claro) + nº de LF`), determinismo, e a estrutura `(A[j], C[j-1..j-3]) → C[j]`
+  com 0 discordâncias em 2 510 repetições (0/890 entre arquivos; 2 bytes ⇒ 952/4 403). Artefatos:
+  `tools/enc_probe.py`, `tests/lua-enc.sh` (27 asserções), etapa `lua-enc` no portão (22 → 23
+  etapas), `reports/enc-probe.tsv` e `reports/enc-cifragem-lua.md` (com as famílias refutadas e o
+  caminho de desbloqueio). Portão: **18 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 23 etapas, exit 0**
+  (69 816 ms), nenhum FAIL novo.
+- **A pasta publicada `MuserverRecriado/` não foi tocada nesta rodada** — ela é o snapshot da rodada
+  anterior, o validador dela segue verde (`ok=11 falhas=0 blocked=0`) e ele só admite arquivos novos
+  que casem com padrões declarados; carregar os arquivos do `enc` para lá é uma **rodada de
+  publicação nova** (checklist em `NEXT_TASK.md`), não um efeito colateral desta.
 - Rodada vigente: `arena/cf1de8ce-muserver`. A rodada corrigiu defasagens numéricas da origem
   (`check` 180→182 asserções, `gate` 336→339, `seguranca` 12→13, `admin` 22→24) e reconstruiu o
   destino do zero com `workspace/migracao/adaptar-destino.py` — cada substituição com asserção

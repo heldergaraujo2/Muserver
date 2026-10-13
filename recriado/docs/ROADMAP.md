@@ -18,7 +18,7 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 | R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=21/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
 | R-6 | interoperabilidade e golden | camada 1 (**conform** 15/15) e camada 2 (implementações próprias) comprovadas; camada 3 com evidência medida (`HackPacketCheck`: 272 entradas, 256 índices, 8 bits; code do v2 = 16 bits ⇒ fator 256) e **BLOCKED** com causa e caminho de desbloqueio; `golden` 42/42 com 38 vetores versionados e F20/F21 | **fechada no que é verificável** 2026-10-12 |
 | R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | `make -s bench` 15/15, critérios declarados antes, juiz separado (`tools/bench_check.py`); capacidade absoluta **BLOCKED**; 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
-| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/339 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14 | **fechada** 2026-10-12 |
+| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/339 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14; **+ etapa `lua-enc` em 2026-10-13 (23 etapas, 3 BLOCKED)** | **fechada** 2026-10-12 |
 | R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` a cada rodada | em curso |
 
 ## Metas por categoria
@@ -50,7 +50,12 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
   ferramenta e o `.pdb`); originais e patches preservados em
   `../../workspace/changes/`; `LuaEncryptorTool.exe` no pacote.
 - **Investigar:** se existe **algum** limite real de tamanho/carregamento (hoje não há medição);
-  formato `.enc`; tratamento de script inválido; loops infinitos.
+  tratamento de script inválido; loops infinitos.
+- **Etapa `enc` executada (2026-10-13):** a cifragem do script Lua do cliente tem **estrutura medida**
+  (cabeçalho fixo de 8 B, sem padding, determinística, janela de 3 bytes do próprio cifrado
+  suficiente e 2 insuficiente) e **algoritmo `BLOCKED`** com causa, famílias refutadas com número e
+  condição de desbloqueio (`../../reports/enc-cifragem-lua.md`); `F23` `BLOCKED` (exige decodificador).
+  Teste versionado: `tests/lua-enc.sh` (27 asserções, `blocked=2`).
 - **Depende de:** R-5 (`data_probe.py`), suíte `data`.
 - **Prova:** golden de scripts + regressão sobre os 6 `.lua` patcheados, com checksums e diffs.
 - **Risco:** mexer em script original sem cópia versionada viola regra do projeto.

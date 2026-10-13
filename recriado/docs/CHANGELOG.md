@@ -1,5 +1,37 @@
 # CHANGELOG do v2
 
+## Etapa `enc` — cifragem dos scripts Lua do cliente: estrutura medida, algoritmo `BLOCKED` — 2026-10-13
+
+- **Resultado honesto: o algoritmo NÃO foi identificado.** A etapa fecha com o que a medição sustenta
+  e com o bloqueio nomeado: `F23` **`BLOCKED`** (exige decodificador) e **`blocked=2`** na etapa nova.
+  Nenhuma afirmação de decifração nem de compatibilidade com o cliente original.
+- **Fatos medidos** (13 pares, 21 931 posições; relatório em `../reports/enc-cifragem-lua.md`): 4 pares
+  são **byte-idênticos** (não foram cifrados); os 9 cifrados começam com o cabeçalho fixo de 8 bytes
+  `28aa2191a6dd35f7`; `len(cif) − 8 == len(claro) + nº de LF` em 9/9 (sem padding); a cifragem é
+  **determinística**; e `(A[j], C[j-1..j-3]) → C[j]` fecha com **0 discordâncias em 2 510 repetições**
+  (0/890 entre arquivos; com 2 bytes a mesma janela acusa 952/4 403 — 3 é o menor tamanho que fecha).
+- **Famílias refutadas, com número:** XOR/ADD de chave repetida (0 chaves com período ≤ 512; a melhor,
+  k=224, acerta 16,50% no prefixo e 7,09% no corpus), ECB (`gcd(payloads)=1`; 8/9 não múltiplos de 8
+  nem de 16), tabela de 1 byte por 6 índices de `(A,S1,S2,S3)` (melhor caso erra 90,74%/90,50%), ARX
+  com rotações 0..3 (0 sobreviventes em 16 384 combinações), afim sobre GF(2) (sistema inconsistente
+  nas 400 primeiras amostras, nos 8 bits de saída) e afim em Z/256 (`LSB(C)=LSB(A)` em 54,47%).
+- **Por que não fecha:** a função da janela tem domínio 2³² contra 21 931 amostras (quase todas em
+  contextos distintos). O `.pdb` traz os nomes (`gFileProtectLuaXorTable`, `gFileProtectLuaHeader`,
+  `CFileLuaProtect::EncryptFileA`, `EncryptLua1/2`), mas o `.exe` é protegido por Themida: a seção
+  `.themida` termina exatamente no fim do arquivo e o magic do cabeçalho **não existe** no binário —
+  extração estática inviável, e executar binário do cliente é vedado pela regra do projeto.
+- **Implementado:** `tools/enc_probe.py` (probe somente-leitura, TSV determinístico em < 1 s),
+  `tests/lua-enc.sh` (**27 asserções**, `blocked=2`), etapa `lua-enc` registrada no portão (22 → **23
+  etapas**), `reports/enc-probe.tsv` (evidência versionada, sha256 `17b7da13…`) e
+  `../reports/enc-cifragem-lua.md`.
+- **Portão desta rodada:** **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas,
+  exit 0** (69 816 ms). A linha `assercoes=339` do resumo conta só etapas PASS/FAIL (regra do próprio
+  portão); somando todas as etapas, incluindo as 27 da nova, são **391**. Nenhum FAIL novo.
+- **A pasta publicada `MuserverRecriado/` não foi tocada:** é o snapshot da rodada anterior e o
+  validador dela (`scripts/verify-backup.sh`, verde: `ok=11 falhas=0 blocked=0`) só admite arquivos
+  novos que casem com padrões declarados. Levar esta etapa para lá exige uma **rodada de publicação
+  nova** (o que ela precisa está listado em `NEXT_TASK.md`).
+
 ## Publicação dentro do monorepo — 2026-10-13
 
 - **O projeto recriado passou a ser publicado em `MuserverRecriado/`**, na raiz deste monorepo,

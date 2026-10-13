@@ -78,6 +78,7 @@ fuzz	suite	fuzz	tests/fuzz.sh	1	-	300	bash tests/fuzz.sh
 seguranca	suite	seguranca	tools/malform_probe.py	1	python3	300	bash tests/seguranca.sh
 admin	suite	admin	tools/mu2admin.c	1	curl	120	bash tests/admin.sh
 lua	suite	lua	tools/lua_probe.py	1	python3	180	bash tests/lua.sh
+lua-enc	suite	lua-enc	tools/enc_probe.py	1	python3	300	bash tests/lua-enc.sh
 bench	suite	bench	tests/bench.sh	1	-	600	bash tests/bench.sh'
 
 SUITES=$DEFAULT_SUITES

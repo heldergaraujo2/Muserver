@@ -1,0 +1,51 @@
+# etapa enc — saida de tools/enc_probe.py (somente leitura sobre MuServer/)
+# comando: python3 tools/enc_probe.py  (dentro de recriado/; MU_REF_DATA=../MuServer); 2026-10-13
+chave	valor	obs
+enc_ini_customername	MuEmuS6	EncryptorTool.ini
+enc_pares	13	ClientDecrypted/ x ClientEncrypted/ + ServerDecrypted/ x ServerEncrypted/
+enc_nao_cifrados	4	pares byte-identicos: nada foi cifrado aqui
+enc_nao_cifrado	33ac67a4442ddd5b47e9c5cbfcc0ccca	Client | ScriptMain.lua | 497 B
+enc_nao_cifrado	d0ad621fc8500ea5266fda6f110d00c8	Client | Scripts/NewWindow/Config.lua | 699 B
+enc_nao_cifrado	6993e2e06953c02419fd9d07a49ad44f	Client | Scripts/TesteProtocol/Config.lua | 267 B
+enc_nao_cifrado	4f802ab6717c854d4938fbc33fa9ed2a	Client | Scripts/WindowTitle/Config.lua | 321 B
+enc_cifrados	9	pares com bytes diferentes
+enc_header8	28aa2191a6dd35f7	primeiros 8 bytes dos cifrados
+enc_header8_presente	9/9	criterio C1
+enc_tamanho_crlf	9/9	C1: len(cif) - 8 == len(claro) + nº de LF (LF->CRLF, sem padding)
+enc_determinismo_prefixo	0 violacoes em 6 pares com prefixo de claro comum	C2: menor prefixo comum=33 B; local CONFIG = r -> prefixo de cifrado igual
+enc_prefixo_conhecido	14cca1192748a387fd51b74ba7a41574	local CONFIG = r -> Client|Scripts/NewWindow/NewWindow.lua|pos=0,Client|Scripts/TesteProtocol/TesteProtocol.lua|pos=0,Client|Scripts/WindowTitle/WindowTitle.lua|pos=0,Server|Scripts/AutoPost/AutoPost.lua|pos=0
+enc_recorrencia_janela3	0/2510	C3: (A[j],C[j-1..j-3]) -> C[j]: discordancia/repeticao (exigido 0)
+enc_recorrencia_janela3_entre_arquivos	0/890	C3 entre arquivos: repeticao vista em OUTRO arquivo (exigido 0)
+enc_recorrencia_janela3_historia_profunda	1206/2510	das repeticoes, quantas tem A[j-1] e C[j-4..j-5] DIFERENTES (e mesmo assim casam)
+enc_recorrencia_janela2	952/4403	C4 controle: 2 bytes => discordancia > 0
+enc_controle_alinhamento	74/294	C3': mesma janela com alinhamento ERRADO (claro cru + zeros no fim) => discordancia > 0
+enc_controle_valor_inserido	0/2510	C3'': LF->00 00 (mesmo alinhamento) tambem fecha: o VALOR dos bytes inseridos nao e' decidido aqui
+enc_recorrencia_janela1	9813/14068	C4 controle: 1 byte => discordancia > 0
+enc_janela_ambiguidade	0/1613	mesma janela + claro diferente => mesmo cifrado? (0 e' necessario para decifrar)
+enc_keystream_janela	1149/3735	C5: (C1,C2,C3) -> (C^A) nao fecha => keystream depende do claro, nao so da janela
+enc_diferenca_janela	1082/3735	C5': (C1,C2,C3) -> (C-A mod 256) nao fecha
+enc_excl_xor_repetido	0 chaves com periodo <= 512	C6: keystream concatenado (21931 B) testado para todo periodo k em 1..512
+enc_excl_xor_repetido_melhor	melhor k=224: 16.50% de acerto (prefixo de 2048 B), 7.09% no corpus inteiro	C6: mesmo a MELHOR periodicidade de 1..512 nao passa de ~1/4 de acerto => XOR/ADD repetido refutado
+enc_excl_ecb	gcd(payloads)=1, 8/9 nao multiplos de 8 nem de 16	C7: ECB exigiria payload multiplo do bloco em TODOS; payloads=273,505,858,984,1710,2595,2922,3242,8842
+enc_excl_tabela_xor	90.74% de erro (indice (A<<1)^S1)	familia C = A xor T[g] com g entre 6 indices de (A,S1,S2,S3): melhor caso ainda erra
+enc_excl_tabela_soma	90.50% de erro (indice (A*3+S1))	familia C = A mais T[g] com g entre 6 indices de (A,S1,S2,S3): melhor caso ainda erra
+enc_excl_arx	0 sobreviventes em 16384 combinacoes	familia ((A^ka)+rot(S1,r1)+rot(S2,r2)+rot(S3,r3)+kc) & 255, r em 0..3, kc resolvido e conferido nas 512 primeiras amostras (subconjunto declarado)
+enc_entropia_claro	5.512	bits/byte sobre o claro normalizado, 21931 B
+enc_entropia_cifrado	7.916	bits/byte sobre o payload cifrado
+enc_par_ScriptMain_lua	948e70155ca71a25bb4661c49098ee7581f61b33c8031fa11c9bd8beff4901d1	Client | claro 497 B sha256 948e70155ca71a25 | cifrado 497 B
+enc_par_Scripts_NewWindow_Config_lua	77debdc7264b8d20be2ed11abb5edc69db94484b2a878f91d6f4753f4dd1df09	Client | claro 699 B sha256 77debdc7264b8d20 | cifrado 699 B
+enc_par_Scripts_NewWindow_NewWindow_lua	1879ba40a6065951ec0cbeb5daa66a3c5757c38250fe514d70d238f6a1879c76	Client | claro 8583 B sha256 216fa6fac75b9a5e | cifrado 8850 B
+enc_par_Scripts_TesteProtocol_Config_lua	45fbd6915a5e799ab2af75bce5a6cb2f1592daadb9f7f69f6c7a4c71dd2fe6a6	Client | claro 267 B sha256 45fbd6915a5e799a | cifrado 267 B
+enc_par_Scripts_TesteProtocol_TesteProtocol_lua	ee0dace0429d7236894a3843d49111b4b5b540d270751edc0fbb7dacf0e3bd79	Client | claro 824 B sha256 36d3c3bbf343802a | cifrado 866 B
+enc_par_Scripts_WindowTitle_Config_lua	6504babc59c77657b4067d55a2ca90d7d8ea6b1016b9915bdf1d588bc3d89f48	Client | claro 321 B sha256 6504babc59c77657 | cifrado 321 B
+enc_par_Scripts_WindowTitle_WindowTitle_lua	4f15f2031364b1acc45e945014553541ede9d4bb30904477f9a8ff9f3455ead6	Client | claro 482 B sha256 87e7f7d8f66c703e | cifrado 513 B
+enc_par_System_LoadImages_lua	4eff7c221637a5e16780f1c8955bfe57a9fcfa40c85c38247778c6863c5958d3	Client | claro 262 B sha256 ec8fa577f10e606a | cifrado 281 B
+enc_par_System_ProtocolCore_lua	24002f24f4ade02e558bcb249c662ab089fb618c7eb6942fbe0ac8e0200f984f	Client | claro 944 B sha256 a12d3358b35b476e | cifrado 992 B
+enc_par_System_ScriptCore_lua	1999f87103e9b08ccf768ba7dd6189257033e89e270833ea6a354b0f3db5cca2	Client | claro 2810 B sha256 a83bcc80e96968c5 | cifrado 2930 B
+enc_par_Util_Defines_lua	c67b043fce4d49a308c6b7e86640224296fc0873461701a79e84f7e43945da13	Client | claro 1648 B sha256 a2b1039df9a45536 | cifrado 1718 B
+enc_par_Util_KeysValue_lua	880691c2f6bdce1446fc9d3e8dd056f521353f0c9b8c0aabd46059141cd025e3	Client | claro 3062 B sha256 8d61c098b8591444 | cifrado 3250 B
+enc_par_Scripts_AutoPost_AutoPost_lua	dff1b426d7851e9e0108e87b9287dfcc74588b56ac892499cf71248822ffee67	Server | claro 2493 B sha256 9b316ba682feb221 | cifrado 2603 B
+enc_exe	bf0656b11ecb65a3b22084f80488f661981aa88a12ebcd7e52b85887b31df2a0	5782016 B; NAO executado por esta etapa
+enc_executado	0	regra do projeto: binario do cliente nunca e' executado
+enc_premium	b7be712210cde9d172e41b92da15312ffeb31e308e8708989d074fc5614cb73f	766 B; nao classificado (nao afirmado nem negado)
+enc_f23	blocked	F23 exige decodificador; a funcao da janela nao foi determinada

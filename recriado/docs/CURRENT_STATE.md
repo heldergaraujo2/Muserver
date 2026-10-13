@@ -1,6 +1,6 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada que corrigiu as defasagens numéricas, reconstruiu o destino e o **publicou dentro do monorepo** em `MuserverRecriado/` (o repositório separado segue vazio: `403` da instalação do GitHub App). Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada da etapa **`enc`** (cifragem dos scripts Lua do cliente): a estrutura foi medida, o algoritmo ficou **`BLOCKED` com causa** e `F23` também — relatório em `reports/enc-cifragem-lua.md`. A publicação anterior dentro do monorepo (`MuserverRecriado/`, 174 arquivos) **não foi tocada** nesta rodada; o repositório separado segue vazio (`403` da instalação do GitHub App). Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
@@ -8,13 +8,13 @@ Atualizado no fim da rodada que corrigiu as defasagens numéricas, reconstruiu o
 |---|---|
 | unidade fechada | **projeto recriado publicado dentro do monorepo** (`MuserverRecriado/`, commit `a6ddf81`) a partir do artefato validado, conferido arquivo por arquivo e verde na nova localização; o repo separado `MuserverRecriado` segue vazio (`403` do GitHub App) |
 | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
-| próxima tarefa | **`enc`** — cifragem do script Lua do cliente (`NEXT_TASK.md`); pendência do proprietário, sem bloquear a pesquisa: habilitar o repo separado na instalação do App, se quiser o artefato publicado lá também |
+| próxima tarefa | **`ozt`** — estrutura interna das texturas (`NEXT_TASK.md`); `enc` fechou em 2026-10-13 como **`BLOCKED` documentado** (estrutura medida, algoritmo não identificado, `F23` bloqueada) |
 | branch | `arena/cf1de8ce-muserver` |
 | onde o projeto está publicado | **`MuserverRecriado/` na raiz deste monorepo** — cópia do artefato validado, 174/174 arquivos com modo+blob idênticos; `MuServer/` e o resto do monorepo intocados |
 | HEAD / remoto | atualizado no fim desta unidade (ver §6 do `CONTINUITY.md`); monorepo `arena/cf1de8ce-muserver` == remoto conferido por `git ls-remote` |
-| portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas** (medido em ambiente limpo, sem `out/` residual) |
-| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) |
-| ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, `malform_probe` |
+| portão único | `make -s gate` → **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 23 etapas, 339 asserções contadas** (391 somando todas as etapas, incluindo as 27 da etapa nova) |
+| etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) · **`lua-enc` 27/27 (`blocked=2`: algoritmo + `F23`)** |
+| ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, **`enc_probe`** (etapa `enc`, somente leitura), `malform_probe` |
 | portão de build | `make -s check` → 182 asserções (unit/make-sintaxe/net/pe/data) |
 | teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
 | conformidade do v2 | `make -s conform` → **15/15** (camada 1; **não** é compatibilidade) |
@@ -62,8 +62,8 @@ Rodam e passam (medido nesta rodada): `unit` (106/0), `make-sintaxe` (7/0), `net
 `pe` (14/0), `data` (21/0), `pe-selftest`/`data-selftest`/`cfg-selftest` (4/4, 4/4, 5/5),
 `conform` (15/15), `cfg` (15/15), `matriz` (validador, exit 0), `bench` (15/15),
 `ref-intacta` (8/8), `golden` (42/42), `fuzz` (12/12), `seguranca` (13/13), `admin` (24/24),
-`interop` (12/12, `blocked=1`), `lua` (13/13, `blocked=1`), `gate`
-(**18 PASS, 0 FAIL, 2 BLOCKED, 2 SKIPPED, 339 asserções**), `gate-selftest` (19/19) e
+`interop` (12/12, `blocked=1`), `lua` (13/13, `blocked=1`), **`lua-enc` (27/27, `blocked=2`)**, `gate`
+(**18 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 339 asserções contadas, 23 etapas**), `gate-selftest` (19/19) e
 `verify-backup.sh` (`FULL=1` 15/15). `net-matrix` (36/0) e `persistencia` existem mas são
 *opt-in* (`GATE_FULL=1`) — no portão aparecem como `SKIPPED`, nunca como `PASS`.
 **Neste repositório publicado**, sem a referência `MuServer/`, ficam `BLOCKED`: `pe`, `data`, `cfg`,
