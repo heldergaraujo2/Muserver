@@ -101,3 +101,35 @@ Push para `origin/arena/cf1de8ce-muserver` em seguida; a confirmação é leitur
 3. **Limitações que seguem valendo:** `interop` camada 3 e `lua` **BLOCKED** (sem binário original em
    execução / sem intérprete no host); `bench` é baseline exploratória e pode sair BLOCKED sob carga;
    nada aqui declara compatibilidade com o cliente original.
+
+## 9. Publicação confirmada (leitura de volta)
+
+| item | valor |
+|---|---|
+| branch | `arena/cf1de8ce-muserver` em `heldergaraujo2/Muserver` |
+| **SHA remoto confirmado** | **`0d4d6b97154ca541991e38fd146a074cd4f4f962`** (`git ls-remote` = `git rev-parse HEAD` local) |
+| commits publicados nesta rodada | `a6ddf81` (a pasta com os 174 arquivos) · `618bb35` (docs de continuidade) · `1c1bd6e` (backup + relatório) · `ae66fa5` (correção do escopo do verificador) · `0d4d6b9` (bundle regravado) |
+| arquivos da pasta na árvore remota | **174** (`git/trees?recursive=1` via API do GitHub) |
+| arquivo conferido byte a byte no remoto | `MuserverRecriado/scripts/verify-backup.sh` — blob `d9dcc6c4…` igual ao local |
+
+### Correção medida durante a validação da pasta
+
+`bash MuserverRecriado/scripts/verify-backup.sh` **falhava** (ok=10/falhas=1): validava o backup do
+*monorepo* (`../workspace/backups`) contra a árvore da pasta e acusava 12 divergências de conteúdo —
+o verificador lia `workspace/backups/` pela raiz do repositório, que é o caminho correto apenas no
+layout em que a árvore **é** a raiz. Correção **por medição** (não por suposição de layout): `BDIR`
+continua `workspace/backups/` e passa a `${PFX}workspace/backups/` quando o bundle existe sob o
+prefixo; os 7 usos do caminho passaram a usar `$BDIR`, em cópias idênticas na pasta e em `recriado/`.
+
+Depois da correção, tudo verde nas **duas** localizações:
+
+| onde | sem `FULL` | com `FULL=1` |
+|---|---|---|
+| `MuserverRecriado/` (pasta publicada) | **ok=11, falhas=0, blocked=0** (bundle próprio `76d71bd8`, divergências dentro do `DIV_OK`, extras=0, ponta `f42769f1`, `MuServer/` intacta `fade046`) | **ok=15, falhas=0, blocked=0** — inclui `publicado: bundle byte a byte` (remoto `76d71bd8` = local) e `HEAD local está no remoto` `0d4d6b9` |
+| `recriado/` (monorepo) | **ok=11, falhas=0, blocked=0** (bundle `80ef6962`, ponta `52cc0dac`) | **ok=15, falhas=0, blocked=0** |
+
+Portão re-executado na pasta **depois** da correção: `make -s gate` exit 0 — **18 PASS, 0 FAIL,
+2 BLOCKED, 2 SKIPPED, 339 asserções, 22 etapas** (70 385 ms).
+
+Nada foi publicado em `heldergaraujo2/MuserverRecriado` (segue vazio, `403`), e `MuServer/` continua
+na árvore `fade0461…` com 10 021 arquivos.
