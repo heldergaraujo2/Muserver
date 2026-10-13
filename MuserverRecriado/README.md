@@ -108,11 +108,12 @@ v2. Motivos de fechamento no log, um por linha: `queue_full`, `client_eof`, `cli
 | referência `../MuServer` | intacta: `ref-intacta` PASS 8/8, árvore `fade0461…`, 10 021 arquivos |
 | segredos/credenciais | nenhuma credencial; `workspace/reports/A1-secrets.md` é o relatório **redigido** da auditoria |
 
-O backup interno (`workspace/backups/mu2-v2.bundle` + `MANIFEST.md`) é a cópia independente do
-**artefato** como validado — ele antecede a nota de localização escrita aqui, e a divergência de
-`README.md`/`docs/` é declarada (`DIV_OK` do verificador). O backup que acompanha o monorepo (e o que
-`scripts/verify-backup.sh` confere com `FULL=1`, incluindo o que está publicado no remoto) é o de
-`../workspace/backups/`.
+O backup que `scripts/verify-backup.sh` confere aqui dentro é o **do próprio projeto**
+(`workspace/backups/`, bundle 662 628 B sha256 `76d71bd8…`): o script escolhe o diretório **por
+medição** — `workspace/backups/` na raiz do repositório quando a árvore é a raiz, e
+`<pasta>/workspace/backups/` quando o projeto está sob um prefixo (este monorepo). Ele antecede a
+nota de localização escrita aqui, e a divergência de `README.md`/`docs/` é declarada (`DIV_OK`).
+A cópia independente do **monorepo** continua separada, em `../workspace/backups/`.
 
 ## O que não foi incluído nesta pasta, e por quê
 

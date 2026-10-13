@@ -29,6 +29,16 @@ chk() { if [ "$2" = ok ]; then ok=$((ok+1)); say "$1" "OK ${3:-}"
         elif [ "$2" = blocked ]; then blk=$((blk+1)); say "$1" "BLOCKED ${3:-}"
         else bad=$((bad+1)); say "$1" "FALHA ${3:-}"; fi; }
 
+# Onde mora a copia independente (bundle + MANIFEST). Dois desenhos possiveis, escolhidos por
+# MEDICAO — o arquivo tem de existir — nunca por suposicao de layout:
+#   - ao lado da arvore dividida (monorepo): `workspace/backups/` na raiz do repo, FORA de `recriado/`;
+#   - dentro da propria arvore publicada (pasta `MuserverRecriado/`): `<PFX>workspace/backups/`.
+# Com PFX vazio (o repo em que a arvore E a raiz) o caminho continua `workspace/backups/`.
+BDIR=workspace/backups
+if [ -n "$PFX" ] && [ -f "${PFX}workspace/backups/mu2-v2.bundle" ]; then
+  BDIR="${PFX}workspace/backups"
+fi
+
 # 1) HEAD local
 if [ "$INREPO" = 1 ]; then
   local_sha=$(git rev-parse HEAD)
@@ -58,16 +68,16 @@ else
 fi
 
 # 4) o bundle de backup existe, verifica, e o hash bate com o MANIFEST.
-#    Ele mora em workspace/backups/ e NAO dentro da arvore dividida: o bundle e gerado a partir
+#    Ele mora em workspace/backups/ ($BDIR) e NAO dentro da arvore dividida: o bundle e gerado a partir
 #    do subtree split dela, entao aloja-lo la dentro faria cada regravacao embutir a
 #    anterior (medido: 17 225 -> 38 233 -> 66 195 -> 134 694 bytes, ~2x por rodada, e o limite de
 #    persistencia da plataforma e ~128 MB somados). Fora da arvore dividida o custo e constante.
 #    workspace/ mantem o MESMO caminho relativo nos dois layouts (raiz do projeto -> workspace/).
-bundle=workspace/backups/mu2-v2.bundle
+bundle=$BDIR/mu2-v2.bundle
 if [ -f "$bundle" ]; then
   if out=$(git bundle verify "$bundle" 2>&1); then st=ok; else st=bad; fi
   chk "bundle: git bundle verify" "$st" "$(printf '%s' "$out" | grep -aoE '[0-9]+ objects?.*' | head -1)"
-  want=$(awk '/^sha256:/{print $2}' workspace/backups/MANIFEST.md 2>/dev/null)
+  want=$(awk '/^sha256:/{print $2}' "$BDIR/MANIFEST.md" 2>/dev/null)
   got=$(sha256sum "$bundle" | cut -d' ' -f1)
   if [ -n "$want" ] && [ "$want" = "$got" ]; then st=ok; else st=bad; fi
   chk "bundle: sha256 do MANIFEST" "$st" "${got:0:16}..."
@@ -126,7 +136,7 @@ if [ -f "$bundle" ]; then
   fi
   # 6) ponta do bundle == SHA registrado no MANIFEST (integridade de conteudo do snapshot)
   tip=$(git bundle list-heads "$bundle" 2>/dev/null | awk '{print $1}')
-  want_tip=$(awk -F'`' '/branch (local criada|do snapshot)/{print $4}' workspace/backups/MANIFEST.md 2>/dev/null)
+  want_tip=$(awk -F'`' '/branch (local criada|do snapshot)/{print $4}' "$BDIR/MANIFEST.md" 2>/dev/null)
   if [ -n "$tip" ] && [ -n "$want_tip" ] && case "$tip" in "$want_tip"*) true;; *) false;; esac; then st=ok; else st=bad; fi
   chk "bundle: ponta == MANIFEST" "$st" "${tip:0:7} vs ${want_tip:-?}"
   rm -rf "$tmp"
@@ -152,7 +162,7 @@ fi
 missing=""
 for d in "${PFX}docs/CONTINUITY.md" "${PFX}docs/CURRENT_STATE.md" "${PFX}docs/NEXT_TASK.md" \
          "${PFX}docs/DECISIONS.md" "${PFX}docs/CHANGELOG.md" "${PFX}docs/ENVIRONMENT.md" \
-         "${PFX}docs/ROADMAP.md" workspace/backups/MANIFEST.md; do
+         "${PFX}docs/ROADMAP.md" "$BDIR/MANIFEST.md"; do
   [ -f "$d" ] || missing="$missing $d"
 done
 if [ -z "$missing" ]; then st=ok; else st=bad; fi
@@ -183,13 +193,13 @@ if [ "${FULL:-0}" = 1 ]; then
     chk "clone do remoto para FULL" bad "origin sem URL"
   elif git clone -q --depth 2 --single-branch -b "$branch" "$url" "$tf/remote" 2>/dev/null; then
     say "origin" "$url"
-    rsha=$(cd "$tf/remote" && sha256sum workspace/backups/mu2-v2.bundle 2>/dev/null | cut -c1-16)
+    rsha=$(cd "$tf/remote" && sha256sum "$BDIR/mu2-v2.bundle" 2>/dev/null | cut -c1-16)
     lsha=$(sha256sum "$bundle" | cut -c1-16)
     if [ -n "$rsha" ] && [ "$rsha" = "$lsha" ]; then st=ok; else st=bad; fi
     chk "publicado: bundle byte a byte" "$st" "remoto=${rsha:-?} local=${lsha:0:16}"
-    if (cd "$tf/remote" && git bundle verify workspace/backups/mu2-v2.bundle >/dev/null 2>&1); then st=ok; else st=bad; fi
+    if (cd "$tf/remote" && git bundle verify "$BDIR/mu2-v2.bundle" >/dev/null 2>&1); then st=ok; else st=bad; fi
     chk "publicado: bundle verify no clone" "$st"
-    if (cd "$tf/remote" && git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle restored 2>/dev/null && [ -f restored/src/wire.c ]); then
+    if (cd "$tf/remote" && git clone -q --no-hardlinks -b mu2-snapshot "$BDIR/mu2-v2.bundle" restored 2>/dev/null && [ -f restored/src/wire.c ]); then
       st=ok
     else
       st=bad
