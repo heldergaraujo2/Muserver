@@ -128,3 +128,23 @@ especificação (distribuição de tamanhos, entropia por região, periodicidade
 os inteiros do cabeçalho, correlação com o `.ozj` do mesmo diretório), sem inventar campo, largura ou
 semântica; conclusão só até onde a medição alcançar. Depois dela, `regressao-lua` (integridade
 baseline ↔ patch ↔ árvore e presença das correções por análise estática).
+
+---
+
+## 9. Confirmação da publicação desta rodada (lida de volta, não presumida)
+
+- `git push origin arena/cf1de8ce-muserver` → `d1c0c75..fc042c4` (etapa + backup) e, na sequência,
+  `fc042c4..3db9632` (este relatório). **Sem `--force`, sem apagar histórico, nenhuma outra branch.**
+- `git ls-remote origin refs/heads/arena/cf1de8ce-muserver` lido de volta após o push do relatório:
+  **`3db96326cd8c0ee5895e8c50d0155f17659d97a3`** — igual ao HEAD local no momento da leitura, e igual
+  ao commit que contém este relatório.
+- Conferência pela API do GitHub, blob a blob (remoto == local): `tools/enc_probe.py`
+  `2b064261…`, `tests/lua-enc.sh` `c75beac2…`, `reports/enc-probe.tsv` `57e8a322…`,
+  `reports/enc-cifragem-lua.md` `cd1db087…`,
+  `workspace/migracao/RELATORIO-ETAPA-ENC-2026-10-13.md` `38ae4dbe…`.
+- Verificadores depois da publicação: `recriado/scripts/verify-backup.sh` **ok=11 falhas=0**,
+  `FULL=1` **ok=15 falhas=0** (inclui "HEAD local está no remoto"), pasta publicada
+  `MuserverRecriado/` **ok=11 falhas=0 blocked=0**, `MuServer/` tree `fade0461…` sem alterações.
+- O parágrafo acima entra no commit seguinte a esta leitura; o SHA final da rodada é o do remoto
+  depois desse push, conferido com `git ls-remote` no fim da rodada (sem essa conferência, nada é
+  declarado publicado).
