@@ -8,22 +8,30 @@
   (no repositório de origem responde normalmente). A ACL do usuário diz `push=true` nos dois: o que
   falta é a **instalação do GitHub App** incluir o destino com *Contents: Read and write*. Sem
   contorno, sem force push, sem retentativa em laço.
-- **Histórico preservado** por `git subtree split --prefix=recriado`: **34 commits** com as mensagens
-  originais. O destino nasce de `git init` + `git fetch file://…` (não de `git clone`, que levaria o
-  pack de 134 MB com os blobs de `MuServer/` para dentro de um repositório que não deve carregá-los).
-- **Build bit-reprodutível**: duas construções independentes deram o mesmo HEAD (`587ba4f`), a mesma
-  árvore (`8f1e0f35…`) e o mesmo sha256 de bundle (`e30fd48a…`). Pacote em `workspace/migracao/`.
+- **Histórico preservado** por `git subtree split --prefix=recriado`: os commits do v2 com as
+  mensagens originais (contagem e ponta de cada rodada no relatório de migração do destino). O
+  destino nasce de `git init` + `git fetch file://…` (não de `git clone`, que levaria o pack de
+  134 MB com os blobs de `MuServer/` para dentro de um repositório que não deve carregá-los).
+- **A migração deixou de ser um patch pinado na base.** Com o histórico avançado, o patch deixou de
+  aplicar; a adaptação passou a ser `workspace/migracao/adaptar-destino.py`, com asserção por
+  substituição — texto de origem fora do lugar FALHA nomeando a substituição, em vez de aplicar
+  torto ou em silêncio. Os trechos substituídos (os *assets*) ficam em `workspace/migracao/`.
+- **Build bit-reprodutível**: as construções independentes desta rodada deram o mesmo HEAD, a mesma
+  árvore e o mesmo sha256 de bundle — valores vigentes no `MANIFEST.md` do backup
+  (`workspace/backups/`, dentro do destino).
 - **Portão no destino**: `PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2`, 281 asserções,
   exit 0 — as 6 BLOCKED são exatamente as etapas que exigem a referência `MuServer/` (`pe`, `data`,
-  `cfg`, `ref-intacta`, `interop`, `lua`). Num clone independente do destino, árvore e inventário
-  idênticos e o mesmo perfil de portão.
+  `cfg`, `ref-intacta`, `interop`, `lua`). No monorepo de origem: 18 PASS / 2 BLOCKED / 339
+  asserções, exit 0. `bench` julga por critério de drift declarado e pode reportar BLOCKED por
+  ambiente sob carga (medido: 13 PASS/7 BLOCKED numa execução logo após o build).
 - **Quatro defeitos medidos e corrigidos** (aparecem quando se roda o portão num ambiente
   reprovisionado, com `out/` vazio — o estado anterior os mascarava): a sonda de malformação media o
   processo errado; a asserção de descritores era corrida (imediato 9,9,8,8,8 / estabilizado 8 em
   0–20 ms); `tests/admin.sh` dependia de `out/gate.tsv` residual; e a etapa `build` do portão exigia
   o **próprio produto** (`out/wire.o`), virando `NOT_IMPLEMENTED` em clone limpo — a rodada
   degradava para PASS=10/BLOCKED=9 **sem falhar**.
-- Medidas em `reports/migracao-destino.tsv`; relatório completo no destino em
+- Medidas: a primeira rodada fica em `reports/migracao-destino.tsv` (histórico, não reescrito); a
+  rodada vigente, no `MANIFEST.md` do backup e em
   `docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md`.
 
 ## R-7 — 2026-10-12

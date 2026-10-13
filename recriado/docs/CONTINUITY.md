@@ -87,19 +87,19 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ## 6. Último commit e publicação
 
-- Rodada de partida: `arena/cf1de8ce-muserver` em `08e2c86` (fim da rodada das lacunas). Esta
-  unidade produziu `9ea61fe` (os 3 defeitos medidos + testes agnósticos de layout), a correção da
-  etapa `build` do portão, os documentos desta unidade e a regeneração do snapshot.
+- Rodada vigente: `arena/cf1de8ce-muserver`. O histórico do monorepo avançou depois da primeira
+  rodada da publicação, e o patch de migração — que aplicava só na base em que foi gerado — deixou
+  de servir: o destino foi reconstruído do zero com `workspace/migracao/adaptar-destino.py`, cada
+  substituição com asserção própria (falha nomeando o texto que não casou).
 - **Destino `heldergaraujo2/MuserverRecriado`: preparado, conferido e NÃO publicado.** `git push` →
   `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`; a API responde
   `Resource not accessible by integration` **no destino** (no repo de origem, `role_name=admin`).
   É a seleção de repositórios da **instalação do GitHub App** — a ACL do usuário já diz `push=true`.
   Ação do proprietário: incluir o destino na instalação (*Contents: Read and write*); depois,
   `bash workspace/migracao/publicar-destino.sh`.
-- Artefatos do destino (medidos em `reports/migracao-destino.tsv`): histórico de **34 commits** por
-  `git subtree split`; destino com **173 arquivos** e árvore `8f1e0f35…`, **build bit-reprodutível**
-  (`587ba4f` em duas construções independentes); cópia independente de 645 549 B (`e30fd48a…`);
-  transporte `workspace/migracao/destino-muserverrecriado.bundle` (1 326 974 B, `0744b9a5…`).
+- Medidas desta rodada em `workspace/migracao/medidas-destino-rodada2.tsv`; as da primeira rodada
+  ficam em `reports/migracao-destino.tsv` como histórico (não reescrito). O destino carrega a sua
+  própria cópia independente (bundle + `MANIFEST.md` em `workspace/backups/`).
 - Portão: **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, exit 0** aqui,
   e **14 PASS / 6 BLOCKED / 281 asserções** no destino (as 6 BLOCKED exigem a referência, que não
   viaja). `origin/main` intacto: `6eabb45b9e7939a3061f4757ed6791efef7c5c3b`.

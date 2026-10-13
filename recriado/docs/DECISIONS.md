@@ -534,16 +534,17 @@ uma lista declarada e curta.
 **Decisão.** No destino, o snapshot é um commit **orphan** da própria árvore e o bundle vive em
 `workspace/backups/`; o monorepo mantém a sua própria cópia (do `recriado/`). **Motivo.** A cópia
 tem de restaurar **o que foi publicado**, e o repositório publicado tem de restaurar a si mesmo sem
-depender do monorepo — que é justamente o que se perdeu no incidente do v1. **Medido:** bundle de
-645 549 B, sha256 `e30fd48a…`, ponta `75a5d2f`, restauração por `git clone -b mu2-snapshot` +
+depender do monorepo — que é justamente o que se perdeu no incidente do v1. **Medido:** tamanho, sha256 e ponta do bundle vigente no `MANIFEST.md` ao lado dele
+(`workspace/backups/`), com restauração conferida por `git clone -b mu2-snapshot` +
 `make -s check` sem falhas. **Não confundir:** são duas cópias com escopos diferentes, como o bundle
 e os relatórios de auditoria já eram.
 
 ## D2-39 — o bundle de transporte é artefato versionado do monorepo
 
-**Decisão.** `workspace/migracao/destino-muserverrecriado.bundle` (1 326 974 B, sha256
-`0744b9a5…`) fica versionado no monorepo, com o pacote `workspace/migracao/`. **Motivo.** Se a
+**Decisão.** `workspace/migracao/destino-muserverrecriado.bundle` fica versionado no monorepo, com o pacote
+`workspace/migracao/` (tamanho e sha256 vigentes no `README.md` do pacote). **Motivo.** Se a
 publicação continuar bloqueada, o destino inteiro (histórico + evidência) tem de sobreviver a uma
 recriação de sandbox fora do caminho que depende do push. **Verificação obrigatória do artefato:**
-`git clone -b main` a partir do bundle → árvore idêntica (`8f1e0f35…`) e `make -s check` sem falhas.
+`git clone -b main` a partir do bundle → árvore idêntica à do destino conferido e `make -s check`
+sem falhas.
 **Limite.** Ele é transporte, não publicação: nada aqui afirma que o remoto foi atualizado.
