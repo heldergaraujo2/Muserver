@@ -1,5 +1,24 @@
 # CHANGELOG do v2
 
+## Fechamento da publicação — 2026-10-12
+
+- **Defasagens numéricas corrigidas na origem** (o portão mede, não relata): `check` 180→**182**
+  asserções, `gate` 336→**339**, `seguranca` 12→**13**, `admin` 22→**24**, `ref-intacta` 6→**8**
+  casos. As contagens antigas sobreviviam em `README`, `CONTINUITY`, `CURRENT_STATE`, `NEXT_TASK` e
+  `ROADMAP`, e foram refeitas em execução limpa (`out/` vazio).
+- **Destino reconstruído do zero** com `workspace/migracao/adaptar-destino.py` sobre o split de
+  **38 commits** do histórico do v2 (mensagens preservadas), com a evidência `workspace/` e a
+  adaptação de caminhos; conferido por portão (`14 PASS/0 FAIL/6 BLOCKED/2 SKIPPED`, 281 asserções),
+  `make -s check`, `gate-selftest` 19/19, `fuzz` 12/12, clone independente e restauração do próprio
+  bundle. Construções independentes deram o mesmo HEAD, a mesma árvore e o mesmo sha256 de bundle
+  (valores no `MANIFEST.md` do destino).
+- **Publicação tentada de novo e ainda bloqueada por permissão**: `git push` →
+  `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`. Nada foi
+  publicado; a ação é do proprietário (incluir o destino na instalação do GitHub App, *Contents:
+  Read and write*). Sem contorno e sem retentativa em laço.
+- **Cópia independente do monorepo regravada** (`workspace/backups/mu2-v2.bundle`, snapshot orphan da
+  árvore `recriado/` com 83 arquivos) e conferida por `FULL=1 verify-backup.sh` 15/15.
+
 ## Publicação no `MuserverRecriado` — 2026-10-12
 
 - **Destino preparado e conferido; publicação BLOQUEADA por permissão.** `git push` para

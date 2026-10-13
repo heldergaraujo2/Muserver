@@ -1,6 +1,6 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada que corrigiu as defasagens numéricas e reconstruiu o destino (defeitos medidos em ambiente limpo; destino conferido e não publicado). Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
@@ -14,14 +14,14 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). 
 | portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas** (medido em ambiente limpo, sem `out/` residual) |
 | etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) |
 | ferramentas novas | `mu2codec` (CLI do codec real), `mu2fuzz` (fuzzer determinístico), `mu2admin` (console), `interop_probe`, `lua_probe`, `malform_probe` |
-| portão de build | `make -s check` → 180 asserções (unit/make-sintaxe/net/pe/data) |
+| portão de build | `make -s check` → 182 asserções (unit/make-sintaxe/net/pe/data) |
 | teste do portão | `make -s gate-selftest` → **19/19**, exit 0 |
 | conformidade do v2 | `make -s conform` → **15/15** (camada 1; **não** é compatibilidade) |
 | falsificações permanentes | F12–F14 (portão), F15/F16 (R-6), F18/F19 (R-7), **F20/F21** (golden), **F22** (fuzz × codec mutado) |
 | capacidade absoluta | **BLOCKED** — 2 vCPUs, cliente e serviço competindo, binário com ASan/UBSan |
 | compatibilidade com o original | **não testada, não afirmada** — camada 3 BLOCKED, com causa e caminho de desbloqueio |
 | `MuServer/` | inalterada desde `b5b84da`; **6 `.lua` diferem do upload `6eabb45`**; baseline e reversão conferidos por `ref-intacta` 8/8 |
-| integridade | `FULL=1 scripts/verify-backup.sh` → 13/13 |
+| integridade | `FULL=1 scripts/verify-backup.sh` → 15/15 |
 
 ## O que existe no código
 
@@ -42,7 +42,7 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). 
 | `tools/mb_probe.py` | ~110 | `.bmd`/`.smd`/`.ozt`/`.ozj`: magic, imprimibilidade, hipótese XOR-3 medida |
 | `tools/data_probe.py` | ~170 | inventário por extensão, Lua (bytes/linhas), `.txt` de dados, `.dat`, `.bak`, `luaenc` |
 | `tests/pe.sh` | ~90 | 14 casos: invariantes medidos + recusa de entrada inválida + autos-teste |
-| `tests/data.sh` | ~115 | 19 casos: idem para formatos nativos, dados e scripts |
+| `tests/data.sh` | ~115 | 21 casos: idem para formatos nativos, dados e scripts |
 | `tests/run_all.sh` | ~230 | **portão**: 19 etapas, 5 estados, mesa + TSV, log por etapa, grupos próprios, `timeout(1)`, guarda de etapa duplicada |
 | `tests/gate_state.sh` | ~210 | 19 casos sobre o próprio portão + falsificações diferenciais F12–F14 |
 | `tests/ref_check.sh` | ~60 | integridade de `MuServer/` medida (árvore git + âncoras de conteúdo de 4 PE) |
@@ -58,13 +58,16 @@ Atualizado no fim da rodada das **lacunas** (golden/fuzz/segurança/admin/Lua). 
 ## Testes: o que roda e o que não existe
 
 Rodam e passam (medido nesta rodada): `unit` (106/0), `make-sintaxe` (7/0), `net` (34/0),
-`pe` (14/0), `data` (19/0), `pe-selftest`/`data-selftest`/`cfg-selftest` (4/4, 4/4, 5/5),
+`pe` (14/0), `data` (21/0), `pe-selftest`/`data-selftest`/`cfg-selftest` (4/4, 4/4, 5/5),
 `conform` (15/15), `cfg` (15/15), `matriz` (validador, exit 0), `bench` (15/15),
-`ref-intacta` (6/6), `gate` (**14 PASS/0 FAIL/244 asserções**), `gate-selftest` (19/19),
-`verify-backup.sh` (9/9 e `FULL=1` 13/13). `net-matrix` (36/0) e `persistencia` existem mas são
+`ref-intacta` (8/8), `golden` (42/42), `fuzz` (12/12), `seguranca` (13/13), `admin` (24/24),
+`interop` (12/12, `blocked=1`), `lua` (13/13, `blocked=1`), `gate`
+(**18 PASS, 0 FAIL, 2 BLOCKED, 2 SKIPPED, 339 asserções**), `gate-selftest` (19/19) e
+`verify-backup.sh` (`FULL=1` 15/15). `net-matrix` (36/0) e `persistencia` existem mas são
 *opt-in* (`GATE_FULL=1`) — no portão aparecem como `SKIPPED`, nunca como `PASS`.
-**Não existem** (não marcar como aprovados): `golden`, `interop`, `fuzz`. Os três estão no
-registro do portão como `NOT_IMPLEMENTED` — estado que nunca vira `PASS`.
+**Neste repositório publicado**, sem a referência `MuServer/`, ficam `BLOCKED`: `pe`, `data`, `cfg`,
+`ref-intacta`, `interop` (camada 3) e `lua` — e o portão ali dá **14 PASS / 6 BLOCKED / 281
+asserções**.
 `e2e` não é suíte separada: os cenários ponta a ponta estão dentro de `tests/net.sh`.
 
 ## Cenários de rede cobertos (S1…S13)
@@ -79,9 +82,10 @@ lê nada e pede de novo produz o fechamento com `close=queue_full` e contador in
 
 ## Estados do portão (R-6) — o que foi testado e o que não foi
 
-`PASS`: `build`, `unit`, `make-sintaxe`, `net`, `conform`, `matriz`, `cfg`, `cfg-selftest`, `pe`,
-`data`, `pe-selftest`, `data-selftest`, `ref-intacta`. `SKIPPED` (opt-in `GATE_FULL=1`):
-`net-matrix`, `persistencia`. `NOT_IMPLEMENTED`: `golden`, `interop`, `fuzz`, `bench`.
+`PASS`: `build`, `unit`, `make-sintaxe`, `net`, `pe`, `data`, `pe-selftest`, `data-selftest`,
+`conform`, `matriz`, `cfg`, `cfg-selftest`, `ref-intacta`, `golden`, `fuzz`, `seguranca`, `admin`,
+`bench`. `SKIPPED` (opt-in `GATE_FULL=1`): `net-matrix`, `persistencia`. `BLOCKED` (exigem a
+referência ou o binário de terceiro): `interop`, `lua`. `NOT_IMPLEMENTED`: nenhuma etapa.
 
 ## Endpoints medidos na configuração original (R-6)
 
@@ -124,4 +128,5 @@ Regra: **resumo ausente é `FAIL`**, e `BLOCKED`/`NOT_IMPLEMENTED` nunca viram `
 - Recuperação do v1 (`c5706a5`): esgotada e negativa; pedido pronto em
   `../../workspace/reports/ARENA-RECOVERY-REQUEST-2026-10-12.md`, não enviado (exige humano).
 - `PR #1` (`arena/cf1de8ce-muserver` → `main`): aberto, decisão do dono; nenhum merge feito aqui.
-- `bench`: sem critérios de validade e sem host adequado.
+- `bench`: critérios de validade declarados desde a R-7; sob host compartilhado pode sair `BLOCKED`
+  por drift — bloqueado não é falha nem meta.

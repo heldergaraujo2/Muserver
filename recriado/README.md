@@ -20,8 +20,8 @@ backup e regras.
 ## Estado (medido, não relatado)
 
 Fechadas: R-0 ambiente · R-1 inventário · R-2 baseline · R-3 codec · R-4 serviço de rede · R-5 formatos por medição · R-8 portão único · R-6 protocolo (camada 1 comprovada; interop BLOCKED) · **R-7 desempenho (baseline exploratória; capacidade absoluta BLOCKED)**.
-Portão único: `make -s gate` → 18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED (336 asserções, 22 etapas).
-Portão de build: `make -s check` → 180 asserções, 0 falhas. Teste do portão: `make -s gate-selftest` → 19/19.
+Portão único: `make -s gate` → 18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED (339 asserções, 22 etapas).
+Portão de build: `make -s check` → 182 asserções, 0 falhas. Teste do portão: `make -s gate-selftest` → 19/19.
 Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`reports/`](reports/).
 
 ## Compilar, rodar, testar
@@ -29,7 +29,7 @@ Detalhe e números em [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) e [`repor
 ```sh
 cd recriado
 make -s build          # out/wire.o, out/mud2, out/mu2ctl, out/netclient (ASAN+UBSAN+-Werror)
-make -s gate           # PORTAO UNICO: 22 etapas, mesa de estados, 336 assercoes
+make -s gate           # PORTAO UNICO: 22 etapas, mesa de estados, 339 assercoes
 make -s bench          # baseline EXPLORATORIA de desempenho (nao e criterio de aceitacao)
 make -s conform        # conformidade do protocolo v2, byte a byte (15 clausulas)
 make -s cfg            # endpoints da configuracao original (segredos redigidos)
@@ -66,7 +66,7 @@ Evidência em `../workspace/reports/RECUPERACAO-BUSCA-2026-10-12.md`. Portanto:
    sha256), e `scripts/verify-backup.sh` é o que atesta — com `FULL=1` conferindo o que foi **publicado**,
    não só o que está no worktree;
 3. `recriado/` **já tem** o repositório próprio pronto: `workspace/migracao/` reconstrói
-   `heldergaraujo2/MuserverRecriado` de forma reprodutível (histórico de 34 commits via
+   `heldergaraujo2/MuserverRecriado` de forma reprodutível (histórico de 38 commits via
    `git subtree split`, evidência `workspace/`, cópia restaurável) e `publicar-destino.sh` publica e
    confere. O que falta é **permissão**: o push responde 403 porque a instalação do GitHub App não
    inclui o destino — ação do proprietário, sem contorno daqui.

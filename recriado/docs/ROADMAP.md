@@ -15,10 +15,10 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 | R-2 | baseline e ritual de persistência | `verify-backup.sh` verde | fechada |
 | R-3 | codec de enquadramento | `unit` 106/0 + `make-sintaxe` + falsificações | fechada |
 | R-4 | serviço `mud2` + `mu2ctl` + `tests/net.sh` | `check` verde + matriz + F5/F6/F7 detectadas | **fechada** |
-| R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=19/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
+| R-5 | inspeção reproduzível do pacote original (`tools/pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py`) | `pe`=14/0 e `data`=21/0 com autos-teste e falsificações F8–F11; `conform` **não** feito (exige cliente real) | **fechada** 2026-10-12 |
 | R-6 | interoperabilidade e golden | camada 1 (**conform** 15/15) e camada 2 (implementações próprias) comprovadas; camada 3 com evidência medida (`HackPacketCheck`: 272 entradas, 256 índices, 8 bits; code do v2 = 16 bits ⇒ fator 256) e **BLOCKED** com causa e caminho de desbloqueio; `golden` 42/42 com 38 vetores versionados e F20/F21 | **fechada no que é verificável** 2026-10-12 |
 | R-7 | `bench` com critérios de validade (inclusive drift entre passadas) | `make -s bench` 15/15, critérios declarados antes, juiz separado (`tools/bench_check.py`); capacidade absoluta **BLOCKED**; 3 defeitos reais corrigidos (D2-27/28/29) | **fechada** 2026-10-12 no verificável |
-| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/336 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14 | **fechada** 2026-10-12 |
+| R-8 | portão único (`tests/run_all.sh` + `tests/gate_state.sh` + `tests/ref_check.sh`) | `gate`=18 PASS/0 FAIL/339 asserções em 22 etapas; `gate-selftest`=19/19 com F12–F14 | **fechada** 2026-10-12 |
 | R-9 | documentação, publicação e continuidade | contínuo: `CONTINUITY.md` a cada rodada | em curso |
 
 ## Metas por categoria
@@ -46,7 +46,8 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
   podem ser apresentadas como interoperáveis.
 
 ### C. Lua e scripts maiores
-- **Existe (medido):** 148 `.lua` + 3 `.enc` na referência; originais e patches preservados em
+- **Existe (medido):** 148 `.lua` na referência (nenhum `.enc`: 2 caminhos casam `*luaenc*` — a
+  ferramenta e o `.pdb`); originais e patches preservados em
   `../../workspace/changes/`; `LuaEncryptorTool.exe` no pacote.
 - **Investigar:** se existe **algum** limite real de tamanho/carregamento (hoje não há medição);
   formato `.enc`; tratamento de script inválido; loops infinitos.
@@ -65,8 +66,9 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 - **Risco:** arquivo maior não é arquivo melhor — pode ser inválido ou estourar o cliente.
 
 ### E. Desempenho, FPS, fluidez e estabilidade
-- **Existe (medido):** ASAN+UBSAN no portão; host conhecido (2 vCPUs, 3 939 MB); `valgrind`/`gdb`
-  ausentes; **nenhuma linha de base**.
+- **Existe (medido):** ASAN+UBSAN no portão; host conhecido (2 vCPUs, ~4 GB); `valgrind`/`gdb`
+  ausentes; linha de base exploratória da R-7 (`bench` 15/15, critérios de validade declarados
+  antes de rodar) — sem meta numérica.
 - **Investigar:** linha de base de latência/throughput/CPU/memória; variação entre repetições (a matriz
   da R-4 já mostrou amplitude de até 104 respostas sob pressão).
 - **Depende de:** R-7 e host adequado; cliente real para FPS.
@@ -93,11 +95,11 @@ F fechada no backend, G NOT_IMPLEMENTED por decisão, H verde. Detalhe linha a l
 - **Risco:** abrir porta ou expor banco por conveniência; afirmar "servidor online" sem teste.
 
 ### H. Segurança, backup, regressão e continuidade
-- **Existe (medido):** bundle restaurável + `verify-backup.sh` 6/6 e `FULL=1` 10/10; publicação
-  conferida por `ls-remote`; ritual de fim de rodada; sanitizadores e `-Werror` obrigatórios;
+- **Existe (medido):** bundle restaurável, restaurado por clone, + `FULL=1 verify-backup.sh` 15/15
+  (que clona o remoto e reconfere o bundle publicado); publicação conferida por `ls-remote`; ritual de fim de rodada; sanitizadores e `-Werror` obrigatórios;
   classificação de todo fechamento por motivo.
-- **Investigar/estender:** integridade da referência dentro do verificador; detecção de evidência em
-  caminho ignorado; `fuzz` do `feed`/`decode`.
+- **Investigar/estender:** cobertura guiada por feedback no `fuzz` (o motor é próprio e
+  determinístico: 12/12, 150 000 iterações; sem `afl`/`clang` no host).
 - **Depende de:** nada técnico — é processo.
 - **Prova:** o próprio verificador + `gate-selftest` (R-8).
 - **Risco:** o histórico do projeto é uma perda de ambiente; trabalho fora da árvore rastreada morre.

@@ -12,10 +12,10 @@ normal). É a seleção de repositórios da **instalação do GitHub App**, não
 
 Estado de partida (medido em ambiente limpo, não relato): `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED,
 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;
-`make -s check` 180 asserções; `FULL=1 verify-backup.sh` 13/13. Branch `arena/cf1de8ce-muserver`.
+`make -s check` 182 asserções; `FULL=1 verify-backup.sh` 15/15. Branch `arena/cf1de8ce-muserver`.
 
 As etapas que a rodada anterior listava como pendentes **foram fechadas**: `golden` (42/42),
-`interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (12/12), `admin` (22/22) e `lua`
+`interop` (12/12, camada 3 BLOCKED), `fuzz` (12/12), `seguranca` (13/13), `admin` (24/24) e `lua`
 (13/13, execução BLOCKED). A auditoria de rastreabilidade do roadmap inteiro está em
 `../reports/auditoria-rastreabilidade.md`.
 

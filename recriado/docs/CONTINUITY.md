@@ -22,7 +22,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 |---|---|
 | estado detalhado da última rodada | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | próxima tarefa executável | [NEXT_TASK.md](NEXT_TASK.md) |
-| decisões técnicas D2-01…D2-29 | [DECISIONS.md](DECISIONS.md) |
+| decisões técnicas D2-01…D2-39 | [DECISIONS.md](DECISIONS.md) |
 | histórico por rodada | [CHANGELOG.md](CHANGELOG.md) |
 | host, toolchain e limites do sandbox | [ENVIRONMENT.md](ENVIRONMENT.md) |
 | fases R-0…R-9 e metas por categoria | [ROADMAP.md](ROADMAP.md) |
@@ -69,15 +69,15 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | cfg | `make -s cfg` | 15 casos (portas e segredos redigidos) |
 | **golden** | `make -s golden` | **42/42** — 38 vetores versionados + F20 + F21 |
 | **fuzz** | `make -s fuzz` | **12/12** — 150 000 iterações, 0 violações, F22 |
-| **seguranca** | `make -s seguranca` | **12/12** — 15 malformações na porta, fd e RSS estáveis |
-| **admin** | `make -s admin` | **22/22** — console local, fail closed, papéis, 501 |
+| **seguranca** | `make -s seguranca` | **13/13** — 15 malformações na porta, fd e RSS estáveis |
+| **admin** | `make -s admin` | **24/24** — console local, fail closed, papéis, 501 |
 | **interop** | `make -s interop` | **12/12, `blocked=1`** — camada 3 BLOCKED (sem wine/autorização) |
 | **lua** | `make -s lua` | **13/13, `blocked=1`** — inventário medido; sem interpretador no host |
 | ref-intacta | `bash tests/ref_check.sh` | **8/8** — inclui a divergência dos 6 `.lua` e a reversão |
 | bench | `make -s bench` | 15/15 — linha de base exploratória (R-7) |
-| persistência | `FULL=1 bash scripts/verify-backup.sh` | **13/13** (opt-in; o portão padrão marca `SKIPPED`) |
-| portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **180 asserções**, exit 0 |
-| **portão único** | `make -s gate` | **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 336 asserções, 22 etapas, exit 0** |
+| persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
+| portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
+| **portão único** | `make -s gate` | **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0** |
 | teste do portão | `make -s gate-selftest` | **19/19**, exit 0 (F12–F14, duplicação de etapa, `BLOCKED` demonstrado) |
 
 Não existe, e por quê: `interop` camada 3 (BLOCKED — exige `wine`/`qemu-i386` + autorização; a suíte
@@ -87,11 +87,13 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ## 6. Último commit e publicação
 
-- Rodada vigente: `arena/cf1de8ce-muserver`. O histórico do monorepo avançou depois da primeira
-  rodada da publicação, e o patch de migração — que aplicava só na base em que foi gerado — deixou
-  de servir: o destino foi reconstruído do zero com `workspace/migracao/adaptar-destino.py`, cada
-  substituição com asserção própria (falha nomeando o texto que não casou).
-- **Destino `heldergaraujo2/MuserverRecriado`: preparado, conferido e NÃO publicado.** `git push` →
+- Rodada vigente: `arena/cf1de8ce-muserver`. A rodada corrigiu defasagens numéricas da origem
+  (`check` 180→182 asserções, `gate` 336→339, `seguranca` 12→13, `admin` 22→24) e reconstruiu o
+  destino do zero com `workspace/migracao/adaptar-destino.py` — cada substituição com asserção
+  própria (falha nomeando o texto que não casou) — no lugar do patch, que ficava pinado na base
+  do split.
+- **Destino `heldergaraujo2/MuserverRecriado`: reconstruído, conferido e NÃO publicado.** O `git push`
+  foi tentado de novo nesta rodada e respondeu, igual,
   `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`; a API responde
   `Resource not accessible by integration` **no destino** (no repo de origem, `role_name=admin`).
   É a seleção de repositórios da **instalação do GitHub App** — a ACL do usuário já diz `push=true`.
