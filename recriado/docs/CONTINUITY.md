@@ -40,6 +40,7 @@ e `git rev-parse HEAD:MuServer` (esperado `fade04615fabd17778a0e2fd7adf032c8386c
 | contrato e resultado do portão | [../reports/r8-relatorio.md](../reports/r8-relatorio.md) · [../reports/r8-gate.tsv](../reports/r8-gate.tsv) · [../reports/r8-gate-state.tsv](../reports/r8-gate-state.tsv) |
 | relatório da R-5 (observação × hipótese × conclusão) | [../reports/r5-relatorio.md](../reports/r5-relatorio.md) |
 | porta de entrada humana (build/run) | [../README.md](../README.md) |
+| projeto recriado **publicado** (2026-10-13) | [`../../MuserverRecriado/`](../../MuserverRecriado/) — a árvore `recriado/` publicada na raiz do monorepo, com o histórico do split; ver §6 |
 
 ## 4. Fases
 
@@ -94,12 +95,20 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   do split. A validação do destino achou e corrigiu um quinto defeito: a linha de base do teste de
   descritores era leitura solta e pegava a corrida do close assíncrono (medido: 1 de 10 execuções
   com `fd_antes=9` e piso real 8); passou a ser o piso observado numa janela curta.
-- **Destino `heldergaraujo2/MuserverRecriado`: reconstruído, conferido e NÃO publicado.** O `git push`
+- **Publicação dentro do monorepo (2026-10-13): o projeto recriado vive em `MuserverRecriado/`, na
+  raiz deste repositório** (commit `a6ddf81`), porque a escrita no repositório separado continua
+  bloqueada por `403`. A pasta é o artefato validado conferido **arquivo por arquivo** (174/174, modo
+  + blob idênticos), sem `.git` embutido, e roda verde aqui dentro: `check` exit 0, `gate` **18 PASS,
+  0 FAIL, 2 BLOCKED, 2 SKIPPED, 339 asserções**, `gate-selftest` 19/19, `fuzz` 12/12, `ref-intacta`
+  8/8 (referência `fade0461…` inalterada), nada escrito fora da pasta. Cópia reproduzível pelo
+  caminho determinístico: `bash workspace/migracao/preparar-destino.sh … --gate` (`ok=6/falhas=0`).
+- **Repositório separado `heldergaraujo2/MuserverRecriado`: reconstruído, conferido e NÃO publicado.** O `git push`
   foi tentado de novo nesta rodada e respondeu, igual,
   `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2`; a API responde
   `Resource not accessible by integration` **no destino** (no repo de origem, `role_name=admin`).
   É a seleção de repositórios da **instalação do GitHub App** — a ACL do usuário já diz `push=true`.
-  Ação do proprietário: incluir o destino na instalação (*Contents: Read and write*); depois,
+  Ação do proprietário, sem efeito sobre a pesquisa: incluir esse repositório na instalação
+  (*Contents: Read and write*); depois,
   `bash workspace/migracao/publicar-destino.sh`.
 - Medidas desta rodada em `workspace/migracao/medidas-destino-rodada2.tsv`; as da primeira rodada
   ficam em `reports/migracao-destino.tsv` como histórico (não reescrito). O destino carrega a sua

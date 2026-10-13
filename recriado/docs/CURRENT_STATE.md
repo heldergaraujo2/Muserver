@@ -1,15 +1,16 @@
 # CURRENT_STATE — v2 (estado medido, nao relato)
 
-Atualizado no fim da rodada que corrigiu as defasagens numéricas e reconstruiu o destino (defeitos medidos em ambiente limpo; destino conferido e não publicado). Índice curto e ponto de entrada: `CONTINUITY.md`.
+Atualizado no fim da rodada que corrigiu as defasagens numéricas, reconstruiu o destino e o **publicou dentro do monorepo** em `MuserverRecriado/` (o repositório separado segue vazio: `403` da instalação do GitHub App). Índice curto e ponto de entrada: `CONTINUITY.md`.
 
 ## Mesa da rodada
 
 | campo | valor |
 |---|---|
-| unidade fechada | **publicação preparada e conferida, push BLOQUEADO por permissão** (403 do GitHub App no destino) + 5 defeitos reais corrigidos e medidos (4 em ambiente reprovisionado + a corrida da linha de base do teste de descritores, 1 em 10 execuções) |
+| unidade fechada | **projeto recriado publicado dentro do monorepo** (`MuserverRecriado/`, commit `a6ddf81`) a partir do artefato validado, conferido arquivo por arquivo e verde na nova localização; o repo separado `MuserverRecriado` segue vazio (`403` do GitHub App) |
 | fases fechadas antes | R-0…R-5, **R-8** portão único, **R-6** protocolo (camada 3 BLOCKED), **R-7** desempenho |
-| próxima tarefa | **destravar a publicação** (ação do proprietário: incluir o repo na instalação do App) e, depois, **`enc`** — cifragem do script Lua do cliente (`NEXT_TASK.md`) |
+| próxima tarefa | **`enc`** — cifragem do script Lua do cliente (`NEXT_TASK.md`); pendência do proprietário, sem bloquear a pesquisa: habilitar o repo separado na instalação do App, se quiser o artefato publicado lá também |
 | branch | `arena/cf1de8ce-muserver` |
+| onde o projeto está publicado | **`MuserverRecriado/` na raiz deste monorepo** — cópia do artefato validado, 174/174 arquivos com modo+blob idênticos; `MuServer/` e o resto do monorepo intocados |
 | HEAD / remoto | atualizado no fim desta unidade (ver §6 do `CONTINUITY.md`); monorepo `arena/cf1de8ce-muserver` == remoto conferido por `git ls-remote` |
 | portão único | `make -s gate` → **18 PASS, 0 FAIL, 2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas** (medido em ambiente limpo, sem `out/` residual) |
 | etapas novas | `golden` 42/42 · `interop` 12/12 (`blocked=1`) · `fuzz` 12/12 · `seguranca` **13/13** · `admin` **24/24** · `lua` 13/13 (`blocked=1`) |

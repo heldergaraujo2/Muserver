@@ -1,5 +1,31 @@
 # CHANGELOG do v2
 
+## Publicação dentro do monorepo — 2026-10-13
+
+- **O projeto recriado passou a ser publicado em `MuserverRecriado/`**, na raiz deste monorepo,
+  porque a escrita no repositório separado `heldergaraujo2/MuserverRecriado` continua respondendo
+  `403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2` (seleção de
+  repositórios da instalação do GitHub App). Nenhuma permissão foi contornada e **nada foi publicado
+  no repositório separado** — ele segue vazio. Commit da publicação: `a6ddf81`.
+- **Fonte: o artefato validado da migração**, não uma reconstrução improvisada. Ele foi reproduzido de
+  novo pelo caminho determinístico (`bash workspace/migracao/preparar-destino.sh … --gate` →
+  `ok=6/falhas=0`) nos valores que as constantes fixam: HEAD `51b2b157`, árvore `99c9b8ff`,
+  **42 commits**, 174 arquivos, bundle do snapshot 662 628 B sha256 `76d71bd8…`, ponta `f42769f1`.
+- **A pasta recebeu os 174 arquivos rastreados do artefato** (sem `.git` embutido e sem `out/`),
+  conferidos **arquivo por arquivo**: modo e blob git **idênticos nos 174** (o `.gitattributes`
+  próprio da pasta mantém `* -text` e `*.bundle binary`, então nada é convertido na cópia).
+- **Medido na nova localização:** `make -s check` exit 0 (unit 106, make-sintaxe 7, net 34, pe 14,
+  data 21); `make -s gate` **18 PASS, 0 FAIL, 2 BLOCKED, 2 SKIPPED, 339 asserções, 22 etapas**,
+  exit 0; `make -s gate-selftest` 19/19; `make -s fuzz` 12/12 (150 000 iterações); `ref-intacta`
+  PASS 8/8 com a árvore `fade0461…` da referência inalterada. Com a referência irmã `../MuServer`
+  disponível, `pe`/`data`/`cfg`/`ref-intacta` rodam em vez de sair BLOCKED — no artefato isolado o
+  mesmo portão mede 14 PASS/6 BLOCKED/281 asserções.
+- **Diferenças intencionais vs artefato (9 arquivos, todas documentais):** `README.md` ganhou a seção
+  de localização (propósito, como testar, o que não foi incluído, como diferenciar de `MuServer/`), e
+  os 7 documentos canônicos mais o relatório de migração ajustaram a localização. O verificador do
+  projeto declara essas divergências (`DIV_OK`).
+- **`MuServer/` e o restante do monorepo não foram tocados**; `git status` fora da pasta seguiu limpo.
+
 ## Fechamento da publicação — 2026-10-12
 
 - **Defasagens numéricas corrigidas na origem** (o portão mede, não relata): `check` 180→**182**

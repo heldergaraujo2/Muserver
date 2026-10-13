@@ -4,6 +4,32 @@ Pacote **reprodutível** que publica a reconstrução (`recriado/`) como reposit
 histórico preservado, evidência e cópia restaurável. Nada aqui depende de uma conversa: qualquer
 pessoa (ou agente) com o monorepo em mãos reproduz o destino com um comando.
 
+## Publicação dentro do monorepo (2026-10-13)
+
+A publicação **mudou de caminho**. Como o `git push` para `heldergaraujo2/MuserverRecriado` continua
+respondendo `403` (instalação do GitHub App; destino vazio), o projeto recriado passou a ser publicado
+**dentro do monorepo autorizado**, na pasta `MuserverRecriado/` — commit `a6ddf81`.
+
+| passo | resultado medido |
+|---|---|
+| artefato de origem | reproduzido por `preparar-destino.sh --gate` → `ok=6/falhas=0` (HEAD `51b2b157`, árvore `99c9b8ff`, 42 commits, 174 arquivos, bundle 662 628 B sha256 `76d71bd8…`) |
+| cópia para `MuserverRecriado/` | `git archive HEAD \| tar -x` (sem `.git` embutido, sem `out/`): **174 = 174** arquivos, **modo + blob idênticos nos 174** |
+| testes na pasta | `check` exit 0 (182 asserções) · `gate` **18 PASS/0 FAIL/2 BLOCKED/2 SKIPPED, 339 asserções** · `gate-selftest` 19/19 · `fuzz` 12/12 · `ref-intacta` 8/8 |
+| divergências declaradas | 9 arquivos documentais (`README.md` + 7 docs canônicos + relatório de migração), cobertas pelo `DIV_OK` do verificador |
+| `MuServer/` | intocado (árvore `fade0461…`, 10 021 arquivos); `git status` fora da pasta limpo |
+
+Conferir a pasta contra o artefato, a partir do monorepo:
+
+```sh
+bash workspace/migracao/preparar-destino.sh /tmp/mu2destB5 --gate    # reconstroi o artefato conferido
+diff <(git -C /tmp/mu2destB5 ls-tree -r HEAD | awk '{print $1,$3,$4}' | sort) \
+     <(git ls-files -s MuserverRecriado | awk '{print $1,$2,$4}' | sed 's|^\([0-9]*\) \([0-9a-f]*\) MuserverRecriado/|\1 \2 |' | sort)
+# esperado: divergencia apenas nas 9 edicoes documentais declaradas
+```
+
+O repositório separado continua vazio: se o proprietário o incluir na instalação do App,
+`publicar-destino.sh` publica o mesmo artefato lá — este pacote segue sendo o caminho reprodutível.
+
 | arquivo | papel |
 |---|---|
 | `preparar-destino.sh` | constrói o destino (split do histórico + evidência `workspace/` + adaptação + cópia independente) e **confere por conteúdo**: árvore, contagem de arquivos e sha256 do bundle são fixados em constantes |
@@ -48,7 +74,7 @@ e o relatório de migração.
 | clone independente | árvore e inventário **idênticos** ao local (174 arquivos; `ls-tree -r` sha256 `be535006…`); `make -s check` sem falhas |
 | `make -s check` / `fuzz` / `gate-selftest` no destino | sem falhas / 12–12 (150 000 iterações, 52 sementes) / 19–19 |
 | `scripts/verify-backup.sh` no destino | ok=9, **falhas=1** (a publicação, honestamente) e blocked=1 (referência ausente) |
-| **publicação** | **BLOQUEADA**: 403 `denied to heldergaraujo2`; API do destino responde `Resource not accessible by integration` |
+| **publicação no repo separado** | **BLOQUEADA**: 403 `denied to heldergaraujo2`; API do destino responde `Resource not accessible by integration`. A publicação vigente é a pasta `MuserverRecriado/` deste monorepo (seção acima) |
 
 As 6 etapas BLOCKED no destino são exatamente as que exigem a referência original (`pe`, `data`,
 `cfg`, `ref-intacta`, `interop`, `lua`): `MuServer/` (10 021 arquivos, ~615 MB, pacote do
