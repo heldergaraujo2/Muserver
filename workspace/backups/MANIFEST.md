@@ -3,12 +3,12 @@
 | campo | valor |
 |---|---|
 | conteudo | arvore `recriado/` inteira (**83 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree 3c49470:recriado` (rodada de fechamento da publicacao: contagens corrigidas, 5o defeito e destino reconstruido) |
-| branch do snapshot | `mu2-snapshot` @ `2aa641a1f785a5bd57691f8940f47a0f54497c5b` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (258497 bytes) |
+| origem | `git commit-tree 618bb35:recriado` (rodada da publicacao dentro do monorepo: pasta `MuserverRecriado/` com o artefato validado, 174/174 conferidos, e docs de continuidade) |
+| branch do snapshot | `mu2-snapshot` @ `401839893cebb7c90ec7445250520af51b61eec8` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (259727 bytes) |
 | sha256 | ver abaixo |
 
-sha256: bd17e80759fb886ce76dcfed9defca30c9b47e2f0f658b9e48138b895a27c54f
+sha256: ac5d3c86cf8aa14aacf8d5bfe1e79ad9d0a51452486fd4f5728ed24b67405fc8
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
@@ -36,8 +36,9 @@ qualquer recriacao de sandbox.
 ## Tamanho e por que ele agora e constante
 
 17 225 (R-0) -> 38 233 -> 66 195 -> 134 694 -> 204 585 (so realocar, nao bastou) -> 31 771
-(snapshot orphan, rodada das lacunas) -> 247 621 (rodada da publicacao) -> **258497 bytes**
-(rodada de fechamento, 83 arquivos). O tamanho acompanha a arvore `recriado/`; o snapshot orphan
+(snapshot orphan, rodada das lacunas) -> 247 621 (rodada da publicacao) -> 258 497
+(rodada de fechamento e do destino) -> **259727 bytes** (rodada da publicacao dentro do monorepo,
+83 arquivos). O tamanho acompanha a arvore `recriado/`; o snapshot orphan
 garante que ele nao cresce por acumulo de si mesmo.
 
 ## O que o verificador ja pegou (e por que ele existe)
