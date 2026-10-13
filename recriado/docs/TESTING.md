@@ -13,8 +13,11 @@
 | `make -s build` | exit 0 — `out/{wire.o, mud2, mu2ctl, netclient, mu2codec, mu2fuzz, mu2admin, unit}` com `-Werror` e ASan+UBSan |
 | `make -s check` | **182 asserções, 0 falhas** (unit 106 · make-sintaxe 7 · net 34 · pe 14 · data 21), exit 0 |
 | `make -s gate-selftest` | **19/19**, exit 0 (o portão sabe falhar: F12–F14, etapa duplicada, `BLOCKED` demonstrado) |
-| `FULL=1 make -s gate` — **1ª execução, antes do commit desta rodada** | **19 PASS, 1 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 0 SKIPPED, 375 asserções, 23 etapas, exit 1** — o único `FAIL` é a etapa `persistencia`, com motivo medido: `arvore recriado/ limpa → FALHA (M recriado/Makefile; M recriado/reports/net-*.tsv)`. Isto é **a checagem funcionando**, não defeito do produto: ela exige árvore limpa e a rodada estava em curso. Reexecutada após o commit, fica verde (§2). |
-| `make -s gate` (padrão) após o commit | ver §2 (mesma mesa, sem as duas opt-in: `SKIPPED` por decisão) |
+| `FULL=1 make -s gate` — **1ª execução, antes do commit desta rodada** | **19 PASS, 1 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 0 SKIPPED, 375 asserções, 23 etapas, exit 1** — o único `FAIL` é a etapa `persistencia`, com motivo medido: `arvore recriado/ limpa → FALHA (M recriado/Makefile; M recriado/reports/net-*.tsv)`. Isto é **a checagem funcionando**, não defeito do produto: ela exige árvore limpa e a rodada estava em curso (§3). |
+| `make -s gate` (padrão, **após o commit** dos documentos) | **18 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções contadas, 23 etapas, exit 0** (69 302 ms) — idêntico à mesa de referência; as duas opt-in ficam `SKIPPED` por decisão |
+| `FULL=1 make -s gate` — interação `net-matrix` × `persistencia` | **`FAIL` em `persistencia` por construção**: `net-matrix` regrava `reports/net-{orig,mur0}.tsv` (timestamp + contagens) e a checagem seguinte exige árvore limpa. Com `GATE_FULL=1 GATE_SKIP=net-matrix make -s gate` a etapa roda verde (medido: **ok=11 falhas=0**); as duas opt-in ficam comprovadamente verdes nesta rodada (matriz 36/36 em 619 s; persistência 11/11), só não na mesma passada. Achado registrado em §3 e em `AUDIT_HANDOFF.md` §5. |
+| `GATE_FULL=1 GATE_ONLY=persistencia make -s gate` (após a regravação do snapshot) | **`PASS`** — log: `ok=11 falhas=0`, `snapshot ⊆ HEAD` OK, `divergencia … observadas: nenhuma`, `arquivos fora do snapshot … extras=0`, `ponta == MANIFEST aa22742…`, `MuServer/ intacta` |
+| `FULL=1 bash scripts/verify-backup.sh` | **ok=15 falhas=0** (§3) |
 | `make -s lua-enc` (etapa nova) | **27/27, `blocked=2`** (`F23` + algoritmo não identificado), exit 0 |
 | `make -s make-sintaxe` | 7/7 após a adição do alvo `lua-enc` (o Makefile é contrato e continua válido) |
 
@@ -48,15 +51,24 @@ Leitura da mesa: **o que está verde é o que foi executado**; `interop`, `lua` 
 como `BLOCKED` com causa, e `net-matrix`/`persistencia` como `SKIPPED` no portão padrão (opt-in
 explícito via `GATE_FULL=1`) — nunca como aprovadas.
 
-## 3. O resultado da etapa `persistencia` (transparência)
+## 3. A etapa `persistencia` e a interação com `net-matrix` (transparência)
 
-Na 1ª passada de `FULL=1` desta rodada, `persistencia` saiu **`FAIL`** com o motivo
-`arvore recriado/ limpa → FALHA`, listando `M recriado/Makefile` e `M recriado/reports/net-*.tsv`.
-Causa: a rodada estava **em curso** (documentos e Makefile ainda não commitados; as matrizes haviam
-acabado de ser regravadas pela própria execução do `net-matrix`). Não houve perda nem defeito: é a
-checagem exigindo que "fim de rodada" seja com árvore limpa (D2-09). Depois do commit, a mesma
-etapa roda verde — e as duas medições ficam registradas aqui, como manda a regra de não esconder
-resultado ruim.
+Duas medições `FAIL` desta rodada, com causa medida — nenhuma delas é defeito do produto, e as duas
+ficam registradas porque a regra é não esconder resultado ruim:
+
+1. **1ª passada de `FULL=1`**, com a rodada em curso: `arvore recriado/ limpa → FALHA`
+   (`M recriado/Makefile`, `M recriado/reports/net-*.tsv`). É a checagem de D2-09 funcionando: "fim de
+   rodada" exige árvore limpa. Após o commit, a etapa roda verde.
+2. **`net-matrix` antes de `persistencia` no `GATE_FULL=1`**: a matriz regrava, por construção, dois
+   arquivos de evidência versionados (`reports/net-orig.tsv`, `reports/net-mur0.tsv`, com timestamp e
+   contagens novos), e a etapa seguinte exige árvore limpa ⇒ `FAIL` determinístico na mesma passada.
+   **Contorno documentado:** `GATE_FULL=1 GATE_SKIP=net-matrix make -s gate` (ou rodar
+   `bash scripts/verify-backup.sh` depois de commitar os TSVs regravados). As duas etapas estão
+   comprovadamente verdes nesta rodada, cada uma medida: `net-matrix` 36/36 em 619 s e
+   `persistencia` 11/11 depois da regravação do snapshot.
+   **Melhoria pendente (não aplicada nesta consolidação, para não alterar contrato testado):** trocar a
+   ordem das duas etapas no registro do portão **ou** fazer a matriz escrever em `out/` e publicar em
+   `reports/` por alvo explícito. Fica registrada como achado em `AUDIT_HANDOFF.md` §5.
 
 ## 4. Falsificações permanentes (o teste que prova que o teste sabe falhar)
 

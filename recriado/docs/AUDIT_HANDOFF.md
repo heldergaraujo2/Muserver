@@ -6,7 +6,9 @@
 | repositório | **https://github.com/heldergaraujo2/Muserver** (público) |
 | branch da consolidação | **`arena/cf1de8ce-muserver`** (PR **#1** aberto para `main`; **não** mergeado — decisão do proprietário) |
 | branch principal do repositório | `main` @ `6eabb45` (o upload do pacote original; **nada desta auditoria foi empurrado para lá**) |
-| commit desta consolidação / tag | preenchidos no fecho da rodada — ver §9 do relatório `workspace/migracao/RELATORIO-CONSOLIDACAO-AUDITORIA-2026-10-13.md` e a tag anotada **`auditoria-2026-10-13`** |
+| commit dos documentos de auditoria | **`578e7e1`** ("Consolidacao para auditoria independente: documentos de estado, arquitetura e limites") |
+| tag anotada do estado consolidado | **`auditoria-2026-10-13`** — aponta para o último commit da consolidação; `git tag -n99 auditoria-2026-10-13` mostra a mensagem, e o relatório da rodada traz a leitura de volta do remoto (§13) |
+| commit de confirmação/leitura de volta | em `workspace/migracao/RELATORIO-CONSOLIDACAO-AUDITORIA-2026-10-13.md` §13 (SHA remoto lido com `git ls-remote`) |
 | como clonar | `git clone https://github.com/heldergaraujo2/Muserver.git && cd Muserver && git checkout arena/cf1de8ce-muserver` |
 | tamanho do que está versionado | `MuServer/` 10 021 arquivos (~615 MB) + `recriado/` 87 rastreados + `MuserverRecriado/` 174 + `workspace/` |
 
