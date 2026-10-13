@@ -1,0 +1,22 @@
+# Politica de bytes do repositorio publicado (migracao de 2026-10-12).
+# O texto do v2 e LF; a medicao que sustenta isso (10 021 arquivos do pack original, 0 CRLF puro
+# em .lua/.ini/.txt/.dat) esta no monorepo heldergaraujo2/Muserver. Aqui a regra e simples e
+# conservadora: NAO converter nada (uma politica "que parece certa para Windows" reescreveria
+# arquivos de evidencia na primeira checkout limpa).
+
+* -text
+
+# binarios de fato
+*.bundle binary
+*.exe binary
+*.dll binary
+*.dmp binary
+*.bak binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# o bundle de backup sai byte a byte do clone: o sha256 e conferido por scripts/verify-backup.sh
+workspace/backups/*.bundle binary

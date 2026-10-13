@@ -198,7 +198,7 @@ index 6b12f5c..f5fc470 100644
    ref criado): o App de autenticacao **nao tem** `MuserverRecriado` na selecao de
    repositorios. Instrucao manual em `NEXT_TASK.md` secao "acao do dono".
 diff --git a/docs/CONTINUITY.md b/docs/CONTINUITY.md
-index 0fd068a..a83c1aa 100644
+index 0fd068a..3cda94d 100644
 --- a/docs/CONTINUITY.md
 +++ b/docs/CONTINUITY.md
 @@ -1,5 +1,12 @@
@@ -231,7 +231,7 @@ index 0fd068a..a83c1aa 100644
  | evidências medidas por fase | [../reports/](../reports/) — `r3-*.tsv`, `r4-*.tsv`, `r5-*.tsv`, `r6-*.tsv`, `r8-*.tsv`, `net-<perfil>.tsv` |
  | sondas de formato (R-5) | [../tools/](../tools/) — `pe_probe.py`, `att_probe.py`, `mb_probe.py`, `data_probe.py` |
  | portão único (R-8) | [../tests/run_all.sh](../tests/run_all.sh) · [../tests/gate_state.sh](../tests/gate_state.sh) · [../tests/ref_check.sh](../tests/ref_check.sh) |
-@@ -87,23 +94,25 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
+@@ -87,23 +94,26 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
  
  ## 6. Último commit e publicação
  
@@ -257,7 +257,8 @@ index 0fd068a..a83c1aa 100644
 +  `Resource not accessible by integration` na API **do destino** (no repo de origem respondendo
 +  normal). É a seleção de repositórios da instalação do GitHub App, não a ACL do usuário.
 +  Desbloqueio: o proprietário inclui `MuserverRecriado` na instalação com *Contents: Read and write*;
-+  depois, `bash workspace/migracao/publicar-destino.sh`.
++  depois, no monorepo `heldergaraujo2/Muserver`, `bash workspace/migracao/publicar-destino.sh`
++  (o script mora lá: ele depende do split do monorepo e nao pode viver dentro do destino).
 +- histórico do monorepo: branch `arena/cf1de8ce-muserver` (o v2 vivia lá dentro para não repetir o
 +  v1, que morreu num clone não rastreado; essa razão deixou de valer agora que existe repo próprio).
 +- nada aqui é declarado publicado antes de `git ls-remote` conferir o SHA remoto.
@@ -271,7 +272,7 @@ index 0fd068a..a83c1aa 100644
  
  ```sh
  git bundle verify workspace/backups/mu2-v2.bundle
-@@ -112,12 +121,13 @@ git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle "$D/
+@@ -112,12 +122,13 @@ git clone -q --no-hardlinks -b mu2-snapshot workspace/backups/mu2-v2.bundle "$D/
  (cd "$D/r" && make -s check)
  ```
  
@@ -286,7 +287,7 @@ index 0fd068a..a83c1aa 100644
  2. Decidir o `PR #1` (aberto; nenhum merge é feito por conta do agente).
  3. Enviar o pedido de recuperação do ambiente anterior ao suporte da plataforma.
  4. Prover host adequado quando `bench` e medições de cliente forem necessários.
-@@ -131,7 +141,7 @@ publicada — por isso a publicação conferida por `ls-remote` faz parte do bac
+@@ -131,7 +142,7 @@ publicada — por isso a publicação conferida por `ls-remote` faz parte do bac
  - `blocked != aprovado`; diretório vazio ou especificação não é implementação.
  - Não inflar `MU2_MAX_BODY`, buffers ou limites para fazer teste passar.
  - Evidência não pode morar em caminho ignorado pelo git (`.json`/`.raw` em `workspace/reports`,
@@ -489,7 +490,7 @@ index 0000000..1b57252
 +`../workspace/migracao/README.md` para o transporte do destino. O bundle do destino é conferido por
 +`git bundle verify` + clone em diretório temporário + `make -s gate` (resultados acima).
 diff --git a/docs/NEXT_TASK.md b/docs/NEXT_TASK.md
-index 313d138..cdcb071 100644
+index 313d138..0aeb13c 100644
 --- a/docs/NEXT_TASK.md
 +++ b/docs/NEXT_TASK.md
 @@ -1,8 +1,29 @@
@@ -512,8 +513,8 @@ index 313d138..cdcb071 100644
 +responde `Resource not accessible by integration` no destino (no repo de origem responde normal).
 +Isso é a **seleção de repositórios da instalação do GitHub App**, não a ACL do usuário (que diz
 +`push=true`). Ação do proprietário: incluir `MuserverRecriado` na instalação com *Contents: Read and
-+write*. Depois disso: `bash workspace/migracao/publicar-destino.sh` (faz push, confere `ls-remote`,
-+clona de volta e roda o portão). Nada é afirmado publicado antes do `ls-remote` conferir.
++write*. Depois disso, no monorepo `heldergaraujo2/Muserver`: `bash workspace/migracao/publicar-destino.sh`
++(faz push, confere `ls-remote`, clona de volta e roda o portão). Nada é afirmado publicado antes do `ls-remote` conferir.
 +
 +Estado de partida no monorepo de origem (medido, não relato): `make -s gate` → **18 PASS, 0 FAIL,
 +2 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 339 asserções, 22 etapas, exit 0**; `gate-selftest` 19/19;

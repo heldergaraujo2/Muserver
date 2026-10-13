@@ -14,7 +14,8 @@
 #      local copiaria o pack inteiro do monorepo (134 MB, com os blobs do MuServer/) para dentro de
 #      um repositorio que nao deve carrega-los (medido; com o fetch by protocol, o .git fica < 1 MB).
 #   3. evidencia `workspace/` copiada do monorepo (arquivos rastreados).
-#   4. patches/0001-migracao.patch aplicado com `--3way` (adaptacao de caminhos, layout e docs).
+#   4. adaptacao da arvore por `adaptar-destino.py` (caminhos, layout e documentos), com uma
+#      assercao por substituicao: texto de origem fora do lugar FALHA nomeando a substituicao.
 #   5. copia independente regravada DENTRO do destino (snapshot orphan + bundle + MANIFEST), para
 #      que o repositorio publicado se restaure sozinho.
 #   6. verificacoes: `git bundle verify`, restauracao por clone + `make -s check`, e comparacao da
@@ -29,13 +30,13 @@ gate=0
 [ "${2:-}" = "--gate" ] && gate=1
 if [ "$dst" = "--gate" ]; then dst=/tmp/mu2dest; gate=1; fi
 
-# Valores de referencia desta migracao (medidos no artefato conferido de 2026-10-12, HEAD 587ba4f).
+# Valores de referencia desta migracao (medidos no artefato conferido de 2026-10-12, split de 39 commits).
 # Reproduzibilidade medida: duas construcoes independentes deram o mesmo HEAD, a mesma arvore e o
-# mesmo sha256 de bundle. Divergir daqui
+# mesmo sha256 de bundle (constantes refixadas apos re-medir). Divergir daqui
 # nao e' falha automatica — o conteudo do monorepo pode ter evoluido — mas TEM de ser explicado.
-TREE_ESPERADA=${TREE_ESPERADA:-8f1e0f35d3cc082dddccfe5f4caf834dc30946c4}
-ARQ_ESPERADOS=${ARQ_ESPERADOS:-173}
-SHA_ESPERADO=${SHA_ESPERADO:-e30fd48a7d8ebd0ce6fe04891473ef189226cea0cc6103c46d5b9420973175e5}
+TREE_ESPERADA=${TREE_ESPERADA:-233c2bd08cb37c0f8aa2196831fa99f53a3b8453}
+ARQ_ESPERADOS=${ARQ_ESPERADOS:-174}
+SHA_ESPERADO=${SHA_ESPERADO:-05b8cff7df066b2aa8b1d5459051f08be768117c1d9d3ef7d6ecc1b5c5fdef98}
 
 ok=0; bad=0
 say() { printf '%-38s %s\n' "$1" "$2"; }
@@ -77,6 +78,10 @@ say "destino criado em" "$dst"
 
 # ---- 3. evidencia workspace/ -------------------------------------------------------------------
 git -C "$root" archive HEAD workspace | tar -x -C "$dst" || { say "copiar workspace" "falhou"; exit 2; }
+# `workspace/migracao/` NAO viaja: e' ferramenta da ORIGEM (split, patch, bundle de transporte) e
+# dentro do destino seria circular — conteria um bundle do proprio destino. A evidencia que interessa
+# (backups, changes, reports, docs, tools, tests, inventory) vai inteira.
+rm -rf "$dst/workspace/migracao"
 git -C "$dst" add workspace >/dev/null 2>&1
 git -C "$dst" commit -q -F - <<'EOF' || { say "commit do workspace" "falhou"; exit 2; }
 Publica a evidencia do workspace: mudancas Lua, auditorias, recuperacao e backup restaurável
@@ -95,15 +100,18 @@ EOF
 say "commit 1" "$(git -C "$dst" rev-parse --short HEAD) workspace"
 
 # ---- 4. adaptacao de layout e documentos -------------------------------------------------------
-if git -C "$dst" apply --3way "$here/patches/0001-migracao.patch" 2>"$work/apply.err"; then
+# O transformador (assercao por substituicao) substitui o patch `0001-migracao.patch`, que ficava
+# PINADO na base do split: medido — ao avancar o historico de 34 para 36 commits ele deixou de
+# aplicar. Falha aqui nomeia a substituicao que nao casou, sem aplicar parcialmente.
+if python3 "$here/adaptar-destino.py" "$dst" >"$work/adaptar.out" 2>&1; then
   st=ok
 else
   st=bad
 fi
-chk "patch de migracao aplicado" "$st" "$(head -2 "$work/apply.err" 2>/dev/null | tr '\n' ' ')"
-[ "$st" = ok ] || { say "diagnostico" "veja $work/apply.err (o patch esta pinado na base do split)"; exit 2; }
-git -C "$dst" add .gitignore .gitattributes Makefile README.md docs reports/README.md \
-    scripts/verify-backup.sh tests/run_all.sh >/dev/null 2>&1
+sed 's/^/  /' "$work/adaptar.out" 2>/dev/null
+chk "adaptador do destino (com assercao)" "$st"
+[ "$st" = ok ] || { say "diagnostico" "veja $work/adaptar.out"; exit 2; }
+git -C "$dst" add .gitignore .gitattributes Makefile README.md docs reports/README.md >/dev/null 2>&1
 git -C "$dst" commit -q -F - <<'EOF' || { say "commit da adaptacao" "falhou"; exit 2; }
 Adapta a raiz publicada: caminhos, layout e documentos canonicos
 
@@ -111,8 +119,9 @@ O repositorio publicado E a arvore do v2 (nao ha mais o nivel `recriado/`): docu
 ganham o mapeamento de caminhos, README perde o `cd recriado`, CONTINUITY registra o estado real
 da publicacao, NEXT_TASK ganha o passo zero (publicar), reports/README registra que os relatorios
 sao evidencia historica e nao foram reescritos. .gitignore/.gitattributes proprios do destino
-(regras de MuServer/** sairam; politica de bytes conservadora). A etapa `build` do portao passa a
-exigir src/wire.c em vez do proprio produto out/wire.o. Relatorio completo em
+(regras de MuServer/** sairam; politica de bytes conservadora). Adaptacao por
+workspace/migracao/adaptar-destino.py: cada substituicao tem assercao propria e falha nomeando o
+texto que nao casou (o patch anterior ficava pinado na base do split). Relatorio completo em
 docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md.
 EOF
 say "commit 2" "$(git -C "$dst" rev-parse --short HEAD) adaptacao"
