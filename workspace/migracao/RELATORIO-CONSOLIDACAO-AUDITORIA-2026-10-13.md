@@ -193,5 +193,29 @@ O que **não** roda neste ambiente (Lua, `wine`, `clang`/`valgrind`, SQL Server)
 
 ## 13. Confirmação de que o conteúdo foi enviado e verificado no repositório remoto
 
-_(preenchido depois do push, com a leitura de volta — regra: sem `git ls-remote` conferido, nada é
-declarado publicado)_
+**Publicado e conferido por leitura de volta (não por presunção).**
+
+| item | valor lido do remoto |
+|---|---|
+| branch `arena/cf1de8ce-muserver` | **`2d121d9cc39d0eb167c062904506e494d007304f`** (`git ls-remote`) — igual ao HEAD local no momento da leitura |
+| tag `auditoria-2026-10-13` (anotada) | objeto `cb880d78c8aaaafba91ac34562b6b7da921fb629` → commit **`2d121d9`** (`refs/tags/…^{}`) |
+| branch `main` | `6eabb45b9e7939a3061f4757ed6791efef7c5c3b` — **inalterada** (nada desta consolidação foi para `main`) |
+| API do GitHub | `commits/arena/cf1de8ce-muserver` = `2d121d9…`; `git/ref/tags/auditoria-2026-10-13` = tipo `tag`, objeto `cb880d78…` |
+| blobs conferidos um a um (remoto == local) | os **9 documentos de auditoria** + `recriado/README.md` + este relatório (`CONTEUDO/…` retornou o mesmo SHA que `git rev-parse HEAD:<caminho>`) |
+| commits desta rodada | `578e7e1` (documentos) · `b465111` (backup do marco) · `2d121d9` (números finais + relatório) |
+| commits publicados | `git push` → `0f13c66..578e7e1` e `578e7e1..2d121d9` (branch) e a tag; **sem `--force`, sem apagar histórico, nenhuma outra branch** |
+
+**Verificadores depois da publicação** (executados neste estado):
+
+| comando | resultado |
+|---|---|
+| `bash recriado/scripts/verify-backup.sh` | **ok=11 falhas=0 blocked=0** |
+| `FULL=1 bash recriado/scripts/verify-backup.sh` | **ok=15 falhas=0 blocked=0** — inclui `publicado: bundle byte a byte`, `bundle verify no clone`, `restaurar arvore a partir do bundle clonado` e **`HEAD local esta no remoto OK 2d121d9`** |
+| `GATE_FULL=1 GATE_ONLY=persistencia make -s gate` | etapa `persistencia` **PASS** (exit 0) |
+| `bash MuserverRecriado/scripts/verify-backup.sh` | **ok=11 falhas=0 blocked=0** (cópia publicada consistente) |
+| `git diff --quiet HEAD -- MuServer` | vazio — referência intacta (tree `fade046…`) |
+| `git status --porcelain` | vazio no fecho (nada escrito sem comitar) |
+
+Este parágrafo entra no commit seguinte à leitura (como no fecho da rodada anterior): o SHA final da
+rodada é o que `git ls-remote` devolver depois deste commit, e está reproduzido na resposta ao
+proprietário com a tag `auditoria-2026-10-13` (que fixa o conteúdo auditado).
