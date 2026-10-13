@@ -12,9 +12,10 @@
  *   - TRANSACAO REAL: operacoes carimbadas com um tx_id so passam a valer quando o registro
  *     TX_COMMIT correspondente aparece. Um corte no meio (queda, kill -9, disco cheio) deixa a
  *     transacao incompleta: na recuperacao ela e DESCARTADA, e o commit e atomico.
- *   - migracao de esquema versionada (`schema_version` no cabecalho): abrir arquivo mais velho
- *     migra em memoria na abertura, com um registro de migracao gravado — nunca reescreve o
- *     arquivo em silencio;
+ *   - `schema_version` no cabecalho identifica a VERSAO DO FORMATO e **nao** implementa migracao
+ *     automatica (decisao D2-41): versao atual abre; versao futura e recusada nomeada; versao
+ *     antiga tambem e recusada nomeada (sem caminho de migracao, o arquivo NAO e recarimbado em
+ *     silencio); o cabecalho e gravado com a versao carregada, nunca com a constante;
  *   - integridade: cada registro tem CRC32C do proprio payload; `mu2db_verify` percorre o arquivo
  *     inteiro e aponta o primeiro registro corrompido;
  *   - senha: nunca em claro. `mu2db_conta_set_senha` guarda PBKDF2-HMAC-SHA256 (salt por conta,
@@ -92,6 +93,11 @@ typedef struct {
 /* ---------------------------------------------------------------- ciclo de vida */
 mu2db *mu2db_abrir(const char *caminho, char *erro, size_t erro_len);
 void mu2db_fechar(mu2db *db);
+/* mu2db_verify: leitura de integridade com lock COMPARTILHADO nao bloqueante (D2-41).
+ * Devolve MU2DB_OK so quando leu o arquivo inteiro sem escritor ativo; se houver escritor, devolve
+ * MU2DB_E_TRAVADO com detalhe nomeado em vez de arriscar leitura rasgada. Nunca bloqueia (nao ha
+ * espera por lock), nunca deixa lock pendurado (todo caminho fecha o descritor) e recusa versao de
+ * schema diferente da suportada, como a abertura. */
 int mu2db_verify(const char *caminho, char *detalhe, size_t detalhe_len);
 int mu2db_stats_get(const mu2db *db, mu2db_stats *fora);
 const char *mu2db_errstr(int err);

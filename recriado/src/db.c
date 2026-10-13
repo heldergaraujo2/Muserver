@@ -379,7 +379,10 @@ static int gravar_cabecalho(mu2db *db)
     uint8_t cab[MU2DB_CAB];
     memset(cab, 0, sizeof cab);
     memcpy(cab, MU2DB_MAGIC, 8);
-    poe_u32(cab + 8, MU2DB_SCHEMA_VERSION);
+    /* D2-41: a versao gravada e a que foi CARREGADA do arquivo, nunca a constante. Hoje as duas
+     * coincidem (so existe v1) porque a abertura recusa versao diferente da suportada; o que isto
+     * elimina e o risco latente de recarimbar em silencio um arquivo de formato antigo. */
+    poe_u32(cab + 8, db->schema_version);
     poe_u32(cab + 12, 0);
     poe_u64(cab + 16, db->next_conta);
     poe_u64(cab + 24, db->next_pers);
@@ -850,6 +853,14 @@ mu2db *mu2db_abrir(const char *caminho, char *erro, size_t erro_len)
                      db->schema_version, MU2DB_SCHEMA_VERSION);
         close(db->fd); free(db); return NULL;
     }
+    /* D2-41: versao anterior a suportada NAO e "quase compativel" — nao existe caminho de migracao,
+     * e abrir levando a versao velha para escrita recarimbaria o cabecalho como novo em silencio. */
+    if (db->schema_version < MU2DB_SCHEMA_VERSION) {
+        if (erro && erro_len)
+            snprintf(erro, erro_len, "schema %u anterior ao suportado (%u): sem caminho de migracao",
+                     db->schema_version, MU2DB_SCHEMA_VERSION);
+        close(db->fd); free(db); return NULL;
+    }
 
     {
         int r = varre(db, &fim, erro, erro_len, 1);
@@ -926,15 +937,28 @@ int mu2db_verify(const char *caminho, char *detalhe, size_t detalhe_len)
     fd = open(caminho, O_RDONLY);
     if (fd < 0)
         return MU2DB_E_IO;
+    /* D2-41: lock COMPARTILHADO e NAO BLOQUEANTE. Compartilhado porque a leitura nao pode conviver
+     * com um escritor no meio de uma gravacao (o registro cabe em duas escritas: cabecalho de 32 B e
+     * payload — um leitor sem lock pode ver o cabecalho do registro e o payload ainda nao, e chamar
+     * de corrupcao o que e escrita em curso). Nao bloqueante porque `LOCK_SH` bloqueante daria
+     * deadlock no caso legitimo ja existente: o MESMO processo com o banco aberto (lock exclusivo)
+     * verificando o mesmo caminho. Sem o lock, recusa nomeada — nunca "ok" sobre leitura rasgada. */
+    if (flock(fd, LOCK_SH | LOCK_NB) != 0) {
+        close(fd);
+        if (detalhe && detalhe_len)
+            snprintf(detalhe, detalhe_len,
+                     "arquivo em uso: verificacao concorrente nao garantida (escritor ativo)");
+        return MU2DB_E_TRAVADO;
+    }
     r = ler_completo(fd, cab, MU2DB_CAB, 0);
     if (r != MU2DB_OK || memcmp(cab, MU2DB_MAGIC, 8) != 0) {
-        close(fd);
+        flock(fd, LOCK_UN); close(fd);
         if (detalhe && detalhe_len)
             snprintf(detalhe, detalhe_len, "cabecalho ausente ou magic invalido");
         return MU2DB_E_FORMATO;
     }
     if (crc32c(cab, 40) != le32(cab + 40)) {
-        close(fd);
+        flock(fd, LOCK_UN); close(fd);
         if (detalhe && detalhe_len)
             snprintf(detalhe, detalhe_len, "CRC do cabecalho divergente");
         return MU2DB_E_CRC;
@@ -942,7 +966,19 @@ int mu2db_verify(const char *caminho, char *detalhe, size_t detalhe_len)
     memset(&tmp, 0, sizeof tmp);
     tmp.fd = fd;
     tmp.schema_version = le32(cab + 8);
+    /* mesma regra de versao da abertura: nao se certifica o que nao se sabe interpretar */
+    if (tmp.schema_version != MU2DB_SCHEMA_VERSION) {
+        flock(fd, LOCK_UN); close(fd);
+        if (detalhe && detalhe_len)
+            snprintf(detalhe, detalhe_len,
+                     tmp.schema_version > MU2DB_SCHEMA_VERSION
+                         ? "schema %u mais novo que o suportado (%u)"
+                         : "schema %u anterior ao suportado (%u): sem caminho de migracao",
+                     tmp.schema_version, MU2DB_SCHEMA_VERSION);
+        return MU2DB_E_FORMATO;
+    }
     r = varre(&tmp, &fim, detalhe, detalhe_len, 0);
+    flock(fd, LOCK_UN);
     close(fd);
     return r;
 }

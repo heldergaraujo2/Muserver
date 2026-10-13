@@ -585,3 +585,66 @@ exatamente aí que o defeito apareceu, nas duas primeiras versões.
 **Limite declarado.** Concorrência de dois processos **escrevendo** ao mesmo tempo não está coberta
 (o teste cobre o conflito de trava); não há migração de dados de produção porque não existe dado de
 produção legítimo neste ambiente; e nada disso é o banco do original.
+
+## D2-41 — `schema_version` identifica o formato; migração automática NÃO existe, e a verificação toma lock compartilhado
+
+**Contexto.** A auditoria P3 (`reports/r11b-veredito-auditoria-p3-2026-10-13.md`) mediu duas
+divergências entre o que a documentação prometia e o que o código fazia:
+
+1. o cabeçalho de `db.h` prometia "abrir arquivo mais velho migra em memória na abertura, com um
+   registro de migração gravado". **Não existe caminho de migração**: `REG_MIGRACAO` aparece só no
+   `enum` e num `case` da varredura, nunca é gravado; e `gravar_cabecalho` carimbava **sempre a
+   constante** `MU2DB_SCHEMA_VERSION`, não a versão efetivamente carregada do arquivo — ou seja, no
+   dia em que a versão subisse, um arquivo antigo seria recarimbado como novo **sem** migração;
+2. `mu2db_verify` abria o arquivo em `O_RDONLY` **sem `flock`**. Durante uma escrita em curso a
+   leitura pode ver um registro pela metade e reportar "corrupção" que não existe.
+
+**Decisão (quatro partes).**
+
+1. **`schema_version` é a versão do formato, e ponto.** Não há migração automática, não há promessa
+   de retrocompatibilidade de leitura e não há registro de migração. O texto do cabeçalho passa a
+   dizer isso em uma linha, e o relatório de auditoria registra a divergência encontrada.
+2. **Comportamento por versão, fail closed nas duas pontas.** Ao abrir:
+   - **atual** (`== MU2DB_SCHEMA_VERSION`): abre normalmente;
+   - **futura** (`>`, arquivo escrito por versão mais nova): recusa nomeada
+     `schema N mais novo que o suportado (M)` — comportamento que já existia e continua;
+   - **antiga** (`<`): recusa nomeada
+     `schema N anterior ao suportado (M): sem caminho de migracao` — **nunca** carimba a versão nova
+     em silêncio (era o defeito latente do item 1);
+   - **cabeçalho inválido** (arquivo curto, magic errado, CRC divergente): recusa nomeada, como já era.
+3. **O cabeçalho é gravado com a versão carregada** (`db->schema_version`), não com a constante.
+   Hoje as duas coincidem (só existe v1), então a troca é **defensiva**: remove o risco latente de
+   carimbo silencioso. Está declarado que **não há teste que distinga as duas implementações hoje**,
+   porque o caso não é alcançável sem uma v2 — o que existe é o teste de guarda do formato: arquivo
+   novo carrega exatamente `MU2DB_SCHEMA_VERSION` no byte 8 do cabeçalho.
+4. **`mu2db_verify` toma `LOCK_SH | LOCK_NB`.** Compartilhado porque a leitura não pode conviver com
+   um escritor no meio da escrita; **não bloqueante** porque um `LOCK_SH` bloqueante dá deadlock no
+   caso legítimo já existente — o mesmo processo com o banco aberto (lock exclusivo) chamando
+   `mu2db_verify` no mesmo caminho (`tests/db_test.c` faz exatamente isso). Sem o lock, `verify`
+   devolve `MU2DB_E_TRAVADO` com detalhe nomeado (`arquivo em uso: verificacao concorrente nao
+   garantida`), e o `mu2dbctl verificar` sai != 0 — **nunca** "integridade=ok" obtido sobre leitura
+   possivelmente rasgada. O lock é liberado em todos os caminhos de saída (o `close` o libera, e não
+   há caminho que não feche o descritor).
+
+**Motivo.** Fail closed nas duas pontas: um arquivo que o processo não sabe interpretar não é
+"aberto por sorte" nem "verificado com ressalva silenciosa". E a leitura concorrente ou tem garantia
+(lock compartilhado) ou diz que não tem.
+
+**Efeito medido, declarado sem maquiagem (o que o lock compartilhado custa).** Verificação e escrita
+se **excluem**: enquanto um `verificar` roda, o escritor pode ser recusado (`arquivo em uso`), e
+vice-versa. Medido em 3 tentativas de 20 escritas contra um verificador em laço
+(`tests/dbctl.sh`, bloco de concorrência): verificador recusado 1–5 vezes em ~120 tentativas,
+escritor recusado 2–5 vezes em 60, **zero** respostas fora do contrato e livro-caixa exato (o
+inventário final é exatamente o número de escritas bem-sucedidas). Consequência operacional: um
+verificador periódico pode causar recusas esporádicas de escrita no serviço. Fica como
+**característica declarada** desta versão, não como detalhe escondido: a alternativa (verificar sem
+lock) é justamente o risco que a auditoria P3 apontou. Política de repetição com recuo, janela de
+manutenção ou `verify` explícito "sem garantia" são decisões do proprietário e **não** foram tomadas
+aqui.
+
+**Limite declarado.** Continua **não** coberto: dois processos escrevendo ao mesmo tempo (só o
+conflito de trava), migração real de dados (não existe dado de produção legítimo aqui) e queda de
+energia do host (o que se mede é a chamada de `fsync` antes do retorno). `verify` durante um commit
+em curso passa a ser recusado em vez de tentado — a janela de leitura consistente é "sem escritor
+ativo". Evidência: `tests/db_test.c` (`teste_schema_versao`, `teste_verify_lock`),
+`tests/dbctl.sh` (casos de CLI novos) e `reports/r11c-schema-e-lock-2026-10-13.md`.

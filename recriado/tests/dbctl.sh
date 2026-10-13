@@ -136,5 +136,100 @@ ck "depois da recuperacao a base volta a aceitar operacao normal" \
     "$CTL" "$CR" listar-inventario jogador1 Beta | grep -q "^quantidade=1$" &&
     "$CTL" "$CR" listar-inventario jogador1 Alfa | grep -q "^quantidade=0$"'
 
+# ---------------------------------------------------------------- D2-41: verificacao concorrente
+# O CENARIO tem de realmente acontecer: quem segura o lock exclusivo e outro PROCESSO (flock(1)),
+# e o estado do lock e confirmado por leitura concorrente dos dois lados — nao basta "rodou muitas
+# vezes e deu certo".
+VK=$T/verifycon.db
+"$CTL" "$VK" criar-conta jogador1 senha-forte-9 >/dev/null 2>&1
+"$CTL" "$VK" criar-personagem jogador1 Concorrente 1 >/dev/null 2>&1
+
+ck "sem escritor ativo: verificar aprova (linha de base do cenario)" \
+   '"$CTL" "$VK" verificar | grep -q "^integridade=ok$"'
+
+# (a) escritor ativo segurando LOCK_EX com o processo VIVO: verificar tem de recusar
+exec 8>>"$VK"
+ck "o processo de teste obteve LOCK_EX de verdade no arquivo (flock(1))" 'flock -n 8'
+"$CTL" "$VK" verificar > "$T/vk1.txt" 2>&1
+RC_VK1=$?
+ck "com ESCRITOR ativo, verificar sai != 0 (recusa, nao leitura rasgada)" '[ "$RC_VK1" -ne 0 ]'
+ck "a recusa nomeia o motivo (arquivo em uso / escritor ativo)" \
+   'grep -q "arquivo em uso" "$T/vk1.txt" && grep -q "escritor ativo" "$T/vk1.txt"'
+ck "a recusa NAO se disfarca de sucesso (nenhum integridade=ok na saida)" \
+   '! grep -q "^integridade=ok$" "$T/vk1.txt"'
+ck "segunda tentativa com escritor ativo: mesma recusa (nao e sorte de agendamento)" \
+   '! "$CTL" "$VK" verificar > "$T/vk2.txt" 2>&1 && grep -q "escritor ativo" "$T/vk2.txt"'
+
+# (b) a verificacao recusada NAO deixou lock pendurado: o escritor continua sendo o unico dono
+ck "depois da recusa, o LOCK_EX do teste continua valido (verify nao tomou lock nenhum)" 'flock -n 8'
+# (c) leitor ativo: bloqueio compartilhado e compativel (a leitura convive com leitura)
+exec 9>>"$VK"
+flock -s -n 9
+ck "com LEITOR ativo (LOCK_SH), o verify continua recusando enquanto o escritor do teste existe" \
+   '! "$CTL" "$VK" verificar >/dev/null 2>&1'
+flock -u 8
+ck "liberado o escritor do teste, o verify aprova mesmo com LEITOR ativo (LOCK_SH e compartilhado)" \
+   '"$CTL" "$VK" verificar | grep -q "^integridade=ok$"'
+ck "o LOCK_SH do teste continua valido depois do verify (verify nao mexe no lock de outro)" 'flock -n 9'
+# (d) o escritor do produto espera? NAO: um leitor ativo exclui o escritor, com motivo nomeado
+"$CTL" "$VK" criar-conta outra senha-forte-9 > "$T/vk3.txt" 2>&1
+RC_VK3=$?
+ck "com LEITOR ativo, o ESCRITOR (criar-conta) e recusado com motivo nomeado" \
+   '[ "$RC_VK3" -ne 0 ] && grep -q "^erro=abrir$" "$T/vk3.txt" && grep -q "arquivo em uso" "$T/vk3.txt"'
+flock -u 9
+ck "liberado o leitor, o escritor entra normalmente" \
+   '"$CTL" "$VK" criar-conta outra senha-forte-9 >/dev/null 2>&1 &&
+    "$CTL" "$VK" stats | grep -q "^contas=2$"'
+exec 8>&-; exec 9>&-
+ck "arquivo continua integro depois de todo o cenario concorrente" \
+   '"$CTL" "$VK" verificar | grep -q "^integridade=ok$"'
+
+# (e) corroboracao com escritor REAL: verificadores e escritor rodando ao mesmo tempo.
+# Aqui aparece um efeito do desenho que precisa ficar registrado, nao escondido: verificacao e
+# escrita se EXCLUEM (LOCK_SH x LOCK_EX), entao quem perde a corrida e recusado nomeado — inclusive
+# o ESCRITOR pode ser recusado enquanto um verificador roda. Medir isso (e nao fingir que nao
+# existe) e o objetivo deste bloco. As tres afirmacoes sao sobre fatos contados nos dois lados:
+#   - sobreposicao: pelo menos um lado viu recusa (se nenhum viu, os dois nunca se encontraram);
+#   - livro-caixa: o inventario final e EXATAMENTE o numero de escritas bem-sucedidas;
+#   - contrato: nenhuma resposta fora do contrato (nem "corrupcao" falsa, nem "ok" mentiroso).
+VK2=$T/verifycon2.db
+"$CTL" "$VK2" criar-conta jogador1 senha-forte-9 >/dev/null 2>&1
+"$CTL" "$VK2" criar-personagem jogador1 Alfa 1 >/dev/null 2>&1
+VR_OK=0; VR_REC=0; VR_OUT=0; WR_OK=0; WR_REC=0
+for tentativa in 1 2 3; do
+    : > "$T/vk_iter.txt"
+    ( i=0
+      while [ $i -lt 40 ]; do
+          i=$((i + 1))
+          if out=$("$CTL" "$VK2" verificar 2>&1); then echo "OK" >> "$T/vk_iter.txt"
+          elif printf '%s' "$out" | grep -q "escritor ativo"; then echo "RECUSA" >> "$T/vk_iter.txt"
+          else echo "OUTRO: $out" >> "$T/vk_iter.txt"; fi
+      done ) &
+    VPID=$!
+    j=0
+    while [ $j -lt 20 ]; do
+        j=$((j + 1))
+        if out=$("$CTL" "$VK2" dar-item jogador1 Alfa $((900 + tentativa * 100 + j)) 1 9 2>&1); then
+            WR_OK=$((WR_OK + 1))
+        elif printf '%s' "$out" | grep -q "arquivo em uso"; then
+            WR_REC=$((WR_REC + 1))
+        fi
+    done
+    wait "$VPID"
+    VR_OK=$((VR_OK + $(grep -c "^OK" "$T/vk_iter.txt")))
+    VR_REC=$((VR_REC + $(grep -c "^RECUSA" "$T/vk_iter.txt")))
+    VR_OUT=$((VR_OUT + $(grep -c "^OUTRO" "$T/vk_iter.txt")))
+    cp "$T/vk_iter.txt" "$T/vk_t$tentativa.txt"
+done
+printf '# info: concorrencia tentativas=3 verificar(ok=%d recusado=%d fora_do_contrato=%d) escritor(ok=%d recusado=%d)\n' \
+       "$VR_OK" "$VR_REC" "$VR_OUT" "$WR_OK" "$WR_REC"
+ck "sobreposicao REALMENTE aconteceu (recusas somadas dos dois lados = $((VR_REC + WR_REC)) >= 1)" \
+   '[ $((VR_REC + WR_REC)) -ge 1 ]'
+ck "nenhuma resposta fora do contrato durante a concorrencia (nem corrupcao falsa nem ok mentiroso: $VR_OUT)" \
+   '[ "$VR_OUT" = 0 ]'
+ck "livro-caixa exato: o inventario tem exatamente as $WR_OK escritas bem-sucedidas" \
+   '[ "$WR_OK" -ge 1 ] && "$CTL" "$VK2" listar-inventario jogador1 Alfa | grep -q "^quantidade=$WR_OK$"'
+ck "e o arquivo final esta integro" '"$CTL" "$VK2" verificar | grep -q "^integridade=ok$"'
+
 printf '1..%d\n# dbctl=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

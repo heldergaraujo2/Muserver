@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/file.h>
 #include <sys/stat.h>
 #include <unistd.h>
 
@@ -190,7 +191,7 @@ static void teste_ciclo_vida(void)
 /* ------------------------------------------------------------------ transacoes */
 static void teste_transacoes(void)
 {
-    char p[512], erro[MU2DB_ERRO_MAX];
+    char p[512], erro[MU2DB_ERRO_MAX], det[256];
     mu2db *db;
     uint32_t cid = 0, pid = 0;
     size_t qtd = 0;
@@ -246,8 +247,17 @@ static void teste_transacoes(void)
                "operacoes sem commit foram descartadas e contadas (o contador existe e nao e zero)");
             printf("# descartados=%.0f registros=%.0f\n", (double)st.descartados,
                    (double)st.registros);
-            ck(mu2db_verify(p, NULL, 0) == MU2DB_OK, "arquivo reparado por truncagem fica valido");
+            /* D2-41: com o banco ABERTO no mesmo processo (LOCK_EX no caminho), a verificacao
+             * concorrente e recusada de forma nomeada — antes do lock isto passava por sorte de
+             * agendamento, e sem o lock a leitura podia ver registro pela metade. */
+            { int rv = mu2db_verify(p, det, sizeof det);
+              ck(rv == MU2DB_E_TRAVADO,
+                 "verify com o banco aberto no mesmo processo recusa (nao arrisca leitura rasgada)");
+              ck(strstr(det, "em uso") != NULL, "a recusa tem motivo nomeado");
+              if (rv != MU2DB_E_TRAVADO) printf("# MOTIVO verify travado: %s\n", mu2db_errstr(rv)); }
             mu2db_fechar(db);
+            ck(mu2db_verify(p, NULL, 0) == MU2DB_OK,
+               "arquivo reparado por truncagem fica valido (verificado com o banco fechado)");
         }
     }
 }
@@ -491,6 +501,233 @@ static void teste_ids_derivados_do_log(void)
     mu2db_fechar(db);
 }
 
+/* ------------------------------------------------------------------ schema: versao do formato */
+/* Forja o campo de versao do cabecalho E RECALCULA O CRC (a implementacao do modulo e usada so
+ * para o CRC; a regra de versao e testada sem atalho). Sem isto, "versao futura" seria recusada
+ * por CRC divergente e o teste nao provaria nada sobre versao — foi o defeito do caso antigo. */
+static int forja_versao(const char *p, uint32_t versao)
+{
+    uint8_t cab[64];
+    int fd = open(p, O_RDWR);
+    if (fd < 0) return -1;
+    if (pread(fd, cab, 64, 0) != 64) { close(fd); return -1; }
+    memcpy(cab + 8, &versao, 4);
+    { uint32_t crc = mu2db_teste_crc32c(cab, 40); memcpy(cab + 40, &crc, 4); }
+    if (pwrite(fd, cab, 64, 0) != 64) { close(fd); return -1; }
+    close(fd);
+    return 0;
+}
+
+static int mesma_imagem(const char *a, const char *b)
+{
+    uint8_t x[512], y[512];
+    int fa = open(a, O_RDONLY), fb = open(b, O_RDONLY);
+    if (fa < 0 || fb < 0) { if (fa >= 0) close(fa); if (fb >= 0) close(fb); return 0; }
+    for (;;) {
+        ssize_t na = read(fa, x, sizeof x), nb = read(fb, y, sizeof y);
+        if (na != nb) { close(fa); close(fb); return 0; }
+        if (na <= 0) break;
+        if (memcmp(x, y, (size_t)na) != 0) { close(fa); close(fb); return 0; }
+    }
+    close(fa); close(fb);
+    return 1;
+}
+
+static void teste_schema_versao(void)
+{
+    char p[512], copia[512], erro[MU2DB_ERRO_MAX], det[256];
+    mu2db *db;
+    mu2db_stats st;
+    uint8_t cab[64];
+    int fd;
+
+    caminho(p, "schema.db");
+    caminho(copia, "schema-copia.db");
+    unlink(p);
+    unlink(copia);
+
+    /* 1) arquivo novo carimba EXATAMENTE a versao suportada (guarda do formato: se a constante
+     *    subir sem que o caminho de gravacao acompanhe, este caso acusa) */
+    db = mu2db_abrir(p, erro, sizeof erro);
+    if (db == NULL) { ck(0, "abre arquivo de schema"); printf("# MOTIVO: %s\n", erro); return; }
+    ck(mu2db_conta_criar(db, "conta_schema", "senha-forte-5", NULL) == MU2DB_OK, "conta no arquivo de schema");
+    mu2db_fechar(db);
+    fd = open(p, O_RDONLY);
+    if (fd >= 0) {
+        ssize_t lido = pread(fd, cab, 64, 0);
+        close(fd);
+        ck(lido == 64, "cabecalho tem 64 bytes");
+    } else ck(0, "le cabecalho para conferir a versao");
+    { uint32_t v; memcpy(&v, cab + 8, 4);
+      ck(v == MU2DB_SCHEMA_VERSION, "cabecalho grava exatamente MU2DB_SCHEMA_VERSION");
+      printf("# schema no cabecalho: %u (constante %u)\n", v, MU2DB_SCHEMA_VERSION); }
+
+    /* 2) reabertura corrente: abre, reporta a versao CARREGADA e mantem os dados */
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db != NULL, "reabre arquivo na versao corrente");
+    if (db != NULL) {
+        mu2db_stats_get(db, &st);
+        ck(st.schema_version == MU2DB_SCHEMA_VERSION, "stats reporta a versao carregada do arquivo");
+        ck(mu2db_conta_existe(db, "conta_schema") == 1, "dados persistem na reabertura");
+        mu2db_fechar(db);
+    } else printf("# MOTIVO: %s\n", erro);
+
+    /* 3) guarda da imagem: copia byte a byte para comparar depois das recusas */
+    { int fin = open(p, O_RDONLY), fout = open(copia, O_WRONLY | O_CREAT | O_TRUNC, 0600);
+      uint8_t buf[512]; ssize_t k;
+      while (fin >= 0 && fout >= 0 && (k = read(fin, buf, sizeof buf)) > 0) {
+        if (write(fout, buf, (size_t)k) != k) break;
+      }
+      if (fin >= 0) close(fin);
+      if (fout >= 0) close(fout); }
+    ck(mesma_imagem(p, copia), "copia de comparacao identica ao arquivo");
+
+    /* 4) versao FUTURA com CRC VALIDO: recusa nomeada na abertura e na verificacao; arquivo intacto */
+    ck(forja_versao(p, MU2DB_SCHEMA_VERSION + 98) == 0, "forja cabecalho de versao futura com CRC valido");
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db == NULL, "abre versao futura: recusa");
+    /* se algum dia a recusa falhar, fechar aqui garante que o defeito apareca como `not ok`
+     * (asserção), e nao como vazamento no LeakSanitizer no fim da suite */
+    if (db != NULL) mu2db_fechar(db);
+    ck(db == NULL && strstr(erro, "mais novo que o suportado") != NULL,
+       "recusa da versao futura e nomeada");
+    printf("# MOTIVO versao futura: %s\n", erro);
+    ck(mu2db_verify(p, det, sizeof det) != MU2DB_OK, "verify de versao futura: recusa");
+    ck(strstr(det, "mais novo") != NULL, "verify diz que a versao e mais nova");
+    ck(mesma_imagem(p, copia) == 0, "arquivo COM a versao forjada difere da copia (o forjador funcionou)");
+
+    /* 5) versao ANTIGA com CRC VALIDO: recusa nomeada, e NAO recarimba em silencio */
+    ck(forja_versao(p, 0) == 0, "forja cabecalho de versao antiga (0) com CRC valido");
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db == NULL, "abre versao antiga: recusa (nao ha caminho de migracao)");
+    if (db != NULL) mu2db_fechar(db);   /* idem: defeito vira assertiva, nao vazamento */
+    ck(db == NULL && strstr(erro, "anterior ao suportado") != NULL && strstr(erro, "migracao") != NULL,
+       "recusa da versao antiga e nomeada e fala em migracao");
+    printf("# MOTIVO versao antiga: %s\n", erro);
+    ck(mu2db_verify(p, det, sizeof det) != MU2DB_OK, "verify de versao antiga: recusa");
+    fd = open(p, O_RDONLY);
+    if (fd >= 0) {
+        if (pread(fd, cab, 64, 0) != 64) ck(0, "rele cabecalho forjado");
+        close(fd);
+    }
+    { uint32_t v; memcpy(&v, cab + 8, 4);
+      ck(v == 0, "versao antiga CONTINUA 0 no disco (nenhum recarimbo silencioso)"); }
+
+    /* 6) restaura a versao corrente: o dado continua la (a recusa nao destruiu nada) */
+    ck(forja_versao(p, MU2DB_SCHEMA_VERSION) == 0, "restaura a versao corrente com CRC valido");
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db != NULL, "reabre depois de restaurar a versao");
+    if (db != NULL) {
+        ck(mu2db_conta_existe(db, "conta_schema") == 1, "dado sobreviveu as recusas de versao");
+        mu2db_fechar(db);
+    } else printf("# MOTIVO: %s\n", erro);
+    ck(mu2db_verify(p, det, sizeof det) == MU2DB_OK, "verify aprova arquivo restaurado");
+    ck(det[0] == '\0', "verify nao inventa detalhe em arquivo bom");
+
+    /* 7) cabecalho invalido: curto, magic errado e CRC errado — todos recusados e nomeados */
+    caminho(p, "schema-curto.db");
+    unlink(p);
+    fd = open(p, O_WRONLY | O_CREAT | O_TRUNC, 0600);
+    if (fd >= 0) { if (write(fd, "MU2DB01", 7) != 7) ck(0, "escreve cabecalho curto"); close(fd); }
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db == NULL && strstr(erro, "menor que o cabecalho") != NULL,
+       "cabeçalho curto (7 B) recusado com motivo nomeado");
+    ck(mu2db_verify(p, det, sizeof det) == MU2DB_E_FORMATO, "verify de arquivo curto: formato invalido");
+    ck(strstr(det, "cabecalho ausente") != NULL, "verify diz que o cabecalho esta ausente");
+
+    caminho(p, "schema-magic.db");
+    unlink(p);
+    db = mu2db_abrir(p, erro, sizeof erro);
+    if (db != NULL) mu2db_fechar(db);
+    fd = open(p, O_RDWR);
+    if (fd >= 0) {
+        if (pwrite(fd, "XX", 2, 0) != 2) ck(0, "estraga magic");
+        close(fd);
+    }
+    db = mu2db_abrir(p, erro, sizeof erro);
+    ck(db == NULL && strstr(erro, "magic invalido") != NULL, "magic invalido recusado com motivo nomeado");
+    ck(mu2db_verify(p, det, sizeof det) == MU2DB_E_FORMATO, "verify de magic invalido: formato invalido");
+}
+
+/* ------------------------------------------------------------------ verify: lock compartilhado */
+static void teste_verify_lock(void)
+{
+    char p[512], erro[MU2DB_ERRO_MAX], det[256];
+    mu2db *db;
+    int fd, rv;
+
+    caminho(p, "verify-lock.db");
+    unlink(p);
+    db = mu2db_abrir(p, erro, sizeof erro);
+    if (db == NULL) { ck(0, "abre arquivo de lock"); printf("# MOTIVO: %s\n", erro); return; }
+    mu2db_conta_criar(db, "conta_lock", "senha-forte-6", NULL);
+    mu2db_fechar(db);
+
+    /* 1) sem ninguem: verify aprova e NAO deixa lock pendurado */
+    ck(mu2db_verify(p, det, sizeof det) == MU2DB_OK, "verify aprova arquivo sem escritor ativo");
+    fd = open(p, O_RDONLY);
+    ck(fd >= 0, "abre descritor proprio para conferir liberacao");
+    if (fd >= 0) {
+        ck(flock(fd, LOCK_EX | LOCK_NB) == 0, "verify NAO deixa lock pendurado (LOCK_EX livre depois)");
+        flock(fd, LOCK_UN);
+    }
+
+    /* 2) leitor com LOCK_SH: verify convive (dois leitores); escritor e excluido enquanto isso */
+    if (fd >= 0) {
+        ck(flock(fd, LOCK_SH | LOCK_NB) == 0, "teste toma LOCK_SH (simula outro leitor)");
+        ck(mu2db_verify(p, det, sizeof det) == MU2DB_OK, "verify convive com outro LEITOR (lock compartilhado)");
+        db = mu2db_abrir(p, erro, sizeof erro);
+        ck(db == NULL && strstr(erro, "arquivo em uso") != NULL,
+           "com leitor ativo, escritor e excluido com motivo nomeado (o lock e real)");
+        /* sem deadlock: um LOCK_SH pendurado nao trava o teste, porque o verify nao espera lock */
+        ck(mu2db_verify(p, det, sizeof det) == MU2DB_OK, "verify repetido com leitor ativo nao trava");
+        flock(fd, LOCK_UN);
+        db = mu2db_abrir(p, erro, sizeof erro);
+        ck(db != NULL, "liberado o leitor, o escritor volta a entrar");
+        if (db != NULL) mu2db_fechar(db);
+        close(fd);
+    }
+
+    /* 3) erro na verificacao NAO deixa lock pendurado (liberacao em caminho de erro) */
+    caminho(p, "verify-erro.db");
+    unlink(p);
+    db = mu2db_abrir(p, erro, sizeof erro);
+    if (db != NULL) {
+        mu2db_conta_criar(db, "conta_erro", "senha-forte-7", NULL);
+        mu2db_fechar(db);
+    }
+    fd = open(p, O_RDWR);
+    if (fd >= 0) {
+        uint8_t b;
+        if (pread(fd, &b, 1, 64 + 32) == 1) { b ^= 0xFF; if (pwrite(fd, &b, 1, 64 + 32) != 1) ck(0, "corrompe"); }
+        close(fd);
+    }
+    rv = mu2db_verify(p, det, sizeof det);
+    ck(rv == MU2DB_E_CRC, "verify detecta corrupcao de registro");
+    fd = open(p, O_RDONLY);
+    if (fd >= 0) {
+        ck(flock(fd, LOCK_EX | LOCK_NB) == 0, "verify que FALHOU tambem libera o lock");
+        flock(fd, LOCK_UN);
+        ck(flock(fd, LOCK_SH | LOCK_NB) == 0, "e permite novo leitor imediatamente");
+        flock(fd, LOCK_UN);
+        close(fd);
+    }
+
+    /* 4) escritor ativo: verify recusa nomeado, e a recusa e sobre o lock (nao sobre o conteudo) */
+    caminho(p, "verify-ativo.db");
+    unlink(p);
+    db = mu2db_abrir(p, erro, sizeof erro);
+    if (db != NULL) {
+        mu2db_conta_criar(db, "conta_ativa", "senha-forte-8", NULL);
+        rv = mu2db_verify(p, det, sizeof det);
+        ck(rv == MU2DB_E_TRAVADO, "verify com ESCRITOR ativo no mesmo processo: recusa");
+        ck(strstr(det, "escritor ativo") != NULL, "a recusa cita escritor ativo");
+        ck(det[0] != '\0', "a recusa sempre tem detalhe (nunca codigo mudo)");
+        mu2db_fechar(db);
+        ck(mu2db_verify(p, det, sizeof det) == MU2DB_OK, "fechado o escritor, verify aprova o mesmo arquivo");
+    }
+}
+
 int main(int argc, char **argv)
 {
     if (argc < 2) {
@@ -506,6 +743,8 @@ int main(int argc, char **argv)
     teste_corrupcao();
     teste_limites_inventario();
     teste_concorrencia();
+    teste_schema_versao();
+    teste_verify_lock();
     teste_ids_derivados_do_log();
 
     printf("1..%d\n", n);
