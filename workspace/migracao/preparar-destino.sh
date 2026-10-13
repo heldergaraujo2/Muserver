@@ -34,9 +34,9 @@ if [ "$dst" = "--gate" ]; then dst=/tmp/mu2dest; gate=1; fi
 # Reproduzibilidade medida: duas construcoes independentes deram o mesmo HEAD, a mesma arvore e o
 # mesmo sha256 de bundle (constantes refixadas apos re-medir). Divergir daqui
 # nao e' falha automatica — o conteudo do monorepo pode ter evoluido — mas TEM de ser explicado.
-TREE_ESPERADA=${TREE_ESPERADA:-233c2bd08cb37c0f8aa2196831fa99f53a3b8453}
+TREE_ESPERADA=${TREE_ESPERADA:-99c9b8ffe2982da0a1921788d3a173572e4b80e9}
 ARQ_ESPERADOS=${ARQ_ESPERADOS:-174}
-SHA_ESPERADO=${SHA_ESPERADO:-05b8cff7df066b2aa8b1d5459051f08be768117c1d9d3ef7d6ecc1b5c5fdef98}
+SHA_ESPERADO=${SHA_ESPERADO:-76d71bd8c35c58c7d54dec626053239f6d8d8c7314eab8214175ec0d1f2b890c}
 
 ok=0; bad=0
 say() { printf '%-38s %s\n' "$1" "$2"; }

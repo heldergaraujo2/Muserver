@@ -30,7 +30,7 @@ cada rodada) e os caminhos reescritos para a raiz.
 O destino foi criado por `git init` + `git fetch file://<clone> mu2-import:main` e **não** por
 `git clone`: o clone local copia o pack inteiro do monorepo (134 MB, incluindo os blobs do
 `MuServer/`) para dentro de um repositório que não deve carregá-los — medido. Com o `fetch` por
-protocolo, o `.git` do destino ficou em **≈ 2 MB** (medido: `du -sk .git` = 2079 KB; o pack do
+protocolo, o `.git` do destino ficou em **≈ 2 MB** (medido: `du -sk .git` ≈ 2100 KB; o pack do
 monorepo tem 134 MB).
 
 A adaptação da árvore (caminhos, layout e documentos) é feita por

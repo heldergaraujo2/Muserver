@@ -1,0 +1,28 @@
+# Migracao para MuserverRecriado — medidas da rodada 2 (2026-10-12/13; nenhum numero sem o comando que o gerou)
+item	valor	comando_fonte
+split_do_historico	39 commits (mensagens originais)	git subtree split --prefix=recriado -b mu2-import HEAD
+split_tip	eee2a353e2468cc3ae2edd8b2108115e4c81e91f	git rev-parse mu2-import
+split_base	3c49470 (base do split: correcao do 5o defeito, a corrida da linha de base dos descritores)	git log -1 --format=%h -- recriado/
+destino_head	51b2b1574e2fb02cfd54ab34d49cdfd31d69f6b5	git -C /tmp/mu2destR10 rev-parse HEAD
+destino_arvore	99c9b8ffe2982da0a1921788d3a173572e4b80e9	git -C /tmp/mu2destR10 rev-parse HEAD^{tree}
+destino_arquivos	174 (83 da arvore do v2 + 89 de workspace/ + .gitattributes + relatorio)	git -C /tmp/mu2destR10 ls-files | wc -l
+destino_commits	42 (39 do split + evidencia + adaptacao + backup)	git -C /tmp/mu2destR10 rev-list --count HEAD
+copia_independente_bundle	662628 bytes	stat -c%s workspace/backups/mu2-v2.bundle
+copia_independente_sha256	76d71bd8c35c58c7a4cae1facc1c46ad2f6c0e42b0ee5f0f0b1b9f6bcbee40b2	sha256sum workspace/backups/mu2-v2.bundle
+copia_independente_ponta	f42769f1fab8940c2a7d35e13060fb844684d41c	git bundle list-heads workspace/backups/mu2-v2.bundle
+reprodutibilidade_head	51b2b15 (construcoes independentes R9 e R10, com as constantes finais)	bash workspace/migracao/preparar-destino.sh /tmp/mu2destR9 e /tmp/mu2destR10
+reprodutibilidade_arvore	99c9b8ff (identica nas duas)	git rev-parse HEAD^{tree}
+reprodutibilidade_bundle	76d71bd8 (sha256 identico nas duas)	sha256sum
+gate_no_destino	PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2, 281 assercoes, exit 0	make -s gate (em /tmp/mu2destR10)
+gate_na_origem	PASS=18 FAIL=0 BLOCKED=2 NOT_IMPLEMENTED=0 SKIPPED=2, 339 assercoes, exit 0	make -s gate (em recriado/, ambiente limpo)
+check_no_destino	unit=106 make-sintaxe=7 net=34 falhas=0; pe/data BLOCKED (referencia ausente)	make -s check
+descritores_no_destino	fd_antes=8 em 6/6 execucoes (base=8 sempre; imediato chegou a 10)	make -s seguranca (apos a correcao da corrida)
+fuzz_no_destino	12/12, 150000 iteracoes, 52 sementes	make -s fuzz
+gate_selftest_no_destino	19/19, exit 0	make -s gate-selftest
+verify_backup_no_destino	ok=9 falhas=1 blocked=1	bash scripts/verify-backup.sh (falha = publicacao inexistente; blocked = referencia ausente)
+clone_independente	174 arquivos; ls-tree -r sha256 be535006; make -s check sem falhas	git clone /tmp/mu2destR10 /tmp/cloneR10
+git_do_destino	2095 KB	du -sk .git (pack 543 KiB; o pack do monorepo tem 134 MB)
+transporte_bundle	1360014 bytes sha256 0a9ab745356e016af7ca2caba662e1b4ae9bb76c3f8ddf12f91d5d128d9d4791	git bundle create --all + clone -b main + make -s check
+push_destino_403	403 Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2	git push https://github.com/heldergaraujo2/MuserverRecriado.git main:main (publicar-destino.sh)
+api_destino	Resource not accessible by integration (403)	gh api repos/heldergaraujo2/MuserverRecriado
+destino_remoto_vazio	ls-remote sem refs (reconferido antes de publicar)	git ls-remote https://github.com/heldergaraujo2/MuserverRecriado.git

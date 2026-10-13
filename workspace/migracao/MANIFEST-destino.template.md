@@ -13,13 +13,14 @@ sha256: @SHA@
 ## Historia deste artefato (nao reescrita)
 
 Ate a migracao, esta copia era regravada no monorepo `heldergaraujo2/Muserver` a partir de
-`HEAD:recriado` (ultimo: snapshot `b609577`, 247 621 B, sha256 `cff7baea…`, com 82 arquivos).
+`HEAD:recriado` (ultimo: snapshot `2aa641a1`, 258 497 B, sha256 `bd17e807…`, com 83 arquivos).
 Nesta republica o mesmo procedimento passou a ser aplicado **aqui**: o snapshot e' orphan commit da
 arvore deste repositorio, e o bundle volta a conter a arvore inteira — inclusive a evidencia
 `workspace/`, que antes vivia fora do snapshot.
 
 Tamanho ao longo das rodadas (registro de por que ele e' constante): 17 225 -> 38 233 -> 66 195 ->
-134 694 -> 204 585 -> 247 621 (snapshot do monorepo) -> **@SIZE@** bytes nesta republica. O salto
+134 694 -> 204 585 -> 247 621 -> 258 497 (snapshot do monorepo, 83 arquivos) -> **@SIZE@** bytes
+nesta republica. O salto
 nao e' inflacao de historico: o bundle agora cobre a arvore publicada inteira (com a evidencia
 `workspace/`, incluindo os baselines Lua e os relatorios de auditoria) e nao apenas o v2.
 O bundle continua **fora de si mesmo** (o commit do snapshot e' anterior ao arquivo), entao o custo

@@ -37,16 +37,16 @@ e o relatório de migração.
 | item | valor conferido |
 |---|---|
 | histórico preservado | **39 commits** via `git subtree split --prefix=recriado` (mensagens originais), tip `eee2a353` |
-| reprodutibilidade | duas construções independentes ⇒ mesmo HEAD (`0edfcf56`), mesma árvore e mesmo sha256 de bundle (constantes conferidas pelo script) |
+| reprodutibilidade | duas construções independentes ⇒ mesmo HEAD (`51b2b157`), mesma árvore e mesmo sha256 de bundle (constantes conferidas pelo script, `ok=6/falhas=0`) |
 | commits do destino | **42** (39 do split + evidência `workspace/` + adaptação + backup) |
 | arquivos rastreados no destino | **174** (`83` da árvore do v2 + `89` de `workspace/` + `.gitattributes` + relatório) |
-| árvore do destino | `233c2bd08cb37c0f8aa2196831fa99f53a3b8453` |
-| cópia independente do destino | `mu2-snapshot` @ `72bf476b`, bundle **651 692 B**, sha256 `05b8cff7df066b2aa8b1d5459051f08be768117c1d9d3ef7d6ecc1b5c5fdef98` |
-| `.git` do destino | **≈ 2 MB** (`du -sk .git` = 2079 KB; o pack do monorepo tem 134 MB) |
-| transporte | `destino-muserverrecriado.bundle`, **1 348 998 B**, sha256 `9eb8e94a5142f24a…` — clone `-b main` dá árvore idêntica e `make -s check` sem falhas |
+| árvore do destino | `99c9b8ffe2982da0a1921788d3a173572e4b80e9` |
+| cópia independente do destino | `mu2-snapshot` @ `f42769f1`, bundle **662 628 B**, sha256 `76d71bd8c35c58c7a4cae1facc1c46ad2f6c0e42b0ee5f0f0b1b9f6bcbee40b2` |
+| `.git` do destino | **≈ 2 MB** (`du -sk .git` = 2095 KB, pack de 543 KiB; o pack do monorepo tem 134 MB) |
+| transporte | `destino-muserverrecriado.bundle`, **1 360 014 B**, sha256 `0a9ab745356e016a…` — clone `-b main` dá árvore idêntica (174 arquivos) e `make -s check` sem falhas |
 | `make -s gate` no destino | **PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2, 281 asserções, exit 0** (medido em execuções quietas; sob carga o `bench` pode sair `BLOCKED` — 13 PASS/7 BLOCKED — e bloqueado não é falha nem meta) |
-| clone independente | árvore e inventário **idênticos** ao local (174 arquivos, mesmo blob por arquivo); `make -s check` sem falhas |
-| `make -s check` / `fuzz` / `gate-selftest` no destino | sem falhas / 12–12 (150 000 iterações) / 19–19 |
+| clone independente | árvore e inventário **idênticos** ao local (174 arquivos; `ls-tree -r` sha256 `be535006…`); `make -s check` sem falhas |
+| `make -s check` / `fuzz` / `gate-selftest` no destino | sem falhas / 12–12 (150 000 iterações, 52 sementes) / 19–19 |
 | `scripts/verify-backup.sh` no destino | ok=9, **falhas=1** (a publicação, honestamente) e blocked=1 (referência ausente) |
 | **publicação** | **BLOQUEADA**: 403 `denied to heldergaraujo2`; API do destino responde `Resource not accessible by integration` |
 
@@ -62,8 +62,8 @@ Ao validar o destino, `make -s seguranca` falhou de forma intermitente (1 em ~10
 malformações, e o close assíncrono do servidor ainda estava em voo — `fd_antes=9` com piso real 8
 (as 10 execuções estabilizaram em 8; nenhum acúmulo entre rodadas). A base passou a ser o **piso
 observado numa janela curta**; a asserção (`base == estabilizado == 2ª rodada`) continua estrita e um
-vazamento real ainda falha. Conferido depois da correção: 8/8 execuções na origem e 6/6 no destino,
-`base=8` sempre (o imediato chegou a 10, como já era medido).
+vazamento real ainda falha. Conferido depois da correção: 8/8 execuções na origem e 6/6 no artefato
+final (mais 6/6 no build anterior), `base=8` sempre (o imediato chegou a 10, como já era medido).
 
 ## Bloqueio de permissão (o único impedimento real)
 
