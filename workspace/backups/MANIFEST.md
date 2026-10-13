@@ -2,13 +2,13 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (**96 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree 578e7e1:recriado` (rodada da consolidacao para auditoria independente: 9 documentos de estado/arquitetura/limites, README, Makefile com alvo `lua-enc`, auditoria de rastreabilidade atualizada e as matrizes de rede regravadas) |
-| branch do snapshot | `mu2-snapshot` @ `aa227423fe938c4ebb8746feda8eba8193bd5fea` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (323214 bytes) |
+| conteudo | arvore `recriado/` inteira (**103 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree HEAD:recriado` sobre `b5e0c0f` (rodada R-11 + Fase A: persistencia propria do v2 com `src/db.c`/`db.h`/`mu2dbctl.c`/`db_test.c`/`dbctl.sh`, `matriz.sh`, os artefatos do portao corrigidos e a documentacao da rodada) |
+| branch do snapshot | `mu2-snapshot` @ `cf0c09a1bbd914f23adbbe095aa30bce0ada9a84` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (366445 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 774b67889d434e2ccdc3b254928857b8e7106e934522a162847a2605ccf2128d
+sha256: a0fe917e429945bc03e1957a834c331bf1ae6f8f87e801f915722e5443956127
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
@@ -39,7 +39,7 @@ qualquer recriacao de sandbox.
 (snapshot orphan, rodada das lacunas) -> 247 621 (rodada da publicacao) -> 258 497
 (rodada de fechamento e do destino) -> **259931 bytes** (rodada da publicacao dentro do monorepo,
 83 arquivos) -> **283662 bytes** (rodada da etapa `enc`, 87 arquivos) -> **323214 bytes** (rodada da
-consolidacao para auditoria, 96 arquivos). O tamanho acompanha a
+consolidacao para auditoria, 96 arquivos) -> **366445 bytes** (rodada R-11 + Fase A, 103 arquivos). O tamanho acompanha a
 arvore `recriado/`; o snapshot orphan garante que ele nao cresce por acumulo de si mesmo.
 
 Nota de conferencia (2026-10-13): a rodada anterior registrou `259727` na linha do tempo e `259931`
