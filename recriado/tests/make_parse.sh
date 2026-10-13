@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # make_parse.sh — o Makefile e parte do contrato: se as flags mudam silenciosamente, o portao
-# de qualidade muda junto. 7 casos, cada um com o motivo escrito na saida.
+# de qualidade muda junto. 8 casos, cada um com o motivo escrito na saida.
 set -u
 cd "$(dirname "$0")/.." || exit 2
 n=0; bad=0
@@ -25,6 +25,11 @@ ck "6. a build do servico compila mud2, mu2ctl e netclient e liga o codec em cad
 # abaixo falha. Portao que encolhe sem avisar e o jeito mais barato de fingir qualidade.
 ck "7. check inclui a suíte de rede (nao so unit e make-sintaxe)" \
    "make -s -n check | grep -q 'tests/net.sh'"
+# Caso nascido de um defeito real (auditoria 2026-10-13): ao criar o alvo `regressao-lua`, duas
+# linhas do `net-matrix-publish` (o aviso de publicacao + `git status -- reports/`) ficaram presas
+# na receita do alvo novo. O `make -n` nao acusa: quem publica e quem nao publica. Este caso acusa.
+ck "8. so net-matrix-publish escreve em reports/ (alvo que nao publica nao fala de reports/)" \
+   "make -s -n net-matrix-publish | grep -q 'NET_REPORT_DIR=reports' && ! make -s -n regressao-lua | grep -q 'reports/'"
 
 printf '1..%d\n# make-sintaxe=%d falhas=%d\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

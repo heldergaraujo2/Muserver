@@ -72,6 +72,7 @@ matriz	cmd	-	reports/r6-matriz.tsv	1	python3	60	make -s matriz
 cfg	suite	cfg	tools/cfg_probe.py	1	python3	180	make -s cfg
 cfg-selftest	suite	cfg	tests/cfg.sh	1	python3	120	make -s cfg-selftest
 ref-intacta	suite	ref-intacta	tests/ref_check.sh	1	git	120	bash tests/ref_check.sh
+regressao-lua	suite	regressao-lua	tests/regressao_lua.sh	1	git	120	bash tests/regressao_lua.sh
 net-matrix	suite	net	tests/net.sh	0	cc	1800	make -s net-matrix
 matriz-artefatos	suite	matriz-artefatos	tests/matriz.sh	1	-	120	bash tests/matriz.sh
 persistencia	cmd	-	scripts/verify-backup.sh	0	git	600	bash scripts/verify-backup.sh

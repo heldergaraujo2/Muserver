@@ -169,8 +169,17 @@ ck "com o mud2 parado, /stats => 503 upstream_indisponivel e /health mostra degr
 
 kill -TERM "$APID" 2>/dev/null; wait "$APID" 2>/dev/null; RC_ADMIN=$?; APID=""
 ck "SIGTERM no mu2admin => exit 0 (encerramento limpo)" "[ '$RC_ADMIN' = 0 ]"
-ck "mud2 e mu2admin intactos no git: nenhuma alteracao em src/ nem em include/" \
-   "git -C '$GITROOT' diff --quiet -- '${PFX}src' '${PFX}include'"
+# O invariante desta etapa e "o console le o estado do mud2 pelo protocolo e NAO exigiu alterar o
+# servico". A versao anterior perguntava `git diff --quiet -- src include`, que falha com QUALQUER
+# edicao pendente em src/ — inclusive de outro subsistema. Foi o que aconteceu na auditoria de
+# 2026-10-13: `src/db.c` mudou pela R-11 (auditoria P3) e esta etapa acusou "servico alterado" sem
+# que o servico tivesse sido tocado. A lista abaixo e explicita, nao glob: sao os arquivos de
+# contrato compilados no mud2 e no mu2admin (a R-11 nao entra em nenhum dos dois binarios).
+SERVICO_CONTRATO="${PFX}src/mud2.c ${PFX}src/wire.c ${PFX}include/mu2/mu2.h ${PFX}include/mu2/proto.h"
+ck "arquivos de contrato do servico (mud2.c, wire.c, mu2.h, proto.h) sem alteracao pendente" \
+   "git -C '$GITROOT' diff --quiet -- $SERVICO_CONTRATO"
+ck "nenhum arquivo novo nao rastreado em src/ ou include/ (nada entra por engano)" \
+   "! git -C '$GITROOT' status --porcelain -- '${PFX}src' '${PFX}include' | grep -q '^??'"
 
 printf '1..%d\n' "$n"
 printf '# admin=%d falhas=%d blocked=%d\n' "$n" "$bad" "$BL"
