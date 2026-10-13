@@ -2,13 +2,13 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (**103 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree HEAD:recriado` sobre `b5e0c0f` (rodada R-11 + Fase A: persistencia propria do v2 com `src/db.c`/`db.h`/`mu2dbctl.c`/`db_test.c`/`dbctl.sh`, `matriz.sh`, os artefatos do portao corrigidos e a documentacao da rodada) |
-| branch do snapshot | `mu2-snapshot` @ `0909cc188065ab7895ea0004d387f13da10c5067` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (367995 bytes) |
+| conteudo | arvore `recriado/` inteira (**108 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree HEAD:recriado` sobre o commit da rodada P4 (schema sem migracao automatica, verificacao com `LOCK_SH` e as suites `db` 144 / `dbctl` 48) |
+| branch do snapshot | `mu2-snapshot` @ `e2674fa43e8774dc5c4a681520463661116c721b` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (401476 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 89de50a8cf85df88d47949d4f2105797dabc2e6f1d8fac14b13819076a96a5b3
+sha256: 6c716fb272d8c1457d77e2986e7b9d0092efc8641e4d582c5f799304b7ff4112
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
