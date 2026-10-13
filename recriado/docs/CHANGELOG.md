@@ -1,5 +1,48 @@
 # CHANGELOG do v2
 
+## P4: `schema_version` sem migração automática, e verificação com lock compartilhado — 2026-10-13
+
+Fecha as pendências 1 e 2 abertas pela auditoria P3. Decisão **D2-41**; relatório
+`reports/r11c-schema-e-lock-2026-10-13.md`.
+
+- **Decisão de esquema (registrada antes do código).** `schema_version` identifica a **versão do
+  formato** e **não** implementa migração automática. O cabeçalho de `db.h` prometia "migra em
+  memória, com registro de migração gravado" — a promessa saiu; o texto agora diz a regra real.
+  `REG_MIGRACAO` continua sem quem o grave: **declarado, não implementado**, e não apresentado como
+  funcionalidade.
+- **Comportamento por versão, fail closed nas duas pontas:** atual abre; **futura** recusa nomeada
+  (`schema N mais novo que o suportado (M)`); **antiga** passa a recusar nomeada
+  (`schema N anterior ao suportado (M): sem caminho de migracao`) em vez de ser aberta e recarimbada
+  em silêncio; cabeçalho inválido (curto/magic/CRC) recusado como antes. `mu2db_verify` passou a usar
+  a **mesma** regra de versão — antes certificava arquivo de versão desconhecida.
+- **`gravar_cabecalho` grava a versão carregada** (`db->schema_version`), não a constante. Com v1
+  única as duas implementações são indistinguíveis por teste; por isso o que existe é a **guarda do
+  formato** (arquivo novo tem exatamente `MU2DB_SCHEMA_VERSION` no byte 8) e o teste que reprova se a
+  versão antiga voltar a ser aceita. Está declarado no relatório o que **não** tem teste.
+- **`mu2db_verify` toma `LOCK_SH | LOCK_NB`.** Compartilhado porque leitura não convive com escritor
+  no meio de uma gravação (registro = 2 escritas); **não bloqueante** porque `LOCK_SH` bloqueante dá
+  deadlock no caso legítimo `tests/db_test.c` (mesmo processo com o banco aberto verificando o mesmo
+  caminho). Com escritor ativo: `MU2DB_E_TRAVADO` + detalhe nomeado, `mu2dbctl verificar` sai != 0 e
+  **nunca** imprime `integridade=ok`. Lock liberado em todos os caminhos (o teste confere depois).
+- **Efeito colateral medido e declarado:** verificação e escrita se **excluem**. Em 3 tentativas de 20
+  escritas contra verificador em laço: verificador recusado 1–5 em ~120, escritor recusado 2–5 em 60,
+  zero respostas fora do contrato, livro-caixa exato. Um verificador periódico pode causar recusas
+  esporádicas de escrita — fica declarado; política de repetição/janela é decisão do proprietário.
+- **Sensibilidade a mutação medida (3 mutações, todas detectadas):** remover a recusa de versão antiga
+  → `db` 2 falhas; remover o `LOCK_SH` do verify → `db` 5 falhas **e** `dbctl` 6 falhas (incluindo a
+  asserção de sobreposição, que dispara porque nenhum lado vê recusa); tornar o lock **bloqueante** →
+  `timeout 25` → exit 124 (deadlock). O caso antigo de "versão futura" do `db_test.c` forjava CRC
+  inválido e não provava nada sobre versão — substituído por forjador que recalcula o CRC.
+- **Contagem de testes:** `db` **99 → 144** (0 falhas) · `dbctl` **31 → 48** (0 falhas) ·
+  `sincronia` 15/0 · `make-sintaxe` 10/0 · `admin` 25/0 · `regressao-lua` 53/0. Nenhuma asserção
+  removida: a única que dependia do comportamento antigo virou três.
+- **Portão:** `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas,
+  615 asserções contadas, exit 0**. `BLOCKED` continuam `BLOCKED` (`interop` camada 3, `lua`,
+  `lua-enc`, `bench`); `net-matrix`/`persistencia` seguem opt-in (`SKIPPED`).
+- **Fora de escopo por decisão:** contrato do protocolo v2 intocado, `mud2` **não** integrado à
+  persistência, `MuserverRecriado/` **não** tocada. **P07 segue risco aberto** (contenção não
+  executada nem verificada).
+
 ## Auditoria P3: a garra de durabilidade da R-11 estava aberta na operação implícita — 2026-10-13
 
 Rodada de auditoria do comportamento da persistência, medida em vez de lida. Relatório:

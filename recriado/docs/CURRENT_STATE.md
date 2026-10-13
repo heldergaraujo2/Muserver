@@ -17,7 +17,7 @@ transação. Relatório: `reports/r11-persistencia.md`; decisão: D2-40. Índice
 | branch | `arena/cf1de8ce-muserver` |
 | onde o projeto está publicado | **`MuserverRecriado/` na raiz deste monorepo** — cópia do artefato validado, 174/174 arquivos com modo+blob idênticos; `MuServer/` e o resto do monorepo intocados |
 | HEAD / remoto | atualizado no fim desta unidade (ver §6 do `CONTINUITY.md`); monorepo `arena/cf1de8ce-muserver` == remoto conferido por `git ls-remote` |
-| portão único | `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 553 asserções contadas (605 somadas)**, exit 0 (82 010 ms) — medido em 2026-10-13, auditoria P3 |
+| portão único | `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 615 asserções contadas**, exit 0 (92 360 ms) — medido em 2026-10-13, rodada P4 |
 | etapas opt-in | `make -s gate-full` → liga `net-matrix` + `persistencia`; **a variável é `GATE_FULL`** — `FULL=1` é do `verify-backup.sh` e não ligava nada (achado desta rodada; o alvo novo existe para isso) |
 | **`gate-full` medido na árvore limpa e com o remoto sincronizado** | **PASS=22, FAIL=0, BLOCKED=4, SKIPPED=0, 502 asserções, 26 etapas, exit 0, 694 850 ms** — `net-matrix`, `matriz-artefatos` e `persistencia` passam **na mesma passada** (era o defeito A2). A 4ª BLOCKED é o `bench`: com o host ainda carregado pela matriz, o drift medido foi **31,1% > 25%** e o critério declarado antes recusa o número — no portão padrão, em host ocioso, `bench` é `PASS` 15/15. BLOCKED aqui significa "medição inválida", não falha do produto |
 | ritual de backup | `bash scripts/verify-backup.sh` **11/11** (relata `ponta` e sha256 do bundle); `FULL=1 bash scripts/verify-backup.sh` **15/15**, com `publicado: bundle byte a byte OK remoto=a0fe917e…` e `publicado: HEAD local esta no remoto OK b2ffadd` |
@@ -73,9 +73,9 @@ Rodam e passam (medido nesta rodada): `unit` (106/0), `make-sintaxe` (7/0), `net
 `pe` (14/0), `data` (21/0), `pe-selftest`/`data-selftest`/`cfg-selftest` (4/4, 4/4, 5/5),
 `conform` (15/15), `cfg` (15/15), `matriz` (validador, exit 0), `bench` (15/15),
 `ref-intacta` (8/8), `golden` (42/42), `fuzz` (12/12), `seguranca` (13/13), `admin` (25/25),
-`db` (99/99), `dbctl` (31/31), `sincronia` (15/15), `regressao-lua` (53/53),
+`db` (144/144), `dbctl` (48/48), `sincronia` (15/15), `regressao-lua` (53/53),
 `interop` (12/12, `blocked=1`), `lua` (13/13, `blocked=1`), **`lua-enc` (27/27, `blocked=2`)**, `gate`
-(**23 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 553 asserções contadas, 28 etapas**), `gate-selftest` (21/21) e
+(**23 PASS, 0 FAIL, 3 BLOCKED, 2 SKIPPED, 615 asserções contadas, 28 etapas**), `gate-selftest` (21/21) e
 `verify-backup.sh` (`FULL=1` 15/15). `net-matrix` (36/0) e `persistencia` existem mas são
 *opt-in* (`GATE_FULL=1`) — no portão aparecem como `SKIPPED`, nunca como `PASS`.
 **Neste repositório publicado**, sem a referência `MuServer/`, ficam `BLOCKED`: `pe`, `data`, `cfg`,

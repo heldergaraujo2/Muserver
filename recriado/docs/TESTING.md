@@ -22,7 +22,7 @@
 | clone **raso** (`--depth 1`, fora do caminho documentado) | `make -s check` 182/182 igual, mas `ref-intacta` acusa **2 falhas** (casos 7–8: o commit do upload não existe no clone raso) e o caso 13 do `gate-selftest` falha por consequência. **Não é defeito do conteúdo** — é objeto ausente; `git fetch --unshallow` resolve. Registrado em `BUILD_AND_RUN.md` §9 e `AUDIT_HANDOFF.md` §5.5 |
 | `make -s lua-enc` (etapa nova) | **27/27, `blocked=2`** (`F23` + algoritmo não identificado), exit 0 |
 | `make -s gate` (pós-commit, árvore limpa) | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 448 asserções, 25 etapas, exit 0** (78 365 ms) — etapas novas `db` e `dbctl` incluídas |
-| `make -s db` · `make -s dbctl` (etapas novas) | **99/0** · **31/0** (o segundo mata o processo no meio da transação e prova a recuperação) |
+| `make -s db` · `make -s dbctl` (etapas novas) | **144/0** · **48/0** (o segundo mata o processo no meio da transação e prova a recuperação, e mede a concorrência verificador×escritor dos dois lados) |
 | `make -s gate-full` (árvore limpa, remoto sincronizado) | **PASS=22, FAIL=0, BLOCKED=4, SKIPPED=0, 502 asserções, 26 etapas, exit 0** (694 850 ms); `net-matrix` + `matriz-artefatos` + `persistencia` verdes **na mesma passada**; a 4ª `BLOCKED` é `bench` por **drift 31,1% > 25%** (host carregado pela matriz, critério declarado antes) |
 | `bash scripts/verify-backup.sh` · `FULL=1 …` | **11/11** · **15/15** — `bundle byte a byte OK remoto=a0fe917e…`, `HEAD local esta no remoto OK b2ffadd` |
 | `make -s make-sintaxe` | 7/7 após a adição do alvo `lua-enc` (o Makefile é contrato e continua válido) |
@@ -33,8 +33,8 @@
 |---|---|---|---|
 | `build` | a build completa compila/linka com `-Werror` + sanitizadores | `PASS` (cmd) | — |
 | `unit` | codec: 106 casos de unidade (limites, erros, perfis, involução) | `PASS` 106/0 | — |
-| `db` | persistência própria: vetores FIPS 180-4/RFC 7914/RFC 3720, ciclo de vida, transações, corrupção por CRC, limites, `flock`, inventário e transferência | `PASS` **99/0** | formato **próprio**; não é o banco do original (D2-40) |
-| `dbctl` | **integração por processos separados**: cada comando do CLI é um processo novo (o estado tem de vir do arquivo) + **morte real no meio da transação** (`MU2DB_TESTE_ABORTA_APOS`) | `PASS` **31/0** | não cobre dois escritores simultâneos |
+| `db` | persistência própria: vetores FIPS 180-4/RFC 7914/RFC 3720, ciclo de vida, transações, corrupção por CRC, limites, `flock`, inventário e transferência, **versão de esquema (atual/futura/antiga/cabeçalho inválido)** e **semântica do lock de verificação** | `PASS` **144/0** | formato **próprio**; não é o banco do original (D2-40); **sem migração automática** (D2-41: versão antiga é recusada) |
+| `dbctl` | **integração por processos separados**: cada comando do CLI é um processo novo (o estado tem de vir do arquivo) + **morte real no meio da transação** (`MU2DB_TESTE_ABORTA_APOS`) + **concorrência verificador×escritor medida dos dois lados**, com lock tomado pelo próprio teste e sobreposição confirmada | `PASS` **48/0** | não cobre dois **escritores** simultâneos (impossível por desenho: `LOCK_EX`) |
 | `make-sintaxe` | **o Makefile como contrato** (flags, alvos, `out/` ignorado, dono de receita de publicação) | `PASS` 10/10 | — |
 | `sincronia` | **durabilidade por sequência de syscalls**: existe `fsync` entre o fim dos registros e a reescrita final do cabeçalho; leitura pura não grava; recusa não deixa rabo | `PASS` **15/15** | mede `fsync`, não sobrevivência a queda de energia (não reproduzível aqui) |
 | `regressao-lua` | **regressão estática dos 6 `.lua`** do pacote de terceiros: baselines, reversões por blob, critérios de conteúdo, 9 mutações | `PASS` **53/53**, `blocked=0` | estático: execução de Lua não observada |
