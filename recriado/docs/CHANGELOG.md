@@ -39,9 +39,17 @@ Fecha as pendências 1 e 2 abertas pela auditoria P3. Decisão **D2-41**; relat�
 - **Portão:** `make -s gate` → **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas,
   615 asserções contadas, exit 0**. `BLOCKED` continuam `BLOCKED` (`interop` camada 3, `lua`,
   `lua-enc`, `bench`); `net-matrix`/`persistencia` seguem opt-in (`SKIPPED`).
+- **Portão completo (`gate-full`), medido na árvore limpa e publicada:** **PASS=25, FAIL=0,
+  BLOCKED=3, SKIPPED=0, 651 asserções, 28 etapas, exit 0** (714 322 ms) — `net-matrix` 36/36 e
+  `persistencia` `ok=11 falhas=0` na mesma passada. A primeira execução nesta rodada deu `FAIL=1` em
+  `persistencia` por **snapshot desatualizado** (`divergencia de conteudo dentro do declarado …`,
+  `extras=5`) e por `publicacao: origin/…` com os commits ainda não publicados — bookkeeping cobrado
+  pelo próprio portão, não defeito do produto. O snapshot foi regravado pelo ritual da D2-09/R-2:
+  `git commit-tree HEAD:recriado` → orphan `mu2-snapshot` @ `e2674fa4` → bundle de **401 476 bytes,
+  108 arquivos** (`verify-backup.sh` `ok=11 falhas=0`); o bundle anterior continua no histórico do git.
 - **Fora de escopo por decisão:** contrato do protocolo v2 intocado, `mud2` **não** integrado à
-  persistência, `MuserverRecriado/` **não** tocada. **P07 segue risco aberto** (contenção não
-  executada nem verificada).
+  persistência, `MuserverRecriado/` **não** tocada (nem o repositório separado, que segue `403`).
+  **P07 segue risco aberto** (contenção não executada nem verificada).
 
 ## Auditoria P3: a garra de durabilidade da R-11 estava aberta na operação implícita — 2026-10-13
 

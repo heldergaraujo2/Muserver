@@ -133,6 +133,19 @@ transação, como sempre foi no commit explícito.
    auditoria; este relatório aumenta a divergência em um arquivo. Republicar é ato separado, com
    autorização — não foi feito aqui, e nada foi movido para o repositório separado (que segue 403).
 
+## 4.1 Estado destas pendências depois da rodada P4 (2026-10-13)
+
+- **Pendência 1 (migração)** — fechada **por decisão**, não por implementação: `schema_version` é a
+  versão do formato, migração automática não existe nem é declarada, versão antiga é recusada nomeada
+  (fail closed nas duas pontas) e `gravar_cabecalho` grava a versão carregada. Detalhes e o que ficou
+  **sem** teste: `reports/r11c-schema-e-lock-2026-10-13.md` §1.
+- **Pendência 2 (`verify` sem lock)** — fechada: `LOCK_SH|LOCK_NB`, recusa nomeada com escritor ativo,
+  liberação em todo caminho de saída; medido que o `LOCK_NB` é necessário (com lock bloqueante a suíte
+  trava: `exit 124`). Custo declarado: verificação e escrita se excluem.
+- **Pendência 3 (queda de energia)** — continua sendo limite de ambiente, com a mesma redação.
+- **Pendência 4 (paridade de publicação)** — continua aberta por decisão: `MuserverRecriado/` não foi
+  tocada nesta rodada; o snapshot do monorepo (`workspace/backups/mu2-v2.bundle`) foi regravado.
+
 ## 5. Achados de teste (não do produto)
 
 1. **Acoplamento em `tests/admin.sh`.** A etapa `admin` falhou nesta rodada com

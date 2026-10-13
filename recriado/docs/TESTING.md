@@ -23,7 +23,7 @@
 | `make -s lua-enc` (etapa nova) | **27/27, `blocked=2`** (`F23` + algoritmo não identificado), exit 0 |
 | `make -s gate` (pós-commit, árvore limpa) | **20 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 448 asserções, 25 etapas, exit 0** (78 365 ms) — etapas novas `db` e `dbctl` incluídas |
 | `make -s db` · `make -s dbctl` (etapas novas) | **144/0** · **48/0** (o segundo mata o processo no meio da transação e prova a recuperação, e mede a concorrência verificador×escritor dos dois lados) |
-| `make -s gate-full` (árvore limpa, remoto sincronizado) | **PASS=22, FAIL=0, BLOCKED=4, SKIPPED=0, 502 asserções, 26 etapas, exit 0** (694 850 ms); `net-matrix` + `matriz-artefatos` + `persistencia` verdes **na mesma passada**; a 4ª `BLOCKED` é `bench` por **drift 31,1% > 25%** (host carregado pela matriz, critério declarado antes) |
+| `make -s gate-full` (árvore limpa, remoto sincronizado, commit `7ffc35a`) | **PASS=25, FAIL=0, BLOCKED=3, SKIPPED=0, 651 asserções, 28 etapas, exit 0** (714 322 ms); `net-matrix` (36/36) + `matriz-artefatos` + `persistencia` (`ok=11 falhas=0`) verdes **na mesma passada**; as 3 `BLOCKED` são `interop` (camada 3), `lua` e `lua-enc`. A execução anterior nesta mesma rodada deu `FAIL=1` em `persistencia` por snapshot desatualizado (regravado em seguida — §3 do relatório `reports/r11c-…md`) |
 | `bash scripts/verify-backup.sh` · `FULL=1 …` | **11/11** · **15/15** — `bundle byte a byte OK remoto=a0fe917e…`, `HEAD local esta no remoto OK b2ffadd` |
 | `make -s make-sintaxe` | 7/7 após a adição do alvo `lua-enc` (o Makefile é contrato e continua válido) |
 

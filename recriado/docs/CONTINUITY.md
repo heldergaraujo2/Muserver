@@ -78,7 +78,7 @@ Lua do cliente) — ver `docs/NEXT_TASK.md`.
 | **lua-enc** | `bash tests/lua-enc.sh` | **27/27, `blocked=2`** — cifragem do Lua do cliente: estrutura medida (janela de 3 B, sem padding, determinística); algoritmo e `F23` `BLOCKED` |
 | ref-intacta | `bash tests/ref_check.sh` | **8/8** — inclui a divergência dos 6 `.lua` e a reversão |
 | bench | `make -s bench` | 15/15 — linha de base exploratória (R-7) |
-| persistência | `FULL=1 bash scripts/verify-backup.sh` | **15/15** (opt-in; o portão padrão marca `SKIPPED`) |
+| persistência | `bash scripts/verify-backup.sh` | **11/11** (opt-in `GATE_FULL=1`; o portão padrão marca `SKIPPED`); snapshot regravado na rodada P4 (`mu2-snapshot` @ `e2674fa4`, 108 arquivos) |
 | portão de build | `make -s check` | unit + make-sintaxe + net + pe + data = **182 asserções**, exit 0 |
 | **portão único** | `make -s gate` | **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 553 asserções contadas (605 somadas), exit 0** — medido em 2026-10-13 (auditoria P3) |
 | etapas opt-in | `make -s gate-full` | **medido na R-2; não re-executado na auditoria P3** (custa ~12 min e exige árvore limpa). liga `net-matrix` e `persistencia` (a variável é `GATE_FULL`; ver §9): **medido PASS=22 / FAIL=0 / BLOCKED=4 / 502 asserções / 26 etapas, exit 0** — `persistencia` deixa de ser SKIPPED e as três etapas de artefato passam juntas |
@@ -104,13 +104,16 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ## 6. Último commit e publicação
 
-- **Rodada vigente (2026-10-13, auditoria P1 + A3 + P3).** HEAD `9111939` em
-  `arena/cf1de8ce-muserver` (blobs do remoto conferidos um a um por `gh api`). Entrou nesta ordem:
+- **Rodada vigente (2026-10-13, P1 + A3 + P3 + P4).** HEAD `7ffc35a` em `arena/cf1de8ce-muserver`
+  (blobs do remoto conferidos um a um por `gh api`). Entrou nesta ordem:
   P1 (`5093ffe`, verificação anti-vazamento executável + avaliação de risco da exposição);
   **A3** (`04bbaf6`, regressão estática dos 6 `.lua` como etapa obrigatória do portão — 53/0);
-  **P3/R-11b** (`9111939`, durabilidade da operação implícita + regressão por sequência de syscalls).
-  Portão vigente (P4): **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 615
-  asserções contadas, exit 0**. Relatórios: `reports/r11b-veredito-auditoria-p3-2026-10-13.md`
+  **P3/R-11b** (`9111939`, durabilidade da operação implícita + regressão por sequência de syscalls);
+  **P4/R-11c** (`d31108e` código+testes, `0a99488` documentos, `7ffc35a` snapshot do bundle regravado
+  — D2-41: `schema_version` sem migração automática e `mu2db_verify` com `LOCK_SH|LOCK_NB`).
+  Portão vigente (P4, commit `7ffc35a`): **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED,
+  28 etapas, 615 asserções contadas, exit 0**; e **`make -s gate-full` 25 PASS, 0 FAIL, 3 BLOCKED,
+  0 SKIPPED, 651 asserções, exit 0** — `net-matrix` 36/36 e `persistencia` `ok=11` na mesma passada. Relatórios: `reports/r11b-veredito-auditoria-p3-2026-10-13.md`
   (defeito de durabilidade, corrigido) e `reports/r11c-schema-e-lock-2026-10-13.md` (P4: esquema sem
   migração automática + verificação com `LOCK_SH`, com o custo medido).
   **`MuserverRecriado/` não foi tocada** — a paridade com `recriado/` já estava divergente antes

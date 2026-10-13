@@ -121,6 +121,29 @@ truncagem fica valido`, que verificava com o banco aberto) foi **substituída po
 nomeada com escritor ativo, motivo citado, e aprovação **com o banco fechado**. A soma de asserções
 subiu em todas as suítes tocadas.
 
+**Portão completo (opt-in caras), medido na árvore limpa e publicada (commit `7ffc35a`):**
+
+| comando | resultado |
+|---|---|
+| `make -s gate` | `PASS=23 FAIL=0 BLOCKED=3 NOT_IMPLEMENTED=0 SKIPPED=2`, **615 asserções**, 28 etapas, exit 0 (90 685 ms) |
+| `make -s gate-full` | `PASS=25 FAIL=0 BLOCKED=3 NOT_IMPLEMENTED=0 SKIPPED=0`, **651 asserções**, 28 etapas, exit 0 (714 322 ms) — `net-matrix` **PASS 36/36** (619 485 ms) e `persistencia` **PASS** (`ok=11 falhas=0`) na mesma passada; `bench` PASS desta vez |
+| `make -s gate-selftest` | `# gate_state=21 falhas=0 blocked=0` |
+| `bash recriado/scripts/verify-backup.sh` | `ok=11 falhas=0 blocked=0` |
+
+`BLOCKED` continuam `BLOCKED`, com causa: `interop` camada 3 (exige binário original/wine e
+autorização), `lua` (sem interpretador no host), `lua-enc` (algoritmo não decodificado + `F23`).
+Nada foi promovido a PASS por conveniência.
+
+**Nota de ordem das operações (medição honesta, não retrabalho escondido).** A primeira execução do
+`gate-full` desta rodada deu `FAIL=1`, etapa `persistencia`, com motivo medido: o snapshot declarado
+(`workspace/backups/mu2-v2.bundle` + `MANIFEST`) era da rodada anterior, então a checagem acusou
+`divergencia de conteudo dentro do declarado ... src/db.c tests/dbctl.sh ...` e
+`arquivos fora do snapshot sao declarados FALHA extras=5 declarados=0` — além de `publicacao: origin/...`
+falhar porque os commits ainda não tinham ido para o remoto. O snapshot foi regravado pelo ritual da
+D2-09/R-2 (`git commit-tree HEAD:recriado` → orphan `mu2-snapshot` @ `e2674fa4` → bundle de 401 476
+bytes, 108 arquivos) e a segunda execução passou. O bundle anterior continua recuperável do histórico
+do git, e **nada** foi publicado em `MuserverRecriado/`.
+
 ## 6. Limites declarados desta rodada
 
 - **Não** há migração implementada nem testada: só a decisão e a recusa nomeada. Declarar migração
