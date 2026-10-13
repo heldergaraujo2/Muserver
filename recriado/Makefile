@@ -17,15 +17,19 @@ LDFLAGS  ?= $(if $(filter 1,$(SAN)),-fsanitize=address,undefined,)
 
 BUILD := out
 SRC   := src/wire.c
+DB    := src/db.c
 SRV   := src/mud2.c
 CTL   := src/mu2ctl.c
 NCLI  := tests/netclient.c
 CODEC := tools/mu2codec.c
 FUZZ  := tools/mu2fuzz.c
 ADMIN := tools/mu2admin.c
-HDR   := include/mu2/mu2.h include/mu2/proto.h
+HDR   := include/mu2/mu2.h include/mu2/proto.h include/mu2/db.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
+DBOBJ := $(BUILD)/db.o
+DBTEST:= $(BUILD)/db_test
+DBCTL := $(BUILD)/mu2dbctl
 MUD2  := $(BUILD)/mud2
 MU2CTL:= $(BUILD)/mu2ctl
 NETCLI:= $(BUILD)/netclient
@@ -33,11 +37,11 @@ CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
 ADMINBIN:=$(BUILD)/mu2admin
 
-.PHONY: all build unit make-sintaxe net net-matrix pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build db db-test dbctl unit make-sintaxe net net-matrix net-matrix-publish pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-full gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN) $(ADMINBIN)
+build: $(OBJ) $(DBOBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN) $(ADMINBIN) $(DBTEST) $(DBCTL)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
@@ -50,6 +54,31 @@ $(BUILD)/unit.o: tests/unit.c $(HDR) | $(BUILD)
 
 $(UNIT): $(OBJ) $(BUILD)/unit.o | $(BUILD)
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+
+# R-11: persistencia propria (contas/personagens/inventario). Sem socket, sem dependencia externa:
+# o teste cria arquivos num diretorio temporario e confere durabilidade, transacao, corte no meio,
+# corrupcao e limites. Dados SINTETICOS (nenhum dado de jogador do pacote vira fixture).
+$(DBOBJ): src/db.c include/mu2/db.h | $(BUILD)
+	$(CC) $(CFLAGS) -c src/db.c -o $@
+
+$(BUILD)/db_test.o: tests/db_test.c include/mu2/db.h | $(BUILD)
+	$(CC) $(CFLAGS) -c tests/db_test.c -o $@
+
+$(DBTEST): $(DBOBJ) $(BUILD)/db_test.o | $(BUILD)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+
+# CLI local de operacao (segundo consumidor da mesma API: defeito de contrato aparece nos dois).
+$(DBCTL): tools/mu2dbctl.c $(DBOBJ) include/mu2/db.h | $(BUILD)
+	$(CC) $(CFLAGS) tools/mu2dbctl.c $(DBOBJ) -o $@ $(LDFLAGS)
+
+db: $(DBTEST)
+	@rm -rf $(BUILD)/db-tmp && mkdir -p $(BUILD)/db-tmp && ./$(DBTEST) $(BUILD)/db-tmp
+
+db-test: db
+
+# integracao: cada comando do CLI e um PROCESSO NOVO — prova durabilidade entre execucoes.
+dbctl: $(DBCTL)
+	@bash tests/dbctl.sh
 
 $(MUD2): $(SRV) $(OBJ) $(HDR) | $(BUILD)
 	$(CC) $(CFLAGS) $(SRV) $(OBJ) -o $@ $(LDFLAGS)
@@ -83,12 +112,20 @@ make-sintaxe:
 	@bash tests/make_parse.sh
 
 # net: a matriz reduzida, rapida o bastante para morar dentro do portao.
-# net-matrix: a matriz completa (5 repeticoes por configuracao), para publicar em reports/.
+# net-matrix: a matriz completa (5 repeticoes por configuracao). Grava em out/net-matrix/ — o portao
+#   (GATE_FULL=1) roda esta etapa e a seguinte (`persistencia`) exige arvore limpa; escrever em
+#   reports/ aqui fazia o portao falhar por construcao (achado do auditor, corrigido em 2026-10-13).
+# net-matrix-publish: unico caminho que atualiza reports/net-*.tsv — ato explicito de publicacao.
 net: $(MUD2) $(MU2CTL) $(NETCLI)
 	@NET_QUICK=1 bash tests/net.sh
 
 net-matrix: $(MUD2) $(MU2CTL) $(NETCLI)
-	@NET_QUICK=0 bash tests/net.sh
+	@NET_QUICK=0 NET_REPORT_DIR=out/net-matrix bash tests/net.sh
+
+net-matrix-publish: $(MUD2) $(MU2CTL) $(NETCLI)
+	@NET_QUICK=0 NET_REPORT_DIR=reports bash tests/net.sh
+	@echo "reports/net-*.tsv atualizados (confira o diff antes de commitar):" >&2
+	@git status --porcelain -- reports/ | sed 's/^/  /' >&2
 
 # R-5: sondas de formato. MU_REF_DATA e a referencia somente leitura (o pacote original).
 # Se ela nao existir, pe/data imprimem BLOCKED e saem 0: bloqueado nao e aprovado, mas tambem
@@ -163,8 +200,15 @@ lua-enc:
 # R-8: portao unico. `gate` executa tudo e imprime a mesa de estados; `gate-selftest` testa o
 # proprio portao (inclui as falsificacoes F12-F14) e e o que deve rodar primeiro: um portao que
 # nao sabe falhar nao e portao. `gate` nao entra em `check` para nao haver recursao.
+# ATENCAO (achado 2026-10-13): a variavel que liga as etapas opt-in e GATE_FULL, nao FULL.
+# `FULL=1` e do scripts/verify-backup.sh — usar FULL=1 aqui nao liga nada e o portao rodava com
+# net-matrix/persistencia SKIPPED, parecendo "verde" sem ter testado o que se queria. Os dois
+# alvos abaixo existem para nao depender de memoria: `gate` (padrao) e `gate-full` (opt-in).
 gate:
 	@bash tests/run_all.sh
+
+gate-full:
+	@GATE_FULL=1 bash tests/run_all.sh
 
 gate-selftest:
 	@bash tests/gate_state.sh

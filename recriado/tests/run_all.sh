@@ -59,6 +59,8 @@ mkdir -p "$LOGDIR"
 # nao ter construido nada e' exatamente o verde falso que este contrato existe para impedir.
 DEFAULT_SUITES='build	cmd	build	src/wire.c	1	cc	600	make -s build
 unit	suite	unit	tests/unit.c	1	cc	180	make -s unit
+db	suite	db	tests/db_test.c	1	cc	600	make -s db
+dbctl	suite	dbctl	tests/dbctl.sh	1	bash	180	make -s dbctl
 make-sintaxe	suite	make-sintaxe	Makefile	1	make	120	make -s make-sintaxe
 net	suite	net	tests/net.sh	1	cc	420	make -s net
 pe	suite	pe	tools/pe_probe.py	1	python3	300	make -s pe
@@ -71,6 +73,7 @@ cfg	suite	cfg	tools/cfg_probe.py	1	python3	180	make -s cfg
 cfg-selftest	suite	cfg	tests/cfg.sh	1	python3	120	make -s cfg-selftest
 ref-intacta	suite	ref-intacta	tests/ref_check.sh	1	git	120	bash tests/ref_check.sh
 net-matrix	suite	net	tests/net.sh	0	cc	1800	make -s net-matrix
+matriz-artefatos	suite	matriz-artefatos	tests/matriz.sh	1	-	120	bash tests/matriz.sh
 persistencia	cmd	-	scripts/verify-backup.sh	0	git	600	bash scripts/verify-backup.sh
 golden	suite	golden	tests/golden.sh	1	-	120	bash tests/golden.sh
 interop	suite	interop	tests/interop.sh	1	-	120	bash tests/interop.sh
