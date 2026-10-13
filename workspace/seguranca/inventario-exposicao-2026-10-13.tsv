@@ -1,0 +1,107 @@
+# Inventario de exposicao (categoria, caminho, linha) - SEM VALORES.
+# Gerado por varredura regex em 2026-10-13; a categoria 'endereco-ip' (330085 ocorrencias em 1076 arquivos)
+# foi omitida por volume (18,9 MB) - reprodutivel com o regex documentado em
+# workspace/seguranca/INVENTARIO-EXPOSICAO-2026-10-13.md, secao 'Metodo'.
+# Falsos positivos conhecidos (conferidos a mao, nao sao segredo):
+#   workspace/tools/muserver_preflight.py (regex do proprio scanner)
+#   recriado/docs/ADMIN_CONSOLE.md + recriado/tests/admin.sh (texto sobre token de API)
+#   MuServer/Tools/.../Premium/Settings.ini (user/password presentes e VAZIOS)
+# Nao anotados um a um: as 60 linhas 'marcador-lgpd-rg-cpf' sao, na amostra, nomes de variavel/
+# texto em portugues (endereco/rg/cpf) em codigo nosso e em script de servidor.
+categoria	caminho	linha
+email-dado-pessoal	MuServer/PSGuard/PSGG.ini	37
+email-dado-pessoal	MuserverRecriado/reports/r6-config.tsv	87
+email-dado-pessoal	recriado/reports/r6-config.tsv	87
+email-dado-pessoal	workspace/migracao/preparar-destino.sh	45
+email-dado-pessoal	workspace/migracao/preparar-destino.sh	46
+marcador-lgpd-rg-cpf	MuServer/Data/Script/System/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	MuserverRecriado/docs/ADMIN_CONSOLE.md	103
+marcador-lgpd-rg-cpf	MuserverRecriado/docs/DECISIONS.md	193
+marcador-lgpd-rg-cpf	MuserverRecriado/src/mu2ctl.c	92
+marcador-lgpd-rg-cpf	MuserverRecriado/src/mud2.c	477
+marcador-lgpd-rg-cpf	MuserverRecriado/tests/netclient.c	169
+marcador-lgpd-rg-cpf	MuserverRecriado/tools/mu2admin.c	480
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/patches/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/MuServer/Data/Script/System/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/changes/patches/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/docs/NEXT_TASK.md	56
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/docs/PROJECT_OVERVIEW.md	172
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	16
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	48
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	138
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/dump_disasm.py	95
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/minidump_analyze.py	290
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	153
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	154
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/pe.py	170
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/docs/NEXT_TASK.md	56
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/docs/PROJECT_OVERVIEW.md	172
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/reports/AUDIT.md	16
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/reports/AUDIT.md	48
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/reports/AUDIT.md	138
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/tools/dump_disasm.py	95
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/tools/minidump_analyze.py	290
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/tools/muserver_preflight.py	153
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/tools/muserver_preflight.py	154
+marcador-lgpd-rg-cpf	MuserverRecriado/workspace/tools/pe.py	170
+marcador-lgpd-rg-cpf	recriado/docs/ADMIN_CONSOLE.md	103
+marcador-lgpd-rg-cpf	recriado/docs/ARCHITECTURE.md	33
+marcador-lgpd-rg-cpf	recriado/docs/DECISIONS.md	183
+marcador-lgpd-rg-cpf	recriado/src/mu2ctl.c	92
+marcador-lgpd-rg-cpf	recriado/src/mud2.c	477
+marcador-lgpd-rg-cpf	recriado/tests/netclient.c	169
+marcador-lgpd-rg-cpf	recriado/tools/mu2admin.c	480
+marcador-lgpd-rg-cpf	workspace/changes/patches/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/MuServer/Data/Script/System/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/changes/patches/ScriptCore.lua	14
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/docs/NEXT_TASK.md	56
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/docs/PROJECT_OVERVIEW.md	172
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	16
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	48
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/reports/AUDIT.md	138
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/dump_disasm.py	95
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/minidump_analyze.py	290
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	153
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	154
+marcador-lgpd-rg-cpf	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/pe.py	170
+marcador-lgpd-rg-cpf	workspace/docs/NEXT_TASK.md	56
+marcador-lgpd-rg-cpf	workspace/docs/PROJECT_OVERVIEW.md	172
+marcador-lgpd-rg-cpf	workspace/reports/AUDIT.md	16
+marcador-lgpd-rg-cpf	workspace/reports/AUDIT.md	48
+marcador-lgpd-rg-cpf	workspace/reports/AUDIT.md	138
+marcador-lgpd-rg-cpf	workspace/tools/dump_disasm.py	95
+marcador-lgpd-rg-cpf	workspace/tools/minidump_analyze.py	290
+marcador-lgpd-rg-cpf	workspace/tools/muserver_preflight.py	153
+marcador-lgpd-rg-cpf	workspace/tools/muserver_preflight.py	154
+marcador-lgpd-rg-cpf	workspace/tools/pe.py	170
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-24.txt	8
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	36
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	37
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	38
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	39
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	40
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	105
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-05-25.txt	106
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	29
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	30
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	31
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	34
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	42
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	53
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-02.txt	79
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-03.txt	37
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-03.txt	58
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-09.txt	137
+senha-em-texto	MuServer/SpeedServer/GameServer/LOG/COMMAND_LOG/2026-06-09.txt	138
+senha-em-texto	MuServer/Tools/Editores/Editor de conta Muemu/config.ini	6
+senha-em-texto	MuServer/Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	55
+senha-em-texto	MuserverRecriado/workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	456
+senha-em-texto	MuserverRecriado/workspace/tools/muserver_preflight.py	456
+senha-em-texto	workspace/changes/pre-ff-2026-10-12/untracked/workspace/tools/muserver_preflight.py	456
+senha-em-texto	workspace/tools/muserver_preflight.py	456
+token-ou-chave	MuserverRecriado/docs/ADMIN_CONSOLE.md	65
+token-ou-chave	MuserverRecriado/docs/ADMIN_CONSOLE.md	159
+token-ou-chave	MuserverRecriado/tests/admin.sh	115
+token-ou-chave	recriado/docs/ADMIN_CONSOLE.md	65
+token-ou-chave	recriado/docs/ADMIN_CONSOLE.md	159
+token-ou-chave	recriado/tests/admin.sh	115

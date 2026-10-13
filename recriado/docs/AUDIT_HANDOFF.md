@@ -36,6 +36,7 @@ achado, não escondida.
 | 10 | `reports/auditoria-rastreabilidade.md` | rastreabilidade fase por fase (com o bloco de atualização de 2026-10-13) |
 | 11 | `reports/r6-interop-relatorio.md`, `reports/rf-lua-protocolo.md`, `reports/enc-cifragem-lua.md` | as três investigações de fundo (interop, camada Lua, cifragem) |
 | 12 | `docs/CONTINUITY.md`, `docs/DECISIONS.md`, `docs/CHANGELOG.md` | continuidade, as 39 decisões `D2-xx` e o histórico por rodada |
+| 13 | `workspace/migracao/RELATORIO-TRATAMENTO-RISCOS-P0-2026-10-13.md` e `workspace/seguranca/INVENTARIO-EXPOSICAO-2026-10-13.md` | riscos P0 pedidos pela auditoria: SHAs verificados, inventário de credenciais/PII **sem valores**, plano de contenção, decisões pendentes do proprietário e correções de teste propostas (clone raso, `net-matrix`×`persistencia`) |
 
 ## 3. Estado real em uma página
 
