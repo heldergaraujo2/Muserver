@@ -2,13 +2,13 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (**83 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree ae66fa5:recriado` (rodada da publicacao dentro do monorepo: pasta `MuserverRecriado/` com o artefato validado, verificador de backup corrigido para o layout sob prefixo) |
-| branch do snapshot | `mu2-snapshot` @ `52cc0dac28bb5ba5882fac24c7891e928104c25a` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (259931 bytes) |
+| conteudo | arvore `recriado/` inteira (**87 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree 983a409:recriado` (rodada da etapa `enc`: probe, teste, relatorio e docs da cifragem do Lua do cliente; a pasta `MuserverRecriado/` ficou intocada de proposito) |
+| branch do snapshot | `mu2-snapshot` @ `8faa6e41eb94122df02fc2bf36fc4d9e95ba3c10` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (283662 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 80ef69620a1977a18716ac3571cf030ba2cf88e5b07bc617f2c6cf3165947666
+sha256: 51a24d03a6d66e34951d799f933e3c7e233eb0e05217fa9f4346a877572bb57d
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
@@ -37,9 +37,13 @@ qualquer recriacao de sandbox.
 
 17 225 (R-0) -> 38 233 -> 66 195 -> 134 694 -> 204 585 (so realocar, nao bastou) -> 31 771
 (snapshot orphan, rodada das lacunas) -> 247 621 (rodada da publicacao) -> 258 497
-(rodada de fechamento e do destino) -> **259727 bytes** (rodada da publicacao dentro do monorepo,
-83 arquivos). O tamanho acompanha a arvore `recriado/`; o snapshot orphan
-garante que ele nao cresce por acumulo de si mesmo.
+(rodada de fechamento e do destino) -> **259931 bytes** (rodada da publicacao dentro do monorepo,
+83 arquivos) -> **283662 bytes** (rodada da etapa `enc`, 87 arquivos). O tamanho acompanha a
+arvore `recriado/`; o snapshot orphan garante que ele nao cresce por acumulo de si mesmo.
+
+Nota de conferencia (2026-10-13): a rodada anterior registrou `259727` na linha do tempo e `259931`
+no cabecalho; medido agora, o bundle daquela rodada tinha **259931 bytes** — a linha do tempo foi
+corrigida para o valor medido, sem reescrever nenhum outro numero.
 
 ## O que o verificador ja pegou (e por que ele existe)
 
