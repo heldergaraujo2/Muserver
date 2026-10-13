@@ -2,32 +2,31 @@
 """Servidor estatico SOMENTE LEITURA para a documentacao de auditoria do projeto Muserver.
 
 Por que existe: a auditoria independente precisa LER os documentos publicados numa pagina navegavel,
-sem clonar o repositorio. Este servidor serve uma lista FECHADA de arquivos Markdown — nao e servidor
-de arquivos generico, nao aceita escrita, nao expoe o pacote `MuServer/` nem os relatorios `.tsv`.
+sem clonar o repositorio.
 
-Garantias (todas verificaveis no codigo abaixo):
+Garantias (verificadas por `workspace/tests/test_serve_docs.py`, que roda em porta efemera):
+  * **lista EXPLICITA de arquivos aprovados** (`DOCS_APROVADOS`) — nao ha glob. Um Markdown novo no
+    repositorio NAO passa a ser servido sozinho: entra quando alguem o acrescenta a lista, de
+    proposito. (Correcao pedida pelo auditor em 2026-10-13: "padroes glob podem incluir documentos
+    Markdown adicionados futuramente".)
   * apenas GET e HEAD; qualquer outro metodo responde 405 (nao ha caminho de escrita);
   * cada URL e resolvida por busca EXATA num dicionario montado na inicializacao — nenhum caminho e
     construido a partir da URL, logo nao ha travessia de diretorio (`..`) possivel;
-  * so entram arquivos `.md` das listas explicitas em `catalogo()`; `.tsv`, `.raw`, binarios e o
-    pacote `MuServer/` ficam de fora por decisao;
-  * `Cache-Control: no-store` (o auditor sempre le o conteudo atual do disco).
+  * so entram arquivos `.md` da lista; `.tsv`, `.raw`, binarios e o pacote `MuServer/` ficam de fora
+    por decisao (o `r6-config.tsv`, por exemplo, carrega um e-mail);
+  * **HTML sanitizado**: o Markdown e renderizado com o HTML bruto escapado e, ainda assim, o
+    resultado passa por `sanitizar_html()` (remove `script`/`iframe`/`object`/`embed`/`form`,
+    atributos `on*`, `srcdoc` e URLs `javascript:`/`data:` em `href`/`src`);
+  * `Cache-Control: no-store`; sem cabecalho que bloqueie iframe (a preview precisa embutir).
 
 Uso:
-    python3 workspace/tools/serve-docs.py [--bind 0.0.0.0] [--port 40427]
+    python3 workspace/tools/serve-docs.py [--bind 0.0.0.0] [--port 40427] [--listar]
 
 Sem dependencia obrigatoria: se `mistune` estiver disponivel o Markdown e renderizado; caso contrario
-o texto e exibido em <pre> (fonte fiel, so sem formatacao).
-
-Verificacao anti-vazamento (2026-10-13, com o servidor no ar): buscamos, em todos os 30 documentos
-servidos, os valores sensiveis dos configs do pacote (senha, token, serial, chave, usuario) e os
-e-mails de `PSGuard/PSGG.ini`/`preparar-destino.sh` → **0 vazamentos**. O unico casamento e o NOME do
-banco, que ja e publico nos nomes dos proprios arquivos `DB/*.bak`/`DB/*.reg` e que a documentacao
-tecnica precisa citar. Os `.tsv` (inclusive `r6-config.tsv`, que carrega 1 e-mail) **nao** entram.
+o texto e exibido em <pre> (fonte fiel, so sem formatacao) e a sanitizacao continua valendo.
 """
 
 import argparse
-import glob
 import html
 import os
 import re
@@ -37,31 +36,66 @@ from urllib.parse import unquote, urlsplit
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# Documentos de auditoria fora de `recriado/` (entregas desta etapa ao auditor).
-EXTRAS = [
-    ("Entrega da consolidacao", "workspace/migracao/RELATORIO-CONSOLIDACAO-AUDITORIA-2026-10-13.md"),
-    ("Riscos P0 (pedido da auditoria)", "workspace/migracao/RELATORIO-TRATAMENTO-RISCOS-P0-2026-10-13.md"),
-    ("Riscos P0 (pedido da auditoria)", "workspace/seguranca/INVENTARIO-EXPOSICAO-2026-10-13.md"),
+# --------------------------------------------------------------------------- lista explicita
+# Grupo, caminho relativo a raiz do repositorio. Nada fora desta lista e servido — inclusive um .md
+# que exista em disco. Para publicar um documento novo, acrescente-o aqui (e rode o teste, que
+# confere que todo caminho da lista existe e que nenhum deles e sensivel).
+DOCS_APROVADOS = [
+    ("Documentacao do v2 - `recriado/docs/`", [
+        "recriado/docs/ADMIN_CONSOLE.md",
+        "recriado/docs/ARCHITECTURE.md",
+        "recriado/docs/AUDIT_HANDOFF.md",
+        "recriado/docs/BUILD_AND_RUN.md",
+        "recriado/docs/CHANGELOG.md",
+        "recriado/docs/CONTINUITY.md",
+        "recriado/docs/CURRENT_STATE.md",
+        "recriado/docs/DATABASE.md",
+        "recriado/docs/DECISIONS.md",
+        "recriado/docs/DEPENDENCIES_AND_LICENSES.md",
+        "recriado/docs/ENVIRONMENT.md",
+        "recriado/docs/NEXT_TASK.md",
+        "recriado/docs/PROJECT_STATUS.md",
+        "recriado/docs/PROTOCOLS.md",
+        "recriado/docs/ROADMAP.md",
+        "recriado/docs/SECURITY.md",
+        "recriado/docs/TESTING.md",
+    ]),
+    ("Relatorios de execucao - `recriado/reports/*.md`", [
+        "recriado/reports/README.md",
+        "recriado/reports/auditoria-rastreabilidade.md",
+        "recriado/reports/enc-cifragem-lua.md",
+        "recriado/reports/r5-relatorio.md",
+        "recriado/reports/r6-interop-relatorio.md",
+        "recriado/reports/r6-relatorio.md",
+        "recriado/reports/r7-relatorio.md",
+        "recriado/reports/r8-relatorio.md",
+        # acrescentado de proposito em 2026-10-13 (R-11): a lista e explicita justamente para que
+        # documento novo entre por decisao, nunca por aparecer na pasta
+        "recriado/reports/r11-persistencia.md",
+        "recriado/reports/rc-formatos-auditoria.md",
+        "recriado/reports/rf-lua-protocolo.md",
+    ]),
+    ("Entregas de auditoria - `workspace/`", [
+        "workspace/migracao/RELATORIO-CONSOLIDACAO-AUDITORIA-2026-10-13.md",
+        "workspace/migracao/RELATORIO-TRATAMENTO-RISCOS-P0-2026-10-13.md",
+        "workspace/seguranca/INVENTARIO-EXPOSICAO-2026-10-13.md",
+    ]),
 ]
 
-GRUPOS = [
-    ("Documentacao do v2 - `recriado/docs/`", "recriado/docs/*.md"),
-    ("Relatorios de execucao - `recriado/reports/*.md`", "recriado/reports/*.md"),
-]
+# Padroes que nunca podem entrar na lista, mesmo por engano (o teste cobra isto).
+PADROES_PROIBIDOS = (".tsv", ".raw", ".bak", ".dmp", ".exe", ".dll", ".pem", ".key", ".env",
+                     ".ini", ".reg", ".dat", "MuServer/")
 
 
 def catalogo():
-    """Monta {url: caminho absoluto} e a estrutura para o indice. Lista fechada, sem glob de usuario."""
-    itens = []  # (grupo, titulo, url, abspath, bytes)
-    for grupo, padrao in GRUPOS:
-        for caminho in sorted(glob.glob(os.path.join(RAIZ, padrao))):
-            rel = os.path.relpath(caminho, RAIZ)
-            itens.append((grupo, titulo_de(caminho, rel), "/" + rel.replace(os.sep, "/"), caminho,
-                          os.path.getsize(caminho)))
-    for grupo, rel in EXTRAS:
-        caminho = os.path.join(RAIZ, rel)
-        if os.path.isfile(caminho):
-            itens.append((grupo, titulo_de(caminho, rel), "/" + rel.replace(os.sep, "/"), caminho,
+    """Monta {url: caminho absoluto} e a estrutura do indice a partir da LISTA EXPLICITA."""
+    itens = []
+    for grupo, caminhos in DOCS_APROVADOS:
+        for rel in caminhos:
+            caminho = os.path.join(RAIZ, rel)
+            if not os.path.isfile(caminho):
+                continue  # ausente nao quebra o servidor; o teste acusa
+            itens.append((grupo, titulo_de(caminho, rel), "/" + rel, caminho,
                           os.path.getsize(caminho)))
     mapa = {url: caminho for _, _, url, caminho, _ in itens}
     return itens, mapa
@@ -82,17 +116,40 @@ def titulo_de(caminho, rel):
     return os.path.basename(rel)
 
 
+# --------------------------------------------------------------------------- sanitizacao de HTML
+_TAGS_PERIGOSAS = re.compile(r"(?is)<\s*/?\s*(script|iframe|object|embed|form|link|meta|base)\b[^>]*>")
+_ATRIBUTOS_ON = re.compile(r"(?i)\son[a-z]+\s*=\s*(\"[^\"]*\"|'[^']*'|[^\s>]+)")
+_SRCDOC = re.compile(r"(?i)\ssrcdoc\s*=\s*(\"[^\"]*\"|'[^']*'|[^\s>]+)")
+_URL_PERIGOSA = re.compile(r"(?i)\s(href|src|action|formaction|xlink:href)\s*=\s*(\"|')?\s*"
+                           r"(javascript|vbscript|data)\s*:[^\"'>\s]*(\"|')?")
+
+
+def sanitizar_html(conteudo):
+    """Remove do HTML renderizado o que pode executar codigo ou carregar conteudo externo.
+
+    Nao e um sanitizador completo (nao ha biblioteca de sanitizacao disponivel sem dependencia): e
+    uma segunda barreira, testada, sobre um renderizador que ja escapa HTML bruto. Preferimos
+    descrever o alcance exato a fingir cobertura total.
+    """
+    conteudo = _TAGS_PERIGOSAS.sub(lambda m: html.escape(m.group(0)), conteudo)
+    conteudo = _ATRIBUTOS_ON.sub(" data-atributo-removido", conteudo)
+    conteudo = _SRCDOC.sub(" data-atributo-removido", conteudo)
+    conteudo = _URL_PERIGOSA.sub(lambda m: f' {m.group(1)}="#"', conteudo)
+    return conteudo
+
+
 def renderizador():
-    """Devolve funcao markdown->html, ou None (o handler cai no <pre>)."""
+    """Devolve funcao markdown->html (com HTML bruto escapado), ou None (o handler cai no <pre>)."""
     try:
         import mistune  # type: ignore
     except ImportError:
         return None
     try:
-        return mistune.create_markdown(plugins=["table", "strikethrough", "task_lists", "footnotes"])
+        return mistune.create_markdown(escape=True,
+                                       plugins=["table", "strikethrough", "task_lists", "footnotes"])
     except Exception:
         try:
-            return mistune.create_markdown()
+            return mistune.create_markdown(escape=True)
         except Exception:
             return None
 
@@ -124,19 +181,21 @@ def pagina(titulo, corpo):
  small {{ opacity: .75; }}
 </style></head><body>
 {corpo}
-<div class="rodape">Somente leitura · conteudo ja publicado no repositorio
-<code>heldergaraujo2/Muserver</code>, branch <code>arena/cf1de8ce-muserver</code> ·
-<code>MuServer/</code>, relatorios <code>.tsv</code>/<code>.raw</code> e qualquer arquivo fora da
-lista acima NAO sao servidos · <a href="/">indice</a></div>
+<div class="rodape">Somente leitura · lista EXPLICITA de documentos aprovados (sem glob) ·
+conteudo ja publicado no repositorio <code>heldergaraujo2/Muserver</code>, branch
+<code>arena/cf1de8ce-muserver</code> · <code>MuServer/</code>, relatorios
+<code>.tsv</code>/<code>.raw</code> e qualquer arquivo fora da lista NAO sao servidos ·
+<a href="/">indice</a></div>
 </body></html>
 """
 
 
 def corpo_indice(itens):
     partes = ['<h1>Muserver — documentacao de auditoria</h1>',
-              '<p class="aviso"><strong>Servidor somente leitura.</strong> Lista fechada de documentos '
-              'Markdown (GET/HEAD apenas). Nenhum valor de credencial e servido: os relatorios '
-              '<code>.tsv</code> e o pacote <code>MuServer/</code> ficam de fora por decisao.</p>']
+              '<p class="aviso"><strong>Servidor somente leitura.</strong> Lista explicita de '
+              'documentos Markdown aprovados (GET/HEAD apenas). Nenhum valor de credencial e '
+              'servido: os relatorios <code>.tsv</code> e o pacote <code>MuServer/</code> ficam de '
+              'fora por decisao.</p>']
     grupo_atual = None
     for grupo, titulo, url, _caminho, tamanho in itens:
         if grupo != grupo_atual:
@@ -152,7 +211,7 @@ def corpo_indice(itens):
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "muserver-docs/1.0"
+    server_version = "muserver-docs/2.0"
     protocol_version = "HTTP/1.1"
 
     def _responde(self, codigo, corpo_bytes, tipo="text/html; charset=utf-8", cabecalhos=None):
@@ -173,13 +232,13 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         caminho = unquote(urlsplit(self.path).path)
         if caminho in ("", "/"):
-            itens, _ = catalogo()  # re-le a cada acesso: arquivo novo/alterado aparece sem reiniciar
+            itens, _ = catalogo()
             self._responde(200, corpo_indice(itens).encode("utf-8"))
             return
         _itens, mapa = catalogo()
         alvo = mapa.get(caminho.rstrip("/"))
         if not alvo or not os.path.isfile(alvo):
-            self._texto(404, "<h1>404</h1><p>Fora da lista servida. "
+            self._texto(404, "<h1>404</h1><p>Fora da lista de documentos aprovados. "
                              "<a href='/'>Ver o indice</a>.</p>")
             return
         try:
@@ -190,7 +249,7 @@ class Handler(BaseHTTPRequestHandler):
             return
         render = renderizador()
         if render is not None:
-            corpo = render(markdown)
+            corpo = sanitizar_html(render(markdown))
         else:
             corpo = "<pre>" + html.escape(markdown) + "</pre>"
         titulo = titulo_de(alvo, caminho)
@@ -216,16 +275,21 @@ def main():
     ap = argparse.ArgumentParser(description="Serve a documentacao de auditoria (somente leitura).")
     ap.add_argument("--bind", default="0.0.0.0", help="endereco de escuta (padrao 0.0.0.0, exigido pela preview)")
     ap.add_argument("--port", type=int, default=40427)
+    ap.add_argument("--listar", action="store_true", help="imprime a lista aprovada e sai")
     args = ap.parse_args()
 
     itens, mapa = catalogo()
+    if args.listar:
+        for grupo, titulo, url, caminho, tamanho in itens:
+            print(f"{url}\t{tamanho}\t{titulo}")
+        return 0
     if not mapa:
-        print("nenhum documento encontrado — confira se o cwd/raiz do repositorio esta correto", file=sys.stderr)
+        print("nenhum documento aprovado encontrado — confira a raiz do repositorio", file=sys.stderr)
         return 2
     render = renderizador()
     servidor = ThreadingHTTPServer((args.bind, args.port), Handler)
-    print(f"servindo {len(mapa)} documentos em http://{args.bind}:{args.port}/ (somente leitura)")
-    print(f"markdown: {'renderizado (mistune)' if render else 'exibido como texto simples (<pre>)'}")
+    print(f"servindo {len(mapa)} documentos aprovados em http://{args.bind}:{args.port}/ (somente leitura)")
+    print(f"markdown: {'renderizado (mistune, HTML bruto escapado + sanitizacao)' if render else 'texto simples (<pre>)'}")
     print("grupos:", "; ".join(sorted({g for g, *_ in itens})))
     try:
         servidor.serve_forever()

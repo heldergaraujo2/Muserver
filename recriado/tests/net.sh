@@ -28,8 +28,20 @@ REPS=${NET_REPS:-}
 [ -n "$REPS" ] || { [ "$QUICK" = 1 ] && REPS=2 || REPS=5; }
 PROFILES=${NET_PROFILE:-}
 [ -n "$PROFILES" ] || { [ "$QUICK" = 1 ] && PROFILES=orig || PROFILES="orig mur0"; }
-REPORT_DIR=reports
-[ "$QUICK" = 1 ] && REPORT_DIR=out   # a corrida do portao nao sobrescreve a matriz publicada
+# Destino da matriz. Regra (corrigida em 2026-10-13, achado do auditor): a matriz NUNCA escreve em
+# caminho versionado por conta propria. O que o portao roda vai para out/ (ignorado pelo git); quem
+# quer atualizar reports/net-*.tsv usa o alvo explicito `make net-matrix-publish`.
+#   NET_REPORT_DIR=...      destino explicito (unico jeito de escrever em reports/)
+#   NET_QUICK=1 (padrao)    matriz rapida  -> out/
+#   NET_QUICK=0             matriz completa -> out/net-matrix/
+# Antes: QUICK=0 gravava direto em reports/ e a etapa seguinte (`persistencia`, que exige arvore
+# limpa) falhava por construcao — o defeito que motivou esta correcao.
+REPORT_DIR=${NET_REPORT_DIR:-}
+if [ -z "$REPORT_DIR" ]; then
+  if [ "$QUICK" = 1 ]; then REPORT_DIR=out; else REPORT_DIR=out/net-matrix; fi
+fi
+# NET_CONFIGS: lista explicita de configuracoes (para os testes da propria matriz, sem rodar 100).
+CONFIGS_OVERRIDE=${NET_CONFIGS:-}
 
 n=0; bad=0
 ck() { # ck "descricao" "comando-avaliado"
@@ -212,6 +224,10 @@ ck "S13 opcode desconhecido conta no resumo de saida (unknown>=1)" \
 # Colunas do contrato (docs/NEXT_TASK.md item 4): N_conn, N_frames, t_sem_ler, delay_entre_leituras,
 # --sndbuf. SO_RCVBUF=1024 e aplicado no cliente ANTES do connect(); os efetivos vao no relatorio.
 matrix_configs() {
+  if [ -n "$CONFIGS_OVERRIDE" ]; then
+    printf '%s\n' "$CONFIGS_OVERRIDE"
+    return
+  fi
   if [ "$QUICK" = 1 ]; then
     printf '%s\n' "1 10 0 0 0" "1 30 0 0 1024" "1 31 1000 0 1024" "4 30 0 50 1024"
     return

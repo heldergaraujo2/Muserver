@@ -224,5 +224,22 @@ env GATE_SUITES="$T/reg_dup.tsv" GATE_OUT="$T/c19" GATE_ROOT="$V2" bash "$GATE" 
 t19() { [ "$RC_DUP" -eq 2 ] && grep -qi 'duplicad' "$T/c19/stdout"; }
 ck 19 "etapa duplicada no registro ⇒ portao sai 2 com erro (nao conta assercao em dobro)" t19
 
+# caso 20/21: clone RASO (objeto do upload ausente) — regressão do achado do auditor (2026-10-13).
+# Antes: ref-intacta dava FAIL (2 casos) num clone raso, embora o conteúdo estivesse correto; o
+# defeito era OBJETO ausente. Agora é BLOCKED nomeado, e o portão não pode derrubar por isso.
+FAKE=0000000000000000000000000000000000000000
+REF_OUT=$(REF_UPLOAD=$FAKE bash "$V2/tests/ref_check.sh" 2>&1); REF_RC=$?
+t20() { [ "$REF_RC" -eq 0 ] && printf '%s\n' "$REF_OUT" | grep -q "# ref-intacta=6 falhas=0 blocked=2" &&
+        ! printf '%s\n' "$REF_OUT" | grep -q "^not ok"; }
+ck 20 "clone raso simulado (objeto ausente) ⇒ ref-intacta blocked=2, exit 0, nenhum \"not ok\"" t20
+
+printf 'ref-intacta\tsuite\tref-intacta\ttests/ref_check.sh\t1\tgit\t120\tbash tests/ref_check.sh\n' \
+  > "$T/reg_ref.tsv"
+mkdir -p "$T/c21"
+env GATE_SUITES="$T/reg_ref.tsv" GATE_OUT="$T/c21" GATE_ROOT="$V2" REF_UPLOAD=$FAKE \
+  bash "$GATE" > "$T/c21/stdout" 2>&1; RC_R21=$?
+t21() { [ "$RC_R21" -eq 0 ] && [ "$(row ref-intacta "$T/c21")" = BLOCKED ]; }
+ck 21 "portao classifica a etapa como BLOCKED em clone raso (exit 0, objeto ausente != falha de conteudo)" t21
+
 printf '1..%d\n# gate_state=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
 [ "$bad" -eq 0 ] || exit 1

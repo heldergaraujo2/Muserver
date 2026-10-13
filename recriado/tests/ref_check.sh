@@ -10,6 +10,12 @@
 # Contrato de saída: `# ref-intacta=<n> falhas=<f> blocked=<b>`
 #   blocked=1 quando a referência não existe neste ambiente (restore de bundle): ausência de objeto
 #   a verificar não é aprovação.
+#   blocked=2 quando o commit do upload (a que os casos 7-8 se referem) nao existe no
+#   repositorio local — caso tipico de clone RASO (`git clone --depth 1`). Medido em
+#   2026-10-13: num clone raso os casos 7-8 falhavam e derrubavam o portao, embora o
+#   conteudo estivesse correto; o defeito era o OBJETO ausente, nao o conteudo. Agora
+#   isso e BLOCKED nomeado (nunca FAIL, nunca PASS), com a instrucao de desbloqueio no
+#   motivo. `REF_UPLOAD` permite ao selftest forcar a ausencia.
 set -u
 # caminhos derivados do proprio script: valem tanto no repositorio (raiz/recriado) quanto num
 # restore de bundle (onde a raiz ja E a arvore recriado/ e nao existe o prefixo).
@@ -65,9 +71,17 @@ ck 6 "nenhum arquivo novo dentro da referencia" t06
 # Lua") modificou 6 arquivos .lua DENTRO da referencia, na branch de trabalho. O baseline esta em
 # workspace/changes/originals/ com md5 em ORIGINALS.md5. Este caso fixa o fato e a reversibilidade,
 # para que "referencia intacta" nunca seja lido como "referencia pristina".
-UPLOAD=6eabb45b9e7939a3061f4757ed6791efef7c5c3b
+UPLOAD=${REF_UPLOAD:-6eabb45b9e7939a3061f4757ed6791efef7c5c3b}
 t07() { [ "$($G diff --name-only $UPLOAD..HEAD -- MuServer | wc -l)" = 6 ] &&
         [ "$($G diff --name-only $UPLOAD..HEAD -- MuServer | grep -vc '\.lua$')" = 0 ]; }
+# O commit do upload existe neste repositorio? Clone raso nao o tem; um restore de bundle pode nao
+# ter tambem. Ausente => casos 7 e 8 sao BLOCKED (com causa e instrucao): nunca FAIL, nunca PASS.
+BLOQ=0
+if ! $G cat-file -e "${UPLOAD}^{commit}" 2>/dev/null; then
+  BLOQ=2
+  printf '# caso 7 BLOCKED: divergencia vs upload nao pode ser medida (objeto %s ausente)\n' "$UPLOAD"
+  printf '# caso 8 BLOCKED: reversao dos baselines depende do mesmo objeto\n'
+else
 ck 7 "divergencia registrada: 6 .lua em MuServer/ diferem do upload $UPLOAD (trabalho da branch)" t07
 t08() { local ok=0 par o l
   for par in "MuServer/Data/Script/System/ProtocolCore.lua:ProtocolCore.lua" \
@@ -80,6 +94,12 @@ t08() { local ok=0 par o l
   done
   [ "$ok" = 4 ]; }
 ck 8 "reversao real: os 4 baselines em workspace/changes/originals/ sao identicos aos blobs do upload" t08
+fi
 
-printf '1..%d\n# ref-intacta=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
+if [ "$BLOQ" -gt 0 ]; then
+  printf '1..%d\n# ref-intacta=%d falhas=%d blocked=%d\n' "$n" "$n" "$bad" "$BLOQ"
+  printf '# BLOCKED motivo=objeto_do_upload_ausente (%s); desbloqueio: git fetch --unshallow\n' "$UPLOAD"
+else
+  printf '1..%d\n# ref-intacta=%d falhas=%d blocked=0\n' "$n" "$n" "$bad"
+fi
 [ "$bad" -eq 0 ] || exit 1
