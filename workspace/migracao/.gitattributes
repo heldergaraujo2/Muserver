@@ -1,0 +1,4 @@
+# Bundle de transporte: binario, sem conversao de texto. Sem esta regra o .gitattributes da raiz
+# aplica `text eol=lf` a workspace/** e o blob comitado diverge do arquivo em disco — foi assim que
+# o bundle de backup ficou corrompido para quem o recuperasse por clone (ver BACKUP/MANIFEST).
+*.bundle binary

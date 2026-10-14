@@ -1,0 +1,35 @@
+# ============================================================
+# MuserverRecriado — artefatos que NAO devem ser versionados
+# Adaptado do monorepo heldergaraujo2/Muserver na migracao de 2026-10-12.
+# As regras de MuServer/ sairam de proposito: a referencia original (~615 MB, do
+# fornecedor) NAO viaja para este repositorio. Ver docs/MIGRACAO-MUSERVERRECRIADO-2026-10-12.md.
+# ============================================================
+
+# saidas de build e de execucao do v2
+build/
+out/
+*.o
+*.a
+*.so
+*.tmp
+*.log
+
+# lixo de interpretador
+__pycache__/
+*.pyc
+
+# relatorio intermediario de ferramenta so e versionado quando vira evidencia (ver reports/README.md)
+reports/*.raw
+
+# saidas regeneraveis das ferramentas de auditoria
+workspace/reports/*.json
+workspace/reports/*.txt
+workspace/reports/*.err
+workspace/recovered/
+
+# sistema / editores
+desktop.ini
+Thumbs.db
+.DS_Store
+*.user
+.vs/

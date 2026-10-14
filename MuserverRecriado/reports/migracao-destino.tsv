@@ -1,0 +1,25 @@
+# Migracao para MuserverRecriado — medidas de 2026-10-12 (nenhum numero sem o comando que o gerou)
+item	valor	comando_fonte
+split_do_historico	34 commits (mensagens originais)	git subtree split --prefix=recriado -b mu2-import HEAD
+split_tip	b1a3719ace7c787afe88e3266c53efa0d645980c	git rev-parse mu2-import
+destino_head	587ba4f28bc3bca2e0b7af2a230f444ec93df799	git -C /tmp/mu2dest3 rev-parse HEAD
+destino_arvore	8f1e0f35d3cc082dddccfe5f4caf834dc30946c4	git -C /tmp/mu2dest3 rev-parse HEAD^{tree}
+destino_arquivos	173	git -C /tmp/mu2dest3 ls-files | wc -l
+destino_commits	37	git -C /tmp/mu2dest3 rev-list --count HEAD
+copia_independente_bundle	645549 bytes	stat -c%s workspace/backups/mu2-v2.bundle
+copia_independente_sha256	e30fd48a7d8ebd0ce6fe04891473ef189226cea0cc6103c46d5b9420973175e5	sha256sum workspace/backups/mu2-v2.bundle
+copia_independente_ponta	75a5d2f39b3d0a970124c90ec00de6bd4850d02f	git bundle list-heads workspace/backups/mu2-v2.bundle
+reprodutibilidade_head	587ba4f (2 construcoes independentes)	bash workspace/migracao/preparar-destino.sh /tmp/mu2dest2 e /tmp/mu2dest3
+reprodutibilidade_arvore	8f1e0f35 (identica nas duas)	git rev-parse HEAD^{tree}
+reprodutibilidade_bundle	e30fd48a (sha256 identico nas duas)	sha256sum
+gate_no_destino	PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2, 281 assercoes, exit 0	make -s gate (em /tmp/mu2dest3)
+gate_na_origem	PASS=18 FAIL=0 BLOCKED=2 NOT_IMPLEMENTED=0 SKIPPED=2, 339 assercoes, exit 0	make -s gate (em recriado/, ambiente limpo)
+check_no_destino	unit=106 net=34 pe=4(blocked) data=4(blocked) falhas=0	make -s check
+fuzz_no_destino	12/12, 150000 iteracoes	FUZZ_ITERS padrao, make -s fuzz
+gate_selftest_no_destino	19/19	make -s gate-selftest
+verify_backup_no_destino	ok=9 falhas=1 blocked=1	bash scripts/verify-backup.sh (falha = publicacao inexistente; blocked = referencia ausente)
+transporte_bundle	1326974 bytes sha256 0744b9a52be9ea9ffdc398df01b29a047104be476f213497217836992e2ded49	git bundle create --all + clone -b main + make -s check
+push_destino_403	Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2	git push https://github.com/heldergaraujo2/MuserverRecriado.git main:main
+api_destino	Resource not accessible by integration (403)	gh api repos/heldergaraujo2/MuserverRecriado/collaborators/heldergaraujo2/permission
+api_origem	role_name=admin (200)	gh api repos/heldergaraujo2/Muserver/collaborators/heldergaraujo2/permission
+acl_usuario_destino	push=true (nao e' o que falta)	gh api repos/heldergaraujo2/MuserverRecriado --jq .permissions

@@ -1,0 +1,20 @@
+etapa	estado	obrig	assercoes	falhas	blocked	exit	ms	motivo	comando
+build	PASS	1	0	0	0	0	6	ok(cmd)	make -s build
+unit	PASS	1	106	0	0	0	15	ok	make -s unit
+make-sintaxe	PASS	1	7	0	0	0	47	ok	make -s make-sintaxe
+net	PASS	1	34	0	0	0	6952	ok	make -s net
+pe	PASS	1	14	0	0	0	9050	ok	make -s pe
+data	PASS	1	19	0	0	0	2873	ok	make -s data
+pe-selftest	PASS	1	4	0	0	0	78	ok	make -s pe-selftest
+data-selftest	PASS	1	4	0	0	0	121	ok	make -s data-selftest
+conform	PASS	1	15	0	0	0	11604	ok	make -s conform
+matriz	PASS	1	0	0	0	0	33	ok(cmd)	make -s matriz
+cfg	PASS	1	15	0	0	0	261	ok	make -s cfg
+cfg-selftest	PASS	1	5	0	0	0	84	ok	make -s cfg-selftest
+ref-intacta	PASS	1	6	0	0	0	136	ok	bash tests/ref_check.sh
+net-matrix	SKIPPED	0	0	0	0	-	0	opt-in(GATE_FULL=1)	make -s net-matrix
+persistencia	SKIPPED	0	0	0	0	-	0	opt-in(GATE_FULL=1)	bash scripts/verify-backup.sh
+golden	NOT_IMPLEMENTED	1	0	0	0	-	0	ausente:tests/golden.sh	bash tests/golden.sh
+interop	NOT_IMPLEMENTED	1	0	0	0	-	0	ausente:tests/interop.sh	bash tests/interop.sh
+fuzz	NOT_IMPLEMENTED	1	0	0	0	-	0	ausente:tests/fuzz.sh	bash tests/fuzz.sh
+bench	PASS	1	15	0	0	0	1223	ok	bash tests/bench.sh

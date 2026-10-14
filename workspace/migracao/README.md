@@ -1,0 +1,119 @@
+# Migração para `MuserverRecriado` — o que é este diretório
+
+Pacote **reprodutível** que publica a reconstrução (`recriado/`) como repositório próprio, com
+histórico preservado, evidência e cópia restaurável. Nada aqui depende de uma conversa: qualquer
+pessoa (ou agente) com o monorepo em mãos reproduz o destino com um comando.
+
+## Publicação dentro do monorepo (2026-10-13)
+
+A publicação **mudou de caminho**. Como o `git push` para `heldergaraujo2/MuserverRecriado` continua
+respondendo `403` (instalação do GitHub App; destino vazio), o projeto recriado passou a ser publicado
+**dentro do monorepo autorizado**, na pasta `MuserverRecriado/` — commit `a6ddf81`.
+
+| passo | resultado medido |
+|---|---|
+| artefato de origem | reproduzido por `preparar-destino.sh --gate` → `ok=6/falhas=0` (HEAD `51b2b157`, árvore `99c9b8ff`, 42 commits, 174 arquivos, bundle 662 628 B sha256 `76d71bd8…`) |
+| cópia para `MuserverRecriado/` | `git archive HEAD \| tar -x` (sem `.git` embutido, sem `out/`): **174 = 174** arquivos, **modo + blob idênticos nos 174** |
+| testes na pasta | `check` exit 0 (182 asserções) · `gate` **18 PASS/0 FAIL/2 BLOCKED/2 SKIPPED, 339 asserções** · `gate-selftest` 19/19 · `fuzz` 12/12 · `ref-intacta` 8/8 |
+| divergências declaradas | 9 arquivos documentais (`README.md` + 7 docs canônicos + relatório de migração), cobertas pelo `DIV_OK` do verificador |
+| `MuServer/` | intocado (árvore `fade0461…`, 10 021 arquivos); `git status` fora da pasta limpo |
+
+Conferir a pasta contra o artefato, a partir do monorepo:
+
+```sh
+bash workspace/migracao/preparar-destino.sh /tmp/mu2destB5 --gate    # reconstroi o artefato conferido
+diff <(git -C /tmp/mu2destB5 ls-tree -r HEAD | awk '{print $1,$3,$4}' | sort) \
+     <(git ls-files -s MuserverRecriado | awk '{print $1,$2,$4}' | sed 's|^\([0-9]*\) \([0-9a-f]*\) MuserverRecriado/|\1 \2 |' | sort)
+# esperado: divergencia apenas nas 9 edicoes documentais declaradas
+```
+
+O repositório separado continua vazio: se o proprietário o incluir na instalação do App,
+`publicar-destino.sh` publica o mesmo artefato lá — este pacote segue sendo o caminho reprodutível.
+
+| arquivo | papel |
+|---|---|
+| `preparar-destino.sh` | constrói o destino (split do histórico + evidência `workspace/` + adaptação + cópia independente) e **confere por conteúdo**: árvore, contagem de arquivos e sha256 do bundle são fixados em constantes |
+| `publicar-destino.sh` | faz push, lê de volta com `ls-remote`, clona o remoto num diretório temporário e roda o portão no clone — só então afirma publicação |
+| `adaptar-destino.py` | transformador da árvore publicada; **cada substituição tem asserção**: texto de origem fora do lugar FALHA nomeando a substituição, em vez de aplicar torto ou em silêncio |
+| `destino.gitignore`, `destino.gitattributes`, `README-secao-continuacao.md`, `README-secao-layout.md`, `CONTINUITY-secao6.md`, `NEXT_TASK-passo-zero.md`, `MIGRACAO-destino.md` | os **7 assets**: os trechos grandes que o transformador escreve no destino (revisados a cada rodada; nunca inventados) |
+| `MANIFEST-destino.template.md` | manifesto da cópia independente do destino (preenchido pelo `preparar-destino.sh` com os valores medidos) |
+| `destino-muserverrecriado.bundle` | transporte: o repositório de destino **inteiro** (histórico + `main`) num arquivo, para o caso de o push continuar bloqueado |
+| `patches/0001-migracao.patch` | **superseded**: era a adaptação ancorada na base do split; ficou pinado e deixou de aplicar quando o histórico avançou (medido: de 34 para 36 commits). Mantido como registro; **não** é usado |
+
+## Como usar
+
+```sh
+bash workspace/migracao/preparar-destino.sh /tmp/mu2dest --gate   # constrói e verifica
+bash workspace/migracao/publicar-destino.sh /tmp/mu2dest          # publica (hoje: 403) e confere
+```
+
+O `preparar-destino.sh` **não toca no monorepo**: o split roda num clone temporário com
+`sparse-checkout` (nenhum ref novo, nenhum objeto escrito na origem), e o destino nasce de
+`git init` + `git fetch` — não de `git clone`, que copiaria o pack de 134 MB com os blobs do
+`MuServer/` para dentro de um repositório que não deve carregá-los.
+
+O transformador é a peça que substitui o patch: o patch fica **pinado na base** em que foi gerado;
+o `adaptar-destino.py` casa cada substituição com o texto exato da origem e aborta a rodada (sem
+aplicar parcialmente) quando o texto mudou. É ele que mantém os documentos canônicos coerentes com
+o layout publicado — `recriado/X` → `X`, `../../workspace/` → `../workspace/`, blocos de continuidade
+e o relatório de migração.
+
+## Estado medido em 2026-10-12 (rodada de fechamento)
+
+| item | valor conferido |
+|---|---|
+| histórico preservado | **39 commits** via `git subtree split --prefix=recriado` (mensagens originais), tip `eee2a353` |
+| reprodutibilidade | duas construções independentes ⇒ mesmo HEAD (`51b2b157`), mesma árvore e mesmo sha256 de bundle (constantes conferidas pelo script, `ok=6/falhas=0`) |
+| commits do destino | **42** (39 do split + evidência `workspace/` + adaptação + backup) |
+| arquivos rastreados no destino | **174** (`83` da árvore do v2 + `89` de `workspace/` + `.gitattributes` + relatório) |
+| árvore do destino | `99c9b8ffe2982da0a1921788d3a173572e4b80e9` |
+| cópia independente do destino | `mu2-snapshot` @ `f42769f1`, bundle **662 628 B**, sha256 `76d71bd8c35c58c7a4cae1facc1c46ad2f6c0e42b0ee5f0f0b1b9f6bcbee40b2` |
+| `.git` do destino | **≈ 2 MB** (`du -sk .git` = 2095 KB, pack de 543 KiB; o pack do monorepo tem 134 MB) |
+| transporte | `destino-muserverrecriado.bundle`, **1 360 014 B**, sha256 `0a9ab745356e016a…` — clone `-b main` dá árvore idêntica (174 arquivos) e `make -s check` sem falhas |
+| `make -s gate` no destino | **PASS=14 FAIL=0 BLOCKED=6 NOT_IMPLEMENTED=0 SKIPPED=2, 281 asserções, exit 0** (medido em execuções quietas; sob carga o `bench` pode sair `BLOCKED` — 13 PASS/7 BLOCKED — e bloqueado não é falha nem meta) |
+| clone independente | árvore e inventário **idênticos** ao local (174 arquivos; `ls-tree -r` sha256 `be535006…`); `make -s check` sem falhas |
+| `make -s check` / `fuzz` / `gate-selftest` no destino | sem falhas / 12–12 (150 000 iterações, 52 sementes) / 19–19 |
+| `scripts/verify-backup.sh` no destino | ok=9, **falhas=1** (a publicação, honestamente) e blocked=1 (referência ausente) |
+| **publicação no repo separado** | **BLOQUEADA**: 403 `denied to heldergaraujo2`; API do destino responde `Resource not accessible by integration`. A publicação vigente é a pasta `MuserverRecriado/` deste monorepo (seção acima) |
+
+As 6 etapas BLOCKED no destino são exatamente as que exigem a referência original (`pe`, `data`,
+`cfg`, `ref-intacta`, `interop`, `lua`): `MuServer/` (10 021 arquivos, ~615 MB, pacote do
+fornecedor) **não** viaja para o repositório público. No monorepo de origem o mesmo portão dá
+PASS=18 BLOCKED=2 com 339 asserções — a diferença é 100 % atribuída à referência ausente.
+
+## Defeito medido e corrigido nesta rodada (teste de descritores)
+
+Ao validar o destino, `make -s seguranca` falhou de forma intermitente (1 em ~10 execuções): a
+**linha de base** do teste de descritores era uma leitura solta logo depois da bateria de
+malformações, e o close assíncrono do servidor ainda estava em voo — `fd_antes=9` com piso real 8
+(as 10 execuções estabilizaram em 8; nenhum acúmulo entre rodadas). A base passou a ser o **piso
+observado numa janela curta**; a asserção (`base == estabilizado == 2ª rodada`) continua estrita e um
+vazamento real ainda falha. Conferido depois da correção: 8/8 execuções na origem e 6/6 no artefato
+final (mais 6/6 no build anterior), `base=8` sempre (o imediato chegou a 10, como já era medido).
+
+## Bloqueio de permissão (o único impedimento real)
+
+Medido, com o comando exato:
+
+```
+$ git push https://github.com/heldergaraujo2/MuserverRecriado.git main:main
+remote: Permission to heldergaraujo2/MuserverRecriado.git denied to heldergaraujo2.
+fatal: unable to access '...': The requested URL returned error: 403
+```
+
+A mesma credencial publica normalmente em `heldergaraujo2/Muserver` (o push da branch da sessão
+funciona), e a API responde `{"message":"Resource not accessible by integration"}` **só** no destino.
+Leitura: o token é de instalação de GitHub App e a instalação não inclui `MuserverRecriado`.
+
+**Ação do proprietário:** incluir `MuserverRecriado` na seleção de repositórios da instalação, com
+*Contents: Read and write*. Depois disso, `publicar-destino.sh` conclui e confere. Enquanto isso não
+acontece, nada é afirmado como publicado, e o conteúdo continua preservado em dois lugares
+independentes: a árvore do monorepo (branch da sessão) e `destino-muserverrecriado.bundle`.
+
+## Ao reprocessar (o que quebra se a origem evoluir)
+
+`preparar-destino.sh` fixa `TREE_ESPERADA`, `ARQ_ESPERADOS` e `SHA_ESPERADO` no cabeçalho: divergir
+disso aparece como **FALHA com os dois valores medidos**, nunca como verde — e as constantes devem
+ser refixadas **depois** de medir a construção nova (o mesmo vale para as contagens nos assets).
+Rebuild muda hashes por construção; a rodada só fecha quando árvore, contagem e sha256 conferem em
+duas construções independentes.

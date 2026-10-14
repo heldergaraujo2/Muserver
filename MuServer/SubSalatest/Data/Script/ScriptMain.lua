@@ -1,8 +1,8 @@
 require('System\\ScriptCore')
 require('System\\ProtocolCore')
 
-require('Utils\\Database')
-require('Utils\\DatabaseAsync')
+require('Utils\\DataBase')
+require('Utils\\DataBaseAsync')
 require('Utils\\Cron')
 require('Utils\\Functions')
 require('Utils\\Schedule')

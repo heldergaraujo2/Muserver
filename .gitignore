@@ -1,0 +1,64 @@
+# ============================================================
+# MuServer - artefatos que NAO devem ser versionados
+# Gerado pela auditoria de 2026-10-11. Ver workspace/docs/DECISIONS.md D-04.
+# Nao afeta arquivos ja comitados: use `git rm --cached` (script em
+# workspace/tools/untrack_artifacts.sh) para remove-los do indice.
+# ============================================================
+
+# logs de runtime (241 MB / 2555 arquivos no estado atual do repositorio)
+MuServer/**/LOG/
+MuServer/**/LOG_ACCOUNT/
+MuServer/**/Logs/
+MuServer/**/*.log
+
+# dumps de crash (preservar antes de limpar: sao a fonte do diagnostico)
+# mantenha os que forem evidencia: git add -f MuServer/GameServer/*.dmp
+MuServer/**/*.dmp
+
+# lixo de sessao do editor de Lua / criptografador
+# ATENCAO: hoje estes .tmp contem a UNICA copia legivel de um script Lua.
+# Rode workspace/tools/recover_tmp_lua.py antes de qualquer limpeza.
+MuServer/**/*.tmp
+
+# backups de banco com dados de jogadores (PII + hashes de senha)
+MuServer/DB/*.bak
+MuServer/**/*.bak
+
+# saidas de build
+MuServer/**/obj/
+MuServer/**/bin/
+*.obj
+*.ilk
+
+# saidas das ferramentas de auditoria (regeneraveis)
+workspace/reports/*.json
+workspace/reports/*.txt
+workspace/recovered/
+
+# sistema / editores
+desktop.ini
+Thumbs.db
+.DS_Store
+*.user
+.vs/
+
+# AVISO (armadilha real, descoberta ao testar esta politica): estes padroes
+# NAO removem nada do repositorio - os ~3 300 artefatos ja estao no indice e o
+# .gitignore nao se aplica a arquivo rastreado. O efeito e outro, e pior:
+# `git rm -r --cached MuServer/...` numa arvore com este arquivo passa a NAO
+# re-adicionar os artefatos no `git add -A` seguinte, e o commit fica com
+# 2 376 deletions silenciosas. Se voce tirar artefatos do indice, faca isso com
+# workspace/tools/untrack_artifacts.sh (dry-run por padrao) e confira
+# `git diff --cached --stat` ANTES de comitar.
+
+# lixo de interpretador e de execucao das ferramentas
+__pycache__/
+*.pyc
+workspace/reports/*.err
+
+# Saidas geradas pela porta de testes da auditoria (workspace/tests/run_all.sh):
+# preflight.json/txt/err sao regenerados a cada execucao e NAO sao evidencia versionada — a
+# evidencia e o .md derivado (workspace/reports/A1-secrets.md). Ficam AQUI, e nao em
+# workspace/reports/, porque o verificador de backup (caso 9) recusa qualquer arquivo ignorado
+# naquele diretorio: um dos dois tinha de ceder, e cedeu o caminho da saida, nao a checagem.
+workspace/out/

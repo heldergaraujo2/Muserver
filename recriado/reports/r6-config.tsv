@@ -1,0 +1,663 @@
+arquivo	secao	chave	classe	valor
+ConnectServer/ConnectServer.ini	ConnectServerInfo	ConnectServerPortTCP	porta	44406
+ConnectServer/ConnectServer.ini	ConnectServerInfo	ConnectServerPortUDP	porta	55557
+ConnectServer/ConnectServer.ini	ConnectServerInfo	MaxIpConnection	inteiro	20
+DataServer/DataServer.ini	DataServerInfo	DataServerODBC	texto	MuOnline
+DataServer/DataServer.ini	DataServerInfo	DataServerPort	porta	55960
+DataServer/DataServer.ini	DataServerInfo	AdvancedLog	bool	0
+DataServer/DataServer.ini	DataServerInfo	CustomChatSystemSwith	bool	0
+DataServer/DataServer.ini	DataServerInfo	CustomChatServerGroup	bool	0
+DiscordServer/DiscordServer.ini	DiscordServerInfo	CustomerName	texto	musaffe
+DiscordServer/DiscordServer.ini	DiscordServerInfo	CustomerHardwareId	segredo	<REDACTED bytes=35 forma=dig+alfa+punct>
+DiscordServer/DiscordServer.ini	DiscordServerInfo	DiscordServerPort	porta	55990
+DiscordServer/DiscordServer.ini	DiscordServerInfo	DiscordServerODBC	texto	MuOnline
+DiscordServer/DiscordServer.ini	DiscordServerInfo	CaseSensitive	bool	0
+DiscordServer/DiscordServer.ini	DiscordServerInfo	MD5Encryption	bool	0
+DiscordServer/DiscordServer.ini	DiscordServerInfo	DiscordServerShowLog	bool	1
+DiscordServer/DiscordServer.ini	DiscordServerInfo	DiscordBotActive	bool	1
+DiscordServer/DiscordServer.ini	DiscordServerInfo	DiscordBotToken	segredo	<REDACTED bytes=72 forma=dig+alfa+punct>
+DiscordServer/Owner.ini	License	Owner	bool	1
+GameServer/Owner.ini	License	Owner	bool	1
+GameServerCS/Owner.ini	License	Owner	bool	1
+JoinServer/JoinServer.ini	JoinServerInfo	JoinServerODBC	texto	MuOnline
+JoinServer/JoinServer.ini	JoinServerInfo	JoinServerPort	porta	55970
+JoinServer/JoinServer.ini	JoinServerInfo	ConnectServerAddress	ipv4	127.0.0.1
+JoinServer/JoinServer.ini	JoinServerInfo	ConnectServerPort	porta	55557
+JoinServer/JoinServer.ini	JoinServerInfo	CaseSensitive	bool	0
+JoinServer/JoinServer.ini	JoinServerInfo	MD5Encryption	bool	0
+JoinServer/JoinServer.ini	JoinServerInfo	GlobalPassword	segredo	<REDACTED bytes=11 forma=dig+alfa+punct>
+JoinServer/JoinServer.ini	JoinServerInfo	MaxHardwareIdConnection	segredo	<REDACTED bytes=1 forma=dig>
+MHPServer/MHPServer.ini	MHPServerInfo	ClientVersion	texto	1.04.08
+MHPServer/MHPServer.ini	MHPServerInfo	ClientSerial	segredo	<REDACTED bytes=16 forma=dig+alfa>
+MHPServer/MHPServer.ini	MHPServerInfo	MHPServerPort	porta	55999
+MHPServer/MHPServer.ini	MHPServerInfo	MaxIpConnection	inteiro	10
+MHPServer/MHPServer.ini	MHPServerInfo	DetectionLockTime	inteiro	300
+MHPServer/MHPServer.ini	MHPServerInfo	EncDecKey1	segredo	<REDACTED bytes=1 forma=dig>
+MHPServer/MHPServer.ini	MHPServerInfo	EncDecKey2	segredo	<REDACTED bytes=1 forma=dig>
+MHPServer/MHPServer.ini	MHPServerInfo	EncDecSetNumber	bool	0
+MHPServer/MHPServer.ini	MHPServerInfo	InternalVersion	bool	0
+MHPServer/MHPServer.ini	MHPServerInfo	ReconnectSwitch	bool	1
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryGuardSwitch	bool	0
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryGuardNumber	inteiro	3
+MHPServer/MHPServer.ini	MHPServerInfo	MacroProtectSwitch	bool	0
+MHPServer/MHPServer.ini	MHPServerInfo	MacroProtectNumber	inteiro	6
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress1	texto	0x00E611B2
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress2	texto	0x00E61F68
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress3	texto	0x00E61F70
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress4	texto	0x08793718
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress5	texto	0x08128AC8
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress6	texto	0x00E8C578
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress7	texto	0xC4E70EDF
+MHPServer/MHPServer.ini	MHPServerInfo	MemoryAddress8	texto	0xC4E6F2B9
+PSGuard/PSGG.ini	PSGG	Instalado	bool	1
+PSGuard/PSGG.ini	PSGG	SaveScreenShot	bool	1
+PSGuard/PSGG.ini	PSGG	ConexoesPorHWID	segredo	<REDACTED bytes=2 forma=dig>
+PSGuard/PSGG.ini	PSGG	DisableMD5	bool	1
+PSGuard/PSGG.ini	PSGG	BlockVirtualM	bool	0
+PSGuard/PSGG.ini	PSGG	ReconnectAtt	inteiro	10
+PSGuard/PSGG.ini	PSGG	SingleToken	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	UseKeyCabal	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	Key1Cabal	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	Key2Cabal	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	Key3Cabal	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	Key4Cabal	segredo	<REDACTED bytes=1 forma=dig>
+PSGuard/PSGG.ini	PSGG	TipoTempoCC	bool	1
+PSGuard/PSGG.ini	PSGG	LoadGlobalDB	bool	1
+PSGuard/PSGG.ini	PSGG	BVPN	bool	0
+PSGuard/PSGG.ini	PSGG	CSPRVAL	bool	1
+PSGuard/PSGG.ini	PSGG	MBloqueio	bool	0
+PSGuard/PSGG.ini	PSGG	DB1	texto	1D
+PSGuard/PSGG.ini	PSGG	DB2	texto	2D
+PSGuard/PSGG.ini	PSGG	DB3	texto	3D
+PSGuard/PSGG.ini	PSGG	DBPerm	bool	0
+PSGuard/PSGG.ini	PSGG	ConexoesPorIP	inteiro	10
+PSGuard/PSGG.ini	PSGG	CGSC	bool	1
+PSGuard/PSGG.ini	PSGG	TempoCC	inteiro	5
+PSGuard/PSGG.ini	PSGG	LibProxyCC	bool	0
+PSGuard/PSGG.ini	PSGG	CFlood	bool	0
+PSGuard/PSGG.ini	PSGG	CHFlood	bool	0
+PSGuard/PSGG.ini	PSGG	CSP	bool	1
+PSGuard/PSGG.ini	PSGG	CSPR	bool	0
+PSGuard/PSGG.ini	PSGG	AD	bool	0
+PSGuard/PSGG.ini	PSGG	AB	bool	0
+PSGuard/PSGG.ini	PSGG	Tentativas	inteiro	3
+PSGuard/PSGG.ini	PSGG	DB	texto	1D
+PSGuard/PSGG.ini	PSGG	DBTYPE	bool	0
+PSGuard/PSGG.ini	PSGG	MManutencao	bool	0
+PSGuard/PSGG.ini	PSGG	Email	texto	admin@hinetworks.com.br
+PSGuard/PSGG.ini	PSGG	Licenca	segredo	<REDACTED bytes=22 forma=dig+alfa>
+PSGuard/PSGG.ini	PSGG	SQLHost	texto	.
+PSGuard/PSGG.ini	PSGG	SQLUsuario	texto	sa
+PSGuard/PSGG.ini	PSGG	SQLSenha	segredo	<REDACTED bytes=20 forma=dig+alfa>
+PSGuard/PSGG.ini	PSGG	SQLDatabase	texto	MuOnline
+PSGuard/PSGG.ini	PSGG	SQLDatabaseChar	texto	MuOnline
+PSGuard/PSGG.ini	PSGG	CRCLicenca	segredo	<REDACTED bytes=32 forma=dig+alfa>
+PSGuard/PSGG.ini	PSGG	CRCDLL	texto	BEEEA263F678A9DC8325068D8EB81C47
+PSGuard/PSGG.ini	PSGG	PortaPadrao	porta	55998
+PSGuard/PSGG.ini	PSGG	TipoMsgBlock	bool	1
+PSGuard/PSGG.ini	PSGG	DetectNewFiles	bool	0
+PSGuard/PSGG.ini	PSGG_CSPRI	0	texto	44405_127.0.0.1_44406
+PSGuard/Utilitário Multi Funções (Multi Functions Tools)/Idioma.ini	Sistema	Linguagem	texto	Eng
+SpeedServer/GameServer/Owner.ini	License	Owner	bool	1
+SubSalatest/GameServer/Owner.ini	License	Owner	bool	1
+Tools/Editores/Editor de conta Muemu/config.ini	Config	Database	texto	MuOnline
+Tools/Editores/Editor de conta Muemu/config.ini	Config	Server	texto	(local)
+Tools/Editores/Editor de conta Muemu/config.ini	Config	Port	porta	1433
+Tools/Editores/Editor de conta Muemu/config.ini	Config	User	texto	sa
+Tools/Editores/Editor de conta Muemu/config.ini	Config	Password	segredo	<REDACTED bytes=20 forma=dig+alfa>
+Tools/Editores/Editor de conta Muemu/config.ini	Config	Version	inteiro	2
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	EnableTrusted	bool	1
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	SERVER	ipv4	127.0.0.1
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	PORT	porta	1433
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	ME_DB	texto	MuOnline
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	USER	texto	sa
+Tools/Editores/MuEditor/config.ini	Me_MuOnline	PASS	segredo	<REDACTED bytes=20 forma=dig+alfa>
+Tools/Editores/MuEditor/config.ini	MuOnline	EnableTrusted	bool	1
+Tools/Editores/MuEditor/config.ini	MuOnline	SERVER	ipv4	127.0.0.1
+Tools/Editores/MuEditor/config.ini	MuOnline	PORT	porta	1433
+Tools/Editores/MuEditor/config.ini	MuOnline	MU_DB	texto	MuOnline
+Tools/Editores/MuEditor/config.ini	MuOnline	USER	texto	sa
+Tools/Editores/MuEditor/config.ini	MuOnline	PASS	segredo	<REDACTED bytes=20 forma=dig+alfa>
+Tools/Editores/MuEditor/config.ini	MuOnline	SN	texto	EE6FA2CB74BC05F5AAF70898521A0202
+Tools/Gerador de Main/LuaEncTool/EncryptorTool.ini	EncryptorTool	Customername	texto	MuEmuS6
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	CustomerName	texto	musaffe
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	SpecialCode	inteiro	43987361
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	LauncherType	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	LauncherName	texto	"Launcher 3DServers.com.br"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	IpAddress	ipv4	104.234.224.148
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	IpAddressPort	porta	44405
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	MaxGameInstances	inteiro	10
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	ClientVersion	texto	1.04.08
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	ClientSerial	segredo	<REDACTED bytes=16 forma=dig+alfa>
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	WindowName	texto	Age Aether
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	ScreenShotPath	texto	ScreenShots\Screen(%02d_%02d-%02d-%02d)-%04d.jpg
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	ClientName	texto	Main.exe
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	CameraName	texto	3DPlugin.dll
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	PluginName1	texto	PS.dll
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	PluginName2	texto	CEffect.dll
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	PluginName3	texto	arcadia.dll
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	PluginName4	texto	AutoPotion.dll
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	MainInfo	PluginName5	vazio	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	HelperInfo	HelperActiveAlert	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	HelperInfo	HelperActiveLevel	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	DWMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	DKMaxAttackSpeed	inteiro	64000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	FEMaxAttackSpeed	inteiro	33000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	MGMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	DLMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	SUMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	CharacterInfo	RFMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	ReconnectInfo	ReconnectTime	inteiro	700000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RemoveClass	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserType	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserShowOverHead	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserShowReset	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserShowMasterReset	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserOnlyOnSafeZone	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RankUserNeedAltKey	segredo	<REDACTED bytes=1 forma=dig>
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableCsSkillsAllMaps	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableReflectEffect	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableVipShop	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	VipTypes	inteiro	3
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	PrintLogo	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomMenuSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomMenuType	inteiro	3
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableEventTimeButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableEventTimeEventButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableEventTimeInvasionButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableEventTimeArenaButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableEventTimeAuctionButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableVipShopButton	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableRankingButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableCommandButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableJewelBankButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableSearchButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableSearchPartyButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableSearchStoreButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableFlagButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableSkinButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableLuckWheelButton	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableLevelUpTypeButton	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableBattlePassButton	segredo	<REDACTED bytes=1 forma=dig>
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableDailyRewardButton	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableSmithItemButton	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableAchievementsButton	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableCoinStatus	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableShopValueSystem	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreBlessButtom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreSoulButtom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreChaosButtom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreCoin1Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreCoin2Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableStoreCoin3Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EnableOffStoreButtom	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomMonsterEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomMonsterSoundEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisablePartyHpBar	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomInterfaceType	inteiro	4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomInterfaceHelperBar	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomInterfaceWide	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomInterfaceNewSkillList	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	PingTest	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGlovesEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPetEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPetPickEnable	inteiro	4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBowEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableMoveList	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableSet15Effect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	FpsLimit	inteiro	5
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	FpsLimitDisable	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAdvancedStatusEnable	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosX	inteiro	135
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosY	inteiro	73
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosW	inteiro	35
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosH	inteiro	29
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomJewelBankEnable	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAncientSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowHelperInventory	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableCashShop	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableMasterSkillTree	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableCommandWindow	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableFullMap	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableQuest	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisablePet	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableGens	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableFriend	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableExpandedInventory	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableExpandedWarehouse	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisablePersonalShop	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCloakEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPostItemSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPostItemDelay	inteiro	3000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CharacterDeleteMaxLevel	inteiro	800
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomQuestWindow	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	LevelMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableMasterEvents	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableClickEffect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableSetItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableSocketItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	Disable380ItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowPlayerSelectInterface	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCType	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCShowReset	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCShowMasterReset	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCSlot1Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCSlot2Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCSlot3Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCSlot4Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCSlot5Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCTurnRound	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SCTurnRoundSpeed	inteiro	4
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ShowBanner	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	NamesStyle	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	NamesStyleMouseOver	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	NamesStyleHpBar	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarPlayerSafeZone	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarPlayerMouseOver	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarPlayerDisableSDBar	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarMonsterShowName	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarMonsterMouseOver	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HpBarMonsterLifeRate	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	OffHelperEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomOptionMenuSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomOptionMenuLangSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	FlagSystemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MaxCharacters	inteiro	5
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	FixSkillInside	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SearchStoreAlphabetOrderDisable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	GremoryCase	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	EventEntryType	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DroppedItemToolTip	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPetAllowSkillCombo	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomPetAllowSkillShield	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAddStatus	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ChatType	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconTimeBar	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconAlphaRate	inteiro	90
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconSizeRate	inteiro	70
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconRowCount	inteiro	14
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffMiniIconDistance	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomBuffPartyIcon	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowPetMountSafeZone	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	IncomingMessageIconEnabled	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	SaveLoginEnabled	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CreateAccountEnabled	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	UpdateAccountEnabled	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableMoveDifferenceLevel	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MaxLevel	inteiro	4000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MasterLevelStartLevel	inteiro	400
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	RequiredItemLevelCheckMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ShowExperienceRate	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowSocketHarmony	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CastleSiegeRankingEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowWing380Option	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ChaosMixServerSide	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	PartyNewEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	PartyNewMaxPlayers	inteiro	10
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MoveCheckLevelMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseFeeValue_AL0	texto	-1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseFeeValue_AL1	inteiro	5000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseFeeValue_AL2	inteiro	2500
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseFeeValue_AL3	inteiro	500
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DiscordPresenceApplicationID	inteiro	1483431688108380220
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DiscordPresenceDescription	texto	MuSaffe Season 6.20 Sem Reset
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DiscordPresenceLargeImageKey	segredo	<REDACTED bytes=10 forma=alfa+punct>
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DiscordPresenceShowType	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomTradeValueEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomTradeValueCoin1	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomTradeValueCoin2	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomTradeValueCoin3	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ExclusiveGlowSystem	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ExclusiveGlowSystemSet	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ExclusiveGlowSystemWeapons	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ExclusiveGlowSystemWing	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomNewSlots	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomNewSlotsCheckIdenticalPet	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGuildReignLogoX	inteiro	5
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGuildReignLogoY	inteiro	200
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGuildReignTooltipX	inteiro	65
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGuildReignTooltipY	inteiro	130
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomSmithItemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CheckDefaultLanguageFolder	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	DisableHelperPickItemTab	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MapInformationPosX	inteiro	260
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MapInformationPosY	inteiro	360
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemPlayer	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemPlayerX	inteiro	23
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemPlayerY	inteiro	27
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemPlayerW	inteiro	11
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemPlayerH	inteiro	11
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemMonster	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemMonsterX	inteiro	45
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemMonsterY	inteiro	15
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemMonsterW	inteiro	12
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomElementSystemMonsterH	inteiro	12
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomGiftCodeEnable	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ResetButtonX	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ResetButtonY	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ResetButtonW	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ResetButtonH	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MasterResetButtonX	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MasterResetButtonY	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MasterResetButtonW	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MasterResetButtonH	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ResetButtonShowWhenAchieveStatusOnly	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCharacterDetailsEnabled	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCharacterDetailsType	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCharacterDetailsShowReset	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCharacterDetailsShowMasterReset	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomCharacterDetailsShowKillsDeaths	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyActive	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyCoin1	inteiro	1000
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyCoin2	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyCoin3	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyItemIndex	inteiro	7182
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBuyItemAmount	inteiro	5
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	WarehouseChangeBox	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	MarketPlaceActive	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	AllowPlayerSelectHudNumber	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomQuiverEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAchievementsEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomAchievementsRebuildEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	HuntingLogEnable	inteiro	3
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ScriptSystemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	ScriptSystemEffectEnable	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomMoveWindowEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/MainInfo.ini	Custom	CustomInventoryVisualEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	DisableStaticEffect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	DisableDynamicEffect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	DisableSkillEffect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	DisableGlowEffect	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	DisableWings	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AntiLag	ReduceMemory	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	Anisotropy	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	MaxAnisotropy	inteiro	32
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	Linear	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	Fog	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	TronEffects	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	MiniMap	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Graphics	DisableNewFPS	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	CustomInterface	texto	0 ; 0: Season 6 Default / 1: Season 1 / 2: Season 2 / 3: Season 3 / 4: Season 8 / 5: Navi Blue / 6: Mu Legend
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	ServerTime	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	DisablePing	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	CloseMessageBox	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	DisableAutoCtrl	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	WideScreenMode	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Other	Debug	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontEnable	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontName1	texto	"Tahoma"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontName2	texto	"Tahoma"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontName3	texto	"Tahoma"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontName4	texto	"Tahoma"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontName5	texto	"Tahoma"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontNameMini	texto	"Arial"
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSize1	inteiro	13
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSize2	inteiro	13
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSize3	inteiro	13
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSize4	inteiro	13
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSize5	inteiro	13
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Font	FontSizeMini	inteiro	11
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Options	HealthBarPlayer	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Options	HealthBarMonster	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Options	HudNumberFormat	inteiro	2
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Options	MoveFavorite	vazio	
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Configuracion	SkyBox	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Configuracion	DayNight	bool	0
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AutoLogin	User	texto	""
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AutoLogin	Password	segredo	<REDACTED bytes=2 forma=vazio>
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	AutoLogin	SaveData	bool	1
+Tools/Gerador de Main/MAIN_INFO v41 - Season 6/Premium/Settings.ini	Discord	DiscordShowPresence	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	CustomerName	texto	musaffe
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	SpecialCode	inteiro	43987361
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	LauncherType	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	LauncherName	texto	"Launcher 3DServers.com.br"
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	IpAddress	ipv4	104.234.189.85
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	IpAddressPort	porta	44405
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	MaxGameInstances	inteiro	10
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	ClientVersion	texto	1.04.08
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	ClientSerial	segredo	<REDACTED bytes=16 forma=dig+alfa>
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	WindowName	texto	MuSaffe V0.2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	ScreenShotPath	texto	ScreenShots\Screen(%02d_%02d-%02d-%02d)-%04d.jpg
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	ClientName	texto	Main.exe
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	CameraName	texto	3DPlugin.dll
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	PluginName1	texto	PS.dll
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	PluginName2	texto	CEffect.dll
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	PluginName3	texto	arcadia.dll
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	PluginName4	vazio	
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	MainInfo	PluginName5	vazio	
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	HelperInfo	HelperActiveAlert	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	HelperInfo	HelperActiveLevel	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	DWMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	DKMaxAttackSpeed	inteiro	64000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	FEMaxAttackSpeed	inteiro	33000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	MGMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	DLMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	SUMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	CharacterInfo	RFMaxAttackSpeed	inteiro	67000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	ReconnectInfo	ReconnectTime	inteiro	700000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RemoveClass	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserType	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserShowOverHead	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserShowReset	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserShowMasterReset	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserOnlyOnSafeZone	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RankUserNeedAltKey	segredo	<REDACTED bytes=1 forma=dig>
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableCsSkillsAllMaps	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableReflectEffect	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableVipShop	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	VipTypes	inteiro	3
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	PrintLogo	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomMenuSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomMenuType	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableEventTimeButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableEventTimeEventButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableEventTimeInvasionButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableEventTimeArenaButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableEventTimeAuctionButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableVipShopButton	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableRankingButton	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableCommandButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableJewelBankButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableSearchButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableSearchPartyButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableSearchStoreButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableFlagButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableSkinButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableLuckWheelButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableLevelUpTypeButton	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableBattlePassButton	segredo	<REDACTED bytes=1 forma=dig>
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableDailyRewardButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableSmithItemButton	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableAchievementsButton	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableCoinStatus	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableShopValueSystem	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreBlessButtom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreSoulButtom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreChaosButtom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreCoin1Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreCoin2Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableStoreCoin3Buttom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EnableOffStoreButtom	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomMonsterEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomMonsterSoundEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisablePartyHpBar	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomInterfaceType	inteiro	4
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomInterfaceHelperBar	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomInterfaceWide	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomInterfaceNewSkillList	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	PingTest	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGlovesEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPetEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPetPickEnable	inteiro	4
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBowEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableMoveList	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableSet15Effect	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	FpsLimit	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	FpsLimitDisable	inteiro	34
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAdvancedStatusEnable	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosX	inteiro	135
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosY	inteiro	73
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosW	inteiro	35
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAdvancedStatusButtonPosH	inteiro	29
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomJewelBankEnable	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAncientSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowHelperInventory	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableCashShop	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableMasterSkillTree	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableCommandWindow	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableFullMap	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableQuest	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisablePet	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableGens	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableFriend	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableExpandedInventory	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableExpandedWarehouse	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisablePersonalShop	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCloakEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPostItemSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPostItemDelay	inteiro	3000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CharacterDeleteMaxLevel	inteiro	800
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomQuestWindow	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	LevelMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableMasterEvents	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableClickEffect	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableSetItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableSocketItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	Disable380ItemOption	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowPlayerSelectInterface	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCType	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCShowReset	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCShowMasterReset	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCSlot1Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCSlot2Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCSlot3Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCSlot4Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCSlot5Animation	inteiro	187
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCTurnRound	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SCTurnRoundSpeed	inteiro	4
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ShowBanner	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	NamesStyle	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	NamesStyleMouseOver	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	NamesStyleHpBar	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarPlayerSafeZone	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarPlayerMouseOver	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarPlayerDisableSDBar	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarMonsterShowName	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarMonsterMouseOver	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HpBarMonsterLifeRate	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	OffHelperEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomOptionMenuSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomOptionMenuLangSwitch	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	FlagSystemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MaxCharacters	inteiro	5
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	FixSkillInside	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SearchStoreAlphabetOrderDisable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	GremoryCase	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	EventEntryType	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DroppedItemToolTip	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPetAllowSkillCombo	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomPetAllowSkillShield	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAddStatus	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ChatType	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconTimeBar	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconAlphaRate	inteiro	90
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconSizeRate	inteiro	70
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconRowCount	inteiro	14
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffMiniIconDistance	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomBuffPartyIcon	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowPetMountSafeZone	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	IncomingMessageIconEnabled	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	SaveLoginEnabled	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CreateAccountEnabled	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	UpdateAccountEnabled	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableMoveDifferenceLevel	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MaxLevel	inteiro	4000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MasterLevelStartLevel	inteiro	400
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	RequiredItemLevelCheckMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ShowExperienceRate	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowSocketHarmony	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CastleSiegeRankingEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowWing380Option	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ChaosMixServerSide	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	PartyNewEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	PartyNewMaxPlayers	inteiro	7
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MoveCheckLevelMasterLevel	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseFeeValue_AL0	texto	-1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseFeeValue_AL1	inteiro	5000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseFeeValue_AL2	inteiro	5000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseFeeValue_AL3	inteiro	5000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DiscordPresenceApplicationID	inteiro	1483431688108380220
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DiscordPresenceDescription	texto	MuSaffe Season 6.20 Sem Reset
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DiscordPresenceLargeImageKey	segredo	<REDACTED bytes=10 forma=alfa+punct>
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DiscordPresenceShowType	inteiro	2
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomTradeValueEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomTradeValueCoin1	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomTradeValueCoin2	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomTradeValueCoin3	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ExclusiveGlowSystem	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ExclusiveGlowSystemSet	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ExclusiveGlowSystemWeapons	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ExclusiveGlowSystemWing	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomNewSlots	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomNewSlotsCheckIdenticalPet	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGuildReignLogoX	inteiro	5
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGuildReignLogoY	inteiro	200
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGuildReignTooltipX	inteiro	65
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGuildReignTooltipY	inteiro	130
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomSmithItemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CheckDefaultLanguageFolder	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	DisableHelperPickItemTab	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MapInformationPosX	inteiro	260
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MapInformationPosY	inteiro	160
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemPlayer	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemPlayerX	inteiro	23
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemPlayerY	inteiro	27
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemPlayerW	inteiro	11
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemPlayerH	inteiro	11
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemMonster	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemMonsterX	inteiro	45
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemMonsterY	inteiro	15
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemMonsterW	inteiro	12
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomElementSystemMonsterH	inteiro	12
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomGiftCodeEnable	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ResetButtonX	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ResetButtonY	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ResetButtonW	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ResetButtonH	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MasterResetButtonX	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MasterResetButtonY	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MasterResetButtonW	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MasterResetButtonH	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ResetButtonShowWhenAchieveStatusOnly	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCharacterDetailsEnabled	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCharacterDetailsType	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCharacterDetailsShowReset	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCharacterDetailsShowMasterReset	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomCharacterDetailsShowKillsDeaths	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBuyActive	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBuyCoin1	inteiro	5000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBuyCoin2	inteiro	5000
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBuyItemIndex	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBuyItemAmount	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	WarehouseChangeBox	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	MarketPlaceActive	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	AllowPlayerSelectHudNumber	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomQuiverEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAchievementsEnable	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomAchievementsRebuildEnable	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	HuntingLogEnable	inteiro	3
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ScriptSystemEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	ScriptSystemEffectEnable	bool	0
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomMoveWindowEnable	bool	1
+Tools/Gerador de Main/MAIN_INFOS6.20/MainInfo.ini	Custom	CustomInventoryVisualEnable	bool	1
+desktop.ini	.ShellClassInfo	InfoTip	texto	Pasta sincronizada no MEGA
+desktop.ini	.ShellClassInfo	IconResource	texto	C:\ProgramData\MEGAsync\MEGAsync.exe,3
+
+# agregados
+# arquivos=19 pares_chave_valor=655 segredos_redigidos=29
+# portas={1433: 3, 44405: 2, 44406: 1, 55557: 2, 55960: 1, 55970: 1, 55990: 1, 55998: 1, 55999: 1}
+# ipv4={'104.234.189.85': 1, '104.234.224.148': 1, '127.0.0.1': 3}
+# secoes={'.ShellClassInfo': 2, 'AntiLag': 6, 'AutoLogin': 3, 'CharacterInfo': 14, 'Config': 6, 'Configuracion': 2, 'ConnectServerInfo': 3, 'Custom': 433, 'DataServerInfo': 5, 'Discord': 1, 'DiscordServerInfo': 9, 'EncryptorTool': 1, 'Font': 13, 'Graphics': 7, 'HelperInfo': 4, 'JoinServerInfo': 8, 'License': 5, 'MHPServerInfo': 22, 'MainInfo': 36, 'Me_MuOnline': 6, 'MuOnline': 7, 'Options': 4, 'Other': 7, 'PSGG': 47, 'PSGG_CSPRI': 1, 'ReconnectInfo': 2, 'Sistema': 1}
+# nenhum valor sensivel foi impresso; a redacao e verificada por tests/cfg.sh

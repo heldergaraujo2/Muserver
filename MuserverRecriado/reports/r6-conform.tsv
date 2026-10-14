@@ -1,0 +1,19 @@
+ok 1 - C-01 PING: quadro minimo (4 B) devolve os mesmos 4 bytes, corpo vazio
+ok 2 - C-02 ECHO: corpo 'abc' volta byte a byte
+ok 3 - C-03 MU2_MAX_BODY: corpo de 2048 B aceito, resposta de 2052 B
+ok 4 - C-04 corpo de 2049 B (size=2053) rejeitado: sem resposta e rejects incrementa
+ok 5 - C-05 size=2 (< MU2_HEADER_SIZE) rejeitado: sem resposta e rejects incrementa
+ok 6 - C-06 size=3000 (> MU2_MAX_FRAME) rejeitado: sem resposta e rejects incrementa
+ok 7 - C-07 campo de tamanho e little-endian: size=0x0700 tratado como 1792, eco completo
+ok 8 - C-08 opcode 0x00ff descartado; o PING seguinte na mesma conexao e respondido
+ok 9 - C-09 MU2_E_INCOMPLETE: quadro em duas escritas com 120 ms de intervalo e respondido
+ok 10 - C-10 dois quadros concatenados num unico write produzem duas respostas
+ok 11 - C-11 D2-17: mu2_frame_body recebe o inicio do quadro — corpo comeca em 'STATS '
+ok 12 - C-12 linha STATS tem os 9 campos do contrato, na ordem declarada
+ok 13 - C-13 quadro invalido nao vaza bytes parciais (0 bytes recebidos, nao resposta truncada)
+ok 14 - C-14 perfis orig e mur0 equivalentes: 5/5 quadros nos dois, mesmos recebidos
+ok 15 - C-15 (F15) expectativa errada e detectada pela sonda real (mutada diz OK: diferenca medida)
+1..15
+# escopo=conform:v2-interno
+# conform=15 falhas=0 blocked=0
+# nota=camada: conformidade interna do v2; NAO afirma compatibilidade com o original
