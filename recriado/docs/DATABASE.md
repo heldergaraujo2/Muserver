@@ -131,7 +131,43 @@ marcação de que **não foi executado nem validado** neste ambiente (não há W
 Ressalva obrigatória: nada disso é recomendação de segurança (a base vem com `sa`/trusted), e os
 `.bak` contêm dados de terceiros — ver `SECURITY.md`.
 
-## 4. O que seria necessário para o v2 ter persistência (não implementado)
+## 4. Concorrência: um escritor por arquivo, verificação que recusa, e a janela de manutenção
+
+Medido na rodada F3 (suíte `concorrencia`, etapa do portão; relatório
+`reports/r12-concorrencia-verify-escrita-2026-10-13.md`). Não é teoria: o escritor dos testes é um
+processo real usando a mesma biblioteca (`tools/mu2dbcontend`), e a janela de encontro é
+determinística.
+
+| caminho | lock | consequência |
+|---|---|---|
+| abrir (`O_RDWR`, novo ou existente) | `flock(LOCK_EX\|LOCK_NB)` **pelo ciclo de vida do handle** | **um** escritor por arquivo; segunda abertura recusada com `arquivo em uso` |
+| `mu2db_verify` (`O_RDONLY`) | `flock(LOCK_SH\|LOCK_NB)` | recusa nomeada se houver escritor: `arquivo travado por outro processo` |
+| leitura de dados (`stats`, carregar personagem…) | exige o handle exclusivo | **não há leitura concorrente**: leitores serializam com o escritor |
+
+Números medidos (host desta rodada; o que importa é a ordem de grandeza): 12 tentativas de
+`verificar` com escritor real segurando o lock → **12 recusas, 0 aprovações**, pior caso **14 ms**;
+escritor real com leitor ativo (`LOCK_SH`) → recusado em **12 ms**, sem executar transação alguma;
+**zero** falso positivo de corrupção; nenhum byte do arquivo alterado pelas tentativas recusadas.
+
+**Limite declarado:** `flock` é *advisory*. Um leitor cru (`cat`, `cp`, ferramenta de backup) **lê** o
+arquivo durante uma escrita sem ser impedido — a proteção existe porque todos os consumidores usam a
+biblioteca. Uma cópia feita durante escrita pode ser rasgada: ela serve para diagnóstico, **não**
+certifica integridade.
+
+**Procedimento de janela de manutenção (a única verificação COMPLETA com dado em repouso).**
+
+```sh
+# 1) parar quem mantém o banco aberto (o serviço não o abre hoje; o console admin não escreve)
+# 2) com o arquivo em repouso, verificar:
+out/mu2dbctl contas.db verificar     # espera-se: integridade=ok
+# 3) subir de novo
+```
+
+Enquanto houver processo com o arquivo aberto, `verificar` **vai recusar** — isso é o desenho, não um
+defeito. Verificação **com** o serviço rodando (segundo processo leitor ou modo snapshot) seria
+**decisão de produto** e **não** está tomada: hoje a única política implementada é a recusa imediata.
+
+## 5. O que seria necessário para o v2 ter persistência (não implementado)
 
 Não existe decisão tomada nem código. Qualquer caminho (`sqlite`, arquivo próprio, PostgreSQL) seria
 **decisão nova** a registrar em `DECISIONS.md`, com migrações versionadas, teste de reinicialização e

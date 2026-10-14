@@ -648,3 +648,44 @@ energia do host (o que se mede é a chamada de `fsync` antes do retorno). `verif
 em curso passa a ser recusado em vez de tentado — a janela de leitura consistente é "sem escritor
 ativo". Evidência: `tests/db_test.c` (`teste_schema_versao`, `teste_verify_lock`),
 `tests/dbctl.sh` (casos de CLI novos) e `reports/r11c-schema-e-lock-2026-10-13.md`.
+
+## D2-42 — Concorrência `verify`×escrita: recusa imediata nomeada é a política; a verificação COM serviço rodando fica ABERTA
+
+**Contexto.** A pendência técnica herdada da auditoria P3 era "resolver a concorrência `verify`×
+escrita". A D2-41 já havia decidido *o lock* (`LOCK_SH|LOCK_NB` na verificação); o que faltava era
+medir o comportamento com **escritor real** — e não com um processo que só segura lock — e comparar as
+políticas possíveis em vez de assumir a atual. Medição em
+`reports/r12-concorrencia-verify-escrita-2026-10-13.md`; suíte `tests/concorrencia.sh` (etapa do portão).
+
+**Evidência medida (host desta rodada).** Com um escritor real segurando o lock: 12 de 12
+verificações recusadas, pior caso 14 ms, **zero** falso positivo de corrupção, arquivo byte-idêntico,
+`stats` também recusado; depois da liberação, `verificar` aprova e o livro-caixa fecha (21 contas,
+3 autenticações). Com leitor ativo (`LOCK_SH`): escritor real recusado em 12 ms, **nenhuma** transação
+executada. `verify` convive com `LOCK_SH`. Limite em teste: leitura crua (`dd`) **passa** — `flock` é
+*advisory*. Discriminação: removendo o `LOCK_EX` da abertura, a suíte cai em 9 falhas.
+
+**Decisão.**
+
+1. **Mantida a recusa imediata e nomeada**, nos dois lados, não bloqueante. Não se implementa retry,
+   espera nem "tenta de novo em N ms": contra um serviço que mantém o handle aberto por toda a vida,
+   espera não converge, e retry só troca uma recusa rápida e explicável por uma recusa lenta.
+2. **Espera bloqueante (`LOCK_SH` sem `LOCK_NB`) fica rejeitada por decisão**, com o motivo no código
+   (`src/db.c:943-945`): daria espera infinita no caso legítimo do mesmo processo com o banco aberto.
+3. **A janela de manutenção entra como procedimento operacional** (`docs/DATABASE.md` §4): parar quem
+   mantém o arquivo aberto, verificar, subir. É a única forma de uma verificação completa com dado em
+   repouso.
+4. **Verificação a partir de uma cópia não certifica**: cópia feita durante escrita pode ser rasgada.
+   Serve a diagnóstico; não substitui a janela.
+5. **Fica ABERTA, por decisão de produto, a verificação COM o serviço rodando** (segundo processo
+   leitor ou modo snapshot do arquivo). Não é implementada aqui e não é simulada por teste: exigiria
+   contrato novo, e a alternativa "abrir mão do escritor único" muda o desenho inteiro.
+
+**Motivo.** O contrato vigente (um escritor por arquivo) já determina a resposta; o que faltava era
+medi-la e dizer, em texto, o que ela custa ao operador. Inventar uma política nova sem necessidade
+seria trocar um comportamento medido por um comportamento não medido.
+
+**Limite declarado.** Latências são deste host e dominadas por `fork`+`exec`, não pelo lock. O caso
+"verificação ativa" usa um portador independente do **mesmo** lock que o `verify` toma, porque o
+caminho `verify` não tem modo "segurar aberto" — o relatório diz isso com essas palavras. Continua
+**não** coberto: dois escritores simultâneos (impossível por desenho), queda de energia, e `flock` em
+sistemas de arquivos que não honrem bloqueio (NFS/SMB) ou em outro host.

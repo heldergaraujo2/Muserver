@@ -1,5 +1,34 @@
 # CHANGELOG do v2
 
+## F3: concorrência `verify`×escrita medida com escritor real, e a política comparada — 2026-10-13
+
+Relatório: `reports/r12-concorrencia-verify-escrita-2026-10-13.md`. Decisão: **D2-42**.
+
+- **Suíte nova `concorrencia` (27 casos) como etapa do portão.** O escritor é `tools/mu2dbcontend`
+  (novo): mesma `mu2db_abrir` do serviço, transações reais, e `--hold-until-arquivo` para a janela ser
+  **determinística** em vez de corrida. O que os casos de lock do `dbctl` não cobriam era exatamente
+  isto: escritor **real** (não um `flock(1)` segurando lock) e o efeito sobre o dado.
+- **Medido:** com escritor ativo, 12 de 12 verificações recusadas, pior caso 14 ms, **zero** falso
+  positivo de corrupção, arquivo byte-idêntico; com leitor ativo, escritor recusado em 12 ms sem
+  executar transação; `verify` convive com `LOCK_SH`. Limite registrado em teste: `flock` é
+  *advisory* — leitura crua passa.
+- **Discriminação medida:** removendo o `LOCK_EX` da abertura (mutação temporária, restaurada com
+  `sha256` conferido), a suíte cai em **9 falhas** (`aprovado=12` na janela); restaurada, 27/27.
+- **Armadilha medida nesta suíte, e registrada:** `flock -n <fd>` sem `-s/-x` toma lock **exclusivo**
+  e **converte** o compartilhado no mesmo descritor. A primeira versão "conferia o SH" assim e virava
+  o cenário em outro (media exclusão contra si mesma). O jeito correto é conferir de fora:
+  `flock -s -n <arq> -c true` / `flock -x -n <arq> -c true`.
+- **F4 (grafo e menor caminho):** levantado na mesma rodada, fora da árvore do projeto
+  (`workspace/reports/F4-grafo-e-menor-caminho-2026-10-13.md`): `mud2` não inclui `db.h` nem linka
+  `db.o`, `struct conn` não tem sessão — os dois blocos maduros (rede × persistência) não têm aresta.
+  Menor caminho até o primeiro fluxo: 7 passos, todos com símbolo e critério, e **um** item faltante
+  (decisão do contrato de login; recomendação comparada em 5 opções). Nada de código novo aqui.
+- **Política:** mantida a recusa imediata nomeada (não bloqueante nos dois lados). Retry com limite
+  foi avaliado e **recusado** (contra um serviço que mantém o handle aberto ele só troca recusa rápida
+  por recusa lenta); espera bloqueante daria **deadlock** no caso legítimo do mesmo processo. A
+  janela de manutenção entra como **procedimento** em `docs/DATABASE.md` §4, e a verificação **com**
+  serviço rodando fica **aberta** como decisão de produto — não tomada.
+
 ## P07-x: `ClientSerial` estava em claro num relatório nosso — achado por varredura, corrigido — 2026-10-13
 
 Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.

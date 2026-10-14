@@ -95,16 +95,39 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 
 ### 5.1 Pendências medidas da auditoria P3 (cada uma com critério de aceitação)
 
-| # | pendência | estado (2026-10-13, rodada P4) | evidência |
+| # | pendência | estado (2026-10-13; P4 e F3) | evidência |
 |---|---|---|---|
 | 1 | **Migração de schema não existe** (`REG_MIGRACAO` nunca gravado) | **fechada por decisão (D2-41), não por implementação**: a promessa saiu do `db.h`; versão antiga é recusada nomeada; `gravar_cabecalho` grava `db->schema_version` | `reports/r11c-schema-e-lock-2026-10-13.md` §1 — migração de verdade exigiria caminho v1→v2 medido: não existe e não é declarada |
 | 2 | **`mu2db_verify` sem lock** | **fechada**: `LOCK_SH\|LOCK_NB`, recusa nomeada com escritor ativo, liberação em todo caminho de saída | `reports/r11c-…md` §2–4 (mutações A/B/C medidas); custo declarado: verificação e escrita se excluem (`dbctl` casos 33–48) |
-| 3 | **Queda de energia não é reproduzível aqui** | declarado no §1 do relatório P3 | não é pendência de código: é limite de ambiente, e o texto tem de continuar dizendo "o `fsync` foi chamado antes de a API voltar", nunca "o dado sobreviveu a queda" | manter a redação; não promover a afirmação |
-| 4 | **Paridade de publicação (`MuserverRecriado/`)** | `diff -rq recriado/reports MuserverRecriado/reports` divergente — **exceto** `reports/r6-config.tsv`, reparado nesta rodada por ser artefato sensível (achado P07-x) | rodada de publicação com o checklist (`NEXT_TASK.md`), arquivo por arquivo, e `verify-backup.sh` verde | pedir autorização; não copiar à mão |
+| 3 | **Concorrência `verify`×escrita** | **fechada por medição (F3)**: recusa imediata nomeada dos dois lados, sem espera/retry, sem falso positivo de corrupção; limite *advisory* do `flock` em teste | `reports/r12-…md` §2 (27 casos, mutação de discriminação) | aberta a decisão de produto sobre verificação **com** serviço rodando |
+| 4 | **Queda de energia não é reproduzível aqui** | declarado no §1 do relatório P3 | não é pendência de código: é limite de ambiente, e o texto tem de continuar dizendo "o `fsync` foi chamado antes de a API voltar", nunca "o dado sobreviveu a queda" | manter a redação; não promover a afirmação |
+| 5 | **Paridade de publicação (`MuserverRecriado/`)** | `diff -rq recriado/reports MuserverRecriado/reports` divergente — **exceto** `reports/r6-config.tsv`, reparado nesta rodada por ser artefato sensível (achado P07-x) | rodada de publicação com o checklist (`NEXT_TASK.md`), arquivo por arquivo, e `verify-backup.sh` verde | pedir autorização; não copiar à mão |
 
 ## 6. Último commit e publicação
 
-- **Rodada vigente (2026-10-13, P07-x + higiene da porta de auditoria).** HEAD local `583e196`
+- **Rodada vigente (2026-10-13, F3 + F4).** Duas frentes, nesta ordem:
+  **(a) F3** — concorrência `verify`×escrita **fechada** (suíte `concorrencia` 27/27 como etapa do
+  portão, escritor real, mutação de discriminação derrubando 9 casos, política decidida em D2-42,
+  janela de manutenção como procedimento em `docs/DATABASE.md` §4, e a verificação **com** serviço
+  rodando declarada **aberta** como decisão de produto); relatório
+  `reports/r12-concorrencia-verify-escrita-2026-10-13.md`.
+  **(b) F4** — grafo de dependências e menor caminho até o primeiro fluxo, com a aresta que **não
+  existe** provada por medição (`src/mud2.c` não inclui `mu2/db.h`; o `Makefile:88-89` linka `$(MUD2)`
+  sem `$(DBOBJ)`; `struct conn` não tem campo de sessão): `workspace/reports/F4-grafo-e-menor-caminho-2026-10-13.md`.
+  O grafo fecha em **um** item faltante para os passos 1–7: a **decisão do contrato de login**
+  (recomendação = opção A, códigos novos no espaço do v2 `0x0010+`, com três condições escritas;
+  opções B/D/E recusadas com motivo). Sem essa decisão, **nada é implementado** — e é por isso que a
+  rodada para aqui. Suíte nova `concorrencia`
+  (27 casos) como etapa do portão, com escritor real (`tools/mu2dbcontend.c`, novo) e janela
+  determinística (`--hold-until-arquivo`). Portão vigente medido: **23 PASS, 0 FAIL, 3 BLOCKED,
+  2 SKIPPED, 29 etapas, 643 asserções, exit 0**. Discriminação: mutação que remove o `LOCK_EX` da
+  abertura derruba 9 casos; restaurada (sha256 conferido), 27/27. Política mantida (recusa imediata
+  nomeada), com a comparação documentada em D2-42 e a janela de manutenção como procedimento em
+  `docs/DATABASE.md` §4. Relatório: `reports/r12-concorrencia-verify-escrita-2026-10-13.md`.
+  Pendência de produto **aberta** (não decidida por esta linha de trabalho): verificação **com**
+  serviço rodando.
+
+- **Rodada anterior (2026-10-13, P07-x + higiene da porta de auditoria).** HEAD local `583e196`
   (dois commits: `6d5e225` correção do vazamento do `ClientSerial` + `583e196` porta de auditoria).
   Entrou: fix de `tools/cfg_probe.py` com regeneração do `reports/r6-config.tsv` (663 linhas, diff de
   4 linhas) e espelho na árvore publicada; caso `t07b` no `cfg` (lista independente — o furo que
