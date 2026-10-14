@@ -82,7 +82,7 @@ recusado na partida; rotas de admin com papel `leitor` devolvem `403`; `/publica
 | `make -s pe` / `make -s data` | PE e dados da referência (`MU_REF_DATA`) | 14/14 · 21/21 |
 | `make -s pe-selftest data-selftest cfg-selftest` | só a recusa de entrada inválida (sem tocar 615 MB) | 4/4 · 4/4 · 5/5 |
 | `make -s gate` | **o portão único** (29 etapas) | **24 PASS / 0 FAIL / 3 BLOCKED / 2 SKIPPED, 643 asserções, exit 0** (2026-10-13, F3 — medido) |
-| `make -s gate-selftest` | testa o próprio portão (F12–F14, etapa duplicada) | 19/19 |
+| `make -s gate-selftest` | testa o próprio portão (F12–F14, etapa duplicada, clone raso) | 21/21 (medido 2026-10-13) |
 
 ## 6. O portão único (é ele que define "verde")
 
