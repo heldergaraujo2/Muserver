@@ -106,7 +106,7 @@ referência ou o binário de terceiro): `interop`, `lua`. `NOT_IMPLEMENTED`: nen
 ConnectServer **44406 TCP / 55557 UDP** · DataServer 55960 · JoinServer 55970 (aponta
 `127.0.0.1:55557`) · DiscordServer 55990 · MHPServer 55999 · PSGuard 55998 · SQL 1433.
 **Cliente (`MainInfo.ini`) aponta 44405** — divergência registrada como hipótese, não resolvida.
-26 valores sensíveis em claro no pacote original; a sonda redige e o teste cobra a redação.
+29 valores sensíveis em claro no pacote original (26 até 2026-10-13; `ClientSerial` entrou com o achado P07-x, `reports/r11d-…md`); a sonda redige e o teste cobra a redação — inclusive por lista independente (`cfg` t07b).
 Regra: **resumo ausente é `FAIL`**, e `BLOCKED`/`NOT_IMPLEMENTED` nunca viram `PASS`.
 
 ## Medidas da R-5 (todas reproduzíveis pelos probes; ver `reports/r5-*.tsv`)

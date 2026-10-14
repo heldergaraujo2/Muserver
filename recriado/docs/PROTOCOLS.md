@@ -59,7 +59,7 @@ Passar nas camadas 1 e 2 **não diz nada** sobre a 3 — e isso é asserção de
 ConnectServer escuta `44406`. Sem captura de tráfego real, não se sabe qual está certo (hipótese
 registrada na matriz `reports/r6-matriz.tsv` com confiança média).
 
-Fonte: `tools/cfg_probe.py` sobre 19 `.ini` (655 pares chave/valor, **26 valores sensíveis
+Fonte: `tools/cfg_probe.py` sobre 19 `.ini` (655 pares chave/valor, **29 valores sensíveis
 redigidos** — §`SECURITY.md`), evidência em `reports/r6-endpoints.tsv` e `reports/r6-config.tsv`.
 
 ### 3.2 `Data/Hack/HackPacketCheck.txt` — o espaço de índices do original

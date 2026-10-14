@@ -23,7 +23,7 @@ na branch `main`), não criada por esta consolidação.
 
 | ativo | onde | quem pode ler | risco |
 |---|---|---|---|
-| credenciais em claro (token de bot Discord, senha global do JoinServer, `EncDecKey1/2`, serial/licença) | 19 `.ini` do pacote; **26 valores redigidos** nas sondas | qualquer um (repo **público**) | uso indevido de serviços/credenciais |
+| credenciais em claro (token de bot Discord, senha global do JoinServer, `EncDecKey1/2`, serial/licença) | 19 `.ini` do pacote; **29 valores redigidos** nas sondas (26 até 2026-10-13; +3 com o achado **P07-x**) | qualquer um (repo **público**) | uso indevido de serviços/credenciais |
 | 4 backups de banco (`DB/*.bak`, 50 373 632 B) com contas/hashes de senha | `MuServer/DB/` | idem | **incidente de privacidade** (PII de terceiros) |
 | 34 crash dumps (`.dmp`) e 2 555 arquivos de log rastreados | `MuServer/**` | idem | podem conter memória de processo, IPs, nomes de contas |
 | 504 `.tmp` do editor de Lua (o `.gitignore` registra que contêm a única cópia legível de um script) | `MuServer/**` | idem | integridade do material, não confidencialidade |
@@ -91,6 +91,6 @@ cd recriado
 make -s seguranca        # 13 asserções: malformados, fd/RSS, SIGTERM, higiene de log
 make -s fuzz              # 12 asserções (motor determinístico; FUZZ_ITERS para o volume)
 make -s admin             # 24 asserções: token, permissões, loopback, 501 por decisão
-make -s cfg               # endpoints da referência com 26 valores sensíveis redigidos
+make -s cfg               # endpoints da referência com 29 valores sensíveis redigidos
 bash scripts/verify-backup.sh && FULL=1 bash scripts/verify-backup.sh
 ```

@@ -44,7 +44,7 @@
 | `pe-selftest`, `data-selftest`, `cfg-selftest` | só a recusa de entrada inválida, sem tocar em 615 MB (funciona em restore de bundle) | `PASS` 4/4 · 4/4 · 5/5 | — |
 | `conform` | conformidade byte a byte do contrato v2 (C-01…C-15) | `PASS` 15/15 | camada **interna** do v2 |
 | `matriz` | valida `r6-matriz.tsv` (linha sem teste reproduzível = falha) | `PASS` (cmd) | — |
-| `cfg` | endpoints/valores da configuração + **redação de segredos** (nome e forma) | `PASS` 15/15 | 26 valores redigidos |
+| `cfg` | endpoints/valores da configuração + **redação de segredos** (nome, forma e lista independente no t07b) | `PASS` 16/16 | 29 valores redigidos |
 | `ref-intacta` | `MuServer/` inalterada desde `b5b84da` e os 6 `.lua` divergentes registrados/reversíveis | `PASS` 8/8 | "intacta" = "não mudou desde então" (D2-32) |
 | `golden` | 38 vetores versionados `(entrada, saída, cláusula, origem)` + F20 (1 byte) e F21 (perfil) | `PASS` 42/42 | corpus **do v2**; não afirma compatibilidade |
 | `interop` | 3 camadas separadas; camada 3 = binário original | `BLOCKED` 12/12, `blocked=1` | sem wine/qemu + autorização |

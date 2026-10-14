@@ -4,10 +4,11 @@
 
 | # | tarefa | por que agora | critério objetivo de conclusão | bloqueio |
 |---|---|---|---|---|
-| 1 | **A3 — regressão estática dos 6 `.lua` patcheados** (`tests/regressao-lua.sh`) | é o resto combinado da Fase A e não depende de interpretador; hoje só existe `ref-intacta` provando que a árvore não mudou | suíte nova no portão conferindo baseline↔patch↔árvore, presença das correções e reversibilidade, com asserção por arquivo; sem `not ok` e sem afrouxar `ref-intacta` | nenhum |
+| 1 | **inventário F1: fechar os 15 subsistemas** — faltam `src/db.c` (1637 L), `tools/mu2admin.c` (681 L), `src/mud2.c` 330–590 e os `docs/` | é o que separa "li o que interessava" de "inventariei", e cada subsistema fechado vira classificação A–E com evidência | cada subsistema com arquivos+símbolos, dependências, teste que o cobre e classificação A–E justificada por medição (não por nome de arquivo) | nenhum |
+| 2 | **A3 — regressão estática dos 6 `.lua` patcheados** (fechada em 2026-10-13: `regressao-lua` 53/53) | — | **concluída** | — |
 | 2 | **ligar `mud2` à persistência** (login na porta) | primeira ligação entre rede e estado durável — o que transforma "registro" em "servidor" | contrato de opcode novo **declarado** (não inferido do original), teste de ponta a ponta com reinício do serviço entre login e leitura, e `conform`/`golden` provando que o contrato antigo não mudou | **decisão de contrato**: o v2 não tem opcode de login e a autenticação na porta é ausente por escopo declarado — decidir isso não é operação reversível de rotina |
 | 3 | **publicação do destino** (`MuserverRecriado`) | está reconstruído e não publicado | `ls-remote` conferindo o SHA do destino | `403` da instalação do GitHub App — ação do proprietário |
-| 4 | **rodada de publicação nova** da pasta `MuserverRecriado/` | ela é snapshot da rodada anterior e não tem `db.c`, `mu2dbctl.c`, `dbctl.sh` nem os docs desta rodada | checklist do `workspace/migracao/` + portão verde dentro da pasta | depende de 3 (ou de decisão explícita de publicar dentro do monorepo de novo) |
+| 4 | **rodada de publicação nova** da pasta `MuserverRecriado/` — inclui repassar os textos atualizados (`r11d`, contagem 29 segredos redigidos, fila do `NEXT_TASK`) | ela é snapshot da rodada anterior e não tem `db.c`, `mu2dbctl.c`, `dbctl.sh` nem os docs desta rodada | checklist do `workspace/migracao/` + portão verde dentro da pasta | depende de 3 (ou de decisão explícita de publicar dentro do monorepo de novo) |
 
 O que **não** entra nesta fila por decisão: interface gráfica do console; escrita em runtime no serviço
 através de opcode administrativo novo (invalidaria o contrato hoje provado); executar binário do
@@ -102,3 +103,14 @@ interpretador Lua não há execução; o que é testável sem interpretador é a
 | `enc` (algoritmo e `F23`) | função da janela não determinada (2³² de domínio contra 21 931 amostras) e `.exe` protegido por Themida (100% do arquivo) | mais pares claro/cifrado; desempacotar num host autorizado (sem executar) ou executar com autorização; documentação do fornecedor |
 | capacidade absoluta | 2 vCPUs compartilhadas + ASan | host dedicado com requisito declarado |
 | publicação real | sem alvo autorizado (403 em `MuserverRecriado`, não contornado) | decisão do proprietário |
+
+## Pendência de segurança aberta (P07 — ação do proprietário, não do código)
+
+A rodada P07-x acabou com a exposição **contínua** de `ClientSerial` no `reports/r6-config.tsv`
+(detalhe em `reports/r11d-clientserial-em-claro-2026-10-13.md`), mas o valor **permanece no histórico
+do git** — inclusive no `main` pré-existente, que publicou o pacote inteiro. Ações humanas, na ordem:
+(1) **rotacionar** as credenciais e o serial na origem (o histórico já publicou os valores: remover do
+`HEAD` não invalida cópia alguma); (2) tratar os 4 `.bak` de banco como incidente de divulgação de PII;
+(3) externalizar segredos e, se for o caso, purgar histórico com `git-filter-repo`
+(`workspace/tools/untrack_artifacts.sh`, dry-run por padrão). Nada disso é feito por esta linha de
+trabalho, e nenhuma credencial é declarada encerrada antes da rotação confirmada.

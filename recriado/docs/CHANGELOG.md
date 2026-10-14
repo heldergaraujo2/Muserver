@@ -1,5 +1,31 @@
 # CHANGELOG do v2
 
+## P07-x: `ClientSerial` estava em claro num relatório nosso — achado por varredura, corrigido — 2026-10-13
+
+Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
+
+- **Achado (por varredura, não por leitura).** A varredura anti-vazamento nova
+  (`workspace/tests/run_all.sh`, modo *por valor*, sem allow-list) reprovou `reports/r6-config.tsv`:
+  o valor real de `ClientSerial` (16 alfanuméricos) saía **em claro** — e também na cópia publicada
+  `MuserverRecriado/reports/r6-config.tsv`. Correção do código: `"serial"` entra em `CHAVE_SENSIVEL`
+  de `tools/cfg_probe.py`; `segredos_redigidos` **26 → 29**.
+- **Furo de teste que permitiu o vazamento.** `tests/cfg.sh` só checava `classe=segredo ⇒ redigido`;
+  um valor que o probe **nunca classificou** como segredo estava fora do domínio da asserção — 15/15
+  verde com o valor em claro no artefato. Novo caso **t07b**: lista **independente** de nomes de
+  chave sensível, exigindo que nenhuma fique fora da redação (≥3 chaves `serial`), mais fixture
+  sintética com a forma que escapou. `cfg` **16/16**, `cfg-selftest` 5/5.
+- **Discriminação medida:** revertendo só o fix do probe, 5 asserções caem (`1, 7, 7b, 12, 13`);
+  varredura *por valor*: arquivo antigo `por_valor=3 exit=1`, arquivo novo `por_valor=0 exit=0`.
+- **Limite declarado.** A exposição contínua acabou; **o valor segue no histórico do git** (e o
+  pacote inteiro já estava publicado no `main`). Contenção/rotação na origem é ação do proprietário —
+  **P07 continua ABERTO**. Nenhum valor foi impresso, copiado ou usado.
+- **Higiene da porta de auditoria (mesma rodada):** saída gerada saiu de `workspace/reports/` para
+  `workspace/out/` (o caso 9 do `verify-backup.sh` — "nenhuma evidência em caminho ignorado" — estava
+  reprovando por causa disso; quem cedeu foi o caminho, não a checagem); varredura em duas camadas
+  (por valor = dura; por forma = triagem declarada com padrão `alvo|chave`); `run_all.sh` escolhe
+  interpretador que **realmente** tem `lupa`/`luaparser`/`capstone`, com `workspace/tools/preparar-venv.sh`
+  reproduzindo o venv.
+
 ## P4: `schema_version` sem migração automática, e verificação com lock compartilhado — 2026-10-13
 
 Fecha as pendências 1 e 2 abertas pela auditoria P3. Decisão **D2-41**; relatório

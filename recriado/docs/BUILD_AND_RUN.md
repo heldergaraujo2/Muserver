@@ -116,7 +116,7 @@ python3 tools/pe_probe.py    | python3 tools/data_probe.py  | python3 tools/cfg_
 python3 tools/lua_probe.py   | python3 tools/enc_probe.py   | python3 tools/interop_probe.py
 python3 tools/malform_probe.py | python3 tools/bench_check.py | python3 tools/matrix_check.py
 # MU_REF_DATA=../MuServer (padrão) — a referência NUNCA é escrita; a etapa lua-enc confere o hash
-# da árvore antes/depois, e cfg_probe redige 26 valores sensíveis por nome e por forma.
+# da árvore antes/depois, e cfg_probe redige 29 valores sensíveis por nome e por forma.
 ```
 
 ## 8. Reproduzir a auditoria (receita mínima)

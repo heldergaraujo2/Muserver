@@ -57,7 +57,7 @@ make -s lua            # camada Lua: inventario medido (execucao BLOCKED: sem in
 make -s lua-enc        # cifragem do Lua do cliente: 27 assercoes, blocked=2 (algoritmo + F23)
 make -s bench          # baseline EXPLORATORIA de desempenho (nao e criterio de aceitacao)
 make -s conform        # conformidade do protocolo v2, byte a byte (15 clausulas)
-make -s cfg            # endpoints da configuracao original (26 segredos redigidos)
+make -s cfg            # endpoints da configuracao original (29 segredos redigidos)
 make MU_REF_DATA=/caminho/do/pacote -s data    # a referencia e externa ao v2 por decisao
 make -s net-matrix     # matriz completa de backpressure (~10 min, opt-in)
 make SAN=0 build       # sem sanitizadores: so para comparar custo, nunca para publicar resultado

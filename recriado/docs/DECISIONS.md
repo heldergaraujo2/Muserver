@@ -321,7 +321,7 @@ vivo**, não apenas se dispara no tempo certo.
 
 **Contexto (R-6).** A configuração original guarda credenciais em claro: senha global
 (`JoinServer.ini`), token de bot (`DiscordServer.ini`), hardware id e chaves `EncDecKey1/2`
-(`MHPServer.ini`). Medido: 26 valores sensíveis em 19 arquivos. Qualquer inventário de configuração
+(`MHPServer.ini`). Medido: **29** valores sensíveis em 19 arquivos (26 até 2026-10-13; +3 com o achado P07-x — `ClientSerial`, registrado em `reports/r11d-clientserial-em-claro-2026-10-13.md`). Qualquer inventário de configuração
 que imprimisse valores copiaria segredo para dentro do repositório.
 
 **Decisão.** `tools/cfg_probe.py` substitui valor de chave sensível por

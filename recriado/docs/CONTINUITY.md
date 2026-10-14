@@ -100,11 +100,23 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
 | 1 | **Migração de schema não existe** (`REG_MIGRACAO` nunca gravado) | **fechada por decisão (D2-41), não por implementação**: a promessa saiu do `db.h`; versão antiga é recusada nomeada; `gravar_cabecalho` grava `db->schema_version` | `reports/r11c-schema-e-lock-2026-10-13.md` §1 — migração de verdade exigiria caminho v1→v2 medido: não existe e não é declarada |
 | 2 | **`mu2db_verify` sem lock** | **fechada**: `LOCK_SH\|LOCK_NB`, recusa nomeada com escritor ativo, liberação em todo caminho de saída | `reports/r11c-…md` §2–4 (mutações A/B/C medidas); custo declarado: verificação e escrita se excluem (`dbctl` casos 33–48) |
 | 3 | **Queda de energia não é reproduzível aqui** | declarado no §1 do relatório P3 | não é pendência de código: é limite de ambiente, e o texto tem de continuar dizendo "o `fsync` foi chamado antes de a API voltar", nunca "o dado sobreviveu a queda" | manter a redação; não promover a afirmação |
-| 4 | **Paridade de publicação (`MuserverRecriado/`)** | `diff -rq recriado/reports MuserverRecriado/reports` divergente | rodada de publicação com o checklist (`NEXT_TASK.md`), arquivo por arquivo, e `verify-backup.sh` verde | pedir autorização; não copiar à mão |
+| 4 | **Paridade de publicação (`MuserverRecriado/`)** | `diff -rq recriado/reports MuserverRecriado/reports` divergente — **exceto** `reports/r6-config.tsv`, reparado nesta rodada por ser artefato sensível (achado P07-x) | rodada de publicação com o checklist (`NEXT_TASK.md`), arquivo por arquivo, e `verify-backup.sh` verde | pedir autorização; não copiar à mão |
 
 ## 6. Último commit e publicação
 
-- **Rodada vigente (2026-10-13, P1 + A3 + P3 + P4).** HEAD `7ffc35a` em `arena/cf1de8ce-muserver`
+- **Rodada vigente (2026-10-13, P07-x + higiene da porta de auditoria).** HEAD local `583e196`
+  (dois commits: `6d5e225` correção do vazamento do `ClientSerial` + `583e196` porta de auditoria).
+  Entrou: fix de `tools/cfg_probe.py` com regeneração do `reports/r6-config.tsv` (663 linhas, diff de
+  4 linhas) e espelho na árvore publicada; caso `t07b` no `cfg` (lista independente — o furo que
+  deixou o valor passar); varredura anti-vazamento na porta (`por_valor=0`, `por_forma=16` triadas);
+  saída gerada movida para `workspace/out/` (caso 9 do verificador); `preparar-venv.sh`.
+  Portão vigente medido: **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 616
+  asserções, exit 0**; `cfg` 16/16; `cfg-selftest` 5/5; `bash workspace/tests/run_all.sh` exit 0
+  (6 etapas PASSOU). Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
+  **P07 segue ABERTO**: a correção acabou com a exposição contínua, mas o valor está no histórico do
+  git e a contenção/rotação na origem é ação do proprietário.
+
+- **Rodada anterior (2026-10-13, P1 + A3 + P3 + P4).** HEAD `7ffc35a` em `arena/cf1de8ce-muserver`
   (blobs do remoto conferidos um a um por `gh api`). Entrou nesta ordem:
   P1 (`5093ffe`, verificação anti-vazamento executável + avaliação de risco da exposição);
   **A3** (`04bbaf6`, regressão estática dos 6 `.lua` como etapa obrigatória do portão — 53/0);
