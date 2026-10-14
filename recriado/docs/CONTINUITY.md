@@ -111,8 +111,10 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   deixou o valor passar); varredura anti-vazamento na porta (`por_valor=0`, `por_forma=16` triadas);
   saída gerada movida para `workspace/out/` (caso 9 do verificador); `preparar-venv.sh`.
   Portão vigente medido: **23 PASS, 0 FAIL, 3 BLOCKED, 0 NOT_IMPLEMENTED, 2 SKIPPED, 28 etapas, 616
-  asserções, exit 0**; `cfg` 16/16; `cfg-selftest` 5/5; `bash workspace/tests/run_all.sh` exit 0
-  (6 etapas PASSOU). Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
+  asserções, exit 0** (`assercoes de BLOCKED nao somam`: 668 brutas − 52 dos três BLOCKED);
+  **`make -s gate-full` 25 PASS, 0 FAIL, 3 BLOCKED, 0 SKIPPED, 652 asserções, exit 0** — `net-matrix`
+  36/36 e `persistencia` na mesma passada (704 brutas − as mesmas 52). `cfg` 16/16; `cfg-selftest` 5/5;
+  `bash workspace/tests/run_all.sh` exit 0 (6 etapas PASSOU); `FULL=1 verify-backup.sh` **15/15**. Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
   **P07 segue ABERTO**: a correção acabou com a exposição contínua, mas o valor está no histórico do
   git e a contenção/rotação na origem é ação do proprietário.
   Cópia independente regravada nesta rodada (snapshot orphan + bundle + `MANIFEST.md`); bytes e
