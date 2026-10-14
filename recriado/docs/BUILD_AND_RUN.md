@@ -76,11 +76,12 @@ recusado na partida; rotas de admin com papel `leitor` devolvem `403`; `/publica
 | `make -s fuzz` | fuzzer determinístico (`FUZZ_ITERS`, padrão 50 000/rodada) | 12/12 |
 | `make -s seguranca` | malformados, fd/RSS, SIGTERM, log | 13/13 |
 | `make -s admin` | console: token, papéis, loopback | 25/25 |
+| `make -s concorrencia` | contenção real entre processos: escritor real × verificação (F3) | 27/27 |
 | `make -s lua` / `make -s lua-enc` | camada Lua / cifragem do Lua | 13/13 (`blocked=1`) · 27/27 (`blocked=2`) |
 | `make -s cfg` / `make -s matriz` / `make -s bench` | configuração (segredos redigidos) / matriz de evidências / baseline exploratória | 15/15 · exit 0 · 15/15 |
 | `make -s pe` / `make -s data` | PE e dados da referência (`MU_REF_DATA`) | 14/14 · 21/21 |
 | `make -s pe-selftest data-selftest cfg-selftest` | só a recusa de entrada inválida (sem tocar 615 MB) | 4/4 · 4/4 · 5/5 |
-| `make -s gate` | **o portão único** (28 etapas) | **23 PASS / 0 FAIL / 3 BLOCKED / 2 SKIPPED, 553 asserções, exit 0** (2026-10-13) |
+| `make -s gate` | **o portão único** (29 etapas) | **24 PASS / 0 FAIL / 3 BLOCKED / 2 SKIPPED, 643 asserções, exit 0** (2026-10-13, F3 — medido) |
 | `make -s gate-selftest` | testa o próprio portão (F12–F14, etapa duplicada) | 19/19 |
 
 ## 6. O portão único (é ele que define "verde")

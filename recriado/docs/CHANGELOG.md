@@ -18,6 +18,11 @@ Relatório: `reports/r12-concorrencia-verify-escrita-2026-10-13.md`. Decisão: *
   e **converte** o compartilhado no mesmo descritor. A primeira versão "conferia o SH" assim e virava
   o cenário em outro (media exclusão contra si mesma). O jeito correto é conferir de fora:
   `flock -s -n <arq> -c true` / `flock -x -n <arq> -c true`.
+- **Medido nesta rodada:** `gate` **24 PASS / 0 FAIL / 3 BLOCKED / 2 SKIPPED / 29 etapas / 643
+  asserções / exit 0**; `gate-full` **25 PASS / 679 asserções**, com **1 FAIL esperado de meio de
+  rodada** (a etapa `persistencia` reprova porque o snapshot do bundle ainda é o da rodada anterior e
+  há 3 arquivos novos) — quem fecha isso é o ritual de fim de rodada, e o número bruto (731) fica ao
+  lado do contado (679) para a conta ser conferível.
 - **F4 (grafo e menor caminho):** levantado na mesma rodada, fora da árvore do projeto
   (`workspace/reports/F4-grafo-e-menor-caminho-2026-10-13.md`): `mud2` não inclui `db.h` nem linka
   `db.o`, `struct conn` não tem sessão — os dois blocos maduros (rede × persistência) não têm aresta.
