@@ -121,8 +121,10 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   (27 casos) como etapa do portão, com escritor real (`tools/mu2dbcontend.c`, novo) e janela
   determinística (`--hold-until-arquivo`). Portão vigente medido neste commit: **24 PASS, 0 FAIL,
   3 BLOCKED, 2 SKIPPED, 29 etapas, 643 asserções, exit 0**; **`gate-full` 25 PASS, 1 FAIL, 3 BLOCKED,
-  679 asserções** — e o FAIL é o esperado de meio de rodada (`persistencia`: o snapshot do bundle
-  ainda é o da rodada anterior e há 3 arquivos novos fora dele), fechado pelo ritual de fim de rodada.
+  679 asserções** — e o FAIL era o esperado de meio de rodada (`persistencia`: o snapshot do bundle
+  ainda era o da rodada anterior e havia 3 arquivos novos fora dele). **Depois do ritual, remedido:
+  `gate-full` 26 PASS, 0 FAIL, 3 BLOCKED, 0 SKIPPED, 679 asserções, 29 etapas, exit 0**, e
+  `FULL=1 scripts/verify-backup.sh` **15/15** (bundle byte a byte igual ao remoto).
   A soma bruta do `gate-full` é 731 asserções; as 52 dos três BLOCKED não somam (convenção do portão). Discriminação: mutação que remove o `LOCK_EX` da
   abertura derruba 9 casos; restaurada (sha256 conferido), 27/27. Política mantida (recusa imediata
   nomeada), com a comparação documentada em D2-42 e a janela de manutenção como procedimento em
