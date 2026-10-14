@@ -119,8 +119,11 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   opções B/D/E recusadas com motivo). Sem essa decisão, **nada é implementado** — e é por isso que a
   rodada para aqui. Suíte nova `concorrencia`
   (27 casos) como etapa do portão, com escritor real (`tools/mu2dbcontend.c`, novo) e janela
-  determinística (`--hold-until-arquivo`). Portão vigente medido: **23 PASS, 0 FAIL, 3 BLOCKED,
-  2 SKIPPED, 29 etapas, 643 asserções, exit 0**. Discriminação: mutação que remove o `LOCK_EX` da
+  determinística (`--hold-until-arquivo`). Portão vigente medido neste commit: **24 PASS, 0 FAIL,
+  3 BLOCKED, 2 SKIPPED, 29 etapas, 643 asserções, exit 0**; **`gate-full` 25 PASS, 1 FAIL, 3 BLOCKED,
+  679 asserções** — e o FAIL é o esperado de meio de rodada (`persistencia`: o snapshot do bundle
+  ainda é o da rodada anterior e há 3 arquivos novos fora dele), fechado pelo ritual de fim de rodada.
+  A soma bruta do `gate-full` é 731 asserções; as 52 dos três BLOCKED não somam (convenção do portão). Discriminação: mutação que remove o `LOCK_EX` da
   abertura derruba 9 casos; restaurada (sha256 conferido), 27/27. Política mantida (recusa imediata
   nomeada), com a comparação documentada em D2-42 e a janela de manutenção como procedimento em
   `docs/DATABASE.md` §4. Relatório: `reports/r12-concorrencia-verify-escrita-2026-10-13.md`.
