@@ -2,13 +2,13 @@
 
 | campo | valor |
 |---|---|
-| conteudo | arvore `recriado/` inteira (**108 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
-| origem | `git commit-tree HEAD:recriado` sobre o commit da rodada P4 (schema sem migracao automatica, verificacao com `LOCK_SH` e as suites `db` 144 / `dbctl` 48) |
-| branch do snapshot | `mu2-snapshot` @ `e2674fa43e8774dc5c4a681520463661116c721b` (semente de migracao `mu2-v2` segue local, com historia) |
-| arquivo | `mu2-v2.bundle` (401476 bytes) |
+| conteudo | arvore `recriado/` inteira (**109 arquivos**), num commit orphan unico (branch local `mu2-snapshot`) |
+| origem | `git commit-tree HEAD:recriado` sobre o commit da rodada P07-x (`b021fbc`: `ClientSerial` redigido na sonda e no relatorio, porta de auditoria com varredura anti-vazamento, `cfg` 16/16 e `gate` 23 PASS/0 FAIL/616 assercoes) |
+| branch do snapshot | `mu2-snapshot` @ `aa9b81f823d5e5688ddf3c4aac0c2d5c51fddb19` (semente de migracao `mu2-v2` segue local, com historia) |
+| arquivo | `mu2-v2.bundle` (409491 bytes) |
 | sha256 | ver abaixo |
 
-sha256: 6c716fb272d8c1457d77e2986e7b9d0092efc8641e4d582c5f799304b7ff4112
+sha256: 49dd64a51939e49d7525bc6d0967d47cc6f8a73f513cdad97acf11b47b6be81c
 
 ## Como o backup e conferido (e o buraco que o `binary` tapou)
 
@@ -39,8 +39,9 @@ qualquer recriacao de sandbox.
 (snapshot orphan, rodada das lacunas) -> 247 621 (rodada da publicacao) -> 258 497
 (rodada de fechamento e do destino) -> **259931 bytes** (rodada da publicacao dentro do monorepo,
 83 arquivos) -> **283662 bytes** (rodada da etapa `enc`, 87 arquivos) -> **323214 bytes** (rodada da
-consolidacao para auditoria, 96 arquivos) -> **367995 bytes** (rodada R-11 + Fase A, 103 arquivos). O tamanho acompanha a
-arvore `recriado/`; o snapshot orphan garante que ele nao cresce por acumulo de si mesmo.
+consolidacao para auditoria, 96 arquivos) -> **367995 bytes** (rodada R-11 + Fase A, 103 arquivos) ->
+**401476 bytes** (rodada P4, 108 arquivos) -> **409491 bytes** (rodada P07-x, 109 arquivos). O tamanho
+acompanha a arvore `recriado/`; o snapshot orphan garante que ele nao cresce por acumulo de si mesmo.
 
 Nota de conferencia (2026-10-13): a rodada anterior registrou `259727` na linha do tempo e `259931`
 no cabecalho; medido agora, o bundle daquela rodada tinha **259931 bytes** — a linha do tempo foi
