@@ -19,6 +19,10 @@ Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
 - **Limite declarado.** A exposição contínua acabou; **o valor segue no histórico do git** (e o
   pacote inteiro já estava publicado no `main`). Contenção/rotação na origem é ação do proprietário —
   **P07 continua ABERTO**. Nenhum valor foi impresso, copiado ou usado.
+- **Cópia independente regravada (D2-09).** Snapshot orphan novo (`git commit-tree HEAD:recriado`),
+  bundle refeito e `MANIFEST.md` atualizado com os valores medidos — os números vivem **fora** da
+  árvore (`workspace/backups/`), por construção: um bundle não pode conter a si mesmo. Restauração
+  por clone é conferida pelo `verify-backup.sh`, não afirmada.
 - **Higiene da porta de auditoria (mesma rodada):** saída gerada saiu de `workspace/reports/` para
   `workspace/out/` (o caso 9 do `verify-backup.sh` — "nenhuma evidência em caminho ignorado" — estava
   reprovando por causa disso; quem cedeu foi o caminho, não a checagem); varredura em duas camadas

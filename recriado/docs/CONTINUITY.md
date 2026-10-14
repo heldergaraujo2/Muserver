@@ -115,6 +115,8 @@ derivados à mão do contrato, com a derivação escrita na coluna `origem`.
   (6 etapas PASSOU). Relatório: `reports/r11d-clientserial-em-claro-2026-10-13.md`.
   **P07 segue ABERTO**: a correção acabou com a exposição contínua, mas o valor está no histórico do
   git e a contenção/rotação na origem é ação do proprietário.
+  Cópia independente regravada nesta rodada (snapshot orphan + bundle + `MANIFEST.md`); bytes e
+  `sha256` no próprio MANIFEST, fora da árvore do snapshot.
 
 - **Rodada anterior (2026-10-13, P1 + A3 + P3 + P4).** HEAD `7ffc35a` em `arena/cf1de8ce-muserver`
   (blobs do remoto conferidos um a um por `gh api`). Entrou nesta ordem:
