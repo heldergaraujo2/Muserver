@@ -41,8 +41,9 @@ qualquer recriacao de sandbox.
 83 arquivos) -> **283662 bytes** (rodada da etapa `enc`, 87 arquivos) -> **323214 bytes** (rodada da
 consolidacao para auditoria, 96 arquivos) -> **367995 bytes** (rodada R-11 + Fase A, 103 arquivos) ->
 **401476 bytes** (rodada P4, 108 arquivos) -> **409491 bytes** (rodada P07-x, 109 arquivos) ->
-**425667 bytes** (rodada F3, 112 arquivos). O tamanho acompanha a arvore `recriado/`; o snapshot orphan
-garante que ele nao cresce por acumulo de si mesmo.
+**425667 bytes** (rodada F3, 112 arquivos — primeiro bundle da rodada) -> **425733 bytes** (rodada F3,
+112 arquivos — bundle final, apos o registro dos numeros finais no doc). O tamanho acompanha a arvore
+`recriado/`; o snapshot orphan garante que ele nao cresce por acumulo de si mesmo.
 
 Nota de conferencia (2026-10-13): a rodada anterior registrou `259727` na linha do tempo e `259931`
 no cabecalho; medido agora, o bundle daquela rodada tinha **259931 bytes** — a linha do tempo foi
