@@ -40,7 +40,7 @@ esperar, eles não.
   do P04 com impacto direto jogável. Arquivos: `000 - Lorencia.txt:101`,
   `001 - Dungeon.txt:56`, `002 - Devias.txt:88,95`, `003 - Noria.txt:78`,
   `010 - Icarus.txt:45,48,49`, `033 - Aida.txt:90` … (lista completa em
-  `reports/preflight.txt`).
+  `out/preflight.txt`).
 - **Como:** para cada linha, `Begin=min(Begin,End)`, `End=max(...)` por eixo.
   **Preservar LF** e a codificação original do arquivo (o pack é LF, não CRLF; o
   `.gitattributes` declarado `-text` nos dados de jogo para o Git não converter nada).

@@ -55,3 +55,10 @@ Thumbs.db
 __pycache__/
 *.pyc
 workspace/reports/*.err
+
+# Saidas geradas pela porta de testes da auditoria (workspace/tests/run_all.sh):
+# preflight.json/txt/err sao regenerados a cada execucao e NAO sao evidencia versionada — a
+# evidencia e o .md derivado (workspace/reports/A1-secrets.md). Ficam AQUI, e nao em
+# workspace/reports/, porque o verificador de backup (caso 9) recusa qualquer arquivo ignorado
+# naquele diretorio: um dos dois tinha de ceder, e cedeu o caminho da saida, nao a checagem.
+workspace/out/

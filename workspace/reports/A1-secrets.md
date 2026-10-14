@@ -1,6 +1,6 @@
 # A1 — inventário redigido de segredos e PII no repositório
 
-Gerado de `reports/preflight.json` (check P07) por
+Gerado de `out/preflight.json` (check P07) por
 `/home/user/.venv-tools/bin/python workspace/tools/muserver_preflight.py --root MuServer --json …`.
 
 **Este arquivo não contém nenhum valor de segredo.** Registra apenas *o que* é,
