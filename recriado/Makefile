@@ -24,6 +24,7 @@ NCLI  := tests/netclient.c
 CODEC := tools/mu2codec.c
 FUZZ  := tools/mu2fuzz.c
 ADMIN := tools/mu2admin.c
+CONTEND:= tools/mu2dbcontend.c
 HDR   := include/mu2/mu2.h include/mu2/proto.h include/mu2/db.h
 OBJ   := $(BUILD)/wire.o
 UNIT  := $(BUILD)/unit
@@ -36,12 +37,13 @@ NETCLI:= $(BUILD)/netclient
 CODECBIN:= $(BUILD)/mu2codec
 FUZZBIN:= $(BUILD)/mu2fuzz
 ADMINBIN:=$(BUILD)/mu2admin
+CONTENDBIN:=$(BUILD)/mu2dbcontend
 
-.PHONY: all build db db-test dbctl unit make-sintaxe net net-matrix net-matrix-publish regressao-lua sincronia pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin lua bench gate gate-full gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
+.PHONY: all build db db-test dbctl unit make-sintaxe net net-matrix net-matrix-publish regressao-lua sincronia pe data pe-selftest data-selftest cfg cfg-selftest conform matriz golden interop fuzz seguranca admin concorrencia lua bench gate gate-full gate-selftest check dump-CC dump-CFLAGS dump-SAN dump-BUILD dump-SRC
 
 all: build
 
-build: $(OBJ) $(DBOBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN) $(ADMINBIN) $(DBTEST) $(DBCTL)
+build: $(OBJ) $(DBOBJ) $(MUD2) $(MU2CTL) $(NETCLI) $(CODECBIN) $(FUZZBIN) $(ADMINBIN) $(DBTEST) $(DBCTL) $(CONTENDBIN)
 
 $(BUILD):
 	@mkdir -p $(BUILD)
@@ -70,6 +72,9 @@ $(DBTEST): $(DBOBJ) $(BUILD)/db_test.o | $(BUILD)
 # CLI local de operacao (segundo consumidor da mesma API: defeito de contrato aparece nos dois).
 $(DBCTL): tools/mu2dbctl.c $(DBOBJ) include/mu2/db.h | $(BUILD)
 	$(CC) $(CFLAGS) tools/mu2dbctl.c $(DBOBJ) -o $@ $(LDFLAGS)
+
+$(CONTENDBIN): $(CONTEND) $(DBOBJ) include/mu2/db.h | $(BUILD)
+	$(CC) $(CFLAGS) $(CONTEND) $(DBOBJ) -o $@ $(LDFLAGS)
 
 db: $(DBTEST)
 	@rm -rf $(BUILD)/db-tmp && mkdir -p $(BUILD)/db-tmp && ./$(DBTEST) $(BUILD)/db-tmp
@@ -199,6 +204,13 @@ seguranca: $(MUD2)
 # Etapa E: console administrativo local (desenho em docs/ADMIN_CONSOLE.md, escrito antes do codigo).
 admin: $(ADMINBIN) $(MUD2)
 	@bash tests/admin.sh
+
+# F3: concorrencia entre verify e escrita, com contenção REAL entre processos (o escritor e' o
+# `mu2dbcontend`, que usa a mesma biblioteca; as tentativas sao os binarios de verdade). Nao ha
+# espera em nenhum caminho: a suite mede recusa nomeada, ausencia de travamento e ausencia de falso
+# positivo de corrupcao. Existe porque "flock esta no codigo" nao e' um comportamento medido.
+concorrencia: $(CONTENDBIN) $(DBCTL)
+	@bash tests/concorrencia.sh
 
 # Etapa F: inventario e evidencia estatica da camada Lua (BLOCKED: sem interpretador no host).
 lua:

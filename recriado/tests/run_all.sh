@@ -61,6 +61,7 @@ DEFAULT_SUITES='build	cmd	build	src/wire.c	1	cc	600	make -s build
 unit	suite	unit	tests/unit.c	1	cc	180	make -s unit
 db	suite	db	tests/db_test.c	1	cc	600	make -s db
 dbctl	suite	dbctl	tests/dbctl.sh	1	bash	180	make -s dbctl
+concorrencia	suite	concorrencia	tests/concorrencia.sh	1	bash	180	make -s concorrencia
 sincronia	suite	sincronia	tests/sincronia.sh	1	cc	300	make -s sincronia
 make-sintaxe	suite	make-sintaxe	Makefile	1	make	120	make -s make-sintaxe
 net	suite	net	tests/net.sh	1	cc	420	make -s net
