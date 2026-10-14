@@ -19,7 +19,13 @@ import sys
 
 # chave cujo valor é tratado como segredo (comparação em minúsculas, por substring)
 CHAVE_SENSIVEL = ("pass", "senha", "pwd", "token", "secret", "credential", "key",
-                  "hardwareid", "hwid", "license", "licenca", "auth", "signature")
+                  "hardwareid", "hwid", "license", "licenca", "auth", "signature",
+                  # 2026-10-14 (P07-x): "serial" entrou porque `ClientSerial` (serial de cliente,
+                  # 16 chars) NAO casava nenhuma das entradas acima nem as formas RE_TOKEN/RE_GUID,
+                  # e por isso saiu em claro no `reports/r6-config.tsv` versionado. Achado pela
+                  # varredura anti-vazamento (`workspace/tests/run_all.sh`) rodando o scanner
+                  # `workspace/tools/verifica_doc_sem_segredo.py` sobre os arquivos proprios.
+                  "serial")
 # forma de valor que denuncia segredo mesmo com nome de chave inocente
 RE_TOKEN = re.compile(r"^[A-Za-z0-9_\-]{32,}(\.[A-Za-z0-9_\-]+)+$")
 RE_GUID = re.compile(r"^[0-9A-Fa-f]{8}(-[0-9A-Fa-f]{4}){3}-[0-9A-Fa-f]{12}$")
